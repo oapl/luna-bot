@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict KROuFdS9SjsRNZfqlZa80psva8fnI28kQ3UNqcqZg5GN2sMJa77UgtfRbMNpgJ8
+\restrict FCasUo1te2VTp2mJuv9NKreafozfDXqneHuLPSZttBKspKiWS4TpXpE72FglpZe
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -59,6 +59,20 @@ CREATE SCHEMA imports;
 --
 
 COMMENT ON SCHEMA imports IS 'Original parsed third-party claims and sanitized source references; kept separate from resolved results.';
+
+
+--
+-- Name: leaderboards; Type: SCHEMA; Schema: -; Owner: -
+--
+
+CREATE SCHEMA leaderboards;
+
+
+--
+-- Name: SCHEMA leaderboards; Type: COMMENT; Schema: -; Owner: -
+--
+
+COMMENT ON SCHEMA leaderboards IS 'Reserved for future public gameplay leaderboard results.';
 
 
 --
@@ -1395,6 +1409,35 @@ ALTER TABLE imports.cw_bot ALTER COLUMN record_id ADD GENERATED ALWAYS AS IDENTI
     NO MAXVALUE
     CACHE 1
 );
+
+
+--
+-- Name: results; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards.results (
+    leaderboard_key text NOT NULL,
+    entity_id text NOT NULL,
+    name text,
+    rank bigint,
+    value numeric,
+    observed_at timestamp with time zone,
+    CONSTRAINT results_rank_check CHECK ((rank > 0))
+);
+
+
+--
+-- Name: TABLE results; Type: COMMENT; Schema: leaderboards; Owner: -
+--
+
+COMMENT ON TABLE leaderboards.results IS 'Empty placeholder for the future Leaderboards feature. No collection is enabled; the feature contract will define leaderboard keys and entity identities before rows are stored.';
+
+
+--
+-- Name: COLUMN results.entity_id; Type: COMMENT; Schema: leaderboards; Owner: -
+--
+
+COMMENT ON COLUMN leaderboards.results.entity_id IS 'Recorded entity identity within one leaderboard; separate leaderboard keys must be used for different entity kinds.';
 
 
 --
@@ -2797,6 +2840,14 @@ ALTER TABLE ONLY imports.big_bot
 
 ALTER TABLE ONLY imports.cw_bot
     ADD CONSTRAINT cw_bot_pkey PRIMARY KEY (record_id);
+
+
+--
+-- Name: results results_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results
+    ADD CONSTRAINT results_pkey PRIMARY KEY (leaderboard_key, entity_id);
 
 
 --
@@ -6021,5 +6072,5 @@ ALTER TABLE ONLY leagues.team_results
 -- PostgreSQL database dump complete
 --
 
-\unrestrict KROuFdS9SjsRNZfqlZa80psva8fnI28kQ3UNqcqZg5GN2sMJa77UgtfRbMNpgJ8
+\unrestrict FCasUo1te2VTp2mJuv9NKreafozfDXqneHuLPSZttBKspKiWS4TpXpE72FglpZe
 
