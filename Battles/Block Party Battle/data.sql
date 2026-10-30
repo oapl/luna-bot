@@ -1,0 +1,450 @@
+--
+-- PostgreSQL database dump
+--
+
+\restrict dGgtXrvsY3esN4v0nmN4lzbkfNXhpXTv7Ae2svaBtGcaNj0RqGnnxzjhlctr3Rd
+
+-- Dumped from database version 17.6
+-- Dumped by pg_dump version 17.6
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- Data for Name: Block Party Battle; Type: TABLE DATA; Schema: battles; Owner: -
+--
+
+COPY battles."Block Party Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
+BlockPartyBattle	Block Party Battle	blockpartybattle	14538110	joeycb	UN0	\N	849860	48	16190	cw_bot	history-import:cw_bot:1686	2026-05-23 12:54:45.542+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	31989428	zoggi10	Goop	\N	481250	731	16189	cw_bot	history-import:cw_bot:4608	2026-08-04 07:49:22.305+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	33492395	unoyea	UN0	\N	1270000	3	16190	cw_bot	history-import:cw_bot:1378	2026-05-07 10:52:28.967+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	45130460	Ziilionaires	UN0	\N	1040000	12	16190	cw_bot	history-import:cw_bot:3800	2026-04-05 08:12:37.375+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	58312098	sosd35	SOPU	\N	510010	589	16189	cw_bot	history-import:cw_bot:689	2026-07-17 18:57:28.202+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	79237321	GodlySalt	BYRD	149	\N	149	\N	external_import	history-import:big_bot:949	2026-07-11 14:28:35.433+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	90767636	bobdog751	V1LN	\N	400700	1362	16190	cw_bot	history-import:cw_bot:8130	2026-04-27 21:06:33.398+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	120904005	nublet28	BYRD	\N	479700	740	16190	cw_bot	history-import:cw_bot:8441	2026-07-03 22:38:52.17+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	125272790	ur_salty091	XBOX	\N	430480	1079	16190	cw_bot	history-import:cw_bot:1918	2026-06-21 04:13:46.321+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	136661329	ghanta2a	Goop	\N	230210	3390	16190	cw_bot	history-import:cw_bot:8102	2026-04-26 23:31:56.073+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	138619446	darkenedwishes	Goop	\N	552530	424	16190	cw_bot	history-import:cw_bot:2005	2026-06-28 16:26:03.666+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	148251054	EpicRider6729	NONG	\N	396080	1416	16190	cw_bot	history-import:cw_bot:3851	2026-04-05 07:59:08.938+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	156957387	itsminerr	ORBI	\N	393450	1445	16189	cw_bot	history-import:cw_bot:2154	2026-08-01 03:26:51.039+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	165817996	16_BitPotato	UN0	\N	691540	152	16189	cw_bot	history-import:cw_bot:4524	2026-08-04 19:56:26.259+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	170719079	tnocko	HROT	\N	494470	668	16189	cw_bot	history-import:cw_bot:2288	2026-08-12 07:40:01.692+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	170896669	toratot	OTTR	\N	486220	700	16190	cw_bot	history-import:cw_bot:9148	2026-06-29 23:29:26.064+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	184309752	expellez	BOSS	\N	667900	180	16190	cw_bot	history-import:cw_bot:1105	2026-04-25 23:28:51.667+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	192463394	NukeOfLava12	3zEZ	\N	351480	1900	16190	cw_bot	history-import:cw_bot:4130	2026-04-12 20:31:33.085+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	192653117	carloskar08	ORB2	\N	392060	1457	16189	cw_bot	history-import:cw_bot:4465	2026-08-05 22:58:43.526+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	194076029	Gromic5876	MNBB	\N	22260	10220	16189	cw_bot	history-import:cw_bot:6099	2026-08-08 23:25:51.173+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	200273468	kubaill	NyXn	\N	146000	5017	16189	cw_bot	history-import:cw_bot:6555	2026-08-06 00:48:24.483+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	210966410	onoraksal	hlx	\N	359190	1803	16188	cw_bot	history-import:cw_bot:8781	2026-08-15 13:55:15.256+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	250562586	zcm_Xi	CC4T	\N	85670	6798	16189	cw_bot	history-import:cw_bot:4363	2026-08-09 17:51:30.585+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	254885188	Prodav1	SULS	\N	362720	1771	16189	cw_bot	history-import:cw_bot:8002	2026-07-08 14:39:05.73+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	269324545	aguilapvp	karl	\N	617660	256	16190	cw_bot	history-import:cw_bot:24	2026-04-24 02:34:57.035+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	272741362	kyle558888	ORBI	\N	319610	2218	16189	cw_bot	history-import:cw_bot:220	2026-07-17 17:23:47.778+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	296854741	Cinco112309	XBOX	\N	470860	781	16189	cw_bot	history-import:cw_bot:2808	2026-07-31 16:11:19.068+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	321031467	GBGamer68	🏰 Clan: **ANG_**	\N	\N	1558	16190	cw_bot	history-import:cw_bot:3443	2026-04-26 17:27:16.306+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7956919498	lyjuju7	\N	\N	\N	868	16190	cw_bot	history-import:cw_bot:3477	2026-04-20 23:03:25.121+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	331930897	gogeta363	TLGZ	\N	3170	13012	16189	cw_bot	history-import:cw_bot:4381	2026-08-09 04:19:11.832+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	343511782	octojabb	SLRP	\N	396340	1412	16190	cw_bot	history-import:cw_bot:9246	2026-04-30 14:51:23.517+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	365225419	prorik228	07W	\N	357180	1834	16189	cw_bot	history-import:cw_bot:7911	2026-07-08 14:30:35.5+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	413758213	NotMrTroll_YT	SOPU	\N	916080	29	16189	cw_bot	history-import:cw_bot:2832	2026-07-31 16:31:43.631+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	423460663	bub2540	POPS	\N	366700	1726	16190	cw_bot	history-import:cw_bot:1507	2026-05-16 12:19:40.788+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	425660194	chinovelaz	stzr	\N	84970	6823	16190	cw_bot	history-import:cw_bot:4151	2026-04-12 20:33:18.646+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	435823564	brandon292016	3zEZ	\N	39180	8998	16190	cw_bot	history-import:cw_bot:1034	2026-04-20 06:06:34.027+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	436460285	spideenation	UN0	\N	745280	111	16189	cw_bot	history-import:cw_bot:2919	2026-07-31 03:58:35.999+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	445901501	USECODE_THAT1NPC	3zEZ	\N	337630	2035	16190	cw_bot	history-import:cw_bot:4220	2026-04-12 20:09:26.048+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	452314193	LandOfDoggos	V1LN	\N	293030	2520	16190	cw_bot	history-import:cw_bot:9188	2026-06-23 15:37:48.38+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	452765106	mopingmicrowave	UN0	\N	764880	102	16189	cw_bot	history-import:cw_bot:2911	2026-07-31 03:58:18.168+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	456142044	icyy_il	H8M3	\N	268190	2833	16189	cw_bot	history-import:cw_bot:2391	2026-08-10 10:39:29.018+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	460000821	maserofwater098	S7NS	\N	15	15837	16190	cw_bot	history-import:cw_bot:2036	2026-06-29 17:36:18.828+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	463900811	AgentP_0928	NONG	\N	663440	185	16190	cw_bot	history-import:cw_bot:650	2026-04-26 04:08:51.656+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	470464024	ceficat	H8M3	\N	595240	300	16189	cw_bot	history-import:cw_bot:2580	2026-08-01 14:42:49.688+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	496935076	mawahlah	07W	\N	395690	1422	16190	cw_bot	history-import:cw_bot:47	2026-06-27 00:05:32.123+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	502312785	tomasek8557	BDX	\N	93780	6527	16187	cw_bot	history-import:cw_bot:5452	2026-08-19 16:40:59.801+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	503486505	campagnolo5	_hot	\N	284620	2606	16188	cw_bot	history-import:cw_bot:7658	2026-08-16 14:51:20.144+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	538266747	Judah3000	XBOX	\N	77120	7104	16189	cw_bot	history-import:cw_bot:7848	2026-07-08 14:31:05.959+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	539895181	sportsboy2626	TRS9	\N	409100	1281	16189	cw_bot	history-import:cw_bot:4407	2026-08-08 07:25:07.846+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	544198160	JimmyCIeetus	SOPU	\N	425830	1123	16189	cw_bot	history-import:cw_bot:475	2026-07-17 18:47:56.313+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	569678937	StormerAceCT	PsAG	\N	21860	10261	16189	cw_bot	history-import:cw_bot:3323	2026-07-24 20:47:00.595+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	573589049	nerfbro9000	GSTG	\N	428270	1103	16190	cw_bot	history-import:cw_bot:9403	2026-03-26 19:15:43.999+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	573955632	Johanplayzrb21	HARM	\N	632770	231	16190	cw_bot	history-import:cw_bot:995	2026-04-18 02:22:53.465+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	575710785	moko_193	🏰 Clan: **twky**	\N	\N	8358	16190	cw_bot	history-import:cw_bot:3547	2026-03-12 11:06:38.244+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	587994363	Real_RoNexq	EDS1	\N	120240	5705	16189	cw_bot	history-import:cw_bot:3158	2026-07-27 16:53:43.006+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	588685015	jonis_chicken	XBOX	\N	235720	3295	16190	cw_bot	history-import:cw_bot:9211	2026-06-13 20:55:03.535+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	597362770	marcelgolem	🏰 Clan: **RAKI**	\N	\N	4969	16190	cw_bot	history-import:cw_bot:3667	2026-03-23 19:44:54.3+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	621412324	dabcat818	S7NS	\N	511	14605	16190	cw_bot	history-import:cw_bot:1779	2026-06-07 17:32:51.445+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	643466909	itsmason3725	H8M3	\N	269350	2823	16190	cw_bot	history-import:cw_bot:781	2026-05-16 01:26:54.902+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	656420117	MercilessBanditTaken	NS4R	\N	796500	79	16190	cw_bot	history-import:cw_bot:170	2026-04-19 13:44:30.618+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	659542061	rrodgers0206	POPS	\N	373350	1649	16189	cw_bot	history-import:cw_bot:734	2026-07-17 18:57:55.775+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	661099895	patcola2010	V1LN	\N	4710	12598	16189	cw_bot	history-import:cw_bot:7800	2026-07-24 00:04:23.322+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	681369033	Thatrobloxguy63	SOPU	\N	730320	124	16190	cw_bot	history-import:cw_bot:8330	2026-04-06 08:26:58.844+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	688928053	Noahangrybird1234	SOPU	\N	491670	684	16190	cw_bot	history-import:cw_bot:8350	2026-04-06 08:29:37.081+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	697378514	robloxiswaste213445	NXNG	\N	192320	3995	16189	cw_bot	history-import:cw_bot:3084	2026-07-28 21:08:04.725+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	709222551	Theozzz12	UN0	\N	777010	89	16190	cw_bot	history-import:cw_bot:8167	2026-04-26 15:05:43.056+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	713407394	Superrebel2009	Asoc	\N	338560	2028	16189	cw_bot	history-import:cw_bot:6920	2026-07-31 23:55:40.525+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	722456679	mujiTABA1	\N	\N	734640	118	16190	cw_bot	history-import:cw_bot:2020	2026-06-28 16:42:57.557+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	730772803	sidsew	HSTL	\N	90170	6637	16187	cw_bot	history-import:cw_bot:7538	2026-08-25 14:36:17.613+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	782937820	the_macraft7	skvi	\N	542170	458	16188	cw_bot	history-import:cw_bot:7567	2026-08-16 22:06:59.348+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	792204503	Arek2qe4	V1LN	\N	224460	3478	16189	cw_bot	history-import:cw_bot:8645	2026-07-15 22:49:51.435+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	808679837	sqirtel50	KOHV	\N	522680	540	16189	cw_bot	history-import:cw_bot:2421	2026-08-09 16:10:37.911+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	810054419	catloncat	LEGT	\N	65600	7587	16190	cw_bot	history-import:cw_bot:4022	2026-04-12 21:24:49.553+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	844720150	Sebastjan35	NONG	\N	615260	259	16189	cw_bot	history-import:cw_bot:530	2026-07-17 18:48:35.159+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	852170656	vojitano	bar9	\N	7750	11944	16187	cw_bot	history-import:cw_bot:5066	2026-08-23 12:46:22.495+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	859747399	sniperreki	H8U2	356	\N	356	\N	external_import	history-import:big_bot:1026	2026-07-06 05:32:59.501+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	864632403	galaxyknight9204	Gewp	\N	25480	9951	16190	cw_bot	history-import:cw_bot:1767	2026-05-29 01:34:02.793+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	876991750	Mertiliano	ORB2	\N	446110	940	16189	cw_bot	history-import:cw_bot:2134	2026-08-01 04:17:09.805+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	877353566	lpvarmi	VLP	\N	266520	2861	16189	cw_bot	history-import:cw_bot:7208	2026-07-29 20:25:50.738+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	911932139	Daniel8czs	HROT	\N	388100	1509	16189	cw_bot	history-import:cw_bot:6808	2026-08-01 11:19:39.153+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	955175856	fatalwaccle	3zEZ	\N	407920	1292	16190	cw_bot	history-import:cw_bot:4180	2026-04-12 20:31:29.037+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	968065508	eEmsorry	PAAC	\N	329440	2121	16189	cw_bot	history-import:cw_bot:9058	2026-07-09 08:48:58.97+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	981933151	doczmerson	PABS	\N	289560	2552	16189	cw_bot	history-import:cw_bot:7599	2026-08-11 13:00:07.332+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	983863343	akita_nuru	MTNR	\N	27250	9811	16188	cw_bot	history-import:cw_bot:9579	2026-08-16 14:43:07.843+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1000059115	rimonus	SOPU	\N	143970	5071	16190	cw_bot	history-import:cw_bot:1802	2026-06-13 11:10:39.923+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1024664859	NotArsann7	AR2Y	\N	309560	2324	16190	cw_bot	history-import:cw_bot:1252	2026-05-03 05:34:41.421+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1029579815	Marshmellow_1177	YLW	\N	132780	5361	16190	cw_bot	history-import:cw_bot:1297	2026-05-05 21:28:38.219+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1044395777	patrykkpro1	V1LN	\N	485	14641	16189	cw_bot	history-import:cw_bot:7722	2026-08-05 20:28:34.504+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1049702109	realchaseblox	FaZ	\N	2480	13284	16190	cw_bot	history-import:cw_bot:1310	2026-05-05 21:59:20.786+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1055219519	eon2020	GANG	\N	252320	3063	16190	cw_bot	history-import:cw_bot:8094	2026-06-24 23:15:47.3+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1081067684	mimilrol	ROMU	\N	201220	3821	16189	cw_bot	history-import:cw_bot:404	2026-07-17 18:47:08.019+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1100810390	Starslikebirds	7HRW	\N	162010	4620	16189	cw_bot	history-import:cw_bot:4686	2026-08-01 01:45:14.128+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1137640592	clackerskill	Goop	\N	324510	2172	16189	cw_bot	history-import:cw_bot:4657	2026-08-01 00:22:28.841+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1146217738	xXjirkaXxboys	SJCJ	\N	252150	3067	16190	cw_bot	history-import:cw_bot:4044	2026-04-12 22:01:07.439+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1157052710	laughytrex	XPQX	\N	40340	8927	16190	cw_bot	history-import:cw_bot:888	2026-04-24 03:00:59.658+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1163321217	protozejelen	LV13	\N	8450	11845	16189	cw_bot	history-import:cw_bot:7132	2026-07-30 15:23:48.828+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1178078831	mavilure	NXNG	\N	427770	1106	16190	cw_bot	history-import:cw_bot:9109	2026-07-04 02:37:26.103+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1179507007	tomisek134	HR2T	\N	212530	3642	16189	cw_bot	history-import:cw_bot:4739	2026-08-11 18:03:07.712+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1217944056	aussieoutlaww	H8M3	\N	158750	4705	16189	cw_bot	history-import:cw_bot:2880	2026-07-31 15:48:02.888+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1221841742	Azurqson	UN0	\N	849190	49	16190	cw_bot	history-import:cw_bot:3783	2026-04-06 19:59:26.612+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1232493274	MARYNADA058	BDX	\N	2630	13230	16189	cw_bot	history-import:cw_bot:6886	2026-07-31 20:00:25.469+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1243643868	ASEYIsoos	Goop	\N	526290	532	16189	cw_bot	history-import:cw_bot:9424	2026-08-12 22:46:12.145+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1245227095	TheoFuraxe	ROMU	\N	280170	2662	16189	cw_bot	history-import:cw_bot:122	2026-07-17 18:32:35.762+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1277089394	LUVALICEEXO	V1LN	\N	68480	7457	16190	cw_bot	history-import:cw_bot:9259	2026-04-28 15:57:56.007+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1283935690	Laura_V13	07W	\N	1110	14005	16189	cw_bot	history-import:cw_bot:4342	2026-08-09 17:50:39.523+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1286384664	uzuisnipes	W2VY	\N	348950	1926	16189	cw_bot	history-import:cw_bot:336	2026-07-17 18:33:12.116+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1294169389	crazy_blox6677	RATZ	\N	231120	3383	16189	cw_bot	history-import:cw_bot:2617	2026-07-31 20:54:30.508+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1294494054	Ethanblaze112	Goop	\N	502000	632	16190	cw_bot	history-import:cw_bot:8321	2026-04-03 19:35:37.401+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1307288868	ivanpr03	W2VY	\N	46910	8523	16189	cw_bot	history-import:cw_bot:2599	2026-07-31 20:07:37.335+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1330097404	tomasbudik007	VLP	\N	405890	1301	16189	cw_bot	history-import:cw_bot:7097	2026-07-30 18:00:28.62+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1364275114	Czech9912	VLP	\N	7830	11932	16189	cw_bot	history-import:cw_bot:6692	2026-08-04 20:29:16.813+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1380082703	Allalboy2	7HRW	\N	176540	4298	16190	cw_bot	history-import:cw_bot:8213	2026-04-08 19:50:25.995+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1381505419	0LDBS	V1LN	\N	169000	4460	16190	cw_bot	history-import:cw_bot:8466	2026-06-17 00:36:35.957+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1384716628	barti12345610	_hot	\N	55030	8100	16189	cw_bot	history-import:cw_bot:8528	2026-07-21 19:41:58.049+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1386665561	nuxx7	HSTL	\N	259870	2954	16190	cw_bot	history-import:cw_bot:271	2026-05-17 10:44:35.489+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1403606137	GhostWhisperer03	PAAC	\N	55770	8067	16189	cw_bot	history-import:cw_bot:6909	2026-08-01 01:11:48.951+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1409166088	treytonpeterbuilt	GSTG	\N	447030	930	16190	cw_bot	history-import:cw_bot:1368	2026-05-07 00:27:08.494+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1462748729	dragonballx1412	NONG	3	559980	400	16189	cw_bot	history-import:big_bot:1046	2026-07-17 01:03:33.384+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1469224615	TheRealToonster	XBOX	\N	237210	3267	16190	cw_bot	history-import:cw_bot:1088	2026-04-25 23:24:03.687+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1476403654	dilerij2	BEZE	\N	322210	2195	16190	cw_bot	history-import:cw_bot:2072	2026-07-01 18:46:57.039+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1501050755	RealYTStarz	st1z	\N	154500	4805	16190	cw_bot	history-import:cw_bot:1970	2026-06-27 18:27:30.824+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1501625591	floriansamuraiu	07W	\N	64310	7649	16189	cw_bot	history-import:cw_bot:7901	2026-07-08 14:32:48.38+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1509495433	arrume_aparte12	KOHV	\N	12090	11296	16189	cw_bot	history-import:cw_bot:8019	2026-07-08 14:39:41.28+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1510971300	Informix_CZ	KMo	\N	115890	5840	16189	cw_bot	history-import:cw_bot:6222	2026-08-08 08:18:03.311+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1515580709	notaurorasky008	skvi	\N	465320	808	16188	cw_bot	history-import:cw_bot:7548	2026-08-16 16:38:28.759+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1519381006	CloudyVR65	x75p	\N	275850	2715	16190	cw_bot	history-import:cw_bot:1139	2026-04-27 02:10:48.062+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1519933607	JustCaIIMeEgg	NS4R	\N	387880	1515	16189	cw_bot	history-import:cw_bot:499	2026-07-17 18:48:12.453+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1520358099	FlipFlopFloop417	CC4T	\N	48660	8411	16189	cw_bot	history-import:cw_bot:353	2026-07-17 18:33:20.942+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1528718508	strykertoff	XPQX	\N	70040	7389	16190	cw_bot	history-import:cw_bot:1264	2026-05-03 14:42:25.308+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1539398349	Darkszern	SOPU	\N	859640	43	16189	cw_bot	history-import:cw_bot:4570	2026-08-04 19:57:01.734+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1544837203	legpro11	auli	\N	396860	1401	16187	cw_bot	history-import:cw_bot:7494	2026-08-27 21:28:49.869+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1546214233	ninjaogifox	H8M3	\N	3590	12884	16189	cw_bot	history-import:cw_bot:5977	2026-08-10 21:49:03.348+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1573629774	mkmike27mk	XPQX	\N	81670	6950	16190	cw_bot	history-import:cw_bot:255	2026-05-16 17:04:30.807+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1581306248	Robloxak_Honiik	KMo	\N	111260	5974	16188	cw_bot	history-import:cw_bot:5832	2026-08-14 19:05:13.93+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1583648375	KeyzziHD94	GSTG	\N	342680	1991	16189	cw_bot	history-import:cw_bot:287	2026-07-17 17:28:11.535+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1587906543	wexfordfox	BOSK	\N	393460	1444	16190	cw_bot	history-import:cw_bot:9285	2026-04-29 12:14:55.272+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1592738293	1ncr3d1bl3sulk	x75p	\N	226250	3448	16190	cw_bot	history-import:cw_bot:1278	2026-05-03 22:19:36.985+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1596560199	wiegehtdennsowas	XBOX	\N	208200	3695	16190	cw_bot	history-import:cw_bot:9320	2026-04-05 16:35:34.64+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1613882953	toastedpoptartonyt	CXTG	\N	358070	1820	16187	cw_bot	history-import:cw_bot:9918	2026-08-18 18:50:20.423+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1617221713	waheedplayzYT	S2PU	\N	191240	4022	16189	cw_bot	history-import:cw_bot:7781	2026-07-22 21:12:43.733+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1626378539	Fulda645	EXP	\N	195810	3938	16190	cw_bot	history-import:cw_bot:8144	2026-04-28 12:17:49.765+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1652197454	fighter92399_alt	NONG	\N	665950	183	16190	cw_bot	history-import:cw_bot:1831	2026-06-16 00:22:27.481+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1670011733	Kono9595	RBD	\N	115350	5853	16189	cw_bot	history-import:cw_bot:6373	2026-08-07 18:53:41.202+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1676340458	AgreedFlower11	0RBI	\N	378030	1609	16189	cw_bot	history-import:cw_bot:616	2026-07-17 18:49:30.27+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1676361250	RealYoDarkshadow	Sh2p	\N	105	15343	16190	cw_bot	history-import:cw_bot:3987	2026-04-12 22:22:05.865+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1683480006	kminoscz	KMo	\N	441470	973	16189	cw_bot	history-import:cw_bot:7078	2026-07-30 17:15:30.786+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1685635748	farmboyjetw	Goop	\N	442630	963	16190	cw_bot	history-import:cw_bot:8309	2026-04-02 20:23:10.489+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1690820953	1tombay	BEZE	\N	1430000	1	16190	cw_bot	history-import:cw_bot:1717	2026-05-23 14:09:54.985+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1697239942	racingchampaj	AR2Y	\N	77770	7079	16189	cw_bot	history-import:cw_bot:7890	2026-07-08 14:32:13.162+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1727137762	azmvoisshot	ORB	\N	19380	10495	16190	cw_bot	history-import:cw_bot:822	2026-06-13 03:07:29.607+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1746819605	Ofdintss	KOHV	\N	400870	1360	16190	cw_bot	history-import:cw_bot:1907	2026-06-20 19:36:02.048+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1749647628	da1niell	HR2T	\N	515100	569	16189	cw_bot	history-import:cw_bot:6363	2026-08-07 18:52:55.147+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1756730755	imsazzyy	OTTR	\N	172710	4382	16190	cw_bot	history-import:cw_bot:9133	2026-06-29 23:26:20.807+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1759162396	9kbotzz	XBOX	\N	703410	144	16190	cw_bot	history-import:cw_bot:9332	2026-04-05 20:49:49.97+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1780089241	dominikando11	3zEZ	\N	28240	9740	16190	cw_bot	history-import:cw_bot:4007	2026-04-12 21:23:47.034+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1787663283	TheBuilder5649	FGZW	\N	239060	3234	16190	cw_bot	history-import:cw_bot:4076	2026-04-12 22:03:03.052+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1814033582	xvlamer	\N	\N	\N	67	16190	cw_bot	history-import:cw_bot:3657	2026-04-19 07:41:22.679+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1817334423	zerz06	Goop	\N	415620	1211	16187	cw_bot	history-import:cw_bot:8707	2026-08-26 17:22:03.043+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1818966891	Drak1735	HROT	\N	218690	3551	16188	cw_bot	history-import:cw_bot:5846	2026-08-14 19:17:31.862+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1824713899	hayojeu2k	W2VY	\N	414170	1229	16189	cw_bot	history-import:cw_bot:669	2026-07-17 18:57:09.828+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1835808563	1213eric	_MGW	\N	330360	2108	16190	cw_bot	history-import:cw_bot:1641	2026-05-21 04:56:29.857+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1856284829	younes89755	NXNG	\N	692850	150	16190	cw_bot	history-import:cw_bot:1350	2026-05-06 23:01:41.242+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1878560423	honzarybarnoob	Jel1	\N	184840	4141	16187	cw_bot	history-import:cw_bot:2250	2026-08-22 16:36:34.71+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1895942489	ziomek1000oo	_hot	\N	29320	9673	16187	cw_bot	history-import:cw_bot:7583	2026-08-19 21:17:39.542+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1909574870	jjdjsjsmsmmd	twky	\N	241960	3191	16187	cw_bot	history-import:cw_bot:5035	2026-08-24 10:03:20.943+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1944841143	BEARDED_DRAGONGUY	karl	\N	13280	11132	16190	cw_bot	history-import:cw_bot:1899	2026-06-20 15:13:49.311+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1950318403	itsgaternotgator	W2VY	\N	23280	10135	16190	cw_bot	history-import:cw_bot:308	2026-07-01 16:29:10.815+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1957877866	MRDanThePan	AR2Y	\N	69650	7404	16189	cw_bot	history-import:cw_bot:3223	2026-07-26 11:08:55.681+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1973447751	radkozahumensky5	x75p	\N	136120	5268	16187	cw_bot	history-import:cw_bot:4973	2026-08-24 18:50:27.632+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1986018475	Yazooony55	AXOK	\N	17430	10681	16189	cw_bot	history-import:cw_bot:2310	2026-08-12 18:23:23.035+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	1996183705	humicek2020cz	HROT	\N	348680	1928	16187	cw_bot	history-import:cw_bot:5161	2026-08-23 06:34:54.553+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2005983585	shadowstaristhegoat	SOPU	\N	436090	1025	16189	cw_bot	history-import:cw_bot:9559	2026-07-31 10:09:27.163+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2015826915	Thiballa	ANG_	\N	87320	6743	16190	cw_bot	history-import:cw_bot:1006	2026-04-18 19:09:38.623+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2022911056	Iamaboy222224	XBOX	\N	102140	6258	16189	cw_bot	history-import:cw_bot:3280	2026-07-25 17:51:10.303+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2041486311	JohnnyGator9	UN0	\N	920240	26	16190	cw_bot	history-import:cw_bot:1858	2026-06-19 05:04:23.833+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2064474099	macejko998	K989	\N	116	15311	16188	cw_bot	history-import:cw_bot:5603	2026-08-16 18:31:51.714+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2067834432	blazeeok	Goop	\N	811100	66	16189	cw_bot	history-import:cw_bot:3181	2026-07-26 20:02:36.593+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2226792909	Raptorik_gamer	HR2T	\N	99780	6335	16189	cw_bot	history-import:cw_bot:7424	2026-07-18 17:45:36.477+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2241042742	WallEExtreme	0RBI	\N	439620	990	16189	cw_bot	history-import:cw_bot:8682	2026-07-15 16:36:29.044+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2257366377	lottewashere	LXCC	\N	308700	2329	16190	cw_bot	history-import:cw_bot:9311	2026-04-13 22:48:01.131+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2268926446	Feibapa	Ash	\N	438130	1007	16189	cw_bot	history-import:cw_bot:2703	2026-07-31 16:47:53.554+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2272058278	tomasmessi2567	HROT	\N	214660	3611	16189	cw_bot	history-import:cw_bot:6598	2026-08-06 14:40:37.08+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2282416912	vae1oria	B2SS	\N	535850	483	16190	cw_bot	history-import:cw_bot:9296	2026-04-25 08:43:24.827+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2316325389	julimowi	TeGu	\N	180380	4229	16189	cw_bot	history-import:cw_bot:2729	2026-07-31 17:12:47.437+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2318308002	karelman1451	HROT	\N	438470	1001	16187	cw_bot	history-import:cw_bot:4913	2026-08-26 18:25:05.52+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2320688195	daihukumochi223	2WEI	\N	83470	6886	16190	cw_bot	history-import:cw_bot:8553	2026-06-17 03:04:38.757+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2349313768	crystalboyo256	S7PY	\N	339110	2022	16189	cw_bot	history-import:cw_bot:2975	2026-07-30 10:49:42.699+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2375471082	RayquazaPlayz_yt	0RBI	\N	529910	515	16190	cw_bot	history-import:cw_bot:4110	2026-04-12 20:27:06.36+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2399889452	starwax85	V1LN	\N	28990	9693	16189	cw_bot	history-import:cw_bot:7763	2026-07-17 15:53:21.548+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2420801797	0k_0w	eguh	\N	296820	2476	16189	cw_bot	history-import:cw_bot:442	2026-07-17 18:47:32.43+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2431643806	1KRUCHY	XREX	\N	364790	1747	16190	cw_bot	history-import:cw_bot:8058	2026-06-23 16:35:49.505+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2443619256	mihokkon	UNO	\N	678070	165	16190	cw_bot	history-import:cw_bot:3756	2026-04-17 00:20:59.211+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	338290	2030	16189	cw_bot	history-import:cw_bot:2943	2026-07-30 23:41:01.908+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2463337749	mrtendieman	GSTG	\N	589280	313	16188	cw_bot	history-import:cw_bot:7697	2026-08-16 16:38:00.619+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2469768592	Raitonn0609	2WEI	\N	47240	8499	16190	cw_bot	history-import:cw_bot:9368	2026-03-31 20:29:42.263+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2475732693	Fazmashwastaken	FaZ	\N	301290	2413	16189	cw_bot	history-import:cw_bot:9999	2026-08-09 01:32:35.34+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2489885181	Ewan_314	NONG	\N	631850	236	16189	cw_bot	history-import:cw_bot:4433	2026-08-07 01:31:38.701+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2494077434	matyx00777	MNCS	\N	5220	12454	16189	cw_bot	history-import:cw_bot:4764	2026-08-01 12:20:27.96+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2509513667	Ryderkoo5545	ERC	\N	1380	13825	16187	cw_bot	history-import:cw_bot:5049	2026-08-23 10:46:48.07+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2521267504	matejsbss	MDKT	\N	90640	6625	16189	cw_bot	history-import:cw_bot:7474	2026-07-15 14:29:29.985+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2539070982	Nomdecodetotoc34	ANG_	\N	403390	1328	16190	cw_bot	history-import:cw_bot:1239	2026-05-02 16:27:23.292+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2545832975	baconszombiesarmy	FGZW	\N	37770	9097	16190	cw_bot	history-import:cw_bot:4054	2026-04-12 22:02:06.94+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2575495153	IStoleYourChica	ORBI	\N	476590	752	16189	cw_bot	history-import:cw_bot:77	2026-07-17 18:32:12.646+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2667688976	SlimGreycz_2	VLP	\N	1110	14004	16189	cw_bot	history-import:cw_bot:7936	2026-07-08 14:35:29.662+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2681952829	samplayz9977	XPQX	\N	1	16132	16190	cw_bot	history-import:cw_bot:1398	2026-05-10 00:23:27.332+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2699598634	rosta128	HR2T	\N	116430	5826	16189	cw_bot	history-import:cw_bot:6963	2026-07-31 16:07:38.598+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2709299989	fishy_axl22	st1z	\N	183900	4160	16190	cw_bot	history-import:cw_bot:769	2026-05-10 02:24:40.449+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2719084403	aidananthony013	XPQX	\N	132750	5363	16190	cw_bot	history-import:cw_bot:1815	2026-06-13 15:03:54.201+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2739287597	krillerproxd	WSOW	\N	1720	13636	16189	cw_bot	history-import:cw_bot:7883	2026-07-08 14:29:50.8+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2786686086	Loewentatze12	CITC	\N	7970	11916	16189	cw_bot	history-import:cw_bot:2435	2026-08-09 19:22:00.052+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2793216369	F_Bizzle	BOSS	\N	635220	228	16190	cw_bot	history-import:cw_bot:1155	2026-04-27 21:42:43.611+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2844876464	Destructcz23	tNo	\N	192510	3991	16187	cw_bot	history-import:cw_bot:2267	2026-08-20 07:56:23.411+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2853594415	peslolpj	MDKT	\N	142390	5119	16188	cw_bot	history-import:cw_bot:5749	2026-08-14 16:23:32.844+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2892299154	Baggooooo	UN0	\N	917420	28	16189	cw_bot	history-import:cw_bot:4544	2026-08-04 19:57:26.933+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2901565950	bestrobloxsimsplayer	NONG	\N	804200	72	16190	cw_bot	history-import:cw_bot:1177	2026-04-30 19:38:45.807+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2912101187	coolgur0	0RBI	\N	551690	429	16189	cw_bot	history-import:cw_bot:512	2026-07-17 18:48:27.061+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2915153725	Ishan90091	07W	\N	82520	6925	16189	cw_bot	history-import:cw_bot:10054	2026-08-08 18:49:12.798+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2929825206	roplexbuddy	F4DE	\N	8590	11813	16189	cw_bot	history-import:cw_bot:4257	2026-08-13 04:25:30.76+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2956070032	AnnexOO1	DLOW	\N	344050	1980	16190	cw_bot	history-import:cw_bot:8245	2026-04-11 00:42:36.107+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2961636717	nichozr	V1LN	\N	157430	4742	16190	cw_bot	history-import:cw_bot:1419	2026-05-11 01:18:04.672+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2965361189	mynestra	🏰 Clan: **Roux**	\N	\N	10591	16190	cw_bot	history-import:cw_bot:3576	2026-05-20 23:35:22.269+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2980262380	Xperide	KOR_	\N	251400	3079	16190	cw_bot	history-import:cw_bot:1486	2026-05-15 20:24:52.409+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2981591104	Maroko_013	V1LN	\N	190780	4034	16189	cw_bot	history-import:cw_bot:8865	2026-07-31 17:35:33.295+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2988275843	zspjasieniec1	PABS	\N	371550	1671	16187	cw_bot	history-import:cw_bot:8494	2026-08-19 15:24:30.108+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	2992299705	Afrykan0	XREX	\N	433310	1053	16187	cw_bot	history-import:cw_bot:7506	2026-08-28 16:42:30.025+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3000748132	PickleCloudNacho	H8ER	\N	272130	2773	16190	cw_bot	history-import:cw_bot:3956	2026-04-12 22:17:35.814+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3010290250	Hiitzjust	NXNG	\N	644940	216	16189	cw_bot	history-import:cw_bot:8032	2026-07-08 14:40:06.768+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3022616943	floatindrag	K1WI	\N	88020	6713	16189	cw_bot	history-import:cw_bot:2563	2026-08-01 14:35:07.364+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3023440598	rokster359	SOPU	\N	493270	675	16190	cw_bot	history-import:cw_bot:1330	2026-05-06 02:32:10.589+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3033026212	flexmyspa1	Goop	\N	321970	2198	16189	cw_bot	history-import:cw_bot:796	2026-07-17 18:58:35.721+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3039307282	Mr_agnes30	XREX	\N	298830	2439	16190	cw_bot	history-import:cw_bot:8075	2026-06-23 16:38:19.044+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3046788322	Xerenity1	DLOW	\N	116630	5826	16190	cw_bot	history-import:cw_bot:8256	2026-04-11 00:53:10.021+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3060745926	thetruetdsglitch	XBOX	\N	324950	2167	16190	cw_bot	history-import:cw_bot:8039	2026-04-30 15:47:59.662+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3078836998	minzxn_11	AQ	\N	137580	5236	16187	cw_bot	history-import:cw_bot:8634	2026-08-26 16:34:14.001+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3096883976	markosk2007	IDF	\N	274150	2740	16189	cw_bot	history-import:cw_bot:6068	2026-08-09 09:27:28.449+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3108660508	Darcacz2	MNCS	\N	47600	8475	16189	cw_bot	history-import:cw_bot:6679	2026-08-04 13:06:03.104+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3124408432	Mr96eduD	Mr96	\N	360130	1794	16190	cw_bot	history-import:cw_bot:4162	2026-04-12 20:33:19.889+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3139037723	Tobik987123	cspe	\N	12510	11239	16189	cw_bot	history-import:cw_bot:6476	2026-08-06 18:08:45.622+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3143604581	RebelkaCZ157	VLP	\N	259930	2952	16189	cw_bot	history-import:cw_bot:6711	2026-08-04 09:43:51.606+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3149302489	code_wille	0RBI	\N	272800	2761	16190	cw_bot	history-import:cw_bot:3841	2026-04-05 06:57:37.866+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3163626549	free2krazy	Goop	\N	311330	2306	16190	cw_bot	history-import:cw_bot:1062	2026-04-24 21:15:18.897+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3167252782	aromelkasto2	BYRD	\N	35060	9275	16189	cw_bot	history-import:cw_bot:6824	2026-08-01 11:19:56.793+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3167571592	Hickarn1	NONG	\N	554430	415	16190	cw_bot	history-import:cw_bot:8382	2026-03-22 11:06:41.693+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3171368431	darklode100	x75p	\N	21000	10349	16190	cw_bot	history-import:cw_bot:1127	2026-04-27 02:10:10.025+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3175584454	ImLeroXx	🏰 Clan: **LXCC**	\N	\N	1245	16190	cw_bot	history-import:cw_bot:3511	2026-04-23 13:44:15.669+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3181994439	anrijs9991	ORBI	\N	353100	1876	16190	cw_bot	history-import:cw_bot:1190	2026-04-30 19:59:29.548+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3198094679	JanKob2022	_hot	\N	164650	4556	16189	cw_bot	history-import:cw_bot:8452	2026-08-01 18:13:54.908+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3203422029	drlllolll	MDKT	\N	22140	10229	16187	cw_bot	history-import:cw_bot:9443	2026-08-22 16:01:45.839+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3214063706	ZoraDaGoatOfficial	ROMU	\N	814	14278	16190	cw_bot	history-import:cw_bot:955	2026-04-17 00:09:22.187+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3214496713	DarkPhoenix917	UN0	\N	851630	47	16189	cw_bot	history-import:cw_bot:4506	2026-08-04 19:56:06.385+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3215370935	snorlaxfox1	BOSK	\N	383840	1555	16190	cw_bot	history-import:cw_bot:9385	2026-04-02 02:54:57.549+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3233034644	ARIGO11234	3zEZ	\N	14160	11016	16189	cw_bot	history-import:cw_bot:3307	2026-07-24 20:34:16.905+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3248243502	IchBin21CPS_2	B2SS	\N	331300	2095	16190	cw_bot	history-import:cw_bot:3773	2026-04-06 19:40:16.13+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3252894844	vexityonnic	WJAY	\N	500320	641	16190	cw_bot	history-import:cw_bot:3812	2026-04-05 06:50:41.945+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3271035452	Misak0912	K989	\N	13820	11061	16189	cw_bot	history-import:cw_bot:6944	2026-08-01 08:49:00.863+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3271442208	Jonglesje	HROT	\N	360140	1790	16187	cw_bot	history-import:cw_bot:2232	2026-08-24 09:46:55.285+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3282696395	max_squash	ORBI	\N	409360	1276	16189	cw_bot	history-import:cw_bot:2119	2026-08-01 03:32:06.841+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3289385978	KnKmor	DK	\N	384020	1554	16189	cw_bot	history-import:cw_bot:8890	2026-08-01 18:12:49.345+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3299278772	xxprozombix	BEZE	\N	444250	950	16190	cw_bot	history-import:cw_bot:8669	2026-06-26 13:37:08.577+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3302444862	EndOfAnEra007	NONG	3	561000	3	\N	external_import	history-import:big_bot:972	2026-07-16 23:25:31.662+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3318596083	Mamaris357357	MDKT	\N	235280	3298	16188	cw_bot	history-import:cw_bot:5783	2026-08-14 17:19:41.498+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3338233326	Andrewasper0987	KOHV	\N	132020	5387	16190	cw_bot	history-import:cw_bot:1848	2026-06-17 12:39:01.167+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3357292523	Grec_Game	VLP	\N	4830	12568	16189	cw_bot	history-import:cw_bot:7062	2026-07-30 17:14:48.532+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3370104014	Standa256	VLP	\N	2160	13409	16187	cw_bot	history-import:cw_bot:5136	2026-08-23 03:03:21.508+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3372527888	CokoladovaZmrzska	cspe	\N	44310	8672	16189	cw_bot	history-import:cw_bot:7356	2026-07-22 01:19:32.889+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3373408758	housebox_go	HR2T	\N	259340	2959	16189	cw_bot	history-import:cw_bot:6456	2026-08-06 17:53:29.386+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3377511045	mercstien	0RBI	\N	452340	884	16190	cw_bot	history-import:cw_bot:1339	2026-05-06 09:08:51.241+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3378947321	reset45624382	Goop	\N	512960	579	16189	cw_bot	history-import:cw_bot:8825	2026-08-08 12:36:56.654+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3379551767	scytheskii	st1z	\N	554940	413	16190	cw_bot	history-import:cw_bot:320	2026-04-16 22:13:50.244+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3382833387	kingweslie123	BUTI	\N	94300	6513	16189	cw_bot	history-import:cw_bot:2324	2026-08-12 21:19:37.585+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3393324525	BigWolfPL	XREX	\N	247700	3118	16189	cw_bot	history-import:cw_bot:7817	2026-07-24 20:08:19.243+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3416641778	dd_ontop13	SOPU	\N	449430	907	16190	cw_bot	history-import:cw_bot:3822	2026-04-05 06:51:12.613+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3439337856	prezley_official2022	HROT	\N	111820	5960	16189	cw_bot	history-import:cw_bot:7116	2026-07-30 15:19:24.23+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3444459957	Radek25101982	VLP	\N	24240	10060	16189	cw_bot	history-import:cw_bot:6050	2026-08-09 09:04:46.362+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3448405650	eldublinfox	Fchn	\N	312090	2297	16190	cw_bot	history-import:cw_bot:9394	2026-04-01 08:35:40.039+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3450868495	nolram1a	Roux	\N	58700	7914	16189	cw_bot	history-import:cw_bot:8850	2026-08-04 06:49:16.854+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3509021767	JonnyM55	MDKT	\N	47410	8487	16188	cw_bot	history-import:cw_bot:5550	2026-08-17 00:51:43.291+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3549731928	Thijklo2003	KOHV	\N	633220	230	16190	cw_bot	history-import:cw_bot:1545	2026-05-17 01:50:48.281+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3557375419	Subtokirbofanyt	ORBI	\N	404910	1307	16189	cw_bot	history-import:cw_bot:2189	2026-07-27 21:40:54.835+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3563519895	dexxifying	st1z	\N	108740	6044	16190	cw_bot	history-import:cw_bot:3767	2026-04-17 00:22:16.986+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3565857429	Bb874tad	AR2Y	\N	459990	837	16189	cw_bot	history-import:cw_bot:7965	2026-07-08 14:36:26.417+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3567067280	Kurtis2345789	ROMU	\N	115110	5864	16190	cw_bot	history-import:cw_bot:586	2026-05-19 20:18:17.483+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3570093892	CZ_Ondiik	HROT	\N	239460	3227	16188	cw_bot	history-import:cw_bot:5867	2026-08-14 19:38:17.627+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3582853902	godboy94875	NS4R	\N	176190	4307	16190	cw_bot	history-import:cw_bot:2546	2026-04-19 16:39:54.272+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3602402808	Flexsnack21	UNTY	\N	500750	639	16190	cw_bot	history-import:cw_bot:1203	2026-05-01 08:05:11.74+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3607555867	thechristhe98289	XREX	\N	197830	3890	16189	cw_bot	history-import:cw_bot:2951	2026-07-30 22:14:25.7+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3628039137	anoknight5	XPQX	\N	27090	9826	16189	cw_bot	history-import:cw_bot:3118	2026-07-28 18:56:15.247+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3639903941	imandaskye	UN0	\N	476460	755	16189	cw_bot	history-import:cw_bot:2172	2026-08-01 03:30:43.552+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3655474970	Shrooomdevourer10	V1LN	\N	442770	961	16190	cw_bot	history-import:cw_bot:8475	2026-06-17 00:21:50.467+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3661951050	Murderface2022	🏰 Clan: **FMLY**	\N	\N	9384	16190	cw_bot	history-import:cw_bot:3556	2026-03-12 23:11:43.732+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3683660130	Medvid3k11	cspe	\N	126110	5553	16189	cw_bot	history-import:cw_bot:6986	2026-07-31 17:00:07.71+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3714270625	angiespartytreat	B2SS	\N	394040	1440	16189	cw_bot	history-import:cw_bot:7712	2026-08-02 11:57:07.168+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3741610856	DemxnIRL	ORBI	\N	454370	870	16189	cw_bot	history-import:cw_bot:4481	2026-08-06 00:26:19.98+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3750045967	imnotdigitosim1476	IDF	\N	46080	8573	16188	cw_bot	history-import:cw_bot:5657	2026-08-14 22:17:44.993+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3753977683	mybanana367	NONG	\N	656150	193	16190	cw_bot	history-import:cw_bot:1467	2026-05-13 21:54:17.124+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3768828357	mrs_reset	Goop	\N	410090	1265	16190	cw_bot	history-import:cw_bot:8608	2026-06-17 00:15:13.179+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3779230353	goat201470	Y0M	\N	24290	10059	16190	cw_bot	history-import:cw_bot:8277	2026-04-13 16:26:51.02+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3797718809	m4thou3	Goop	\N	505620	611	16189	cw_bot	history-import:cw_bot:3075	2026-07-28 21:07:33.267+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3804356173	fishyaxl22	ST1Z	53	\N	53	\N	external_import	history-import:big_bot:988	2026-07-14 03:44:42.78+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3808414208	Suppe_Can	Goop	\N	534910	487	16190	cw_bot	history-import:cw_bot:8116	2026-04-27 17:55:05.386+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3834652767	Roman5556_CZ	SAM4	\N	56850	8006	16189	cw_bot	history-import:cw_bot:7408	2026-07-17 16:42:07.486+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3853349557	melpatate12	Goop	\N	577950	356	16190	cw_bot	history-import:cw_bot:968	2026-04-18 02:12:53.563+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3919100604	Filda7329	STPS	\N	9480	11672	16189	cw_bot	history-import:cw_bot:6494	2026-08-06 18:48:55.736+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3926695029	22mamamama	tNo	\N	16450	10755	16189	cw_bot	history-import:cw_bot:7454	2026-07-15 07:59:07.687+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3940781859	tigran_2206	BEZE	\N	651530	201	16189	cw_bot	history-import:cw_bot:864	2026-07-17 18:56:54.568+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	3978547556	Zoliisrecords	K989	\N	625	14462	16187	cw_bot	history-import:cw_bot:4995	2026-08-24 10:40:01.728+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4010792811	1zelvak	BDX	\N	613	14478	16189	cw_bot	history-import:cw_bot:7274	2026-07-27 11:51:24.945+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4034865826	ncksjduwiwjnm	HROT	\N	190750	4035	16189	cw_bot	history-import:cw_bot:4756	2026-08-01 10:14:30.098+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4035198924	ytpandaroux	R0MU	\N	19570	10470	16189	cw_bot	history-import:cw_bot:929	2026-07-08 19:17:13.13+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4051469126	Naruto61925	_hot	\N	124550	5594	16189	cw_bot	history-import:cw_bot:3393	2026-07-23 20:03:20.004+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4091709355	1230david4567	SAM4	\N	6890	12098	16188	cw_bot	history-import:cw_bot:5694	2026-08-15 05:24:53.093+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4113094220	TTobbboTT	PAAC	\N	240900	3208	16190	cw_bot	history-import:cw_bot:9226	2026-05-12 19:20:42.195+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4161934376	honza01021983	VLP	\N	8600	11810	16187	cw_bot	history-import:cw_bot:4847	2026-08-28 06:57:40.513+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4165162503	trubgut3	MDKT	\N	166900	4517	16189	cw_bot	history-import:cw_bot:6421	2026-08-06 15:24:37.222+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4167232216	nanuk_2232	VLP2	\N	167800	4492	16189	cw_bot	history-import:cw_bot:6302	2026-08-08 12:06:58.145+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4196761995	GravysOfficial	MDKT	\N	87960	6717	16187	cw_bot	history-import:cw_bot:5117	2026-08-22 23:53:53.389+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4197618114	Danczek0102	IDF	\N	18330	10599	16189	cw_bot	history-import:cw_bot:6284	2026-08-08 16:08:23.534+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4213289713	jezykFCP2	PABS	\N	14450	10991	16189	cw_bot	history-import:cw_bot:8961	2026-07-26 21:01:59.544+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4215988499	abby_gamera	V1LN	\N	404450	1313	16190	cw_bot	history-import:cw_bot:8155	2026-04-28 15:06:15.006+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4224841429	Holemedonescr10	3zEZ	\N	119380	5740	16190	cw_bot	history-import:cw_bot:1594	2026-05-20 19:08:41.718+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4238790853	samsam16725	ROMU	\N	30120	9617	16190	cw_bot	history-import:cw_bot:94	2026-06-19 21:20:32.05+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4247108285	irdski	IWHN	\N	62740	7716	16188	cw_bot	history-import:cw_bot:4717	2026-08-14 21:21:37.198+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4281402342	Selcuk1143	S2PU	\N	346880	1948	16189	cw_bot	history-import:cw_bot:3050	2026-07-28 21:24:31.882+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4290313900	rubberluffy1235	S2PU	\N	38320	9072	16189	cw_bot	history-import:cw_bot:4237	2026-08-13 06:29:40.629+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4313949380	Dada343410	MDKT	\N	34010	9335	16189	cw_bot	history-import:cw_bot:6387	2026-08-07 20:30:35.379+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4336818312	Myguy_Ky1	Nump	\N	1390	13817	16189	cw_bot	history-import:cw_bot:3217	2026-07-26 11:08:12.603+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4339145979	Dandis_20	COLU	\N	54740	8116	16187	cw_bot	history-import:cw_bot:5520	2026-08-18 13:11:18.989+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4345972644	venti12011201	2WEI	\N	5740	12322	16190	cw_bot	history-import:cw_bot:8542	2026-06-17 00:04:41.889+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4388509145	kukurice153	tNo	\N	8	15940	16189	cw_bot	history-import:cw_bot:5955	2026-08-11 16:22:14.568+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4393951337	lukascccs	VLP2	\N	42050	8813	16189	cw_bot	history-import:cw_bot:6132	2026-08-08 17:36:40.231+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4430200296	daytime7789	OTTR	\N	40890	8894	16190	cw_bot	history-import:cw_bot:9162	2026-06-29 23:32:40.195+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4471953599	alexander1234_hi56	B3ZE	\N	88520	6699	16189	cw_bot	history-import:cw_bot:8795	2026-08-12 23:40:25.692+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4482372398	Burak30_CZ	MDKT	\N	14550	10974	16189	cw_bot	history-import:cw_bot:7165	2026-07-30 13:05:24.983+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4483758330	Sooz_events	TAUK	\N	114630	5882	16190	cw_bot	history-import:cw_bot:4065	2026-04-12 22:02:33.256+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4511725993	Kvetamin	VLP	\N	368110	1711	16187	cw_bot	history-import:cw_bot:5245	2026-08-21 19:36:06.87+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4540869398	proto123q	NS4R	\N	137800	5229	16189	cw_bot	history-import:cw_bot:567	2026-07-17 18:49:06.221+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4544162965	icestormvoyager	S2PU	\N	84010	6864	16190	cw_bot	history-import:cw_bot:8234	2026-04-11 00:41:39.288+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4574397825	PET_HERO676	FYRX	\N	158330	4711	16187	cw_bot	history-import:cw_bot:5413	2026-08-20 09:37:57.743+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4583513261	xXJ0hnXx23	POJO	\N	221450	3509	16187	cw_bot	history-import:cw_bot:5293	2026-08-22 16:50:40.795+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4584982387	Misabilk	VLP2	\N	70910	7352	16189	cw_bot	history-import:cw_bot:5938	2026-08-11 16:19:44.683+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4597064685	nevimheslo108	K989	\N	68910	7442	16189	cw_bot	history-import:cw_bot:6647	2026-08-05 20:02:56.557+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4634042698	Psxtrader327	OTTR	\N	566700	384	16187	cw_bot	history-import:cw_bot:8507	2026-08-22 22:47:27.757+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4652078124	jaximeler	PABS	\N	223300	3493	16190	cw_bot	history-import:cw_bot:8425	2026-06-17 00:24:11.273+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4686873488	Monty_Tomas10	K989	\N	225890	3451	16187	cw_bot	history-import:cw_bot:5323	2026-08-21 07:45:07.526+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4759297476	psst1422	HROT	\N	449180	911	16190	cw_bot	history-import:cw_bot:144	2026-05-20 23:35:12.448+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4792692703	ced123zx	ROMU	\N	143250	5098	16189	cw_bot	history-import:cw_bot:713	2026-07-17 18:57:41.576+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4833004455	Deniska_1990	HROT	\N	636110	224	16189	cw_bot	history-import:cw_bot:7324	2026-07-25 23:11:40.176+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4895856612	Dikgeevik2CZ	K989	\N	13	15873	16188	cw_bot	history-import:cw_bot:5888	2026-08-13 23:41:00.142+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4897243840	Bubbly_num2	UNO	\N	815200	63	16190	cw_bot	history-import:cw_bot:8368	2026-04-06 08:31:41.74+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4916438361	ArmNotPro	st1z	\N	193510	3975	16189	cw_bot	history-import:cw_bot:809	2026-07-17 18:58:43.871+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4923138175	WORZ_51	ROMU	\N	9170	11724	16190	cw_bot	history-import:cw_bot:4190	2026-04-12 21:06:34.77+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4957497369	ammi0729	Goop	\N	552390	425	16190	cw_bot	history-import:cw_bot:981	2026-04-18 02:13:35.573+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4989918296	PtiDoriankt	ROMU	\N	114840	5874	16189	cw_bot	history-import:cw_bot:845	2026-07-17 18:56:47.208+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	4999104751	Speaxk17	POPS	\N	451130	893	16190	cw_bot	history-import:cw_bot:1625	2026-05-21 01:10:10.679+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5042635636	Cultiv8R_NZ	DLOW	\N	349560	1920	16190	cw_bot	history-import:cw_bot:8225	2026-04-11 00:40:42.513+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5044736168	CBroGolden	3zEZ	\N	209770	3675	16190	cw_bot	history-import:cw_bot:4089	2026-04-12 20:16:41.119+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5063089605	REAL3ST_NZ	DLOW	\N	142350	5124	16190	cw_bot	history-import:cw_bot:8266	2026-04-11 00:55:05.933+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5076379116	samco137	EROS	\N	803	14287	16187	cw_bot	history-import:cw_bot:4855	2026-08-28 07:12:12.071+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5091424925	spiederpro9	Taux	\N	15460	10882	16189	cw_bot	history-import:cw_bot:2493	2026-08-01 10:12:35.596+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5120442322	kirasm0m	ORBI	\N	421820	1169	16189	cw_bot	history-import:cw_bot:2204	2026-07-17 04:33:26.901+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5127406568	dadchris86	Goop	\N	302290	2400	16190	cw_bot	history-import:cw_bot:8182	2026-04-21 16:30:58.569+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5128164487	drako83cz	HROT	\N	507800	601	16188	cw_bot	history-import:cw_bot:5533	2026-08-17 12:17:13.979+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5128774229	livelasso	2WEI	\N	473450	770	16189	cw_bot	history-import:cw_bot:8998	2026-07-19 09:14:05.882+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5138542110	greatfullyyy	W2VY	\N	249280	3102	16189	cw_bot	history-import:cw_bot:2901	2026-07-31 06:42:06.061+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5143387515	babykweeef	UN0	\N	930490	23	16188	cw_bot	history-import:cw_bot:2101	2026-08-14 22:59:19.851+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5189669801	johqnel	IDF	\N	129650	5450	16188	cw_bot	history-import:cw_bot:5568	2026-08-17 00:52:03.053+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5203613717	Arteomcka0_z	BEZE	\N	52160	8238	16189	cw_bot	history-import:cw_bot:3372	2026-07-23 19:33:38.366+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5207679662	GrinchFrend	MDKT	\N	199440	3859	16187	cw_bot	history-import:cw_bot:4880	2026-08-28 13:55:05.802+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5209583889	pepajzik	STPS	\N	11140	11432	16187	cw_bot	history-import:cw_bot:5369	2026-08-20 18:05:20.789+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5212313671	superpositlon	S7NS	\N	78060	7070	16190	cw_bot	history-import:cw_bot:1484	2026-05-15 19:10:30.306+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5246280273	janjelinek3	POJO	\N	99010	6360	16189	cw_bot	history-import:cw_bot:6041	2026-08-09 09:04:37.217+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5254272309	shadow_ggofficial	H8M3	\N	499630	646	16190	cw_bot	history-import:cw_bot:1755	2026-05-28 21:55:36.515+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5291595908	iTTv6	3zEZ	\N	304390	2377	16190	cw_bot	history-import:cw_bot:4000	2026-04-12 21:22:33.583+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5313080791	HerzogDL	ROMU	\N	31040	9535	16190	cw_bot	history-import:cw_bot:947	2026-04-17 00:08:20.006+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5328968538	Iphone1835	SAM4	\N	57690	7967	16187	cw_bot	history-import:cw_bot:5191	2026-08-21 18:06:41.136+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5339963078	Kvetamin2	VLP	\N	26040	9913	16189	cw_bot	history-import:cw_bot:6539	2026-08-07 09:05:29.727+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5349160911	ArcticGalaxy14	🏰 Clan: **NONG**	\N	\N	306	16190	cw_bot	history-import:cw_bot:1176	2026-04-30 01:32:47.772+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5383071838	mr_895675	LXCC	\N	145280	5039	16188	cw_bot	history-import:cw_bot:7677	2026-08-14 20:23:40.83+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5414318030	demonfaarm3	2WEI	\N	41270	8867	16190	cw_bot	history-import:cw_bot:9354	2026-03-31 20:30:04.513+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5436365094	Bruin444444	st1z	\N	347330	1945	16189	cw_bot	history-import:cw_bot:2405	2026-08-10 00:49:21.439+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5510809744	moneyskallin	ORBI	\N	316540	2249	16189	cw_bot	history-import:cw_bot:2084	2026-07-19 11:32:01.392+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5514178688	Mason03388	SSQD	\N	10	15912	16190	cw_bot	history-import:cw_bot:4167	2026-04-12 21:05:45.162+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5516978036	omgitzmaatt3	_hot	\N	32420	9445	16187	cw_bot	history-import:cw_bot:9871	2026-08-23 11:16:05.962+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5534860785	rostislavvv155	HROT	\N	505520	612	16189	cw_bot	history-import:cw_bot:2859	2026-07-31 15:54:01.042+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5575261241	noliogames3	IWHN	\N	12690	11204	16189	cw_bot	history-import:cw_bot:9486	2026-08-04 08:47:00.84+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5615179956	MonsterWithGod	ROMU	\N	246990	3127	16190	cw_bot	history-import:cw_bot:4142	2026-04-12 21:05:00.581+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5623447261	quoicoubeh5608	RATZ	\N	2720	13201	16189	cw_bot	history-import:cw_bot:6210	2026-08-08 20:49:37.159+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5650573054	bezorzyfarm1	NEXH	\N	70630	7365	16188	cw_bot	history-import:cw_bot:7621	2026-08-14 23:31:00.271+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5703128088	elnubsen	SOPU	\N	507750	603	16190	cw_bot	history-import:cw_bot:3865	2026-04-05 06:56:35.208+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5771998323	Tadeas5303	IDF	\N	24100	10070	16189	cw_bot	history-import:cw_bot:7148	2026-07-30 15:42:22.574+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5793778586	PeaceAllAlone	UN0	\N	623920	249	16190	cw_bot	history-import:cw_bot:8084	2026-04-26 19:32:34.93+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5818869297	knoxcoder	SOPU	\N	583340	331	16189	cw_bot	history-import:cw_bot:3020	2026-07-29 13:28:15.912+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	5825369243	DahRealXaViMaVi2	LXCC	\N	26110	9906	16189	cw_bot	history-import:cw_bot:549	2026-07-17 18:48:43.803+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	6109731708	YoBaskett	W2VY	\N	552540	423	16189	cw_bot	history-import:cw_bot:427	2026-07-17 18:47:23.21+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	6152351002	qule11	NrGr	\N	54770	8116	16189	cw_bot	history-import:cw_bot:6015	2026-08-10 09:02:30.295+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	6156770625	pepajzikv2	STPS	\N	253940	3038	16187	cw_bot	history-import:cw_bot:5382	2026-08-20 18:30:12.586+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7005100565	Crazypuzzlehead15	Goop	\N	233890	3328	16189	cw_bot	history-import:cw_bot:2469	2026-08-01 09:28:25.648+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7144927541	linya_w	2WEI	\N	16740	10727	16190	cw_bot	history-import:cw_bot:8567	2026-06-27 16:58:18.228+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7426690057	Duckyphant	H8M3	\N	654100	196	16188	cw_bot	history-import:cw_bot:5639	2026-08-14 22:07:36.457+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7492577011	XBLTAZEEEE	V015	\N	325500	2161	16190	cw_bot	history-import:cw_bot:9084	2026-07-03 23:49:41.902+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7552499616	ll4cki	L4ki	\N	60120	7844	16188	cw_bot	history-import:cw_bot:9435	2026-08-14 10:30:26.862+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7583161395	Tgzzgzzltg33	HROT	\N	108610	6052	16189	cw_bot	history-import:cw_bot:7265	2026-07-27 11:39:20.283+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7710452262	hrac_821	BDX	\N	83	15420	16189	cw_bot	history-import:cw_bot:6003	2026-08-10 07:17:41.604+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7742077490	sirwabbs	H2RM	\N	623650	250	16189	cw_bot	history-import:cw_bot:4640	2026-08-02 03:35:57.878+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7806857762	selena082319	W2VY	\N	446860	931	16189	cw_bot	history-import:cw_bot:375	2026-07-17 18:33:34.992+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7811627595	Star_1110789	x75p	\N	17710	10649	16190	cw_bot	history-import:cw_bot:916	2026-05-01 16:32:32.474+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7824029976	nubnubsen	S2PU	\N	116920	5815	16190	cw_bot	history-import:cw_bot:9078	2026-07-04 15:59:25.721+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	7943415059	SAE14RBLX	Fm4L	\N	19520	10480	16190	cw_bot	history-import:cw_bot:991	2026-04-18 02:19:37.646+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	8087930970	sleeperb99	OTTR	\N	77800	7078	16189	cw_bot	history-import:cw_bot:9026	2026-07-17 16:18:36.71+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	8187537946	nzr5581	V1LN	\N	229250	3405	16190	cw_bot	history-import:cw_bot:8194	2026-04-23 19:12:26.428+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	8202998917	StanleyFox92	AV3Y	\N	435780	1027	16190	cw_bot	history-import:cw_bot:17	2026-04-25 12:24:19.176+00
+BlockPartyBattle	Block Party Battle	blockpartybattle	8475046930	abudsami2012	MSRE	\N	54600	8126	16189	cw_bot	history-import:cw_bot:2798	2026-07-31 16:10:12.865+00
+\.
+
+
+--
+-- PostgreSQL database dump complete
+--
+
+\unrestrict dGgtXrvsY3esN4v0nmN4lzbkfNXhpXTv7Ae2svaBtGcaNj0RqGnnxzjhlctr3Rd
+
+
+COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+\.
