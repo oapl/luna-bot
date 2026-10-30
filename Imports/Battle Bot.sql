@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 9Sib4gMyLIOAFpnbRURornLYBfJH982CWdta9GgHR9VZmWmCQZb4nr0sKv8xHwO
+\restrict nFVnpcBIj2VMh9XncXmNlsL9zR6rsgbNoXXjpuaxQzYHUhsScOdD9YM1lhqAmyW
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -184,5 +184,5 @@ SELECT pg_catalog.setval('imports.battle_bot_record_id_seq', 146, true);
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 9Sib4gMyLIOAFpnbRURornLYBfJH982CWdta9GgHR9VZmWmCQZb4nr0sKv8xHwO
+\unrestrict nFVnpcBIj2VMh9XncXmNlsL9zR6rsgbNoXXjpuaxQzYHUhsScOdD9YM1lhqAmyW
 

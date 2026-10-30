@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict J9HBYqtbHeo4qHb5QdyPOb9VzvOW8LPFkYYQaS8LcGJwGKRrOABXqo49JNGLslS
+\restrict cwZUoAS6Bl1zPgcxdkipGgzLyPrnmARbTsw5kN03K0akXArfZxceipYqEJJzjcw
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,472 +23,516 @@ SET row_security = off;
 -- Data for Name: Gingerbread Battle 2025; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Gingerbread Battle 2025" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-Christmas2025	Gingerbread Battle 2025	christmas2025	3567067280	Kurtis2345789	ROMU	\N	2710000	857	17675	cw_bot	history-import:cw_bot:583	2026-05-19 20:18:17.483+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3589740153	WhosStarl1ght	0RBI	\N	1050000	2194	17675	cw_bot	history-import:cw_bot:1290	2026-05-04 17:16:23.567+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3602402808	Flexsnack21	UNTY	\N	1470000	1608	17675	cw_bot	history-import:cw_bot:1200	2026-05-01 08:05:11.74+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3753977683	mybanana367	NONG	\N	3440000	633	17675	cw_bot	history-import:cw_bot:1464	2026-05-13 21:54:17.124+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3853349557	melpatate12	BOSS	\N	434950	3945	17675	cw_bot	history-import:cw_bot:965	2026-04-18 02:12:53.563+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3940781859	tigran_2206	BEZE	\N	10390	14095	17674	cw_bot	history-import:cw_bot:861	2026-07-17 18:56:54.568+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4035198924	ytpandaroux	R0MU	\N	341820	4520	17674	cw_bot	history-import:cw_bot:926	2026-07-08 19:17:13.13+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4097051785	yO_aDzeY	dace	\N	207800	5870	17675	cw_bot	history-import:cw_bot:1667	2026-05-23 10:59:06.769+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4238790853	samsam16725	ROMU	\N	1520000	1571	17675	cw_bot	history-import:cw_bot:91	2026-06-19 21:20:32.05+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4242955713	KazuyaTTV	S2PU	\N	861300	2559	17675	cw_bot	history-import:cw_bot:210	2026-05-01 10:25:23.892+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4540869398	proto123q	NS4R	\N	352240	4445	17674	cw_bot	history-import:cw_bot:564	2026-07-17 18:49:06.221+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4759297476	psst1422	HROT	\N	10690000	100	17675	cw_bot	history-import:cw_bot:141	2026-05-20 23:35:12.448+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4792692703	ced123zx	ROMU	\N	1830000	1299	17674	cw_bot	history-import:cw_bot:710	2026-07-17 18:57:41.576+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4862026237	TurtlesRCool900	quop	\N	63510	9636	17674	cw_bot	history-import:cw_bot:639	2026-07-17 18:56:39.836+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4916438361	ArmNotPro	st1z	\N	17240	13550	17674	cw_bot	history-import:cw_bot:806	2026-07-17 18:58:43.871+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4957497369	ammi0729	BOSS	\N	548500	3414	17675	cw_bot	history-import:cw_bot:978	2026-04-18 02:13:35.573+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4989918296	PtiDoriankt	ROMU	\N	812820	2642	17674	cw_bot	history-import:cw_bot:842	2026-07-17 18:56:47.208+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4999104751	Speaxk17	POPS	\N	71460	9274	17675	cw_bot	history-import:cw_bot:1622	2026-05-21 01:10:10.679+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5120642383	hydra_dynamo71	DHFA	\N	177640	6361	17675	cw_bot	history-import:cw_bot:1677	2026-05-23 12:52:57.165+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5254272309	shadow_ggofficial	M4RB	\N	10280000	107	17675	cw_bot	history-import:cw_bot:1753	2026-05-28 21:55:36.515+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5407742794	baba_gamer239	ROMU	\N	581470	3281	17675	cw_bot	history-import:cw_bot:1580	2026-05-20 17:25:36.224+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5798456185	Vojta_44l3	W0m1	\N	10	17576	17675	cw_bot	history-import:cw_bot:1954	2026-06-26 17:07:22.713+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5825369243	DahRealXaViMaVi2	M4RB	\N	5190000	366	17674	cw_bot	history-import:cw_bot:546	2026-07-17 18:48:43.803+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	6109731708	YoBaskett	W2VY	\N	6570000	241	17674	cw_bot	history-import:cw_bot:424	2026-07-17 18:47:23.21+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7232809185	Kessho02	PEND	\N	2070000	1154	17674	cw_bot	history-import:cw_bot:601	2026-07-17 18:49:22.998+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7806857762	selena082319	W2VY	\N	1860000	1282	17674	cw_bot	history-import:cw_bot:372	2026-07-17 18:33:34.992+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7811627595	Star_1110789	dohw	\N	23360000	21	17675	cw_bot	history-import:cw_bot:914	2026-05-01 16:32:32.474+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	109818	Cinnamowopal	NONG	\N	1340000	1772	17675	cw_bot	history-import:cw_bot:155	2026-04-27 00:46:27.41+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1533791	clankbot	UN0	\N	61240	9768	17675	cw_bot	history-import:cw_bot:1703	2026-05-23 13:09:17.782+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	14538110	joeycb	SOPU	\N	27770000	12	17675	cw_bot	history-import:cw_bot:1683	2026-05-23 12:54:45.542+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	23260643	crazyblox6677	ANG	30	266000	30	\N	external_import	history-import:big_bot:961	2026-07-28 22:03:29.525+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	31989428	zoggi10	V1LN	\N	4330000	480	17674	cw_bot	history-import:cw_bot:4607	2026-08-04 07:49:22.305+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	34780360	dominikozdin05	ROGU	\N	2060000	1158	17674	cw_bot	history-import:cw_bot:5995	2026-08-10 13:20:16.13+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	90767636	bobdog751	V1LN	\N	3100000	711	17675	cw_bot	history-import:cw_bot:8127	2026-04-27 21:06:33.398+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	120904005	nublet28	BYRD	\N	3130000	700	17675	cw_bot	history-import:cw_bot:8438	2026-07-03 22:38:52.17+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	125272790	ur_salty091	XBOX	\N	21350000	27	17675	cw_bot	history-import:cw_bot:1915	2026-06-21 04:13:46.321+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	136661329	ghanta2a	CC4T	\N	2010	15684	17675	cw_bot	history-import:cw_bot:8100	2026-04-26 23:31:56.073+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	138619446	darkenedwishes	EXP	\N	380760	4264	17675	cw_bot	history-import:cw_bot:2002	2026-06-28 16:26:03.666+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	156957387	itsminerr	ORBI	\N	3510000	617	17674	cw_bot	history-import:cw_bot:2151	2026-08-01 03:26:51.039+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	160551060	firethrower0	3zEZ	\N	2810000	821	17674	cw_bot	history-import:cw_bot:2742	2026-07-31 17:13:09.457+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	165817996	16_BitPotato	UN0	\N	4000	15096	17674	cw_bot	history-import:cw_bot:4521	2026-08-04 19:56:26.259+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	170719079	tnocko	HROT	\N	2010000	1179	17674	cw_bot	history-import:cw_bot:2285	2026-08-12 07:40:01.692+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	184309752	expellez	SOPU	\N	3450000	627	17675	cw_bot	history-import:cw_bot:1102	2026-04-25 23:28:51.667+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	192463394	NukeOfLava12	3zEZ	\N	2800000	827	17675	cw_bot	history-import:cw_bot:4127	2026-04-12 20:31:33.085+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	194076029	Gromic5876	MNBB	\N	341200	4525	17674	cw_bot	history-import:cw_bot:6096	2026-08-08 23:25:51.173+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	200273468	kubaill	X_Ms	\N	124670	7513	17674	cw_bot	history-import:cw_bot:6553	2026-08-06 00:48:24.483+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	210966410	onoraksal	hlx	\N	914160	2454	17672	cw_bot	history-import:cw_bot:8778	2026-08-15 13:55:15.256+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	241713789	J2X1NESIWXID	DLOW	\N	9940	14325	17674	cw_bot	history-import:cw_bot:747	2026-07-17 18:58:04.211+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	245484862	skippythomas	st1z	\N	188950	6178	17674	cw_bot	history-import:cw_bot:7613	2026-08-11 19:40:41.113+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	250562586	zcm_Xi	CC4T	\N	171320	6458	17674	cw_bot	history-import:cw_bot:4361	2026-08-09 17:51:30.585+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	254885188	Prodav1	SULS	\N	902500	2481	17674	cw_bot	history-import:cw_bot:8000	2026-07-08 14:39:05.73+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	296854741	Cinco112309	XBOX	\N	1350000	1755	17674	cw_bot	history-import:cw_bot:2806	2026-07-31 16:11:19.068+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	331930897	gogeta363	TLGZ	\N	41210	11081	17674	cw_bot	history-import:cw_bot:4378	2026-08-09 04:19:11.832+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	343511782	octojabb	SLRP	\N	2750000	846	17675	cw_bot	history-import:cw_bot:9243	2026-04-30 14:51:23.517+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	351614770	WhoIsGhoso	S2AR	\N	299480	4878	17674	cw_bot	history-import:cw_bot:10030	2026-08-08 18:26:33.344+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	365225419	prorik228	07W	\N	40000	11182	17674	cw_bot	history-import:cw_bot:7909	2026-07-08 14:30:35.5+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	418400389	vojtaprovaznik	VLP2	\N	1210	16186	17671	cw_bot	history-import:cw_bot:4938	2026-08-26 06:26:26.509+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	419588952	got207	0GG0	\N	148330	6948	17675	cw_bot	history-import:cw_bot:3966	2026-04-12 22:21:39.424+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	423460663	bub2540	S2PU	\N	1740000	1370	17675	cw_bot	history-import:cw_bot:1504	2026-05-16 12:19:40.788+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	425660194	chinovelaz	3zEZ	\N	4780000	420	17675	cw_bot	history-import:cw_bot:4148	2026-04-12 20:33:18.646+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	435823564	brandon292016	3zEZ	\N	4070000	525	17675	cw_bot	history-import:cw_bot:1031	2026-04-20 06:06:34.027+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	438538044	Tissemanneke	ENTS	\N	430530	3971	17674	cw_bot	history-import:cw_bot:9547	2026-08-02 14:48:44.12+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	445901501	USECODE_THAT1NPC	3zEZ	\N	4790000	419	17675	cw_bot	history-import:cw_bot:4217	2026-04-12 20:09:26.048+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	452314193	LandOfDoggos	V1LN	\N	6680000	236	17675	cw_bot	history-import:cw_bot:9185	2026-06-23 15:37:48.38+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	456142044	icyy_il	H8M3	\N	740	16708	17674	cw_bot	history-import:cw_bot:2389	2026-08-10 10:39:29.018+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	462497307	Corey_Bailey	\N	\N	106010	8054	17674	cw_bot	history-import:cw_bot:9983	2026-08-09 06:10:03.038+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	463900811	AgentP_0928	NONG	\N	11460000	94	17675	cw_bot	history-import:cw_bot:647	2026-04-26 04:08:51.656+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	490804310	kubas1018	NUUP	\N	1850000	1288	17675	cw_bot	history-import:cw_bot:3741	2026-04-20 12:22:31.231+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	496935076	mawahlah	07W	192	\N	192	\N	external_import	history-import:big_bot:1002	2026-07-14 22:15:26.046+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	501328621	wigglywoo321	T0KS	\N	805090	2660	17674	cw_bot	history-import:cw_bot:2665	2026-08-01 00:14:18.246+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	502312785	tomasek8557	BDX	\N	1520000	1567	17671	cw_bot	history-import:cw_bot:5449	2026-08-19 16:40:59.801+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	503486505	campagnolo5	V1LN	\N	7150000	202	17672	cw_bot	history-import:cw_bot:7656	2026-08-16 14:51:20.144+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	518710094	mrlol4315	V1LN	\N	12560000	80	17674	cw_bot	history-import:cw_bot:2791	2026-07-31 16:01:39.344+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	532884141	walosdan	VLP2	\N	203700	5935	17674	cw_bot	history-import:cw_bot:5916	2026-08-12 18:39:07.299+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	538266747	Judah3000	XBOX	\N	517950	3554	17674	cw_bot	history-import:cw_bot:7845	2026-07-08 14:31:05.959+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	539895181	sportsboy2626	PIX3	\N	4590	14987	17674	cw_bot	history-import:cw_bot:4406	2026-08-08 07:25:07.846+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	544198160	JimmyCIeetus	S7NS	\N	791380	2691	17674	cw_bot	history-import:cw_bot:472	2026-07-17 18:47:56.313+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	573589049	nerfbro9000	GSTG	\N	135630	7240	17675	cw_bot	history-import:cw_bot:9400	2026-03-26 19:15:43.999+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	573955632	Johanplayzrb21	S7NS	\N	249600	5348	17675	cw_bot	history-import:cw_bot:993	2026-04-18 02:22:53.465+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	575710785	moko_193	\N	\N	\N	1892	17675	cw_bot	history-import:cw_bot:3545	2026-03-12 11:06:38.244+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	587622297	Raihania54321	ESD	\N	234590	5525	17675	cw_bot	history-import:cw_bot:1023	2026-04-19 21:12:31.376+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	587994363	Real_RoNexq	EDS1	\N	1260000	1862	17674	cw_bot	history-import:cw_bot:3155	2026-07-27 16:53:43.006+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	588437757	beastbrody12345	LX2C	\N	3000000	756	17671	cw_bot	history-import:cw_bot:8595	2026-08-21 00:15:42.209+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	588685015	jonis_chicken	XBOX	\N	3650000	602	17675	cw_bot	history-import:cw_bot:9208	2026-06-13 20:55:03.535+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	597362770	marcelgolem	🏰 Clan: **RAKI**	\N	\N	1590	17675	cw_bot	history-import:cw_bot:3665	2026-03-23 19:44:54.3+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	621412324	dabcat818	S7NS	\N	2250000	1048	17675	cw_bot	history-import:cw_bot:1777	2026-06-07 17:32:51.445+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	646372767	904aj603	st1z	\N	563160	3350	17675	cw_bot	history-import:cw_bot:1116	2026-04-27 02:09:16.229+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	653179078	killinBABYS111	V1LN	\N	12240000	82	17675	cw_bot	history-import:cw_bot:8283	2026-04-15 20:29:26.949+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	656420117	MercilessBanditTaken	NS4R	\N	748360	2803	17675	cw_bot	history-import:cw_bot:167	2026-04-19 13:44:30.618+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	659542061	rrodgers0206	POPS	\N	1750000	1362	17674	cw_bot	history-import:cw_bot:731	2026-07-17 18:57:55.775+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	661099895	patcola2010	V1LN	\N	6280000	265	17674	cw_bot	history-import:cw_bot:7797	2026-07-24 00:04:23.322+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	688928053	Noahangrybird1234	V1LN	\N	9220000	126	17675	cw_bot	history-import:cw_bot:8347	2026-04-06 08:29:37.081+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	704550307	osmanefe334	S2PU	\N	276880	5070	17675	cw_bot	history-import:cw_bot:8338	2026-04-06 08:27:50.069+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	709222551	Theozzz12	S7NS	\N	26250	12477	17675	cw_bot	history-import:cw_bot:8165	2026-04-26 15:05:43.056+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	722456679	mujiTABA1	\N	\N	1670000	1426	17675	cw_bot	history-import:cw_bot:2017	2026-06-28 16:42:57.557+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	730772803	sidsew	HSTL	\N	305500	4811	17671	cw_bot	history-import:cw_bot:7535	2026-08-25 14:36:17.613+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	757692049	Hulkian1	V1LN	\N	3560000	616	17675	cw_bot	history-import:cw_bot:8302	2026-03-28 21:21:50.541+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	779059828	jimynew	SS1N	\N	75750	9121	17675	cw_bot	history-import:cw_bot:1533	2026-05-16 23:39:36.553+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	790873913	homless9	STPS	\N	110010	7928	17674	cw_bot	history-import:cw_bot:6443	2026-08-06 17:44:57.059+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	808679837	sqirtel50	KOHV	\N	5140000	370	17674	cw_bot	history-import:cw_bot:2418	2026-08-09 16:10:37.911+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	810054419	catloncat	3zEZ	\N	838410	2605	17675	cw_bot	history-import:cw_bot:4019	2026-04-12 21:24:49.553+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	844720150	Sebastjan35	NONG	\N	2710000	856	17674	cw_bot	history-import:cw_bot:527	2026-07-17 18:48:35.159+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	852170656	vojitano	wTB	\N	481380	3703	17671	cw_bot	history-import:cw_bot:5064	2026-08-23 12:46:22.495+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	853833436	Mr_sallus	PKGR	\N	2160000	1094	17672	cw_bot	history-import:cw_bot:5803	2026-08-14 17:47:12.873+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	864632403	galaxyknight9204	S2PU	\N	1980000	1200	17675	cw_bot	history-import:cw_bot:1765	2026-05-29 01:34:02.793+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	877353566	lpvarmi	VLP	\N	1670000	1427	17674	cw_bot	history-import:cw_bot:7206	2026-07-29 20:25:50.738+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	877593504	kral_geldi123	V1LN	\N	2310000	1024	17675	cw_bot	history-import:cw_bot:9380	2026-04-02 02:39:58.035+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	884971222	henchal13	FGZW	\N	93080	8451	17675	cw_bot	history-import:cw_bot:9308	2026-04-19 12:19:45.145+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	904244953	MetaStreamz	AWZY	\N	51170000	5	17675	cw_bot	history-import:cw_bot:1656	2026-05-21 10:33:45.865+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	911932139	Daniel8czs	HROT	\N	4710000	426	17674	cw_bot	history-import:cw_bot:6805	2026-08-01 11:19:39.153+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	915515621	math33g4	AR2Y	\N	4170000	505	17674	cw_bot	history-import:cw_bot:7948	2026-07-08 14:35:53.418+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	955175856	fatalwaccle	3zEZ	\N	4310000	484	17675	cw_bot	history-import:cw_bot:4177	2026-04-12 20:31:29.037+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	968065508	eEmsorry	PAAC	\N	51210	10417	17674	cw_bot	history-import:cw_bot:9056	2026-07-09 08:48:58.97+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1000059115	rimonus	SOPU	\N	59910000	1	17675	cw_bot	history-import:cw_bot:1799	2026-06-13 11:10:39.923+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1024664859	NotArsann7	AR2Y	\N	19250000	33	17675	cw_bot	history-import:cw_bot:1249	2026-05-03 05:34:41.421+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1049702109	realchaseblox	FaZ	\N	2070000	1154	17675	cw_bot	history-import:cw_bot:1307	2026-05-05 21:59:20.786+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1060055099	mimo_4	Lanf	\N	1140000	2031	17674	cw_bot	history-import:cw_bot:6730	2026-08-04 10:19:23.697+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1081067684	mimilrol	ROMU	\N	1290000	1826	17674	cw_bot	history-import:cw_bot:402	2026-07-17 18:47:08.019+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1100810390	Starslikebirds	7HRW	\N	618620	3159	17674	cw_bot	history-import:cw_bot:4683	2026-08-01 01:45:14.128+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1128913028	proivano10	WOTF	\N	154700	6785	17674	cw_bot	history-import:cw_bot:2895	2026-07-31 15:15:45.624+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1137640592	clackerskill	V1LN	\N	8150000	158	17674	cw_bot	history-import:cw_bot:4655	2026-08-01 00:22:28.841+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1146217738	xXjirkaXxboys	SJCJ	\N	641090	3085	17675	cw_bot	history-import:cw_bot:4041	2026-04-12 22:01:07.439+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1157052710	laughytrex	XPQX	\N	208760	5852	17675	cw_bot	history-import:cw_bot:885	2026-04-24 03:00:59.658+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1163321217	protozejelen	LV13	\N	71170	9296	17674	cw_bot	history-import:cw_bot:7129	2026-07-30 15:23:48.828+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1171409734	tominko130	tNo	\N	615170	3170	17674	cw_bot	history-import:cw_bot:6322	2026-08-07 12:38:50.885+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1178078831	mavilure	NONG	\N	1020000	2263	17675	cw_bot	history-import:cw_bot:9107	2026-07-04 02:37:26.103+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1179507007	tomisek134	VPT0	\N	4160000	506	17674	cw_bot	history-import:cw_bot:4736	2026-08-11 18:03:07.712+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1215733674	M_parker234	1DOL	\N	1200	16226	17675	cw_bot	history-import:cw_bot:1696	2026-05-23 12:58:36.466+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1221841742	Azurqson	SOPU	\N	26620000	13	17675	cw_bot	history-import:cw_bot:3780	2026-04-06 19:59:26.612+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1232493274	MARYNADA058	VLP	\N	27220	12413	17674	cw_bot	history-import:cw_bot:6884	2026-07-31 20:00:25.469+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1243643868	ASEYIsoos	SOPU	\N	2570000	900	17674	cw_bot	history-import:cw_bot:9421	2026-08-12 22:46:12.145+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1253134958	Emalele093	EDS1	\N	792130	2689	17674	cw_bot	history-import:cw_bot:3169	2026-07-27 16:55:04.085+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1277089394	LUVALICEEXO	V1LN	\N	3230000	673	17675	cw_bot	history-import:cw_bot:9256	2026-04-28 15:57:56.007+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1279232695	Ac3scar	B33Z	\N	212580	5814	17675	cw_bot	history-import:cw_bot:240	2026-05-10 02:13:40.5+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1283935690	Laura_V13	M4RB	\N	1790000	1330	17674	cw_bot	history-import:cw_bot:4339	2026-08-09 17:50:39.523+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1286384664	uzuisnipes	W2VY	\N	10140000	108	17674	cw_bot	history-import:cw_bot:333	2026-07-17 18:33:12.116+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1294169389	crazy_blox6677	ANG_	\N	176000	6391	17674	cw_bot	history-import:cw_bot:2614	2026-07-31 20:54:30.508+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1294494054	Ethanblaze112	dohw	\N	1180000	1976	17675	cw_bot	history-import:cw_bot:8318	2026-04-03 19:35:37.401+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1322640473	Barsuchonok23	dace	\N	453300	3838	17674	cw_bot	history-import:cw_bot:2653	2026-07-31 22:58:18.195+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1326160949	VeriseQ1996	HROT	\N	3780000	571	17671	cw_bot	history-import:cw_bot:5234	2026-08-21 19:32:55.468+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1330097404	tomasbudik007	HROT	\N	6760000	227	17674	cw_bot	history-import:cw_bot:7094	2026-07-30 18:00:28.62+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1351524241	ARSENAEAL	AX3T	\N	145170	6999	17674	cw_bot	history-import:cw_bot:7250	2026-07-27 22:16:37.398+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1362185234	BWL2020	dewp	\N	322980	4680	17675	cw_bot	history-import:cw_bot:1074	2026-04-25 16:45:57.107+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1371972870	sgteliteleo	V1LN	\N	5550000	325	17674	cw_bot	history-import:cw_bot:7735	2026-08-05 22:50:31.029+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1373748557	poopsmcgoops132	🏰 Clan: **dohw**	\N	1970000	1202	17675	cw_bot	history-import:cw_bot:8363	2026-04-24 01:57:13.047+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1376213247	eric23129	DLOW	\N	19100	13390	17675	cw_bot	history-import:cw_bot:3934	2026-06-26 14:54:31.345+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1380082703	Allalboy2	7HRW	\N	4790000	418	17675	cw_bot	history-import:cw_bot:8210	2026-04-08 19:50:25.995+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1381505419	0LDBS	V1LN	\N	4920000	398	17675	cw_bot	history-import:cw_bot:8463	2026-06-17 00:36:35.957+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1384716628	barti12345610	LSQ	\N	105580	8067	17674	cw_bot	history-import:cw_bot:8525	2026-07-21 19:41:58.049+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1386665561	nuxx7	HSTL	\N	246280	5391	17675	cw_bot	history-import:cw_bot:269	2026-05-17 10:44:35.489+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1403606137	GhostWhisperer03	PAAC	\N	28380	12332	17674	cw_bot	history-import:cw_bot:6907	2026-08-01 01:11:48.951+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1409166088	treytonpeterbuilt	GSTG	\N	1080000	2128	17675	cw_bot	history-import:cw_bot:1365	2026-05-07 00:27:08.494+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1428528797	play998755	HR3T	\N	680	16719	17674	cw_bot	history-import:cw_bot:7283	2026-07-26 21:50:12.767+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1437069784	oldmanwrinklenose	AR2Y	\N	2040000	1170	17675	cw_bot	history-import:cw_bot:3897	2026-05-25 16:50:02.805+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1462748729	dragonballx1412	NONG	22	3320000	655	17674	cw_bot	history-import:big_bot:67	2026-07-17 01:03:33.384+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1469224615	TheRealToonster	3zEZ	\N	6730000	232	17675	cw_bot	history-import:cw_bot:1086	2026-04-25 23:24:03.687+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1470086836	jman8960	3GM6	\N	2290000	1030	17674	cw_bot	history-import:cw_bot:2768	2026-07-31 18:44:32.707+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1476403654	dilerij2	BEZE	\N	2220000	1061	17675	cw_bot	history-import:cw_bot:2069	2026-07-01 18:46:57.039+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1501050755	RealYTStarz	st1z	15	10530000	103	17675	cw_bot	history-import:big_bot:1034	2026-06-27 18:27:30.824+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1501625591	floriansamuraiu	07W	\N	1040000	2211	17674	cw_bot	history-import:cw_bot:7899	2026-07-08 14:32:48.38+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1509495433	arrume_aparte12	dewp	\N	373590	4294	17674	cw_bot	history-import:cw_bot:8017	2026-07-08 14:39:41.28+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1510971300	Informix_CZ	KMo	\N	694450	2938	17674	cw_bot	history-import:cw_bot:6220	2026-08-08 08:18:03.311+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1519381006	CloudyVR65	S2PU	\N	2780000	836	17675	cw_bot	history-import:cw_bot:1137	2026-04-27 02:10:48.062+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1519933607	JustCaIIMeEgg	NS4R	\N	260000	5222	17674	cw_bot	history-import:cw_bot:497	2026-07-17 18:48:12.453+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1520358099	FlipFlopFloop417	CC4T	\N	664050	3014	17674	cw_bot	history-import:cw_bot:350	2026-07-17 18:33:20.942+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1523688491	runea6	DHFA	\N	541280	3441	17675	cw_bot	history-import:cw_bot:3978	2026-04-12 22:19:46.23+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1528718508	strykertoff	XPQX	\N	225860	5639	17675	cw_bot	history-import:cw_bot:1262	2026-05-03 14:42:25.308+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1531503047	papa_ilse	🏰 Clan: **LXCC**	\N	\N	635	17675	cw_bot	history-import:cw_bot:1057	2026-04-24 02:11:16.259+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1537916189	MailDaCoolKid	SOPU	\N	5730000	312	17675	cw_bot	history-import:cw_bot:9193	2026-06-19 13:04:44.383+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1539398349	Darkszern	SOPU	\N	4550000	447	17674	cw_bot	history-import:cw_bot:4567	2026-08-04 19:57:01.734+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1546214233	ninjaogifox	0RBI	\N	246680	5384	17674	cw_bot	history-import:cw_bot:5974	2026-08-10 21:49:03.348+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1573629774	mkmike27mk	XPQX	\N	8300000	156	17675	cw_bot	history-import:cw_bot:252	2026-05-16 17:04:30.807+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1581306248	Robloxak_Honiik	KMo	\N	1360000	1731	17672	cw_bot	history-import:cw_bot:5830	2026-08-14 19:05:13.93+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1583648375	KeyzziHD94	GSTG	\N	3300000	660	17674	cw_bot	history-import:cw_bot:284	2026-07-17 17:28:11.535+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1585438984	dontchallengeme2	KOHV	\N	1440000	1649	17674	cw_bot	history-import:cw_bot:680	2026-07-17 18:57:20.291+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1587906543	wexfordfox	V1LN	\N	15330000	54	17675	cw_bot	history-import:cw_bot:9283	2026-04-29 12:14:55.272+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1588037884	gamingISbest13	V1LN	\N	13130000	71	17671	cw_bot	history-import:cw_bot:8734	2026-08-17 23:15:43.389+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1592738293	1ncr3d1bl3sulk	x75p	\N	939220	2414	17675	cw_bot	history-import:cw_bot:1275	2026-05-03 22:19:36.985+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1596560199	wiegehtdennsowas	XBOX	\N	7390000	191	17675	cw_bot	history-import:cw_bot:9317	2026-04-05 16:35:34.64+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1599021912	aidz123457	FGZW	\N	2420000	978	17675	cw_bot	history-import:cw_bot:4037	2026-04-12 22:01:39.552+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1605744856	jackster_theman	EDS1	\N	101200	8203	17675	cw_bot	history-import:cw_bot:1961	2026-06-26 17:58:01.449+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1613882953	toastedpoptartonyt	CXTG	\N	1080000	2131	17671	cw_bot	history-import:cw_bot:9915	2026-08-18 18:50:20.423+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1617221713	waheedplayzYT	SOPU	\N	6740000	230	17674	cw_bot	history-import:cw_bot:7779	2026-07-22 21:12:43.733+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1626378539	Fulda645	EXP	\N	3290000	666	17675	cw_bot	history-import:cw_bot:8141	2026-04-28 12:17:49.765+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1628693493	Eastonhall09	AWZY	\N	1060000	2174	17674	cw_bot	history-import:cw_bot:4321	2026-08-09 18:59:13.271+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1652197454	fighter92399_alt	NONG	\N	5980000	287	17675	cw_bot	history-import:cw_bot:1828	2026-06-16 00:22:27.481+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1670011733	Kono9595	HROT	\N	3300000	662	17674	cw_bot	history-import:cw_bot:6372	2026-08-07 18:53:41.202+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1672034827	coolguy35166	SOPU	\N	25160000	16	17675	cw_bot	history-import:cw_bot:8378	2026-04-06 22:11:51.888+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1676340458	AgreedFlower11	0RBI	\N	391630	4195	17674	cw_bot	history-import:cw_bot:614	2026-07-17 18:49:30.27+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1683480006	kminoscz	KMo	\N	4620000	438	17674	cw_bot	history-import:cw_bot:7075	2026-07-30 17:15:30.786+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1685635748	farmboyjetw	BOSS	\N	3910000	544	17675	cw_bot	history-import:cw_bot:8306	2026-04-02 20:23:10.489+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1690820953	1tombay	BEZE	\N	600000	3225	17675	cw_bot	history-import:cw_bot:1714	2026-05-23 14:09:54.985+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1736229929	MgFireDark128	\N	\N	\N	374	17675	cw_bot	history-import:cw_bot:3707	2026-03-12 17:58:27.842+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1748839707	XDbro234	fnue	\N	20160	13031	17674	cw_bot	history-import:cw_bot:2504	2026-08-01 10:44:01.654+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1750005492	averyhein1920	M4RB	\N	2570000	903	17675	cw_bot	history-import:cw_bot:8394	2026-06-17 00:11:42.038+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1759162396	9kbotzz	XBOX	\N	15720000	52	17675	cw_bot	history-import:cw_bot:9329	2026-04-05 20:49:49.97+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1780089241	dominikando11	3zEZ	\N	535220	3469	17675	cw_bot	history-import:cw_bot:4005	2026-04-12 21:23:47.034+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1787663283	TheBuilder5649	FGZW	\N	85190	8729	17675	cw_bot	history-import:cw_bot:4073	2026-04-12 22:03:03.052+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1818966891	Drak1735	HR2T	\N	4960000	391	17672	cw_bot	history-import:cw_bot:5843	2026-08-14 19:17:31.862+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1824713899	hayojeu2k	W2VY	\N	4100000	518	17674	cw_bot	history-import:cw_bot:666	2026-07-17 18:57:09.828+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1835808563	1213eric	dohw	\N	5570000	325	17675	cw_bot	history-import:cw_bot:1639	2026-05-21 04:56:29.857+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1876521711	MichalRooblox	A2H	\N	60400	9802	17674	cw_bot	history-import:cw_bot:6503	2026-08-06 18:51:22.342+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1881899133	Coxxman	VLP	\N	812280	2644	17674	cw_bot	history-import:cw_bot:7438	2026-07-13 19:26:57.695+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1895942489	ziomek1000oo	LSQ	\N	335730	4570	17671	cw_bot	history-import:cw_bot:7580	2026-08-19 21:17:39.542+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1909441823	EddieTeddy_2009	st1z	\N	1790000	1331	17674	cw_bot	history-import:cw_bot:2644	2026-07-31 22:57:16.616+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1909574870	jjdjsjsmsmmd	HROT	\N	5460000	339	17671	cw_bot	history-import:cw_bot:5034	2026-08-24 10:03:20.943+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1944841143	BEARDED_DRAGONGUY	karl	\N	726160	2857	17675	cw_bot	history-import:cw_bot:1897	2026-06-20 15:13:49.311+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1950318403	itsgaternotgator	W2VY	\N	1010000	2278	17675	cw_bot	history-import:cw_bot:306	2026-07-01 16:29:10.815+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1973447751	radkozahumensky5	HR2T	\N	1420000	1668	17671	cw_bot	history-import:cw_bot:4970	2026-08-24 18:50:27.632+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1986018475	Yazooony55	AXOK	\N	49730	10643	17674	cw_bot	history-import:cw_bot:2308	2026-08-12 18:23:23.035+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1996183705	humicek2020cz	HROT	\N	4080000	521	17671	cw_bot	history-import:cw_bot:5158	2026-08-23 06:34:54.553+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	1998984070	gamerguy9764	SOPU	\N	8920000	136	17675	cw_bot	history-import:cw_bot:1323	2026-05-06 02:10:01.919+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2005983585	shadowstaristhegoat	LXCC	\N	1440000	1641	17674	cw_bot	history-import:cw_bot:9556	2026-07-31 10:09:27.163+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2054521558	vaclav2011spk	BOFC	\N	4000	15148	17671	cw_bot	history-import:cw_bot:4954	2026-08-24 17:05:58.96+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2064474099	macejko998	K989	\N	18200	13464	17672	cw_bot	history-import:cw_bot:5601	2026-08-16 18:31:51.714+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2066465994	04AshKetchum	Aifo	\N	69280	9401	17674	cw_bot	history-import:cw_bot:3298	2026-07-24 18:07:21.258+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2066991689	Hroudelinka	Lusr	\N	208490	5851	17671	cw_bot	history-import:cw_bot:5013	2026-08-23 19:18:57.125+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2067834432	blazeeok	SOPU	\N	29380000	11	17674	cw_bot	history-import:cw_bot:3178	2026-07-26 20:02:36.593+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2226792909	Raptorik_gamer	HR2T	\N	403840	4120	17674	cw_bot	history-import:cw_bot:7422	2026-07-18 17:45:36.477+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2241042742	WallEExtreme	TSFA	\N	6410000	253	17674	cw_bot	history-import:cw_bot:8679	2026-07-15 16:36:29.044+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2251616291	miminkoxxxxczdd	VLP	\N	4560000	444	17672	cw_bot	history-import:cw_bot:7632	2026-08-15 11:12:28.99+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2257521302	Likynda2011	dewp	\N	167410	6538	17674	cw_bot	history-import:cw_bot:6024	2026-08-10 09:31:18.664+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2282416912	vae1oria	KLWN	\N	1300000	1823	17675	cw_bot	history-import:cw_bot:9295	2026-04-25 08:43:24.827+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2316325389	julimowi	S2PU	\N	2980000	763	17674	cw_bot	history-import:cw_bot:2727	2026-07-31 17:12:47.437+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2318308002	karelman1451	HROT	\N	4580000	442	17671	cw_bot	history-import:cw_bot:4910	2026-08-26 18:25:05.52+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2320688195	daihukumochi223	2WEI	\N	3690000	595	17675	cw_bot	history-import:cw_bot:8551	2026-06-17 03:04:38.757+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2349313768	crystalboyo256	S7PY	\N	68200	9447	17674	cw_bot	history-import:cw_bot:2973	2026-07-30 10:49:42.699+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2349773489	jsemdobrejkabe	ROGU	\N	1130000	2041	17674	cw_bot	history-import:cw_bot:6234	2026-08-08 09:15:39.653+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2362381309	Hopkins113528	\N	\N	\N	2661	17675	cw_bot	history-import:cw_bot:3555	2026-03-12 23:11:23.473+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2374805653	dhsfwfwef	HR2T	\N	1010000	2281	17674	cw_bot	history-import:cw_bot:6086	2026-08-08 22:12:37.796+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2375471082	RayquazaPlayz_yt	FMLY	\N	865130	2551	17675	cw_bot	history-import:cw_bot:4107	2026-04-12 20:27:06.36+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2390532251	sirnative	D4NG	\N	1830000	1292	17675	cw_bot	history-import:cw_bot:1949	2026-06-22 02:40:06.54+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2398510848	noobatobbysman	CLKJ	\N	728260	2854	17675	cw_bot	history-import:cw_bot:4035	2026-04-12 22:00:51.566+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2399889452	starwax85	V1LN	\N	19560000	30	17674	cw_bot	history-import:cw_bot:7760	2026-07-17 15:53:21.548+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2420801797	0k_0w	eguh	\N	572520	3307	17674	cw_bot	history-import:cw_bot:440	2026-07-17 18:47:32.43+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2431643806	1KRUCHY	XREX	\N	4300000	487	17675	cw_bot	history-import:cw_bot:8055	2026-06-23 16:35:49.505+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2443619256	mihokkon	UNO	\N	1370000	1721	17675	cw_bot	history-import:cw_bot:3755	2026-04-17 00:20:59.211+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2451180568	SuperSpeedyC_12345	3zEZ	\N	8630000	143	17674	cw_bot	history-import:cw_bot:2940	2026-07-30 23:41:01.908+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2463337749	mrtendieman	GSTG	\N	6510000	243	17672	cw_bot	history-import:cw_bot:7694	2026-08-16 16:38:00.619+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2469768592	Raitonn0609	2WEI	\N	713400	2897	17675	cw_bot	history-import:cw_bot:9366	2026-03-31 20:29:42.263+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2475732693	Fazmashwastaken	FaZ	\N	1610000	1478	17674	cw_bot	history-import:cw_bot:9996	2026-08-09 01:32:35.34+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2487889713	Doggo_1490	dohw	\N	1030000	2228	17675	cw_bot	history-import:cw_bot:1214	2026-05-01 16:32:08.802+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2489048274	BlissfulBurper	AR2Y	\N	3230000	672	17674	cw_bot	history-import:cw_bot:8903	2026-07-31 16:46:44.148+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2489878566	K1ng_01iver	Quaz	\N	2000	15772	17674	cw_bot	history-import:cw_bot:6870	2026-07-31 18:14:04.272+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2489885181	Ewan_314	NONG	\N	1680000	1415	17674	cw_bot	history-import:cw_bot:4430	2026-08-07 01:31:38.701+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2509513667	Ryderkoo5545	HOMY	\N	51510	10379	17671	cw_bot	history-import:cw_bot:5047	2026-08-23 10:46:48.07+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2521267504	matejsbss	HR2T	\N	119700	7646	17674	cw_bot	history-import:cw_bot:7471	2026-07-15 14:29:29.985+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2527202665	rider879507	czmr	\N	260000	5226	17674	cw_bot	history-import:cw_bot:6753	2026-08-03 00:48:44.198+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2529950059	swbrthe34rd	LBB	\N	5000	14926	17672	cw_bot	history-import:cw_bot:5677	2026-08-15 00:36:32.07+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2530992063	smrtak54	HR3T	\N	3000	15398	17674	cw_bot	history-import:cw_bot:6178	2026-08-08 19:57:25.253+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2539070982	Nomdecodetotoc34	ANG_	\N	279990	5038	17675	cw_bot	history-import:cw_bot:1236	2026-05-02 16:27:23.292+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2545832975	baconszombiesarmy	FGZW	\N	638860	3096	17675	cw_bot	history-import:cw_bot:4051	2026-04-12 22:02:06.94+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2566901760	Megaobam123z	HROT	\N	786120	2703	17671	cw_bot	history-import:cw_bot:5510	2026-08-19 09:02:01.142+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2607789450	yeetboiisyay	🏰 Clan: **OTTR**	\N	\N	6084	17675	cw_bot	history-import:cw_bot:3623	2026-04-27 05:25:27.894+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2628215963	praisevolxtz	YLW	\N	4620	14982	17674	cw_bot	history-import:cw_bot:452	2026-07-17 18:47:40.523+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2633185327	luxxrro	EXP	\N	341550	4525	17675	cw_bot	history-import:cw_bot:1988	2026-06-28 16:25:22.311+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2648563570	Stepa16th	HR2T	\N	119640	7651	17674	cw_bot	history-import:cw_bot:7392	2026-07-17 14:30:03.697+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2667688976	SlimGreycz_2	VLP	\N	460100	3795	17674	cw_bot	history-import:cw_bot:7933	2026-07-08 14:35:29.662+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2668452334	Xxhello_Sir	Winr	\N	965440	2357	17674	cw_bot	history-import:cw_bot:2374	2026-08-10 17:49:54.782+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2674316581	hackplayscz	VPTO	\N	300320	4866	17675	cw_bot	history-import:cw_bot:9130	2026-06-30 12:24:22.533+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2689348419	135kuna135	HHLf	\N	100000	8255	17674	cw_bot	history-import:cw_bot:6583	2026-08-06 07:30:31.106+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2709299989	fishy_axl22	st1z	\N	2630000	885	17675	cw_bot	history-import:cw_bot:767	2026-05-10 02:24:40.449+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2719084403	aidananthony013	XPQX	\N	3180000	682	17675	cw_bot	history-import:cw_bot:1812	2026-06-13 15:03:54.201+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2732960938	rivvonthebest64	FGZW	\N	346200	4489	17675	cw_bot	history-import:cw_bot:9176	2026-06-20 12:50:43.156+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2739287597	krillerproxd	AR2Y	\N	3310000	657	17674	cw_bot	history-import:cw_bot:7880	2026-07-08 14:29:50.8+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2741560826	notaps322	_MGW	\N	30000	12027	17674	cw_bot	history-import:cw_bot:9944	2026-07-18 18:26:05.951+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2786686086	Loewentatze12	CITC	\N	4690	14976	17674	cw_bot	history-import:cw_bot:2433	2026-08-09 19:22:00.052+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2793216369	F_Bizzle	BOSS	\N	1860000	1279	17675	cw_bot	history-import:cw_bot:1153	2026-04-27 21:42:43.611+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2813767675	Sam262010Y	V1LN	\N	5310000	355	17675	cw_bot	history-import:cw_bot:1868	2026-06-19 19:17:38.63+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2814812080	111123ioukhjnnbbn	🏰 Clan: **dohw**	\N	\N	2339	17675	cw_bot	history-import:cw_bot:3704	2026-02-14 14:47:05.489+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2843513755	firefeather46	HSTL	28	4690000	28	\N	external_import	history-import:big_bot:1015	2026-07-12 00:55:29.049+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2853594415	peslolpj	HR3T	\N	208040	5858	17672	cw_bot	history-import:cw_bot:5747	2026-08-14 16:23:32.844+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2915153725	Ishan90091	07W	\N	366680	4335	17674	cw_bot	history-import:cw_bot:10051	2026-08-08 18:49:12.798+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2956070032	AnnexOO1	DLOW	\N	678550	2979	17675	cw_bot	history-import:cw_bot:8242	2026-04-11 00:42:36.107+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2956113153	xwiktorxxxx3	LSQ	\N	212770	5809	17674	cw_bot	history-import:cw_bot:8913	2026-07-30 10:52:00.891+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2961636717	nichozr	V1LN	\N	56600000	2	17675	cw_bot	history-import:cw_bot:1416	2026-05-11 01:18:04.672+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2965361189	Mynestra	🏰 Clan: **Roux**	\N	\N	7788	17675	cw_bot	history-import:cw_bot:3607	2026-04-30 21:26:17.172+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2973745571	WGZ7uzg	T2UX	\N	34280	11613	17675	cw_bot	history-import:cw_bot:1592	2026-05-20 17:40:45.45+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2981591104	Maroko_013	V1LN	\N	2520000	933	17674	cw_bot	history-import:cw_bot:8862	2026-07-31 17:35:33.295+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2988275843	zspjasieniec1	PABS	\N	20000	13101	17671	cw_bot	history-import:cw_bot:8492	2026-08-19 15:24:30.108+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	2999732017	derharzendeharzer	3zEZ	\N	4430000	469	17675	cw_bot	history-import:cw_bot:4222	2026-04-12 20:09:36.816+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3000748132	PickleCloudNacho	H8ER	\N	2500000	939	17675	cw_bot	history-import:cw_bot:3953	2026-04-12 22:17:35.814+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3000932506	JackJAC123999	dewp	\N	384440	4240	17674	cw_bot	history-import:cw_bot:9508	2026-07-07 15:52:50.748+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3016891949	petaf1234	HR2T	\N	502850	3615	17671	cw_bot	history-import:cw_bot:5260	2026-08-21 20:32:57.322+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3019955385	stevesteve466	VLP	\N	600000	3225	17674	cw_bot	history-import:cw_bot:6261	2026-08-08 11:17:12.174+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3019968804	Houtchyoi	ROMU	\N	228380	5604	17675	cw_bot	history-import:cw_bot:1611	2026-05-20 23:36:44.19+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3022616943	floatindrag	K1WI	\N	142790	7048	17674	cw_bot	history-import:cw_bot:2560	2026-08-01 14:35:07.364+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3035841415	shiiiiiru	LSQ	\N	1880000	1267	17674	cw_bot	history-import:cw_bot:8808	2026-08-10 16:29:41.022+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3039307282	Mr_agnes30	XREX	\N	1400000	1694	17675	cw_bot	history-import:cw_bot:8072	2026-06-23 16:38:19.044+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3046788322	Xerenity1	DLOW	\N	100190	8231	17675	cw_bot	history-import:cw_bot:8254	2026-04-11 00:53:10.021+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3054766960	realyodream	S2PU	\N	2080000	1151	17674	cw_bot	history-import:cw_bot:4455	2026-08-05 18:06:41.781+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3058823156	dederet1452	ROGU	\N	281250	5021	17671	cw_bot	history-import:cw_bot:5271	2026-08-22 04:14:46.556+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3059849612	coolkidwwwa	ROGU	\N	1910000	1251	17675	cw_bot	history-import:cw_bot:4031	2026-04-12 22:00:36.823+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3060745926	thetruetdsglitch	V1LN	\N	6050000	280	17675	cw_bot	history-import:cw_bot:8036	2026-04-30 15:47:59.662+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3064251597	filipek2600cz	HR2T	\N	832610	2616	17675	cw_bot	history-import:cw_bot:1564	2026-05-17 11:56:22.532+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3068970596	8loxxik	DJRK	\N	86390	8683	17674	cw_bot	history-import:cw_bot:7050	2026-07-30 16:20:17.848+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3073922856	dunyhoroblox	ROGU	\N	452570	3843	17674	cw_bot	history-import:cw_bot:7336	2026-07-25 23:14:38.795+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3078836998	minzxn_11	AQ	\N	54940	10133	17671	cw_bot	history-import:cw_bot:8631	2026-08-26 16:34:14.001+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3108660508	Darcacz2	Axet	\N	709990	2904	17674	cw_bot	history-import:cw_bot:6677	2026-08-04 13:06:03.104+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3124408432	Mr96eduD	3zEZ	\N	8490000	152	17675	cw_bot	history-import:cw_bot:4161	2026-04-12 20:33:19.889+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3136650641	petr1235786435	Axet	\N	838010	2605	17671	cw_bot	history-import:cw_bot:4867	2026-08-28 09:45:55.454+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3139037723	Tobik987123	cspe	\N	121720	7577	17674	cw_bot	history-import:cw_bot:6473	2026-08-06 18:08:45.622+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3141351327	vitek668701	ROGU	\N	671260	2995	17674	cw_bot	history-import:cw_bot:6352	2026-08-07 17:33:25.404+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3143604581	RebelkaCZ157	VLP	\N	2840000	812	17674	cw_bot	history-import:cw_bot:6708	2026-08-04 09:43:51.606+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3144581284	averyhein1920212223	H8ER	\N	13000	13845	17674	cw_bot	history-import:cw_bot:9034	2026-07-17 16:38:09.537+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3149302489	code_wille	SOPU	\N	8980000	133	17675	cw_bot	history-import:cw_bot:3838	2026-04-05 06:57:37.866+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3167252782	aromelkasto2	BYRD	\N	131150	7352	17674	cw_bot	history-import:cw_bot:6821	2026-08-01 11:19:56.793+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3167272498	zdendpicl9	DJRK	\N	16070	13620	17672	cw_bot	history-import:cw_bot:5716	2026-08-15 08:51:50.658+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3167571592	Hickarn1	3zEZ	\N	13600000	66	17675	cw_bot	history-import:cw_bot:8380	2026-03-22 11:06:41.693+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3171368431	darklode100	dohw	\N	2540000	923	17675	cw_bot	history-import:cw_bot:1125	2026-04-27 02:10:10.025+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3172618280	cannelle4545	BLZ_	\N	80270	8932	17672	cw_bot	history-import:cw_bot:8752	2026-08-15 22:33:59.794+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3198094679	JanKob2022	LSQ	\N	228000	5610	17674	cw_bot	history-import:cw_bot:8450	2026-08-01 18:13:54.908+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3203422029	drlllolll	OCHG	\N	73680	9185	17671	cw_bot	history-import:cw_bot:9441	2026-08-22 16:01:45.839+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3208575762	tofikmore	2pGA	\N	13940	13778	17672	cw_bot	history-import:cw_bot:5621	2026-08-16 07:23:34.699+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3215370935	snorlaxfox1	V1LN	\N	5530000	330	17675	cw_bot	history-import:cw_bot:9383	2026-04-02 02:54:57.549+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3233034644	ARIGO11234	3zEZ	\N	443730	3889	17674	cw_bot	history-import:cw_bot:3304	2026-07-24 20:34:16.905+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3238661227	kapinooos123	DJRK	\N	52000	10345	17674	cw_bot	history-import:cw_bot:6402	2026-08-07 22:39:55.498+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3244967172	Daliborko6	HR3T	\N	14200	13733	17674	cw_bot	history-import:cw_bot:4776	2026-07-30 16:13:56.602+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3248091509	professorfeliks	LSQ	\N	292260	4932	17674	cw_bot	history-import:cw_bot:8979	2026-07-19 16:26:07.395+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3252894844	vexityonnic	WJAY	\N	2390000	990	17675	cw_bot	history-import:cw_bot:3810	2026-04-05 06:50:41.945+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3270087406	Mrkrecek12	VLP2	\N	135720	7234	17672	cw_bot	history-import:cw_bot:5613	2026-08-14 19:39:09.575+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3271035452	Misak0912	HR2T	\N	1150000	2009	17674	cw_bot	history-import:cw_bot:6941	2026-08-01 08:49:00.863+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3271442208	Jonglesje	VPT0	\N	110000	7926	17671	cw_bot	history-import:cw_bot:2230	2026-08-24 09:46:55.285+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3289385978	KnKmor	DK	\N	1060000	2161	17674	cw_bot	history-import:cw_bot:8887	2026-08-01 18:12:49.345+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3299278772	xxprozombix	MZTR	\N	2530000	930	17675	cw_bot	history-import:cw_bot:8666	2026-06-26 13:37:08.577+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3302444862	EndOfAnEra007	NONG	22	6230000	22	\N	external_import	history-import:big_bot:969	2026-07-16 23:25:31.662+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3313860138	RadimFafulec1234	rmmr	\N	1500000	1584	17674	cw_bot	history-import:cw_bot:5993	2026-08-10 12:44:35.715+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3318596083	Mamaris357357	HROT	\N	3650000	597	17672	cw_bot	history-import:cw_bot:5780	2026-08-14 17:19:41.498+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3323392290	D0m1n8tr	V1LN	\N	12020000	86	17675	cw_bot	history-import:cw_bot:9270	2026-04-29 06:50:40.467+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3331982177	iTz_h0vno	M4RB	\N	516080	3561	17672	cw_bot	history-import:cw_bot:5822	2026-08-14 18:54:28.981+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3342535725	Adamosingos	OCHG	\N	8500	14458	17671	cw_bot	history-import:cw_bot:9530	2026-08-22 15:48:53.345+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3344342434	MUI_5aiyajin	S2PU	\N	7030000	212	17675	cw_bot	history-import:cw_bot:3834	2026-04-05 06:57:09.847+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3345239646	vojtas98CZ	SRO	\N	155720	6768	17674	cw_bot	history-import:cw_bot:6149	2026-08-08 18:13:17.798+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3354879384	skipDwyne	EDS1	\N	69930	9383	17674	cw_bot	history-import:cw_bot:7224	2026-07-29 01:58:06.07+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3357292523	Grec_Game	HROT	\N	1430000	1651	17674	cw_bot	history-import:cw_bot:7059	2026-07-30 17:14:48.532+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3362057703	ImNoobFilda	kach	\N	130460	7367	17674	cw_bot	history-import:cw_bot:7386	2026-07-17 12:53:21.426+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3370104014	Standa256	VLP	\N	82320	8831	17671	cw_bot	history-import:cw_bot:5134	2026-08-23 03:03:21.508+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3372527888	CokoladovaZmrzska	cspe	\N	1120000	2058	17674	cw_bot	history-import:cw_bot:7353	2026-07-22 01:19:32.889+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3377511045	mercstien	GSTG	\N	208270	5858	17675	cw_bot	history-import:cw_bot:1336	2026-05-06 09:08:51.241+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3378947321	reset45624382	BEZE	\N	83560	8786	17674	cw_bot	history-import:cw_bot:8822	2026-08-08 12:36:56.654+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3382833387	kingweslie123	BUTI	\N	30020	12006	17674	cw_bot	history-import:cw_bot:2322	2026-08-12 21:19:37.585+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3393324525	BigWolfPL	XREX	\N	1470000	1613	17674	cw_bot	history-import:cw_bot:7816	2026-07-24 20:08:19.243+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3416641778	dd_ontop13	SOPU	\N	6710000	235	17675	cw_bot	history-import:cw_bot:3821	2026-04-05 06:51:12.613+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3438549743	DarkHonza2013	NDH	\N	1200000	1939	17674	cw_bot	history-import:cw_bot:7156	2026-07-30 12:17:48.959+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3439337856	prezley_official2022	HROT	\N	717620	2883	17674	cw_bot	history-import:cw_bot:7113	2026-07-30 15:19:24.23+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3444459957	Radek25101982	VLP	\N	30000	12044	17674	cw_bot	history-import:cw_bot:6048	2026-08-09 09:04:46.362+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3447427741	filipekisfff	3zEZ	\N	1060000	2171	17675	cw_bot	history-import:cw_bot:3883	2026-05-11 00:51:30.646+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3450868495	nolram1a	Roux	\N	220	16948	17674	cw_bot	history-import:cw_bot:8848	2026-08-04 06:49:16.854+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3500795024	Ey3d46	S2PU	\N	505220	3612	17675	cw_bot	history-import:cw_bot:292	2026-05-09 14:14:11.57+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3509021767	JonnyM55	HR2T	\N	334500	4577	17672	cw_bot	history-import:cw_bot:5547	2026-08-17 00:51:43.291+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3557375419	Subtokirbofanyt	ORBI	\N	251200	5327	17674	cw_bot	history-import:cw_bot:2187	2026-07-27 21:40:54.835+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3565857429	Bb874tad	AR2Y	\N	2380000	994	17674	cw_bot	history-import:cw_bot:7962	2026-07-08 14:36:26.417+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3593720708	Malysberatel	AR2Y	\N	2100000	1124	17674	cw_bot	history-import:cw_bot:7991	2026-07-08 14:36:56.328+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3613207546	foltyn_jakes	dewp	\N	159000	6707	17674	cw_bot	history-import:cw_bot:7217	2026-07-29 21:02:55.844+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3628039137	anoknight5	XPQX	\N	1170000	1991	17674	cw_bot	history-import:cw_bot:3115	2026-07-28 18:56:15.247+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3630752477	ffggss478	ROGU	\N	204970	5905	17671	cw_bot	history-import:cw_bot:5487	2026-08-19 21:29:14.497+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3655474970	Shrooomdevourer10	V1LN	\N	4330000	480	17675	cw_bot	history-import:cw_bot:8472	2026-06-17 00:21:50.467+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3666359390	Lumpajz1	HROT	\N	1460000	1629	17674	cw_bot	history-import:cw_bot:7254	2026-07-27 11:24:44.306+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3672938221	zhulenc	VLP	\N	145280	6996	17674	cw_bot	history-import:cw_bot:6523	2026-08-06 21:54:27.517+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3683660130	Medvid3k11	cspe	\N	10000	14192	17674	cw_bot	history-import:cw_bot:6984	2026-07-31 17:00:07.71+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3750045967	imnotdigitosim1476	HROT	\N	6400000	254	17672	cw_bot	history-import:cw_bot:5655	2026-08-14 22:17:44.993+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3768828357	mrs_reset	V1LN	\N	13310000	70	17675	cw_bot	history-import:cw_bot:8605	2026-06-17 00:15:13.179+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3779230353	goat201470	H8M3	\N	74900	9146	17675	cw_bot	history-import:cw_bot:8274	2026-04-13 16:26:51.02+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3797718809	m4thou3	Goop	\N	10	17524	17674	cw_bot	history-import:cw_bot:3073	2026-07-28 21:07:33.267+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3804356173	fishyaxl22	ST1Z	15	\N	15	\N	external_import	history-import:big_bot:986	2026-07-14 03:44:42.78+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3808414208	Suppe_Can	BEZE	\N	401190	4145	17675	cw_bot	history-import:cw_bot:8113	2026-04-27 17:55:05.386+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3834652767	Roman5556_CZ	SAM4	\N	87850	8654	17674	cw_bot	history-import:cw_bot:7406	2026-07-17 16:42:07.486+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3868174361	popcatbrohter	DGSL	\N	3700	15203	17674	cw_bot	history-import:cw_bot:2874	2026-07-31 15:58:17.484+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3915256201	david_smeg	7HRW	\N	128960	7411	17674	cw_bot	history-import:cw_bot:3348	2026-07-23 15:30:35.199+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3919100604	Filda7329	STPS	\N	35000	11576	17674	cw_bot	history-import:cw_bot:6491	2026-08-06 18:48:55.736+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3926695029	22mamamama	VPT0	\N	243820	5407	17674	cw_bot	history-import:cw_bot:7451	2026-07-15 07:59:07.687+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3952416098	000pattik000	HR3T	\N	195170	6078	17674	cw_bot	history-import:cw_bot:6616	2026-08-05 07:49:04.542+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	3978547556	Zoliisrecords	K989	\N	20000	13132	17671	cw_bot	history-import:cw_bot:4993	2026-08-24 10:40:01.728+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4006052667	badamtttt	K989	\N	1110000	2079	17674	cw_bot	history-import:cw_bot:6271	2026-08-08 11:25:07.466+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4023070188	kocovina98	DJRK	\N	297620	4890	17672	cw_bot	history-import:cw_bot:5731	2026-08-15 11:32:52.389+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4028104754	jaratupy36	DJRK	\N	71000	9303	17672	cw_bot	history-import:cw_bot:5760	2026-08-14 16:48:48.942+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4031576504	cupymaty	Ajcj	\N	20000	13241	17674	cw_bot	history-import:cw_bot:6119	2026-08-09 05:27:43.969+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4032508929	Skibidieny	HR2T	\N	311160	4770	17674	cw_bot	history-import:cw_bot:7190	2026-07-30 04:52:07.394+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4054510143	kudlankovec	VLP	\N	434650	3946	17674	cw_bot	history-import:cw_bot:2483	2026-08-01 09:59:49.052+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4062541064	Franta99996	ROYL	\N	502180	3619	17671	cw_bot	history-import:cw_bot:5103	2026-08-22 20:31:49.529+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4085016779	the_mandalorian963	V1LN	\N	17080000	44	17672	cw_bot	history-import:cw_bot:7645	2026-08-14 10:22:52.548+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4091709355	1230david4567	SAM4	\N	370000	4318	17672	cw_bot	history-import:cw_bot:5692	2026-08-15 05:24:53.093+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4113094220	TTobbboTT	V1LN	\N	4110000	512	17675	cw_bot	history-import:cw_bot:9223	2026-05-12 19:20:42.195+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4138810457	ibaitier	dohw	\N	18510000	35	17675	cw_bot	history-import:cw_bot:9122	2026-07-04 07:44:27.013+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4142577179	omgmegakiller_28	Dudh	\N	397280	4169	17674	cw_bot	history-import:cw_bot:3258	2026-07-25 13:57:23.221+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4161934376	honza01021983	VLP	\N	3500000	619	17671	cw_bot	history-import:cw_bot:4844	2026-08-28 06:57:40.513+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4165162503	trubgut3	HR2T	\N	890950	2508	17674	cw_bot	history-import:cw_bot:6419	2026-08-06 15:24:37.222+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4175082110	PLukk_2	eguh	\N	57460	9991	17671	cw_bot	history-import:cw_bot:2226	2026-08-24 09:48:14.467+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4177849716	doperthanyou67	3zEZ	\N	4860000	405	17674	cw_bot	history-import:cw_bot:9067	2026-07-08 01:06:13.66+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4196761995	GravysOfficial	HROT	\N	3670000	595	17671	cw_bot	history-import:cw_bot:5114	2026-08-22 23:53:53.389+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4215988499	abby_gamera	V1LN	\N	3180000	684	17675	cw_bot	history-import:cw_bot:8152	2026-04-28 15:06:15.006+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4227181139	Filip2817fi	TTDS	\N	2810	15441	17671	cw_bot	history-import:cw_bot:4897	2026-08-27 07:57:31.613+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4236664167	PsycheCZ	HROT	\N	4660000	433	17671	cw_bot	history-import:cw_bot:4806	2026-08-28 18:52:48.656+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4247536223	VoiDZzDripzz	dohw	\N	1490000	1595	17674	cw_bot	history-import:cw_bot:3064	2026-07-28 21:47:34.066+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4281402342	Selcuk1143	S2PU	\N	40000	11185	17674	cw_bot	history-import:cw_bot:3048	2026-07-28 21:24:31.882+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4301431724	Bobsussybu123	SLRP	\N	50	17211	17674	cw_bot	history-import:cw_bot:2519	2026-08-01 12:26:31.166+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4307217370	BuzekPetr2003	VLP	\N	169850	6490	17671	cw_bot	history-import:cw_bot:5477	2026-08-19 18:30:11.966+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4313949380	Dada343410	HR2T	\N	536010	3464	17674	cw_bot	history-import:cw_bot:6384	2026-08-07 20:30:35.379+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4336818312	Myguy_Ky1	Nump	\N	308780	4793	17674	cw_bot	history-import:cw_bot:3215	2026-07-26 11:08:12.603+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4359375074	PostalChaos1	3zEZ	\N	2660000	873	17675	cw_bot	history-import:cw_bot:4100	2026-04-12 20:17:08.094+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4388509145	kukurice153	tNo	\N	646100	3070	17674	cw_bot	history-import:cw_bot:5954	2026-08-11 16:22:14.568+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4393951337	lukascccs	VLP2	\N	315180	4743	17674	cw_bot	history-import:cw_bot:6129	2026-08-08 17:36:40.231+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4410601649	alle_889	DJTW	\N	240	16927	17674	cw_bot	history-import:cw_bot:6902	2026-07-31 23:49:42.609+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4449496597	dodo_jePRO	Axet	\N	1170000	1990	17671	cw_bot	history-import:cw_bot:4810	2026-08-28 15:34:00.919+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4452395552	Xavier_Toorp	DJRK	\N	60370	9803	17674	cw_bot	history-import:cw_bot:7034	2026-07-31 00:21:48.123+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4455397343	Denis512657	ULCK	\N	370470	4316	17674	cw_bot	history-import:cw_bot:7048	2026-07-30 18:27:47.628+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4468537889	tvojemamag101	VLP2	\N	64560	9596	17671	cw_bot	history-import:cw_bot:5088	2026-08-22 23:18:43.789+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4482372398	Burak30_CZ	VLP	\N	190800	6134	17674	cw_bot	history-import:cw_bot:7163	2026-07-30 13:05:24.983+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4501805740	jhdghrghhtzt	HR2T	\N	1910000	1246	17674	cw_bot	history-import:cw_bot:6438	2026-08-06 17:33:40.928+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4511286390	tadeasvrsovsky12345	HROT	\N	4840000	408	17671	cw_bot	history-import:cw_bot:5313	2026-08-21 07:07:08.39+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4574397825	PET_HERO676	FYRX	\N	12000	13935	17671	cw_bot	history-import:cw_bot:5410	2026-08-20 09:37:57.743+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4583513261	xXJ0hnXx23	POJO	\N	294700	4908	17671	cw_bot	history-import:cw_bot:5290	2026-08-22 16:50:40.795+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4584982387	Misabilk	VLP2	\N	182170	6269	17674	cw_bot	history-import:cw_bot:5935	2026-08-11 16:19:44.683+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4597064685	nevimheslo108	HROT	\N	3150000	689	17674	cw_bot	history-import:cw_bot:6644	2026-08-05 20:02:56.557+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4634042698	psxtrader327	OTTR	337	\N	337	\N	external_import	history-import:big_bot:1082	2026-06-29 23:25:50.145+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4656324138	mrbloxterr10	V1LN	\N	25700000	14	17675	cw_bot	history-import:cw_bot:8655	2026-07-01 16:35:03.562+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	4895856612	Dikgeevik2CZ	K989	\N	55000	10128	17672	cw_bot	history-import:cw_bot:5887	2026-08-13 23:41:00.142+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5013545323	gravysek666	HR2T	\N	520250	3539	17674	cw_bot	history-import:cw_bot:6416	2026-08-08 02:16:50.888+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5042635636	Cultiv8R_NZ	DLOW	\N	9890	14333	17675	cw_bot	history-import:cw_bot:8223	2026-04-11 00:40:42.513+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5044736168	CBroGolden	3zEZ	\N	6950000	218	17675	cw_bot	history-import:cw_bot:4086	2026-04-12 20:16:41.119+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5048993989	jankohraskove	czmr	\N	76330	9095	17674	cw_bot	history-import:cw_bot:7241	2026-07-28 18:25:50.132+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5049376575	AGR_GamerY	AGR	\N	271460	5118	17674	cw_bot	history-import:cw_bot:9685	2026-07-19 05:15:01.102+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5127406568	dadchris86	V1LN	\N	5600000	322	17675	cw_bot	history-import:cw_bot:8179	2026-04-21 16:30:58.569+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5128164487	drako83cz	HROT	\N	3700000	590	17672	cw_bot	history-import:cw_bot:5530	2026-08-17 12:17:13.979+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5128774229	livelasso	V1LN	\N	14440000	59	17674	cw_bot	history-import:cw_bot:8995	2026-07-19 09:14:05.882+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5165277431	nojkdfnjyfdhufdhn	ULCK	\N	131360	7335	17671	cw_bot	history-import:cw_bot:5435	2026-08-19 14:48:26.843+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5168853814	Legion2728	🏰 Clan: **OTTR**	\N	\N	12487	17675	cw_bot	history-import:cw_bot:3619	2026-04-28 22:34:07.104+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5189669801	johqnel	Axel	\N	1360000	1738	17672	cw_bot	history-import:cw_bot:5566	2026-08-17 00:52:03.053+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5209078854	Rydma73	H8ER	\N	5900000	294	17675	cw_bot	history-import:cw_bot:3968	2026-04-12 22:17:12.736+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5209583889	pepajzik	STPS	\N	46760	10775	17671	cw_bot	history-import:cw_bot:5368	2026-08-20 18:05:20.789+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5246280273	janjelinek3	POJO	\N	21730	12803	17674	cw_bot	history-import:cw_bot:6038	2026-08-09 09:04:37.217+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5291595908	iTTv6	3zEZ	\N	8120000	161	17675	cw_bot	history-import:cw_bot:3997	2026-04-12 21:22:33.583+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5328968538	Iphone1835	SAM4	\N	37400	11414	17671	cw_bot	history-import:cw_bot:5189	2026-08-21 18:06:41.136+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5363596325	eja99991	0GG0	\N	161000	6651	17674	cw_bot	history-import:cw_bot:6012	2026-08-10 08:39:01.416+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5383071838	mr_895675	LXCC	\N	1040000	2215	17672	cw_bot	history-import:cw_bot:7674	2026-08-14 20:23:40.83+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5414318030	demonfaarm3	2WEI	\N	10000	14197	17675	cw_bot	history-import:cw_bot:9352	2026-03-31 20:30:04.513+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5454068280	lukky509	HROT	\N	363990	4349	17671	cw_bot	history-import:cw_bot:4958	2026-08-24 17:48:55.599+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5534860785	rostislavvv155	S2PU	\N	20000	13092	17674	cw_bot	history-import:cw_bot:2857	2026-07-31 15:54:01.042+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5592576307	Lukasek_mlejn	HR3T	\N	46890	10771	17674	cw_bot	history-import:cw_bot:5960	2026-08-11 10:05:19.007+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5615179956	MonsterWithGod	ROMU	\N	514340	3573	17675	cw_bot	history-import:cw_bot:4139	2026-04-12 21:05:00.581+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5623447261	quoicoubeh5608	RATZ	\N	70510	9329	17674	cw_bot	history-import:cw_bot:6208	2026-08-08 20:49:37.159+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5703128088	elnubsen	SOPU	\N	5640000	317	17675	cw_bot	history-import:cw_bot:3862	2026-04-05 06:56:35.208+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5771998323	Tadeas5303	BDX	\N	33590	11670	17674	cw_bot	history-import:cw_bot:7146	2026-07-30 15:42:22.574+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	5818869297	knoxcoder	SOPU	\N	14800000	54	17674	cw_bot	history-import:cw_bot:3017	2026-07-29 13:28:15.912+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	6024579040	siemanokolano3211	NUUP	\N	488880	3680	17674	cw_bot	history-import:cw_bot:8836	2026-08-08 13:22:11.942+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	6035434188	Pokeccc_yt423	VLP	\N	8760	14435	17671	cw_bot	history-import:cw_bot:5426	2026-08-19 14:44:02.981+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	6156770625	pepajzikv2	STPS	\N	215640	5770	17671	cw_bot	history-import:cw_bot:5379	2026-08-20 18:30:12.586+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	6180933436	Atefluigi1	LX2C	\N	213090	5804	17671	cw_bot	history-import:cw_bot:4820	2026-08-28 16:24:47.076+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7005100565	Crazypuzzlehead15	V1LN	\N	4820000	411	17674	cw_bot	history-import:cw_bot:2466	2026-08-01 09:28:25.648+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7173492482	Kyan65427	DO_1	\N	30110	11989	17674	cw_bot	history-import:cw_bot:3233	2026-07-26 12:04:59.618+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7299604677	McAnt1c_Official	VPTO	\N	561110	3357	17674	cw_bot	history-import:cw_bot:6781	2026-08-03 07:34:50.336+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7426690057	Duckyphant	H8M3	\N	964100	2360	17672	cw_bot	history-import:cw_bot:5637	2026-08-14 22:07:36.457+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7535417374	StarShineSammy	MAH1	\N	1920000	1244	17675	cw_bot	history-import:cw_bot:3983	2026-04-12 22:31:35.21+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7557052679	tada1234_cz	67cz	\N	101710	8175	17671	cw_bot	history-import:cw_bot:4961	2026-08-24 17:55:10.944+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7583161395	Tgzzgzzltg33	HR2T	\N	1540000	1545	17674	cw_bot	history-import:cw_bot:7262	2026-07-27 11:39:20.283+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7697761463	joeponsock12345	Wtuf	\N	2550000	911	17674	cw_bot	history-import:cw_bot:8948	2026-07-26 22:32:25.767+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7742077490	sirwabbs	HARM	\N	49990	10633	17674	cw_bot	history-import:cw_bot:4637	2026-08-02 03:35:57.878+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	7808641651	Elis_123cz12	HR3T	\N	17640	13522	17674	cw_bot	history-import:cw_bot:6512	2026-08-07 05:42:34.596+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	8016179740	limitless123234	ESD	\N	800	16688	17672	cw_bot	history-import:cw_bot:8762	2026-08-15 05:26:46.656+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	8087930970	sleeperb99	OTTR	337	\N	337	\N	external_import	history-import:big_bot:1065	2026-07-03 23:10:46.241+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	8136551278	vincbond15	DJRK	\N	200420	5984	17674	cw_bot	history-import:cw_bot:6189	2026-08-08 20:08:01.556+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	8187537946	nzr5581	V1LN	\N	14650000	58	17675	cw_bot	history-import:cw_bot:8191	2026-04-23 19:12:26.428+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	8858235990	michalmma2013	Axet	\N	3750	15189	17671	cw_bot	history-import:cw_bot:5179	2026-08-23 08:12:29.366+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	9447539728	provazni10	ROGU	\N	591920	3244	17671	cw_bot	history-import:cw_bot:5496	2026-08-19 20:50:38.357+00
-Christmas2025	Gingerbread Battle 2025	christmas2025	9544377899	vgvhj447	DJRK	\N	41000	11113	17674	cw_bot	history-import:cw_bot:7052	2026-07-30 17:11:11.186+00
+COPY battles."Gingerbread Battle 2025" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+Christmas2025	Gingerbread Battle 2025	christmas2025	3853349557	melpatate12	BOSS	\N	434950	3945	17675	cw_bot	history-import:cw_bot:965	2026-04-18 02:12:53.563+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3940781859	tigran_2206	BEZE	\N	10390	14095	17674	cw_bot	history-import:cw_bot:861	2026-07-17 18:56:54.568+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4035198924	ytpandaroux	R0MU	\N	341820	4520	17674	cw_bot	history-import:cw_bot:926	2026-07-08 19:17:13.13+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4097051785	yO_aDzeY	dace	\N	207800	5870	17675	cw_bot	history-import:cw_bot:1667	2026-05-23 10:59:06.769+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4238790853	samsam16725	ROMU	\N	1520000	1571	17675	cw_bot	history-import:cw_bot:91	2026-06-19 21:20:32.05+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4242955713	KazuyaTTV	S2PU	\N	861300	2559	17675	cw_bot	history-import:cw_bot:210	2026-05-01 10:25:23.892+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4540869398	proto123q	NS4R	\N	352240	4445	17674	cw_bot	history-import:cw_bot:564	2026-07-17 18:49:06.221+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4759297476	psst1422	HROT	\N	10690000	100	17675	cw_bot	history-import:cw_bot:141	2026-05-20 23:35:12.448+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4792692703	ced123zx	ROMU	\N	1830000	1299	17674	cw_bot	history-import:cw_bot:710	2026-07-17 18:57:41.576+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4862026237	TurtlesRCool900	quop	\N	63510	9636	17674	cw_bot	history-import:cw_bot:639	2026-07-17 18:56:39.836+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4916438361	ArmNotPro	st1z	\N	17240	13550	17674	cw_bot	history-import:cw_bot:806	2026-07-17 18:58:43.871+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4957497369	ammi0729	BOSS	\N	548500	3414	17675	cw_bot	history-import:cw_bot:978	2026-04-18 02:13:35.573+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4989918296	PtiDoriankt	ROMU	\N	812820	2642	17674	cw_bot	history-import:cw_bot:842	2026-07-17 18:56:47.208+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4999104751	Speaxk17	POPS	\N	71460	9274	17675	cw_bot	history-import:cw_bot:1622	2026-05-21 01:10:10.679+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5120642383	hydra_dynamo71	DHFA	\N	177640	6361	17675	cw_bot	history-import:cw_bot:1677	2026-05-23 12:52:57.165+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5254272309	shadow_ggofficial	M4RB	\N	10280000	107	17675	cw_bot	history-import:cw_bot:1753	2026-05-28 21:55:36.515+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5407742794	baba_gamer239	ROMU	\N	581470	3281	17675	cw_bot	history-import:cw_bot:1580	2026-05-20 17:25:36.224+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5798456185	Vojta_44l3	W0m1	\N	10	17576	17675	cw_bot	history-import:cw_bot:1954	2026-06-26 17:07:22.713+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5825369243	DahRealXaViMaVi2	M4RB	\N	5190000	366	17674	cw_bot	history-import:cw_bot:546	2026-07-17 18:48:43.803+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	6109731708	YoBaskett	W2VY	\N	6570000	241	17674	cw_bot	history-import:cw_bot:424	2026-07-17 18:47:23.21+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7232809185	Kessho02	PEND	\N	2070000	1154	17674	cw_bot	history-import:cw_bot:601	2026-07-17 18:49:22.998+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7806857762	selena082319	W2VY	\N	1860000	1282	17674	cw_bot	history-import:cw_bot:372	2026-07-17 18:33:34.992+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7811627595	Star_1110789	dohw	\N	23360000	21	17675	cw_bot	history-import:cw_bot:914	2026-05-01 16:32:32.474+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	109818	Cinnamowopal	NONG	\N	1340000	1772	17675	cw_bot	history-import:cw_bot:155	2026-04-27 00:46:27.41+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1533791	clankbot	UN0	\N	61240	9768	17675	cw_bot	history-import:cw_bot:1703	2026-05-23 13:09:17.782+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	14538110	joeycb	SOPU	\N	27770000	12	17675	cw_bot	history-import:cw_bot:1683	2026-05-23 12:54:45.542+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	23260643	crazyblox6677	ANG	30	266000	30	\N	external_import	history-import:big_bot:961	2026-07-28 22:03:29.525+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	31989428	zoggi10	V1LN	\N	4330000	480	17674	cw_bot	history-import:cw_bot:4607	2026-08-04 07:49:22.305+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	34780360	dominikozdin05	ROGU	\N	2060000	1158	17674	cw_bot	history-import:cw_bot:5995	2026-08-10 13:20:16.13+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	90767636	bobdog751	V1LN	\N	3100000	711	17675	cw_bot	history-import:cw_bot:8127	2026-04-27 21:06:33.398+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	120904005	nublet28	BYRD	\N	3130000	700	17675	cw_bot	history-import:cw_bot:8438	2026-07-03 22:38:52.17+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	125272790	ur_salty091	XBOX	\N	21350000	27	17675	cw_bot	history-import:cw_bot:1915	2026-06-21 04:13:46.321+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	136661329	ghanta2a	CC4T	\N	2010	15684	17675	cw_bot	history-import:cw_bot:8100	2026-04-26 23:31:56.073+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	138619446	darkenedwishes	EXP	\N	380760	4264	17675	cw_bot	history-import:cw_bot:2002	2026-06-28 16:26:03.666+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	156957387	itsminerr	ORBI	\N	3510000	617	17674	cw_bot	history-import:cw_bot:2151	2026-08-01 03:26:51.039+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	160551060	firethrower0	3zEZ	\N	2810000	821	17674	cw_bot	history-import:cw_bot:2742	2026-07-31 17:13:09.457+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	165817996	16_BitPotato	UN0	\N	4000	15096	17674	cw_bot	history-import:cw_bot:4521	2026-08-04 19:56:26.259+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	170719079	tnocko	HROT	\N	2010000	1179	17674	cw_bot	history-import:cw_bot:2285	2026-08-12 07:40:01.692+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	184309752	expellez	SOPU	\N	3450000	627	17675	cw_bot	history-import:cw_bot:1102	2026-04-25 23:28:51.667+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	192463394	NukeOfLava12	3zEZ	\N	2800000	827	17675	cw_bot	history-import:cw_bot:4127	2026-04-12 20:31:33.085+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	194076029	Gromic5876	MNBB	\N	341200	4525	17674	cw_bot	history-import:cw_bot:6096	2026-08-08 23:25:51.173+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	200273468	kubaill	X_Ms	\N	124670	7513	17674	cw_bot	history-import:cw_bot:6553	2026-08-06 00:48:24.483+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	210966410	onoraksal	hlx	\N	914160	2454	17672	cw_bot	history-import:cw_bot:8778	2026-08-15 13:55:15.256+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	241713789	J2X1NESIWXID	DLOW	\N	9940	14325	17674	cw_bot	history-import:cw_bot:747	2026-07-17 18:58:04.211+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	245484862	skippythomas	st1z	\N	188950	6178	17674	cw_bot	history-import:cw_bot:7613	2026-08-11 19:40:41.113+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	250562586	zcm_Xi	CC4T	\N	171320	6458	17674	cw_bot	history-import:cw_bot:4361	2026-08-09 17:51:30.585+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	254885188	Prodav1	SULS	\N	902500	2481	17674	cw_bot	history-import:cw_bot:8000	2026-07-08 14:39:05.73+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	296854741	Cinco112309	XBOX	\N	1350000	1755	17674	cw_bot	history-import:cw_bot:2806	2026-07-31 16:11:19.068+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	331930897	gogeta363	TLGZ	\N	41210	11081	17674	cw_bot	history-import:cw_bot:4378	2026-08-09 04:19:11.832+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	343511782	octojabb	SLRP	\N	2750000	846	17675	cw_bot	history-import:cw_bot:9243	2026-04-30 14:51:23.517+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	351614770	WhoIsGhoso	S2AR	\N	299480	4878	17674	cw_bot	history-import:cw_bot:10030	2026-08-08 18:26:33.344+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	365225419	prorik228	07W	\N	40000	11182	17674	cw_bot	history-import:cw_bot:7909	2026-07-08 14:30:35.5+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	418400389	vojtaprovaznik	VLP2	\N	1210	16186	17671	cw_bot	history-import:cw_bot:4938	2026-08-26 06:26:26.509+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	419588952	got207	0GG0	\N	148330	6948	17675	cw_bot	history-import:cw_bot:3966	2026-04-12 22:21:39.424+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	423460663	bub2540	S2PU	\N	1740000	1370	17675	cw_bot	history-import:cw_bot:1504	2026-05-16 12:19:40.788+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	425660194	chinovelaz	3zEZ	\N	4780000	420	17675	cw_bot	history-import:cw_bot:4148	2026-04-12 20:33:18.646+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	435823564	brandon292016	3zEZ	\N	4070000	525	17675	cw_bot	history-import:cw_bot:1031	2026-04-20 06:06:34.027+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	438538044	Tissemanneke	ENTS	\N	430530	3971	17674	cw_bot	history-import:cw_bot:9547	2026-08-02 14:48:44.12+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	445901501	USECODE_THAT1NPC	3zEZ	\N	4790000	419	17675	cw_bot	history-import:cw_bot:4217	2026-04-12 20:09:26.048+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	452314193	LandOfDoggos	V1LN	\N	6680000	236	17675	cw_bot	history-import:cw_bot:9185	2026-06-23 15:37:48.38+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	456142044	icyy_il	H8M3	\N	740	16708	17674	cw_bot	history-import:cw_bot:2389	2026-08-10 10:39:29.018+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	462497307	Corey_Bailey	\N	\N	106010	8054	17674	cw_bot	history-import:cw_bot:9983	2026-08-09 06:10:03.038+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	463900811	AgentP_0928	NONG	\N	11460000	94	17675	cw_bot	history-import:cw_bot:647	2026-04-26 04:08:51.656+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	490804310	kubas1018	NUUP	\N	1850000	1288	17675	cw_bot	history-import:cw_bot:3741	2026-04-20 12:22:31.231+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	496935076	mawahlah	07W	192	\N	192	\N	external_import	history-import:big_bot:1002	2026-07-14 22:15:26.046+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	501328621	wigglywoo321	T0KS	\N	805090	2660	17674	cw_bot	history-import:cw_bot:2665	2026-08-01 00:14:18.246+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	502312785	tomasek8557	BDX	\N	1520000	1567	17671	cw_bot	history-import:cw_bot:5449	2026-08-19 16:40:59.801+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	503486505	campagnolo5	V1LN	\N	7150000	202	17672	cw_bot	history-import:cw_bot:7656	2026-08-16 14:51:20.144+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	518710094	mrlol4315	V1LN	\N	12560000	80	17674	cw_bot	history-import:cw_bot:2791	2026-07-31 16:01:39.344+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	532884141	walosdan	VLP2	\N	203700	5935	17674	cw_bot	history-import:cw_bot:5916	2026-08-12 18:39:07.299+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	538266747	Judah3000	XBOX	\N	517950	3554	17674	cw_bot	history-import:cw_bot:7845	2026-07-08 14:31:05.959+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	539895181	sportsboy2626	PIX3	\N	4590	14987	17674	cw_bot	history-import:cw_bot:4406	2026-08-08 07:25:07.846+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	544198160	JimmyCIeetus	S7NS	\N	791380	2691	17674	cw_bot	history-import:cw_bot:472	2026-07-17 18:47:56.313+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	573589049	nerfbro9000	GSTG	\N	135630	7240	17675	cw_bot	history-import:cw_bot:9400	2026-03-26 19:15:43.999+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	573955632	Johanplayzrb21	S7NS	\N	249600	5348	17675	cw_bot	history-import:cw_bot:993	2026-04-18 02:22:53.465+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	575710785	moko_193	\N	\N	\N	1892	17675	cw_bot	history-import:cw_bot:3545	2026-03-12 11:06:38.244+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	587622297	Raihania54321	ESD	\N	234590	5525	17675	cw_bot	history-import:cw_bot:1023	2026-04-19 21:12:31.376+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	587994363	Real_RoNexq	EDS1	\N	1260000	1862	17674	cw_bot	history-import:cw_bot:3155	2026-07-27 16:53:43.006+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	588437757	beastbrody12345	LX2C	\N	3000000	756	17671	cw_bot	history-import:cw_bot:8595	2026-08-21 00:15:42.209+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	588685015	jonis_chicken	XBOX	\N	3650000	602	17675	cw_bot	history-import:cw_bot:9208	2026-06-13 20:55:03.535+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	597362770	marcelgolem	🏰 Clan: **RAKI**	\N	\N	1590	17675	cw_bot	history-import:cw_bot:3665	2026-03-23 19:44:54.3+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	621412324	dabcat818	S7NS	\N	2250000	1048	17675	cw_bot	history-import:cw_bot:1777	2026-06-07 17:32:51.445+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	646372767	904aj603	st1z	\N	563160	3350	17675	cw_bot	history-import:cw_bot:1116	2026-04-27 02:09:16.229+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	653179078	killinBABYS111	V1LN	\N	12240000	82	17675	cw_bot	history-import:cw_bot:8283	2026-04-15 20:29:26.949+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	656420117	MercilessBanditTaken	NS4R	\N	748360	2803	17675	cw_bot	history-import:cw_bot:167	2026-04-19 13:44:30.618+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	659542061	rrodgers0206	POPS	\N	1750000	1362	17674	cw_bot	history-import:cw_bot:731	2026-07-17 18:57:55.775+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	661099895	patcola2010	V1LN	\N	6280000	265	17674	cw_bot	history-import:cw_bot:7797	2026-07-24 00:04:23.322+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	688928053	Noahangrybird1234	V1LN	\N	9220000	126	17675	cw_bot	history-import:cw_bot:8347	2026-04-06 08:29:37.081+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	704550307	osmanefe334	S2PU	\N	276880	5070	17675	cw_bot	history-import:cw_bot:8338	2026-04-06 08:27:50.069+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	709222551	Theozzz12	S7NS	\N	26250	12477	17675	cw_bot	history-import:cw_bot:8165	2026-04-26 15:05:43.056+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	722456679	mujiTABA1	\N	\N	1670000	1426	17675	cw_bot	history-import:cw_bot:2017	2026-06-28 16:42:57.557+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	730772803	sidsew	HSTL	\N	305500	4811	17671	cw_bot	history-import:cw_bot:7535	2026-08-25 14:36:17.613+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	757692049	Hulkian1	V1LN	\N	3560000	616	17675	cw_bot	history-import:cw_bot:8302	2026-03-28 21:21:50.541+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	779059828	jimynew	SS1N	\N	75750	9121	17675	cw_bot	history-import:cw_bot:1533	2026-05-16 23:39:36.553+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	790873913	homless9	STPS	\N	110010	7928	17674	cw_bot	history-import:cw_bot:6443	2026-08-06 17:44:57.059+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	808679837	sqirtel50	KOHV	\N	5140000	370	17674	cw_bot	history-import:cw_bot:2418	2026-08-09 16:10:37.911+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	810054419	catloncat	3zEZ	\N	838410	2605	17675	cw_bot	history-import:cw_bot:4019	2026-04-12 21:24:49.553+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	844720150	Sebastjan35	NONG	\N	2710000	856	17674	cw_bot	history-import:cw_bot:527	2026-07-17 18:48:35.159+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	852170656	vojitano	wTB	\N	481380	3703	17671	cw_bot	history-import:cw_bot:5064	2026-08-23 12:46:22.495+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	853833436	Mr_sallus	PKGR	\N	2160000	1094	17672	cw_bot	history-import:cw_bot:5803	2026-08-14 17:47:12.873+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	864632403	galaxyknight9204	S2PU	\N	1980000	1200	17675	cw_bot	history-import:cw_bot:1765	2026-05-29 01:34:02.793+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	877353566	lpvarmi	VLP	\N	1670000	1427	17674	cw_bot	history-import:cw_bot:7206	2026-07-29 20:25:50.738+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	877593504	kral_geldi123	V1LN	\N	2310000	1024	17675	cw_bot	history-import:cw_bot:9380	2026-04-02 02:39:58.035+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	884971222	henchal13	FGZW	\N	93080	8451	17675	cw_bot	history-import:cw_bot:9308	2026-04-19 12:19:45.145+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	904244953	MetaStreamz	AWZY	\N	51170000	5	17675	cw_bot	history-import:cw_bot:1656	2026-05-21 10:33:45.865+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	911932139	Daniel8czs	HROT	\N	4710000	426	17674	cw_bot	history-import:cw_bot:6805	2026-08-01 11:19:39.153+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	915515621	math33g4	AR2Y	\N	4170000	505	17674	cw_bot	history-import:cw_bot:7948	2026-07-08 14:35:53.418+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	955175856	fatalwaccle	3zEZ	\N	4310000	484	17675	cw_bot	history-import:cw_bot:4177	2026-04-12 20:31:29.037+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	968065508	eEmsorry	PAAC	\N	51210	10417	17674	cw_bot	history-import:cw_bot:9056	2026-07-09 08:48:58.97+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1000059115	rimonus	SOPU	\N	59910000	1	17675	cw_bot	history-import:cw_bot:1799	2026-06-13 11:10:39.923+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1024664859	NotArsann7	AR2Y	\N	19250000	33	17675	cw_bot	history-import:cw_bot:1249	2026-05-03 05:34:41.421+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1049702109	realchaseblox	FaZ	\N	2070000	1154	17675	cw_bot	history-import:cw_bot:1307	2026-05-05 21:59:20.786+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1060055099	mimo_4	Lanf	\N	1140000	2031	17674	cw_bot	history-import:cw_bot:6730	2026-08-04 10:19:23.697+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1081067684	mimilrol	ROMU	\N	1290000	1826	17674	cw_bot	history-import:cw_bot:402	2026-07-17 18:47:08.019+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1100810390	Starslikebirds	7HRW	\N	618620	3159	17674	cw_bot	history-import:cw_bot:4683	2026-08-01 01:45:14.128+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1128913028	proivano10	WOTF	\N	154700	6785	17674	cw_bot	history-import:cw_bot:2895	2026-07-31 15:15:45.624+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1137640592	clackerskill	V1LN	\N	8150000	158	17674	cw_bot	history-import:cw_bot:4655	2026-08-01 00:22:28.841+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1146217738	xXjirkaXxboys	SJCJ	\N	641090	3085	17675	cw_bot	history-import:cw_bot:4041	2026-04-12 22:01:07.439+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1157052710	laughytrex	XPQX	\N	208760	5852	17675	cw_bot	history-import:cw_bot:885	2026-04-24 03:00:59.658+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1163321217	protozejelen	LV13	\N	71170	9296	17674	cw_bot	history-import:cw_bot:7129	2026-07-30 15:23:48.828+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1171409734	tominko130	tNo	\N	615170	3170	17674	cw_bot	history-import:cw_bot:6322	2026-08-07 12:38:50.885+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1178078831	mavilure	NONG	\N	1020000	2263	17675	cw_bot	history-import:cw_bot:9107	2026-07-04 02:37:26.103+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1179507007	tomisek134	VPT0	\N	4160000	506	17674	cw_bot	history-import:cw_bot:4736	2026-08-11 18:03:07.712+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1215733674	M_parker234	1DOL	\N	1200	16226	17675	cw_bot	history-import:cw_bot:1696	2026-05-23 12:58:36.466+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1221841742	Azurqson	SOPU	\N	26620000	13	17675	cw_bot	history-import:cw_bot:3780	2026-04-06 19:59:26.612+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1232493274	MARYNADA058	VLP	\N	27220	12413	17674	cw_bot	history-import:cw_bot:6884	2026-07-31 20:00:25.469+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1243643868	ASEYIsoos	SOPU	\N	2570000	900	17674	cw_bot	history-import:cw_bot:9421	2026-08-12 22:46:12.145+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1253134958	Emalele093	EDS1	\N	792130	2689	17674	cw_bot	history-import:cw_bot:3169	2026-07-27 16:55:04.085+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1277089394	LUVALICEEXO	V1LN	\N	3230000	673	17675	cw_bot	history-import:cw_bot:9256	2026-04-28 15:57:56.007+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1279232695	Ac3scar	B33Z	\N	212580	5814	17675	cw_bot	history-import:cw_bot:240	2026-05-10 02:13:40.5+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1283935690	Laura_V13	M4RB	\N	1790000	1330	17674	cw_bot	history-import:cw_bot:4339	2026-08-09 17:50:39.523+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1286384664	uzuisnipes	W2VY	\N	10140000	108	17674	cw_bot	history-import:cw_bot:333	2026-07-17 18:33:12.116+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1294169389	crazy_blox6677	ANG_	\N	176000	6391	17674	cw_bot	history-import:cw_bot:2614	2026-07-31 20:54:30.508+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1294494054	Ethanblaze112	dohw	\N	1180000	1976	17675	cw_bot	history-import:cw_bot:8318	2026-04-03 19:35:37.401+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1322640473	Barsuchonok23	dace	\N	453300	3838	17674	cw_bot	history-import:cw_bot:2653	2026-07-31 22:58:18.195+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1326160949	VeriseQ1996	HROT	\N	3780000	571	17671	cw_bot	history-import:cw_bot:5234	2026-08-21 19:32:55.468+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1330097404	tomasbudik007	HROT	\N	6760000	227	17674	cw_bot	history-import:cw_bot:7094	2026-07-30 18:00:28.62+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1351524241	ARSENAEAL	AX3T	\N	145170	6999	17674	cw_bot	history-import:cw_bot:7250	2026-07-27 22:16:37.398+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1362185234	BWL2020	dewp	\N	322980	4680	17675	cw_bot	history-import:cw_bot:1074	2026-04-25 16:45:57.107+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1371972870	sgteliteleo	V1LN	\N	5550000	325	17674	cw_bot	history-import:cw_bot:7735	2026-08-05 22:50:31.029+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1373748557	poopsmcgoops132	🏰 Clan: **dohw**	\N	1970000	1202	17675	cw_bot	history-import:cw_bot:8363	2026-04-24 01:57:13.047+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1376213247	eric23129	DLOW	\N	19100	13390	17675	cw_bot	history-import:cw_bot:3934	2026-06-26 14:54:31.345+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1380082703	Allalboy2	7HRW	\N	4790000	418	17675	cw_bot	history-import:cw_bot:8210	2026-04-08 19:50:25.995+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1381505419	0LDBS	V1LN	\N	4920000	398	17675	cw_bot	history-import:cw_bot:8463	2026-06-17 00:36:35.957+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1384716628	barti12345610	LSQ	\N	105580	8067	17674	cw_bot	history-import:cw_bot:8525	2026-07-21 19:41:58.049+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1386665561	nuxx7	HSTL	\N	246280	5391	17675	cw_bot	history-import:cw_bot:269	2026-05-17 10:44:35.489+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1403606137	GhostWhisperer03	PAAC	\N	28380	12332	17674	cw_bot	history-import:cw_bot:6907	2026-08-01 01:11:48.951+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1409166088	treytonpeterbuilt	GSTG	\N	1080000	2128	17675	cw_bot	history-import:cw_bot:1365	2026-05-07 00:27:08.494+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1428528797	play998755	HR3T	\N	680	16719	17674	cw_bot	history-import:cw_bot:7283	2026-07-26 21:50:12.767+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1437069784	oldmanwrinklenose	AR2Y	\N	2040000	1170	17675	cw_bot	history-import:cw_bot:3897	2026-05-25 16:50:02.805+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1462748729	dragonballx1412	NONG	22	3320000	655	17674	cw_bot	history-import:big_bot:67	2026-07-17 01:03:33.384+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1469224615	TheRealToonster	3zEZ	\N	6730000	232	17675	cw_bot	history-import:cw_bot:1086	2026-04-25 23:24:03.687+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1470086836	jman8960	3GM6	\N	2290000	1030	17674	cw_bot	history-import:cw_bot:2768	2026-07-31 18:44:32.707+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1476403654	dilerij2	BEZE	\N	2220000	1061	17675	cw_bot	history-import:cw_bot:2069	2026-07-01 18:46:57.039+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1501050755	RealYTStarz	st1z	15	10530000	103	17675	cw_bot	history-import:big_bot:1034	2026-06-27 18:27:30.824+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1501625591	floriansamuraiu	07W	\N	1040000	2211	17674	cw_bot	history-import:cw_bot:7899	2026-07-08 14:32:48.38+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1509495433	arrume_aparte12	dewp	\N	373590	4294	17674	cw_bot	history-import:cw_bot:8017	2026-07-08 14:39:41.28+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1510971300	Informix_CZ	KMo	\N	694450	2938	17674	cw_bot	history-import:cw_bot:6220	2026-08-08 08:18:03.311+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1519381006	CloudyVR65	S2PU	\N	2780000	836	17675	cw_bot	history-import:cw_bot:1137	2026-04-27 02:10:48.062+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1519933607	JustCaIIMeEgg	NS4R	\N	260000	5222	17674	cw_bot	history-import:cw_bot:497	2026-07-17 18:48:12.453+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1520358099	FlipFlopFloop417	CC4T	\N	664050	3014	17674	cw_bot	history-import:cw_bot:350	2026-07-17 18:33:20.942+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1523688491	runea6	DHFA	\N	541280	3441	17675	cw_bot	history-import:cw_bot:3978	2026-04-12 22:19:46.23+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1528718508	strykertoff	XPQX	\N	225860	5639	17675	cw_bot	history-import:cw_bot:1262	2026-05-03 14:42:25.308+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1531503047	papa_ilse	🏰 Clan: **LXCC**	\N	\N	635	17675	cw_bot	history-import:cw_bot:1057	2026-04-24 02:11:16.259+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1537916189	MailDaCoolKid	SOPU	\N	5730000	312	17675	cw_bot	history-import:cw_bot:9193	2026-06-19 13:04:44.383+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1539398349	Darkszern	SOPU	\N	4550000	447	17674	cw_bot	history-import:cw_bot:4567	2026-08-04 19:57:01.734+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1546214233	ninjaogifox	0RBI	\N	246680	5384	17674	cw_bot	history-import:cw_bot:5974	2026-08-10 21:49:03.348+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1573629774	mkmike27mk	XPQX	\N	8300000	156	17675	cw_bot	history-import:cw_bot:252	2026-05-16 17:04:30.807+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1581306248	Robloxak_Honiik	KMo	\N	1360000	1731	17672	cw_bot	history-import:cw_bot:5830	2026-08-14 19:05:13.93+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1583648375	KeyzziHD94	GSTG	\N	3300000	660	17674	cw_bot	history-import:cw_bot:284	2026-07-17 17:28:11.535+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1585438984	dontchallengeme2	KOHV	\N	1440000	1649	17674	cw_bot	history-import:cw_bot:680	2026-07-17 18:57:20.291+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1587906543	wexfordfox	V1LN	\N	15330000	54	17675	cw_bot	history-import:cw_bot:9283	2026-04-29 12:14:55.272+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1588037884	gamingISbest13	V1LN	\N	13130000	71	17671	cw_bot	history-import:cw_bot:8734	2026-08-17 23:15:43.389+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1592738293	1ncr3d1bl3sulk	x75p	\N	939220	2414	17675	cw_bot	history-import:cw_bot:1275	2026-05-03 22:19:36.985+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1596560199	wiegehtdennsowas	XBOX	\N	7390000	191	17675	cw_bot	history-import:cw_bot:9317	2026-04-05 16:35:34.64+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1599021912	aidz123457	FGZW	\N	2420000	978	17675	cw_bot	history-import:cw_bot:4037	2026-04-12 22:01:39.552+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1605744856	jackster_theman	EDS1	\N	101200	8203	17675	cw_bot	history-import:cw_bot:1961	2026-06-26 17:58:01.449+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1613882953	toastedpoptartonyt	CXTG	\N	1080000	2131	17671	cw_bot	history-import:cw_bot:9915	2026-08-18 18:50:20.423+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1617221713	waheedplayzYT	SOPU	\N	6740000	230	17674	cw_bot	history-import:cw_bot:7779	2026-07-22 21:12:43.733+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1626378539	Fulda645	EXP	\N	3290000	666	17675	cw_bot	history-import:cw_bot:8141	2026-04-28 12:17:49.765+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1628693493	Eastonhall09	AWZY	\N	1060000	2174	17674	cw_bot	history-import:cw_bot:4321	2026-08-09 18:59:13.271+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1652197454	fighter92399_alt	NONG	\N	5980000	287	17675	cw_bot	history-import:cw_bot:1828	2026-06-16 00:22:27.481+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1670011733	Kono9595	HROT	\N	3300000	662	17674	cw_bot	history-import:cw_bot:6372	2026-08-07 18:53:41.202+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1672034827	coolguy35166	SOPU	\N	25160000	16	17675	cw_bot	history-import:cw_bot:8378	2026-04-06 22:11:51.888+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1676340458	AgreedFlower11	0RBI	\N	391630	4195	17674	cw_bot	history-import:cw_bot:614	2026-07-17 18:49:30.27+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1683480006	kminoscz	KMo	\N	4620000	438	17674	cw_bot	history-import:cw_bot:7075	2026-07-30 17:15:30.786+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1685635748	farmboyjetw	BOSS	\N	3910000	544	17675	cw_bot	history-import:cw_bot:8306	2026-04-02 20:23:10.489+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1690820953	1tombay	BEZE	\N	600000	3225	17675	cw_bot	history-import:cw_bot:1714	2026-05-23 14:09:54.985+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1736229929	MgFireDark128	\N	\N	\N	374	17675	cw_bot	history-import:cw_bot:3707	2026-03-12 17:58:27.842+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1748839707	XDbro234	fnue	\N	20160	13031	17674	cw_bot	history-import:cw_bot:2504	2026-08-01 10:44:01.654+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1750005492	averyhein1920	M4RB	\N	2570000	903	17675	cw_bot	history-import:cw_bot:8394	2026-06-17 00:11:42.038+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1759162396	9kbotzz	XBOX	\N	15720000	52	17675	cw_bot	history-import:cw_bot:9329	2026-04-05 20:49:49.97+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1780089241	dominikando11	3zEZ	\N	535220	3469	17675	cw_bot	history-import:cw_bot:4005	2026-04-12 21:23:47.034+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1787663283	TheBuilder5649	FGZW	\N	85190	8729	17675	cw_bot	history-import:cw_bot:4073	2026-04-12 22:03:03.052+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1818966891	Drak1735	HR2T	\N	4960000	391	17672	cw_bot	history-import:cw_bot:5843	2026-08-14 19:17:31.862+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1824713899	hayojeu2k	W2VY	\N	4100000	518	17674	cw_bot	history-import:cw_bot:666	2026-07-17 18:57:09.828+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1835808563	1213eric	dohw	\N	5570000	325	17675	cw_bot	history-import:cw_bot:1639	2026-05-21 04:56:29.857+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1876521711	MichalRooblox	A2H	\N	60400	9802	17674	cw_bot	history-import:cw_bot:6503	2026-08-06 18:51:22.342+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1881899133	Coxxman	VLP	\N	812280	2644	17674	cw_bot	history-import:cw_bot:7438	2026-07-13 19:26:57.695+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1895942489	ziomek1000oo	LSQ	\N	335730	4570	17671	cw_bot	history-import:cw_bot:7580	2026-08-19 21:17:39.542+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1909441823	EddieTeddy_2009	st1z	\N	1790000	1331	17674	cw_bot	history-import:cw_bot:2644	2026-07-31 22:57:16.616+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1909574870	jjdjsjsmsmmd	HROT	\N	5460000	339	17671	cw_bot	history-import:cw_bot:5034	2026-08-24 10:03:20.943+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1944841143	BEARDED_DRAGONGUY	karl	\N	726160	2857	17675	cw_bot	history-import:cw_bot:1897	2026-06-20 15:13:49.311+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1950318403	itsgaternotgator	W2VY	\N	1010000	2278	17675	cw_bot	history-import:cw_bot:306	2026-07-01 16:29:10.815+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1973447751	radkozahumensky5	HR2T	\N	1420000	1668	17671	cw_bot	history-import:cw_bot:4970	2026-08-24 18:50:27.632+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1986018475	Yazooony55	AXOK	\N	49730	10643	17674	cw_bot	history-import:cw_bot:2308	2026-08-12 18:23:23.035+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1996183705	humicek2020cz	HROT	\N	4080000	521	17671	cw_bot	history-import:cw_bot:5158	2026-08-23 06:34:54.553+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	1998984070	gamerguy9764	SOPU	\N	8920000	136	17675	cw_bot	history-import:cw_bot:1323	2026-05-06 02:10:01.919+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2005983585	shadowstaristhegoat	LXCC	\N	1440000	1641	17674	cw_bot	history-import:cw_bot:9556	2026-07-31 10:09:27.163+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2054521558	vaclav2011spk	BOFC	\N	4000	15148	17671	cw_bot	history-import:cw_bot:4954	2026-08-24 17:05:58.96+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2064474099	macejko998	K989	\N	18200	13464	17672	cw_bot	history-import:cw_bot:5601	2026-08-16 18:31:51.714+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2066465994	04AshKetchum	Aifo	\N	69280	9401	17674	cw_bot	history-import:cw_bot:3298	2026-07-24 18:07:21.258+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2066991689	Hroudelinka	Lusr	\N	208490	5851	17671	cw_bot	history-import:cw_bot:5013	2026-08-23 19:18:57.125+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2067834432	blazeeok	SOPU	\N	29380000	11	17674	cw_bot	history-import:cw_bot:3178	2026-07-26 20:02:36.593+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2226792909	Raptorik_gamer	HR2T	\N	403840	4120	17674	cw_bot	history-import:cw_bot:7422	2026-07-18 17:45:36.477+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2241042742	WallEExtreme	TSFA	\N	6410000	253	17674	cw_bot	history-import:cw_bot:8679	2026-07-15 16:36:29.044+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2251616291	miminkoxxxxczdd	VLP	\N	4560000	444	17672	cw_bot	history-import:cw_bot:7632	2026-08-15 11:12:28.99+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2257521302	Likynda2011	dewp	\N	167410	6538	17674	cw_bot	history-import:cw_bot:6024	2026-08-10 09:31:18.664+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2282416912	vae1oria	KLWN	\N	1300000	1823	17675	cw_bot	history-import:cw_bot:9295	2026-04-25 08:43:24.827+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2316325389	julimowi	S2PU	\N	2980000	763	17674	cw_bot	history-import:cw_bot:2727	2026-07-31 17:12:47.437+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2318308002	karelman1451	HROT	\N	4580000	442	17671	cw_bot	history-import:cw_bot:4910	2026-08-26 18:25:05.52+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2320688195	daihukumochi223	2WEI	\N	3690000	595	17675	cw_bot	history-import:cw_bot:8551	2026-06-17 03:04:38.757+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2349313768	crystalboyo256	S7PY	\N	68200	9447	17674	cw_bot	history-import:cw_bot:2973	2026-07-30 10:49:42.699+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2349773489	jsemdobrejkabe	ROGU	\N	1130000	2041	17674	cw_bot	history-import:cw_bot:6234	2026-08-08 09:15:39.653+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2362381309	Hopkins113528	\N	\N	\N	2661	17675	cw_bot	history-import:cw_bot:3555	2026-03-12 23:11:23.473+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2374805653	dhsfwfwef	HR2T	\N	1010000	2281	17674	cw_bot	history-import:cw_bot:6086	2026-08-08 22:12:37.796+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2375471082	RayquazaPlayz_yt	FMLY	\N	865130	2551	17675	cw_bot	history-import:cw_bot:4107	2026-04-12 20:27:06.36+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2390532251	sirnative	D4NG	\N	1830000	1292	17675	cw_bot	history-import:cw_bot:1949	2026-06-22 02:40:06.54+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2398510848	noobatobbysman	CLKJ	\N	728260	2854	17675	cw_bot	history-import:cw_bot:4035	2026-04-12 22:00:51.566+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2399889452	starwax85	V1LN	\N	19560000	30	17674	cw_bot	history-import:cw_bot:7760	2026-07-17 15:53:21.548+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2420801797	0k_0w	eguh	\N	572520	3307	17674	cw_bot	history-import:cw_bot:440	2026-07-17 18:47:32.43+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2431643806	1KRUCHY	XREX	\N	4300000	487	17675	cw_bot	history-import:cw_bot:8055	2026-06-23 16:35:49.505+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2443619256	mihokkon	UNO	\N	1370000	1721	17675	cw_bot	history-import:cw_bot:3755	2026-04-17 00:20:59.211+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2451180568	SuperSpeedyC_12345	3zEZ	\N	8630000	143	17674	cw_bot	history-import:cw_bot:2940	2026-07-30 23:41:01.908+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2463337749	mrtendieman	GSTG	\N	6510000	243	17672	cw_bot	history-import:cw_bot:7694	2026-08-16 16:38:00.619+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2469768592	Raitonn0609	2WEI	\N	713400	2897	17675	cw_bot	history-import:cw_bot:9366	2026-03-31 20:29:42.263+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2475732693	Fazmashwastaken	FaZ	\N	1610000	1478	17674	cw_bot	history-import:cw_bot:9996	2026-08-09 01:32:35.34+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2487889713	Doggo_1490	dohw	\N	1030000	2228	17675	cw_bot	history-import:cw_bot:1214	2026-05-01 16:32:08.802+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2489048274	BlissfulBurper	AR2Y	\N	3230000	672	17674	cw_bot	history-import:cw_bot:8903	2026-07-31 16:46:44.148+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2489878566	K1ng_01iver	Quaz	\N	2000	15772	17674	cw_bot	history-import:cw_bot:6870	2026-07-31 18:14:04.272+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2489885181	Ewan_314	NONG	\N	1680000	1415	17674	cw_bot	history-import:cw_bot:4430	2026-08-07 01:31:38.701+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2509513667	Ryderkoo5545	HOMY	\N	51510	10379	17671	cw_bot	history-import:cw_bot:5047	2026-08-23 10:46:48.07+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2521267504	matejsbss	HR2T	\N	119700	7646	17674	cw_bot	history-import:cw_bot:7471	2026-07-15 14:29:29.985+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2527202665	rider879507	czmr	\N	260000	5226	17674	cw_bot	history-import:cw_bot:6753	2026-08-03 00:48:44.198+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2529950059	swbrthe34rd	LBB	\N	5000	14926	17672	cw_bot	history-import:cw_bot:5677	2026-08-15 00:36:32.07+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2530992063	smrtak54	HR3T	\N	3000	15398	17674	cw_bot	history-import:cw_bot:6178	2026-08-08 19:57:25.253+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2539070982	Nomdecodetotoc34	ANG_	\N	279990	5038	17675	cw_bot	history-import:cw_bot:1236	2026-05-02 16:27:23.292+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2545832975	baconszombiesarmy	FGZW	\N	638860	3096	17675	cw_bot	history-import:cw_bot:4051	2026-04-12 22:02:06.94+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2566901760	Megaobam123z	HROT	\N	786120	2703	17671	cw_bot	history-import:cw_bot:5510	2026-08-19 09:02:01.142+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2607789450	yeetboiisyay	🏰 Clan: **OTTR**	\N	\N	6084	17675	cw_bot	history-import:cw_bot:3623	2026-04-27 05:25:27.894+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2628215963	praisevolxtz	YLW	\N	4620	14982	17674	cw_bot	history-import:cw_bot:452	2026-07-17 18:47:40.523+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2633185327	luxxrro	EXP	\N	341550	4525	17675	cw_bot	history-import:cw_bot:1988	2026-06-28 16:25:22.311+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2648563570	Stepa16th	HR2T	\N	119640	7651	17674	cw_bot	history-import:cw_bot:7392	2026-07-17 14:30:03.697+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2667688976	SlimGreycz_2	VLP	\N	460100	3795	17674	cw_bot	history-import:cw_bot:7933	2026-07-08 14:35:29.662+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2668452334	Xxhello_Sir	Winr	\N	965440	2357	17674	cw_bot	history-import:cw_bot:2374	2026-08-10 17:49:54.782+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2674316581	hackplayscz	VPTO	\N	300320	4866	17675	cw_bot	history-import:cw_bot:9130	2026-06-30 12:24:22.533+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2689348419	135kuna135	HHLf	\N	100000	8255	17674	cw_bot	history-import:cw_bot:6583	2026-08-06 07:30:31.106+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2709299989	fishy_axl22	st1z	\N	2630000	885	17675	cw_bot	history-import:cw_bot:767	2026-05-10 02:24:40.449+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2719084403	aidananthony013	XPQX	\N	3180000	682	17675	cw_bot	history-import:cw_bot:1812	2026-06-13 15:03:54.201+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2732960938	rivvonthebest64	FGZW	\N	346200	4489	17675	cw_bot	history-import:cw_bot:9176	2026-06-20 12:50:43.156+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2739287597	krillerproxd	AR2Y	\N	3310000	657	17674	cw_bot	history-import:cw_bot:7880	2026-07-08 14:29:50.8+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2741560826	notaps322	_MGW	\N	30000	12027	17674	cw_bot	history-import:cw_bot:9944	2026-07-18 18:26:05.951+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2786686086	Loewentatze12	CITC	\N	4690	14976	17674	cw_bot	history-import:cw_bot:2433	2026-08-09 19:22:00.052+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2793216369	F_Bizzle	BOSS	\N	1860000	1279	17675	cw_bot	history-import:cw_bot:1153	2026-04-27 21:42:43.611+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2813767675	Sam262010Y	V1LN	\N	5310000	355	17675	cw_bot	history-import:cw_bot:1868	2026-06-19 19:17:38.63+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2814812080	111123ioukhjnnbbn	🏰 Clan: **dohw**	\N	\N	2339	17675	cw_bot	history-import:cw_bot:3704	2026-02-14 14:47:05.489+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2843513755	firefeather46	HSTL	28	4690000	28	\N	external_import	history-import:big_bot:1015	2026-07-12 00:55:29.049+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2853594415	peslolpj	HR3T	\N	208040	5858	17672	cw_bot	history-import:cw_bot:5747	2026-08-14 16:23:32.844+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2915153725	Ishan90091	07W	\N	366680	4335	17674	cw_bot	history-import:cw_bot:10051	2026-08-08 18:49:12.798+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2956070032	AnnexOO1	DLOW	\N	678550	2979	17675	cw_bot	history-import:cw_bot:8242	2026-04-11 00:42:36.107+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2956113153	xwiktorxxxx3	LSQ	\N	212770	5809	17674	cw_bot	history-import:cw_bot:8913	2026-07-30 10:52:00.891+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2961636717	nichozr	V1LN	\N	56600000	2	17675	cw_bot	history-import:cw_bot:1416	2026-05-11 01:18:04.672+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2965361189	Mynestra	🏰 Clan: **Roux**	\N	\N	7788	17675	cw_bot	history-import:cw_bot:3607	2026-04-30 21:26:17.172+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2973745571	WGZ7uzg	T2UX	\N	34280	11613	17675	cw_bot	history-import:cw_bot:1592	2026-05-20 17:40:45.45+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2981591104	Maroko_013	V1LN	\N	2520000	933	17674	cw_bot	history-import:cw_bot:8862	2026-07-31 17:35:33.295+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2988275843	zspjasieniec1	PABS	\N	20000	13101	17671	cw_bot	history-import:cw_bot:8492	2026-08-19 15:24:30.108+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	2999732017	derharzendeharzer	3zEZ	\N	4430000	469	17675	cw_bot	history-import:cw_bot:4222	2026-04-12 20:09:36.816+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3000748132	PickleCloudNacho	H8ER	\N	2500000	939	17675	cw_bot	history-import:cw_bot:3953	2026-04-12 22:17:35.814+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3000932506	JackJAC123999	dewp	\N	384440	4240	17674	cw_bot	history-import:cw_bot:9508	2026-07-07 15:52:50.748+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3016891949	petaf1234	HR2T	\N	502850	3615	17671	cw_bot	history-import:cw_bot:5260	2026-08-21 20:32:57.322+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3019955385	stevesteve466	VLP	\N	600000	3225	17674	cw_bot	history-import:cw_bot:6261	2026-08-08 11:17:12.174+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3019968804	Houtchyoi	ROMU	\N	228380	5604	17675	cw_bot	history-import:cw_bot:1611	2026-05-20 23:36:44.19+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3022616943	floatindrag	K1WI	\N	142790	7048	17674	cw_bot	history-import:cw_bot:2560	2026-08-01 14:35:07.364+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3035841415	shiiiiiru	LSQ	\N	1880000	1267	17674	cw_bot	history-import:cw_bot:8808	2026-08-10 16:29:41.022+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3039307282	Mr_agnes30	XREX	\N	1400000	1694	17675	cw_bot	history-import:cw_bot:8072	2026-06-23 16:38:19.044+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3046788322	Xerenity1	DLOW	\N	100190	8231	17675	cw_bot	history-import:cw_bot:8254	2026-04-11 00:53:10.021+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3054766960	realyodream	S2PU	\N	2080000	1151	17674	cw_bot	history-import:cw_bot:4455	2026-08-05 18:06:41.781+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3058823156	dederet1452	ROGU	\N	281250	5021	17671	cw_bot	history-import:cw_bot:5271	2026-08-22 04:14:46.556+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3059849612	coolkidwwwa	ROGU	\N	1910000	1251	17675	cw_bot	history-import:cw_bot:4031	2026-04-12 22:00:36.823+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3060745926	thetruetdsglitch	V1LN	\N	6050000	280	17675	cw_bot	history-import:cw_bot:8036	2026-04-30 15:47:59.662+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3064251597	filipek2600cz	HR2T	\N	832610	2616	17675	cw_bot	history-import:cw_bot:1564	2026-05-17 11:56:22.532+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3068970596	8loxxik	DJRK	\N	86390	8683	17674	cw_bot	history-import:cw_bot:7050	2026-07-30 16:20:17.848+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3073922856	dunyhoroblox	ROGU	\N	452570	3843	17674	cw_bot	history-import:cw_bot:7336	2026-07-25 23:14:38.795+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3078836998	minzxn_11	AQ	\N	54940	10133	17671	cw_bot	history-import:cw_bot:8631	2026-08-26 16:34:14.001+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3108660508	Darcacz2	Axet	\N	709990	2904	17674	cw_bot	history-import:cw_bot:6677	2026-08-04 13:06:03.104+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3124408432	Mr96eduD	3zEZ	\N	8490000	152	17675	cw_bot	history-import:cw_bot:4161	2026-04-12 20:33:19.889+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3136650641	petr1235786435	Axet	\N	838010	2605	17671	cw_bot	history-import:cw_bot:4867	2026-08-28 09:45:55.454+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3139037723	Tobik987123	cspe	\N	121720	7577	17674	cw_bot	history-import:cw_bot:6473	2026-08-06 18:08:45.622+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3141351327	vitek668701	ROGU	\N	671260	2995	17674	cw_bot	history-import:cw_bot:6352	2026-08-07 17:33:25.404+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3143604581	RebelkaCZ157	VLP	\N	2840000	812	17674	cw_bot	history-import:cw_bot:6708	2026-08-04 09:43:51.606+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3144581284	averyhein1920212223	H8ER	\N	13000	13845	17674	cw_bot	history-import:cw_bot:9034	2026-07-17 16:38:09.537+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3149302489	code_wille	SOPU	\N	8980000	133	17675	cw_bot	history-import:cw_bot:3838	2026-04-05 06:57:37.866+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3167252782	aromelkasto2	BYRD	\N	131150	7352	17674	cw_bot	history-import:cw_bot:6821	2026-08-01 11:19:56.793+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3167272498	zdendpicl9	DJRK	\N	16070	13620	17672	cw_bot	history-import:cw_bot:5716	2026-08-15 08:51:50.658+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3167571592	Hickarn1	3zEZ	\N	13600000	66	17675	cw_bot	history-import:cw_bot:8380	2026-03-22 11:06:41.693+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3171368431	darklode100	dohw	\N	2540000	923	17675	cw_bot	history-import:cw_bot:1125	2026-04-27 02:10:10.025+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3172618280	cannelle4545	BLZ_	\N	80270	8932	17672	cw_bot	history-import:cw_bot:8752	2026-08-15 22:33:59.794+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3198094679	JanKob2022	LSQ	\N	228000	5610	17674	cw_bot	history-import:cw_bot:8450	2026-08-01 18:13:54.908+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3203422029	drlllolll	OCHG	\N	73680	9185	17671	cw_bot	history-import:cw_bot:9441	2026-08-22 16:01:45.839+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3208575762	tofikmore	2pGA	\N	13940	13778	17672	cw_bot	history-import:cw_bot:5621	2026-08-16 07:23:34.699+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3215370935	snorlaxfox1	V1LN	\N	5530000	330	17675	cw_bot	history-import:cw_bot:9383	2026-04-02 02:54:57.549+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3233034644	ARIGO11234	3zEZ	\N	443730	3889	17674	cw_bot	history-import:cw_bot:3304	2026-07-24 20:34:16.905+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3238661227	kapinooos123	DJRK	\N	52000	10345	17674	cw_bot	history-import:cw_bot:6402	2026-08-07 22:39:55.498+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3244967172	Daliborko6	HR3T	\N	14200	13733	17674	cw_bot	history-import:cw_bot:4776	2026-07-30 16:13:56.602+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3248091509	professorfeliks	LSQ	\N	292260	4932	17674	cw_bot	history-import:cw_bot:8979	2026-07-19 16:26:07.395+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3252894844	vexityonnic	WJAY	\N	2390000	990	17675	cw_bot	history-import:cw_bot:3810	2026-04-05 06:50:41.945+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3270087406	Mrkrecek12	VLP2	\N	135720	7234	17672	cw_bot	history-import:cw_bot:5613	2026-08-14 19:39:09.575+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3271035452	Misak0912	HR2T	\N	1150000	2009	17674	cw_bot	history-import:cw_bot:6941	2026-08-01 08:49:00.863+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3271442208	Jonglesje	VPT0	\N	110000	7926	17671	cw_bot	history-import:cw_bot:2230	2026-08-24 09:46:55.285+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3289385978	KnKmor	DK	\N	1060000	2161	17674	cw_bot	history-import:cw_bot:8887	2026-08-01 18:12:49.345+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3299278772	xxprozombix	MZTR	\N	2530000	930	17675	cw_bot	history-import:cw_bot:8666	2026-06-26 13:37:08.577+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3302444862	EndOfAnEra007	NONG	22	6230000	22	\N	external_import	history-import:big_bot:969	2026-07-16 23:25:31.662+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3313860138	RadimFafulec1234	rmmr	\N	1500000	1584	17674	cw_bot	history-import:cw_bot:5993	2026-08-10 12:44:35.715+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3318596083	Mamaris357357	HROT	\N	3650000	597	17672	cw_bot	history-import:cw_bot:5780	2026-08-14 17:19:41.498+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3323392290	D0m1n8tr	V1LN	\N	12020000	86	17675	cw_bot	history-import:cw_bot:9270	2026-04-29 06:50:40.467+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3331982177	iTz_h0vno	M4RB	\N	516080	3561	17672	cw_bot	history-import:cw_bot:5822	2026-08-14 18:54:28.981+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3342535725	Adamosingos	OCHG	\N	8500	14458	17671	cw_bot	history-import:cw_bot:9530	2026-08-22 15:48:53.345+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3344342434	MUI_5aiyajin	S2PU	\N	7030000	212	17675	cw_bot	history-import:cw_bot:3834	2026-04-05 06:57:09.847+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3345239646	vojtas98CZ	SRO	\N	155720	6768	17674	cw_bot	history-import:cw_bot:6149	2026-08-08 18:13:17.798+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3354879384	skipDwyne	EDS1	\N	69930	9383	17674	cw_bot	history-import:cw_bot:7224	2026-07-29 01:58:06.07+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3357292523	Grec_Game	HROT	\N	1430000	1651	17674	cw_bot	history-import:cw_bot:7059	2026-07-30 17:14:48.532+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3362057703	ImNoobFilda	kach	\N	130460	7367	17674	cw_bot	history-import:cw_bot:7386	2026-07-17 12:53:21.426+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3370104014	Standa256	VLP	\N	82320	8831	17671	cw_bot	history-import:cw_bot:5134	2026-08-23 03:03:21.508+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3372527888	CokoladovaZmrzska	cspe	\N	1120000	2058	17674	cw_bot	history-import:cw_bot:7353	2026-07-22 01:19:32.889+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3377511045	mercstien	GSTG	\N	208270	5858	17675	cw_bot	history-import:cw_bot:1336	2026-05-06 09:08:51.241+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3378947321	reset45624382	BEZE	\N	83560	8786	17674	cw_bot	history-import:cw_bot:8822	2026-08-08 12:36:56.654+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3382833387	kingweslie123	BUTI	\N	30020	12006	17674	cw_bot	history-import:cw_bot:2322	2026-08-12 21:19:37.585+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3393324525	BigWolfPL	XREX	\N	1470000	1613	17674	cw_bot	history-import:cw_bot:7816	2026-07-24 20:08:19.243+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3416641778	dd_ontop13	SOPU	\N	6710000	235	17675	cw_bot	history-import:cw_bot:3821	2026-04-05 06:51:12.613+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3438549743	DarkHonza2013	NDH	\N	1200000	1939	17674	cw_bot	history-import:cw_bot:7156	2026-07-30 12:17:48.959+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3439337856	prezley_official2022	HROT	\N	717620	2883	17674	cw_bot	history-import:cw_bot:7113	2026-07-30 15:19:24.23+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3444459957	Radek25101982	VLP	\N	30000	12044	17674	cw_bot	history-import:cw_bot:6048	2026-08-09 09:04:46.362+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3447427741	filipekisfff	3zEZ	\N	1060000	2171	17675	cw_bot	history-import:cw_bot:3883	2026-05-11 00:51:30.646+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3450868495	nolram1a	Roux	\N	220	16948	17674	cw_bot	history-import:cw_bot:8848	2026-08-04 06:49:16.854+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3500795024	Ey3d46	S2PU	\N	505220	3612	17675	cw_bot	history-import:cw_bot:292	2026-05-09 14:14:11.57+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3509021767	JonnyM55	HR2T	\N	334500	4577	17672	cw_bot	history-import:cw_bot:5547	2026-08-17 00:51:43.291+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3557375419	Subtokirbofanyt	ORBI	\N	251200	5327	17674	cw_bot	history-import:cw_bot:2187	2026-07-27 21:40:54.835+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3565857429	Bb874tad	AR2Y	\N	2380000	994	17674	cw_bot	history-import:cw_bot:7962	2026-07-08 14:36:26.417+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3593720708	Malysberatel	AR2Y	\N	2100000	1124	17674	cw_bot	history-import:cw_bot:7991	2026-07-08 14:36:56.328+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3613207546	foltyn_jakes	dewp	\N	159000	6707	17674	cw_bot	history-import:cw_bot:7217	2026-07-29 21:02:55.844+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3628039137	anoknight5	XPQX	\N	1170000	1991	17674	cw_bot	history-import:cw_bot:3115	2026-07-28 18:56:15.247+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3630752477	ffggss478	ROGU	\N	204970	5905	17671	cw_bot	history-import:cw_bot:5487	2026-08-19 21:29:14.497+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3655474970	Shrooomdevourer10	V1LN	\N	4330000	480	17675	cw_bot	history-import:cw_bot:8472	2026-06-17 00:21:50.467+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3666359390	Lumpajz1	HROT	\N	1460000	1629	17674	cw_bot	history-import:cw_bot:7254	2026-07-27 11:24:44.306+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3672938221	zhulenc	VLP	\N	145280	6996	17674	cw_bot	history-import:cw_bot:6523	2026-08-06 21:54:27.517+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3683660130	Medvid3k11	cspe	\N	10000	14192	17674	cw_bot	history-import:cw_bot:6984	2026-07-31 17:00:07.71+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3750045967	imnotdigitosim1476	HROT	\N	6400000	254	17672	cw_bot	history-import:cw_bot:5655	2026-08-14 22:17:44.993+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3768828357	mrs_reset	V1LN	\N	13310000	70	17675	cw_bot	history-import:cw_bot:8605	2026-06-17 00:15:13.179+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3779230353	goat201470	H8M3	\N	74900	9146	17675	cw_bot	history-import:cw_bot:8274	2026-04-13 16:26:51.02+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3797718809	m4thou3	Goop	\N	10	17524	17674	cw_bot	history-import:cw_bot:3073	2026-07-28 21:07:33.267+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3804356173	fishyaxl22	ST1Z	15	\N	15	\N	external_import	history-import:big_bot:986	2026-07-14 03:44:42.78+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3808414208	Suppe_Can	BEZE	\N	401190	4145	17675	cw_bot	history-import:cw_bot:8113	2026-04-27 17:55:05.386+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3834652767	Roman5556_CZ	SAM4	\N	87850	8654	17674	cw_bot	history-import:cw_bot:7406	2026-07-17 16:42:07.486+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3868174361	popcatbrohter	DGSL	\N	3700	15203	17674	cw_bot	history-import:cw_bot:2874	2026-07-31 15:58:17.484+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3915256201	david_smeg	7HRW	\N	128960	7411	17674	cw_bot	history-import:cw_bot:3348	2026-07-23 15:30:35.199+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3919100604	Filda7329	STPS	\N	35000	11576	17674	cw_bot	history-import:cw_bot:6491	2026-08-06 18:48:55.736+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3926695029	22mamamama	VPT0	\N	243820	5407	17674	cw_bot	history-import:cw_bot:7451	2026-07-15 07:59:07.687+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3952416098	000pattik000	HR3T	\N	195170	6078	17674	cw_bot	history-import:cw_bot:6616	2026-08-05 07:49:04.542+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3978547556	Zoliisrecords	K989	\N	20000	13132	17671	cw_bot	history-import:cw_bot:4993	2026-08-24 10:40:01.728+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4006052667	badamtttt	K989	\N	1110000	2079	17674	cw_bot	history-import:cw_bot:6271	2026-08-08 11:25:07.466+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4023070188	kocovina98	DJRK	\N	297620	4890	17672	cw_bot	history-import:cw_bot:5731	2026-08-15 11:32:52.389+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4028104754	jaratupy36	DJRK	\N	71000	9303	17672	cw_bot	history-import:cw_bot:5760	2026-08-14 16:48:48.942+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4031576504	cupymaty	Ajcj	\N	20000	13241	17674	cw_bot	history-import:cw_bot:6119	2026-08-09 05:27:43.969+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4032508929	Skibidieny	HR2T	\N	311160	4770	17674	cw_bot	history-import:cw_bot:7190	2026-07-30 04:52:07.394+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4054510143	kudlankovec	VLP	\N	434650	3946	17674	cw_bot	history-import:cw_bot:2483	2026-08-01 09:59:49.052+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4062541064	Franta99996	ROYL	\N	502180	3619	17671	cw_bot	history-import:cw_bot:5103	2026-08-22 20:31:49.529+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4085016779	the_mandalorian963	V1LN	\N	17080000	44	17672	cw_bot	history-import:cw_bot:7645	2026-08-14 10:22:52.548+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4091709355	1230david4567	SAM4	\N	370000	4318	17672	cw_bot	history-import:cw_bot:5692	2026-08-15 05:24:53.093+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4113094220	TTobbboTT	V1LN	\N	4110000	512	17675	cw_bot	history-import:cw_bot:9223	2026-05-12 19:20:42.195+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4138810457	ibaitier	dohw	\N	18510000	35	17675	cw_bot	history-import:cw_bot:9122	2026-07-04 07:44:27.013+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4142577179	omgmegakiller_28	Dudh	\N	397280	4169	17674	cw_bot	history-import:cw_bot:3258	2026-07-25 13:57:23.221+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4161934376	honza01021983	VLP	\N	3500000	619	17671	cw_bot	history-import:cw_bot:4844	2026-08-28 06:57:40.513+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4165162503	trubgut3	HR2T	\N	890950	2508	17674	cw_bot	history-import:cw_bot:6419	2026-08-06 15:24:37.222+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4175082110	PLukk_2	eguh	\N	57460	9991	17671	cw_bot	history-import:cw_bot:2226	2026-08-24 09:48:14.467+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4177849716	doperthanyou67	3zEZ	\N	4860000	405	17674	cw_bot	history-import:cw_bot:9067	2026-07-08 01:06:13.66+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4196761995	GravysOfficial	HROT	\N	3670000	595	17671	cw_bot	history-import:cw_bot:5114	2026-08-22 23:53:53.389+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4215988499	abby_gamera	V1LN	\N	3180000	684	17675	cw_bot	history-import:cw_bot:8152	2026-04-28 15:06:15.006+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4227181139	Filip2817fi	TTDS	\N	2810	15441	17671	cw_bot	history-import:cw_bot:4897	2026-08-27 07:57:31.613+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4236664167	PsycheCZ	HROT	\N	4660000	433	17671	cw_bot	history-import:cw_bot:4806	2026-08-28 18:52:48.656+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4247536223	VoiDZzDripzz	dohw	\N	1490000	1595	17674	cw_bot	history-import:cw_bot:3064	2026-07-28 21:47:34.066+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3567067280	Kurtis2345789	ROMU	\N	2710000	857	17675	cw_bot	history-import:cw_bot:583	2026-05-19 20:18:17.483+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3589740153	WhosStarl1ght	0RBI	\N	1050000	2194	17675	cw_bot	history-import:cw_bot:1290	2026-05-04 17:16:23.567+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3602402808	Flexsnack21	UNTY	\N	1470000	1608	17675	cw_bot	history-import:cw_bot:1200	2026-05-01 08:05:11.74+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	3753977683	mybanana367	NONG	\N	3440000	633	17675	cw_bot	history-import:cw_bot:1464	2026-05-13 21:54:17.124+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4281402342	Selcuk1143	S2PU	\N	40000	11185	17674	cw_bot	history-import:cw_bot:3048	2026-07-28 21:24:31.882+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4301431724	Bobsussybu123	SLRP	\N	50	17211	17674	cw_bot	history-import:cw_bot:2519	2026-08-01 12:26:31.166+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4307217370	BuzekPetr2003	VLP	\N	169850	6490	17671	cw_bot	history-import:cw_bot:5477	2026-08-19 18:30:11.966+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4313949380	Dada343410	HR2T	\N	536010	3464	17674	cw_bot	history-import:cw_bot:6384	2026-08-07 20:30:35.379+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4336818312	Myguy_Ky1	Nump	\N	308780	4793	17674	cw_bot	history-import:cw_bot:3215	2026-07-26 11:08:12.603+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4359375074	PostalChaos1	3zEZ	\N	2660000	873	17675	cw_bot	history-import:cw_bot:4100	2026-04-12 20:17:08.094+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4388509145	kukurice153	tNo	\N	646100	3070	17674	cw_bot	history-import:cw_bot:5954	2026-08-11 16:22:14.568+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4393951337	lukascccs	VLP2	\N	315180	4743	17674	cw_bot	history-import:cw_bot:6129	2026-08-08 17:36:40.231+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4410601649	alle_889	DJTW	\N	240	16927	17674	cw_bot	history-import:cw_bot:6902	2026-07-31 23:49:42.609+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4449496597	dodo_jePRO	Axet	\N	1170000	1990	17671	cw_bot	history-import:cw_bot:4810	2026-08-28 15:34:00.919+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4452395552	Xavier_Toorp	DJRK	\N	60370	9803	17674	cw_bot	history-import:cw_bot:7034	2026-07-31 00:21:48.123+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4455397343	Denis512657	ULCK	\N	370470	4316	17674	cw_bot	history-import:cw_bot:7048	2026-07-30 18:27:47.628+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4468537889	tvojemamag101	VLP2	\N	64560	9596	17671	cw_bot	history-import:cw_bot:5088	2026-08-22 23:18:43.789+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4482372398	Burak30_CZ	VLP	\N	190800	6134	17674	cw_bot	history-import:cw_bot:7163	2026-07-30 13:05:24.983+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4501805740	jhdghrghhtzt	HR2T	\N	1910000	1246	17674	cw_bot	history-import:cw_bot:6438	2026-08-06 17:33:40.928+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4511286390	tadeasvrsovsky12345	HROT	\N	4840000	408	17671	cw_bot	history-import:cw_bot:5313	2026-08-21 07:07:08.39+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4574397825	PET_HERO676	FYRX	\N	12000	13935	17671	cw_bot	history-import:cw_bot:5410	2026-08-20 09:37:57.743+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4583513261	xXJ0hnXx23	POJO	\N	294700	4908	17671	cw_bot	history-import:cw_bot:5290	2026-08-22 16:50:40.795+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4584982387	Misabilk	VLP2	\N	182170	6269	17674	cw_bot	history-import:cw_bot:5935	2026-08-11 16:19:44.683+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4597064685	nevimheslo108	HROT	\N	3150000	689	17674	cw_bot	history-import:cw_bot:6644	2026-08-05 20:02:56.557+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4634042698	psxtrader327	OTTR	337	\N	337	\N	external_import	history-import:big_bot:1082	2026-06-29 23:25:50.145+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4656324138	mrbloxterr10	V1LN	\N	25700000	14	17675	cw_bot	history-import:cw_bot:8655	2026-07-01 16:35:03.562+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	4895856612	Dikgeevik2CZ	K989	\N	55000	10128	17672	cw_bot	history-import:cw_bot:5887	2026-08-13 23:41:00.142+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5013545323	gravysek666	HR2T	\N	520250	3539	17674	cw_bot	history-import:cw_bot:6416	2026-08-08 02:16:50.888+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5042635636	Cultiv8R_NZ	DLOW	\N	9890	14333	17675	cw_bot	history-import:cw_bot:8223	2026-04-11 00:40:42.513+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5044736168	CBroGolden	3zEZ	\N	6950000	218	17675	cw_bot	history-import:cw_bot:4086	2026-04-12 20:16:41.119+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5048993989	jankohraskove	czmr	\N	76330	9095	17674	cw_bot	history-import:cw_bot:7241	2026-07-28 18:25:50.132+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5049376575	AGR_GamerY	AGR	\N	271460	5118	17674	cw_bot	history-import:cw_bot:9685	2026-07-19 05:15:01.102+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5127406568	dadchris86	V1LN	\N	5600000	322	17675	cw_bot	history-import:cw_bot:8179	2026-04-21 16:30:58.569+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5128164487	drako83cz	HROT	\N	3700000	590	17672	cw_bot	history-import:cw_bot:5530	2026-08-17 12:17:13.979+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5128774229	livelasso	V1LN	\N	14440000	59	17674	cw_bot	history-import:cw_bot:8995	2026-07-19 09:14:05.882+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5165277431	nojkdfnjyfdhufdhn	ULCK	\N	131360	7335	17671	cw_bot	history-import:cw_bot:5435	2026-08-19 14:48:26.843+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5168853814	Legion2728	🏰 Clan: **OTTR**	\N	\N	12487	17675	cw_bot	history-import:cw_bot:3619	2026-04-28 22:34:07.104+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5189669801	johqnel	Axel	\N	1360000	1738	17672	cw_bot	history-import:cw_bot:5566	2026-08-17 00:52:03.053+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5209078854	Rydma73	H8ER	\N	5900000	294	17675	cw_bot	history-import:cw_bot:3968	2026-04-12 22:17:12.736+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5209583889	pepajzik	STPS	\N	46760	10775	17671	cw_bot	history-import:cw_bot:5368	2026-08-20 18:05:20.789+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5246280273	janjelinek3	POJO	\N	21730	12803	17674	cw_bot	history-import:cw_bot:6038	2026-08-09 09:04:37.217+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5291595908	iTTv6	3zEZ	\N	8120000	161	17675	cw_bot	history-import:cw_bot:3997	2026-04-12 21:22:33.583+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5328968538	Iphone1835	SAM4	\N	37400	11414	17671	cw_bot	history-import:cw_bot:5189	2026-08-21 18:06:41.136+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5363596325	eja99991	0GG0	\N	161000	6651	17674	cw_bot	history-import:cw_bot:6012	2026-08-10 08:39:01.416+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5383071838	mr_895675	LXCC	\N	1040000	2215	17672	cw_bot	history-import:cw_bot:7674	2026-08-14 20:23:40.83+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5414318030	demonfaarm3	2WEI	\N	10000	14197	17675	cw_bot	history-import:cw_bot:9352	2026-03-31 20:30:04.513+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5454068280	lukky509	HROT	\N	363990	4349	17671	cw_bot	history-import:cw_bot:4958	2026-08-24 17:48:55.599+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5534860785	rostislavvv155	S2PU	\N	20000	13092	17674	cw_bot	history-import:cw_bot:2857	2026-07-31 15:54:01.042+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5592576307	Lukasek_mlejn	HR3T	\N	46890	10771	17674	cw_bot	history-import:cw_bot:5960	2026-08-11 10:05:19.007+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5615179956	MonsterWithGod	ROMU	\N	514340	3573	17675	cw_bot	history-import:cw_bot:4139	2026-04-12 21:05:00.581+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5623447261	quoicoubeh5608	RATZ	\N	70510	9329	17674	cw_bot	history-import:cw_bot:6208	2026-08-08 20:49:37.159+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5703128088	elnubsen	SOPU	\N	5640000	317	17675	cw_bot	history-import:cw_bot:3862	2026-04-05 06:56:35.208+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5771998323	Tadeas5303	BDX	\N	33590	11670	17674	cw_bot	history-import:cw_bot:7146	2026-07-30 15:42:22.574+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	5818869297	knoxcoder	SOPU	\N	14800000	54	17674	cw_bot	history-import:cw_bot:3017	2026-07-29 13:28:15.912+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	6024579040	siemanokolano3211	NUUP	\N	488880	3680	17674	cw_bot	history-import:cw_bot:8836	2026-08-08 13:22:11.942+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	6035434188	Pokeccc_yt423	VLP	\N	8760	14435	17671	cw_bot	history-import:cw_bot:5426	2026-08-19 14:44:02.981+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	6156770625	pepajzikv2	STPS	\N	215640	5770	17671	cw_bot	history-import:cw_bot:5379	2026-08-20 18:30:12.586+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	6180933436	Atefluigi1	LX2C	\N	213090	5804	17671	cw_bot	history-import:cw_bot:4820	2026-08-28 16:24:47.076+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7005100565	Crazypuzzlehead15	V1LN	\N	4820000	411	17674	cw_bot	history-import:cw_bot:2466	2026-08-01 09:28:25.648+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7173492482	Kyan65427	DO_1	\N	30110	11989	17674	cw_bot	history-import:cw_bot:3233	2026-07-26 12:04:59.618+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7299604677	McAnt1c_Official	VPTO	\N	561110	3357	17674	cw_bot	history-import:cw_bot:6781	2026-08-03 07:34:50.336+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7426690057	Duckyphant	H8M3	\N	964100	2360	17672	cw_bot	history-import:cw_bot:5637	2026-08-14 22:07:36.457+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7535417374	StarShineSammy	MAH1	\N	1920000	1244	17675	cw_bot	history-import:cw_bot:3983	2026-04-12 22:31:35.21+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7557052679	tada1234_cz	67cz	\N	101710	8175	17671	cw_bot	history-import:cw_bot:4961	2026-08-24 17:55:10.944+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7583161395	Tgzzgzzltg33	HR2T	\N	1540000	1545	17674	cw_bot	history-import:cw_bot:7262	2026-07-27 11:39:20.283+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7697761463	joeponsock12345	Wtuf	\N	2550000	911	17674	cw_bot	history-import:cw_bot:8948	2026-07-26 22:32:25.767+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7742077490	sirwabbs	HARM	\N	49990	10633	17674	cw_bot	history-import:cw_bot:4637	2026-08-02 03:35:57.878+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	7808641651	Elis_123cz12	HR3T	\N	17640	13522	17674	cw_bot	history-import:cw_bot:6512	2026-08-07 05:42:34.596+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	8016179740	limitless123234	ESD	\N	800	16688	17672	cw_bot	history-import:cw_bot:8762	2026-08-15 05:26:46.656+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	8087930970	sleeperb99	OTTR	337	\N	337	\N	external_import	history-import:big_bot:1065	2026-07-03 23:10:46.241+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	8136551278	vincbond15	DJRK	\N	200420	5984	17674	cw_bot	history-import:cw_bot:6189	2026-08-08 20:08:01.556+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	8187537946	nzr5581	V1LN	\N	14650000	58	17675	cw_bot	history-import:cw_bot:8191	2026-04-23 19:12:26.428+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	8858235990	michalmma2013	Axet	\N	3750	15189	17671	cw_bot	history-import:cw_bot:5179	2026-08-23 08:12:29.366+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	9447539728	provazni10	ROGU	\N	591920	3244	17671	cw_bot	history-import:cw_bot:5496	2026-08-19 20:50:38.357+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	9544377899	vgvhj447	DJRK	\N	41000	11113	17674	cw_bot	history-import:cw_bot:7052	2026-07-30 17:11:11.186+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	47299191	Giggygoombi	8LNR	\N	3650000	598	17674	cw_bot	\N	2026-08-08 17:01:48.337+00	imported_history	10144
+Christmas2025	Gingerbread Battle 2025	christmas2025	92251776	thepiedealer	W2VY	\N	370000	4321	17674	cw_bot	\N	2026-07-22 17:40:42.591+00	imported_history	10874
+Christmas2025	Gingerbread Battle 2025	christmas2025	106654316	Wooftamer	Do1t	\N	158040	6725	17674	cw_bot	\N	2026-08-06 21:25:15.831+00	imported_history	10365
+Christmas2025	Gingerbread Battle 2025	christmas2025	123813615	zabimar420	AWZY	\N	8610000	144	17674	cw_bot	\N	2026-08-05 05:05:47.203+00	imported_history	10546
+Christmas2025	Gingerbread Battle 2025	christmas2025	226285350	farlorddeath	UN0	\N	40000	11184	17674	cw_bot	\N	2026-07-20 02:25:37.839+00	imported_history	10995
+Christmas2025	Gingerbread Battle 2025	christmas2025	240536469	aysear	Goop	\N	238900	5478	17674	cw_bot	\N	2026-07-17 03:28:32.523+00	imported_history	11083
+Christmas2025	Gingerbread Battle 2025	christmas2025	303729688	futtedk11	ROGU	\N	6000000	284	17674	cw_bot	\N	2026-08-06 16:14:56.146+00	imported_history	10383
+Christmas2025	Gingerbread Battle 2025	christmas2025	391457947	Pukkas08	st1z	\N	60040	9818	17674	cw_bot	\N	2026-07-17 23:20:47.664+00	imported_history	11051
+Christmas2025	Gingerbread Battle 2025	christmas2025	404008192	gooseman2030	AX24	\N	1220000	1916	17674	cw_bot	\N	2026-08-05 19:52:06.597+00	imported_history	10483
+Christmas2025	Gingerbread Battle 2025	christmas2025	485586150	Angadraj2458	BURN	\N	1	17674	17674	cw_bot	\N	2026-07-13 02:06:56.966+00	imported_history	11113
+Christmas2025	Gingerbread Battle 2025	christmas2025	703619230	cashmoneyracer6	BLZ_	\N	918980	2447	17674	cw_bot	\N	2026-07-06 17:10:13.966+00	imported_history	11262
+Christmas2025	Gingerbread Battle 2025	christmas2025	820701226	jaydenpool20	OSW	\N	1170000	1985	17674	cw_bot	\N	2026-08-07 14:27:41.154+00	imported_history	10175
+Christmas2025	Gingerbread Battle 2025	christmas2025	1192350790	Steven_Shurf	st1z	\N	259760	5231	17674	cw_bot	\N	2026-08-04 17:26:23.152+00	imported_history	10580
+Christmas2025	Gingerbread Battle 2025	christmas2025	1253064849	hivghdf	Fm4L	\N	210	16971	17674	cw_bot	\N	2026-07-11 17:37:40.354+00	imported_history	11182
+Christmas2025	Gingerbread Battle 2025	christmas2025	1344379144	mjjjjroblox177	GANG	\N	9460000	122	17675	cw_bot	\N	2026-07-04 18:03:40.271+00	imported_history	11283
+Christmas2025	Gingerbread Battle 2025	christmas2025	1378926704	thetoad419	FFLH	\N	724660	2860	17674	cw_bot	\N	2026-07-20 11:11:03.422+00	imported_history	10970
+Christmas2025	Gingerbread Battle 2025	christmas2025	1502289731	juan784gk	Aifo	\N	860090	2564	17675	cw_bot	\N	2026-07-04 01:46:55.269+00	imported_history	11306
+Christmas2025	Gingerbread Battle 2025	christmas2025	1524474134	partlysweeet	SOPU	\N	4270000	489	17674	cw_bot	\N	2026-08-05 17:54:26.824+00	imported_history	10451
+Christmas2025	Gingerbread Battle 2025	christmas2025	1550266454	OWL20121	dohw	\N	1110000	2081	17674	cw_bot	\N	2026-08-08 09:49:20.219+00	imported_history	10097
+Christmas2025	Gingerbread Battle 2025	christmas2025	1559794555	MrsBrumal93	FMLY	\N	4900000	400	17674	cw_bot	\N	2026-08-06 21:10:37.188+00	imported_history	10301
+Christmas2025	Gingerbread Battle 2025	christmas2025	1810349750	doughnutlordlup	SVB	\N	1080000	2134	17674	cw_bot	\N	2026-08-04 09:24:34.058+00	imported_history	10601
+Christmas2025	Gingerbread Battle 2025	christmas2025	2046736760	omgakaroen2	KOHV	\N	5830000	299	17674	cw_bot	\N	2026-08-05 12:42:48.772+00	imported_history	10517
+Christmas2025	Gingerbread Battle 2025	christmas2025	2548718008	scottewillis1982	KOii	\N	2840000	810	17674	cw_bot	\N	2026-08-05 19:51:42.011+00	imported_history	10468
+Christmas2025	Gingerbread Battle 2025	christmas2025	2658235500	blackgolds47plays	QNE	\N	132340	7311	17674	cw_bot	\N	2026-07-13 04:08:31.304+00	imported_history	11116
+Christmas2025	Gingerbread Battle 2025	christmas2025	2685249091	demslzv	S7NS	\N	1100	16626	17674	cw_bot	\N	2026-08-07 18:41:53.817+00	imported_history	10199
+Christmas2025	Gingerbread Battle 2025	christmas2025	2878087594	Kbob_2021	H8M3	\N	159590	6687	17674	cw_bot	\N	2026-08-07 12:07:07.069+00	imported_history	10262
+Christmas2025	Gingerbread Battle 2025	christmas2025	3111804593	boomhahahau4	YLW	\N	633860	3111	17674	cw_bot	\N	2026-08-07 11:10:01.99+00	imported_history	10248
+Christmas2025	Gingerbread Battle 2025	christmas2025	3217956073	Kharterthepex	H8ER	\N	1450000	1636	17674	cw_bot	\N	2026-07-11 18:09:45.598+00	imported_history	11199
+Christmas2025	Gingerbread Battle 2025	christmas2025	3257426178	thebroccoli20	M4RB	\N	478240	3726	17674	cw_bot	\N	2026-08-03 18:58:51.895+00	imported_history	10657
+Christmas2025	Gingerbread Battle 2025	christmas2025	3787688911	Kaelqor	K0ii	\N	662120	3022	17674	cw_bot	\N	2026-08-07 10:30:50.859+00	imported_history	10226
+Christmas2025	Gingerbread Battle 2025	christmas2025	3988909281	ScriptingIntoabysmal	Ice6	\N	562230	3351	17674	cw_bot	\N	2026-08-07 14:02:53.391+00	imported_history	10157
+Christmas2025	Gingerbread Battle 2025	christmas2025	4002857188	hyhhui5rhg	QUOK	\N	1830	15907	17675	cw_bot	\N	2026-07-04 01:47:15.942+00	imported_history	11312
+Christmas2025	Gingerbread Battle 2025	christmas2025	4030750707	SpiroBebex71	SOPU	\N	5390000	348	17674	cw_bot	\N	2026-08-06 18:54:36.251+00	imported_history	10282
+Christmas2025	Gingerbread Battle 2025	christmas2025	4284280354	Superxia4460	Xia7	\N	411940	4067	17674	cw_bot	\N	2026-07-23 13:14:52.606+00	imported_history	10841
+Christmas2025	Gingerbread Battle 2025	christmas2025	4311417620	Weller457sk	HROT	\N	2630000	884	17674	cw_bot	\N	2026-07-22 16:09:45.829+00	imported_history	10898
+Christmas2025	Gingerbread Battle 2025	christmas2025	4476083695	EinMensch939	GL10	\N	1510000	1572	17674	cw_bot	\N	2026-07-11 20:34:22.019+00	imported_history	11156
+Christmas2025	Gingerbread Battle 2025	christmas2025	4608344169	Spyd3rino	W2VY	\N	203830	5927	17674	cw_bot	\N	2026-07-10 15:35:31.189+00	imported_history	11210
+Christmas2025	Gingerbread Battle 2025	christmas2025	4610856184	Whatsup12719	VZL	\N	160120	6667	17674	cw_bot	\N	2026-08-05 22:21:53.995+00	imported_history	10427
+Christmas2025	Gingerbread Battle 2025	christmas2025	4735355728	seanfarm6263	N7VA	\N	10	17503	17674	cw_bot	\N	2026-07-10 19:23:53.34+00	imported_history	11191
+Christmas2025	Gingerbread Battle 2025	christmas2025	5429784771	ETHANVU11	Dond	\N	1200	16301	17674	cw_bot	\N	2026-08-08 09:55:49.165+00	imported_history	10102
+Christmas2025	Gingerbread Battle 2025	christmas2025	5532910197	Vvistal_farm	S2PU	\N	1800000	1324	17674	cw_bot	\N	2026-08-06 08:45:15.612+00	imported_history	10400
+Christmas2025	Gingerbread Battle 2025	christmas2025	5702033770	dabbin_boittv	AWZY	\N	3000000	758	17674	cw_bot	\N	2026-08-03 16:23:31.807+00	imported_history	10629
+Christmas2025	Gingerbread Battle 2025	christmas2025	7074492190	scoutiiiiiiiii	H8M3	\N	730790	2844	17674	cw_bot	\N	2026-08-01 09:24:22.841+00	imported_history	10819
+Christmas2025	Gingerbread Battle 2025	christmas2025	7213418603	proline_urlocalsweat	FYRX	\N	192	17042	17674	cw_bot	\N	2026-08-01 18:24:48.12+00	imported_history	10802
 \.
 
 
@@ -496,8 +540,8 @@ Christmas2025	Gingerbread Battle 2025	christmas2025	9544377899	vgvhj447	DJRK	\N	
 -- PostgreSQL database dump complete
 --
 
-\unrestrict J9HBYqtbHeo4qHb5QdyPOb9VzvOW8LPFkYYQaS8LcGJwGKRrOABXqo49JNGLslS
+\unrestrict cwZUoAS6Bl1zPgcxdkipGgzLyPrnmARbTsw5kN03K0akXArfZxceipYqEJJzjcw
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

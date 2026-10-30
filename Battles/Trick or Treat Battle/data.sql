@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict jaH2HZ8ScFZ1iZop63sAgbThagqGFwCvvnSWkqcpb2P5E5zPPYhhftw4GVphXMV
+\restrict QQfFisgemDze9ho036SudBVgx1sbLJPr7QqEwhKYlyLmJqiEEeqT6rquaxVSBjh
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,489 +23,535 @@ SET row_security = off;
 -- Data for Name: Trick or Treat Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Trick or Treat Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-TrickOrTreat	Trick or Treat Battle	trickortreat	1533791	clankbot	UN0	\N	286	20009	32044	cw_bot	history-import:cw_bot:1704	2026-05-23 13:09:17.782+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	14538110	joeycb	UN0	\N	678	5712	32044	cw_bot	history-import:cw_bot:1685	2026-05-23 12:54:45.542+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	20532808	GamesReborn	Rfil	\N	511	13303	32044	cw_bot	history-import:cw_bot:1221	2026-05-01 18:19:11.948+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	33928536	banan123123123	NXNG	\N	1	31918	32044	cw_bot	history-import:cw_bot:1660	2026-05-22 07:26:22.196+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	58312098	sosd35	SOPU	\N	762	110	32042	cw_bot	history-import:cw_bot:688	2026-07-17 18:57:28.202+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	79237321	GodlySalt	BYRD	74	\N	74	\N	external_import	history-import:big_bot:948	2026-07-11 14:28:35.433+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	90767636	bobdog751	V1LN	\N	762	190	32044	cw_bot	history-import:cw_bot:8129	2026-04-27 21:06:33.398+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	120904005	nublet28	BYRD	\N	719	2936	32044	cw_bot	history-import:cw_bot:8440	2026-07-03 22:38:52.17+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	125272790	ur_salty091	XBOX	\N	719	1379	32044	cw_bot	history-import:cw_bot:1917	2026-06-21 04:13:46.321+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	125775822	NightFoxx	buun	\N	242	21369	32042	cw_bot	history-import:cw_bot:4317	2026-08-10 19:33:10.888+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	136661329	ghanta2a	Goop	\N	695	5045	32044	cw_bot	history-import:cw_bot:8101	2026-04-26 23:31:56.073+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	138619446	darkenedwishes	EXP	\N	210	22483	32044	cw_bot	history-import:cw_bot:2004	2026-06-28 16:26:03.666+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	148251054	EpicRider6729	NONG	\N	611	9516	32044	cw_bot	history-import:cw_bot:3850	2026-04-05 07:59:08.938+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	156957387	itsminerr	ORBI	\N	219	22172	32042	cw_bot	history-import:cw_bot:2153	2026-08-01 03:26:51.039+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	163195458	20xseron20	VLP	\N	454	15049	32042	cw_bot	history-import:cw_bot:6573	2026-08-06 07:05:22.236+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	165817996	16_BitPotato	UN0	\N	762	51	32042	cw_bot	history-import:cw_bot:4523	2026-08-04 19:56:26.259+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	165941966	dougmandev	\N	\N	\N	6110	32044	cw_bot	history-import:cw_bot:3548	2026-03-12 11:07:04.662+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	170719079	tnocko	HROT	\N	721	1228	32042	cw_bot	history-import:cw_bot:2287	2026-08-12 07:40:01.692+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	170896669	toratot	OTTR	\N	698	4341	32044	cw_bot	history-import:cw_bot:9147	2026-06-29 23:29:26.064+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	184309752	expellez	BOSS	\N	762	522	32044	cw_bot	history-import:cw_bot:1104	2026-04-25 23:28:51.667+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	192463394	NukeOfLava12	3zEZ	\N	657	7175	32044	cw_bot	history-import:cw_bot:4129	2026-04-12 20:31:33.085+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	192653117	carloskar08	ORBI	\N	75	27954	32042	cw_bot	history-import:cw_bot:4464	2026-08-05 22:58:43.526+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	194076029	Gromic5876	MNBB	\N	762	561	32042	cw_bot	history-import:cw_bot:6098	2026-08-08 23:25:51.173+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	210966410	onoraksal	hlx	\N	719	1647	32041	cw_bot	history-import:cw_bot:8780	2026-08-15 13:55:15.256+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	212422741	berryuk19	H8M3	\N	712	3646	32044	cw_bot	history-import:cw_bot:3906	2026-06-24 22:57:40.989+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	223141866	LoLLubas	DPSF	\N	678	6003	32041	cw_bot	history-import:cw_bot:4797	2026-08-28 14:48:40.144+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	241713789	J2X1NESIWXID	DLOW	\N	741	1045	32042	cw_bot	history-import:cw_bot:749	2026-07-17 18:58:04.211+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	250562586	zcm_Xi	CC4T	\N	719	1974	32042	cw_bot	history-import:cw_bot:4362	2026-08-09 17:51:30.585+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	254885188	Prodav1	SULS	\N	719	1475	32042	cw_bot	history-import:cw_bot:8001	2026-07-08 14:39:05.73+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	269324545	aguilapvp	GSTG	\N	650	7832	32044	cw_bot	history-import:cw_bot:23	2026-04-24 02:34:57.035+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	273316338	stevowsl	WSL	\N	719	1904	32041	cw_bot	history-import:cw_bot:9804	2026-08-26 19:54:20.308+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	296854741	Cinco112309	XBOX	\N	761	823	32042	cw_bot	history-import:cw_bot:2807	2026-07-31 16:11:19.068+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	331930897	gogeta363	TLGZ	\N	424	15924	32042	cw_bot	history-import:cw_bot:4380	2026-08-09 04:19:11.832+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	343511782	octojabb	SLRP	\N	719	2407	32044	cw_bot	history-import:cw_bot:9245	2026-04-30 14:51:23.517+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	365225419	prorik228	07W	\N	762	374	32042	cw_bot	history-import:cw_bot:7910	2026-07-08 14:30:35.5+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	423460663	bub2540	POPS	\N	598	10076	32044	cw_bot	history-import:cw_bot:1506	2026-05-16 12:19:40.788+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	425660194	chinovelaz	stzr	\N	661	6780	32044	cw_bot	history-import:cw_bot:4150	2026-04-12 20:33:18.646+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	435823564	brandon292016	3zEZ	\N	698	4086	32044	cw_bot	history-import:cw_bot:1033	2026-04-20 06:06:34.027+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	445901501	USECODE_THAT1NPC	3zEZ	\N	752	900	32044	cw_bot	history-import:cw_bot:4219	2026-04-12 20:09:26.048+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	452314193	LandOfDoggos	V1LN	\N	762	734	32044	cw_bot	history-import:cw_bot:9187	2026-06-23 15:37:48.38+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	456142044	icyy_il	H8M3	\N	581	10815	32042	cw_bot	history-import:cw_bot:2390	2026-08-10 10:39:29.018+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	460000821	maserofwater098	S7NS	\N	511	13301	32044	cw_bot	history-import:cw_bot:2035	2026-06-29 17:36:18.828+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	463900811	AgentP_0928	NONG	\N	719	1370	32044	cw_bot	history-import:cw_bot:649	2026-04-26 04:08:51.656+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	490804310	kubas1018	NDSS	\N	719	3308	32044	cw_bot	history-import:cw_bot:3742	2026-04-20 12:22:31.231+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	496935076	mawahlah	07W	\N	35	29912	32044	cw_bot	history-import:cw_bot:46	2026-06-27 00:05:32.123+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	501328621	wigglywoo321	T0KS	\N	203	22713	32042	cw_bot	history-import:cw_bot:2667	2026-08-01 00:14:18.246+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	502312785	tomasek8557	BDX	\N	678	5963	32041	cw_bot	history-import:cw_bot:5451	2026-08-19 16:40:59.801+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	532884141	walosdan	VLP2	\N	312	19205	32042	cw_bot	history-import:cw_bot:5917	2026-08-12 18:39:07.299+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	538266747	Judah3000	XBOX	\N	719	1964	32042	cw_bot	history-import:cw_bot:7847	2026-07-08 14:31:05.959+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	544198160	JimmyCIeetus	Goop	\N	315	19103	32042	cw_bot	history-import:cw_bot:474	2026-07-17 18:47:56.313+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	546090248	cheburek_x	mrnw	\N	719	2518	32042	cw_bot	history-import:cw_bot:2751	2026-07-31 17:21:30.816+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	569678937	StormerAceCT	PsAG	\N	715	3506	32042	cw_bot	history-import:cw_bot:3322	2026-07-24 20:47:00.595+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	573589049	nerfbro9000	GSTG	\N	440	15478	32044	cw_bot	history-import:cw_bot:9402	2026-03-26 19:15:43.999+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	573955632	Johanplayzrb21	HARM	\N	694	5144	32044	cw_bot	history-import:cw_bot:994	2026-04-18 02:22:53.465+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	575710785	moko_193	🏰 Clan: **twky**	\N	\N	5537	32044	cw_bot	history-import:cw_bot:3546	2026-03-12 11:06:38.244+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	584516944	renzcru	KGHC	\N	719	2906	32044	cw_bot	history-import:cw_bot:1447	2026-05-12 10:24:24.514+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	587622297	Raihania54321	Awh_	\N	473	14544	32044	cw_bot	history-import:cw_bot:1025	2026-04-19 21:12:31.376+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	587994363	Real_RoNexq	EDS1	\N	719	3067	32042	cw_bot	history-import:cw_bot:3157	2026-07-27 16:53:43.006+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	588685015	jonis_chicken	XBOX	\N	719	2365	32044	cw_bot	history-import:cw_bot:9210	2026-06-13 20:55:03.535+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	597362770	marcelgolem	🏰 Clan: **RAKI**	\N	\N	1129	32044	cw_bot	history-import:cw_bot:3666	2026-03-23 19:44:54.3+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	621412324	dabcat818	S7NS	\N	587	10537	32044	cw_bot	history-import:cw_bot:1778	2026-06-07 17:32:51.445+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	646372767	904aj603	st1z	\N	719	1508	32044	cw_bot	history-import:cw_bot:1118	2026-04-27 02:09:16.229+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	651456138	TrikStar007	3zEZ	\N	719	2750	32044	cw_bot	history-import:cw_bot:4209	2026-04-12 20:09:23.388+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	656420117	MercilessBanditTaken	NS4R	\N	694	5079	32044	cw_bot	history-import:cw_bot:168	2026-04-19 13:44:30.618+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	659542061	rrodgers0206	POPS	\N	715	3454	32042	cw_bot	history-import:cw_bot:733	2026-07-17 18:57:55.775+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	661099895	patcola2010	V1LN	\N	657	6979	32042	cw_bot	history-import:cw_bot:7799	2026-07-24 00:04:23.322+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	681369033	Thatrobloxguy63	SOPU	\N	762	118	32044	cw_bot	history-import:cw_bot:8329	2026-04-06 08:26:58.844+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	688928053	Noahangrybird1234	BEZE	\N	762	178	32044	cw_bot	history-import:cw_bot:8349	2026-04-06 08:29:37.081+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	697378514	robloxiswaste213445	NXNG	\N	229	21815	32042	cw_bot	history-import:cw_bot:3083	2026-07-28 21:08:04.725+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	704550307	osmanefe334	S2PU	\N	653	7672	32044	cw_bot	history-import:cw_bot:8340	2026-04-06 08:27:50.069+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	709222551	Theozzz12	S7NS	\N	19	30787	32044	cw_bot	history-import:cw_bot:8166	2026-04-26 15:05:43.056+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	722456679	mujiTABA1	\N	\N	719	1843	32044	cw_bot	history-import:cw_bot:2019	2026-06-28 16:42:57.557+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	725541686	sleptonjayfr	Ham6	\N	41	29619	32042	cw_bot	history-import:cw_bot:2397	2026-08-10 00:34:48.882+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	730772803	sidsew	HSTL	\N	584	10682	32041	cw_bot	history-import:cw_bot:7537	2026-08-25 14:36:17.613+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	757692049	Hulkian1	V1LN	\N	719	1510	32044	cw_bot	history-import:cw_bot:8304	2026-03-28 21:21:50.541+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	779059828	jimynew	SS1N	\N	468	14672	32044	cw_bot	history-import:cw_bot:1534	2026-05-16 23:39:36.553+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	790873913	homless9	STPS	\N	632	8546	32042	cw_bot	history-import:cw_bot:6444	2026-08-06 17:44:57.059+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	792204503	Arek2qe4	V1LN	\N	719	2976	32042	cw_bot	history-import:cw_bot:8644	2026-07-15 22:49:51.435+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	808679837	sqirtel50	KOHV	\N	678	6064	32042	cw_bot	history-import:cw_bot:2420	2026-08-09 16:10:37.911+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	810054419	catloncat	3zEZ	\N	721	1251	32044	cw_bot	history-import:cw_bot:4021	2026-04-12 21:24:49.553+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	844720150	Sebastjan35	NONG	\N	719	1408	32042	cw_bot	history-import:cw_bot:529	2026-07-17 18:48:35.159+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	852170656	vojitano	bar9	\N	624	8909	32041	cw_bot	history-import:cw_bot:5065	2026-08-23 12:46:22.495+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	857986484	pogujsn	DVQ	\N	182	23440	32042	cw_bot	history-import:cw_bot:7864	2026-07-08 14:28:28.369+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	864632403	galaxyknight9204	Goop	\N	295	19699	32044	cw_bot	history-import:cw_bot:1766	2026-05-29 01:34:02.793+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	876991750	Mertiliano	ORBI	\N	240	21404	32042	cw_bot	history-import:cw_bot:2133	2026-08-01 04:17:09.805+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	877353566	lpvarmi	VLP	\N	19	30786	32042	cw_bot	history-import:cw_bot:7207	2026-07-29 20:25:50.738+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	884971222	henchal13	Opa	\N	340	18422	32044	cw_bot	history-import:cw_bot:9309	2026-04-19 12:19:45.145+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	911932139	Daniel8czs	HROT	\N	719	1401	32042	cw_bot	history-import:cw_bot:6807	2026-08-01 11:19:39.153+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	915515621	math33g4	Gewp	\N	678	5766	32042	cw_bot	history-import:cw_bot:7950	2026-07-08 14:35:53.418+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	938868540	eso343	SHAG	\N	496	13813	32042	cw_bot	history-import:cw_bot:6546	2026-08-07 09:09:20.624+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	955175856	fatalwaccle	3zEZ	\N	651	7778	32044	cw_bot	history-import:cw_bot:4179	2026-04-12 20:31:29.037+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	968065508	eEmsorry	PAAC	\N	698	4810	32042	cw_bot	history-import:cw_bot:9057	2026-07-09 08:48:58.97+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	969672285	tomashgjfdy	\N	\N	\N	7805	32044	cw_bot	history-import:cw_bot:1476	2026-05-15 06:46:31.46+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	981933151	doczmerson	PABS	\N	579	10872	32042	cw_bot	history-import:cw_bot:7598	2026-08-11 13:00:07.332+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1000059115	rimonus	SOPU	\N	762	359	32044	cw_bot	history-import:cw_bot:1801	2026-06-13 11:10:39.923+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1024664859	NotArsann7	AR2Y	\N	419	16056	32044	cw_bot	history-import:cw_bot:1251	2026-05-03 05:34:41.421+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1029579815	Marshmellow_1177	YLW	\N	370	17516	32044	cw_bot	history-import:cw_bot:1296	2026-05-05 21:28:38.219+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1044395777	patrykkpro1	V1LN	\N	741	1073	32042	cw_bot	history-import:cw_bot:7721	2026-08-05 20:28:34.504+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1049702109	realchaseblox	FaZ	\N	762	196	32044	cw_bot	history-import:cw_bot:1309	2026-05-05 21:59:20.786+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1060055099	mimo_4	MLRM	\N	698	4600	32042	cw_bot	history-import:cw_bot:6731	2026-08-04 10:19:23.697+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1077060589	playaplaya811	\N	\N	\N	9166	32044	cw_bot	history-import:cw_bot:3611	2026-05-01 22:31:32.732+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1081067684	mimilrol	ROMU	\N	719	1683	32042	cw_bot	history-import:cw_bot:403	2026-07-17 18:47:08.019+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1100810390	Starslikebirds	7HRW	\N	698	4814	32042	cw_bot	history-import:cw_bot:4685	2026-08-01 01:45:14.128+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1137640592	clackerskill	Goop	\N	719	2341	32042	cw_bot	history-import:cw_bot:4656	2026-08-01 00:22:28.841+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1146217738	xXjirkaXxboys	SJCJ	\N	719	2790	32044	cw_bot	history-import:cw_bot:4043	2026-04-12 22:01:07.439+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1157052710	laughytrex	XPQX	\N	698	4394	32044	cw_bot	history-import:cw_bot:887	2026-04-24 03:00:59.658+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1158978049	Mr_trolololx019	BCN2	\N	715	3554	32042	cw_bot	history-import:cw_bot:7830	2026-07-05 15:55:32.872+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1160481763	fajeczka4	BOTZ	\N	624	8895	32042	cw_bot	history-import:cw_bot:6788	2026-08-03 09:49:43.16+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1163321217	protozejelen	LV13	\N	698	4202	32042	cw_bot	history-import:cw_bot:7131	2026-07-30 15:23:48.828+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1178078831	mavilure	NXNG	\N	636	8378	32044	cw_bot	history-import:cw_bot:9108	2026-07-04 02:37:26.103+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1179507007	tomisek134	HROT	\N	762	268	32042	cw_bot	history-import:cw_bot:4738	2026-08-11 18:03:07.712+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1192463440	Jonas139075	dkps	\N	554	11851	32042	cw_bot	history-import:cw_bot:2777	2026-07-31 19:36:15.216+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1221841742	Azurqson	UN0	\N	607	9683	32044	cw_bot	history-import:cw_bot:3782	2026-04-06 19:59:26.612+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1229931292	ijyrgk	W0m1	\N	178	23604	32044	cw_bot	history-import:cw_bot:9095	2026-07-04 00:22:27.772+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1232493274	MARYNADA058	BDX	\N	287	19979	32042	cw_bot	history-import:cw_bot:6885	2026-07-31 20:00:25.469+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1238833367	ciganskysaman	K_TB	\N	699	3838	32041	cw_bot	history-import:cw_bot:5795	2026-08-14 17:36:42.35+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1240710842	voffenleon	PAAC	\N	73	28039	32042	cw_bot	history-import:cw_bot:7015	2026-07-31 09:34:26.196+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1243643868	ASEYIsoos	Goop	\N	698	3894	32042	cw_bot	history-import:cw_bot:9423	2026-08-12 22:46:12.145+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1245227095	TheoFuraxe	ROMU	\N	762	251	32042	cw_bot	history-import:cw_bot:121	2026-07-17 18:32:35.762+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1277089394	LUVALICEEXO	V1LN	\N	762	191	32044	cw_bot	history-import:cw_bot:9258	2026-04-28 15:57:56.007+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1279232695	Ac3scar	W2VY	\N	616	9337	32044	cw_bot	history-import:cw_bot:242	2026-05-10 02:13:40.5+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1283935690	Laura_V13	07W	\N	762	375	32042	cw_bot	history-import:cw_bot:4341	2026-08-09 17:50:39.523+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1286384664	uzuisnipes	W2VY	\N	762	357	32042	cw_bot	history-import:cw_bot:335	2026-07-17 18:33:12.116+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1294169389	crazy_blox6677	ANG_	\N	762	485	32042	cw_bot	history-import:cw_bot:2616	2026-07-31 20:54:30.508+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1294494054	Ethanblaze112	st1z	\N	639	8221	32044	cw_bot	history-import:cw_bot:8320	2026-04-03 19:35:37.401+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1307288868	ivanpr03	W2VY	\N	615	9366	32042	cw_bot	history-import:cw_bot:2598	2026-07-31 20:07:37.335+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1322640473	Barsuchonok23	SW23	\N	604	9846	32042	cw_bot	history-import:cw_bot:2654	2026-07-31 22:58:18.195+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1330097404	tomasbudik007	VLP	\N	715	3472	32042	cw_bot	history-import:cw_bot:7096	2026-07-30 18:00:28.62+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1376213247	eric23129	DLOW	\N	553	11882	32044	cw_bot	history-import:cw_bot:3935	2026-06-26 14:54:31.345+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1380082703	Allalboy2	7HRW	\N	694	5078	32044	cw_bot	history-import:cw_bot:8212	2026-04-08 19:50:25.995+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1381505419	0LDBS	V1LN	\N	834	10	32044	cw_bot	history-import:cw_bot:8465	2026-06-17 00:36:35.957+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1384716628	barti12345610	LSQ	\N	501	13638	32042	cw_bot	history-import:cw_bot:8527	2026-07-21 19:41:58.049+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1386665561	nuxx7	HSTL	\N	355	17959	32044	cw_bot	history-import:cw_bot:270	2026-05-17 10:44:35.489+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1403606137	GhostWhisperer03	PAAC	\N	666	6576	32042	cw_bot	history-import:cw_bot:6908	2026-08-01 01:11:48.951+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1404595474	ladytachunka	R1A	\N	335	18550	32042	cw_bot	history-import:cw_bot:4304	2026-08-11 20:33:31.017+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1409166088	treytonpeterbuilt	GSTG	\N	741	987	32044	cw_bot	history-import:cw_bot:1367	2026-05-07 00:27:08.494+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1448209893	starwarsroblox2099	Goop	\N	226	21921	32042	cw_bot	history-import:cw_bot:2677	2026-08-01 04:00:56.996+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1452886316	kubistaa	DJRK	\N	719	2461	32041	cw_bot	history-import:cw_bot:5218	2026-08-21 19:09:04.387+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1455404309	vavasamasa	_CEO	\N	698	4232	32042	cw_bot	history-import:cw_bot:6767	2026-08-03 07:19:33.116+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1462748729	dragonballx1412	NONG	18	719	1534	32042	cw_bot	history-import:big_bot:69	2026-07-17 01:03:33.384+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1476403654	dilerij2	BEZE	\N	719	1324	32044	cw_bot	history-import:cw_bot:2071	2026-07-01 18:46:57.039+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1478878528	kyzer_nash	WSL	\N	498	13743	32042	cw_bot	history-import:cw_bot:9611	2026-08-09 02:48:20.151+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1501050755	RealYTStarz	st1z	27	719	1900	32044	cw_bot	history-import:big_bot:1036	2026-06-27 18:27:30.824+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1509495433	arrume_aparte12	KOHV	\N	741	951	32042	cw_bot	history-import:cw_bot:8018	2026-07-08 14:39:41.28+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1510971300	Informix_CZ	KMo	\N	719	2673	32042	cw_bot	history-import:cw_bot:6221	2026-08-08 08:18:03.311+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1519933607	JustCaIIMeEgg	NS4R	\N	719	1446	32042	cw_bot	history-import:cw_bot:498	2026-07-17 18:48:12.453+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1520358099	FlipFlopFloop417	CC4T	\N	719	2501	32042	cw_bot	history-import:cw_bot:352	2026-07-17 18:33:20.942+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1523688491	runea6	DHFA	\N	678	6143	32044	cw_bot	history-import:cw_bot:3980	2026-04-12 22:19:46.23+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1523831473	malfiv	K989	\N	687	5435	32042	cw_bot	history-import:cw_bot:6242	2026-08-08 14:47:52.966+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1528045909	Matysek0000000	SAM4	\N	253	20998	32041	cw_bot	history-import:cw_bot:5885	2026-08-14 13:19:31.864+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1528718508	strykertoff	XPQX	\N	526	12841	32044	cw_bot	history-import:cw_bot:1263	2026-05-03 14:42:25.308+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1537916189	MailDaCoolKid	Goop	\N	719	1345	32044	cw_bot	history-import:cw_bot:9195	2026-06-19 13:04:44.383+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1539398349	Darkszern	LXCC	\N	719	2072	32042	cw_bot	history-import:cw_bot:4569	2026-08-04 19:57:01.734+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1546214233	ninjaogifox	V1PR	\N	2	23335	32042	cw_bot	history-import:cw_bot:5976	2026-08-10 21:49:03.348+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1573629774	mkmike27mk	XPQX	\N	678	5917	32044	cw_bot	history-import:cw_bot:254	2026-05-16 17:04:30.807+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1581306248	Robloxak_Honiik	KMo	\N	698	4509	32041	cw_bot	history-import:cw_bot:5831	2026-08-14 19:05:13.93+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1583648375	KeyzziHD94	GSTG	\N	719	3046	32042	cw_bot	history-import:cw_bot:286	2026-07-17 17:28:11.535+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1592738293	1ncr3d1bl3sulk	x75p	\N	698	4143	32044	cw_bot	history-import:cw_bot:1277	2026-05-03 22:19:36.985+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1596560199	wiegehtdennsowas	XBOX	\N	719	2564	32044	cw_bot	history-import:cw_bot:9319	2026-04-05 16:35:34.64+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1613882953	toastedpoptartonyt	CXTG	\N	512	13272	32041	cw_bot	history-import:cw_bot:9917	2026-08-18 18:50:20.423+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1617221713	waheedplayzYT	SOPU	\N	762	217	32042	cw_bot	history-import:cw_bot:7780	2026-07-22 21:12:43.733+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1626378539	Fulda645	EXP	\N	719	1344	32044	cw_bot	history-import:cw_bot:8143	2026-04-28 12:17:49.765+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1644308020	hoon9900a	vvjp	\N	189	23180	32042	cw_bot	history-import:cw_bot:8932	2026-07-29 11:32:45.032+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1652197454	fighter92399_alt	NONG	\N	719	1410	32044	cw_bot	history-import:cw_bot:1830	2026-06-16 00:22:27.481+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1676340458	AgreedFlower11	0RBI	\N	156	24453	32042	cw_bot	history-import:cw_bot:615	2026-07-17 18:49:30.27+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1683480006	kminoscz	KMo	\N	657	7151	32042	cw_bot	history-import:cw_bot:7077	2026-07-30 17:15:30.786+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1685635748	farmboyjetw	Goop	\N	653	7627	32044	cw_bot	history-import:cw_bot:8308	2026-04-02 20:23:10.489+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1690820953	1tombay	BEZE	\N	762	91	32044	cw_bot	history-import:cw_bot:1716	2026-05-23 14:09:54.985+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1697239942	racingchampaj	AR2Y	\N	292	19812	32042	cw_bot	history-import:cw_bot:7889	2026-07-08 14:32:13.162+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1727137762	azmvoisshot	ORB	\N	667	6540	32044	cw_bot	history-import:cw_bot:821	2026-06-13 03:07:29.607+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1736229929	MgFireDark128	\N	\N	\N	533	32044	cw_bot	history-import:cw_bot:3709	2026-03-12 17:58:27.842+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1749647628	da1niell	HR2T	\N	658	6923	32042	cw_bot	history-import:cw_bot:6362	2026-08-07 18:52:55.147+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1756730755	imsazzyy	OTTR	\N	243	21309	32044	cw_bot	history-import:cw_bot:9132	2026-06-29 23:26:20.807+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1759162396	9kbotzz	XBOX	\N	698	3899	32044	cw_bot	history-import:cw_bot:9331	2026-04-05 20:49:49.97+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1780089241	dominikando11	3zEZ	\N	678	6055	32044	cw_bot	history-import:cw_bot:4006	2026-04-12 21:23:47.034+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1787663283	TheBuilder5649	FGZW	\N	698	4198	32044	cw_bot	history-import:cw_bot:4075	2026-04-12 22:03:03.052+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1817334423	zerz06	Goop	\N	719	1594	32041	cw_bot	history-import:cw_bot:8706	2026-08-26 17:22:03.043+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1818966891	Drak1735	HROT	\N	719	2689	32041	cw_bot	history-import:cw_bot:5845	2026-08-14 19:17:31.862+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1824713899	hayojeu2k	W2VY	\N	803	17	32042	cw_bot	history-import:cw_bot:668	2026-07-17 18:57:09.828+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1835808563	1213eric	_MGW	\N	719	1781	32044	cw_bot	history-import:cw_bot:1640	2026-05-21 04:56:29.857+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1876521711	MichalRooblox	A2H	\N	464	14791	32042	cw_bot	history-import:cw_bot:6504	2026-08-06 18:51:22.342+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1895942489	ziomek1000oo	LSQ	\N	312	19193	32041	cw_bot	history-import:cw_bot:7582	2026-08-19 21:17:39.542+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1944841143	BEARDED_DRAGONGUY	karl	\N	291	19850	32044	cw_bot	history-import:cw_bot:1898	2026-06-20 15:13:49.311+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1950318403	itsgaternotgator	W2VY	\N	485	14159	32044	cw_bot	history-import:cw_bot:307	2026-07-01 16:29:10.815+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1950919881	Saedat007	SAM4	\N	144	24890	32042	cw_bot	history-import:cw_bot:7445	2026-07-13 19:45:49.577+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1957877866	MRDanThePan	AR2Y	\N	589	10455	32042	cw_bot	history-import:cw_bot:3222	2026-07-26 11:08:55.681+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1973447751	radkozahumensky5	x75p	\N	719	2142	32041	cw_bot	history-import:cw_bot:4972	2026-08-24 18:50:27.632+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1986018475	Yazooony55	AXOK	\N	443	15379	32042	cw_bot	history-import:cw_bot:2309	2026-08-12 18:23:23.035+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1996183705	humicek2020cz	HROT	\N	719	2561	32041	cw_bot	history-import:cw_bot:5160	2026-08-23 06:34:54.553+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	1998984070	gamerguy9764	H2RM	\N	334	18574	32044	cw_bot	history-import:cw_bot:1325	2026-05-06 02:10:01.919+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2002552864	AlbinK_13	SVSP	\N	88	27362	32042	cw_bot	history-import:cw_bot:6032	2026-08-09 08:58:55.906+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2005983585	shadowstaristhegoat	LXCC	\N	698	4191	32042	cw_bot	history-import:cw_bot:9558	2026-07-31 10:09:27.163+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2064474099	macejko998	K989	\N	762	606	32041	cw_bot	history-import:cw_bot:5602	2026-08-16 18:31:51.714+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2067834432	blazeeok	Goop	\N	235	21573	32042	cw_bot	history-import:cw_bot:3180	2026-07-26 20:02:36.593+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2226792909	Raptorik_gamer	MDKT	\N	719	2406	32042	cw_bot	history-import:cw_bot:7423	2026-07-18 17:45:36.477+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2239000216	patrik_skloky	Lxrk	\N	614	9416	32042	cw_bot	history-import:cw_bot:5899	2026-08-13 07:06:27.465+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2241042742	WallEExtreme	st1z	\N	353	18017	32042	cw_bot	history-import:cw_bot:8681	2026-07-15 16:36:29.044+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2251616291	miminkoxxxxczdd	VLP	\N	762	467	32041	cw_bot	history-import:cw_bot:7634	2026-08-15 11:12:28.99+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2257366377	lottewashere	_EGO	\N	710	3661	32044	cw_bot	history-import:cw_bot:9310	2026-04-13 22:48:01.131+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2268926446	Feibapa	Ash	\N	762	228	32042	cw_bot	history-import:cw_bot:2702	2026-07-31 16:47:53.554+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2271546087	pizzaczek122	RAKI	\N	29	30237	32042	cw_bot	history-import:cw_bot:5906	2026-08-12 21:31:38.493+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2296914657	officialchost	UN0	\N	362	17759	32044	cw_bot	history-import:cw_bot:3732	2026-04-22 16:35:18.109+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2316325389	julimowi	TeGu	\N	678	5751	32042	cw_bot	history-import:cw_bot:2728	2026-07-31 17:12:47.437+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2316661588	damajan9	TLGZ	\N	674	6325	32042	cw_bot	history-import:cw_bot:2344	2026-08-11 15:09:17.094+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2318308002	karelman1451	HROT	\N	719	1732	32041	cw_bot	history-import:cw_bot:4912	2026-08-26 18:25:05.52+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2320688195	daihukumochi223	2WEI	\N	719	1411	32044	cw_bot	history-import:cw_bot:8552	2026-06-17 03:04:38.757+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2349313768	crystalboyo256	S7PY	\N	654	7606	32042	cw_bot	history-import:cw_bot:2974	2026-07-30 10:49:42.699+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2375471082	RayquazaPlayz_yt	0RBI	\N	719	1872	32044	cw_bot	history-import:cw_bot:4109	2026-04-12 20:27:06.36+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2390532251	sirnative	D4NG	\N	541	12341	32044	cw_bot	history-import:cw_bot:1950	2026-06-22 02:40:06.54+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2399889452	starwax85	V1LN	\N	719	1533	32042	cw_bot	history-import:cw_bot:7762	2026-07-17 15:53:21.548+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2420801797	0k_0w	eguh	\N	713	3636	32042	cw_bot	history-import:cw_bot:441	2026-07-17 18:47:32.43+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2431643806	1KRUCHY	XREX	\N	762	215	32044	cw_bot	history-import:cw_bot:8057	2026-06-23 16:35:49.505+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2451180568	SuperSpeedyC_12345	3zEZ	\N	762	537	32042	cw_bot	history-import:cw_bot:2942	2026-07-30 23:41:01.908+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2463337749	mrtendieman	GSTG	\N	762	316	32041	cw_bot	history-import:cw_bot:7696	2026-08-16 16:38:00.619+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2469768592	Raitonn0609	2WEI	\N	525	12870	32044	cw_bot	history-import:cw_bot:9367	2026-03-31 20:29:42.263+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2475732693	Fazmashwastaken	FaZ	\N	719	1315	32042	cw_bot	history-import:cw_bot:9998	2026-08-09 01:32:35.34+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2476631652	damufffinman	SOPU	\N	762	759	32044	cw_bot	history-import:cw_bot:8327	2026-04-06 08:21:40.878+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2489878566	K1ng_01iver	Quaz	\N	220	22156	32042	cw_bot	history-import:cw_bot:6871	2026-07-31 18:14:04.272+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2489885181	Ewan_314	NONG	\N	719	1372	32042	cw_bot	history-import:cw_bot:4432	2026-08-07 01:31:38.701+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2494077434	matyx00777	MNCS	\N	517	13122	32042	cw_bot	history-import:cw_bot:4763	2026-08-01 12:20:27.96+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2495030397	fartagus_angel	WSL	\N	365	17685	32041	cw_bot	history-import:cw_bot:9600	2026-08-16 14:44:32.773+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2521267504	matejsbss	MDKT	\N	762	571	32042	cw_bot	history-import:cw_bot:7473	2026-07-15 14:29:29.985+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2529950059	swbrthe34rd	LBB	\N	50	29117	32041	cw_bot	history-import:cw_bot:5678	2026-08-15 00:36:32.07+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2530992063	smrtak54	DJRK	\N	698	4501	32042	cw_bot	history-import:cw_bot:6180	2026-08-08 19:57:25.253+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2534684186	mrtoping123	Zeiz	\N	698	4654	32042	cw_bot	history-import:cw_bot:7030	2026-07-30 22:26:36.798+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2539070982	Nomdecodetotoc34	ANG_	\N	663	6696	32044	cw_bot	history-import:cw_bot:1238	2026-05-02 16:27:23.292+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2545832975	baconszombiesarmy	FGZW	\N	762	470	32044	cw_bot	history-import:cw_bot:4053	2026-04-12 22:02:06.94+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2575495153	IStoleYourChica	UN0	\N	657	7273	32042	cw_bot	history-import:cw_bot:76	2026-07-17 18:32:12.646+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2628215963	praisevolxtz	YLW	\N	719	2379	32042	cw_bot	history-import:cw_bot:454	2026-07-17 18:47:40.523+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2633185327	luxxrro	EXP	\N	215	22306	32044	cw_bot	history-import:cw_bot:1990	2026-06-28 16:25:22.311+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2648563570	Stepa16th	MDKT	\N	741	1052	32042	cw_bot	history-import:cw_bot:7394	2026-07-17 14:30:03.697+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2667688976	SlimGreycz_2	VLP	\N	235	21576	32042	cw_bot	history-import:cw_bot:7935	2026-07-08 14:35:29.662+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2668452334	Xxhello_Sir	Winr	\N	493	13917	32042	cw_bot	history-import:cw_bot:2376	2026-08-10 17:49:54.782+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2699598634	rosta128	HROT	\N	762	132	32042	cw_bot	history-import:cw_bot:6962	2026-07-31 16:07:38.598+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2709299989	fishy_axl22	st1z	\N	719	1512	32044	cw_bot	history-import:cw_bot:768	2026-05-10 02:24:40.449+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2719084403	aidananthony013	XPQX	\N	635	8447	32044	cw_bot	history-import:cw_bot:1814	2026-06-13 15:03:54.201+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2732960938	rivvonthebest64	FGZW	\N	653	7712	32044	cw_bot	history-import:cw_bot:9178	2026-06-20 12:50:43.156+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2739287597	krillerproxd	KKOV	\N	234	21628	32042	cw_bot	history-import:cw_bot:7882	2026-07-08 14:29:50.8+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2741135886	Micahtesdahl321	BLHZ	\N	243	21312	32044	cw_bot	history-import:cw_bot:1520	2026-05-16 22:59:19.417+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2775613706	bastarostinsky	RDKS	\N	613	9474	32042	cw_bot	history-import:cw_bot:6606	2026-08-06 15:22:24.944+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2786686086	Loewentatze12	CITC	\N	719	2837	32042	cw_bot	history-import:cw_bot:2434	2026-08-09 19:22:00.052+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2807629356	NarutoShipuden5511	🏰 Clan: **WHGB**	\N	187	23270	32044	cw_bot	history-import:cw_bot:8360	2026-04-21 09:43:35.978+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2814812080	111123ioukhjnnbbn	🏰 Clan: **xJOY**	\N	\N	7189	32044	cw_bot	history-import:cw_bot:3706	2026-02-14 14:47:05.489+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2843513755	firefeather46	HSTL	28	719	28	\N	external_import	history-import:big_bot:1017	2026-07-12 00:55:29.049+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2844876464	Destructcz23	tNo	\N	586	10574	32041	cw_bot	history-import:cw_bot:2266	2026-08-20 07:56:23.411+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2853594415	peslolpj	MDKT	\N	719	2207	32041	cw_bot	history-import:cw_bot:5748	2026-08-14 16:23:32.844+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2892299154	Baggooooo	UN0	\N	719	1303	32042	cw_bot	history-import:cw_bot:4543	2026-08-04 19:57:26.933+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2912101187	coolgur0	S7NS	\N	117	26040	32042	cw_bot	history-import:cw_bot:511	2026-07-17 18:48:27.061+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2915153725	Ishan90091	07W	\N	692	5274	32042	cw_bot	history-import:cw_bot:10053	2026-08-08 18:49:12.798+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2929825206	roplexbuddy	F4DE	\N	671	6416	32042	cw_bot	history-import:cw_bot:4256	2026-08-13 04:25:30.76+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2948612124	saud02x	UN0	\N	525	12869	32044	cw_bot	history-import:cw_bot:8203	2026-04-25 09:16:47.451+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2956070032	AnnexOO1	DLOW	\N	719	1375	32044	cw_bot	history-import:cw_bot:8244	2026-04-11 00:42:36.107+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2956113153	xwiktorxxxx3	LSQ	\N	397	16720	32042	cw_bot	history-import:cw_bot:8915	2026-07-30 10:52:00.891+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2961636717	nichozr	V1LN	\N	719	2975	32044	cw_bot	history-import:cw_bot:1418	2026-05-11 01:18:04.672+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2981591104	Maroko_013	V1LN	\N	762	566	32042	cw_bot	history-import:cw_bot:8864	2026-07-31 17:35:33.295+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2988275843	zspjasieniec1	PABS	\N	698	3992	32041	cw_bot	history-import:cw_bot:8493	2026-08-19 15:24:30.108+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2992299705	Afrykan0	XREX	\N	650	7816	32041	cw_bot	history-import:cw_bot:7505	2026-08-28 16:42:30.025+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	2999732017	derharzendeharzer	H8ER	\N	582	10752	32044	cw_bot	history-import:cw_bot:4224	2026-04-12 20:09:36.816+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3000748132	PickleCloudNacho	H8ER	\N	719	1470	32044	cw_bot	history-import:cw_bot:3955	2026-04-12 22:17:35.814+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3000932506	JackJAC123999	st1z	\N	563	11506	32042	cw_bot	history-import:cw_bot:9510	2026-07-07 15:52:50.748+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3010290250	Hiitzjust	NXNG	\N	678	6088	32042	cw_bot	history-import:cw_bot:8031	2026-07-08 14:40:06.768+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3016891949	petaf1234	MDKT	\N	719	2688	32041	cw_bot	history-import:cw_bot:5262	2026-08-21 20:32:57.322+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3019968804	Houtchyoi	ROMU	\N	719	2720	32044	cw_bot	history-import:cw_bot:1613	2026-05-20 23:36:44.19+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3022616943	floatindrag	K1WI	\N	646	7949	32042	cw_bot	history-import:cw_bot:2562	2026-08-01 14:35:07.364+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3024894978	noobbolkaa	vdfn	\N	324	18830	32042	cw_bot	history-import:cw_bot:6354	2026-08-08 14:11:59.833+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3039307282	Mr_agnes30	XREX	\N	762	216	32044	cw_bot	history-import:cw_bot:8074	2026-06-23 16:38:19.044+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3046788322	Xerenity1	DLOW	\N	657	7186	32044	cw_bot	history-import:cw_bot:8255	2026-04-11 00:53:10.021+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3060745926	thetruetdsglitch	XBOX	\N	698	3900	32044	cw_bot	history-import:cw_bot:8038	2026-04-30 15:47:59.662+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3061590097	pasha92462	RGCN	\N	442	15420	32041	cw_bot	history-import:cw_bot:4706	2026-08-28 13:30:56.022+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3076166235	dadgonecrazy2021	WSL	\N	187	23253	32041	cw_bot	history-import:cw_bot:9778	2026-08-26 19:50:08.045+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3078836998	minzxn_11	AQ	\N	335	18542	32041	cw_bot	history-import:cw_bot:8633	2026-08-26 16:34:14.001+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3096883976	markosk2007	IDF	\N	522	12968	32042	cw_bot	history-import:cw_bot:6067	2026-08-09 09:27:28.449+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3108660508	Darcacz2	MNCS	\N	694	5188	32042	cw_bot	history-import:cw_bot:6678	2026-08-04 13:06:03.104+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3139037723	Tobik987123	cspe	\N	657	7317	32042	cw_bot	history-import:cw_bot:6475	2026-08-06 18:08:45.622+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3143604581	RebelkaCZ157	VLP	\N	698	4106	32042	cw_bot	history-import:cw_bot:6710	2026-08-04 09:43:51.606+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3144581284	averyhein1920212223	H8ER	\N	149	24709	32042	cw_bot	history-import:cw_bot:9035	2026-07-17 16:38:09.537+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3149302489	code_wille	0RBI	\N	594	10249	32044	cw_bot	history-import:cw_bot:3840	2026-04-05 06:57:37.866+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3165835619	mamhovnove_vlasech	MVS	\N	324	18831	32041	cw_bot	history-import:cw_bot:5006	2026-08-24 15:30:46.909+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3167252782	aromelkasto2	BYRD	\N	565	11432	32042	cw_bot	history-import:cw_bot:6823	2026-08-01 11:19:56.793+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3167272498	zdendpicl9	DJRK	\N	361	17788	32041	cw_bot	history-import:cw_bot:5717	2026-08-15 08:51:50.658+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3167571592	Hickarn1	NONG	\N	762	109	32044	cw_bot	history-import:cw_bot:8381	2026-03-22 11:06:41.693+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3171368431	darklode100	x75p	\N	12	31137	32044	cw_bot	history-import:cw_bot:1126	2026-04-27 02:10:10.025+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3175584454	ImLeroXx	🏰 Clan: **LXCC**	\N	\N	2071	32044	cw_bot	history-import:cw_bot:3510	2026-04-23 13:44:15.669+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3181994439	anrijs9991	ORBI	\N	172	23825	32044	cw_bot	history-import:cw_bot:1189	2026-04-30 19:59:29.548+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3203422029	drlllolll	OCHG	\N	308	19337	32041	cw_bot	history-import:cw_bot:9442	2026-08-22 16:01:45.839+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3208575762	tofikmore	2pGA	\N	447	15262	32041	cw_bot	history-import:cw_bot:5622	2026-08-16 07:23:34.699+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3214063706	ZoraDaGoatOfficial	ROMU	\N	762	207	32044	cw_bot	history-import:cw_bot:954	2026-04-17 00:09:22.187+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3228101331	phoen1x_aus	WSL	\N	227	21879	32041	cw_bot	history-import:cw_bot:9766	2026-08-26 19:49:57.893+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3233034644	ARIGO11234	3zEZ	\N	646	7945	32042	cw_bot	history-import:cw_bot:3306	2026-07-24 20:34:16.905+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3238661227	kapinooos123	VLTX	\N	615	9389	32042	cw_bot	history-import:cw_bot:6404	2026-08-07 22:39:55.498+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3248091509	professorfeliks	PABS	\N	572	11142	32042	cw_bot	history-import:cw_bot:8981	2026-07-19 16:26:07.395+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3248243502	IchBin21CPS_2	B2SS	\N	646	7985	32044	cw_bot	history-import:cw_bot:3772	2026-04-06 19:40:16.13+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3270087406	Mrkrecek12	VLP2	\N	719	2496	32041	cw_bot	history-import:cw_bot:5614	2026-08-14 19:39:09.575+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3271035452	Misak0912	K989	\N	709	3676	32042	cw_bot	history-import:cw_bot:6943	2026-08-01 08:49:00.863+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3282696395	max_squash	ORBI	\N	719	2350	32042	cw_bot	history-import:cw_bot:2118	2026-08-01 03:32:06.841+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3289385978	KnKmor	DK	\N	762	346	32042	cw_bot	history-import:cw_bot:8889	2026-08-01 18:12:49.345+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3299278772	xxprozombix	BEZE	\N	719	2193	32044	cw_bot	history-import:cw_bot:8668	2026-06-26 13:37:08.577+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3302444862	EndOfAnEra007	NONG	18	678	18	\N	external_import	history-import:big_bot:971	2026-07-16 23:25:31.662+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3318596083	Mamaris357357	MDKT	\N	719	2848	32041	cw_bot	history-import:cw_bot:5782	2026-08-14 17:19:41.498+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3323392290	D0m1n8tr	SAM	\N	637	8300	32044	cw_bot	history-import:cw_bot:9272	2026-04-29 06:50:40.467+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3327485448	thegoatedkidof2022	WSL	\N	197	22924	32041	cw_bot	history-import:cw_bot:9710	2026-08-28 19:31:59.738+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3338233326	Andrewasper0987	KOHV	\N	26	30415	32044	cw_bot	history-import:cw_bot:1847	2026-06-17 12:39:01.167+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3342535725	Adamosingos	OCHG	\N	43	29480	32041	cw_bot	history-import:cw_bot:9531	2026-08-22 15:48:53.345+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3345239646	vojtas98CZ	K989	\N	719	2206	32042	cw_bot	history-import:cw_bot:6150	2026-08-08 18:13:17.798+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3357292523	Grec_Game	VLP	\N	557	11746	32042	cw_bot	history-import:cw_bot:7061	2026-07-30 17:14:48.532+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3370104014	Standa256	VLP	\N	646	7949	32041	cw_bot	history-import:cw_bot:5135	2026-08-23 03:03:21.508+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3372527888	CokoladovaZmrzska	cspe	\N	698	4250	32042	cw_bot	history-import:cw_bot:7355	2026-07-22 01:19:32.889+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3373408758	housebox_go	HROT	\N	719	1400	32042	cw_bot	history-import:cw_bot:6455	2026-08-06 17:53:29.386+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3377511045	mercstien	0RBI	\N	719	1421	32044	cw_bot	history-import:cw_bot:1338	2026-05-06 09:08:51.241+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3377790375	CharliePatryk	Tbx_	\N	719	2084	32042	cw_bot	history-import:cw_bot:2454	2026-08-01 19:23:22.272+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3378947321	reset45624382	Goop	\N	648	7866	32042	cw_bot	history-import:cw_bot:8824	2026-08-08 12:36:56.654+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3382833387	kingweslie123	BUTI	\N	672	6373	32042	cw_bot	history-import:cw_bot:2323	2026-08-12 21:19:37.585+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3402015952	Josep_xD2	NXNG	\N	225	21952	32044	cw_bot	history-import:cw_bot:61	2026-04-27 04:36:38.637+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3407455295	pasha92467	RGCN	\N	121	25876	32041	cw_bot	history-import:cw_bot:4708	2026-08-28 13:31:50.275+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3439337856	prezley_official2022	HROT	\N	719	2208	32042	cw_bot	history-import:cw_bot:7115	2026-07-30 15:19:24.23+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3444459957	Radek25101982	VLP	\N	698	4105	32042	cw_bot	history-import:cw_bot:6049	2026-08-09 09:04:46.362+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3447427741	filipekisfff	MDKT	\N	650	7822	32044	cw_bot	history-import:cw_bot:3885	2026-05-11 00:51:30.646+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3448405650	eldublinfox	V1LN	\N	719	2299	32044	cw_bot	history-import:cw_bot:9393	2026-04-01 08:35:40.039+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3450868495	nolram1a	Roux	\N	382	17172	32042	cw_bot	history-import:cw_bot:8849	2026-08-04 06:49:16.854+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3456377805	Zyro12347	\N	\N	\N	22242	32044	cw_bot	history-import:cw_bot:3496	2026-04-19 07:03:56.014+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3509021767	JonnyM55	MDKT	\N	719	2279	32041	cw_bot	history-import:cw_bot:5549	2026-08-17 00:51:43.291+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3549731928	Thijklo2003	Goop	\N	142	24972	32044	cw_bot	history-import:cw_bot:1544	2026-05-17 01:50:48.281+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3557375419	Subtokirbofanyt	ORBI	\N	565	11414	32042	cw_bot	history-import:cw_bot:2188	2026-07-27 21:40:54.835+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3563519895	dexxifying	st1z	\N	719	2935	32044	cw_bot	history-import:cw_bot:3766	2026-04-17 00:22:16.986+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3565857429	Bb874tad	AR2Y	\N	425	15909	32042	cw_bot	history-import:cw_bot:7964	2026-07-08 14:36:26.417+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3567067280	Kurtis2345789	ROMU	\N	762	252	32044	cw_bot	history-import:cw_bot:585	2026-05-19 20:18:17.483+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3593720708	Malysberatel	P0PP	\N	534	12580	32042	cw_bot	history-import:cw_bot:7993	2026-07-08 14:36:56.328+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3596245301	Jahodnik1990	Jo1y	\N	215	22309	32042	cw_bot	history-import:cw_bot:6264	2026-08-08 11:21:12.701+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3602402808	Flexsnack21	UNTY	\N	762	92	32044	cw_bot	history-import:cw_bot:1202	2026-05-01 08:05:11.74+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3628039137	anoknight5	XPQX	\N	719	2456	32042	cw_bot	history-import:cw_bot:3117	2026-07-28 18:56:15.247+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3639903941	imandaskye	ORBI	\N	32	30106	32042	cw_bot	history-import:cw_bot:2171	2026-08-01 03:30:43.552+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3655474970	Shrooomdevourer10	V1LN	\N	698	3946	32044	cw_bot	history-import:cw_bot:8474	2026-06-17 00:21:50.467+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3661524719	krystofcz79	POPP	\N	414	16208	32042	cw_bot	history-import:cw_bot:6796	2026-08-02 14:36:22.788+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3672938221	zhulenc	VLP	\N	721	1243	32042	cw_bot	history-import:cw_bot:6525	2026-08-06 21:54:27.517+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3683660130	Medvid3k11	cspe	\N	384	17113	32042	cw_bot	history-import:cw_bot:6985	2026-07-31 17:00:07.71+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3741610856	DemxnIRL	ORBI	\N	199	22840	32042	cw_bot	history-import:cw_bot:4480	2026-08-06 00:26:19.98+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3753977683	mybanana367	NONG	\N	719	2323	32044	cw_bot	history-import:cw_bot:1466	2026-05-13 21:54:17.124+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3768828357	mrs_reset	Goop	\N	657	6996	32044	cw_bot	history-import:cw_bot:8607	2026-06-17 00:15:13.179+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3770737087	JayJayMu777	c1ce	\N	426	15895	32042	cw_bot	history-import:cw_bot:7178	2026-07-30 13:46:16.759+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3779230353	goat201470	Y0M	\N	719	2378	32044	cw_bot	history-import:cw_bot:8276	2026-04-13 16:26:51.02+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3797718809	m4thou3	Goop	\N	719	2590	32042	cw_bot	history-import:cw_bot:3074	2026-07-28 21:07:33.267+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3804356173	fishyaxl22	ST1Z	27	\N	27	\N	external_import	history-import:big_bot:987	2026-07-14 03:44:42.78+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3808414208	Suppe_Can	Goop	\N	663	6679	32044	cw_bot	history-import:cw_bot:8115	2026-04-27 17:55:05.386+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3834652767	Roman5556_CZ	SAM4	\N	620	9089	32042	cw_bot	history-import:cw_bot:7407	2026-07-17 16:42:07.486+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3853349557	melpatate12	BOSS	\N	762	150	32044	cw_bot	history-import:cw_bot:967	2026-04-18 02:12:53.563+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3868174361	popcatbrohter	DGSL	\N	719	3232	32042	cw_bot	history-import:cw_bot:2876	2026-07-31 15:58:17.484+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3919100604	Filda7329	STPS	\N	411	16283	32042	cw_bot	history-import:cw_bot:6493	2026-08-06 18:48:55.736+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3926695029	22mamamama	tNo	\N	667	6532	32042	cw_bot	history-import:cw_bot:7453	2026-07-15 07:59:07.687+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3940781859	tigran_2206	BEZE	\N	762	76	32042	cw_bot	history-import:cw_bot:863	2026-07-17 18:56:54.568+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3978547556	Zoliisrecords	K989	\N	530	12686	32041	cw_bot	history-import:cw_bot:4994	2026-08-24 10:40:01.728+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	3994956294	Bxcan_official	A2H	\N	109	26365	32044	cw_bot	history-import:cw_bot:1731	2026-05-26 13:32:49.12+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4006052667	badamtttt	K989	\N	328	18720	32042	cw_bot	history-import:cw_bot:6272	2026-08-08 11:25:07.466+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4010792811	1zelvak	BDX	\N	690	5340	32042	cw_bot	history-import:cw_bot:7273	2026-07-27 11:51:24.945+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4018532963	kaktuschris	TMPV	\N	490	14015	32042	cw_bot	history-import:cw_bot:6465	2026-08-06 18:05:04.707+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4028104754	jaratupy36	vdfn	\N	698	4601	32041	cw_bot	history-import:cw_bot:5762	2026-08-14 16:48:48.942+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4032508929	Skibidieny	K989	\N	561	11573	32042	cw_bot	history-import:cw_bot:7192	2026-07-30 04:52:07.394+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4035198924	ytpandaroux	R0MU	\N	741	1061	32042	cw_bot	history-import:cw_bot:928	2026-07-08 19:17:13.13+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4051469126	Naruto61925	K_TB	\N	159	24319	32042	cw_bot	history-import:cw_bot:3392	2026-07-23 20:03:20.004+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4054510143	kudlankovec	POJO	\N	646	7956	32042	cw_bot	history-import:cw_bot:2484	2026-08-01 09:59:49.052+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4062541064	Franta99996	ROYL	\N	293	19788	32041	cw_bot	history-import:cw_bot:5105	2026-08-22 20:31:49.529+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4085016779	the_mandalorian963	V1LN	\N	762	769	32041	cw_bot	history-import:cw_bot:7647	2026-08-14 10:22:52.548+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4088247539	SHADOW_KIWIBI	🏰 Clan: **XPQX**	\N	\N	8722	32044	cw_bot	history-import:cw_bot:3491	2026-04-19 21:10:26.876+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4091709355	1230david4567	SAM4	\N	690	5353	32041	cw_bot	history-import:cw_bot:5693	2026-08-15 05:24:53.093+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4113094220	TTobbboTT	PAAC	\N	698	3958	32044	cw_bot	history-import:cw_bot:9225	2026-05-12 19:20:42.195+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4161934376	honza01021983	VLP	\N	657	7092	32041	cw_bot	history-import:cw_bot:4846	2026-08-28 06:57:40.513+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4165162503	trubgut3	MDKT	\N	719	1928	32042	cw_bot	history-import:cw_bot:6420	2026-08-06 15:24:37.222+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4167232216	nanuk_2232	VLP2	\N	560	11630	32042	cw_bot	history-import:cw_bot:6301	2026-08-08 12:06:58.145+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4177849716	doperthanyou67	3zEZ	\N	719	2226	32042	cw_bot	history-import:cw_bot:9068	2026-07-08 01:06:13.66+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4196761995	GravysOfficial	MDKT	\N	719	1738	32041	cw_bot	history-import:cw_bot:5116	2026-08-22 23:53:53.389+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4197618114	Danczek0102	Sro	\N	658	6944	32042	cw_bot	history-import:cw_bot:6283	2026-08-08 16:08:23.534+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4215988499	abby_gamera	V1LN	\N	702	3772	32044	cw_bot	history-import:cw_bot:8154	2026-04-28 15:06:15.006+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4238790853	samsam16725	ROMU	\N	781	33	32044	cw_bot	history-import:cw_bot:93	2026-06-19 21:20:32.05+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4242955713	KazuyaTTV	SOPU	\N	762	528	32044	cw_bot	history-import:cw_bot:212	2026-05-01 10:25:23.892+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4247108285	irdski	IWHN	\N	717	3413	32041	cw_bot	history-import:cw_bot:4716	2026-08-14 21:21:37.198+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4281402342	Selcuk1143	S2PU	\N	698	4220	32042	cw_bot	history-import:cw_bot:3049	2026-07-28 21:24:31.882+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4290313900	rubberluffy1235	S2PU	\N	581	10795	32042	cw_bot	history-import:cw_bot:4236	2026-08-13 06:29:40.629+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4301431724	Bobsussybu123	xpp_	\N	357	17901	32042	cw_bot	history-import:cw_bot:2520	2026-08-01 12:26:31.166+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4313949380	Dada343410	OCHG	\N	505	13489	32042	cw_bot	history-import:cw_bot:6386	2026-08-07 20:30:35.379+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4336818312	Myguy_Ky1	Nump	\N	709	3679	32042	cw_bot	history-import:cw_bot:3216	2026-07-26 11:08:12.603+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4339145979	Dandis_20	COLU	\N	719	2888	32041	cw_bot	history-import:cw_bot:5519	2026-08-18 13:11:18.989+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4345972644	venti12011201	2WEI	\N	550	11990	32044	cw_bot	history-import:cw_bot:8541	2026-06-17 00:04:41.889+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4359375074	PostalChaos1	3zEZ	\N	719	3223	32044	cw_bot	history-import:cw_bot:4101	2026-04-12 20:17:08.094+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4393951337	lukascccs	VLP2	\N	602	9910	32042	cw_bot	history-import:cw_bot:6131	2026-08-08 17:36:40.231+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4430200296	daytime7789	OTTR	\N	698	4557	32044	cw_bot	history-import:cw_bot:9161	2026-06-29 23:32:40.195+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4452395552	Xavier_Toorp	STPS	\N	657	7143	32042	cw_bot	history-import:cw_bot:7036	2026-07-31 00:21:48.123+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4468537889	tvojemamag101	VLP2	\N	618	9217	32041	cw_bot	history-import:cw_bot:5089	2026-08-22 23:18:43.789+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4471953599	alexander1234_hi56	B3ZE	\N	657	7218	32042	cw_bot	history-import:cw_bot:8794	2026-08-12 23:40:25.692+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4482372398	Burak30_CZ	VLP	\N	43	29437	32042	cw_bot	history-import:cw_bot:7164	2026-07-30 13:05:24.983+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4483758330	Sooz_events	TAUK	\N	630	8613	32044	cw_bot	history-import:cw_bot:4064	2026-04-12 22:02:33.256+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4506575217	dracislav	HROT	\N	698	4326	32042	cw_bot	history-import:cw_bot:7308	2026-07-26 08:10:51.343+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4511725993	Kvetamin	VLP	\N	719	1914	32041	cw_bot	history-import:cw_bot:5244	2026-08-21 19:36:06.87+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4515946186	bakedashboii	WSOW	\N	698	4077	32044	cw_bot	history-import:cw_bot:8293	2026-04-19 17:46:14.335+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4540869398	proto123q	NS4R	\N	678	5829	32042	cw_bot	history-import:cw_bot:566	2026-07-17 18:49:06.221+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4574397825	PET_HERO676	FYRX	\N	698	4758	32041	cw_bot	history-import:cw_bot:5412	2026-08-20 09:37:57.743+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4583513261	xXJ0hnXx23	POJO	\N	560	11642	32041	cw_bot	history-import:cw_bot:5292	2026-08-22 16:50:40.795+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4584982387	Misabilk	VLP2	\N	657	7115	32042	cw_bot	history-import:cw_bot:5937	2026-08-11 16:19:44.683+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4597064685	nevimheslo108	K989	\N	762	605	32042	cw_bot	history-import:cw_bot:6646	2026-08-05 20:02:56.557+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4610459819	srolik249	Sro	\N	640	8183	32041	cw_bot	history-import:cw_bot:5708	2026-08-15 08:07:19.768+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4634042698	psxtrader327	OTTR	174	\N	174	\N	external_import	history-import:big_bot:1083	2026-06-29 23:25:50.145+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4652078124	jaximeler	PABS	\N	719	2572	32044	cw_bot	history-import:cw_bot:8424	2026-06-17 00:24:11.273+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4686873488	Monty_Tomas10	K989	\N	762	466	32041	cw_bot	history-import:cw_bot:5322	2026-08-21 07:45:07.526+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4759297476	psst1422	HROT	\N	762	135	32044	cw_bot	history-import:cw_bot:143	2026-05-20 23:35:12.448+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4792692703	ced123zx	ROMU	\N	719	2160	32042	cw_bot	history-import:cw_bot:712	2026-07-17 18:57:41.576+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4833004455	Deniska_1990	HROT	\N	719	1412	32042	cw_bot	history-import:cw_bot:7323	2026-07-25 23:11:40.176+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4916438361	ArmNotPro	st1z	\N	697	5006	32042	cw_bot	history-import:cw_bot:808	2026-07-17 18:58:43.871+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4957497369	ammi0729	BOSS	\N	762	153	32044	cw_bot	history-import:cw_bot:980	2026-04-18 02:13:35.573+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4989918296	PtiDoriankt	ROMU	\N	719	1689	32042	cw_bot	history-import:cw_bot:844	2026-07-17 18:56:47.208+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	4999104751	Speaxk17	POPS	\N	625	8850	32044	cw_bot	history-import:cw_bot:1624	2026-05-21 01:10:10.679+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5013545323	gravysek666	cTnM	\N	140	25087	32042	cw_bot	history-import:cw_bot:6417	2026-08-08 02:16:50.888+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5042635636	Cultiv8R_NZ	DLOW	\N	678	5715	32044	cw_bot	history-import:cw_bot:8224	2026-04-11 00:40:42.513+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5044736168	CBroGolden	3zEZ	\N	762	353	32044	cw_bot	history-import:cw_bot:4088	2026-04-12 20:16:41.119+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5063089605	REAL3ST_NZ	DLOW	\N	417	16111	32044	cw_bot	history-import:cw_bot:8265	2026-04-11 00:55:05.933+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5091424925	spiederpro9	Taux	\N	633	8518	32042	cw_bot	history-import:cw_bot:2492	2026-08-01 10:12:35.596+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5120442322	kirasm0m	ORBI	\N	311	19228	32042	cw_bot	history-import:cw_bot:2203	2026-07-17 04:33:26.901+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5120642383	hydra_dynamo71	DHFA	\N	698	4901	32044	cw_bot	history-import:cw_bot:1679	2026-05-23 12:52:57.165+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5121299224	Kacerrr333	ARX4	\N	432	15714	32042	cw_bot	history-import:cw_bot:6745	2026-08-04 10:24:53.693+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5127406568	dadchris86	Goop	\N	363	17719	32044	cw_bot	history-import:cw_bot:8181	2026-04-21 16:30:58.569+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5128164487	drako83cz	HROT	\N	762	137	32041	cw_bot	history-import:cw_bot:5532	2026-08-17 12:17:13.979+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5128774229	livelasso	2WEI	\N	719	2139	32042	cw_bot	history-import:cw_bot:8997	2026-07-19 09:14:05.882+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5143387515	babykweeef	UN0	\N	224	21985	32041	cw_bot	history-import:cw_bot:2100	2026-08-14 22:59:19.851+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5165277431	nojkdfnjyfdhufdhn	OxC	\N	694	5120	32041	cw_bot	history-import:cw_bot:5436	2026-08-19 14:48:26.843+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5189669801	johqnel	Sro	\N	684	5523	32041	cw_bot	history-import:cw_bot:5567	2026-08-17 00:52:03.053+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5203613717	Arteomcka0_z	BEZE	\N	762	85	32042	cw_bot	history-import:cw_bot:3371	2026-07-23 19:33:38.366+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5207679662	GrinchFrend	MDKT	\N	719	2393	32041	cw_bot	history-import:cw_bot:4879	2026-08-28 13:55:05.802+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5209078854	Rydma73	H8ER	\N	719	1463	32044	cw_bot	history-import:cw_bot:3970	2026-04-12 22:17:12.736+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5212313671	superpositlon	S7NS	\N	111	26302	32044	cw_bot	history-import:cw_bot:1483	2026-05-15 19:10:30.306+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5246280273	janjelinek3	POJO	\N	538	12442	32042	cw_bot	history-import:cw_bot:6040	2026-08-09 09:04:37.217+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5267528496	hahagoo4	PXCH	\N	678	6037	32042	cw_bot	history-import:cw_bot:9630	2026-07-31 16:29:28.688+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5288045534	tombayfarm4	BEZE	\N	761	830	32044	cw_bot	history-import:cw_bot:9528	2026-07-02 14:49:23.85+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5291595908	iTTv6	3zEZ	\N	719	2708	32044	cw_bot	history-import:cw_bot:3999	2026-04-12 21:22:33.583+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5313080791	HerzogDL	ROMU	\N	698	4617	32044	cw_bot	history-import:cw_bot:946	2026-04-17 00:08:20.006+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5328968538	Iphone1835	SAM4	\N	631	8589	32041	cw_bot	history-import:cw_bot:5190	2026-08-21 18:06:41.136+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5339963078	Kvetamin2	VLP	\N	566	11373	32042	cw_bot	history-import:cw_bot:6538	2026-08-07 09:05:29.727+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5383071838	mr_895675	LXCC	\N	678	5918	32041	cw_bot	history-import:cw_bot:7676	2026-08-14 20:23:40.83+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5407742794	baba_gamer239	ROMU	\N	718	3381	32044	cw_bot	history-import:cw_bot:1582	2026-05-20 17:25:36.224+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5414318030	demonfaarm3	2WEI	\N	580	10839	32044	cw_bot	history-import:cw_bot:9353	2026-03-31 20:30:04.513+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5420529092	Azurq666	SOPU	\N	719	3159	32044	cw_bot	history-import:cw_bot:8376	2026-04-06 08:33:16.146+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5436365094	Bruin444444	st1z	\N	762	607	32042	cw_bot	history-import:cw_bot:2404	2026-08-10 00:49:21.439+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5454068280	lukky509	KMo	\N	208	22556	32041	cw_bot	history-import:cw_bot:4959	2026-08-24 17:48:55.599+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5510809744	moneyskallin	ORBI	\N	50	29110	32042	cw_bot	history-import:cw_bot:2083	2026-07-19 11:32:01.392+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5516978036	omgitzmaatt3	_hot	\N	625	8849	32041	cw_bot	history-import:cw_bot:9870	2026-08-23 11:16:05.962+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5534860785	rostislavvv155	HROT	\N	698	3910	32042	cw_bot	history-import:cw_bot:2858	2026-07-31 15:54:01.042+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5560545010	crimxzysgoatedalt	N1GD	\N	1	31907	32044	cw_bot	history-import:cw_bot:1744	2026-05-28 19:25:01.662+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5575261241	noliogames3	IWHN	\N	518	13096	32042	cw_bot	history-import:cw_bot:9485	2026-08-04 08:47:00.84+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5615179956	MonsterWithGod	ROMU	\N	719	2396	32044	cw_bot	history-import:cw_bot:4141	2026-04-12 21:05:00.581+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5617415188	domimimink1	B1LE	\N	657	7326	32042	cw_bot	history-import:cw_bot:6485	2026-08-06 18:13:39.772+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5623447261	quoicoubeh5608	RATZ	\N	741	1059	32042	cw_bot	history-import:cw_bot:6209	2026-08-08 20:49:37.159+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5703128088	elnubsen	SOPU	\N	762	115	32044	cw_bot	history-import:cw_bot:3864	2026-04-05 06:56:35.208+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5718001505	samaorithor	WSL	\N	127	25602	32041	cw_bot	history-import:cw_bot:9793	2026-08-26 19:50:37.879+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5739088762	Martin89951	ARX4	\N	371	17500	32042	cw_bot	history-import:cw_bot:6431	2026-08-06 15:25:22.541+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5771998323	Tadeas5303	BDX	\N	269	20507	32042	cw_bot	history-import:cw_bot:7147	2026-07-30 15:42:22.574+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5798456185	Vojta_44l3	W0m1	\N	347	18217	32044	cw_bot	history-import:cw_bot:1955	2026-06-26 17:07:22.713+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5818869297	knoxcoder	SOPU	\N	762	114	32042	cw_bot	history-import:cw_bot:3019	2026-07-29 13:28:15.912+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5825369243	DahRealXaViMaVi2	XNR	\N	698	4811	32042	cw_bot	history-import:cw_bot:548	2026-07-17 18:48:43.803+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	5837946305	husos112410	COMT	\N	591	10380	32042	cw_bot	history-import:cw_bot:3330	2026-07-24 20:49:25.624+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	6109731708	YoBaskett	W2VY	\N	762	356	32042	cw_bot	history-import:cw_bot:426	2026-07-17 18:47:23.21+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	6156770625	pepajzikv2	STPS	\N	539	12389	32041	cw_bot	history-import:cw_bot:5381	2026-08-20 18:30:12.586+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	6180933436	Atefluigi1	BAWB	\N	532	12612	32041	cw_bot	history-import:cw_bot:4822	2026-08-28 16:24:47.076+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	6192858536	sigmaboss279	2523	\N	426	15894	32044	cw_bot	history-import:cw_bot:3995	2026-04-12 21:20:08.761+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7005100565	Crazypuzzlehead15	Goop	\N	694	5080	32042	cw_bot	history-import:cw_bot:2468	2026-08-01 09:28:25.648+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7065541321	21xseron20	VLP	\N	368	17590	32042	cw_bot	history-import:cw_bot:6566	2026-08-06 07:05:07.56+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7168755253	JoJo_Gaming2341	XMA2	\N	88	27369	32044	cw_bot	history-import:cw_bot:1888	2026-06-20 14:27:05.49+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7173492482	Kyan65427	DO_1	\N	357	17910	32042	cw_bot	history-import:cw_bot:3234	2026-07-26 12:04:59.618+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7202704987	wslhuge	WSL	\N	657	7047	32041	cw_bot	history-import:cw_bot:9818	2026-08-26 19:55:49.742+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7232809185	Kessho02	PEND	\N	719	2161	32042	cw_bot	history-import:cw_bot:602	2026-07-17 18:49:22.998+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7299604677	McAnt1c_Official	Sro	\N	480	14320	32042	cw_bot	history-import:cw_bot:6783	2026-08-03 07:34:50.336+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7426690057	Duckyphant	H8M3	\N	719	1725	32041	cw_bot	history-import:cw_bot:5638	2026-08-14 22:07:36.457+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7492577011	XBLTAZEEEE	J1NU	\N	228	21858	32044	cw_bot	history-import:cw_bot:9083	2026-07-03 23:49:41.902+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7583161395	Tgzzgzzltg33	HR2T	\N	698	4023	32042	cw_bot	history-import:cw_bot:7264	2026-07-27 11:39:20.283+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7594665011	demonfaarm10	2WEI	\N	719	2727	32044	cw_bot	history-import:cw_bot:9361	2026-03-31 20:30:40.275+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7710452262	hrac_821	BDX	\N	401	16583	32042	cw_bot	history-import:cw_bot:6002	2026-08-10 07:17:41.604+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7742077490	sirwabbs	HARM	\N	698	4474	32042	cw_bot	history-import:cw_bot:4639	2026-08-02 03:35:57.878+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7806857762	selena082319	W2VY	\N	690	5327	32042	cw_bot	history-import:cw_bot:374	2026-07-17 18:33:34.992+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	7808641651	Elis_123cz12	MDKT	\N	698	4838	32042	cw_bot	history-import:cw_bot:6514	2026-08-07 05:42:34.596+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8087930970	sleeperb99	OTTR	\N	719	2702	32042	cw_bot	history-import:cw_bot:9025	2026-07-17 16:18:36.71+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8136551278	vincbond15	DJRK	\N	430	15758	32042	cw_bot	history-import:cw_bot:6190	2026-08-08 20:08:01.556+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8156513145	Lukynak9	SELX	\N	584	10697	32042	cw_bot	history-import:cw_bot:7485	2026-07-16 15:50:25.991+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8182869593	SuperrMessi87	SELX	\N	40	29643	32041	cw_bot	history-import:cw_bot:5017	2026-08-23 20:41:38.353+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8187537946	nzr5581	V1LN	\N	698	4348	32044	cw_bot	history-import:cw_bot:8193	2026-04-23 19:12:26.428+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8202998917	StanleyFox92	AV3Y	\N	762	740	32044	cw_bot	history-import:cw_bot:16	2026-04-25 12:24:19.176+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	8717864055	Miekii99	JJ07	\N	151	24638	32044	cw_bot	history-import:cw_bot:3994	2026-04-12 21:26:23.869+00
-TrickOrTreat	Trick or Treat Battle	trickortreat	9729641645	chasealter14	XNR	\N	510	13352	32042	cw_bot	history-import:cw_bot:9029	2026-07-17 16:37:42.582+00
+COPY battles."Trick or Treat Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+TrickOrTreat	Trick or Treat Battle	trickortreat	14538110	joeycb	UN0	\N	678	5712	32044	cw_bot	history-import:cw_bot:1685	2026-05-23 12:54:45.542+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	20532808	GamesReborn	Rfil	\N	511	13303	32044	cw_bot	history-import:cw_bot:1221	2026-05-01 18:19:11.948+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	33928536	banan123123123	NXNG	\N	1	31918	32044	cw_bot	history-import:cw_bot:1660	2026-05-22 07:26:22.196+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	58312098	sosd35	SOPU	\N	762	110	32042	cw_bot	history-import:cw_bot:688	2026-07-17 18:57:28.202+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	79237321	GodlySalt	BYRD	74	\N	74	\N	external_import	history-import:big_bot:948	2026-07-11 14:28:35.433+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	90767636	bobdog751	V1LN	\N	762	190	32044	cw_bot	history-import:cw_bot:8129	2026-04-27 21:06:33.398+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	120904005	nublet28	BYRD	\N	719	2936	32044	cw_bot	history-import:cw_bot:8440	2026-07-03 22:38:52.17+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	125272790	ur_salty091	XBOX	\N	719	1379	32044	cw_bot	history-import:cw_bot:1917	2026-06-21 04:13:46.321+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	125775822	NightFoxx	buun	\N	242	21369	32042	cw_bot	history-import:cw_bot:4317	2026-08-10 19:33:10.888+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	136661329	ghanta2a	Goop	\N	695	5045	32044	cw_bot	history-import:cw_bot:8101	2026-04-26 23:31:56.073+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	138619446	darkenedwishes	EXP	\N	210	22483	32044	cw_bot	history-import:cw_bot:2004	2026-06-28 16:26:03.666+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	148251054	EpicRider6729	NONG	\N	611	9516	32044	cw_bot	history-import:cw_bot:3850	2026-04-05 07:59:08.938+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	156957387	itsminerr	ORBI	\N	219	22172	32042	cw_bot	history-import:cw_bot:2153	2026-08-01 03:26:51.039+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	163195458	20xseron20	VLP	\N	454	15049	32042	cw_bot	history-import:cw_bot:6573	2026-08-06 07:05:22.236+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	165817996	16_BitPotato	UN0	\N	762	51	32042	cw_bot	history-import:cw_bot:4523	2026-08-04 19:56:26.259+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	165941966	dougmandev	\N	\N	\N	6110	32044	cw_bot	history-import:cw_bot:3548	2026-03-12 11:07:04.662+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	170719079	tnocko	HROT	\N	721	1228	32042	cw_bot	history-import:cw_bot:2287	2026-08-12 07:40:01.692+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	170896669	toratot	OTTR	\N	698	4341	32044	cw_bot	history-import:cw_bot:9147	2026-06-29 23:29:26.064+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	184309752	expellez	BOSS	\N	762	522	32044	cw_bot	history-import:cw_bot:1104	2026-04-25 23:28:51.667+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	192463394	NukeOfLava12	3zEZ	\N	657	7175	32044	cw_bot	history-import:cw_bot:4129	2026-04-12 20:31:33.085+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	192653117	carloskar08	ORBI	\N	75	27954	32042	cw_bot	history-import:cw_bot:4464	2026-08-05 22:58:43.526+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	194076029	Gromic5876	MNBB	\N	762	561	32042	cw_bot	history-import:cw_bot:6098	2026-08-08 23:25:51.173+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	210966410	onoraksal	hlx	\N	719	1647	32041	cw_bot	history-import:cw_bot:8780	2026-08-15 13:55:15.256+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	212422741	berryuk19	H8M3	\N	712	3646	32044	cw_bot	history-import:cw_bot:3906	2026-06-24 22:57:40.989+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	223141866	LoLLubas	DPSF	\N	678	6003	32041	cw_bot	history-import:cw_bot:4797	2026-08-28 14:48:40.144+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	241713789	J2X1NESIWXID	DLOW	\N	741	1045	32042	cw_bot	history-import:cw_bot:749	2026-07-17 18:58:04.211+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	250562586	zcm_Xi	CC4T	\N	719	1974	32042	cw_bot	history-import:cw_bot:4362	2026-08-09 17:51:30.585+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	254885188	Prodav1	SULS	\N	719	1475	32042	cw_bot	history-import:cw_bot:8001	2026-07-08 14:39:05.73+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	269324545	aguilapvp	GSTG	\N	650	7832	32044	cw_bot	history-import:cw_bot:23	2026-04-24 02:34:57.035+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	273316338	stevowsl	WSL	\N	719	1904	32041	cw_bot	history-import:cw_bot:9804	2026-08-26 19:54:20.308+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	296854741	Cinco112309	XBOX	\N	761	823	32042	cw_bot	history-import:cw_bot:2807	2026-07-31 16:11:19.068+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	331930897	gogeta363	TLGZ	\N	424	15924	32042	cw_bot	history-import:cw_bot:4380	2026-08-09 04:19:11.832+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	343511782	octojabb	SLRP	\N	719	2407	32044	cw_bot	history-import:cw_bot:9245	2026-04-30 14:51:23.517+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	365225419	prorik228	07W	\N	762	374	32042	cw_bot	history-import:cw_bot:7910	2026-07-08 14:30:35.5+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	423460663	bub2540	POPS	\N	598	10076	32044	cw_bot	history-import:cw_bot:1506	2026-05-16 12:19:40.788+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	425660194	chinovelaz	stzr	\N	661	6780	32044	cw_bot	history-import:cw_bot:4150	2026-04-12 20:33:18.646+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	435823564	brandon292016	3zEZ	\N	698	4086	32044	cw_bot	history-import:cw_bot:1033	2026-04-20 06:06:34.027+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	445901501	USECODE_THAT1NPC	3zEZ	\N	752	900	32044	cw_bot	history-import:cw_bot:4219	2026-04-12 20:09:26.048+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	452314193	LandOfDoggos	V1LN	\N	762	734	32044	cw_bot	history-import:cw_bot:9187	2026-06-23 15:37:48.38+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	456142044	icyy_il	H8M3	\N	581	10815	32042	cw_bot	history-import:cw_bot:2390	2026-08-10 10:39:29.018+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	460000821	maserofwater098	S7NS	\N	511	13301	32044	cw_bot	history-import:cw_bot:2035	2026-06-29 17:36:18.828+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	463900811	AgentP_0928	NONG	\N	719	1370	32044	cw_bot	history-import:cw_bot:649	2026-04-26 04:08:51.656+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	490804310	kubas1018	NDSS	\N	719	3308	32044	cw_bot	history-import:cw_bot:3742	2026-04-20 12:22:31.231+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	496935076	mawahlah	07W	\N	35	29912	32044	cw_bot	history-import:cw_bot:46	2026-06-27 00:05:32.123+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	501328621	wigglywoo321	T0KS	\N	203	22713	32042	cw_bot	history-import:cw_bot:2667	2026-08-01 00:14:18.246+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	502312785	tomasek8557	BDX	\N	678	5963	32041	cw_bot	history-import:cw_bot:5451	2026-08-19 16:40:59.801+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	532884141	walosdan	VLP2	\N	312	19205	32042	cw_bot	history-import:cw_bot:5917	2026-08-12 18:39:07.299+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	538266747	Judah3000	XBOX	\N	719	1964	32042	cw_bot	history-import:cw_bot:7847	2026-07-08 14:31:05.959+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	544198160	JimmyCIeetus	Goop	\N	315	19103	32042	cw_bot	history-import:cw_bot:474	2026-07-17 18:47:56.313+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	546090248	cheburek_x	mrnw	\N	719	2518	32042	cw_bot	history-import:cw_bot:2751	2026-07-31 17:21:30.816+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	569678937	StormerAceCT	PsAG	\N	715	3506	32042	cw_bot	history-import:cw_bot:3322	2026-07-24 20:47:00.595+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	573589049	nerfbro9000	GSTG	\N	440	15478	32044	cw_bot	history-import:cw_bot:9402	2026-03-26 19:15:43.999+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	573955632	Johanplayzrb21	HARM	\N	694	5144	32044	cw_bot	history-import:cw_bot:994	2026-04-18 02:22:53.465+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	575710785	moko_193	🏰 Clan: **twky**	\N	\N	5537	32044	cw_bot	history-import:cw_bot:3546	2026-03-12 11:06:38.244+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	584516944	renzcru	KGHC	\N	719	2906	32044	cw_bot	history-import:cw_bot:1447	2026-05-12 10:24:24.514+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	587622297	Raihania54321	Awh_	\N	473	14544	32044	cw_bot	history-import:cw_bot:1025	2026-04-19 21:12:31.376+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	587994363	Real_RoNexq	EDS1	\N	719	3067	32042	cw_bot	history-import:cw_bot:3157	2026-07-27 16:53:43.006+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	588685015	jonis_chicken	XBOX	\N	719	2365	32044	cw_bot	history-import:cw_bot:9210	2026-06-13 20:55:03.535+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	597362770	marcelgolem	🏰 Clan: **RAKI**	\N	\N	1129	32044	cw_bot	history-import:cw_bot:3666	2026-03-23 19:44:54.3+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	621412324	dabcat818	S7NS	\N	587	10537	32044	cw_bot	history-import:cw_bot:1778	2026-06-07 17:32:51.445+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	646372767	904aj603	st1z	\N	719	1508	32044	cw_bot	history-import:cw_bot:1118	2026-04-27 02:09:16.229+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	651456138	TrikStar007	3zEZ	\N	719	2750	32044	cw_bot	history-import:cw_bot:4209	2026-04-12 20:09:23.388+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	656420117	MercilessBanditTaken	NS4R	\N	694	5079	32044	cw_bot	history-import:cw_bot:168	2026-04-19 13:44:30.618+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	659542061	rrodgers0206	POPS	\N	715	3454	32042	cw_bot	history-import:cw_bot:733	2026-07-17 18:57:55.775+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	661099895	patcola2010	V1LN	\N	657	6979	32042	cw_bot	history-import:cw_bot:7799	2026-07-24 00:04:23.322+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	681369033	Thatrobloxguy63	SOPU	\N	762	118	32044	cw_bot	history-import:cw_bot:8329	2026-04-06 08:26:58.844+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	688928053	Noahangrybird1234	BEZE	\N	762	178	32044	cw_bot	history-import:cw_bot:8349	2026-04-06 08:29:37.081+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	697378514	robloxiswaste213445	NXNG	\N	229	21815	32042	cw_bot	history-import:cw_bot:3083	2026-07-28 21:08:04.725+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	704550307	osmanefe334	S2PU	\N	653	7672	32044	cw_bot	history-import:cw_bot:8340	2026-04-06 08:27:50.069+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	709222551	Theozzz12	S7NS	\N	19	30787	32044	cw_bot	history-import:cw_bot:8166	2026-04-26 15:05:43.056+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	722456679	mujiTABA1	\N	\N	719	1843	32044	cw_bot	history-import:cw_bot:2019	2026-06-28 16:42:57.557+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	725541686	sleptonjayfr	Ham6	\N	41	29619	32042	cw_bot	history-import:cw_bot:2397	2026-08-10 00:34:48.882+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	730772803	sidsew	HSTL	\N	584	10682	32041	cw_bot	history-import:cw_bot:7537	2026-08-25 14:36:17.613+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	757692049	Hulkian1	V1LN	\N	719	1510	32044	cw_bot	history-import:cw_bot:8304	2026-03-28 21:21:50.541+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	779059828	jimynew	SS1N	\N	468	14672	32044	cw_bot	history-import:cw_bot:1534	2026-05-16 23:39:36.553+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	790873913	homless9	STPS	\N	632	8546	32042	cw_bot	history-import:cw_bot:6444	2026-08-06 17:44:57.059+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	792204503	Arek2qe4	V1LN	\N	719	2976	32042	cw_bot	history-import:cw_bot:8644	2026-07-15 22:49:51.435+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	808679837	sqirtel50	KOHV	\N	678	6064	32042	cw_bot	history-import:cw_bot:2420	2026-08-09 16:10:37.911+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	810054419	catloncat	3zEZ	\N	721	1251	32044	cw_bot	history-import:cw_bot:4021	2026-04-12 21:24:49.553+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	844720150	Sebastjan35	NONG	\N	719	1408	32042	cw_bot	history-import:cw_bot:529	2026-07-17 18:48:35.159+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	852170656	vojitano	bar9	\N	624	8909	32041	cw_bot	history-import:cw_bot:5065	2026-08-23 12:46:22.495+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	857986484	pogujsn	DVQ	\N	182	23440	32042	cw_bot	history-import:cw_bot:7864	2026-07-08 14:28:28.369+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	864632403	galaxyknight9204	Goop	\N	295	19699	32044	cw_bot	history-import:cw_bot:1766	2026-05-29 01:34:02.793+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	876991750	Mertiliano	ORBI	\N	240	21404	32042	cw_bot	history-import:cw_bot:2133	2026-08-01 04:17:09.805+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	877353566	lpvarmi	VLP	\N	19	30786	32042	cw_bot	history-import:cw_bot:7207	2026-07-29 20:25:50.738+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	884971222	henchal13	Opa	\N	340	18422	32044	cw_bot	history-import:cw_bot:9309	2026-04-19 12:19:45.145+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	911932139	Daniel8czs	HROT	\N	719	1401	32042	cw_bot	history-import:cw_bot:6807	2026-08-01 11:19:39.153+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	915515621	math33g4	Gewp	\N	678	5766	32042	cw_bot	history-import:cw_bot:7950	2026-07-08 14:35:53.418+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	938868540	eso343	SHAG	\N	496	13813	32042	cw_bot	history-import:cw_bot:6546	2026-08-07 09:09:20.624+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	955175856	fatalwaccle	3zEZ	\N	651	7778	32044	cw_bot	history-import:cw_bot:4179	2026-04-12 20:31:29.037+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	968065508	eEmsorry	PAAC	\N	698	4810	32042	cw_bot	history-import:cw_bot:9057	2026-07-09 08:48:58.97+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	969672285	tomashgjfdy	\N	\N	\N	7805	32044	cw_bot	history-import:cw_bot:1476	2026-05-15 06:46:31.46+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	981933151	doczmerson	PABS	\N	579	10872	32042	cw_bot	history-import:cw_bot:7598	2026-08-11 13:00:07.332+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1000059115	rimonus	SOPU	\N	762	359	32044	cw_bot	history-import:cw_bot:1801	2026-06-13 11:10:39.923+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1024664859	NotArsann7	AR2Y	\N	419	16056	32044	cw_bot	history-import:cw_bot:1251	2026-05-03 05:34:41.421+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1029579815	Marshmellow_1177	YLW	\N	370	17516	32044	cw_bot	history-import:cw_bot:1296	2026-05-05 21:28:38.219+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1044395777	patrykkpro1	V1LN	\N	741	1073	32042	cw_bot	history-import:cw_bot:7721	2026-08-05 20:28:34.504+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1049702109	realchaseblox	FaZ	\N	762	196	32044	cw_bot	history-import:cw_bot:1309	2026-05-05 21:59:20.786+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1060055099	mimo_4	MLRM	\N	698	4600	32042	cw_bot	history-import:cw_bot:6731	2026-08-04 10:19:23.697+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1077060589	playaplaya811	\N	\N	\N	9166	32044	cw_bot	history-import:cw_bot:3611	2026-05-01 22:31:32.732+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1081067684	mimilrol	ROMU	\N	719	1683	32042	cw_bot	history-import:cw_bot:403	2026-07-17 18:47:08.019+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1100810390	Starslikebirds	7HRW	\N	698	4814	32042	cw_bot	history-import:cw_bot:4685	2026-08-01 01:45:14.128+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1137640592	clackerskill	Goop	\N	719	2341	32042	cw_bot	history-import:cw_bot:4656	2026-08-01 00:22:28.841+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1146217738	xXjirkaXxboys	SJCJ	\N	719	2790	32044	cw_bot	history-import:cw_bot:4043	2026-04-12 22:01:07.439+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1157052710	laughytrex	XPQX	\N	698	4394	32044	cw_bot	history-import:cw_bot:887	2026-04-24 03:00:59.658+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1158978049	Mr_trolololx019	BCN2	\N	715	3554	32042	cw_bot	history-import:cw_bot:7830	2026-07-05 15:55:32.872+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1160481763	fajeczka4	BOTZ	\N	624	8895	32042	cw_bot	history-import:cw_bot:6788	2026-08-03 09:49:43.16+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1163321217	protozejelen	LV13	\N	698	4202	32042	cw_bot	history-import:cw_bot:7131	2026-07-30 15:23:48.828+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1178078831	mavilure	NXNG	\N	636	8378	32044	cw_bot	history-import:cw_bot:9108	2026-07-04 02:37:26.103+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1179507007	tomisek134	HROT	\N	762	268	32042	cw_bot	history-import:cw_bot:4738	2026-08-11 18:03:07.712+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1192463440	Jonas139075	dkps	\N	554	11851	32042	cw_bot	history-import:cw_bot:2777	2026-07-31 19:36:15.216+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1221841742	Azurqson	UN0	\N	607	9683	32044	cw_bot	history-import:cw_bot:3782	2026-04-06 19:59:26.612+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1229931292	ijyrgk	W0m1	\N	178	23604	32044	cw_bot	history-import:cw_bot:9095	2026-07-04 00:22:27.772+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1232493274	MARYNADA058	BDX	\N	287	19979	32042	cw_bot	history-import:cw_bot:6885	2026-07-31 20:00:25.469+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1238833367	ciganskysaman	K_TB	\N	699	3838	32041	cw_bot	history-import:cw_bot:5795	2026-08-14 17:36:42.35+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1240710842	voffenleon	PAAC	\N	73	28039	32042	cw_bot	history-import:cw_bot:7015	2026-07-31 09:34:26.196+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1243643868	ASEYIsoos	Goop	\N	698	3894	32042	cw_bot	history-import:cw_bot:9423	2026-08-12 22:46:12.145+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1245227095	TheoFuraxe	ROMU	\N	762	251	32042	cw_bot	history-import:cw_bot:121	2026-07-17 18:32:35.762+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1277089394	LUVALICEEXO	V1LN	\N	762	191	32044	cw_bot	history-import:cw_bot:9258	2026-04-28 15:57:56.007+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1279232695	Ac3scar	W2VY	\N	616	9337	32044	cw_bot	history-import:cw_bot:242	2026-05-10 02:13:40.5+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1283935690	Laura_V13	07W	\N	762	375	32042	cw_bot	history-import:cw_bot:4341	2026-08-09 17:50:39.523+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1286384664	uzuisnipes	W2VY	\N	762	357	32042	cw_bot	history-import:cw_bot:335	2026-07-17 18:33:12.116+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1294169389	crazy_blox6677	ANG_	\N	762	485	32042	cw_bot	history-import:cw_bot:2616	2026-07-31 20:54:30.508+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1294494054	Ethanblaze112	st1z	\N	639	8221	32044	cw_bot	history-import:cw_bot:8320	2026-04-03 19:35:37.401+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1307288868	ivanpr03	W2VY	\N	615	9366	32042	cw_bot	history-import:cw_bot:2598	2026-07-31 20:07:37.335+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1322640473	Barsuchonok23	SW23	\N	604	9846	32042	cw_bot	history-import:cw_bot:2654	2026-07-31 22:58:18.195+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1330097404	tomasbudik007	VLP	\N	715	3472	32042	cw_bot	history-import:cw_bot:7096	2026-07-30 18:00:28.62+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1376213247	eric23129	DLOW	\N	553	11882	32044	cw_bot	history-import:cw_bot:3935	2026-06-26 14:54:31.345+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1380082703	Allalboy2	7HRW	\N	694	5078	32044	cw_bot	history-import:cw_bot:8212	2026-04-08 19:50:25.995+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1381505419	0LDBS	V1LN	\N	834	10	32044	cw_bot	history-import:cw_bot:8465	2026-06-17 00:36:35.957+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1384716628	barti12345610	LSQ	\N	501	13638	32042	cw_bot	history-import:cw_bot:8527	2026-07-21 19:41:58.049+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1386665561	nuxx7	HSTL	\N	355	17959	32044	cw_bot	history-import:cw_bot:270	2026-05-17 10:44:35.489+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1403606137	GhostWhisperer03	PAAC	\N	666	6576	32042	cw_bot	history-import:cw_bot:6908	2026-08-01 01:11:48.951+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1404595474	ladytachunka	R1A	\N	335	18550	32042	cw_bot	history-import:cw_bot:4304	2026-08-11 20:33:31.017+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1409166088	treytonpeterbuilt	GSTG	\N	741	987	32044	cw_bot	history-import:cw_bot:1367	2026-05-07 00:27:08.494+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1448209893	starwarsroblox2099	Goop	\N	226	21921	32042	cw_bot	history-import:cw_bot:2677	2026-08-01 04:00:56.996+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1452886316	kubistaa	DJRK	\N	719	2461	32041	cw_bot	history-import:cw_bot:5218	2026-08-21 19:09:04.387+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1455404309	vavasamasa	_CEO	\N	698	4232	32042	cw_bot	history-import:cw_bot:6767	2026-08-03 07:19:33.116+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1462748729	dragonballx1412	NONG	18	719	1534	32042	cw_bot	history-import:big_bot:69	2026-07-17 01:03:33.384+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1476403654	dilerij2	BEZE	\N	719	1324	32044	cw_bot	history-import:cw_bot:2071	2026-07-01 18:46:57.039+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1478878528	kyzer_nash	WSL	\N	498	13743	32042	cw_bot	history-import:cw_bot:9611	2026-08-09 02:48:20.151+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1501050755	RealYTStarz	st1z	27	719	1900	32044	cw_bot	history-import:big_bot:1036	2026-06-27 18:27:30.824+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1509495433	arrume_aparte12	KOHV	\N	741	951	32042	cw_bot	history-import:cw_bot:8018	2026-07-08 14:39:41.28+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1510971300	Informix_CZ	KMo	\N	719	2673	32042	cw_bot	history-import:cw_bot:6221	2026-08-08 08:18:03.311+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1519933607	JustCaIIMeEgg	NS4R	\N	719	1446	32042	cw_bot	history-import:cw_bot:498	2026-07-17 18:48:12.453+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1520358099	FlipFlopFloop417	CC4T	\N	719	2501	32042	cw_bot	history-import:cw_bot:352	2026-07-17 18:33:20.942+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1523688491	runea6	DHFA	\N	678	6143	32044	cw_bot	history-import:cw_bot:3980	2026-04-12 22:19:46.23+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1523831473	malfiv	K989	\N	687	5435	32042	cw_bot	history-import:cw_bot:6242	2026-08-08 14:47:52.966+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1528045909	Matysek0000000	SAM4	\N	253	20998	32041	cw_bot	history-import:cw_bot:5885	2026-08-14 13:19:31.864+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1528718508	strykertoff	XPQX	\N	526	12841	32044	cw_bot	history-import:cw_bot:1263	2026-05-03 14:42:25.308+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1537916189	MailDaCoolKid	Goop	\N	719	1345	32044	cw_bot	history-import:cw_bot:9195	2026-06-19 13:04:44.383+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1539398349	Darkszern	LXCC	\N	719	2072	32042	cw_bot	history-import:cw_bot:4569	2026-08-04 19:57:01.734+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1546214233	ninjaogifox	V1PR	\N	2	23335	32042	cw_bot	history-import:cw_bot:5976	2026-08-10 21:49:03.348+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1573629774	mkmike27mk	XPQX	\N	678	5917	32044	cw_bot	history-import:cw_bot:254	2026-05-16 17:04:30.807+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1581306248	Robloxak_Honiik	KMo	\N	698	4509	32041	cw_bot	history-import:cw_bot:5831	2026-08-14 19:05:13.93+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1583648375	KeyzziHD94	GSTG	\N	719	3046	32042	cw_bot	history-import:cw_bot:286	2026-07-17 17:28:11.535+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1592738293	1ncr3d1bl3sulk	x75p	\N	698	4143	32044	cw_bot	history-import:cw_bot:1277	2026-05-03 22:19:36.985+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1596560199	wiegehtdennsowas	XBOX	\N	719	2564	32044	cw_bot	history-import:cw_bot:9319	2026-04-05 16:35:34.64+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1613882953	toastedpoptartonyt	CXTG	\N	512	13272	32041	cw_bot	history-import:cw_bot:9917	2026-08-18 18:50:20.423+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1617221713	waheedplayzYT	SOPU	\N	762	217	32042	cw_bot	history-import:cw_bot:7780	2026-07-22 21:12:43.733+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1626378539	Fulda645	EXP	\N	719	1344	32044	cw_bot	history-import:cw_bot:8143	2026-04-28 12:17:49.765+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1644308020	hoon9900a	vvjp	\N	189	23180	32042	cw_bot	history-import:cw_bot:8932	2026-07-29 11:32:45.032+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1652197454	fighter92399_alt	NONG	\N	719	1410	32044	cw_bot	history-import:cw_bot:1830	2026-06-16 00:22:27.481+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1676340458	AgreedFlower11	0RBI	\N	156	24453	32042	cw_bot	history-import:cw_bot:615	2026-07-17 18:49:30.27+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1683480006	kminoscz	KMo	\N	657	7151	32042	cw_bot	history-import:cw_bot:7077	2026-07-30 17:15:30.786+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1685635748	farmboyjetw	Goop	\N	653	7627	32044	cw_bot	history-import:cw_bot:8308	2026-04-02 20:23:10.489+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1690820953	1tombay	BEZE	\N	762	91	32044	cw_bot	history-import:cw_bot:1716	2026-05-23 14:09:54.985+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1697239942	racingchampaj	AR2Y	\N	292	19812	32042	cw_bot	history-import:cw_bot:7889	2026-07-08 14:32:13.162+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1727137762	azmvoisshot	ORB	\N	667	6540	32044	cw_bot	history-import:cw_bot:821	2026-06-13 03:07:29.607+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1736229929	MgFireDark128	\N	\N	\N	533	32044	cw_bot	history-import:cw_bot:3709	2026-03-12 17:58:27.842+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1749647628	da1niell	HR2T	\N	658	6923	32042	cw_bot	history-import:cw_bot:6362	2026-08-07 18:52:55.147+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1756730755	imsazzyy	OTTR	\N	243	21309	32044	cw_bot	history-import:cw_bot:9132	2026-06-29 23:26:20.807+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1759162396	9kbotzz	XBOX	\N	698	3899	32044	cw_bot	history-import:cw_bot:9331	2026-04-05 20:49:49.97+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1780089241	dominikando11	3zEZ	\N	678	6055	32044	cw_bot	history-import:cw_bot:4006	2026-04-12 21:23:47.034+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1787663283	TheBuilder5649	FGZW	\N	698	4198	32044	cw_bot	history-import:cw_bot:4075	2026-04-12 22:03:03.052+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1817334423	zerz06	Goop	\N	719	1594	32041	cw_bot	history-import:cw_bot:8706	2026-08-26 17:22:03.043+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1818966891	Drak1735	HROT	\N	719	2689	32041	cw_bot	history-import:cw_bot:5845	2026-08-14 19:17:31.862+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1824713899	hayojeu2k	W2VY	\N	803	17	32042	cw_bot	history-import:cw_bot:668	2026-07-17 18:57:09.828+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1835808563	1213eric	_MGW	\N	719	1781	32044	cw_bot	history-import:cw_bot:1640	2026-05-21 04:56:29.857+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1876521711	MichalRooblox	A2H	\N	464	14791	32042	cw_bot	history-import:cw_bot:6504	2026-08-06 18:51:22.342+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1895942489	ziomek1000oo	LSQ	\N	312	19193	32041	cw_bot	history-import:cw_bot:7582	2026-08-19 21:17:39.542+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1944841143	BEARDED_DRAGONGUY	karl	\N	291	19850	32044	cw_bot	history-import:cw_bot:1898	2026-06-20 15:13:49.311+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1950318403	itsgaternotgator	W2VY	\N	485	14159	32044	cw_bot	history-import:cw_bot:307	2026-07-01 16:29:10.815+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1950919881	Saedat007	SAM4	\N	144	24890	32042	cw_bot	history-import:cw_bot:7445	2026-07-13 19:45:49.577+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1957877866	MRDanThePan	AR2Y	\N	589	10455	32042	cw_bot	history-import:cw_bot:3222	2026-07-26 11:08:55.681+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1973447751	radkozahumensky5	x75p	\N	719	2142	32041	cw_bot	history-import:cw_bot:4972	2026-08-24 18:50:27.632+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1986018475	Yazooony55	AXOK	\N	443	15379	32042	cw_bot	history-import:cw_bot:2309	2026-08-12 18:23:23.035+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1996183705	humicek2020cz	HROT	\N	719	2561	32041	cw_bot	history-import:cw_bot:5160	2026-08-23 06:34:54.553+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1998984070	gamerguy9764	H2RM	\N	334	18574	32044	cw_bot	history-import:cw_bot:1325	2026-05-06 02:10:01.919+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2002552864	AlbinK_13	SVSP	\N	88	27362	32042	cw_bot	history-import:cw_bot:6032	2026-08-09 08:58:55.906+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2005983585	shadowstaristhegoat	LXCC	\N	698	4191	32042	cw_bot	history-import:cw_bot:9558	2026-07-31 10:09:27.163+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2064474099	macejko998	K989	\N	762	606	32041	cw_bot	history-import:cw_bot:5602	2026-08-16 18:31:51.714+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2067834432	blazeeok	Goop	\N	235	21573	32042	cw_bot	history-import:cw_bot:3180	2026-07-26 20:02:36.593+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2226792909	Raptorik_gamer	MDKT	\N	719	2406	32042	cw_bot	history-import:cw_bot:7423	2026-07-18 17:45:36.477+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2239000216	patrik_skloky	Lxrk	\N	614	9416	32042	cw_bot	history-import:cw_bot:5899	2026-08-13 07:06:27.465+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2241042742	WallEExtreme	st1z	\N	353	18017	32042	cw_bot	history-import:cw_bot:8681	2026-07-15 16:36:29.044+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2251616291	miminkoxxxxczdd	VLP	\N	762	467	32041	cw_bot	history-import:cw_bot:7634	2026-08-15 11:12:28.99+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2257366377	lottewashere	_EGO	\N	710	3661	32044	cw_bot	history-import:cw_bot:9310	2026-04-13 22:48:01.131+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2268926446	Feibapa	Ash	\N	762	228	32042	cw_bot	history-import:cw_bot:2702	2026-07-31 16:47:53.554+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2271546087	pizzaczek122	RAKI	\N	29	30237	32042	cw_bot	history-import:cw_bot:5906	2026-08-12 21:31:38.493+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2296914657	officialchost	UN0	\N	362	17759	32044	cw_bot	history-import:cw_bot:3732	2026-04-22 16:35:18.109+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2316325389	julimowi	TeGu	\N	678	5751	32042	cw_bot	history-import:cw_bot:2728	2026-07-31 17:12:47.437+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2316661588	damajan9	TLGZ	\N	674	6325	32042	cw_bot	history-import:cw_bot:2344	2026-08-11 15:09:17.094+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2318308002	karelman1451	HROT	\N	719	1732	32041	cw_bot	history-import:cw_bot:4912	2026-08-26 18:25:05.52+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2320688195	daihukumochi223	2WEI	\N	719	1411	32044	cw_bot	history-import:cw_bot:8552	2026-06-17 03:04:38.757+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2349313768	crystalboyo256	S7PY	\N	654	7606	32042	cw_bot	history-import:cw_bot:2974	2026-07-30 10:49:42.699+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2375471082	RayquazaPlayz_yt	0RBI	\N	719	1872	32044	cw_bot	history-import:cw_bot:4109	2026-04-12 20:27:06.36+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2390532251	sirnative	D4NG	\N	541	12341	32044	cw_bot	history-import:cw_bot:1950	2026-06-22 02:40:06.54+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2399889452	starwax85	V1LN	\N	719	1533	32042	cw_bot	history-import:cw_bot:7762	2026-07-17 15:53:21.548+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2420801797	0k_0w	eguh	\N	713	3636	32042	cw_bot	history-import:cw_bot:441	2026-07-17 18:47:32.43+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2431643806	1KRUCHY	XREX	\N	762	215	32044	cw_bot	history-import:cw_bot:8057	2026-06-23 16:35:49.505+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2451180568	SuperSpeedyC_12345	3zEZ	\N	762	537	32042	cw_bot	history-import:cw_bot:2942	2026-07-30 23:41:01.908+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2463337749	mrtendieman	GSTG	\N	762	316	32041	cw_bot	history-import:cw_bot:7696	2026-08-16 16:38:00.619+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2469768592	Raitonn0609	2WEI	\N	525	12870	32044	cw_bot	history-import:cw_bot:9367	2026-03-31 20:29:42.263+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2475732693	Fazmashwastaken	FaZ	\N	719	1315	32042	cw_bot	history-import:cw_bot:9998	2026-08-09 01:32:35.34+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2476631652	damufffinman	SOPU	\N	762	759	32044	cw_bot	history-import:cw_bot:8327	2026-04-06 08:21:40.878+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2489878566	K1ng_01iver	Quaz	\N	220	22156	32042	cw_bot	history-import:cw_bot:6871	2026-07-31 18:14:04.272+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2489885181	Ewan_314	NONG	\N	719	1372	32042	cw_bot	history-import:cw_bot:4432	2026-08-07 01:31:38.701+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2494077434	matyx00777	MNCS	\N	517	13122	32042	cw_bot	history-import:cw_bot:4763	2026-08-01 12:20:27.96+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2495030397	fartagus_angel	WSL	\N	365	17685	32041	cw_bot	history-import:cw_bot:9600	2026-08-16 14:44:32.773+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2521267504	matejsbss	MDKT	\N	762	571	32042	cw_bot	history-import:cw_bot:7473	2026-07-15 14:29:29.985+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2529950059	swbrthe34rd	LBB	\N	50	29117	32041	cw_bot	history-import:cw_bot:5678	2026-08-15 00:36:32.07+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2530992063	smrtak54	DJRK	\N	698	4501	32042	cw_bot	history-import:cw_bot:6180	2026-08-08 19:57:25.253+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2534684186	mrtoping123	Zeiz	\N	698	4654	32042	cw_bot	history-import:cw_bot:7030	2026-07-30 22:26:36.798+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2539070982	Nomdecodetotoc34	ANG_	\N	663	6696	32044	cw_bot	history-import:cw_bot:1238	2026-05-02 16:27:23.292+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2545832975	baconszombiesarmy	FGZW	\N	762	470	32044	cw_bot	history-import:cw_bot:4053	2026-04-12 22:02:06.94+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2575495153	IStoleYourChica	UN0	\N	657	7273	32042	cw_bot	history-import:cw_bot:76	2026-07-17 18:32:12.646+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2628215963	praisevolxtz	YLW	\N	719	2379	32042	cw_bot	history-import:cw_bot:454	2026-07-17 18:47:40.523+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2633185327	luxxrro	EXP	\N	215	22306	32044	cw_bot	history-import:cw_bot:1990	2026-06-28 16:25:22.311+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2648563570	Stepa16th	MDKT	\N	741	1052	32042	cw_bot	history-import:cw_bot:7394	2026-07-17 14:30:03.697+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2667688976	SlimGreycz_2	VLP	\N	235	21576	32042	cw_bot	history-import:cw_bot:7935	2026-07-08 14:35:29.662+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2668452334	Xxhello_Sir	Winr	\N	493	13917	32042	cw_bot	history-import:cw_bot:2376	2026-08-10 17:49:54.782+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2699598634	rosta128	HROT	\N	762	132	32042	cw_bot	history-import:cw_bot:6962	2026-07-31 16:07:38.598+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2709299989	fishy_axl22	st1z	\N	719	1512	32044	cw_bot	history-import:cw_bot:768	2026-05-10 02:24:40.449+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2719084403	aidananthony013	XPQX	\N	635	8447	32044	cw_bot	history-import:cw_bot:1814	2026-06-13 15:03:54.201+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2732960938	rivvonthebest64	FGZW	\N	653	7712	32044	cw_bot	history-import:cw_bot:9178	2026-06-20 12:50:43.156+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2739287597	krillerproxd	KKOV	\N	234	21628	32042	cw_bot	history-import:cw_bot:7882	2026-07-08 14:29:50.8+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2741135886	Micahtesdahl321	BLHZ	\N	243	21312	32044	cw_bot	history-import:cw_bot:1520	2026-05-16 22:59:19.417+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2775613706	bastarostinsky	RDKS	\N	613	9474	32042	cw_bot	history-import:cw_bot:6606	2026-08-06 15:22:24.944+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2786686086	Loewentatze12	CITC	\N	719	2837	32042	cw_bot	history-import:cw_bot:2434	2026-08-09 19:22:00.052+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2807629356	NarutoShipuden5511	🏰 Clan: **WHGB**	\N	187	23270	32044	cw_bot	history-import:cw_bot:8360	2026-04-21 09:43:35.978+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2814812080	111123ioukhjnnbbn	🏰 Clan: **xJOY**	\N	\N	7189	32044	cw_bot	history-import:cw_bot:3706	2026-02-14 14:47:05.489+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2843513755	firefeather46	HSTL	28	719	28	\N	external_import	history-import:big_bot:1017	2026-07-12 00:55:29.049+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2844876464	Destructcz23	tNo	\N	586	10574	32041	cw_bot	history-import:cw_bot:2266	2026-08-20 07:56:23.411+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2853594415	peslolpj	MDKT	\N	719	2207	32041	cw_bot	history-import:cw_bot:5748	2026-08-14 16:23:32.844+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2892299154	Baggooooo	UN0	\N	719	1303	32042	cw_bot	history-import:cw_bot:4543	2026-08-04 19:57:26.933+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2912101187	coolgur0	S7NS	\N	117	26040	32042	cw_bot	history-import:cw_bot:511	2026-07-17 18:48:27.061+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2915153725	Ishan90091	07W	\N	692	5274	32042	cw_bot	history-import:cw_bot:10053	2026-08-08 18:49:12.798+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2929825206	roplexbuddy	F4DE	\N	671	6416	32042	cw_bot	history-import:cw_bot:4256	2026-08-13 04:25:30.76+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2948612124	saud02x	UN0	\N	525	12869	32044	cw_bot	history-import:cw_bot:8203	2026-04-25 09:16:47.451+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2956070032	AnnexOO1	DLOW	\N	719	1375	32044	cw_bot	history-import:cw_bot:8244	2026-04-11 00:42:36.107+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2956113153	xwiktorxxxx3	LSQ	\N	397	16720	32042	cw_bot	history-import:cw_bot:8915	2026-07-30 10:52:00.891+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2961636717	nichozr	V1LN	\N	719	2975	32044	cw_bot	history-import:cw_bot:1418	2026-05-11 01:18:04.672+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2981591104	Maroko_013	V1LN	\N	762	566	32042	cw_bot	history-import:cw_bot:8864	2026-07-31 17:35:33.295+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2988275843	zspjasieniec1	PABS	\N	698	3992	32041	cw_bot	history-import:cw_bot:8493	2026-08-19 15:24:30.108+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2992299705	Afrykan0	XREX	\N	650	7816	32041	cw_bot	history-import:cw_bot:7505	2026-08-28 16:42:30.025+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	2999732017	derharzendeharzer	H8ER	\N	582	10752	32044	cw_bot	history-import:cw_bot:4224	2026-04-12 20:09:36.816+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3000748132	PickleCloudNacho	H8ER	\N	719	1470	32044	cw_bot	history-import:cw_bot:3955	2026-04-12 22:17:35.814+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3000932506	JackJAC123999	st1z	\N	563	11506	32042	cw_bot	history-import:cw_bot:9510	2026-07-07 15:52:50.748+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3010290250	Hiitzjust	NXNG	\N	678	6088	32042	cw_bot	history-import:cw_bot:8031	2026-07-08 14:40:06.768+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3016891949	petaf1234	MDKT	\N	719	2688	32041	cw_bot	history-import:cw_bot:5262	2026-08-21 20:32:57.322+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3019968804	Houtchyoi	ROMU	\N	719	2720	32044	cw_bot	history-import:cw_bot:1613	2026-05-20 23:36:44.19+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3022616943	floatindrag	K1WI	\N	646	7949	32042	cw_bot	history-import:cw_bot:2562	2026-08-01 14:35:07.364+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3024894978	noobbolkaa	vdfn	\N	324	18830	32042	cw_bot	history-import:cw_bot:6354	2026-08-08 14:11:59.833+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3039307282	Mr_agnes30	XREX	\N	762	216	32044	cw_bot	history-import:cw_bot:8074	2026-06-23 16:38:19.044+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3046788322	Xerenity1	DLOW	\N	657	7186	32044	cw_bot	history-import:cw_bot:8255	2026-04-11 00:53:10.021+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3060745926	thetruetdsglitch	XBOX	\N	698	3900	32044	cw_bot	history-import:cw_bot:8038	2026-04-30 15:47:59.662+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3061590097	pasha92462	RGCN	\N	442	15420	32041	cw_bot	history-import:cw_bot:4706	2026-08-28 13:30:56.022+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3076166235	dadgonecrazy2021	WSL	\N	187	23253	32041	cw_bot	history-import:cw_bot:9778	2026-08-26 19:50:08.045+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3078836998	minzxn_11	AQ	\N	335	18542	32041	cw_bot	history-import:cw_bot:8633	2026-08-26 16:34:14.001+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3096883976	markosk2007	IDF	\N	522	12968	32042	cw_bot	history-import:cw_bot:6067	2026-08-09 09:27:28.449+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3108660508	Darcacz2	MNCS	\N	694	5188	32042	cw_bot	history-import:cw_bot:6678	2026-08-04 13:06:03.104+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3139037723	Tobik987123	cspe	\N	657	7317	32042	cw_bot	history-import:cw_bot:6475	2026-08-06 18:08:45.622+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3143604581	RebelkaCZ157	VLP	\N	698	4106	32042	cw_bot	history-import:cw_bot:6710	2026-08-04 09:43:51.606+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3144581284	averyhein1920212223	H8ER	\N	149	24709	32042	cw_bot	history-import:cw_bot:9035	2026-07-17 16:38:09.537+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3149302489	code_wille	0RBI	\N	594	10249	32044	cw_bot	history-import:cw_bot:3840	2026-04-05 06:57:37.866+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3165835619	mamhovnove_vlasech	MVS	\N	324	18831	32041	cw_bot	history-import:cw_bot:5006	2026-08-24 15:30:46.909+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3167252782	aromelkasto2	BYRD	\N	565	11432	32042	cw_bot	history-import:cw_bot:6823	2026-08-01 11:19:56.793+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3167272498	zdendpicl9	DJRK	\N	361	17788	32041	cw_bot	history-import:cw_bot:5717	2026-08-15 08:51:50.658+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3167571592	Hickarn1	NONG	\N	762	109	32044	cw_bot	history-import:cw_bot:8381	2026-03-22 11:06:41.693+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3171368431	darklode100	x75p	\N	12	31137	32044	cw_bot	history-import:cw_bot:1126	2026-04-27 02:10:10.025+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3175584454	ImLeroXx	🏰 Clan: **LXCC**	\N	\N	2071	32044	cw_bot	history-import:cw_bot:3510	2026-04-23 13:44:15.669+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3181994439	anrijs9991	ORBI	\N	172	23825	32044	cw_bot	history-import:cw_bot:1189	2026-04-30 19:59:29.548+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3203422029	drlllolll	OCHG	\N	308	19337	32041	cw_bot	history-import:cw_bot:9442	2026-08-22 16:01:45.839+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3208575762	tofikmore	2pGA	\N	447	15262	32041	cw_bot	history-import:cw_bot:5622	2026-08-16 07:23:34.699+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3214063706	ZoraDaGoatOfficial	ROMU	\N	762	207	32044	cw_bot	history-import:cw_bot:954	2026-04-17 00:09:22.187+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3228101331	phoen1x_aus	WSL	\N	227	21879	32041	cw_bot	history-import:cw_bot:9766	2026-08-26 19:49:57.893+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3233034644	ARIGO11234	3zEZ	\N	646	7945	32042	cw_bot	history-import:cw_bot:3306	2026-07-24 20:34:16.905+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3238661227	kapinooos123	VLTX	\N	615	9389	32042	cw_bot	history-import:cw_bot:6404	2026-08-07 22:39:55.498+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3248091509	professorfeliks	PABS	\N	572	11142	32042	cw_bot	history-import:cw_bot:8981	2026-07-19 16:26:07.395+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3248243502	IchBin21CPS_2	B2SS	\N	646	7985	32044	cw_bot	history-import:cw_bot:3772	2026-04-06 19:40:16.13+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3270087406	Mrkrecek12	VLP2	\N	719	2496	32041	cw_bot	history-import:cw_bot:5614	2026-08-14 19:39:09.575+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3271035452	Misak0912	K989	\N	709	3676	32042	cw_bot	history-import:cw_bot:6943	2026-08-01 08:49:00.863+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3282696395	max_squash	ORBI	\N	719	2350	32042	cw_bot	history-import:cw_bot:2118	2026-08-01 03:32:06.841+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3289385978	KnKmor	DK	\N	762	346	32042	cw_bot	history-import:cw_bot:8889	2026-08-01 18:12:49.345+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3299278772	xxprozombix	BEZE	\N	719	2193	32044	cw_bot	history-import:cw_bot:8668	2026-06-26 13:37:08.577+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3302444862	EndOfAnEra007	NONG	18	678	18	\N	external_import	history-import:big_bot:971	2026-07-16 23:25:31.662+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3318596083	Mamaris357357	MDKT	\N	719	2848	32041	cw_bot	history-import:cw_bot:5782	2026-08-14 17:19:41.498+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3323392290	D0m1n8tr	SAM	\N	637	8300	32044	cw_bot	history-import:cw_bot:9272	2026-04-29 06:50:40.467+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3327485448	thegoatedkidof2022	WSL	\N	197	22924	32041	cw_bot	history-import:cw_bot:9710	2026-08-28 19:31:59.738+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3338233326	Andrewasper0987	KOHV	\N	26	30415	32044	cw_bot	history-import:cw_bot:1847	2026-06-17 12:39:01.167+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3342535725	Adamosingos	OCHG	\N	43	29480	32041	cw_bot	history-import:cw_bot:9531	2026-08-22 15:48:53.345+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3345239646	vojtas98CZ	K989	\N	719	2206	32042	cw_bot	history-import:cw_bot:6150	2026-08-08 18:13:17.798+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3357292523	Grec_Game	VLP	\N	557	11746	32042	cw_bot	history-import:cw_bot:7061	2026-07-30 17:14:48.532+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3370104014	Standa256	VLP	\N	646	7949	32041	cw_bot	history-import:cw_bot:5135	2026-08-23 03:03:21.508+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3372527888	CokoladovaZmrzska	cspe	\N	698	4250	32042	cw_bot	history-import:cw_bot:7355	2026-07-22 01:19:32.889+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3373408758	housebox_go	HROT	\N	719	1400	32042	cw_bot	history-import:cw_bot:6455	2026-08-06 17:53:29.386+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3377511045	mercstien	0RBI	\N	719	1421	32044	cw_bot	history-import:cw_bot:1338	2026-05-06 09:08:51.241+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3377790375	CharliePatryk	Tbx_	\N	719	2084	32042	cw_bot	history-import:cw_bot:2454	2026-08-01 19:23:22.272+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3378947321	reset45624382	Goop	\N	648	7866	32042	cw_bot	history-import:cw_bot:8824	2026-08-08 12:36:56.654+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3382833387	kingweslie123	BUTI	\N	672	6373	32042	cw_bot	history-import:cw_bot:2323	2026-08-12 21:19:37.585+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3402015952	Josep_xD2	NXNG	\N	225	21952	32044	cw_bot	history-import:cw_bot:61	2026-04-27 04:36:38.637+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3407455295	pasha92467	RGCN	\N	121	25876	32041	cw_bot	history-import:cw_bot:4708	2026-08-28 13:31:50.275+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3439337856	prezley_official2022	HROT	\N	719	2208	32042	cw_bot	history-import:cw_bot:7115	2026-07-30 15:19:24.23+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3444459957	Radek25101982	VLP	\N	698	4105	32042	cw_bot	history-import:cw_bot:6049	2026-08-09 09:04:46.362+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3447427741	filipekisfff	MDKT	\N	650	7822	32044	cw_bot	history-import:cw_bot:3885	2026-05-11 00:51:30.646+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3448405650	eldublinfox	V1LN	\N	719	2299	32044	cw_bot	history-import:cw_bot:9393	2026-04-01 08:35:40.039+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3450868495	nolram1a	Roux	\N	382	17172	32042	cw_bot	history-import:cw_bot:8849	2026-08-04 06:49:16.854+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3456377805	Zyro12347	\N	\N	\N	22242	32044	cw_bot	history-import:cw_bot:3496	2026-04-19 07:03:56.014+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3509021767	JonnyM55	MDKT	\N	719	2279	32041	cw_bot	history-import:cw_bot:5549	2026-08-17 00:51:43.291+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3549731928	Thijklo2003	Goop	\N	142	24972	32044	cw_bot	history-import:cw_bot:1544	2026-05-17 01:50:48.281+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3557375419	Subtokirbofanyt	ORBI	\N	565	11414	32042	cw_bot	history-import:cw_bot:2188	2026-07-27 21:40:54.835+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3563519895	dexxifying	st1z	\N	719	2935	32044	cw_bot	history-import:cw_bot:3766	2026-04-17 00:22:16.986+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3565857429	Bb874tad	AR2Y	\N	425	15909	32042	cw_bot	history-import:cw_bot:7964	2026-07-08 14:36:26.417+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3567067280	Kurtis2345789	ROMU	\N	762	252	32044	cw_bot	history-import:cw_bot:585	2026-05-19 20:18:17.483+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3593720708	Malysberatel	P0PP	\N	534	12580	32042	cw_bot	history-import:cw_bot:7993	2026-07-08 14:36:56.328+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3596245301	Jahodnik1990	Jo1y	\N	215	22309	32042	cw_bot	history-import:cw_bot:6264	2026-08-08 11:21:12.701+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3602402808	Flexsnack21	UNTY	\N	762	92	32044	cw_bot	history-import:cw_bot:1202	2026-05-01 08:05:11.74+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3628039137	anoknight5	XPQX	\N	719	2456	32042	cw_bot	history-import:cw_bot:3117	2026-07-28 18:56:15.247+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3639903941	imandaskye	ORBI	\N	32	30106	32042	cw_bot	history-import:cw_bot:2171	2026-08-01 03:30:43.552+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3655474970	Shrooomdevourer10	V1LN	\N	698	3946	32044	cw_bot	history-import:cw_bot:8474	2026-06-17 00:21:50.467+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3661524719	krystofcz79	POPP	\N	414	16208	32042	cw_bot	history-import:cw_bot:6796	2026-08-02 14:36:22.788+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3672938221	zhulenc	VLP	\N	721	1243	32042	cw_bot	history-import:cw_bot:6525	2026-08-06 21:54:27.517+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3683660130	Medvid3k11	cspe	\N	384	17113	32042	cw_bot	history-import:cw_bot:6985	2026-07-31 17:00:07.71+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3741610856	DemxnIRL	ORBI	\N	199	22840	32042	cw_bot	history-import:cw_bot:4480	2026-08-06 00:26:19.98+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3753977683	mybanana367	NONG	\N	719	2323	32044	cw_bot	history-import:cw_bot:1466	2026-05-13 21:54:17.124+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3768828357	mrs_reset	Goop	\N	657	6996	32044	cw_bot	history-import:cw_bot:8607	2026-06-17 00:15:13.179+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3770737087	JayJayMu777	c1ce	\N	426	15895	32042	cw_bot	history-import:cw_bot:7178	2026-07-30 13:46:16.759+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3779230353	goat201470	Y0M	\N	719	2378	32044	cw_bot	history-import:cw_bot:8276	2026-04-13 16:26:51.02+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3797718809	m4thou3	Goop	\N	719	2590	32042	cw_bot	history-import:cw_bot:3074	2026-07-28 21:07:33.267+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3804356173	fishyaxl22	ST1Z	27	\N	27	\N	external_import	history-import:big_bot:987	2026-07-14 03:44:42.78+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3808414208	Suppe_Can	Goop	\N	663	6679	32044	cw_bot	history-import:cw_bot:8115	2026-04-27 17:55:05.386+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3834652767	Roman5556_CZ	SAM4	\N	620	9089	32042	cw_bot	history-import:cw_bot:7407	2026-07-17 16:42:07.486+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3853349557	melpatate12	BOSS	\N	762	150	32044	cw_bot	history-import:cw_bot:967	2026-04-18 02:12:53.563+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3868174361	popcatbrohter	DGSL	\N	719	3232	32042	cw_bot	history-import:cw_bot:2876	2026-07-31 15:58:17.484+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3919100604	Filda7329	STPS	\N	411	16283	32042	cw_bot	history-import:cw_bot:6493	2026-08-06 18:48:55.736+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3926695029	22mamamama	tNo	\N	667	6532	32042	cw_bot	history-import:cw_bot:7453	2026-07-15 07:59:07.687+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3940781859	tigran_2206	BEZE	\N	762	76	32042	cw_bot	history-import:cw_bot:863	2026-07-17 18:56:54.568+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3978547556	Zoliisrecords	K989	\N	530	12686	32041	cw_bot	history-import:cw_bot:4994	2026-08-24 10:40:01.728+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	3994956294	Bxcan_official	A2H	\N	109	26365	32044	cw_bot	history-import:cw_bot:1731	2026-05-26 13:32:49.12+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4006052667	badamtttt	K989	\N	328	18720	32042	cw_bot	history-import:cw_bot:6272	2026-08-08 11:25:07.466+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4010792811	1zelvak	BDX	\N	690	5340	32042	cw_bot	history-import:cw_bot:7273	2026-07-27 11:51:24.945+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4018532963	kaktuschris	TMPV	\N	490	14015	32042	cw_bot	history-import:cw_bot:6465	2026-08-06 18:05:04.707+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4028104754	jaratupy36	vdfn	\N	698	4601	32041	cw_bot	history-import:cw_bot:5762	2026-08-14 16:48:48.942+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4032508929	Skibidieny	K989	\N	561	11573	32042	cw_bot	history-import:cw_bot:7192	2026-07-30 04:52:07.394+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4035198924	ytpandaroux	R0MU	\N	741	1061	32042	cw_bot	history-import:cw_bot:928	2026-07-08 19:17:13.13+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4051469126	Naruto61925	K_TB	\N	159	24319	32042	cw_bot	history-import:cw_bot:3392	2026-07-23 20:03:20.004+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4054510143	kudlankovec	POJO	\N	646	7956	32042	cw_bot	history-import:cw_bot:2484	2026-08-01 09:59:49.052+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4062541064	Franta99996	ROYL	\N	293	19788	32041	cw_bot	history-import:cw_bot:5105	2026-08-22 20:31:49.529+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4085016779	the_mandalorian963	V1LN	\N	762	769	32041	cw_bot	history-import:cw_bot:7647	2026-08-14 10:22:52.548+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4088247539	SHADOW_KIWIBI	🏰 Clan: **XPQX**	\N	\N	8722	32044	cw_bot	history-import:cw_bot:3491	2026-04-19 21:10:26.876+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4091709355	1230david4567	SAM4	\N	690	5353	32041	cw_bot	history-import:cw_bot:5693	2026-08-15 05:24:53.093+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4113094220	TTobbboTT	PAAC	\N	698	3958	32044	cw_bot	history-import:cw_bot:9225	2026-05-12 19:20:42.195+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4161934376	honza01021983	VLP	\N	657	7092	32041	cw_bot	history-import:cw_bot:4846	2026-08-28 06:57:40.513+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4165162503	trubgut3	MDKT	\N	719	1928	32042	cw_bot	history-import:cw_bot:6420	2026-08-06 15:24:37.222+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4167232216	nanuk_2232	VLP2	\N	560	11630	32042	cw_bot	history-import:cw_bot:6301	2026-08-08 12:06:58.145+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4177849716	doperthanyou67	3zEZ	\N	719	2226	32042	cw_bot	history-import:cw_bot:9068	2026-07-08 01:06:13.66+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4196761995	GravysOfficial	MDKT	\N	719	1738	32041	cw_bot	history-import:cw_bot:5116	2026-08-22 23:53:53.389+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4197618114	Danczek0102	Sro	\N	658	6944	32042	cw_bot	history-import:cw_bot:6283	2026-08-08 16:08:23.534+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4215988499	abby_gamera	V1LN	\N	702	3772	32044	cw_bot	history-import:cw_bot:8154	2026-04-28 15:06:15.006+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4238790853	samsam16725	ROMU	\N	781	33	32044	cw_bot	history-import:cw_bot:93	2026-06-19 21:20:32.05+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4242955713	KazuyaTTV	SOPU	\N	762	528	32044	cw_bot	history-import:cw_bot:212	2026-05-01 10:25:23.892+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4247108285	irdski	IWHN	\N	717	3413	32041	cw_bot	history-import:cw_bot:4716	2026-08-14 21:21:37.198+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4281402342	Selcuk1143	S2PU	\N	698	4220	32042	cw_bot	history-import:cw_bot:3049	2026-07-28 21:24:31.882+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4290313900	rubberluffy1235	S2PU	\N	581	10795	32042	cw_bot	history-import:cw_bot:4236	2026-08-13 06:29:40.629+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4301431724	Bobsussybu123	xpp_	\N	357	17901	32042	cw_bot	history-import:cw_bot:2520	2026-08-01 12:26:31.166+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4313949380	Dada343410	OCHG	\N	505	13489	32042	cw_bot	history-import:cw_bot:6386	2026-08-07 20:30:35.379+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4336818312	Myguy_Ky1	Nump	\N	709	3679	32042	cw_bot	history-import:cw_bot:3216	2026-07-26 11:08:12.603+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4339145979	Dandis_20	COLU	\N	719	2888	32041	cw_bot	history-import:cw_bot:5519	2026-08-18 13:11:18.989+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4345972644	venti12011201	2WEI	\N	550	11990	32044	cw_bot	history-import:cw_bot:8541	2026-06-17 00:04:41.889+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4359375074	PostalChaos1	3zEZ	\N	719	3223	32044	cw_bot	history-import:cw_bot:4101	2026-04-12 20:17:08.094+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4393951337	lukascccs	VLP2	\N	602	9910	32042	cw_bot	history-import:cw_bot:6131	2026-08-08 17:36:40.231+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4430200296	daytime7789	OTTR	\N	698	4557	32044	cw_bot	history-import:cw_bot:9161	2026-06-29 23:32:40.195+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4452395552	Xavier_Toorp	STPS	\N	657	7143	32042	cw_bot	history-import:cw_bot:7036	2026-07-31 00:21:48.123+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4468537889	tvojemamag101	VLP2	\N	618	9217	32041	cw_bot	history-import:cw_bot:5089	2026-08-22 23:18:43.789+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4471953599	alexander1234_hi56	B3ZE	\N	657	7218	32042	cw_bot	history-import:cw_bot:8794	2026-08-12 23:40:25.692+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4482372398	Burak30_CZ	VLP	\N	43	29437	32042	cw_bot	history-import:cw_bot:7164	2026-07-30 13:05:24.983+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4483758330	Sooz_events	TAUK	\N	630	8613	32044	cw_bot	history-import:cw_bot:4064	2026-04-12 22:02:33.256+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4506575217	dracislav	HROT	\N	698	4326	32042	cw_bot	history-import:cw_bot:7308	2026-07-26 08:10:51.343+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4511725993	Kvetamin	VLP	\N	719	1914	32041	cw_bot	history-import:cw_bot:5244	2026-08-21 19:36:06.87+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4515946186	bakedashboii	WSOW	\N	698	4077	32044	cw_bot	history-import:cw_bot:8293	2026-04-19 17:46:14.335+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4540869398	proto123q	NS4R	\N	678	5829	32042	cw_bot	history-import:cw_bot:566	2026-07-17 18:49:06.221+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4574397825	PET_HERO676	FYRX	\N	698	4758	32041	cw_bot	history-import:cw_bot:5412	2026-08-20 09:37:57.743+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4583513261	xXJ0hnXx23	POJO	\N	560	11642	32041	cw_bot	history-import:cw_bot:5292	2026-08-22 16:50:40.795+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4584982387	Misabilk	VLP2	\N	657	7115	32042	cw_bot	history-import:cw_bot:5937	2026-08-11 16:19:44.683+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4597064685	nevimheslo108	K989	\N	762	605	32042	cw_bot	history-import:cw_bot:6646	2026-08-05 20:02:56.557+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4610459819	srolik249	Sro	\N	640	8183	32041	cw_bot	history-import:cw_bot:5708	2026-08-15 08:07:19.768+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4634042698	psxtrader327	OTTR	174	\N	174	\N	external_import	history-import:big_bot:1083	2026-06-29 23:25:50.145+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4652078124	jaximeler	PABS	\N	719	2572	32044	cw_bot	history-import:cw_bot:8424	2026-06-17 00:24:11.273+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4686873488	Monty_Tomas10	K989	\N	762	466	32041	cw_bot	history-import:cw_bot:5322	2026-08-21 07:45:07.526+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4759297476	psst1422	HROT	\N	762	135	32044	cw_bot	history-import:cw_bot:143	2026-05-20 23:35:12.448+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4792692703	ced123zx	ROMU	\N	719	2160	32042	cw_bot	history-import:cw_bot:712	2026-07-17 18:57:41.576+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	1533791	clankbot	UN0	\N	286	20009	32044	cw_bot	history-import:cw_bot:1704	2026-05-23 13:09:17.782+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4833004455	Deniska_1990	HROT	\N	719	1412	32042	cw_bot	history-import:cw_bot:7323	2026-07-25 23:11:40.176+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4916438361	ArmNotPro	st1z	\N	697	5006	32042	cw_bot	history-import:cw_bot:808	2026-07-17 18:58:43.871+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4957497369	ammi0729	BOSS	\N	762	153	32044	cw_bot	history-import:cw_bot:980	2026-04-18 02:13:35.573+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4989918296	PtiDoriankt	ROMU	\N	719	1689	32042	cw_bot	history-import:cw_bot:844	2026-07-17 18:56:47.208+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	4999104751	Speaxk17	POPS	\N	625	8850	32044	cw_bot	history-import:cw_bot:1624	2026-05-21 01:10:10.679+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5013545323	gravysek666	cTnM	\N	140	25087	32042	cw_bot	history-import:cw_bot:6417	2026-08-08 02:16:50.888+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5042635636	Cultiv8R_NZ	DLOW	\N	678	5715	32044	cw_bot	history-import:cw_bot:8224	2026-04-11 00:40:42.513+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5044736168	CBroGolden	3zEZ	\N	762	353	32044	cw_bot	history-import:cw_bot:4088	2026-04-12 20:16:41.119+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5063089605	REAL3ST_NZ	DLOW	\N	417	16111	32044	cw_bot	history-import:cw_bot:8265	2026-04-11 00:55:05.933+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5091424925	spiederpro9	Taux	\N	633	8518	32042	cw_bot	history-import:cw_bot:2492	2026-08-01 10:12:35.596+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5120442322	kirasm0m	ORBI	\N	311	19228	32042	cw_bot	history-import:cw_bot:2203	2026-07-17 04:33:26.901+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5120642383	hydra_dynamo71	DHFA	\N	698	4901	32044	cw_bot	history-import:cw_bot:1679	2026-05-23 12:52:57.165+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5121299224	Kacerrr333	ARX4	\N	432	15714	32042	cw_bot	history-import:cw_bot:6745	2026-08-04 10:24:53.693+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5127406568	dadchris86	Goop	\N	363	17719	32044	cw_bot	history-import:cw_bot:8181	2026-04-21 16:30:58.569+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5128164487	drako83cz	HROT	\N	762	137	32041	cw_bot	history-import:cw_bot:5532	2026-08-17 12:17:13.979+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5128774229	livelasso	2WEI	\N	719	2139	32042	cw_bot	history-import:cw_bot:8997	2026-07-19 09:14:05.882+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5143387515	babykweeef	UN0	\N	224	21985	32041	cw_bot	history-import:cw_bot:2100	2026-08-14 22:59:19.851+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5165277431	nojkdfnjyfdhufdhn	OxC	\N	694	5120	32041	cw_bot	history-import:cw_bot:5436	2026-08-19 14:48:26.843+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5189669801	johqnel	Sro	\N	684	5523	32041	cw_bot	history-import:cw_bot:5567	2026-08-17 00:52:03.053+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5203613717	Arteomcka0_z	BEZE	\N	762	85	32042	cw_bot	history-import:cw_bot:3371	2026-07-23 19:33:38.366+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5207679662	GrinchFrend	MDKT	\N	719	2393	32041	cw_bot	history-import:cw_bot:4879	2026-08-28 13:55:05.802+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5209078854	Rydma73	H8ER	\N	719	1463	32044	cw_bot	history-import:cw_bot:3970	2026-04-12 22:17:12.736+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5212313671	superpositlon	S7NS	\N	111	26302	32044	cw_bot	history-import:cw_bot:1483	2026-05-15 19:10:30.306+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5246280273	janjelinek3	POJO	\N	538	12442	32042	cw_bot	history-import:cw_bot:6040	2026-08-09 09:04:37.217+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5267528496	hahagoo4	PXCH	\N	678	6037	32042	cw_bot	history-import:cw_bot:9630	2026-07-31 16:29:28.688+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5288045534	tombayfarm4	BEZE	\N	761	830	32044	cw_bot	history-import:cw_bot:9528	2026-07-02 14:49:23.85+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5291595908	iTTv6	3zEZ	\N	719	2708	32044	cw_bot	history-import:cw_bot:3999	2026-04-12 21:22:33.583+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5313080791	HerzogDL	ROMU	\N	698	4617	32044	cw_bot	history-import:cw_bot:946	2026-04-17 00:08:20.006+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5328968538	Iphone1835	SAM4	\N	631	8589	32041	cw_bot	history-import:cw_bot:5190	2026-08-21 18:06:41.136+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5339963078	Kvetamin2	VLP	\N	566	11373	32042	cw_bot	history-import:cw_bot:6538	2026-08-07 09:05:29.727+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5383071838	mr_895675	LXCC	\N	678	5918	32041	cw_bot	history-import:cw_bot:7676	2026-08-14 20:23:40.83+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5407742794	baba_gamer239	ROMU	\N	718	3381	32044	cw_bot	history-import:cw_bot:1582	2026-05-20 17:25:36.224+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5414318030	demonfaarm3	2WEI	\N	580	10839	32044	cw_bot	history-import:cw_bot:9353	2026-03-31 20:30:04.513+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5420529092	Azurq666	SOPU	\N	719	3159	32044	cw_bot	history-import:cw_bot:8376	2026-04-06 08:33:16.146+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5436365094	Bruin444444	st1z	\N	762	607	32042	cw_bot	history-import:cw_bot:2404	2026-08-10 00:49:21.439+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5454068280	lukky509	KMo	\N	208	22556	32041	cw_bot	history-import:cw_bot:4959	2026-08-24 17:48:55.599+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5510809744	moneyskallin	ORBI	\N	50	29110	32042	cw_bot	history-import:cw_bot:2083	2026-07-19 11:32:01.392+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5516978036	omgitzmaatt3	_hot	\N	625	8849	32041	cw_bot	history-import:cw_bot:9870	2026-08-23 11:16:05.962+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5534860785	rostislavvv155	HROT	\N	698	3910	32042	cw_bot	history-import:cw_bot:2858	2026-07-31 15:54:01.042+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5560545010	crimxzysgoatedalt	N1GD	\N	1	31907	32044	cw_bot	history-import:cw_bot:1744	2026-05-28 19:25:01.662+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5575261241	noliogames3	IWHN	\N	518	13096	32042	cw_bot	history-import:cw_bot:9485	2026-08-04 08:47:00.84+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5615179956	MonsterWithGod	ROMU	\N	719	2396	32044	cw_bot	history-import:cw_bot:4141	2026-04-12 21:05:00.581+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5617415188	domimimink1	B1LE	\N	657	7326	32042	cw_bot	history-import:cw_bot:6485	2026-08-06 18:13:39.772+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5623447261	quoicoubeh5608	RATZ	\N	741	1059	32042	cw_bot	history-import:cw_bot:6209	2026-08-08 20:49:37.159+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5703128088	elnubsen	SOPU	\N	762	115	32044	cw_bot	history-import:cw_bot:3864	2026-04-05 06:56:35.208+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5718001505	samaorithor	WSL	\N	127	25602	32041	cw_bot	history-import:cw_bot:9793	2026-08-26 19:50:37.879+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5739088762	Martin89951	ARX4	\N	371	17500	32042	cw_bot	history-import:cw_bot:6431	2026-08-06 15:25:22.541+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5771998323	Tadeas5303	BDX	\N	269	20507	32042	cw_bot	history-import:cw_bot:7147	2026-07-30 15:42:22.574+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5798456185	Vojta_44l3	W0m1	\N	347	18217	32044	cw_bot	history-import:cw_bot:1955	2026-06-26 17:07:22.713+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5818869297	knoxcoder	SOPU	\N	762	114	32042	cw_bot	history-import:cw_bot:3019	2026-07-29 13:28:15.912+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5825369243	DahRealXaViMaVi2	XNR	\N	698	4811	32042	cw_bot	history-import:cw_bot:548	2026-07-17 18:48:43.803+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	5837946305	husos112410	COMT	\N	591	10380	32042	cw_bot	history-import:cw_bot:3330	2026-07-24 20:49:25.624+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	6109731708	YoBaskett	W2VY	\N	762	356	32042	cw_bot	history-import:cw_bot:426	2026-07-17 18:47:23.21+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	6156770625	pepajzikv2	STPS	\N	539	12389	32041	cw_bot	history-import:cw_bot:5381	2026-08-20 18:30:12.586+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	6180933436	Atefluigi1	BAWB	\N	532	12612	32041	cw_bot	history-import:cw_bot:4822	2026-08-28 16:24:47.076+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	6192858536	sigmaboss279	2523	\N	426	15894	32044	cw_bot	history-import:cw_bot:3995	2026-04-12 21:20:08.761+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7005100565	Crazypuzzlehead15	Goop	\N	694	5080	32042	cw_bot	history-import:cw_bot:2468	2026-08-01 09:28:25.648+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7065541321	21xseron20	VLP	\N	368	17590	32042	cw_bot	history-import:cw_bot:6566	2026-08-06 07:05:07.56+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7168755253	JoJo_Gaming2341	XMA2	\N	88	27369	32044	cw_bot	history-import:cw_bot:1888	2026-06-20 14:27:05.49+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7173492482	Kyan65427	DO_1	\N	357	17910	32042	cw_bot	history-import:cw_bot:3234	2026-07-26 12:04:59.618+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7202704987	wslhuge	WSL	\N	657	7047	32041	cw_bot	history-import:cw_bot:9818	2026-08-26 19:55:49.742+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7232809185	Kessho02	PEND	\N	719	2161	32042	cw_bot	history-import:cw_bot:602	2026-07-17 18:49:22.998+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7299604677	McAnt1c_Official	Sro	\N	480	14320	32042	cw_bot	history-import:cw_bot:6783	2026-08-03 07:34:50.336+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7426690057	Duckyphant	H8M3	\N	719	1725	32041	cw_bot	history-import:cw_bot:5638	2026-08-14 22:07:36.457+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7492577011	XBLTAZEEEE	J1NU	\N	228	21858	32044	cw_bot	history-import:cw_bot:9083	2026-07-03 23:49:41.902+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7583161395	Tgzzgzzltg33	HR2T	\N	698	4023	32042	cw_bot	history-import:cw_bot:7264	2026-07-27 11:39:20.283+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7594665011	demonfaarm10	2WEI	\N	719	2727	32044	cw_bot	history-import:cw_bot:9361	2026-03-31 20:30:40.275+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7710452262	hrac_821	BDX	\N	401	16583	32042	cw_bot	history-import:cw_bot:6002	2026-08-10 07:17:41.604+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7742077490	sirwabbs	HARM	\N	698	4474	32042	cw_bot	history-import:cw_bot:4639	2026-08-02 03:35:57.878+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7806857762	selena082319	W2VY	\N	690	5327	32042	cw_bot	history-import:cw_bot:374	2026-07-17 18:33:34.992+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	7808641651	Elis_123cz12	MDKT	\N	698	4838	32042	cw_bot	history-import:cw_bot:6514	2026-08-07 05:42:34.596+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8087930970	sleeperb99	OTTR	\N	719	2702	32042	cw_bot	history-import:cw_bot:9025	2026-07-17 16:18:36.71+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8136551278	vincbond15	DJRK	\N	430	15758	32042	cw_bot	history-import:cw_bot:6190	2026-08-08 20:08:01.556+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8156513145	Lukynak9	SELX	\N	584	10697	32042	cw_bot	history-import:cw_bot:7485	2026-07-16 15:50:25.991+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8182869593	SuperrMessi87	SELX	\N	40	29643	32041	cw_bot	history-import:cw_bot:5017	2026-08-23 20:41:38.353+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8187537946	nzr5581	V1LN	\N	698	4348	32044	cw_bot	history-import:cw_bot:8193	2026-04-23 19:12:26.428+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8202998917	StanleyFox92	AV3Y	\N	762	740	32044	cw_bot	history-import:cw_bot:16	2026-04-25 12:24:19.176+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	8717864055	Miekii99	JJ07	\N	151	24638	32044	cw_bot	history-import:cw_bot:3994	2026-04-12 21:26:23.869+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	9729641645	chasealter14	XNR	\N	510	13352	32042	cw_bot	history-import:cw_bot:9029	2026-07-17 16:37:42.582+00	imported_history	\N
+TrickOrTreat	Trick or Treat Battle	trickortreat	92251776	thepiedealer	W2VY	\N	603	9869	32042	cw_bot	\N	2026-07-22 17:40:42.591+00	imported_history	10875
+TrickOrTreat	Trick or Treat Battle	trickortreat	105342908	josephm922	07W	\N	497	13763	32044	cw_bot	\N	2026-07-05 05:15:14.676+00	imported_history	11270
+TrickOrTreat	Trick or Treat Battle	trickortreat	106654316	Wooftamer	Do1t	\N	614	9432	32042	cw_bot	\N	2026-08-06 21:25:15.831+00	imported_history	10366
+TrickOrTreat	Trick or Treat Battle	trickortreat	123813615	zabimar420	AWZY	\N	674	6249	32042	cw_bot	\N	2026-08-05 05:05:47.203+00	imported_history	10548
+TrickOrTreat	Trick or Treat Battle	trickortreat	226285350	farlorddeath	UN0	\N	126	25647	32042	cw_bot	\N	2026-07-20 02:25:37.839+00	imported_history	10996
+TrickOrTreat	Trick or Treat Battle	trickortreat	240536469	aysear	Goop	\N	678	5709	32042	cw_bot	\N	2026-07-17 03:28:32.523+00	imported_history	11085
+TrickOrTreat	Trick or Treat Battle	trickortreat	263596366	monisvibing	HARM	\N	678	5890	32042	cw_bot	\N	2026-07-18 17:03:10.091+00	imported_history	11029
+TrickOrTreat	Trick or Treat Battle	trickortreat	391457947	Pukkas08	st1z	\N	719	2989	32042	cw_bot	\N	2026-07-17 23:20:47.664+00	imported_history	11053
+TrickOrTreat	Trick or Treat Battle	trickortreat	504442502	cleitonp100	FNXX	\N	95	27022	32042	cw_bot	\N	2026-08-06 19:36:09.461+00	imported_history	10321
+TrickOrTreat	Trick or Treat Battle	trickortreat	634506574	BlameGrinders	SOPU	\N	719	2377	32042	cw_bot	\N	2026-07-16 18:06:48.246+00	imported_history	11100
+TrickOrTreat	Trick or Treat Battle	trickortreat	703619230	cashmoneyracer6	BLZ_	\N	584	10665	32042	cw_bot	\N	2026-07-06 17:10:13.966+00	imported_history	11263
+TrickOrTreat	Trick or Treat Battle	trickortreat	712421191	CoderGrey	Goop	\N	185	23331	32042	cw_bot	\N	2026-08-06 21:12:21.177+00	imported_history	10343
+TrickOrTreat	Trick or Treat Battle	trickortreat	866298991	Gusgusmagus	RAPT	\N	119	25969	32042	cw_bot	\N	2026-08-01 20:45:45.172+00	imported_history	10772
+TrickOrTreat	Trick or Treat Battle	trickortreat	912250692	bwlovescars	RBN9	\N	296	19677	32042	cw_bot	\N	2026-08-01 19:59:44.339+00	imported_history	10743
+TrickOrTreat	Trick or Treat Battle	trickortreat	1192350790	Steven_Shurf	K_TB	\N	291	19834	32042	cw_bot	\N	2026-08-04 17:26:23.152+00	imported_history	10582
+TrickOrTreat	Trick or Treat Battle	trickortreat	1253064849	hivghdf	Fm4L	\N	521	13023	32042	cw_bot	\N	2026-07-11 17:37:40.354+00	imported_history	11183
+TrickOrTreat	Trick or Treat Battle	trickortreat	1260752023	jemmness	K0ii	\N	719	1715	32042	cw_bot	\N	2026-08-05 19:53:14.077+00	imported_history	10501
+TrickOrTreat	Trick or Treat Battle	trickortreat	1342058144	maxbercar	4GH	\N	19	30794	32042	cw_bot	\N	2026-08-03 15:01:26.751+00	imported_history	10686
+TrickOrTreat	Trick or Treat Battle	trickortreat	1378926704	thetoad419	FFLH	\N	667	6531	32042	cw_bot	\N	2026-07-20 11:11:03.422+00	imported_history	10972
+TrickOrTreat	Trick or Treat Battle	trickortreat	1502289731	juan784gk	Aifo	\N	648	7881	32044	cw_bot	\N	2026-07-04 01:46:55.269+00	imported_history	11308
+TrickOrTreat	Trick or Treat Battle	trickortreat	1559794555	MrsBrumal93	FMLY	\N	719	1694	32042	cw_bot	\N	2026-08-06 21:10:37.188+00	imported_history	10303
+TrickOrTreat	Trick or Treat Battle	trickortreat	1810349750	doughnutlordlup	SVB	\N	719	1724	32042	cw_bot	\N	2026-08-04 09:24:34.058+00	imported_history	10603
+TrickOrTreat	Trick or Treat Battle	trickortreat	1860842454	DaceyBisagamer	UN0	\N	228	21847	32042	cw_bot	\N	2026-07-21 13:55:19.369+00	imported_history	10922
+TrickOrTreat	Trick or Treat Battle	trickortreat	2046736760	omgakaroen2	KOHV	\N	600	9978	32042	cw_bot	\N	2026-08-05 12:42:48.772+00	imported_history	10519
+TrickOrTreat	Trick or Treat Battle	trickortreat	2210572151	ztormwolf	ORBI	\N	390	16930	32042	cw_bot	\N	2026-08-07 18:42:26.67+00	imported_history	10211
+TrickOrTreat	Trick or Treat Battle	trickortreat	2548718008	scottewillis1982	KOii	\N	719	1714	32042	cw_bot	\N	2026-08-05 19:51:42.011+00	imported_history	10469
+TrickOrTreat	Trick or Treat Battle	trickortreat	2658235500	blackgolds47plays	QNE	\N	430	15753	32042	cw_bot	\N	2026-07-13 04:08:31.304+00	imported_history	11117
+TrickOrTreat	Trick or Treat Battle	trickortreat	3111804593	boomhahahau4	YLW	\N	255	20913	32042	cw_bot	\N	2026-08-07 11:10:01.99+00	imported_history	10249
+TrickOrTreat	Trick or Treat Battle	trickortreat	3242097876	Adam340i	C4SH	\N	456	14992	32042	cw_bot	\N	2026-08-01 20:38:19.334+00	imported_history	10760
+TrickOrTreat	Trick or Treat Battle	trickortreat	3257426178	thebroccoli20	J200	\N	663	6727	32042	cw_bot	\N	2026-08-03 18:58:51.895+00	imported_history	10659
+TrickOrTreat	Trick or Treat Battle	trickortreat	3787688911	Kaelqor	KOR_	\N	254	20951	32042	cw_bot	\N	2026-08-07 10:30:50.859+00	imported_history	10228
+TrickOrTreat	Trick or Treat Battle	trickortreat	3823391474	ryanismyname55	_CEO	\N	88	27368	32042	cw_bot	\N	2026-08-06 19:47:56.266+00	imported_history	10335
+TrickOrTreat	Trick or Treat Battle	trickortreat	4002857188	hyhhui5rhg	QUOK	\N	574	11083	32044	cw_bot	\N	2026-07-04 01:47:15.942+00	imported_history	11313
+TrickOrTreat	Trick or Treat Battle	trickortreat	4030750707	SpiroBebex71	SOPU	\N	762	105	32042	cw_bot	\N	2026-08-06 18:54:36.251+00	imported_history	10284
+TrickOrTreat	Trick or Treat Battle	trickortreat	4142534434	be_bebrs	BU TI	\N	685	5482	32042	cw_bot	\N	2026-07-20 11:09:04.745+00	imported_history	10954
+TrickOrTreat	Trick or Treat Battle	trickortreat	4284280354	Superxia4460	Xia7	\N	395	16789	32042	cw_bot	\N	2026-07-23 13:14:52.606+00	imported_history	10843
+TrickOrTreat	Trick or Treat Battle	trickortreat	4311417620	Weller457sk	HROT	\N	698	3911	32042	cw_bot	\N	2026-07-22 16:09:45.829+00	imported_history	10899
+TrickOrTreat	Trick or Treat Battle	trickortreat	4476083695	EinMensch939	GL10	\N	719	2849	32042	cw_bot	\N	2026-07-11 20:34:22.019+00	imported_history	11158
+TrickOrTreat	Trick or Treat Battle	trickortreat	4608344169	Spyd3rino	W2VY	\N	688	5399	32042	cw_bot	\N	2026-07-10 15:35:31.189+00	imported_history	11212
+TrickOrTreat	Trick or Treat Battle	trickortreat	4610856184	Whatsup12719	VZL	\N	715	3486	32042	cw_bot	\N	2026-08-05 22:21:53.995+00	imported_history	10428
+TrickOrTreat	Trick or Treat Battle	trickortreat	4735355728	seanfarm6263	Bmlg	\N	210	22489	32042	cw_bot	\N	2026-07-10 19:23:53.34+00	imported_history	11192
+TrickOrTreat	Trick or Treat Battle	trickortreat	4825781288	Xx_godofdeath96	3MEH	\N	703	3765	32042	cw_bot	\N	2026-07-19 21:55:59.986+00	imported_history	11010
+TrickOrTreat	Trick or Treat Battle	trickortreat	5105458194	FlawedButLoved	fr3e	\N	183	23402	32044	cw_bot	\N	2026-07-04 01:47:40.163+00	imported_history	11323
+TrickOrTreat	Trick or Treat Battle	trickortreat	5702033770	dabbin_boittv	UN0	\N	762	157	32042	cw_bot	\N	2026-08-03 16:23:31.807+00	imported_history	10630
+TrickOrTreat	Trick or Treat Battle	trickortreat	7074492190	scoutiiiiiiiii	H8M3	\N	719	1543	32042	cw_bot	\N	2026-08-01 09:24:22.841+00	imported_history	10820
+TrickOrTreat	Trick or Treat Battle	trickortreat	7213418603	proline_urlocalsweat	FYRX	\N	648	7881	32042	cw_bot	\N	2026-08-01 18:24:48.12+00	imported_history	10804
 \.
 
 
@@ -513,8 +559,8 @@ TrickOrTreat	Trick or Treat Battle	trickortreat	9729641645	chasealter14	XNR	\N	5
 -- PostgreSQL database dump complete
 --
 
-\unrestrict jaH2HZ8ScFZ1iZop63sAgbThagqGFwCvvnSWkqcpb2P5E5zPPYhhftw4GVphXMV
+\unrestrict QQfFisgemDze9ho036SudBVgx1sbLJPr7QqEwhKYlyLmJqiEEeqT6rquaxVSBjh
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict XSW8C4qim4XvHz107GOWnD5eylagdvTDOqawm0rKCbnrPOIoEoXPunzsLWwXxJP
+\restrict w2c5BzZhB88vkzxDeiH3zwJ0fYRxvluGYhWkPkxRQzB60Z64r0fOYlmWOLb50KU
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,9 +23,9 @@ SET row_security = off;
 -- Data for Name: Evil Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Evil Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-CardBattle	Evil Battle	evilbattle	109818	Cinnamowopal	NONG	130	\N	130	\N	external_import	history-import:big_bot:28	2026-07-17 00:44:55.911+00
-CardBattle	Evil Battle	evilbattle	824564901	ralsvi	PSAG	62	\N	62	\N	external_import	history-import:big_bot:994	2026-07-14 15:22:52.96+00
+COPY battles."Evil Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+CardBattle	Evil Battle	evilbattle	109818	Cinnamowopal	NONG	130	\N	130	\N	external_import	history-import:big_bot:28	2026-07-17 00:44:55.911+00	imported_history	\N
+CardBattle	Evil Battle	evilbattle	824564901	ralsvi	PSAG	62	\N	62	\N	external_import	history-import:big_bot:994	2026-07-14 15:22:52.96+00	imported_history	\N
 \.
 
 
@@ -33,8 +33,8 @@ CardBattle	Evil Battle	evilbattle	824564901	ralsvi	PSAG	62	\N	62	\N	external_imp
 -- PostgreSQL database dump complete
 --
 
-\unrestrict XSW8C4qim4XvHz107GOWnD5eylagdvTDOqawm0rKCbnrPOIoEoXPunzsLWwXxJP
+\unrestrict w2c5BzZhB88vkzxDeiH3zwJ0fYRxvluGYhWkPkxRQzB60Z64r0fOYlmWOLb50KU
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

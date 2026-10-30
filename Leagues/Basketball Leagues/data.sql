@@ -1,8 +1,13 @@
+-- Team standings load before the player rows that reference them.
+
+COPY leagues.team_results ("event_key","team_key","league_id","league_name","points","league_rank","captured_at","rank_captured_at","source","source_table","source_record_id","snapshot_id","source_run_key","period_started_at","period_ended_at","result_status") FROM stdin;
+\.
+
 --
 -- PostgreSQL database dump
 --
 
-\restrict XrX1j3IhofRSgDwNBvekCYxfzHmTu3H7bpKaknej3WYHDEca5IkqclQrIzZT5vz
+\restrict 0GXtuwPQFFhKkMeLki4cZXivHl6wwDcfj5PAqZVuq7HgdB3weF3z8WJYuSM1Tld
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,7 +28,7 @@ SET row_security = off;
 -- Data for Name: Basketball Leagues; Type: TABLE DATA; Schema: leagues; Owner: -
 --
 
-COPY leagues."Basketball Leagues" (event_key, observation_id, original_event_key, league_run_key, period_started_at, period_ended_at, source_record_id, snapshot_id, fetched_at, source, league_name, league_id, league_level, league_points, member_capacity, source_rank, user_id, display_name, points, last_contribution_at, source_created_at, archived_at) FROM stdin;
+COPY leagues."Basketball Leagues" (event_key, user_id, username, team_key, league_id, league_name, points, member_rank, league_rank, global_rank, pool_rank, rank_scope, collected_population, league_points, captured_at, source, source_table, source_record_id, snapshot_id, source_run_key, period_started_at, period_ended_at, result_status, member_rank_captured_at, league_rank_captured_at, global_rank_captured_at, pool_rank_captured_at, last_contribution_at) FROM stdin;
 \.
 
 
@@ -31,5 +36,5 @@ COPY leagues."Basketball Leagues" (event_key, observation_id, original_event_key
 -- PostgreSQL database dump complete
 --
 
-\unrestrict XrX1j3IhofRSgDwNBvekCYxfzHmTu3H7bpKaknej3WYHDEca5IkqclQrIzZT5vz
+\unrestrict 0GXtuwPQFFhKkMeLki4cZXivHl6wwDcfj5PAqZVuq7HgdB3weF3z8WJYuSM1Tld
 

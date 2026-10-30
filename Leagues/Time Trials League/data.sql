@@ -1,8 +1,13 @@
+-- Team standings load before the player rows that reference them.
+
+COPY leagues.team_results ("event_key","team_key","league_id","league_name","points","league_rank","captured_at","rank_captured_at","source","source_table","source_record_id","snapshot_id","source_run_key","period_started_at","period_ended_at","result_status") FROM stdin;
+\.
+
 --
 -- PostgreSQL database dump
 --
 
-\restrict FQCg9KwnTxj3fRYv0Kn0nCdCb06lTOW8GShG5hNZ90NCVI9HWv2wWUlz1BQ5e7T
+\restrict nDhvcHmGQix8i0GJglKnZyRbsIev6gA2XWUF4RRT7V5YhRtio9Ezi1mKoYSfeEa
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,7 +28,7 @@ SET row_security = off;
 -- Data for Name: Time Trials League; Type: TABLE DATA; Schema: leagues; Owner: -
 --
 
-COPY leagues."Time Trials League" (event_key, observation_id, original_event_key, league_run_key, period_started_at, period_ended_at, source_record_id, snapshot_id, fetched_at, source, league_name, league_id, league_level, league_points, member_capacity, source_rank, user_id, display_name, points, last_contribution_at, source_created_at, archived_at) FROM stdin;
+COPY leagues."Time Trials League" (event_key, user_id, username, team_key, league_id, league_name, points, member_rank, league_rank, global_rank, pool_rank, rank_scope, collected_population, league_points, captured_at, source, source_table, source_record_id, snapshot_id, source_run_key, period_started_at, period_ended_at, result_status, member_rank_captured_at, league_rank_captured_at, global_rank_captured_at, pool_rank_captured_at, last_contribution_at) FROM stdin;
 \.
 
 
@@ -31,5 +36,5 @@ COPY leagues."Time Trials League" (event_key, observation_id, original_event_key
 -- PostgreSQL database dump complete
 --
 
-\unrestrict FQCg9KwnTxj3fRYv0Kn0nCdCb06lTOW8GShG5hNZ90NCVI9HWv2wWUlz1BQ5e7T
+\unrestrict nDhvcHmGQix8i0GJglKnZyRbsIev6gA2XWUF4RRT7V5YhRtio9Ezi1mKoYSfeEa
 

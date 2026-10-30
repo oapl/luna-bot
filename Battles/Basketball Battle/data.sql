@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict jhcuYybnktPKygkAqCTFbtAMPD7tN80Xix7TtZG56fbhU8P6IuyfEuxa2Ovba6v
+\restrict SlteVEu6ybxRacdYWugnUHCvKv7pGLw7DiYLMp6nn2jrGrxyUkuMbuXLQN8dVqU
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,502 +23,568 @@ SET row_security = off;
 -- Data for Name: Basketball Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Basketball Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-BasketballBattle	Basketball Battle	basketballbattle	109818	Cinnamowopal	NONG	\N	66980000	306	34194	cw_bot	history-import:cw_bot:157	2026-04-27 00:46:27.41+00
-BasketballBattle	Basketball Battle	basketballbattle	1533791	clankbot	UN0	\N	73520000	129	34194	cw_bot	history-import:cw_bot:1706	2026-05-23 13:09:17.782+00
-BasketballBattle	Basketball Battle	basketballbattle	14538110	joeycb	ORBI	\N	58950000	519	34194	cw_bot	history-import:cw_bot:1688	2026-05-23 12:54:45.542+00
-BasketballBattle	Basketball Battle	basketballbattle	20532808	GamesReborn	Rfil	\N	51590000	789	34194	cw_bot	history-import:cw_bot:1223	2026-05-01 18:19:11.948+00
-BasketballBattle	Basketball Battle	basketballbattle	25894803	Malmortius	N3NG	\N	19420	33015	34194	cw_bot	history-import:cw_bot:2057	2026-06-30 14:47:28.663+00
-BasketballBattle	Basketball Battle	basketballbattle	31989428	zoggi10	Goop	\N	45680000	1411	34192	cw_bot	history-import:cw_bot:4610	2026-08-04 07:49:22.305+00
-BasketballBattle	Basketball Battle	basketballbattle	33492395	unoyea	UN0	\N	75490000	61	34194	cw_bot	history-import:cw_bot:1381	2026-05-07 10:52:28.967+00
-BasketballBattle	Basketball Battle	basketballbattle	33928536	banan123123123	NXNG	\N	18510000	7322	34194	cw_bot	history-import:cw_bot:1661	2026-05-22 07:26:22.196+00
-BasketballBattle	Basketball Battle	basketballbattle	45130460	Ziilionaires	UN0	\N	77470000	20	34194	cw_bot	history-import:cw_bot:3803	2026-04-05 08:12:37.375+00
-BasketballBattle	Basketball Battle	basketballbattle	58312098	sosd35	NONG	\N	68700000	264	34192	cw_bot	history-import:cw_bot:692	2026-07-17 18:57:28.202+00
-BasketballBattle	Basketball Battle	basketballbattle	67319189	iduzel	NONG	\N	73020000	151	34191	cw_bot	history-import:cw_bot:8736	2026-08-18 05:01:05.774+00
-BasketballBattle	Basketball Battle	basketballbattle	79237321	GodlySalt	BYRD	145	\N	145	\N	external_import	history-import:big_bot:952	2026-07-11 14:28:35.433+00
-BasketballBattle	Basketball Battle	basketballbattle	89801902	hugesteve123	C4	\N	2000000	22348	34192	cw_bot	history-import:cw_bot:4620	2026-08-04 02:34:43.308+00
-BasketballBattle	Basketball Battle	basketballbattle	90767636	bobdog751	V1LN	\N	33150000	3378	34194	cw_bot	history-import:cw_bot:8133	2026-04-27 21:06:33.398+00
-BasketballBattle	Basketball Battle	basketballbattle	120904005	nublet28	BYRD	\N	57550000	556	34194	cw_bot	history-import:cw_bot:8444	2026-07-03 22:38:52.17+00
-BasketballBattle	Basketball Battle	basketballbattle	125272790	ur_salty091	XBOX	\N	40580000	2254	34194	cw_bot	history-import:cw_bot:1921	2026-06-21 04:13:46.321+00
-BasketballBattle	Basketball Battle	basketballbattle	136661329	ghanta2a	Goop	\N	69070000	255	34194	cw_bot	history-import:cw_bot:8105	2026-04-26 23:31:56.073+00
-BasketballBattle	Basketball Battle	basketballbattle	138619446	darkenedwishes	EXP	\N	41630000	2063	34194	cw_bot	history-import:cw_bot:2008	2026-06-28 16:26:03.666+00
-BasketballBattle	Basketball Battle	basketballbattle	148251054	EpicRider6729	NONG	\N	64350000	363	34194	cw_bot	history-import:cw_bot:3854	2026-04-05 07:59:08.938+00
-BasketballBattle	Basketball Battle	basketballbattle	156957387	itsminerr	ORBI	\N	66950000	307	34192	cw_bot	history-import:cw_bot:2157	2026-08-01 03:26:51.039+00
-BasketballBattle	Basketball Battle	basketballbattle	160013234	Megasonicex	SOPU	\N	42660000	1889	34192	cw_bot	history-import:cw_bot:3244	2026-07-25 06:28:07.641+00
-BasketballBattle	Basketball Battle	basketballbattle	165817996	16_BitPotato	UN0	\N	71870000	190	34192	cw_bot	history-import:cw_bot:4525	2026-08-04 19:56:26.259+00
-BasketballBattle	Basketball Battle	basketballbattle	170719079	tnocko	HROT	\N	53280000	706	34192	cw_bot	history-import:cw_bot:2291	2026-08-12 07:40:01.692+00
-BasketballBattle	Basketball Battle	basketballbattle	170896669	toratot	OTTR	\N	42660000	1889	34194	cw_bot	history-import:cw_bot:9151	2026-06-29 23:29:26.064+00
-BasketballBattle	Basketball Battle	basketballbattle	184309752	expellez	CC4T	\N	66630000	312	34194	cw_bot	history-import:cw_bot:1107	2026-04-25 23:28:51.667+00
-BasketballBattle	Basketball Battle	basketballbattle	192463394	NukeOfLava12	CB_	\N	45780000	1393	34194	cw_bot	history-import:cw_bot:4133	2026-04-12 20:31:33.085+00
-BasketballBattle	Basketball Battle	basketballbattle	192653117	carloskar08	MLIB	\N	52060000	766	34192	cw_bot	history-import:cw_bot:4468	2026-08-05 22:58:43.526+00
-BasketballBattle	Basketball Battle	basketballbattle	194076029	Gromic5876	MNBB	\N	11340000	11634	34192	cw_bot	history-import:cw_bot:6102	2026-08-08 23:25:51.173+00
-BasketballBattle	Basketball Battle	basketballbattle	204751057	SainLol	fr2e	\N	248200	28616	34192	cw_bot	history-import:cw_bot:10041	2026-08-08 18:46:45.184+00
-BasketballBattle	Basketball Battle	basketballbattle	207778892	unoyea441	vysn	\N	67200000	300	34194	cw_bot	history-import:cw_bot:3947	2026-04-19 19:32:32.711+00
-BasketballBattle	Basketball Battle	basketballbattle	210966410	onoraksal	hlx	\N	26670000	4653	34191	cw_bot	history-import:cw_bot:8784	2026-08-15 13:55:15.256+00
-BasketballBattle	Basketball Battle	basketballbattle	212422741	berryuk19	DOLA	\N	18200000	7465	34194	cw_bot	history-import:cw_bot:3907	2026-06-24 22:57:40.989+00
-BasketballBattle	Basketball Battle	basketballbattle	223141866	LoLLubas	DPSF	\N	7290000	16158	34191	cw_bot	history-import:cw_bot:4800	2026-08-28 14:48:40.144+00
-BasketballBattle	Basketball Battle	basketballbattle	241713789	J2X1NESIWXID	LXCC	\N	231000	29032	34192	cw_bot	history-import:cw_bot:752	2026-07-17 18:58:04.211+00
-BasketballBattle	Basketball Battle	basketballbattle	250562586	zcm_Xi	CC4T	\N	16690000	8101	34192	cw_bot	history-import:cw_bot:4366	2026-08-09 17:51:30.585+00
-BasketballBattle	Basketball Battle	basketballbattle	254885188	Prodav1	SULS	\N	15480000	8674	34192	cw_bot	history-import:cw_bot:8005	2026-07-08 14:39:05.73+00
-BasketballBattle	Basketball Battle	basketballbattle	272741362	kyle558888	LV13	\N	15410000	8712	34192	cw_bot	history-import:cw_bot:223	2026-07-17 17:23:47.778+00
-BasketballBattle	Basketball Battle	basketballbattle	273316338	stevowsl	WSL	\N	22070000	5888	34191	cw_bot	history-import:cw_bot:9805	2026-08-26 19:54:20.308+00
-BasketballBattle	Basketball Battle	basketballbattle	331930897	gogeta363	TLGZ	\N	17230000	7857	34192	cw_bot	history-import:cw_bot:4383	2026-08-09 04:19:11.832+00
-BasketballBattle	Basketball Battle	basketballbattle	343511782	octojabb	SLRP	\N	27560000	4463	34194	cw_bot	history-import:cw_bot:9249	2026-04-30 14:51:23.517+00
-BasketballBattle	Basketball Battle	basketballbattle	365225419	prorik228	07W	\N	40220000	2322	34192	cw_bot	history-import:cw_bot:7914	2026-07-08 14:30:35.5+00
-BasketballBattle	Basketball Battle	basketballbattle	413758213	NotMrTroll_YT	SOPU	\N	41230000	2142	34192	cw_bot	history-import:cw_bot:2835	2026-07-31 16:31:43.631+00
-BasketballBattle	Basketball Battle	basketballbattle	418400389	vojtaprovaznik	VLP2	\N	175170	30679	34191	cw_bot	history-import:cw_bot:4940	2026-08-26 06:26:26.509+00
-BasketballBattle	Basketball Battle	basketballbattle	423460663	bub2540	POPS	\N	22450000	5767	34194	cw_bot	history-import:cw_bot:1510	2026-05-16 12:19:40.788+00
-BasketballBattle	Basketball Battle	basketballbattle	425660194	chinovelaz	stzr	\N	32150000	3523	34194	cw_bot	history-import:cw_bot:4154	2026-04-12 20:33:18.646+00
-BasketballBattle	Basketball Battle	basketballbattle	435823564	brandon292016	3zEZ	\N	43320000	1758	34194	cw_bot	history-import:cw_bot:1037	2026-04-20 06:06:34.027+00
-BasketballBattle	Basketball Battle	basketballbattle	436460285	spideenation	UN0	\N	76030000	46	34192	cw_bot	history-import:cw_bot:2921	2026-07-31 03:58:35.999+00
-BasketballBattle	Basketball Battle	basketballbattle	452765106	mopingmicrowave	UN0	\N	80150000	1	34192	cw_bot	history-import:cw_bot:2912	2026-07-31 03:58:18.168+00
-BasketballBattle	Basketball Battle	basketballbattle	460000821	maserofwater098	UN0	\N	77570000	16	34194	cw_bot	history-import:cw_bot:2039	2026-06-29 17:36:18.828+00
-BasketballBattle	Basketball Battle	basketballbattle	463900811	AgentP_0928	NONG	\N	73640000	123	34194	cw_bot	history-import:cw_bot:653	2026-04-26 04:08:51.656+00
-BasketballBattle	Basketball Battle	basketballbattle	470464024	ceficat	POPS	\N	39250000	2491	34192	cw_bot	history-import:cw_bot:2583	2026-08-01 14:42:49.688+00
-BasketballBattle	Basketball Battle	basketballbattle	496935076	mawahlah	07W	\N	42300000	1943	34194	cw_bot	history-import:cw_bot:50	2026-06-27 00:05:32.123+00
-BasketballBattle	Basketball Battle	basketballbattle	502312785	tomasek8557	BDX	\N	8020000	15286	34191	cw_bot	history-import:cw_bot:5455	2026-08-19 16:40:59.801+00
-BasketballBattle	Basketball Battle	basketballbattle	503486505	campagnolo5	TPGD	\N	3520000	19025	34191	cw_bot	history-import:cw_bot:7660	2026-08-16 14:51:20.144+00
-BasketballBattle	Basketball Battle	basketballbattle	538266747	Judah3000	XBOX	\N	24140000	5254	34192	cw_bot	history-import:cw_bot:7850	2026-07-08 14:31:05.959+00
-BasketballBattle	Basketball Battle	basketballbattle	544198160	JimmyCIeetus	SOPU	\N	29580000	3986	34192	cw_bot	history-import:cw_bot:478	2026-07-17 18:47:56.313+00
-BasketballBattle	Basketball Battle	basketballbattle	546090248	cheburek_x	mrnw	\N	10930000	12026	34192	cw_bot	history-import:cw_bot:2754	2026-07-31 17:21:30.816+00
-BasketballBattle	Basketball Battle	basketballbattle	562277230	Berryuk19sdad	UN0	\N	74330000	99	34194	cw_bot	history-import:cw_bot:3915	2026-06-24 23:01:30.995+00
-BasketballBattle	Basketball Battle	basketballbattle	573589049	nerfbro9000	GSTG	\N	32100000	3533	34194	cw_bot	history-import:cw_bot:9406	2026-03-26 19:15:43.999+00
-BasketballBattle	Basketball Battle	basketballbattle	587622297	Raihania54321	Tewy	\N	2010000	22300	34194	cw_bot	history-import:cw_bot:1027	2026-04-19 21:12:31.376+00
-BasketballBattle	Basketball Battle	basketballbattle	588437757	beastbrody12345	Lyyt	\N	210370	29624	34191	cw_bot	history-import:cw_bot:8598	2026-08-21 00:15:42.209+00
-BasketballBattle	Basketball Battle	basketballbattle	621412324	dabcat818	S7NS	\N	43450000	1739	34194	cw_bot	history-import:cw_bot:1782	2026-06-07 17:32:51.445+00
-BasketballBattle	Basketball Battle	basketballbattle	643466909	itsmason3725	H8M3	\N	46880000	1241	34194	cw_bot	history-import:cw_bot:785	2026-05-16 01:26:54.902+00
-BasketballBattle	Basketball Battle	basketballbattle	646372767	904aj603	VA1N	\N	3160000	19441	34194	cw_bot	history-import:cw_bot:1120	2026-04-27 02:09:16.229+00
-BasketballBattle	Basketball Battle	basketballbattle	651456138	TrikStar007	3zEZ	\N	43720000	1690	34194	cw_bot	history-import:cw_bot:4212	2026-04-12 20:09:23.388+00
-BasketballBattle	Basketball Battle	basketballbattle	653179078	killinBABYS111	DGSL	\N	217840	29431	34194	cw_bot	history-import:cw_bot:8286	2026-04-15 20:29:26.949+00
-BasketballBattle	Basketball Battle	basketballbattle	659542061	rrodgers0206	POPS	\N	16260000	8315	34192	cw_bot	history-import:cw_bot:737	2026-07-17 18:57:55.775+00
-BasketballBattle	Basketball Battle	basketballbattle	661099895	patcola2010	V1LN	\N	13500000	9894	34192	cw_bot	history-import:cw_bot:7803	2026-07-24 00:04:23.322+00
-BasketballBattle	Basketball Battle	basketballbattle	681369033	Thatrobloxguy63	SOPU	\N	58590000	531	34194	cw_bot	history-import:cw_bot:8332	2026-04-06 08:26:58.844+00
-BasketballBattle	Basketball Battle	basketballbattle	688928053	Noahangrybird1234	BEZE	\N	40140000	2334	34194	cw_bot	history-import:cw_bot:8353	2026-04-06 08:29:37.081+00
-BasketballBattle	Basketball Battle	basketballbattle	694900194	Manolodroidgamer12	SULS	\N	47960000	1088	34194	cw_bot	history-import:cw_bot:1932	2026-06-21 04:18:35.734+00
-BasketballBattle	Basketball Battle	basketballbattle	697378514	robloxiswaste213445	NXNG	\N	11050000	11912	34192	cw_bot	history-import:cw_bot:3086	2026-07-28 21:08:04.725+00
-BasketballBattle	Basketball Battle	basketballbattle	709222551	Theozzz12	UN0	\N	77080000	24	34194	cw_bot	history-import:cw_bot:8170	2026-04-26 15:05:43.056+00
-BasketballBattle	Basketball Battle	basketballbattle	722456679	mujiTABA1	\N	\N	40490000	2273	34194	cw_bot	history-import:cw_bot:2022	2026-06-28 16:42:57.557+00
-BasketballBattle	Basketball Battle	basketballbattle	779059828	jimynew	SS1N	\N	265770	28289	34194	cw_bot	history-import:cw_bot:1536	2026-05-16 23:39:36.553+00
-BasketballBattle	Basketball Battle	basketballbattle	782937820	the_macraft7	skvi	\N	45560000	1427	34191	cw_bot	history-import:cw_bot:7569	2026-08-16 22:06:59.348+00
-BasketballBattle	Basketball Battle	basketballbattle	790873913	homless9	STPS	\N	2590000	20477	34192	cw_bot	history-import:cw_bot:6445	2026-08-06 17:44:57.059+00
-BasketballBattle	Basketball Battle	basketballbattle	792342249	MasterQuackerjack	KOHV	\N	22990000	5588	34192	cw_bot	history-import:cw_bot:2886	2026-07-31 15:48:14.753+00
-BasketballBattle	Basketball Battle	basketballbattle	810054419	catloncat	LEGT	\N	9150000	13918	34194	cw_bot	history-import:cw_bot:4025	2026-04-12 21:24:49.553+00
-BasketballBattle	Basketball Battle	basketballbattle	844720150	Sebastjan35	NXNG	\N	44530000	1568	34192	cw_bot	history-import:cw_bot:533	2026-07-17 18:48:35.159+00
-BasketballBattle	Basketball Battle	basketballbattle	855012952	batuoffi	OzTM	\N	22450000	5770	34194	cw_bot	history-import:cw_bot:3745	2026-04-18 01:15:08.854+00
-BasketballBattle	Basketball Battle	basketballbattle	857986484	pogujsn	DVQ	\N	2060000	22124	34192	cw_bot	history-import:cw_bot:7867	2026-07-08 14:28:28.369+00
-BasketballBattle	Basketball Battle	basketballbattle	859747399	sniperreki	GST2	25	\N	25	\N	external_import	history-import:big_bot:1027	2026-07-06 05:32:59.501+00
-BasketballBattle	Basketball Battle	basketballbattle	864632403	galaxyknight9204	Gewp	\N	3010000	19669	34194	cw_bot	history-import:cw_bot:1770	2026-05-29 01:34:02.793+00
-BasketballBattle	Basketball Battle	basketballbattle	876991750	Mertiliano	ORBI	\N	61690000	443	34192	cw_bot	history-import:cw_bot:2137	2026-08-01 04:17:09.805+00
-BasketballBattle	Basketball Battle	basketballbattle	877353566	lpvarmi	VLP	\N	46300000	1330	34192	cw_bot	history-import:cw_bot:7211	2026-07-29 20:25:50.738+00
-BasketballBattle	Basketball Battle	basketballbattle	911932139	Daniel8czs	W0m1	\N	23830000	5360	34192	cw_bot	history-import:cw_bot:6811	2026-08-01 11:19:39.153+00
-BasketballBattle	Basketball Battle	basketballbattle	916438379	Tq_Senior	st1z	\N	2130000	21860	34192	cw_bot	history-import:cw_bot:3143	2026-07-27 19:03:49.201+00
-BasketballBattle	Basketball Battle	basketballbattle	938181472	mmathias08	🏰 Clan: **POPS**	\N	\N	3601	34194	cw_bot	history-import:cw_bot:3527	2026-04-17 17:03:38.726+00
-BasketballBattle	Basketball Battle	basketballbattle	940036866	colinaidan1234567890	🏰 Clan: **PDYL**	\N	\N	22663	34194	cw_bot	history-import:cw_bot:941	2026-04-19 17:10:54.929+00
-BasketballBattle	Basketball Battle	basketballbattle	955175856	fatalwaccle	BYRD	\N	3150000	19452	34194	cw_bot	history-import:cw_bot:4183	2026-04-12 20:31:29.037+00
-BasketballBattle	Basketball Battle	basketballbattle	981933151	doczmerson	PABS	\N	45390000	1444	34192	cw_bot	history-import:cw_bot:7601	2026-08-11 13:00:07.332+00
-BasketballBattle	Basketball Battle	basketballbattle	983863343	akita_nuru	MTNR	\N	4920000	17925	34191	cw_bot	history-import:cw_bot:9582	2026-08-16 14:43:07.843+00
-BasketballBattle	Basketball Battle	basketballbattle	1000059115	rimonus	SOPU	\N	58560000	532	34194	cw_bot	history-import:cw_bot:1803	2026-06-13 11:10:39.923+00
-BasketballBattle	Basketball Battle	basketballbattle	1024664859	NotArsann7	AR2Y	\N	44820000	1532	34194	cw_bot	history-import:cw_bot:1254	2026-05-03 05:34:41.421+00
-BasketballBattle	Basketball Battle	basketballbattle	1029579815	Marshmellow_1177	YLW	\N	29220000	4056	34194	cw_bot	history-import:cw_bot:1299	2026-05-05 21:28:38.219+00
-BasketballBattle	Basketball Battle	basketballbattle	1044395777	patrykkpro1	V1LN	\N	12140000	10962	34192	cw_bot	history-import:cw_bot:7725	2026-08-05 20:28:34.504+00
-BasketballBattle	Basketball Battle	basketballbattle	1049702109	realchaseblox	FaZ	\N	63060000	406	34194	cw_bot	history-import:cw_bot:1313	2026-05-05 21:59:20.786+00
-BasketballBattle	Basketball Battle	basketballbattle	1055219519	eon2020	K1WI	\N	16690000	8104	34194	cw_bot	history-import:cw_bot:8097	2026-06-24 23:15:47.3+00
-BasketballBattle	Basketball Battle	basketballbattle	1060055099	mimo_4	MLRM	\N	990140	24353	34192	cw_bot	history-import:cw_bot:6733	2026-08-04 10:19:23.697+00
-BasketballBattle	Basketball Battle	basketballbattle	1081067684	mimilrol	ROMU	\N	18700000	7227	34192	cw_bot	history-import:cw_bot:407	2026-07-17 18:47:08.019+00
-BasketballBattle	Basketball Battle	basketballbattle	1109750537	tonynecko	UN0	\N	78740000	6	34192	cw_bot	history-import:cw_bot:4276	2026-08-12 03:27:47.805+00
-BasketballBattle	Basketball Battle	basketballbattle	1128825363	Not_kukiasbotys	tplx	\N	6900000	16492	34192	cw_bot	history-import:cw_bot:7228	2026-07-29 09:31:43.169+00
-BasketballBattle	Basketball Battle	basketballbattle	1128913028	proivano10	WOTF	\N	9850000	13108	34192	cw_bot	history-import:cw_bot:2896	2026-07-31 15:15:45.624+00
-BasketballBattle	Basketball Battle	basketballbattle	1137640592	clackerskill	Goop	\N	77800000	15	34192	cw_bot	history-import:cw_bot:4660	2026-08-01 00:22:28.841+00
-BasketballBattle	Basketball Battle	basketballbattle	1146217738	xXjirkaXxboys	SJCJ	\N	19440000	6932	34194	cw_bot	history-import:cw_bot:4047	2026-04-12 22:01:07.439+00
-BasketballBattle	Basketball Battle	basketballbattle	1157052710	laughytrex	XPQX	\N	10200000	12715	34194	cw_bot	history-import:cw_bot:891	2026-04-24 03:00:59.658+00
-BasketballBattle	Basketball Battle	basketballbattle	1158978049	Mr_trolololx019	BCN2	\N	3640000	18907	34192	cw_bot	history-import:cw_bot:7832	2026-07-05 15:55:32.872+00
-BasketballBattle	Basketball Battle	basketballbattle	1160481763	fajeczka4	BOTZ	\N	2480000	20774	34192	cw_bot	history-import:cw_bot:6791	2026-08-03 09:49:43.16+00
-BasketballBattle	Basketball Battle	basketballbattle	1163321217	protozejelen	LV13	\N	13030000	10226	34192	cw_bot	history-import:cw_bot:7135	2026-07-30 15:23:48.828+00
-BasketballBattle	Basketball Battle	basketballbattle	1171409734	tominko130	LP7	\N	18360000	7394	34192	cw_bot	history-import:cw_bot:6324	2026-08-07 12:38:50.885+00
-BasketballBattle	Basketball Battle	basketballbattle	1178078831	mavilure	NXNG	\N	39490000	2449	34194	cw_bot	history-import:cw_bot:9112	2026-07-04 02:37:26.103+00
-BasketballBattle	Basketball Battle	basketballbattle	1179507007	tomisek134	HR2T	\N	30620000	3801	34192	cw_bot	history-import:cw_bot:4742	2026-08-11 18:03:07.712+00
-BasketballBattle	Basketball Battle	basketballbattle	1192463440	Jonas139075	dkps	\N	2390000	21039	34192	cw_bot	history-import:cw_bot:2780	2026-07-31 19:36:15.216+00
-BasketballBattle	Basketball Battle	basketballbattle	1221841742	Azurqson	UN0	\N	73960000	110	34194	cw_bot	history-import:cw_bot:3786	2026-04-06 19:59:26.612+00
-BasketballBattle	Basketball Battle	basketballbattle	1229931292	ijyrgk	V015	\N	8930000	14184	34194	cw_bot	history-import:cw_bot:9098	2026-07-04 00:22:27.772+00
-BasketballBattle	Basketball Battle	basketballbattle	1232493274	MARYNADA058	BDX	\N	15560000	8637	34192	cw_bot	history-import:cw_bot:6889	2026-07-31 20:00:25.469+00
-BasketballBattle	Basketball Battle	basketballbattle	1239924818	txawhy	YEMN	\N	341120	27480	34194	cw_bot	history-import:cw_bot:1002	2026-04-18 14:07:59.883+00
-BasketballBattle	Basketball Battle	basketballbattle	1240710842	voffenleon	PAAC	\N	20380000	6562	34192	cw_bot	history-import:cw_bot:7016	2026-07-31 09:34:26.196+00
-BasketballBattle	Basketball Battle	basketballbattle	1243643868	ASEYIsoos	Goop	\N	46530000	1289	34192	cw_bot	history-import:cw_bot:9427	2026-08-12 22:46:12.145+00
-BasketballBattle	Basketball Battle	basketballbattle	1245227095	TheoFuraxe	ROMU	\N	31170000	3702	34192	cw_bot	history-import:cw_bot:125	2026-07-17 18:32:35.762+00
-BasketballBattle	Basketball Battle	basketballbattle	1258957228	idjdjjdi2	K0ii	\N	16430000	8229	34194	cw_bot	history-import:cw_bot:1940	2026-06-21 20:32:04.889+00
-BasketballBattle	Basketball Battle	basketballbattle	1274135054	latestmallard87	vysn	\N	47750000	1122	34194	cw_bot	history-import:cw_bot:3749	2026-04-18 01:16:24.862+00
-BasketballBattle	Basketball Battle	basketballbattle	1277089394	LUVALICEEXO	XTND	\N	14910000	8984	34194	cw_bot	history-import:cw_bot:9262	2026-04-28 15:57:56.007+00
-BasketballBattle	Basketball Battle	basketballbattle	1279232695	Ac3scar	GST2	\N	21910000	5964	34194	cw_bot	history-import:cw_bot:244	2026-05-10 02:13:40.5+00
-BasketballBattle	Basketball Battle	basketballbattle	1283935690	Laura_V13	07W	\N	15980000	8433	34192	cw_bot	history-import:cw_bot:4345	2026-08-09 17:50:39.523+00
-BasketballBattle	Basketball Battle	basketballbattle	1286384664	uzuisnipes	W2VY	\N	38720000	2573	34192	cw_bot	history-import:cw_bot:339	2026-07-17 18:33:12.116+00
-BasketballBattle	Basketball Battle	basketballbattle	1294169389	crazy_blox6677	RATZ	\N	22470000	5763	34192	cw_bot	history-import:cw_bot:2620	2026-07-31 20:54:30.508+00
-BasketballBattle	Basketball Battle	basketballbattle	1330097404	tomasbudik007	VLP	\N	23990000	5306	34192	cw_bot	history-import:cw_bot:7100	2026-07-30 18:00:28.62+00
-BasketballBattle	Basketball Battle	basketballbattle	1339745372	alescar234	S2PU	\N	3230000	19351	34192	cw_bot	history-import:cw_bot:2961	2026-07-30 13:27:00.044+00
-BasketballBattle	Basketball Battle	basketballbattle	1364275114	Czech9912	VLP	\N	13140000	10153	34192	cw_bot	history-import:cw_bot:6694	2026-08-04 20:29:16.813+00
-BasketballBattle	Basketball Battle	basketballbattle	1376213247	eric23129	DLOW	\N	14590000	9172	34194	cw_bot	history-import:cw_bot:3938	2026-06-26 14:54:31.345+00
-BasketballBattle	Basketball Battle	basketballbattle	1380082703	Allalboy2	7HRW	\N	27720000	4418	34194	cw_bot	history-import:cw_bot:8216	2026-04-08 19:50:25.995+00
-BasketballBattle	Basketball Battle	basketballbattle	1384486800	Hellowentonio	WSL	\N	12680000	10495	34191	cw_bot	history-import:cw_bot:9830	2026-08-26 19:56:32.35+00
-BasketballBattle	Basketball Battle	basketballbattle	1384716628	barti12345610	_hot	\N	29960000	3915	34192	cw_bot	history-import:cw_bot:8531	2026-07-21 19:41:58.049+00
-BasketballBattle	Basketball Battle	basketballbattle	1386665561	nuxx7	Z3EE	\N	20630000	6484	34194	cw_bot	history-import:cw_bot:274	2026-05-17 10:44:35.489+00
-BasketballBattle	Basketball Battle	basketballbattle	1403606137	GhostWhisperer03	H2RM	\N	1770000	22810	34192	cw_bot	history-import:cw_bot:6912	2026-08-01 01:11:48.951+00
-BasketballBattle	Basketball Battle	basketballbattle	1409166088	treytonpeterbuilt	GSTG	\N	27100000	4554	34194	cw_bot	history-import:cw_bot:1371	2026-05-07 00:27:08.494+00
-BasketballBattle	Basketball Battle	basketballbattle	1413108041	Gajmer2011	🏰 Clan: **dkps**	\N	\N	9018	34194	cw_bot	history-import:cw_bot:3550	2026-03-12 11:07:41.895+00
-BasketballBattle	Basketball Battle	basketballbattle	1428528797	play998755	HR2T	\N	18300000	7414	34192	cw_bot	history-import:cw_bot:7284	2026-07-26 21:50:12.767+00
-BasketballBattle	Basketball Battle	basketballbattle	1437069784	oldmanwrinklenose	S2PU	\N	1190000	23821	34194	cw_bot	history-import:cw_bot:3899	2026-05-25 16:50:02.805+00
-BasketballBattle	Basketball Battle	basketballbattle	1448209893	starwarsroblox2099	Goop	\N	53970000	677	34192	cw_bot	history-import:cw_bot:2680	2026-08-01 04:00:56.996+00
-BasketballBattle	Basketball Battle	basketballbattle	1452886316	kubistaa	DJRK	\N	8030000	15278	34191	cw_bot	history-import:cw_bot:5221	2026-08-21 19:09:04.387+00
-BasketballBattle	Basketball Battle	basketballbattle	1455404309	vavasamasa	_CEO	\N	8070000	15237	34192	cw_bot	history-import:cw_bot:6770	2026-08-03 07:19:33.116+00
-BasketballBattle	Basketball Battle	basketballbattle	1462748729	dragonballx1412	V1LN	\N	24620000	5122	34192	cw_bot	history-import:cw_bot:192	2026-07-17 01:03:33.384+00
-BasketballBattle	Basketball Battle	basketballbattle	1469224615	TheRealToonster	XBOX	\N	25000000	5027	34194	cw_bot	history-import:cw_bot:1090	2026-04-25 23:24:03.687+00
-BasketballBattle	Basketball Battle	basketballbattle	1476403654	dilerij2	BEZE	\N	1150000	23898	34194	cw_bot	history-import:cw_bot:2074	2026-07-01 18:46:57.039+00
-BasketballBattle	Basketball Battle	basketballbattle	1478878528	kyzer_nash	WSL	\N	258210	28439	34192	cw_bot	history-import:cw_bot:9612	2026-08-09 02:48:20.151+00
-BasketballBattle	Basketball Battle	basketballbattle	1501050755	RealYTStarz	st1z	\N	42840000	1857	34194	cw_bot	history-import:cw_bot:1973	2026-06-27 18:27:30.824+00
-BasketballBattle	Basketball Battle	basketballbattle	1501625591	floriansamuraiu	07W	\N	13330000	10002	34192	cw_bot	history-import:cw_bot:7904	2026-07-08 14:32:48.38+00
-BasketballBattle	Basketball Battle	basketballbattle	1509495433	arrume_aparte12	SULS	\N	55870000	606	34192	cw_bot	history-import:cw_bot:8022	2026-07-08 14:39:41.28+00
-BasketballBattle	Basketball Battle	basketballbattle	1510971300	Informix_CZ	KMo	\N	15940000	8449	34192	cw_bot	history-import:cw_bot:6225	2026-08-08 08:18:03.311+00
-BasketballBattle	Basketball Battle	basketballbattle	1514487909	mufflingg	Z3EE	\N	44350000	1589	34194	cw_bot	history-import:cw_bot:2046	2026-06-30 03:14:01.994+00
-BasketballBattle	Basketball Battle	basketballbattle	1515580709	notaurorasky008	skvi	\N	39100000	2510	34191	cw_bot	history-import:cw_bot:7550	2026-08-16 16:38:28.759+00
-BasketballBattle	Basketball Battle	basketballbattle	1519381006	CloudyVR65	DLOW	\N	10120000	12806	34194	cw_bot	history-import:cw_bot:1141	2026-04-27 02:10:48.062+00
-BasketballBattle	Basketball Battle	basketballbattle	1519933607	JustCaIIMeEgg	Farm	\N	42870000	1848	34192	cw_bot	history-import:cw_bot:501	2026-07-17 18:48:12.453+00
-BasketballBattle	Basketball Battle	basketballbattle	1520358099	FlipFlopFloop417	CC4T	\N	17640000	7696	34192	cw_bot	history-import:cw_bot:356	2026-07-17 18:33:20.942+00
-BasketballBattle	Basketball Battle	basketballbattle	1528718508	strykertoff	XPQX	\N	2260000	21421	34194	cw_bot	history-import:cw_bot:1267	2026-05-03 14:42:25.308+00
-BasketballBattle	Basketball Battle	basketballbattle	1537916189	MailDaCoolKid	SOPU	\N	40920000	2203	34194	cw_bot	history-import:cw_bot:9198	2026-06-19 13:04:44.383+00
-BasketballBattle	Basketball Battle	basketballbattle	1539398349	Darkszern	SOPU	\N	40240000	2320	34192	cw_bot	history-import:cw_bot:4573	2026-08-04 19:57:01.734+00
-BasketballBattle	Basketball Battle	basketballbattle	1540810735	Digitallw	SOPU	\N	41930000	2016	34194	cw_bot	history-import:cw_bot:1603	2026-05-20 23:36:13.83+00
-BasketballBattle	Basketball Battle	basketballbattle	1546214233	ninjaogifox	DLOW	\N	22430000	5773	34192	cw_bot	history-import:cw_bot:5980	2026-08-10 21:49:03.348+00
-BasketballBattle	Basketball Battle	basketballbattle	1572663900	radekfila1977	HR2T	\N	8440000	14767	34192	cw_bot	history-import:cw_bot:7288	2026-07-26 21:50:50.973+00
-BasketballBattle	Basketball Battle	basketballbattle	1573629774	mkmike27mk	XPQX	\N	12660000	10511	34194	cw_bot	history-import:cw_bot:258	2026-05-16 17:04:30.807+00
-BasketballBattle	Basketball Battle	basketballbattle	1581306248	Robloxak_Honiik	KMo	\N	20300000	6589	34191	cw_bot	history-import:cw_bot:5835	2026-08-14 19:05:13.93+00
-BasketballBattle	Basketball Battle	basketballbattle	1587906543	wexfordfox	BOSK	\N	39050000	2526	34194	cw_bot	history-import:cw_bot:9288	2026-04-29 12:14:55.272+00
-BasketballBattle	Basketball Battle	basketballbattle	1592738293	1ncr3d1bl3sulk	DRK5	\N	40720000	2236	34194	cw_bot	history-import:cw_bot:1281	2026-05-03 22:19:36.985+00
-BasketballBattle	Basketball Battle	basketballbattle	1594240458	milan123CZ2	SVSP	\N	5250000	17661	34191	cw_bot	history-import:cw_bot:5591	2026-08-16 09:47:43.095+00
-BasketballBattle	Basketball Battle	basketballbattle	1595931381	secret_agent3736	DOLA	\N	9430000	13581	34194	cw_bot	history-import:cw_bot:3919	2026-06-24 23:03:41.029+00
-BasketballBattle	Basketball Battle	basketballbattle	1596560199	wiegehtdennsowas	XBOX	\N	41070000	2176	34194	cw_bot	history-import:cw_bot:9323	2026-04-05 16:35:34.64+00
-BasketballBattle	Basketball Battle	basketballbattle	1613882953	toastedpoptartonyt	CXTG	\N	14370000	9314	34191	cw_bot	history-import:cw_bot:9921	2026-08-18 18:50:20.423+00
-BasketballBattle	Basketball Battle	basketballbattle	1617221713	waheedplayzYT	S2PU	\N	16530000	8177	34192	cw_bot	history-import:cw_bot:7784	2026-07-22 21:12:43.733+00
-BasketballBattle	Basketball Battle	basketballbattle	1626378539	Fulda645	S7NS	\N	39480000	2450	34194	cw_bot	history-import:cw_bot:8147	2026-04-28 12:17:49.765+00
-BasketballBattle	Basketball Battle	basketballbattle	1644308020	hoon9900a	vvjp	\N	28460000	4234	34192	cw_bot	history-import:cw_bot:8935	2026-07-29 11:32:45.032+00
-BasketballBattle	Basketball Battle	basketballbattle	1647731044	angelwytb	GST2	\N	29970000	3914	34192	cw_bot	history-import:cw_bot:7980	2026-07-08 14:37:40.756+00
-BasketballBattle	Basketball Battle	basketballbattle	1652197454	fighter92399_alt	NONG	\N	73830000	115	34194	cw_bot	history-import:cw_bot:1834	2026-06-16 00:22:27.481+00
-BasketballBattle	Basketball Battle	basketballbattle	1670011733	Kono9595	RBD	\N	2350000	21136	34192	cw_bot	history-import:cw_bot:6374	2026-08-07 18:53:41.202+00
-BasketballBattle	Basketball Battle	basketballbattle	1676340458	AgreedFlower11	0RBI	\N	40530000	2261	34192	cw_bot	history-import:cw_bot:618	2026-07-17 18:49:30.27+00
-BasketballBattle	Basketball Battle	basketballbattle	1676361250	RealYoDarkshadow	Lyyt	\N	8670000	14501	34194	cw_bot	history-import:cw_bot:3990	2026-04-12 22:22:05.865+00
-BasketballBattle	Basketball Battle	basketballbattle	1683480006	kminoscz	KMo	\N	37640000	2743	34192	cw_bot	history-import:cw_bot:7081	2026-07-30 17:15:30.786+00
-BasketballBattle	Basketball Battle	basketballbattle	1685635748	farmboyjetw	Goop	\N	60220000	485	34194	cw_bot	history-import:cw_bot:8311	2026-04-02 20:23:10.489+00
-BasketballBattle	Basketball Battle	basketballbattle	1690820953	1tombay	BEZE	\N	45380000	1448	34194	cw_bot	history-import:cw_bot:1720	2026-05-23 14:09:54.985+00
-BasketballBattle	Basketball Battle	basketballbattle	1697239942	racingchampaj	AR2Y	\N	10130000	12791	34192	cw_bot	history-import:cw_bot:7892	2026-07-08 14:32:13.162+00
-BasketballBattle	Basketball Battle	basketballbattle	1727137762	azmvoisshot	ORB	\N	765390	25293	34194	cw_bot	history-import:cw_bot:823	2026-06-13 03:07:29.607+00
-BasketballBattle	Basketball Battle	basketballbattle	1750005492	averyhein1920	S2PU	\N	11560000	11453	34194	cw_bot	history-import:cw_bot:8398	2026-06-17 00:11:42.038+00
-BasketballBattle	Basketball Battle	basketballbattle	1756730755	imsazzyy	OTTR	\N	44860000	1527	34194	cw_bot	history-import:cw_bot:9136	2026-06-29 23:26:20.807+00
-BasketballBattle	Basketball Battle	basketballbattle	1759162396	9kbotzz	XBOX	\N	37090000	2806	34194	cw_bot	history-import:cw_bot:9335	2026-04-05 20:49:49.97+00
-BasketballBattle	Basketball Battle	basketballbattle	1780089241	dominikando11	Ice6	\N	12080000	11014	34194	cw_bot	history-import:cw_bot:4010	2026-04-12 21:23:47.034+00
-BasketballBattle	Basketball Battle	basketballbattle	1787663283	TheBuilder5649	FGZW	\N	9180000	13883	34194	cw_bot	history-import:cw_bot:4079	2026-04-12 22:03:03.052+00
-BasketballBattle	Basketball Battle	basketballbattle	1814033582	xvlamer	🏰 Clan: **TRXG**	\N	\N	4294	34194	cw_bot	history-import:cw_bot:3658	2026-04-19 07:41:22.679+00
-BasketballBattle	Basketball Battle	basketballbattle	1817334423	zerz06	Goop	\N	41580000	2074	34191	cw_bot	history-import:cw_bot:8710	2026-08-26 17:22:03.043+00
-BasketballBattle	Basketball Battle	basketballbattle	1818966891	Drak1735	tnlg	\N	9440000	13565	34191	cw_bot	history-import:cw_bot:5849	2026-08-14 19:17:31.862+00
-BasketballBattle	Basketball Battle	basketballbattle	1824713899	hayojeu2k	W2VY	\N	11120000	11843	34192	cw_bot	history-import:cw_bot:672	2026-07-17 18:57:09.828+00
-BasketballBattle	Basketball Battle	basketballbattle	1835808563	1213eric	_MGW	\N	34260000	3224	34194	cw_bot	history-import:cw_bot:1644	2026-05-21 04:56:29.857+00
-BasketballBattle	Basketball Battle	basketballbattle	1856284829	younes89755	NONG	\N	45990000	1368	34194	cw_bot	history-import:cw_bot:1353	2026-05-06 23:01:41.242+00
-BasketballBattle	Basketball Battle	basketballbattle	1881899133	Coxxman	HROT	\N	31620000	3613	34192	cw_bot	history-import:cw_bot:7441	2026-07-13 19:26:57.695+00
-BasketballBattle	Basketball Battle	basketballbattle	1895942489	ziomek1000oo	_hot	\N	19200000	7026	34191	cw_bot	history-import:cw_bot:7586	2026-08-19 21:17:39.542+00
-BasketballBattle	Basketball Battle	basketballbattle	1899977300	luk3svib5s	Fm4L	\N	7630000	15778	34192	cw_bot	history-import:cw_bot:5931	2026-08-12 05:05:40.788+00
-BasketballBattle	Basketball Battle	basketballbattle	1933064023	cb7rebel	SAM4	\N	21460	32970	34194	cw_bot	history-import:cw_bot:4103	2026-04-12 20:17:10.048+00
-BasketballBattle	Basketball Battle	basketballbattle	1950318403	itsgaternotgator	W2VY	\N	9170000	13891	34194	cw_bot	history-import:cw_bot:311	2026-07-01 16:29:10.815+00
-BasketballBattle	Basketball Battle	basketballbattle	1973447751	radkozahumensky5	BDX	\N	15090000	8875	34191	cw_bot	history-import:cw_bot:4976	2026-08-24 18:50:27.632+00
-BasketballBattle	Basketball Battle	basketballbattle	1973891991	lab44162	3zEZ	\N	14710000	9085	34192	cw_bot	history-import:cw_bot:2358	2026-08-11 11:08:52.921+00
-BasketballBattle	Basketball Battle	basketballbattle	1986018475	Yazooony55	AXOK	\N	14370000	9316	34192	cw_bot	history-import:cw_bot:2312	2026-08-12 18:23:23.035+00
-BasketballBattle	Basketball Battle	basketballbattle	2005983585	shadowstaristhegoat	SOPU	\N	34950000	3107	34192	cw_bot	history-import:cw_bot:9561	2026-07-31 10:09:27.163+00
-BasketballBattle	Basketball Battle	basketballbattle	2015826915	Thiballa	ANG_	\N	18960000	7124	34194	cw_bot	history-import:cw_bot:1009	2026-04-18 19:09:38.623+00
-BasketballBattle	Basketball Battle	basketballbattle	2017652746	roastedduck123	OTTR	\N	42330000	1937	34192	cw_bot	history-import:cw_bot:9043	2026-07-12 22:45:18.893+00
-BasketballBattle	Basketball Battle	basketballbattle	2046133197	coltwertzu	V1LN	\N	23270000	5504	34194	cw_bot	history-import:cw_bot:9345	2026-03-30 23:05:52.126+00
-BasketballBattle	Basketball Battle	basketballbattle	2064474099	macejko998	K989	\N	10320000	12593	34191	cw_bot	history-import:cw_bot:5606	2026-08-16 18:31:51.714+00
-BasketballBattle	Basketball Battle	basketballbattle	2067834432	blazeeok	Goop	\N	42200000	1964	34192	cw_bot	history-import:cw_bot:3184	2026-07-26 20:02:36.593+00
-BasketballBattle	Basketball Battle	basketballbattle	2226792909	Raptorik_gamer	HR2T	\N	17650000	7692	34192	cw_bot	history-import:cw_bot:7427	2026-07-18 17:45:36.477+00
-BasketballBattle	Basketball Battle	basketballbattle	2241042742	WallEExtreme	BURN	\N	18340000	7402	34192	cw_bot	history-import:cw_bot:8685	2026-07-15 16:36:29.044+00
-BasketballBattle	Basketball Battle	basketballbattle	2251616291	miminkoxxxxczdd	VLP	\N	26730000	4638	34191	cw_bot	history-import:cw_bot:7636	2026-08-15 11:12:28.99+00
-BasketballBattle	Basketball Battle	basketballbattle	2257366377	lottewashere	NMRE	\N	9310000	13737	34194	cw_bot	history-import:cw_bot:9314	2026-04-13 22:48:01.131+00
-BasketballBattle	Basketball Battle	basketballbattle	2268926446	Feibapa	Ash	\N	268000	28249	34192	cw_bot	history-import:cw_bot:2706	2026-07-31 16:47:53.554+00
-BasketballBattle	Basketball Battle	basketballbattle	2282416912	vae1oria	snmn	\N	8590000	14568	34194	cw_bot	history-import:cw_bot:9299	2026-04-25 08:43:24.827+00
-BasketballBattle	Basketball Battle	basketballbattle	2296914657	officialchost	NONG	\N	53180000	710	34194	cw_bot	history-import:cw_bot:3735	2026-04-22 06:40:26.037+00
-BasketballBattle	Basketball Battle	basketballbattle	2316325389	julimowi	TeGu	\N	40860000	2210	34192	cw_bot	history-import:cw_bot:2732	2026-07-31 17:12:47.437+00
-BasketballBattle	Basketball Battle	basketballbattle	2318308002	karelman1451	HR2T	\N	22660000	5698	34191	cw_bot	history-import:cw_bot:4916	2026-08-26 18:25:05.52+00
-BasketballBattle	Basketball Battle	basketballbattle	2320688195	daihukumochi223	2WEI	\N	45930000	1375	34194	cw_bot	history-import:cw_bot:8556	2026-06-17 03:04:38.757+00
-BasketballBattle	Basketball Battle	basketballbattle	2349313768	crystalboyo256	S7PY	\N	16380000	8257	34192	cw_bot	history-import:cw_bot:2978	2026-07-30 10:49:42.699+00
-BasketballBattle	Basketball Battle	basketballbattle	2349773489	jsemdobrejkabe	MSPN	\N	1360000	23437	34192	cw_bot	history-import:cw_bot:6237	2026-08-08 09:15:39.653+00
-BasketballBattle	Basketball Battle	basketballbattle	2399889452	starwax85	V1LN	\N	27400000	4497	34192	cw_bot	history-import:cw_bot:7766	2026-07-17 15:53:21.548+00
-BasketballBattle	Basketball Battle	basketballbattle	2431643806	1KRUCHY	XREX	\N	40260000	2318	34194	cw_bot	history-import:cw_bot:8061	2026-06-23 16:35:49.505+00
-BasketballBattle	Basketball Battle	basketballbattle	2443619256	mihokkon	UNO	\N	72360000	174	34194	cw_bot	history-import:cw_bot:3759	2026-04-17 00:20:59.211+00
-BasketballBattle	Basketball Battle	basketballbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	65860000	336	34192	cw_bot	history-import:cw_bot:2946	2026-07-30 23:41:01.908+00
-BasketballBattle	Basketball Battle	basketballbattle	2463337749	mrtendieman	GSTG	\N	30800000	3769	34191	cw_bot	history-import:cw_bot:7700	2026-08-16 16:38:00.619+00
-BasketballBattle	Basketball Battle	basketballbattle	2469768592	Raitonn0609	2WEI	\N	24900000	5051	34194	cw_bot	history-import:cw_bot:9370	2026-03-31 20:29:42.263+00
-BasketballBattle	Basketball Battle	basketballbattle	2475732693	Fazmashwastaken	FaZ	\N	38410000	2619	34192	cw_bot	history-import:cw_bot:10002	2026-08-09 01:32:35.34+00
-BasketballBattle	Basketball Battle	basketballbattle	2487889713	Doggo_1490	st1z	\N	3080000	19554	34194	cw_bot	history-import:cw_bot:1215	2026-05-01 16:32:08.802+00
-BasketballBattle	Basketball Battle	basketballbattle	2489885181	Ewan_314	NONG	\N	43710000	1692	34192	cw_bot	history-import:cw_bot:4436	2026-08-07 01:31:38.701+00
-BasketballBattle	Basketball Battle	basketballbattle	2495030397	fartagus_angel	WSL	\N	4450000	18260	34191	cw_bot	history-import:cw_bot:9602	2026-08-16 14:44:32.773+00
-BasketballBattle	Basketball Battle	basketballbattle	2509513667	Ryderkoo5545	ERC	\N	528930	26779	34191	cw_bot	history-import:cw_bot:5052	2026-08-23 10:46:48.07+00
-BasketballBattle	Basketball Battle	basketballbattle	2521267504	matejsbss	W0m1	\N	24410000	5179	34192	cw_bot	history-import:cw_bot:7477	2026-07-15 14:29:29.985+00
-BasketballBattle	Basketball Battle	basketballbattle	2529950059	swbrthe34rd	LBB	\N	7510000	15905	34191	cw_bot	history-import:cw_bot:5680	2026-08-15 00:36:32.07+00
-BasketballBattle	Basketball Battle	basketballbattle	2530992063	smrtak54	DJRK	\N	194840	30110	34192	cw_bot	history-import:cw_bot:6182	2026-08-08 19:57:25.253+00
-BasketballBattle	Basketball Battle	basketballbattle	2534684186	mrtoping123	Zeiz	\N	3860000	18735	34192	cw_bot	history-import:cw_bot:7032	2026-07-30 22:26:36.798+00
-BasketballBattle	Basketball Battle	basketballbattle	2539070982	Nomdecodetotoc34	ANG_	\N	13640000	9814	34194	cw_bot	history-import:cw_bot:1242	2026-05-02 16:27:23.292+00
-BasketballBattle	Basketball Battle	basketballbattle	2545832975	baconszombiesarmy	FGZW	\N	11740000	11296	34194	cw_bot	history-import:cw_bot:4057	2026-04-12 22:02:06.94+00
-BasketballBattle	Basketball Battle	basketballbattle	2575495153	IStoleYourChica	ORBI	\N	63660000	387	34192	cw_bot	history-import:cw_bot:80	2026-07-17 18:32:12.646+00
-BasketballBattle	Basketball Battle	basketballbattle	2628215963	praisevolxtz	st1z	\N	1400000	23348	34192	cw_bot	history-import:cw_bot:457	2026-07-17 18:47:40.523+00
-BasketballBattle	Basketball Battle	basketballbattle	2633185327	luxxrro	EXP	\N	45250000	1465	34194	cw_bot	history-import:cw_bot:1993	2026-06-28 16:25:22.311+00
-BasketballBattle	Basketball Battle	basketballbattle	2667688976	SlimGreycz_2	VLP	\N	3600000	18956	34192	cw_bot	history-import:cw_bot:7938	2026-07-08 14:35:29.662+00
-BasketballBattle	Basketball Battle	basketballbattle	2681952829	samplayz9977	XPQX	\N	5460000	17529	34194	cw_bot	history-import:cw_bot:1400	2026-05-10 00:23:27.332+00
-BasketballBattle	Basketball Battle	basketballbattle	2699598634	rosta128	HROT	\N	31710000	3598	34192	cw_bot	history-import:cw_bot:6966	2026-07-31 16:07:38.598+00
-BasketballBattle	Basketball Battle	basketballbattle	2709299989	fishy_axl22	st1z	\N	28160000	4301	34194	cw_bot	history-import:cw_bot:772	2026-05-10 02:24:40.449+00
-BasketballBattle	Basketball Battle	basketballbattle	2719084403	aidananthony013	XPQX	\N	8790000	14341	34194	cw_bot	history-import:cw_bot:1818	2026-06-13 15:03:54.201+00
-BasketballBattle	Basketball Battle	basketballbattle	2741135886	Micahtesdahl321	BLHZ	\N	246410	28668	34194	cw_bot	history-import:cw_bot:1521	2026-05-16 22:59:19.417+00
-BasketballBattle	Basketball Battle	basketballbattle	2741560826	notaps322	OTTR	\N	18580000	7284	34192	cw_bot	history-import:cw_bot:9945	2026-07-18 18:26:05.951+00
-BasketballBattle	Basketball Battle	basketballbattle	2773606910	Onlypetw	OzTM	\N	6660000	16673	34192	cw_bot	history-import:cw_bot:9973	2026-08-09 13:14:08.798+00
-BasketballBattle	Basketball Battle	basketballbattle	2786686086	Loewentatze12	CITC	\N	2280000	21339	34192	cw_bot	history-import:cw_bot:2438	2026-08-09 19:22:00.052+00
-BasketballBattle	Basketball Battle	basketballbattle	2793216369	F_Bizzle	UNITY	\N	43120000	1798	34194	cw_bot	history-import:cw_bot:1157	2026-04-27 21:42:43.611+00
-BasketballBattle	Basketball Battle	basketballbattle	2841006660	subujwojanaa	XREX	\N	38180000	2647	34192	cw_bot	history-import:cw_bot:9014	2026-07-17 19:55:23.416+00
-BasketballBattle	Basketball Battle	basketballbattle	2844876464	Destructcz23	HROT	\N	28040000	4329	34191	cw_bot	history-import:cw_bot:2270	2026-08-20 07:56:23.411+00
-BasketballBattle	Basketball Battle	basketballbattle	2848966007	roblox_user_2848966007	PT_S	\N	2420000	20943	34192	cw_bot	history-import:cw_bot:2428	2026-08-09 19:20:36.232+00
-BasketballBattle	Basketball Battle	basketballbattle	2892299154	Baggooooo	UN0	\N	77220000	22	34192	cw_bot	history-import:cw_bot:4547	2026-08-04 19:57:26.933+00
-BasketballBattle	Basketball Battle	basketballbattle	2901565950	bestrobloxsimsplayer	NONG	\N	65330000	346	34194	cw_bot	history-import:cw_bot:1180	2026-04-30 19:38:45.807+00
-BasketballBattle	Basketball Battle	basketballbattle	2912101187	coolgur0	0RB2	\N	24580000	5133	34192	cw_bot	history-import:cw_bot:514	2026-07-17 18:48:27.061+00
-BasketballBattle	Basketball Battle	basketballbattle	2915153725	Ishan90091	07W	\N	16080000	8381	34192	cw_bot	history-import:cw_bot:10057	2026-08-08 18:49:12.798+00
-BasketballBattle	Basketball Battle	basketballbattle	2929825206	roplexbuddy	F4DE	\N	53440000	697	34192	cw_bot	history-import:cw_bot:4260	2026-08-13 04:25:30.76+00
-BasketballBattle	Basketball Battle	basketballbattle	2948612124	saud02x	UN0	\N	72300000	175	34194	cw_bot	history-import:cw_bot:8205	2026-04-25 09:16:47.451+00
-BasketballBattle	Basketball Battle	basketballbattle	2956070032	AnnexOO1	DLOW	\N	52040000	768	34194	cw_bot	history-import:cw_bot:8248	2026-04-11 00:42:36.107+00
-BasketballBattle	Basketball Battle	basketballbattle	2980262380	Xperide	KOR_	\N	33660000	3307	34194	cw_bot	history-import:cw_bot:1489	2026-05-15 20:24:52.409+00
-BasketballBattle	Basketball Battle	basketballbattle	2981591104	Maroko_013	HROT	\N	59280000	509	34192	cw_bot	history-import:cw_bot:8867	2026-07-31 17:35:33.295+00
-BasketballBattle	Basketball Battle	basketballbattle	2988275843	zspjasieniec1	PABS	\N	51110000	820	34191	cw_bot	history-import:cw_bot:8497	2026-08-19 15:24:30.108+00
-BasketballBattle	Basketball Battle	basketballbattle	2992299705	Afrykan0	_hot	\N	18620000	7260	34191	cw_bot	history-import:cw_bot:7509	2026-08-28 16:42:30.025+00
-BasketballBattle	Basketball Battle	basketballbattle	2999732017	derharzendeharzer	V1LN	\N	44670000	1549	34194	cw_bot	history-import:cw_bot:4227	2026-04-12 20:09:36.816+00
-BasketballBattle	Basketball Battle	basketballbattle	3000748132	PickleCloudNacho	H8ER	\N	40220000	2322	34194	cw_bot	history-import:cw_bot:3959	2026-04-12 22:17:35.814+00
-BasketballBattle	Basketball Battle	basketballbattle	3000932506	JackJAC123999	URS7	\N	853390	24855	34192	cw_bot	history-import:cw_bot:9513	2026-07-07 15:52:50.748+00
-BasketballBattle	Basketball Battle	basketballbattle	3019968804	Houtchyoi	ROMU	\N	28440000	4241	34194	cw_bot	history-import:cw_bot:1615	2026-05-20 23:36:44.19+00
-BasketballBattle	Basketball Battle	basketballbattle	3022616943	floatindrag	SSQD	\N	21810000	6001	34192	cw_bot	history-import:cw_bot:2566	2026-08-01 14:35:07.364+00
-BasketballBattle	Basketball Battle	basketballbattle	3036025083	Fernando0876543	PsAG	\N	42630000	1894	34192	cw_bot	history-import:cw_bot:6114	2026-08-09 01:13:58.738+00
-BasketballBattle	Basketball Battle	basketballbattle	3039307282	Mr_agnes30	XREX	\N	31190000	3697	34194	cw_bot	history-import:cw_bot:8078	2026-06-23 16:38:19.044+00
-BasketballBattle	Basketball Battle	basketballbattle	3045484191	svarta161010	VLP	\N	40	34084	34191	cw_bot	history-import:cw_bot:5358	2026-08-20 17:52:33.435+00
-BasketballBattle	Basketball Battle	basketballbattle	3046788322	Xerenity1	DLOW	\N	26830000	4615	34194	cw_bot	history-import:cw_bot:8259	2026-04-11 00:53:10.021+00
-BasketballBattle	Basketball Battle	basketballbattle	3060745926	thetruetdsglitch	XBOX	\N	42960000	1826	34194	cw_bot	history-import:cw_bot:8042	2026-04-30 15:47:59.662+00
-BasketballBattle	Basketball Battle	basketballbattle	3064251597	filipek2600cz	H8ER	\N	30840000	3756	34194	cw_bot	history-import:cw_bot:1567	2026-05-17 11:56:22.532+00
-BasketballBattle	Basketball Battle	basketballbattle	3074938605	d4v1d24k8hd	snmn	\N	158550	31096	34191	cw_bot	history-import:cw_bot:8583	2026-08-21 00:12:12.931+00
-BasketballBattle	Basketball Battle	basketballbattle	3076166235	dadgonecrazy2021	WSL	\N	11150000	11806	34191	cw_bot	history-import:cw_bot:9780	2026-08-26 19:50:08.045+00
-BasketballBattle	Basketball Battle	basketballbattle	3094350982	kki201217	LEGT	\N	779180	25223	34191	cw_bot	history-import:cw_bot:9905	2026-08-18 18:07:03.497+00
-BasketballBattle	Basketball Battle	basketballbattle	3096883976	markosk2007	IDF	\N	46500000	1293	34192	cw_bot	history-import:cw_bot:6071	2026-08-09 09:27:28.449+00
-BasketballBattle	Basketball Battle	basketballbattle	3110455209	kuroihanin	JPST	\N	277450	28119	34192	cw_bot	history-import:cw_bot:907	2026-07-17 19:08:55.749+00
-BasketballBattle	Basketball Battle	basketballbattle	3139037723	Tobik987123	cspe	\N	143650	31398	34192	cw_bot	history-import:cw_bot:6479	2026-08-06 18:08:45.622+00
-BasketballBattle	Basketball Battle	basketballbattle	3143604581	RebelkaCZ157	VLP	\N	19190000	7033	34192	cw_bot	history-import:cw_bot:6714	2026-08-04 09:43:51.606+00
-BasketballBattle	Basketball Battle	basketballbattle	3149302489	code_wille	0RBI	\N	62720000	416	34194	cw_bot	history-import:cw_bot:3844	2026-04-05 06:57:37.866+00
-BasketballBattle	Basketball Battle	basketballbattle	3167272498	zdendpicl9	DJRK	\N	2510000	20687	34191	cw_bot	history-import:cw_bot:5720	2026-08-15 08:51:50.658+00
-BasketballBattle	Basketball Battle	basketballbattle	3167571592	Hickarn1	3zEZ	\N	19280000	6994	34194	cw_bot	history-import:cw_bot:8384	2026-03-22 11:06:41.693+00
-BasketballBattle	Basketball Battle	basketballbattle	3171368431	darklode100	CC4T	\N	2290000	21330	34194	cw_bot	history-import:cw_bot:1130	2026-04-27 02:10:10.025+00
-BasketballBattle	Basketball Battle	basketballbattle	3181994439	anrijs9991	ORBI	\N	54780000	635	34194	cw_bot	history-import:cw_bot:1193	2026-04-30 19:59:29.548+00
-BasketballBattle	Basketball Battle	basketballbattle	3186034676	tobicole	DKWR	\N	440850	27076	34194	cw_bot	history-import:cw_bot:4122	2026-04-12 20:27:08.198+00
-BasketballBattle	Basketball Battle	basketballbattle	3189090824	bobbybiz1	UNTY	\N	44910000	1521	34194	cw_bot	history-import:cw_bot:3830	2026-04-05 06:52:03.294+00
-BasketballBattle	Basketball Battle	basketballbattle	3198094679	JanKob2022	_hot	\N	28440000	4239	34192	cw_bot	history-import:cw_bot:8454	2026-08-01 18:13:54.908+00
-BasketballBattle	Basketball Battle	basketballbattle	3208575762	tofikmore	2pGA	\N	1250000	23677	34191	cw_bot	history-import:cw_bot:5624	2026-08-16 07:23:34.699+00
-BasketballBattle	Basketball Battle	basketballbattle	3214063706	ZoraDaGoatOfficial	ANG_	\N	49610000	930	34194	cw_bot	history-import:cw_bot:958	2026-04-17 00:09:22.187+00
-BasketballBattle	Basketball Battle	basketballbattle	3214496713	DarkPhoenix917	UN0	\N	76690000	28	34192	cw_bot	history-import:cw_bot:4509	2026-08-04 19:56:06.385+00
-BasketballBattle	Basketball Battle	basketballbattle	3215370935	snorlaxfox1	DGSL	\N	34050000	3256	34194	cw_bot	history-import:cw_bot:9388	2026-04-02 02:54:57.549+00
-BasketballBattle	Basketball Battle	basketballbattle	3228101331	phoen1x_aus	WSL	\N	11830000	11227	34191	cw_bot	history-import:cw_bot:9768	2026-08-26 19:49:57.893+00
-BasketballBattle	Basketball Battle	basketballbattle	3233034644	ARIGO11234	Scly	\N	280820	28075	34192	cw_bot	history-import:cw_bot:3310	2026-07-24 20:34:16.905+00
-BasketballBattle	Basketball Battle	basketballbattle	3244967172	Daliborko6	karl	\N	13290000	10028	34192	cw_bot	history-import:cw_bot:4779	2026-07-30 16:13:56.602+00
-BasketballBattle	Basketball Battle	basketballbattle	3248091509	professorfeliks	PABS	\N	27010000	4583	34192	cw_bot	history-import:cw_bot:8982	2026-07-19 16:26:07.395+00
-BasketballBattle	Basketball Battle	basketballbattle	3252894844	vexityonnic	WJAY	\N	42780000	1873	34194	cw_bot	history-import:cw_bot:3814	2026-04-05 06:50:41.945+00
-BasketballBattle	Basketball Battle	basketballbattle	3252937116	vladysbomb	whpk	\N	509150	26844	34192	cw_bot	history-import:cw_bot:3364	2026-07-23 18:49:39.625+00
-BasketballBattle	Basketball Battle	basketballbattle	3271035452	Misak0912	K989	\N	19420000	6934	34192	cw_bot	history-import:cw_bot:6947	2026-08-01 08:49:00.863+00
-BasketballBattle	Basketball Battle	basketballbattle	3271442208	Jonglesje	HR2T	\N	31030000	3724	34191	cw_bot	history-import:cw_bot:2235	2026-08-24 09:46:55.285+00
-BasketballBattle	Basketball Battle	basketballbattle	3282696395	max_squash	ORBI	\N	58180000	541	34192	cw_bot	history-import:cw_bot:2122	2026-08-01 03:32:06.841+00
-BasketballBattle	Basketball Battle	basketballbattle	3289385978	KnKmor	DK	\N	26320000	4727	34192	cw_bot	history-import:cw_bot:8893	2026-08-01 18:12:49.345+00
-BasketballBattle	Basketball Battle	basketballbattle	3299278772	xxprozombix	BEZE	\N	70610000	220	34194	cw_bot	history-import:cw_bot:8671	2026-06-26 13:37:08.577+00
-BasketballBattle	Basketball Battle	basketballbattle	3318596083	Mamaris357357	OCHG	\N	8830000	14293	34191	cw_bot	history-import:cw_bot:5786	2026-08-14 17:19:41.498+00
-BasketballBattle	Basketball Battle	basketballbattle	3323392290	D0m1n8tr	SAM	\N	25430000	4925	34194	cw_bot	history-import:cw_bot:9275	2026-04-29 06:50:40.467+00
-BasketballBattle	Basketball Battle	basketballbattle	3326513585	alexesalt08	🏰 Clan: **NXNG**	\N	\N	13628	34194	cw_bot	history-import:cw_bot:3471	2026-04-21 20:06:40.446+00
-BasketballBattle	Basketball Battle	basketballbattle	3327485448	thegoatedkidof2022	WSL	\N	16310	33113	34191	cw_bot	history-import:cw_bot:9711	2026-08-28 19:31:59.738+00
-BasketballBattle	Basketball Battle	basketballbattle	3338233326	Andrewasper0987	ZIGZ	\N	3190000	19398	34194	cw_bot	history-import:cw_bot:1851	2026-06-17 12:39:01.167+00
-BasketballBattle	Basketball Battle	basketballbattle	3345239646	vojtas98CZ	K989	\N	654650	26030	34192	cw_bot	history-import:cw_bot:6153	2026-08-08 18:13:17.798+00
-BasketballBattle	Basketball Battle	basketballbattle	3357292523	Grec_Game	VLP	\N	2630000	20387	34192	cw_bot	history-import:cw_bot:7065	2026-07-30 17:14:48.532+00
-BasketballBattle	Basketball Battle	basketballbattle	3370104014	Standa256	VLP	\N	2220000	21564	34191	cw_bot	history-import:cw_bot:5139	2026-08-23 03:03:21.508+00
-BasketballBattle	Basketball Battle	basketballbattle	3372527888	CokoladovaZmrzska	cspe	\N	15700000	8553	34192	cw_bot	history-import:cw_bot:7359	2026-07-22 01:19:32.889+00
-BasketballBattle	Basketball Battle	basketballbattle	3373408758	housebox_go	HR2T	\N	21060000	6322	34192	cw_bot	history-import:cw_bot:6459	2026-08-06 17:53:29.386+00
-BasketballBattle	Basketball Battle	basketballbattle	3377511045	mercstien	B2SS	\N	47950000	1089	34194	cw_bot	history-import:cw_bot:1341	2026-05-06 09:08:51.241+00
-BasketballBattle	Basketball Battle	basketballbattle	3382833387	kingweslie123	BUTI	\N	22620000	5709	34192	cw_bot	history-import:cw_bot:2327	2026-08-12 21:19:37.585+00
-BasketballBattle	Basketball Battle	basketballbattle	3402015952	Josep_xD2	NONG	\N	47760000	1119	34194	cw_bot	history-import:cw_bot:64	2026-04-27 04:36:38.637+00
-BasketballBattle	Basketball Battle	basketballbattle	3421453702	noliogames	EVOL	\N	7470000	15969	34192	cw_bot	history-import:cw_bot:9472	2026-08-04 08:46:51.508+00
-BasketballBattle	Basketball Battle	basketballbattle	3439337856	prezley_official2022	VLP	\N	28870000	4145	34192	cw_bot	history-import:cw_bot:7119	2026-07-30 15:19:24.23+00
-BasketballBattle	Basketball Battle	basketballbattle	3444459957	Radek25101982	VLP	\N	11130000	11830	34192	cw_bot	history-import:cw_bot:6053	2026-08-09 09:04:46.362+00
-BasketballBattle	Basketball Battle	basketballbattle	3447427741	filipekisfff	BMJ4	\N	11550000	11463	34194	cw_bot	history-import:cw_bot:3887	2026-05-11 00:51:30.646+00
-BasketballBattle	Basketball Battle	basketballbattle	3448405650	eldublinfox	Fchn	\N	18480000	7336	34194	cw_bot	history-import:cw_bot:9395	2026-04-01 08:35:40.039+00
-BasketballBattle	Basketball Battle	basketballbattle	3500795024	Ey3d46	_hot	\N	23320000	5489	34194	cw_bot	history-import:cw_bot:294	2026-05-09 14:14:11.57+00
-BasketballBattle	Basketball Battle	basketballbattle	3509021767	JonnyM55	OCGH	\N	12100000	10992	34191	cw_bot	history-import:cw_bot:5553	2026-08-17 00:51:43.291+00
-BasketballBattle	Basketball Battle	basketballbattle	3549731928	Thijklo2003	KOHV	\N	34250000	3225	34194	cw_bot	history-import:cw_bot:1547	2026-05-17 01:50:48.281+00
-BasketballBattle	Basketball Battle	basketballbattle	3557375419	Subtokirbofanyt	AWZY	\N	18250000	7442	34192	cw_bot	history-import:cw_bot:2192	2026-07-27 21:40:54.835+00
-BasketballBattle	Basketball Battle	basketballbattle	3563519895	dexxifying	FYNE	\N	15290000	8775	34194	cw_bot	history-import:cw_bot:3769	2026-04-17 00:22:16.986+00
-BasketballBattle	Basketball Battle	basketballbattle	3565857429	Bb874tad	AR2Y	\N	2080000	22050	34192	cw_bot	history-import:cw_bot:7968	2026-07-08 14:36:26.417+00
-BasketballBattle	Basketball Battle	basketballbattle	3567067280	Kurtis2345789	ROMU	\N	7110000	16323	34194	cw_bot	history-import:cw_bot:589	2026-05-19 20:18:17.483+00
-BasketballBattle	Basketball Battle	basketballbattle	3570093892	CZ_Ondiik	HROT	\N	46710000	1263	34191	cw_bot	history-import:cw_bot:5869	2026-08-14 19:38:17.627+00
-BasketballBattle	Basketball Battle	basketballbattle	3582853902	Godboy94875	NS4R	\N	12460000	10670	34192	cw_bot	history-import:cw_bot:2548	2026-08-01 14:32:30.444+00
-BasketballBattle	Basketball Battle	basketballbattle	3602402808	Flexsnack21	UNTY	\N	51100000	822	34194	cw_bot	history-import:cw_bot:1206	2026-05-01 08:05:11.74+00
-BasketballBattle	Basketball Battle	basketballbattle	3628039137	anoknight5	XPQX	\N	2570000	20552	34192	cw_bot	history-import:cw_bot:3120	2026-07-28 18:56:15.247+00
-BasketballBattle	Basketball Battle	basketballbattle	3639903941	imandaskye	ORBI	\N	65300000	347	34192	cw_bot	history-import:cw_bot:2175	2026-08-01 03:30:43.552+00
-BasketballBattle	Basketball Battle	basketballbattle	3655474970	Shrooomdevourer10	V1LN	41	33900000	41	\N	external_import	history-import:big_bot:1071	2026-07-03 23:39:30.698+00
-BasketballBattle	Basketball Battle	basketballbattle	3672938221	zhulenc	VLP	\N	13030000	10225	34192	cw_bot	history-import:cw_bot:6528	2026-08-06 21:54:27.517+00
-BasketballBattle	Basketball Battle	basketballbattle	3683660130	Medvid3k11	cspe	\N	5430000	17548	34192	cw_bot	history-import:cw_bot:6989	2026-07-31 17:00:07.71+00
-BasketballBattle	Basketball Battle	basketballbattle	3714270625	angiespartytreat	RFIL	\N	31970000	3544	34192	cw_bot	history-import:cw_bot:7714	2026-08-02 11:57:07.168+00
-BasketballBattle	Basketball Battle	basketballbattle	3717157427	Gx_BlackNinja	S2PU	\N	51450000	798	34194	cw_bot	history-import:cw_bot:3794	2026-04-06 19:59:53.068+00
-BasketballBattle	Basketball Battle	basketballbattle	3741610856	DemxnIRL	ORBI	\N	41030000	2184	34192	cw_bot	history-import:cw_bot:4484	2026-08-06 00:26:19.98+00
-BasketballBattle	Basketball Battle	basketballbattle	3750045967	imnotdigitosim1476	0RBI	\N	46160000	1344	34191	cw_bot	history-import:cw_bot:5660	2026-08-14 22:17:44.993+00
-BasketballBattle	Basketball Battle	basketballbattle	3753977683	mybanana367	NONG	\N	56510000	588	34194	cw_bot	history-import:cw_bot:1469	2026-05-13 21:54:17.124+00
-BasketballBattle	Basketball Battle	basketballbattle	3768828357	mrs_reset	POPS	\N	20460000	6540	34194	cw_bot	history-import:cw_bot:8610	2026-06-17 00:15:13.179+00
-BasketballBattle	Basketball Battle	basketballbattle	3779230353	goat201470	H8M3	\N	38850000	2556	34194	cw_bot	history-import:cw_bot:8279	2026-04-13 16:26:51.02+00
-BasketballBattle	Basketball Battle	basketballbattle	3797718809	m4thou3	BOSK	\N	7100000	16332	34192	cw_bot	history-import:cw_bot:3078	2026-07-28 21:07:33.267+00
-BasketballBattle	Basketball Battle	basketballbattle	3808414208	Suppe_Can	SOPU	\N	40210000	2326	34194	cw_bot	history-import:cw_bot:8119	2026-04-27 17:55:05.386+00
-BasketballBattle	Basketball Battle	basketballbattle	3834652767	Roman5556_CZ	SAM4	\N	9510000	13477	34192	cw_bot	history-import:cw_bot:7411	2026-07-17 16:42:07.486+00
-BasketballBattle	Basketball Battle	basketballbattle	3853349557	melpatate12	GANG	\N	44520000	1570	34194	cw_bot	history-import:cw_bot:971	2026-04-18 02:12:53.563+00
-BasketballBattle	Basketball Battle	basketballbattle	3877547410	bedwarsikxdd	S2PU	\N	10500000	12426	34191	cw_bot	history-import:cw_bot:5743	2026-08-15 14:48:12.809+00
-BasketballBattle	Basketball Battle	basketballbattle	3915256201	david_smeg	mbee	\N	234280	28965	34192	cw_bot	history-import:cw_bot:3352	2026-07-23 15:30:35.199+00
-BasketballBattle	Basketball Battle	basketballbattle	3919100604	Filda7329	STPS	\N	11860000	11202	34192	cw_bot	history-import:cw_bot:6497	2026-08-06 18:48:55.736+00
-BasketballBattle	Basketball Battle	basketballbattle	3926695029	22mamamama	tNo	\N	4210000	18455	34192	cw_bot	history-import:cw_bot:7457	2026-07-15 07:59:07.687+00
-BasketballBattle	Basketball Battle	basketballbattle	3940781859	tigran_2206	BEZE	\N	10370000	12549	34192	cw_bot	history-import:cw_bot:866	2026-07-17 18:56:54.568+00
-BasketballBattle	Basketball Battle	basketballbattle	3978547556	Zoliisrecords	K989	\N	217490	29434	34191	cw_bot	history-import:cw_bot:4997	2026-08-24 10:40:01.728+00
-BasketballBattle	Basketball Battle	basketballbattle	3995854585	microwavealt0	B2NG	\N	47180000	1191	34194	cw_bot	history-import:cw_bot:3777	2026-04-06 19:45:30.695+00
-BasketballBattle	Basketball Battle	basketballbattle	4005548494	Nekrynk_cz	HROT	\N	23870000	5349	34192	cw_bot	history-import:cw_bot:6854	2026-08-01 23:09:05.564+00
-BasketballBattle	Basketball Battle	basketballbattle	4006052667	badamtttt	K989	\N	186970	30345	34192	cw_bot	history-import:cw_bot:6273	2026-08-08 11:25:07.466+00
-BasketballBattle	Basketball Battle	basketballbattle	4010792811	1zelvak	BDX	\N	765110	25293	34192	cw_bot	history-import:cw_bot:7277	2026-07-27 11:51:24.945+00
-BasketballBattle	Basketball Battle	basketballbattle	4023070188	kocovina98	DJRK	\N	2800000	20008	34191	cw_bot	history-import:cw_bot:5734	2026-08-15 11:32:52.389+00
-BasketballBattle	Basketball Battle	basketballbattle	4028104754	jaratupy36	MLRM	\N	1820000	22716	34191	cw_bot	history-import:cw_bot:5765	2026-08-14 16:48:48.942+00
-BasketballBattle	Basketball Battle	basketballbattle	4032508929	Skibidieny	K989	\N	964640	24440	34192	cw_bot	history-import:cw_bot:7194	2026-07-30 04:52:07.394+00
-BasketballBattle	Basketball Battle	basketballbattle	4035198924	ytpandaroux	ANG2	\N	21460000	6152	34192	cw_bot	history-import:cw_bot:932	2026-07-08 19:17:13.13+00
-BasketballBattle	Basketball Battle	basketballbattle	4051469126	Naruto61925	_hot	\N	30360000	3849	34192	cw_bot	history-import:cw_bot:3396	2026-07-23 20:03:20.004+00
-BasketballBattle	Basketball Battle	basketballbattle	4054510143	kudlankovec	POJO	\N	2060000	22119	34192	cw_bot	history-import:cw_bot:2487	2026-08-01 09:59:49.052+00
-BasketballBattle	Basketball Battle	basketballbattle	4054820865	jimmy_johnhi	ICYT	\N	18270000	7433	34194	cw_bot	history-import:cw_bot:1424	2026-05-11 01:19:45.857+00
-BasketballBattle	Basketball Battle	basketballbattle	4113094220	TTobbboTT	HERD	\N	5700000	17358	34194	cw_bot	history-import:cw_bot:9228	2026-05-12 19:20:42.195+00
-BasketballBattle	Basketball Battle	basketballbattle	4160339225	JamalTheHarryThe3rd	Dond	\N	572230	26615	34194	cw_bot	history-import:cw_bot:235	2026-04-18 20:55:48.35+00
-BasketballBattle	Basketball Battle	basketballbattle	4161934376	honza01021983	DJRK	\N	37690000	2734	34191	cw_bot	history-import:cw_bot:4850	2026-08-28 06:57:40.513+00
-BasketballBattle	Basketball Battle	basketballbattle	4167232216	nanuk_2232	VLP2	\N	458460	27022	34192	cw_bot	history-import:cw_bot:6305	2026-08-08 12:06:58.145+00
-BasketballBattle	Basketball Battle	basketballbattle	4177849716	doperthanyou67	KOHV	\N	21120000	6294	34192	cw_bot	history-import:cw_bot:9070	2026-07-08 01:06:13.66+00
-BasketballBattle	Basketball Battle	basketballbattle	4196761995	GravysOfficial	OCHG	\N	24100000	5266	34191	cw_bot	history-import:cw_bot:5120	2026-08-22 23:53:53.389+00
-BasketballBattle	Basketball Battle	basketballbattle	4197618114	Danczek0102	OCHG	\N	11600000	11415	34192	cw_bot	history-import:cw_bot:6287	2026-08-08 16:08:23.534+00
-BasketballBattle	Basketball Battle	basketballbattle	4215988499	abby_gamera	V1LN	\N	24390000	5189	34194	cw_bot	history-import:cw_bot:8158	2026-04-28 15:06:15.006+00
-BasketballBattle	Basketball Battle	basketballbattle	4224841429	Holemedonescr10	3zEZ	\N	46650000	1274	34194	cw_bot	history-import:cw_bot:1597	2026-05-20 19:08:41.718+00
-BasketballBattle	Basketball Battle	basketballbattle	4238790853	samsam16725	ROMU	\N	3880000	18712	34194	cw_bot	history-import:cw_bot:97	2026-06-19 21:20:32.05+00
-BasketballBattle	Basketball Battle	basketballbattle	4242955713	KazuyaTTV	S2PU	\N	25770000	4857	34194	cw_bot	history-import:cw_bot:215	2026-05-01 10:25:23.892+00
-BasketballBattle	Basketball Battle	basketballbattle	4247108285	irdski	IWHN	\N	9610000	13374	34191	cw_bot	history-import:cw_bot:4720	2026-08-14 21:21:37.198+00
-BasketballBattle	Basketball Battle	basketballbattle	4281402342	Selcuk1143	SW23	\N	716880	25588	34192	cw_bot	history-import:cw_bot:3053	2026-07-28 21:24:31.882+00
-BasketballBattle	Basketball Battle	basketballbattle	4290313900	rubberluffy1235	S2PU	\N	1280000	23590	34192	cw_bot	history-import:cw_bot:4240	2026-08-13 06:29:40.629+00
-BasketballBattle	Basketball Battle	basketballbattle	4301431724	Bobsussybu123	SLRP	\N	254780	28497	34192	cw_bot	history-import:cw_bot:2523	2026-08-01 12:26:31.166+00
-BasketballBattle	Basketball Battle	basketballbattle	4313949380	Dada343410	W0m1	\N	7150000	16274	34192	cw_bot	history-import:cw_bot:6390	2026-08-07 20:30:35.379+00
-BasketballBattle	Basketball Battle	basketballbattle	4335879793	Ianchen101	🏰 Clan: **TPGD**	\N	\N	899	34194	cw_bot	history-import:cw_bot:3726	2026-03-14 11:46:10.561+00
-BasketballBattle	Basketball Battle	basketballbattle	4339145979	Dandis_20	COLU	\N	2180000	21713	34191	cw_bot	history-import:cw_bot:5523	2026-08-18 13:11:18.989+00
-BasketballBattle	Basketball Battle	basketballbattle	4345972644	venti12011201	2WEI	\N	27880000	4375	34194	cw_bot	history-import:cw_bot:8543	2026-06-17 00:04:41.889+00
-BasketballBattle	Basketball Battle	basketballbattle	4393951337	lukascccs	VLP2	\N	3320000	19230	34192	cw_bot	history-import:cw_bot:6135	2026-08-08 17:36:40.231+00
-BasketballBattle	Basketball Battle	basketballbattle	4414924368	1ninjaomg	_MGW	\N	28660000	4185	34194	cw_bot	history-import:cw_bot:1080	2026-04-25 20:32:31.847+00
-BasketballBattle	Basketball Battle	basketballbattle	4418075437	Koudys7	HROT	\N	53660000	688	34191	cw_bot	history-import:cw_bot:5347	2026-08-20 16:59:38.171+00
-BasketballBattle	Basketball Battle	basketballbattle	4430200296	daytime7789	OTTR	\N	25060000	5015	34194	cw_bot	history-import:cw_bot:9165	2026-06-29 23:32:40.195+00
-BasketballBattle	Basketball Battle	basketballbattle	4452395552	Xavier_Toorp	STPS	\N	710270	25640	34192	cw_bot	history-import:cw_bot:7039	2026-07-31 00:21:48.123+00
-BasketballBattle	Basketball Battle	basketballbattle	4468537889	tvojemamag101	VLP2	\N	337500	27499	34191	cw_bot	history-import:cw_bot:5092	2026-08-22 23:18:43.789+00
-BasketballBattle	Basketball Battle	basketballbattle	4482372398	Burak30_CZ	HR2T	\N	54280000	662	34192	cw_bot	history-import:cw_bot:7168	2026-07-30 13:05:24.983+00
-BasketballBattle	Basketball Battle	basketballbattle	4483758330	Sooz_events	TAUK	\N	17220000	7863	34194	cw_bot	history-import:cw_bot:4067	2026-04-12 22:02:33.256+00
-BasketballBattle	Basketball Battle	basketballbattle	4501805740	jhdghrghhtzt	LP7	\N	7790000	15567	34192	cw_bot	history-import:cw_bot:6440	2026-08-06 17:33:40.928+00
-BasketballBattle	Basketball Battle	basketballbattle	4506575217	dracislav	HROT	\N	46800000	1249	34192	cw_bot	history-import:cw_bot:7310	2026-07-26 08:10:51.343+00
-BasketballBattle	Basketball Battle	basketballbattle	4511725993	Kvetamin	VLP	\N	3190000	19393	34191	cw_bot	history-import:cw_bot:5248	2026-08-21 19:36:06.87+00
-BasketballBattle	Basketball Battle	basketballbattle	4515946186	bakedashboii	SLRP	\N	33620000	3314	34194	cw_bot	history-import:cw_bot:8295	2026-04-19 17:46:14.335+00
-BasketballBattle	Basketball Battle	basketballbattle	4540869398	proto123q	NS4R	\N	9340000	13700	34192	cw_bot	history-import:cw_bot:570	2026-07-17 18:49:06.221+00
-BasketballBattle	Basketball Battle	basketballbattle	4544162965	icestormvoyager	S2PU	\N	23550000	5421	34194	cw_bot	history-import:cw_bot:8237	2026-04-11 00:41:39.288+00
-BasketballBattle	Basketball Battle	basketballbattle	4583513261	xXJ0hnXx23	POJO	\N	22530000	5743	34191	cw_bot	history-import:cw_bot:5296	2026-08-22 16:50:40.795+00
-BasketballBattle	Basketball Battle	basketballbattle	4584982387	Misabilk	VLP2	\N	8060000	15243	34192	cw_bot	history-import:cw_bot:5941	2026-08-11 16:19:44.683+00
-BasketballBattle	Basketball Battle	basketballbattle	4597064685	nevimheslo108	K989	\N	24140000	5253	34192	cw_bot	history-import:cw_bot:6650	2026-08-05 20:02:56.557+00
-BasketballBattle	Basketball Battle	basketballbattle	4610459819	srolik249	Sro	\N	9720000	13229	34191	cw_bot	history-import:cw_bot:5709	2026-08-15 08:07:19.768+00
-BasketballBattle	Basketball Battle	basketballbattle	4633578732	m3wpewpew	07W	\N	29260000	4042	34192	cw_bot	history-import:cw_bot:3002	2026-07-29 15:03:42.497+00
-BasketballBattle	Basketball Battle	basketballbattle	4634042698	Psxtrader327	OTTR	\N	41170000	2152	34191	cw_bot	history-import:cw_bot:8510	2026-08-22 22:47:27.757+00
-BasketballBattle	Basketball Battle	basketballbattle	4652078124	jaximeler	PABS	\N	39730000	2412	34194	cw_bot	history-import:cw_bot:8428	2026-06-17 00:24:11.273+00
-BasketballBattle	Basketball Battle	basketballbattle	4686873488	Monty_Tomas10	K989	\N	31860000	3571	34191	cw_bot	history-import:cw_bot:5326	2026-08-21 07:45:07.526+00
-BasketballBattle	Basketball Battle	basketballbattle	4759297476	psst1422	HROT	\N	43240000	1772	34194	cw_bot	history-import:cw_bot:147	2026-05-20 23:35:12.448+00
-BasketballBattle	Basketball Battle	basketballbattle	4792692703	ced123zx	ROMU	\N	8140000	15153	34192	cw_bot	history-import:cw_bot:716	2026-07-17 18:57:41.576+00
-BasketballBattle	Basketball Battle	basketballbattle	4833004455	Deniska_1990	bkl	\N	36430000	2891	34192	cw_bot	history-import:cw_bot:7327	2026-07-25 23:11:40.176+00
-BasketballBattle	Basketball Battle	basketballbattle	4897243840	Bubbly_num2	UNO	\N	72200000	179	34194	cw_bot	history-import:cw_bot:8370	2026-04-06 08:31:41.74+00
-BasketballBattle	Basketball Battle	basketballbattle	4957497369	ammi0729	GANG	\N	49780000	918	34194	cw_bot	history-import:cw_bot:984	2026-04-18 02:13:35.573+00
-BasketballBattle	Basketball Battle	basketballbattle	4989918296	PtiDoriankt	ROMU	\N	20520000	6522	34192	cw_bot	history-import:cw_bot:848	2026-07-17 18:56:47.208+00
-BasketballBattle	Basketball Battle	basketballbattle	4999104751	Speaxk17	P2PS	\N	11010000	11953	34194	cw_bot	history-import:cw_bot:1628	2026-05-21 01:10:10.679+00
-BasketballBattle	Basketball Battle	basketballbattle	5042635636	Cultiv8R_NZ	DLOW	\N	51950000	772	34194	cw_bot	history-import:cw_bot:8228	2026-04-11 00:40:42.513+00
-BasketballBattle	Basketball Battle	basketballbattle	5044736168	CBroGolden	N2	\N	20710000	6447	34194	cw_bot	history-import:cw_bot:4092	2026-04-12 20:16:41.119+00
-BasketballBattle	Basketball Battle	basketballbattle	5049376575	AGR_GamerY	AGR	\N	10690000	12249	34192	cw_bot	history-import:cw_bot:9688	2026-07-19 05:15:01.102+00
-BasketballBattle	Basketball Battle	basketballbattle	5063089605	REAL3ST_NZ	DLOW	\N	46780000	1253	34194	cw_bot	history-import:cw_bot:8269	2026-04-11 00:55:05.933+00
-BasketballBattle	Basketball Battle	basketballbattle	5076379116	samco137	EROS	\N	8180000	15089	34191	cw_bot	history-import:cw_bot:4858	2026-08-28 07:12:12.071+00
-BasketballBattle	Basketball Battle	basketballbattle	5115775245	gympie54	WSL	\N	9070000	14007	34191	cw_bot	history-import:cw_bot:9758	2026-08-26 20:07:29.974+00
-BasketballBattle	Basketball Battle	basketballbattle	5120442322	kirasm0m	ORBI	\N	54610000	646	34192	cw_bot	history-import:cw_bot:2207	2026-07-17 04:33:26.901+00
-BasketballBattle	Basketball Battle	basketballbattle	5127406568	dadchris86	NONG	\N	74840000	77	34194	cw_bot	history-import:cw_bot:8185	2026-04-21 16:30:58.569+00
-BasketballBattle	Basketball Battle	basketballbattle	5128164487	drako83cz	HROT	\N	27710000	4420	34191	cw_bot	history-import:cw_bot:5536	2026-08-17 12:17:13.979+00
-BasketballBattle	Basketball Battle	basketballbattle	5131558904	COOL_BOY00277	M2D	\N	3110000	19503	34192	cw_bot	history-import:cw_bot:6164	2026-08-08 18:22:16.401+00
-BasketballBattle	Basketball Battle	basketballbattle	5138542110	greatfullyyy	0RB2	\N	5010000	17866	34192	cw_bot	history-import:cw_bot:2904	2026-07-31 06:42:06.061+00
-BasketballBattle	Basketball Battle	basketballbattle	5139018150	safdasdadwad524	B2NG	\N	58040000	544	34194	cw_bot	history-import:cw_bot:3776	2026-04-06 19:44:17.668+00
-BasketballBattle	Basketball Battle	basketballbattle	5143387515	babykweeef	BOSS	\N	70680000	218	34191	cw_bot	history-import:cw_bot:2104	2026-08-14 22:59:19.851+00
-BasketballBattle	Basketball Battle	basketballbattle	5170991645	galvoir2712	H8M3	\N	26400000	4706	34192	cw_bot	history-import:cw_bot:4419	2026-08-07 08:30:13.219+00
-BasketballBattle	Basketball Battle	basketballbattle	5189669801	johqnel	Sro	\N	184270	30418	34191	cw_bot	history-import:cw_bot:5570	2026-08-17 00:52:03.053+00
-BasketballBattle	Basketball Battle	basketballbattle	5197468736	ttkcash1	Goop	\N	61210000	456	34194	cw_bot	history-import:cw_bot:1394	2026-05-09 05:34:47.34+00
-BasketballBattle	Basketball Battle	basketballbattle	5203613717	Arteomcka0_z	BEZE	\N	50780000	836	34192	cw_bot	history-import:cw_bot:3375	2026-07-23 19:33:38.366+00
-BasketballBattle	Basketball Battle	basketballbattle	5207679662	GrinchFrend	HR2T	\N	33120000	3380	34191	cw_bot	history-import:cw_bot:4883	2026-08-28 13:55:05.802+00
-BasketballBattle	Basketball Battle	basketballbattle	5209078854	Rydma73	H8ER	\N	44220000	1604	34194	cw_bot	history-import:cw_bot:3971	2026-04-12 22:17:12.736+00
-BasketballBattle	Basketball Battle	basketballbattle	5209583889	pepajzik	STPS	\N	139160	31479	34191	cw_bot	history-import:cw_bot:5371	2026-08-20 18:05:20.789+00
-BasketballBattle	Basketball Battle	basketballbattle	5246280273	janjelinek3	POJO	\N	3510000	19035	34192	cw_bot	history-import:cw_bot:6044	2026-08-09 09:04:37.217+00
-BasketballBattle	Basketball Battle	basketballbattle	5254272309	shadow_ggofficial	M4RB	\N	46310000	1328	34194	cw_bot	history-import:cw_bot:1758	2026-05-28 21:55:36.515+00
-BasketballBattle	Basketball Battle	basketballbattle	5267528496	hahagoo4	EGP	\N	6510000	16792	34192	cw_bot	history-import:cw_bot:9632	2026-07-31 16:29:28.688+00
-BasketballBattle	Basketball Battle	basketballbattle	5288045534	tombayfarm4	XY11	\N	47010000	1213	34194	cw_bot	history-import:cw_bot:9529	2026-07-02 14:49:23.85+00
-BasketballBattle	Basketball Battle	basketballbattle	5313080791	HerzogDL	RATZ	\N	14350000	9327	34194	cw_bot	history-import:cw_bot:950	2026-04-17 00:08:20.006+00
-BasketballBattle	Basketball Battle	basketballbattle	5320035299	connie4502	DOLA	\N	9790000	13161	34194	cw_bot	history-import:cw_bot:3929	2026-06-24 23:27:58.484+00
-BasketballBattle	Basketball Battle	basketballbattle	5328968538	Iphone1835	SAM4	\N	8500000	14687	34191	cw_bot	history-import:cw_bot:5194	2026-08-21 18:06:41.136+00
-BasketballBattle	Basketball Battle	basketballbattle	5348057277	petsimulator99nic	\N	\N	\N	5981	34194	cw_bot	history-import:cw_bot:3595	2026-05-08 01:40:42.8+00
-BasketballBattle	Basketball Battle	basketballbattle	5368149066	blizn4	DVQ	\N	30540000	3814	34194	cw_bot	history-import:cw_bot:8047	2026-06-23 16:35:37.33+00
-BasketballBattle	Basketball Battle	basketballbattle	5378360782	dog22122011trade	VLP2	\N	2070000	22092	34192	cw_bot	history-import:cw_bot:6483	2026-08-06 18:22:55.632+00
-BasketballBattle	Basketball Battle	basketballbattle	5383071838	mr_895675	LXCC	\N	15710000	8548	34191	cw_bot	history-import:cw_bot:7680	2026-08-14 20:23:40.83+00
-BasketballBattle	Basketball Battle	basketballbattle	5407742794	baba_gamer239	ROMU	\N	16460000	8216	34194	cw_bot	history-import:cw_bot:1584	2026-05-20 17:25:36.224+00
-BasketballBattle	Basketball Battle	basketballbattle	5414318030	demonfaarm3	2WEI	\N	32830000	3430	34194	cw_bot	history-import:cw_bot:9355	2026-03-31 20:30:04.513+00
-BasketballBattle	Basketball Battle	basketballbattle	5423870289	manzanopet206	DOLA	\N	19560000	6881	34194	cw_bot	history-import:cw_bot:3892	2026-06-24 22:57:46.772+00
-BasketballBattle	Basketball Battle	basketballbattle	5436365094	Bruin444444	st1z	\N	34930000	3110	34192	cw_bot	history-import:cw_bot:2408	2026-08-10 00:49:21.439+00
-BasketballBattle	Basketball Battle	basketballbattle	5510809744	moneyskallin	C4T6	\N	71310000	208	34192	cw_bot	history-import:cw_bot:2086	2026-07-19 11:32:01.392+00
-BasketballBattle	Basketball Battle	basketballbattle	5514178688	Mason03388	SSQD	\N	8960000	14140	34194	cw_bot	history-import:cw_bot:4170	2026-04-12 21:05:45.162+00
-BasketballBattle	Basketball Battle	basketballbattle	5516978036	omgitzmaatt3	_hot	\N	7930000	15407	34191	cw_bot	history-import:cw_bot:9874	2026-08-23 11:16:05.962+00
-BasketballBattle	Basketball Battle	basketballbattle	5534860785	rostislavvv155	HROT	\N	26240000	4748	34192	cw_bot	history-import:cw_bot:2862	2026-07-31 15:54:01.042+00
-BasketballBattle	Basketball Battle	basketballbattle	5560545010	crimxzysgoatedalt	N1GD	\N	8940000	14167	34194	cw_bot	history-import:cw_bot:1747	2026-05-28 19:25:01.662+00
-BasketballBattle	Basketball Battle	basketballbattle	5575261241	noliogames3	IWHN	\N	1500000	23195	34192	cw_bot	history-import:cw_bot:9489	2026-08-04 08:47:00.84+00
-BasketballBattle	Basketball Battle	basketballbattle	5603268347	demonfaarm6	2WEI	\N	45180000	1481	34194	cw_bot	history-import:cw_bot:9377	2026-03-31 20:30:56.071+00
-BasketballBattle	Basketball Battle	basketballbattle	5623447261	quoicoubeh5608	RATZ	\N	7490000	15943	34192	cw_bot	history-import:cw_bot:6213	2026-08-08 20:49:37.159+00
-BasketballBattle	Basketball Battle	basketballbattle	5683944571	startsevrblx	B2SS	\N	21430000	6174	34192	cw_bot	history-import:cw_bot:4496	2026-08-06 00:59:16.16+00
-BasketballBattle	Basketball Battle	basketballbattle	5703128088	elnubsen	SOPU	\N	37430000	2768	34194	cw_bot	history-import:cw_bot:3868	2026-04-05 06:56:35.208+00
-BasketballBattle	Basketball Battle	basketballbattle	5708006511	prd2137	URS7	\N	299730	27838	34192	cw_bot	history-import:cw_bot:6738	2026-08-04 10:16:22.823+00
-BasketballBattle	Basketball Battle	basketballbattle	5718001505	samaorithor	WSL	\N	237990	28880	34191	cw_bot	history-import:cw_bot:9795	2026-08-26 19:50:37.879+00
-BasketballBattle	Basketball Battle	basketballbattle	5743563432	Alexfarm_too	BMJ4	\N	1630000	23014	34192	cw_bot	history-import:cw_bot:10076	2026-08-08 09:43:53.852+00
-BasketballBattle	Basketball Battle	basketballbattle	5793778586	PeaceAllAlone	UN0	\N	76470000	32	34194	cw_bot	history-import:cw_bot:8087	2026-04-26 19:32:34.93+00
-BasketballBattle	Basketball Battle	basketballbattle	5818869297	knoxcoder	SOPU	\N	63550000	390	34192	cw_bot	history-import:cw_bot:3023	2026-07-29 13:28:15.912+00
-BasketballBattle	Basketball Battle	basketballbattle	5837946305	husos112410	COMT	\N	223440	29257	34192	cw_bot	history-import:cw_bot:3332	2026-07-24 20:49:25.624+00
-BasketballBattle	Basketball Battle	basketballbattle	6067661412	manzanopet106	DOLA	\N	8360000	14872	34194	cw_bot	history-import:cw_bot:3911	2026-06-24 23:01:08.618+00
-BasketballBattle	Basketball Battle	basketballbattle	6109731708	YoBaskett	W2VY	\N	29240000	4047	34192	cw_bot	history-import:cw_bot:430	2026-07-17 18:47:23.21+00
-BasketballBattle	Basketball Battle	basketballbattle	6156770625	pepajzikv2	STPS	\N	1260000	23647	34191	cw_bot	history-import:cw_bot:5385	2026-08-20 18:30:12.586+00
-BasketballBattle	Basketball Battle	basketballbattle	6180933436	Atefluigi1	V1LN	\N	20480000	6531	34191	cw_bot	history-import:cw_bot:4825	2026-08-28 16:24:47.076+00
-BasketballBattle	Basketball Battle	basketballbattle	7005100565	Crazypuzzlehead15	DLOW	\N	32800000	3432	34192	cw_bot	history-import:cw_bot:2472	2026-08-01 09:28:25.648+00
-BasketballBattle	Basketball Battle	basketballbattle	7092466884	dolabank	DOLA	\N	9380000	13644	34194	cw_bot	history-import:cw_bot:3909	2026-06-24 23:00:55.173+00
-BasketballBattle	Basketball Battle	basketballbattle	7106055158	windstok10	N1TR	\N	4930000	17920	34191	cw_bot	history-import:cw_bot:5145	2026-08-23 04:27:42.377+00
-BasketballBattle	Basketball Battle	basketballbattle	7116154575	windstok15	N1TR	\N	2750000	20122	34192	cw_bot	history-import:cw_bot:7180	2026-07-30 13:48:56.086+00
-BasketballBattle	Basketball Battle	basketballbattle	7168755253	JoJo_Gaming2341	XMA2	\N	6920000	16483	34194	cw_bot	history-import:cw_bot:1889	2026-06-20 14:27:05.49+00
-BasketballBattle	Basketball Battle	basketballbattle	7173492482	Kyan65427	j300	\N	16070000	8389	34192	cw_bot	history-import:cw_bot:3237	2026-07-26 12:04:59.618+00
-BasketballBattle	Basketball Battle	basketballbattle	7202704987	wslhuge	WSL	\N	9890000	13056	34191	cw_bot	history-import:cw_bot:9819	2026-08-26 19:55:49.742+00
-BasketballBattle	Basketball Battle	basketballbattle	7286879472	rvpfan555	DOLA	\N	16450000	8220	34194	cw_bot	history-import:cw_bot:3921	2026-06-24 23:03:50.624+00
-BasketballBattle	Basketball Battle	basketballbattle	7426690057	Duckyphant	H8M3	\N	44930000	1518	34191	cw_bot	history-import:cw_bot:5642	2026-08-14 22:07:36.457+00
-BasketballBattle	Basketball Battle	basketballbattle	7492577011	XBLTAZEEEE	V015	\N	14570000	9184	34194	cw_bot	history-import:cw_bot:9087	2026-07-03 23:49:41.902+00
-BasketballBattle	Basketball Battle	basketballbattle	7577631298	zeefarmer	Z3EE	\N	11950000	11137	34194	cw_bot	history-import:cw_bot:1879	2026-06-20 03:22:08.873+00
-BasketballBattle	Basketball Battle	basketballbattle	7583161395	Tgzzgzzltg33	HROT	\N	30470000	3828	34192	cw_bot	history-import:cw_bot:7267	2026-07-27 11:39:20.283+00
-BasketballBattle	Basketball Battle	basketballbattle	7594665011	demonfaarm10	2WEI	\N	27920000	4364	34194	cw_bot	history-import:cw_bot:9362	2026-03-31 20:30:40.275+00
-BasketballBattle	Basketball Battle	basketballbattle	7697761463	joeponsock12345	V1LN	\N	14680000	9115	34192	cw_bot	history-import:cw_bot:8950	2026-07-26 22:32:25.767+00
-BasketballBattle	Basketball Battle	basketballbattle	7710452262	hrac_821	BDX	\N	988660	24357	34192	cw_bot	history-import:cw_bot:6005	2026-08-10 07:17:41.604+00
-BasketballBattle	Basketball Battle	basketballbattle	7742077490	sirwabbs	st1z	\N	16000000	8420	34192	cw_bot	history-import:cw_bot:4643	2026-08-02 03:35:57.878+00
-BasketballBattle	Basketball Battle	basketballbattle	7806857762	selena082319	W2VY	\N	18070000	7518	34192	cw_bot	history-import:cw_bot:378	2026-07-17 18:33:34.992+00
-BasketballBattle	Basketball Battle	basketballbattle	7811627595	Star_1110789	DRK5	\N	16260000	8315	34194	cw_bot	history-import:cw_bot:917	2026-05-01 16:32:32.474+00
-BasketballBattle	Basketball Battle	basketballbattle	8016179740	limitless123234	DLOW	\N	5040000	17831	34191	cw_bot	history-import:cw_bot:8765	2026-08-15 05:26:46.656+00
-BasketballBattle	Basketball Battle	basketballbattle	8032070860	angiepieterse01	GSWW	\N	17360000	7805	34192	cw_bot	history-import:cw_bot:7740	2026-08-06 17:04:53.85+00
-BasketballBattle	Basketball Battle	basketballbattle	8136551278	vincbond15	DJRK	\N	295940	27884	34192	cw_bot	history-import:cw_bot:6192	2026-08-08 20:08:01.556+00
-BasketballBattle	Basketball Battle	basketballbattle	8187537946	nzr5581	V1LN	\N	31090000	3720	34194	cw_bot	history-import:cw_bot:8197	2026-04-23 19:12:26.428+00
-BasketballBattle	Basketball Battle	basketballbattle	8321323353	MercBandit_08	B2NG	\N	53350000	704	34192	cw_bot	history-import:cw_bot:32	2026-07-17 18:31:34.656+00
-BasketballBattle	Basketball Battle	basketballbattle	8321341219	mercbandit_07	B2NG	\N	56980000	572	34194	cw_bot	history-import:cw_bot:3775	2026-04-06 19:44:09.747+00
-BasketballBattle	Basketball Battle	basketballbattle	8558531098	manzanopet306	DOLA	\N	13240000	10073	34194	cw_bot	history-import:cw_bot:3920	2026-06-24 23:01:16.868+00
+COPY battles."Basketball Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+BasketballBattle	Basketball Battle	basketballbattle	67319189	iduzel	NONG	\N	73020000	151	34191	cw_bot	history-import:cw_bot:8736	2026-08-18 05:01:05.774+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	79237321	GodlySalt	BYRD	145	\N	145	\N	external_import	history-import:big_bot:952	2026-07-11 14:28:35.433+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	89801902	hugesteve123	C4	\N	2000000	22348	34192	cw_bot	history-import:cw_bot:4620	2026-08-04 02:34:43.308+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	90767636	bobdog751	V1LN	\N	33150000	3378	34194	cw_bot	history-import:cw_bot:8133	2026-04-27 21:06:33.398+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	120904005	nublet28	BYRD	\N	57550000	556	34194	cw_bot	history-import:cw_bot:8444	2026-07-03 22:38:52.17+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	125272790	ur_salty091	XBOX	\N	40580000	2254	34194	cw_bot	history-import:cw_bot:1921	2026-06-21 04:13:46.321+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	136661329	ghanta2a	Goop	\N	69070000	255	34194	cw_bot	history-import:cw_bot:8105	2026-04-26 23:31:56.073+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	138619446	darkenedwishes	EXP	\N	41630000	2063	34194	cw_bot	history-import:cw_bot:2008	2026-06-28 16:26:03.666+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	148251054	EpicRider6729	NONG	\N	64350000	363	34194	cw_bot	history-import:cw_bot:3854	2026-04-05 07:59:08.938+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	156957387	itsminerr	ORBI	\N	66950000	307	34192	cw_bot	history-import:cw_bot:2157	2026-08-01 03:26:51.039+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	160013234	Megasonicex	SOPU	\N	42660000	1889	34192	cw_bot	history-import:cw_bot:3244	2026-07-25 06:28:07.641+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	165817996	16_BitPotato	UN0	\N	71870000	190	34192	cw_bot	history-import:cw_bot:4525	2026-08-04 19:56:26.259+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	170719079	tnocko	HROT	\N	53280000	706	34192	cw_bot	history-import:cw_bot:2291	2026-08-12 07:40:01.692+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	170896669	toratot	OTTR	\N	42660000	1889	34194	cw_bot	history-import:cw_bot:9151	2026-06-29 23:29:26.064+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	184309752	expellez	CC4T	\N	66630000	312	34194	cw_bot	history-import:cw_bot:1107	2026-04-25 23:28:51.667+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	192463394	NukeOfLava12	CB_	\N	45780000	1393	34194	cw_bot	history-import:cw_bot:4133	2026-04-12 20:31:33.085+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	192653117	carloskar08	MLIB	\N	52060000	766	34192	cw_bot	history-import:cw_bot:4468	2026-08-05 22:58:43.526+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	194076029	Gromic5876	MNBB	\N	11340000	11634	34192	cw_bot	history-import:cw_bot:6102	2026-08-08 23:25:51.173+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	204751057	SainLol	fr2e	\N	248200	28616	34192	cw_bot	history-import:cw_bot:10041	2026-08-08 18:46:45.184+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	207778892	unoyea441	vysn	\N	67200000	300	34194	cw_bot	history-import:cw_bot:3947	2026-04-19 19:32:32.711+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	210966410	onoraksal	hlx	\N	26670000	4653	34191	cw_bot	history-import:cw_bot:8784	2026-08-15 13:55:15.256+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	212422741	berryuk19	DOLA	\N	18200000	7465	34194	cw_bot	history-import:cw_bot:3907	2026-06-24 22:57:40.989+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	223141866	LoLLubas	DPSF	\N	7290000	16158	34191	cw_bot	history-import:cw_bot:4800	2026-08-28 14:48:40.144+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	241713789	J2X1NESIWXID	LXCC	\N	231000	29032	34192	cw_bot	history-import:cw_bot:752	2026-07-17 18:58:04.211+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	250562586	zcm_Xi	CC4T	\N	16690000	8101	34192	cw_bot	history-import:cw_bot:4366	2026-08-09 17:51:30.585+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	254885188	Prodav1	SULS	\N	15480000	8674	34192	cw_bot	history-import:cw_bot:8005	2026-07-08 14:39:05.73+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	272741362	kyle558888	LV13	\N	15410000	8712	34192	cw_bot	history-import:cw_bot:223	2026-07-17 17:23:47.778+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	273316338	stevowsl	WSL	\N	22070000	5888	34191	cw_bot	history-import:cw_bot:9805	2026-08-26 19:54:20.308+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	331930897	gogeta363	TLGZ	\N	17230000	7857	34192	cw_bot	history-import:cw_bot:4383	2026-08-09 04:19:11.832+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	343511782	octojabb	SLRP	\N	27560000	4463	34194	cw_bot	history-import:cw_bot:9249	2026-04-30 14:51:23.517+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	365225419	prorik228	07W	\N	40220000	2322	34192	cw_bot	history-import:cw_bot:7914	2026-07-08 14:30:35.5+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	413758213	NotMrTroll_YT	SOPU	\N	41230000	2142	34192	cw_bot	history-import:cw_bot:2835	2026-07-31 16:31:43.631+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	418400389	vojtaprovaznik	VLP2	\N	175170	30679	34191	cw_bot	history-import:cw_bot:4940	2026-08-26 06:26:26.509+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	423460663	bub2540	POPS	\N	22450000	5767	34194	cw_bot	history-import:cw_bot:1510	2026-05-16 12:19:40.788+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	425660194	chinovelaz	stzr	\N	32150000	3523	34194	cw_bot	history-import:cw_bot:4154	2026-04-12 20:33:18.646+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	435823564	brandon292016	3zEZ	\N	43320000	1758	34194	cw_bot	history-import:cw_bot:1037	2026-04-20 06:06:34.027+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	436460285	spideenation	UN0	\N	76030000	46	34192	cw_bot	history-import:cw_bot:2921	2026-07-31 03:58:35.999+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	452765106	mopingmicrowave	UN0	\N	80150000	1	34192	cw_bot	history-import:cw_bot:2912	2026-07-31 03:58:18.168+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	460000821	maserofwater098	UN0	\N	77570000	16	34194	cw_bot	history-import:cw_bot:2039	2026-06-29 17:36:18.828+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	463900811	AgentP_0928	NONG	\N	73640000	123	34194	cw_bot	history-import:cw_bot:653	2026-04-26 04:08:51.656+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	470464024	ceficat	POPS	\N	39250000	2491	34192	cw_bot	history-import:cw_bot:2583	2026-08-01 14:42:49.688+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	496935076	mawahlah	07W	\N	42300000	1943	34194	cw_bot	history-import:cw_bot:50	2026-06-27 00:05:32.123+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	502312785	tomasek8557	BDX	\N	8020000	15286	34191	cw_bot	history-import:cw_bot:5455	2026-08-19 16:40:59.801+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	503486505	campagnolo5	TPGD	\N	3520000	19025	34191	cw_bot	history-import:cw_bot:7660	2026-08-16 14:51:20.144+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	538266747	Judah3000	XBOX	\N	24140000	5254	34192	cw_bot	history-import:cw_bot:7850	2026-07-08 14:31:05.959+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	544198160	JimmyCIeetus	SOPU	\N	29580000	3986	34192	cw_bot	history-import:cw_bot:478	2026-07-17 18:47:56.313+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	546090248	cheburek_x	mrnw	\N	10930000	12026	34192	cw_bot	history-import:cw_bot:2754	2026-07-31 17:21:30.816+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	562277230	Berryuk19sdad	UN0	\N	74330000	99	34194	cw_bot	history-import:cw_bot:3915	2026-06-24 23:01:30.995+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	573589049	nerfbro9000	GSTG	\N	32100000	3533	34194	cw_bot	history-import:cw_bot:9406	2026-03-26 19:15:43.999+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	587622297	Raihania54321	Tewy	\N	2010000	22300	34194	cw_bot	history-import:cw_bot:1027	2026-04-19 21:12:31.376+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	588437757	beastbrody12345	Lyyt	\N	210370	29624	34191	cw_bot	history-import:cw_bot:8598	2026-08-21 00:15:42.209+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	621412324	dabcat818	S7NS	\N	43450000	1739	34194	cw_bot	history-import:cw_bot:1782	2026-06-07 17:32:51.445+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	643466909	itsmason3725	H8M3	\N	46880000	1241	34194	cw_bot	history-import:cw_bot:785	2026-05-16 01:26:54.902+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	646372767	904aj603	VA1N	\N	3160000	19441	34194	cw_bot	history-import:cw_bot:1120	2026-04-27 02:09:16.229+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	651456138	TrikStar007	3zEZ	\N	43720000	1690	34194	cw_bot	history-import:cw_bot:4212	2026-04-12 20:09:23.388+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	653179078	killinBABYS111	DGSL	\N	217840	29431	34194	cw_bot	history-import:cw_bot:8286	2026-04-15 20:29:26.949+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	659542061	rrodgers0206	POPS	\N	16260000	8315	34192	cw_bot	history-import:cw_bot:737	2026-07-17 18:57:55.775+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	661099895	patcola2010	V1LN	\N	13500000	9894	34192	cw_bot	history-import:cw_bot:7803	2026-07-24 00:04:23.322+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	681369033	Thatrobloxguy63	SOPU	\N	58590000	531	34194	cw_bot	history-import:cw_bot:8332	2026-04-06 08:26:58.844+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	688928053	Noahangrybird1234	BEZE	\N	40140000	2334	34194	cw_bot	history-import:cw_bot:8353	2026-04-06 08:29:37.081+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	694900194	Manolodroidgamer12	SULS	\N	47960000	1088	34194	cw_bot	history-import:cw_bot:1932	2026-06-21 04:18:35.734+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	697378514	robloxiswaste213445	NXNG	\N	11050000	11912	34192	cw_bot	history-import:cw_bot:3086	2026-07-28 21:08:04.725+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	709222551	Theozzz12	UN0	\N	77080000	24	34194	cw_bot	history-import:cw_bot:8170	2026-04-26 15:05:43.056+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	722456679	mujiTABA1	\N	\N	40490000	2273	34194	cw_bot	history-import:cw_bot:2022	2026-06-28 16:42:57.557+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	779059828	jimynew	SS1N	\N	265770	28289	34194	cw_bot	history-import:cw_bot:1536	2026-05-16 23:39:36.553+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	782937820	the_macraft7	skvi	\N	45560000	1427	34191	cw_bot	history-import:cw_bot:7569	2026-08-16 22:06:59.348+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	790873913	homless9	STPS	\N	2590000	20477	34192	cw_bot	history-import:cw_bot:6445	2026-08-06 17:44:57.059+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	792342249	MasterQuackerjack	KOHV	\N	22990000	5588	34192	cw_bot	history-import:cw_bot:2886	2026-07-31 15:48:14.753+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	810054419	catloncat	LEGT	\N	9150000	13918	34194	cw_bot	history-import:cw_bot:4025	2026-04-12 21:24:49.553+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	844720150	Sebastjan35	NXNG	\N	44530000	1568	34192	cw_bot	history-import:cw_bot:533	2026-07-17 18:48:35.159+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	855012952	batuoffi	OzTM	\N	22450000	5770	34194	cw_bot	history-import:cw_bot:3745	2026-04-18 01:15:08.854+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	857986484	pogujsn	DVQ	\N	2060000	22124	34192	cw_bot	history-import:cw_bot:7867	2026-07-08 14:28:28.369+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	859747399	sniperreki	GST2	25	\N	25	\N	external_import	history-import:big_bot:1027	2026-07-06 05:32:59.501+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	864632403	galaxyknight9204	Gewp	\N	3010000	19669	34194	cw_bot	history-import:cw_bot:1770	2026-05-29 01:34:02.793+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	876991750	Mertiliano	ORBI	\N	61690000	443	34192	cw_bot	history-import:cw_bot:2137	2026-08-01 04:17:09.805+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	877353566	lpvarmi	VLP	\N	46300000	1330	34192	cw_bot	history-import:cw_bot:7211	2026-07-29 20:25:50.738+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	911932139	Daniel8czs	W0m1	\N	23830000	5360	34192	cw_bot	history-import:cw_bot:6811	2026-08-01 11:19:39.153+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	916438379	Tq_Senior	st1z	\N	2130000	21860	34192	cw_bot	history-import:cw_bot:3143	2026-07-27 19:03:49.201+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	938181472	mmathias08	🏰 Clan: **POPS**	\N	\N	3601	34194	cw_bot	history-import:cw_bot:3527	2026-04-17 17:03:38.726+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	940036866	colinaidan1234567890	🏰 Clan: **PDYL**	\N	\N	22663	34194	cw_bot	history-import:cw_bot:941	2026-04-19 17:10:54.929+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	955175856	fatalwaccle	BYRD	\N	3150000	19452	34194	cw_bot	history-import:cw_bot:4183	2026-04-12 20:31:29.037+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	981933151	doczmerson	PABS	\N	45390000	1444	34192	cw_bot	history-import:cw_bot:7601	2026-08-11 13:00:07.332+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	983863343	akita_nuru	MTNR	\N	4920000	17925	34191	cw_bot	history-import:cw_bot:9582	2026-08-16 14:43:07.843+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1000059115	rimonus	SOPU	\N	58560000	532	34194	cw_bot	history-import:cw_bot:1803	2026-06-13 11:10:39.923+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1024664859	NotArsann7	AR2Y	\N	44820000	1532	34194	cw_bot	history-import:cw_bot:1254	2026-05-03 05:34:41.421+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1029579815	Marshmellow_1177	YLW	\N	29220000	4056	34194	cw_bot	history-import:cw_bot:1299	2026-05-05 21:28:38.219+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1044395777	patrykkpro1	V1LN	\N	12140000	10962	34192	cw_bot	history-import:cw_bot:7725	2026-08-05 20:28:34.504+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1049702109	realchaseblox	FaZ	\N	63060000	406	34194	cw_bot	history-import:cw_bot:1313	2026-05-05 21:59:20.786+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1055219519	eon2020	K1WI	\N	16690000	8104	34194	cw_bot	history-import:cw_bot:8097	2026-06-24 23:15:47.3+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1060055099	mimo_4	MLRM	\N	990140	24353	34192	cw_bot	history-import:cw_bot:6733	2026-08-04 10:19:23.697+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1081067684	mimilrol	ROMU	\N	18700000	7227	34192	cw_bot	history-import:cw_bot:407	2026-07-17 18:47:08.019+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1109750537	tonynecko	UN0	\N	78740000	6	34192	cw_bot	history-import:cw_bot:4276	2026-08-12 03:27:47.805+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1128825363	Not_kukiasbotys	tplx	\N	6900000	16492	34192	cw_bot	history-import:cw_bot:7228	2026-07-29 09:31:43.169+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1128913028	proivano10	WOTF	\N	9850000	13108	34192	cw_bot	history-import:cw_bot:2896	2026-07-31 15:15:45.624+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1137640592	clackerskill	Goop	\N	77800000	15	34192	cw_bot	history-import:cw_bot:4660	2026-08-01 00:22:28.841+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1146217738	xXjirkaXxboys	SJCJ	\N	19440000	6932	34194	cw_bot	history-import:cw_bot:4047	2026-04-12 22:01:07.439+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1157052710	laughytrex	XPQX	\N	10200000	12715	34194	cw_bot	history-import:cw_bot:891	2026-04-24 03:00:59.658+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1158978049	Mr_trolololx019	BCN2	\N	3640000	18907	34192	cw_bot	history-import:cw_bot:7832	2026-07-05 15:55:32.872+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1160481763	fajeczka4	BOTZ	\N	2480000	20774	34192	cw_bot	history-import:cw_bot:6791	2026-08-03 09:49:43.16+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1163321217	protozejelen	LV13	\N	13030000	10226	34192	cw_bot	history-import:cw_bot:7135	2026-07-30 15:23:48.828+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1171409734	tominko130	LP7	\N	18360000	7394	34192	cw_bot	history-import:cw_bot:6324	2026-08-07 12:38:50.885+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1178078831	mavilure	NXNG	\N	39490000	2449	34194	cw_bot	history-import:cw_bot:9112	2026-07-04 02:37:26.103+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1179507007	tomisek134	HR2T	\N	30620000	3801	34192	cw_bot	history-import:cw_bot:4742	2026-08-11 18:03:07.712+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1192463440	Jonas139075	dkps	\N	2390000	21039	34192	cw_bot	history-import:cw_bot:2780	2026-07-31 19:36:15.216+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1221841742	Azurqson	UN0	\N	73960000	110	34194	cw_bot	history-import:cw_bot:3786	2026-04-06 19:59:26.612+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1229931292	ijyrgk	V015	\N	8930000	14184	34194	cw_bot	history-import:cw_bot:9098	2026-07-04 00:22:27.772+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1232493274	MARYNADA058	BDX	\N	15560000	8637	34192	cw_bot	history-import:cw_bot:6889	2026-07-31 20:00:25.469+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1239924818	txawhy	YEMN	\N	341120	27480	34194	cw_bot	history-import:cw_bot:1002	2026-04-18 14:07:59.883+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1240710842	voffenleon	PAAC	\N	20380000	6562	34192	cw_bot	history-import:cw_bot:7016	2026-07-31 09:34:26.196+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1243643868	ASEYIsoos	Goop	\N	46530000	1289	34192	cw_bot	history-import:cw_bot:9427	2026-08-12 22:46:12.145+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1245227095	TheoFuraxe	ROMU	\N	31170000	3702	34192	cw_bot	history-import:cw_bot:125	2026-07-17 18:32:35.762+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1258957228	idjdjjdi2	K0ii	\N	16430000	8229	34194	cw_bot	history-import:cw_bot:1940	2026-06-21 20:32:04.889+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1274135054	latestmallard87	vysn	\N	47750000	1122	34194	cw_bot	history-import:cw_bot:3749	2026-04-18 01:16:24.862+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1277089394	LUVALICEEXO	XTND	\N	14910000	8984	34194	cw_bot	history-import:cw_bot:9262	2026-04-28 15:57:56.007+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1279232695	Ac3scar	GST2	\N	21910000	5964	34194	cw_bot	history-import:cw_bot:244	2026-05-10 02:13:40.5+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1283935690	Laura_V13	07W	\N	15980000	8433	34192	cw_bot	history-import:cw_bot:4345	2026-08-09 17:50:39.523+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1286384664	uzuisnipes	W2VY	\N	38720000	2573	34192	cw_bot	history-import:cw_bot:339	2026-07-17 18:33:12.116+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1294169389	crazy_blox6677	RATZ	\N	22470000	5763	34192	cw_bot	history-import:cw_bot:2620	2026-07-31 20:54:30.508+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1330097404	tomasbudik007	VLP	\N	23990000	5306	34192	cw_bot	history-import:cw_bot:7100	2026-07-30 18:00:28.62+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1339745372	alescar234	S2PU	\N	3230000	19351	34192	cw_bot	history-import:cw_bot:2961	2026-07-30 13:27:00.044+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1364275114	Czech9912	VLP	\N	13140000	10153	34192	cw_bot	history-import:cw_bot:6694	2026-08-04 20:29:16.813+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1376213247	eric23129	DLOW	\N	14590000	9172	34194	cw_bot	history-import:cw_bot:3938	2026-06-26 14:54:31.345+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1380082703	Allalboy2	7HRW	\N	27720000	4418	34194	cw_bot	history-import:cw_bot:8216	2026-04-08 19:50:25.995+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1384486800	Hellowentonio	WSL	\N	12680000	10495	34191	cw_bot	history-import:cw_bot:9830	2026-08-26 19:56:32.35+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1384716628	barti12345610	_hot	\N	29960000	3915	34192	cw_bot	history-import:cw_bot:8531	2026-07-21 19:41:58.049+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1386665561	nuxx7	Z3EE	\N	20630000	6484	34194	cw_bot	history-import:cw_bot:274	2026-05-17 10:44:35.489+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1403606137	GhostWhisperer03	H2RM	\N	1770000	22810	34192	cw_bot	history-import:cw_bot:6912	2026-08-01 01:11:48.951+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1409166088	treytonpeterbuilt	GSTG	\N	27100000	4554	34194	cw_bot	history-import:cw_bot:1371	2026-05-07 00:27:08.494+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1413108041	Gajmer2011	🏰 Clan: **dkps**	\N	\N	9018	34194	cw_bot	history-import:cw_bot:3550	2026-03-12 11:07:41.895+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1428528797	play998755	HR2T	\N	18300000	7414	34192	cw_bot	history-import:cw_bot:7284	2026-07-26 21:50:12.767+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1437069784	oldmanwrinklenose	S2PU	\N	1190000	23821	34194	cw_bot	history-import:cw_bot:3899	2026-05-25 16:50:02.805+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1448209893	starwarsroblox2099	Goop	\N	53970000	677	34192	cw_bot	history-import:cw_bot:2680	2026-08-01 04:00:56.996+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1452886316	kubistaa	DJRK	\N	8030000	15278	34191	cw_bot	history-import:cw_bot:5221	2026-08-21 19:09:04.387+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1455404309	vavasamasa	_CEO	\N	8070000	15237	34192	cw_bot	history-import:cw_bot:6770	2026-08-03 07:19:33.116+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1462748729	dragonballx1412	V1LN	\N	24620000	5122	34192	cw_bot	history-import:cw_bot:192	2026-07-17 01:03:33.384+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1469224615	TheRealToonster	XBOX	\N	25000000	5027	34194	cw_bot	history-import:cw_bot:1090	2026-04-25 23:24:03.687+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1476403654	dilerij2	BEZE	\N	1150000	23898	34194	cw_bot	history-import:cw_bot:2074	2026-07-01 18:46:57.039+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1478878528	kyzer_nash	WSL	\N	258210	28439	34192	cw_bot	history-import:cw_bot:9612	2026-08-09 02:48:20.151+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1501050755	RealYTStarz	st1z	\N	42840000	1857	34194	cw_bot	history-import:cw_bot:1973	2026-06-27 18:27:30.824+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1501625591	floriansamuraiu	07W	\N	13330000	10002	34192	cw_bot	history-import:cw_bot:7904	2026-07-08 14:32:48.38+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1509495433	arrume_aparte12	SULS	\N	55870000	606	34192	cw_bot	history-import:cw_bot:8022	2026-07-08 14:39:41.28+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1510971300	Informix_CZ	KMo	\N	15940000	8449	34192	cw_bot	history-import:cw_bot:6225	2026-08-08 08:18:03.311+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1514487909	mufflingg	Z3EE	\N	44350000	1589	34194	cw_bot	history-import:cw_bot:2046	2026-06-30 03:14:01.994+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1515580709	notaurorasky008	skvi	\N	39100000	2510	34191	cw_bot	history-import:cw_bot:7550	2026-08-16 16:38:28.759+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1519381006	CloudyVR65	DLOW	\N	10120000	12806	34194	cw_bot	history-import:cw_bot:1141	2026-04-27 02:10:48.062+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1519933607	JustCaIIMeEgg	Farm	\N	42870000	1848	34192	cw_bot	history-import:cw_bot:501	2026-07-17 18:48:12.453+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1520358099	FlipFlopFloop417	CC4T	\N	17640000	7696	34192	cw_bot	history-import:cw_bot:356	2026-07-17 18:33:20.942+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1528718508	strykertoff	XPQX	\N	2260000	21421	34194	cw_bot	history-import:cw_bot:1267	2026-05-03 14:42:25.308+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1537916189	MailDaCoolKid	SOPU	\N	40920000	2203	34194	cw_bot	history-import:cw_bot:9198	2026-06-19 13:04:44.383+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1539398349	Darkszern	SOPU	\N	40240000	2320	34192	cw_bot	history-import:cw_bot:4573	2026-08-04 19:57:01.734+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1540810735	Digitallw	SOPU	\N	41930000	2016	34194	cw_bot	history-import:cw_bot:1603	2026-05-20 23:36:13.83+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1546214233	ninjaogifox	DLOW	\N	22430000	5773	34192	cw_bot	history-import:cw_bot:5980	2026-08-10 21:49:03.348+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1572663900	radekfila1977	HR2T	\N	8440000	14767	34192	cw_bot	history-import:cw_bot:7288	2026-07-26 21:50:50.973+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1573629774	mkmike27mk	XPQX	\N	12660000	10511	34194	cw_bot	history-import:cw_bot:258	2026-05-16 17:04:30.807+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1581306248	Robloxak_Honiik	KMo	\N	20300000	6589	34191	cw_bot	history-import:cw_bot:5835	2026-08-14 19:05:13.93+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1587906543	wexfordfox	BOSK	\N	39050000	2526	34194	cw_bot	history-import:cw_bot:9288	2026-04-29 12:14:55.272+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1592738293	1ncr3d1bl3sulk	DRK5	\N	40720000	2236	34194	cw_bot	history-import:cw_bot:1281	2026-05-03 22:19:36.985+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1594240458	milan123CZ2	SVSP	\N	5250000	17661	34191	cw_bot	history-import:cw_bot:5591	2026-08-16 09:47:43.095+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1595931381	secret_agent3736	DOLA	\N	9430000	13581	34194	cw_bot	history-import:cw_bot:3919	2026-06-24 23:03:41.029+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1596560199	wiegehtdennsowas	XBOX	\N	41070000	2176	34194	cw_bot	history-import:cw_bot:9323	2026-04-05 16:35:34.64+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1613882953	toastedpoptartonyt	CXTG	\N	14370000	9314	34191	cw_bot	history-import:cw_bot:9921	2026-08-18 18:50:20.423+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1617221713	waheedplayzYT	S2PU	\N	16530000	8177	34192	cw_bot	history-import:cw_bot:7784	2026-07-22 21:12:43.733+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1626378539	Fulda645	S7NS	\N	39480000	2450	34194	cw_bot	history-import:cw_bot:8147	2026-04-28 12:17:49.765+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1644308020	hoon9900a	vvjp	\N	28460000	4234	34192	cw_bot	history-import:cw_bot:8935	2026-07-29 11:32:45.032+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1647731044	angelwytb	GST2	\N	29970000	3914	34192	cw_bot	history-import:cw_bot:7980	2026-07-08 14:37:40.756+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1652197454	fighter92399_alt	NONG	\N	73830000	115	34194	cw_bot	history-import:cw_bot:1834	2026-06-16 00:22:27.481+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1670011733	Kono9595	RBD	\N	2350000	21136	34192	cw_bot	history-import:cw_bot:6374	2026-08-07 18:53:41.202+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1676340458	AgreedFlower11	0RBI	\N	40530000	2261	34192	cw_bot	history-import:cw_bot:618	2026-07-17 18:49:30.27+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1676361250	RealYoDarkshadow	Lyyt	\N	8670000	14501	34194	cw_bot	history-import:cw_bot:3990	2026-04-12 22:22:05.865+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1683480006	kminoscz	KMo	\N	37640000	2743	34192	cw_bot	history-import:cw_bot:7081	2026-07-30 17:15:30.786+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1685635748	farmboyjetw	Goop	\N	60220000	485	34194	cw_bot	history-import:cw_bot:8311	2026-04-02 20:23:10.489+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1690820953	1tombay	BEZE	\N	45380000	1448	34194	cw_bot	history-import:cw_bot:1720	2026-05-23 14:09:54.985+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1697239942	racingchampaj	AR2Y	\N	10130000	12791	34192	cw_bot	history-import:cw_bot:7892	2026-07-08 14:32:13.162+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1727137762	azmvoisshot	ORB	\N	765390	25293	34194	cw_bot	history-import:cw_bot:823	2026-06-13 03:07:29.607+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1750005492	averyhein1920	S2PU	\N	11560000	11453	34194	cw_bot	history-import:cw_bot:8398	2026-06-17 00:11:42.038+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1756730755	imsazzyy	OTTR	\N	44860000	1527	34194	cw_bot	history-import:cw_bot:9136	2026-06-29 23:26:20.807+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1759162396	9kbotzz	XBOX	\N	37090000	2806	34194	cw_bot	history-import:cw_bot:9335	2026-04-05 20:49:49.97+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1780089241	dominikando11	Ice6	\N	12080000	11014	34194	cw_bot	history-import:cw_bot:4010	2026-04-12 21:23:47.034+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1787663283	TheBuilder5649	FGZW	\N	9180000	13883	34194	cw_bot	history-import:cw_bot:4079	2026-04-12 22:03:03.052+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1814033582	xvlamer	🏰 Clan: **TRXG**	\N	\N	4294	34194	cw_bot	history-import:cw_bot:3658	2026-04-19 07:41:22.679+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1817334423	zerz06	Goop	\N	41580000	2074	34191	cw_bot	history-import:cw_bot:8710	2026-08-26 17:22:03.043+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1818966891	Drak1735	tnlg	\N	9440000	13565	34191	cw_bot	history-import:cw_bot:5849	2026-08-14 19:17:31.862+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1824713899	hayojeu2k	W2VY	\N	11120000	11843	34192	cw_bot	history-import:cw_bot:672	2026-07-17 18:57:09.828+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1835808563	1213eric	_MGW	\N	34260000	3224	34194	cw_bot	history-import:cw_bot:1644	2026-05-21 04:56:29.857+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1856284829	younes89755	NONG	\N	45990000	1368	34194	cw_bot	history-import:cw_bot:1353	2026-05-06 23:01:41.242+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1881899133	Coxxman	HROT	\N	31620000	3613	34192	cw_bot	history-import:cw_bot:7441	2026-07-13 19:26:57.695+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1895942489	ziomek1000oo	_hot	\N	19200000	7026	34191	cw_bot	history-import:cw_bot:7586	2026-08-19 21:17:39.542+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1899977300	luk3svib5s	Fm4L	\N	7630000	15778	34192	cw_bot	history-import:cw_bot:5931	2026-08-12 05:05:40.788+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1933064023	cb7rebel	SAM4	\N	21460	32970	34194	cw_bot	history-import:cw_bot:4103	2026-04-12 20:17:10.048+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1950318403	itsgaternotgator	W2VY	\N	9170000	13891	34194	cw_bot	history-import:cw_bot:311	2026-07-01 16:29:10.815+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1973447751	radkozahumensky5	BDX	\N	15090000	8875	34191	cw_bot	history-import:cw_bot:4976	2026-08-24 18:50:27.632+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1973891991	lab44162	3zEZ	\N	14710000	9085	34192	cw_bot	history-import:cw_bot:2358	2026-08-11 11:08:52.921+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1986018475	Yazooony55	AXOK	\N	14370000	9316	34192	cw_bot	history-import:cw_bot:2312	2026-08-12 18:23:23.035+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2005983585	shadowstaristhegoat	SOPU	\N	34950000	3107	34192	cw_bot	history-import:cw_bot:9561	2026-07-31 10:09:27.163+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2015826915	Thiballa	ANG_	\N	18960000	7124	34194	cw_bot	history-import:cw_bot:1009	2026-04-18 19:09:38.623+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2017652746	roastedduck123	OTTR	\N	42330000	1937	34192	cw_bot	history-import:cw_bot:9043	2026-07-12 22:45:18.893+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2046133197	coltwertzu	V1LN	\N	23270000	5504	34194	cw_bot	history-import:cw_bot:9345	2026-03-30 23:05:52.126+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2064474099	macejko998	K989	\N	10320000	12593	34191	cw_bot	history-import:cw_bot:5606	2026-08-16 18:31:51.714+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2067834432	blazeeok	Goop	\N	42200000	1964	34192	cw_bot	history-import:cw_bot:3184	2026-07-26 20:02:36.593+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2226792909	Raptorik_gamer	HR2T	\N	17650000	7692	34192	cw_bot	history-import:cw_bot:7427	2026-07-18 17:45:36.477+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2241042742	WallEExtreme	BURN	\N	18340000	7402	34192	cw_bot	history-import:cw_bot:8685	2026-07-15 16:36:29.044+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2251616291	miminkoxxxxczdd	VLP	\N	26730000	4638	34191	cw_bot	history-import:cw_bot:7636	2026-08-15 11:12:28.99+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2257366377	lottewashere	NMRE	\N	9310000	13737	34194	cw_bot	history-import:cw_bot:9314	2026-04-13 22:48:01.131+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2268926446	Feibapa	Ash	\N	268000	28249	34192	cw_bot	history-import:cw_bot:2706	2026-07-31 16:47:53.554+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2282416912	vae1oria	snmn	\N	8590000	14568	34194	cw_bot	history-import:cw_bot:9299	2026-04-25 08:43:24.827+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2296914657	officialchost	NONG	\N	53180000	710	34194	cw_bot	history-import:cw_bot:3735	2026-04-22 06:40:26.037+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2316325389	julimowi	TeGu	\N	40860000	2210	34192	cw_bot	history-import:cw_bot:2732	2026-07-31 17:12:47.437+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2318308002	karelman1451	HR2T	\N	22660000	5698	34191	cw_bot	history-import:cw_bot:4916	2026-08-26 18:25:05.52+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2320688195	daihukumochi223	2WEI	\N	45930000	1375	34194	cw_bot	history-import:cw_bot:8556	2026-06-17 03:04:38.757+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2349313768	crystalboyo256	S7PY	\N	16380000	8257	34192	cw_bot	history-import:cw_bot:2978	2026-07-30 10:49:42.699+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2349773489	jsemdobrejkabe	MSPN	\N	1360000	23437	34192	cw_bot	history-import:cw_bot:6237	2026-08-08 09:15:39.653+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2399889452	starwax85	V1LN	\N	27400000	4497	34192	cw_bot	history-import:cw_bot:7766	2026-07-17 15:53:21.548+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2431643806	1KRUCHY	XREX	\N	40260000	2318	34194	cw_bot	history-import:cw_bot:8061	2026-06-23 16:35:49.505+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2443619256	mihokkon	UNO	\N	72360000	174	34194	cw_bot	history-import:cw_bot:3759	2026-04-17 00:20:59.211+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	65860000	336	34192	cw_bot	history-import:cw_bot:2946	2026-07-30 23:41:01.908+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2463337749	mrtendieman	GSTG	\N	30800000	3769	34191	cw_bot	history-import:cw_bot:7700	2026-08-16 16:38:00.619+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2469768592	Raitonn0609	2WEI	\N	24900000	5051	34194	cw_bot	history-import:cw_bot:9370	2026-03-31 20:29:42.263+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2475732693	Fazmashwastaken	FaZ	\N	38410000	2619	34192	cw_bot	history-import:cw_bot:10002	2026-08-09 01:32:35.34+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2487889713	Doggo_1490	st1z	\N	3080000	19554	34194	cw_bot	history-import:cw_bot:1215	2026-05-01 16:32:08.802+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2489885181	Ewan_314	NONG	\N	43710000	1692	34192	cw_bot	history-import:cw_bot:4436	2026-08-07 01:31:38.701+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2495030397	fartagus_angel	WSL	\N	4450000	18260	34191	cw_bot	history-import:cw_bot:9602	2026-08-16 14:44:32.773+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2509513667	Ryderkoo5545	ERC	\N	528930	26779	34191	cw_bot	history-import:cw_bot:5052	2026-08-23 10:46:48.07+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2521267504	matejsbss	W0m1	\N	24410000	5179	34192	cw_bot	history-import:cw_bot:7477	2026-07-15 14:29:29.985+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2529950059	swbrthe34rd	LBB	\N	7510000	15905	34191	cw_bot	history-import:cw_bot:5680	2026-08-15 00:36:32.07+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2530992063	smrtak54	DJRK	\N	194840	30110	34192	cw_bot	history-import:cw_bot:6182	2026-08-08 19:57:25.253+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2534684186	mrtoping123	Zeiz	\N	3860000	18735	34192	cw_bot	history-import:cw_bot:7032	2026-07-30 22:26:36.798+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2539070982	Nomdecodetotoc34	ANG_	\N	13640000	9814	34194	cw_bot	history-import:cw_bot:1242	2026-05-02 16:27:23.292+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2545832975	baconszombiesarmy	FGZW	\N	11740000	11296	34194	cw_bot	history-import:cw_bot:4057	2026-04-12 22:02:06.94+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2575495153	IStoleYourChica	ORBI	\N	63660000	387	34192	cw_bot	history-import:cw_bot:80	2026-07-17 18:32:12.646+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2628215963	praisevolxtz	st1z	\N	1400000	23348	34192	cw_bot	history-import:cw_bot:457	2026-07-17 18:47:40.523+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2633185327	luxxrro	EXP	\N	45250000	1465	34194	cw_bot	history-import:cw_bot:1993	2026-06-28 16:25:22.311+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2667688976	SlimGreycz_2	VLP	\N	3600000	18956	34192	cw_bot	history-import:cw_bot:7938	2026-07-08 14:35:29.662+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2681952829	samplayz9977	XPQX	\N	5460000	17529	34194	cw_bot	history-import:cw_bot:1400	2026-05-10 00:23:27.332+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2699598634	rosta128	HROT	\N	31710000	3598	34192	cw_bot	history-import:cw_bot:6966	2026-07-31 16:07:38.598+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2709299989	fishy_axl22	st1z	\N	28160000	4301	34194	cw_bot	history-import:cw_bot:772	2026-05-10 02:24:40.449+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2719084403	aidananthony013	XPQX	\N	8790000	14341	34194	cw_bot	history-import:cw_bot:1818	2026-06-13 15:03:54.201+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2741135886	Micahtesdahl321	BLHZ	\N	246410	28668	34194	cw_bot	history-import:cw_bot:1521	2026-05-16 22:59:19.417+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2741560826	notaps322	OTTR	\N	18580000	7284	34192	cw_bot	history-import:cw_bot:9945	2026-07-18 18:26:05.951+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2773606910	Onlypetw	OzTM	\N	6660000	16673	34192	cw_bot	history-import:cw_bot:9973	2026-08-09 13:14:08.798+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2786686086	Loewentatze12	CITC	\N	2280000	21339	34192	cw_bot	history-import:cw_bot:2438	2026-08-09 19:22:00.052+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2793216369	F_Bizzle	UNITY	\N	43120000	1798	34194	cw_bot	history-import:cw_bot:1157	2026-04-27 21:42:43.611+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2841006660	subujwojanaa	XREX	\N	38180000	2647	34192	cw_bot	history-import:cw_bot:9014	2026-07-17 19:55:23.416+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2844876464	Destructcz23	HROT	\N	28040000	4329	34191	cw_bot	history-import:cw_bot:2270	2026-08-20 07:56:23.411+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2848966007	roblox_user_2848966007	PT_S	\N	2420000	20943	34192	cw_bot	history-import:cw_bot:2428	2026-08-09 19:20:36.232+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2892299154	Baggooooo	UN0	\N	77220000	22	34192	cw_bot	history-import:cw_bot:4547	2026-08-04 19:57:26.933+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2901565950	bestrobloxsimsplayer	NONG	\N	65330000	346	34194	cw_bot	history-import:cw_bot:1180	2026-04-30 19:38:45.807+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2912101187	coolgur0	0RB2	\N	24580000	5133	34192	cw_bot	history-import:cw_bot:514	2026-07-17 18:48:27.061+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2915153725	Ishan90091	07W	\N	16080000	8381	34192	cw_bot	history-import:cw_bot:10057	2026-08-08 18:49:12.798+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2929825206	roplexbuddy	F4DE	\N	53440000	697	34192	cw_bot	history-import:cw_bot:4260	2026-08-13 04:25:30.76+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2948612124	saud02x	UN0	\N	72300000	175	34194	cw_bot	history-import:cw_bot:8205	2026-04-25 09:16:47.451+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2956070032	AnnexOO1	DLOW	\N	52040000	768	34194	cw_bot	history-import:cw_bot:8248	2026-04-11 00:42:36.107+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2980262380	Xperide	KOR_	\N	33660000	3307	34194	cw_bot	history-import:cw_bot:1489	2026-05-15 20:24:52.409+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2981591104	Maroko_013	HROT	\N	59280000	509	34192	cw_bot	history-import:cw_bot:8867	2026-07-31 17:35:33.295+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2988275843	zspjasieniec1	PABS	\N	51110000	820	34191	cw_bot	history-import:cw_bot:8497	2026-08-19 15:24:30.108+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2992299705	Afrykan0	_hot	\N	18620000	7260	34191	cw_bot	history-import:cw_bot:7509	2026-08-28 16:42:30.025+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	2999732017	derharzendeharzer	V1LN	\N	44670000	1549	34194	cw_bot	history-import:cw_bot:4227	2026-04-12 20:09:36.816+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3000748132	PickleCloudNacho	H8ER	\N	40220000	2322	34194	cw_bot	history-import:cw_bot:3959	2026-04-12 22:17:35.814+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3000932506	JackJAC123999	URS7	\N	853390	24855	34192	cw_bot	history-import:cw_bot:9513	2026-07-07 15:52:50.748+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3019968804	Houtchyoi	ROMU	\N	28440000	4241	34194	cw_bot	history-import:cw_bot:1615	2026-05-20 23:36:44.19+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3022616943	floatindrag	SSQD	\N	21810000	6001	34192	cw_bot	history-import:cw_bot:2566	2026-08-01 14:35:07.364+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3036025083	Fernando0876543	PsAG	\N	42630000	1894	34192	cw_bot	history-import:cw_bot:6114	2026-08-09 01:13:58.738+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3039307282	Mr_agnes30	XREX	\N	31190000	3697	34194	cw_bot	history-import:cw_bot:8078	2026-06-23 16:38:19.044+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3045484191	svarta161010	VLP	\N	40	34084	34191	cw_bot	history-import:cw_bot:5358	2026-08-20 17:52:33.435+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3046788322	Xerenity1	DLOW	\N	26830000	4615	34194	cw_bot	history-import:cw_bot:8259	2026-04-11 00:53:10.021+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3060745926	thetruetdsglitch	XBOX	\N	42960000	1826	34194	cw_bot	history-import:cw_bot:8042	2026-04-30 15:47:59.662+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3064251597	filipek2600cz	H8ER	\N	30840000	3756	34194	cw_bot	history-import:cw_bot:1567	2026-05-17 11:56:22.532+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3074938605	d4v1d24k8hd	snmn	\N	158550	31096	34191	cw_bot	history-import:cw_bot:8583	2026-08-21 00:12:12.931+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3076166235	dadgonecrazy2021	WSL	\N	11150000	11806	34191	cw_bot	history-import:cw_bot:9780	2026-08-26 19:50:08.045+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3094350982	kki201217	LEGT	\N	779180	25223	34191	cw_bot	history-import:cw_bot:9905	2026-08-18 18:07:03.497+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3096883976	markosk2007	IDF	\N	46500000	1293	34192	cw_bot	history-import:cw_bot:6071	2026-08-09 09:27:28.449+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3110455209	kuroihanin	JPST	\N	277450	28119	34192	cw_bot	history-import:cw_bot:907	2026-07-17 19:08:55.749+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3139037723	Tobik987123	cspe	\N	143650	31398	34192	cw_bot	history-import:cw_bot:6479	2026-08-06 18:08:45.622+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3143604581	RebelkaCZ157	VLP	\N	19190000	7033	34192	cw_bot	history-import:cw_bot:6714	2026-08-04 09:43:51.606+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3149302489	code_wille	0RBI	\N	62720000	416	34194	cw_bot	history-import:cw_bot:3844	2026-04-05 06:57:37.866+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3167272498	zdendpicl9	DJRK	\N	2510000	20687	34191	cw_bot	history-import:cw_bot:5720	2026-08-15 08:51:50.658+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3167571592	Hickarn1	3zEZ	\N	19280000	6994	34194	cw_bot	history-import:cw_bot:8384	2026-03-22 11:06:41.693+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3171368431	darklode100	CC4T	\N	2290000	21330	34194	cw_bot	history-import:cw_bot:1130	2026-04-27 02:10:10.025+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3181994439	anrijs9991	ORBI	\N	54780000	635	34194	cw_bot	history-import:cw_bot:1193	2026-04-30 19:59:29.548+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3186034676	tobicole	DKWR	\N	440850	27076	34194	cw_bot	history-import:cw_bot:4122	2026-04-12 20:27:08.198+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3189090824	bobbybiz1	UNTY	\N	44910000	1521	34194	cw_bot	history-import:cw_bot:3830	2026-04-05 06:52:03.294+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3198094679	JanKob2022	_hot	\N	28440000	4239	34192	cw_bot	history-import:cw_bot:8454	2026-08-01 18:13:54.908+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3208575762	tofikmore	2pGA	\N	1250000	23677	34191	cw_bot	history-import:cw_bot:5624	2026-08-16 07:23:34.699+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3214063706	ZoraDaGoatOfficial	ANG_	\N	49610000	930	34194	cw_bot	history-import:cw_bot:958	2026-04-17 00:09:22.187+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3214496713	DarkPhoenix917	UN0	\N	76690000	28	34192	cw_bot	history-import:cw_bot:4509	2026-08-04 19:56:06.385+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3215370935	snorlaxfox1	DGSL	\N	34050000	3256	34194	cw_bot	history-import:cw_bot:9388	2026-04-02 02:54:57.549+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3228101331	phoen1x_aus	WSL	\N	11830000	11227	34191	cw_bot	history-import:cw_bot:9768	2026-08-26 19:49:57.893+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3233034644	ARIGO11234	Scly	\N	280820	28075	34192	cw_bot	history-import:cw_bot:3310	2026-07-24 20:34:16.905+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3244967172	Daliborko6	karl	\N	13290000	10028	34192	cw_bot	history-import:cw_bot:4779	2026-07-30 16:13:56.602+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3248091509	professorfeliks	PABS	\N	27010000	4583	34192	cw_bot	history-import:cw_bot:8982	2026-07-19 16:26:07.395+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3252894844	vexityonnic	WJAY	\N	42780000	1873	34194	cw_bot	history-import:cw_bot:3814	2026-04-05 06:50:41.945+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3252937116	vladysbomb	whpk	\N	509150	26844	34192	cw_bot	history-import:cw_bot:3364	2026-07-23 18:49:39.625+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3271035452	Misak0912	K989	\N	19420000	6934	34192	cw_bot	history-import:cw_bot:6947	2026-08-01 08:49:00.863+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3271442208	Jonglesje	HR2T	\N	31030000	3724	34191	cw_bot	history-import:cw_bot:2235	2026-08-24 09:46:55.285+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3282696395	max_squash	ORBI	\N	58180000	541	34192	cw_bot	history-import:cw_bot:2122	2026-08-01 03:32:06.841+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3289385978	KnKmor	DK	\N	26320000	4727	34192	cw_bot	history-import:cw_bot:8893	2026-08-01 18:12:49.345+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3299278772	xxprozombix	BEZE	\N	70610000	220	34194	cw_bot	history-import:cw_bot:8671	2026-06-26 13:37:08.577+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3318596083	Mamaris357357	OCHG	\N	8830000	14293	34191	cw_bot	history-import:cw_bot:5786	2026-08-14 17:19:41.498+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3323392290	D0m1n8tr	SAM	\N	25430000	4925	34194	cw_bot	history-import:cw_bot:9275	2026-04-29 06:50:40.467+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3326513585	alexesalt08	🏰 Clan: **NXNG**	\N	\N	13628	34194	cw_bot	history-import:cw_bot:3471	2026-04-21 20:06:40.446+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3327485448	thegoatedkidof2022	WSL	\N	16310	33113	34191	cw_bot	history-import:cw_bot:9711	2026-08-28 19:31:59.738+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3338233326	Andrewasper0987	ZIGZ	\N	3190000	19398	34194	cw_bot	history-import:cw_bot:1851	2026-06-17 12:39:01.167+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3345239646	vojtas98CZ	K989	\N	654650	26030	34192	cw_bot	history-import:cw_bot:6153	2026-08-08 18:13:17.798+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3357292523	Grec_Game	VLP	\N	2630000	20387	34192	cw_bot	history-import:cw_bot:7065	2026-07-30 17:14:48.532+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3370104014	Standa256	VLP	\N	2220000	21564	34191	cw_bot	history-import:cw_bot:5139	2026-08-23 03:03:21.508+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3372527888	CokoladovaZmrzska	cspe	\N	15700000	8553	34192	cw_bot	history-import:cw_bot:7359	2026-07-22 01:19:32.889+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3373408758	housebox_go	HR2T	\N	21060000	6322	34192	cw_bot	history-import:cw_bot:6459	2026-08-06 17:53:29.386+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3377511045	mercstien	B2SS	\N	47950000	1089	34194	cw_bot	history-import:cw_bot:1341	2026-05-06 09:08:51.241+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3382833387	kingweslie123	BUTI	\N	22620000	5709	34192	cw_bot	history-import:cw_bot:2327	2026-08-12 21:19:37.585+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3402015952	Josep_xD2	NONG	\N	47760000	1119	34194	cw_bot	history-import:cw_bot:64	2026-04-27 04:36:38.637+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3421453702	noliogames	EVOL	\N	7470000	15969	34192	cw_bot	history-import:cw_bot:9472	2026-08-04 08:46:51.508+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3439337856	prezley_official2022	VLP	\N	28870000	4145	34192	cw_bot	history-import:cw_bot:7119	2026-07-30 15:19:24.23+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3444459957	Radek25101982	VLP	\N	11130000	11830	34192	cw_bot	history-import:cw_bot:6053	2026-08-09 09:04:46.362+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3447427741	filipekisfff	BMJ4	\N	11550000	11463	34194	cw_bot	history-import:cw_bot:3887	2026-05-11 00:51:30.646+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3448405650	eldublinfox	Fchn	\N	18480000	7336	34194	cw_bot	history-import:cw_bot:9395	2026-04-01 08:35:40.039+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3500795024	Ey3d46	_hot	\N	23320000	5489	34194	cw_bot	history-import:cw_bot:294	2026-05-09 14:14:11.57+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3509021767	JonnyM55	OCGH	\N	12100000	10992	34191	cw_bot	history-import:cw_bot:5553	2026-08-17 00:51:43.291+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3549731928	Thijklo2003	KOHV	\N	34250000	3225	34194	cw_bot	history-import:cw_bot:1547	2026-05-17 01:50:48.281+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3557375419	Subtokirbofanyt	AWZY	\N	18250000	7442	34192	cw_bot	history-import:cw_bot:2192	2026-07-27 21:40:54.835+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3563519895	dexxifying	FYNE	\N	15290000	8775	34194	cw_bot	history-import:cw_bot:3769	2026-04-17 00:22:16.986+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3565857429	Bb874tad	AR2Y	\N	2080000	22050	34192	cw_bot	history-import:cw_bot:7968	2026-07-08 14:36:26.417+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3567067280	Kurtis2345789	ROMU	\N	7110000	16323	34194	cw_bot	history-import:cw_bot:589	2026-05-19 20:18:17.483+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3570093892	CZ_Ondiik	HROT	\N	46710000	1263	34191	cw_bot	history-import:cw_bot:5869	2026-08-14 19:38:17.627+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3582853902	Godboy94875	NS4R	\N	12460000	10670	34192	cw_bot	history-import:cw_bot:2548	2026-08-01 14:32:30.444+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3602402808	Flexsnack21	UNTY	\N	51100000	822	34194	cw_bot	history-import:cw_bot:1206	2026-05-01 08:05:11.74+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3628039137	anoknight5	XPQX	\N	2570000	20552	34192	cw_bot	history-import:cw_bot:3120	2026-07-28 18:56:15.247+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3639903941	imandaskye	ORBI	\N	65300000	347	34192	cw_bot	history-import:cw_bot:2175	2026-08-01 03:30:43.552+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3655474970	Shrooomdevourer10	V1LN	41	33900000	41	\N	external_import	history-import:big_bot:1071	2026-07-03 23:39:30.698+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3672938221	zhulenc	VLP	\N	13030000	10225	34192	cw_bot	history-import:cw_bot:6528	2026-08-06 21:54:27.517+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3683660130	Medvid3k11	cspe	\N	5430000	17548	34192	cw_bot	history-import:cw_bot:6989	2026-07-31 17:00:07.71+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3714270625	angiespartytreat	RFIL	\N	31970000	3544	34192	cw_bot	history-import:cw_bot:7714	2026-08-02 11:57:07.168+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3717157427	Gx_BlackNinja	S2PU	\N	51450000	798	34194	cw_bot	history-import:cw_bot:3794	2026-04-06 19:59:53.068+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3741610856	DemxnIRL	ORBI	\N	41030000	2184	34192	cw_bot	history-import:cw_bot:4484	2026-08-06 00:26:19.98+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3750045967	imnotdigitosim1476	0RBI	\N	46160000	1344	34191	cw_bot	history-import:cw_bot:5660	2026-08-14 22:17:44.993+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3753977683	mybanana367	NONG	\N	56510000	588	34194	cw_bot	history-import:cw_bot:1469	2026-05-13 21:54:17.124+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3768828357	mrs_reset	POPS	\N	20460000	6540	34194	cw_bot	history-import:cw_bot:8610	2026-06-17 00:15:13.179+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3779230353	goat201470	H8M3	\N	38850000	2556	34194	cw_bot	history-import:cw_bot:8279	2026-04-13 16:26:51.02+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3797718809	m4thou3	BOSK	\N	7100000	16332	34192	cw_bot	history-import:cw_bot:3078	2026-07-28 21:07:33.267+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3808414208	Suppe_Can	SOPU	\N	40210000	2326	34194	cw_bot	history-import:cw_bot:8119	2026-04-27 17:55:05.386+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3834652767	Roman5556_CZ	SAM4	\N	9510000	13477	34192	cw_bot	history-import:cw_bot:7411	2026-07-17 16:42:07.486+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3853349557	melpatate12	GANG	\N	44520000	1570	34194	cw_bot	history-import:cw_bot:971	2026-04-18 02:12:53.563+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3877547410	bedwarsikxdd	S2PU	\N	10500000	12426	34191	cw_bot	history-import:cw_bot:5743	2026-08-15 14:48:12.809+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3915256201	david_smeg	mbee	\N	234280	28965	34192	cw_bot	history-import:cw_bot:3352	2026-07-23 15:30:35.199+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3919100604	Filda7329	STPS	\N	11860000	11202	34192	cw_bot	history-import:cw_bot:6497	2026-08-06 18:48:55.736+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3926695029	22mamamama	tNo	\N	4210000	18455	34192	cw_bot	history-import:cw_bot:7457	2026-07-15 07:59:07.687+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3940781859	tigran_2206	BEZE	\N	10370000	12549	34192	cw_bot	history-import:cw_bot:866	2026-07-17 18:56:54.568+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3978547556	Zoliisrecords	K989	\N	217490	29434	34191	cw_bot	history-import:cw_bot:4997	2026-08-24 10:40:01.728+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	3995854585	microwavealt0	B2NG	\N	47180000	1191	34194	cw_bot	history-import:cw_bot:3777	2026-04-06 19:45:30.695+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4005548494	Nekrynk_cz	HROT	\N	23870000	5349	34192	cw_bot	history-import:cw_bot:6854	2026-08-01 23:09:05.564+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4006052667	badamtttt	K989	\N	186970	30345	34192	cw_bot	history-import:cw_bot:6273	2026-08-08 11:25:07.466+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4010792811	1zelvak	BDX	\N	765110	25293	34192	cw_bot	history-import:cw_bot:7277	2026-07-27 11:51:24.945+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4023070188	kocovina98	DJRK	\N	2800000	20008	34191	cw_bot	history-import:cw_bot:5734	2026-08-15 11:32:52.389+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4028104754	jaratupy36	MLRM	\N	1820000	22716	34191	cw_bot	history-import:cw_bot:5765	2026-08-14 16:48:48.942+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4032508929	Skibidieny	K989	\N	964640	24440	34192	cw_bot	history-import:cw_bot:7194	2026-07-30 04:52:07.394+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4035198924	ytpandaroux	ANG2	\N	21460000	6152	34192	cw_bot	history-import:cw_bot:932	2026-07-08 19:17:13.13+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4051469126	Naruto61925	_hot	\N	30360000	3849	34192	cw_bot	history-import:cw_bot:3396	2026-07-23 20:03:20.004+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4054510143	kudlankovec	POJO	\N	2060000	22119	34192	cw_bot	history-import:cw_bot:2487	2026-08-01 09:59:49.052+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4054820865	jimmy_johnhi	ICYT	\N	18270000	7433	34194	cw_bot	history-import:cw_bot:1424	2026-05-11 01:19:45.857+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4113094220	TTobbboTT	HERD	\N	5700000	17358	34194	cw_bot	history-import:cw_bot:9228	2026-05-12 19:20:42.195+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4160339225	JamalTheHarryThe3rd	Dond	\N	572230	26615	34194	cw_bot	history-import:cw_bot:235	2026-04-18 20:55:48.35+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4161934376	honza01021983	DJRK	\N	37690000	2734	34191	cw_bot	history-import:cw_bot:4850	2026-08-28 06:57:40.513+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4167232216	nanuk_2232	VLP2	\N	458460	27022	34192	cw_bot	history-import:cw_bot:6305	2026-08-08 12:06:58.145+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4177849716	doperthanyou67	KOHV	\N	21120000	6294	34192	cw_bot	history-import:cw_bot:9070	2026-07-08 01:06:13.66+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4196761995	GravysOfficial	OCHG	\N	24100000	5266	34191	cw_bot	history-import:cw_bot:5120	2026-08-22 23:53:53.389+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4197618114	Danczek0102	OCHG	\N	11600000	11415	34192	cw_bot	history-import:cw_bot:6287	2026-08-08 16:08:23.534+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4215988499	abby_gamera	V1LN	\N	24390000	5189	34194	cw_bot	history-import:cw_bot:8158	2026-04-28 15:06:15.006+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4224841429	Holemedonescr10	3zEZ	\N	46650000	1274	34194	cw_bot	history-import:cw_bot:1597	2026-05-20 19:08:41.718+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4238790853	samsam16725	ROMU	\N	3880000	18712	34194	cw_bot	history-import:cw_bot:97	2026-06-19 21:20:32.05+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4242955713	KazuyaTTV	S2PU	\N	25770000	4857	34194	cw_bot	history-import:cw_bot:215	2026-05-01 10:25:23.892+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4247108285	irdski	IWHN	\N	9610000	13374	34191	cw_bot	history-import:cw_bot:4720	2026-08-14 21:21:37.198+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4281402342	Selcuk1143	SW23	\N	716880	25588	34192	cw_bot	history-import:cw_bot:3053	2026-07-28 21:24:31.882+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4290313900	rubberluffy1235	S2PU	\N	1280000	23590	34192	cw_bot	history-import:cw_bot:4240	2026-08-13 06:29:40.629+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4301431724	Bobsussybu123	SLRP	\N	254780	28497	34192	cw_bot	history-import:cw_bot:2523	2026-08-01 12:26:31.166+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4313949380	Dada343410	W0m1	\N	7150000	16274	34192	cw_bot	history-import:cw_bot:6390	2026-08-07 20:30:35.379+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4335879793	Ianchen101	🏰 Clan: **TPGD**	\N	\N	899	34194	cw_bot	history-import:cw_bot:3726	2026-03-14 11:46:10.561+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4339145979	Dandis_20	COLU	\N	2180000	21713	34191	cw_bot	history-import:cw_bot:5523	2026-08-18 13:11:18.989+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4345972644	venti12011201	2WEI	\N	27880000	4375	34194	cw_bot	history-import:cw_bot:8543	2026-06-17 00:04:41.889+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4393951337	lukascccs	VLP2	\N	3320000	19230	34192	cw_bot	history-import:cw_bot:6135	2026-08-08 17:36:40.231+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4414924368	1ninjaomg	_MGW	\N	28660000	4185	34194	cw_bot	history-import:cw_bot:1080	2026-04-25 20:32:31.847+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4418075437	Koudys7	HROT	\N	53660000	688	34191	cw_bot	history-import:cw_bot:5347	2026-08-20 16:59:38.171+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4430200296	daytime7789	OTTR	\N	25060000	5015	34194	cw_bot	history-import:cw_bot:9165	2026-06-29 23:32:40.195+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4452395552	Xavier_Toorp	STPS	\N	710270	25640	34192	cw_bot	history-import:cw_bot:7039	2026-07-31 00:21:48.123+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4468537889	tvojemamag101	VLP2	\N	337500	27499	34191	cw_bot	history-import:cw_bot:5092	2026-08-22 23:18:43.789+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4482372398	Burak30_CZ	HR2T	\N	54280000	662	34192	cw_bot	history-import:cw_bot:7168	2026-07-30 13:05:24.983+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4483758330	Sooz_events	TAUK	\N	17220000	7863	34194	cw_bot	history-import:cw_bot:4067	2026-04-12 22:02:33.256+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4501805740	jhdghrghhtzt	LP7	\N	7790000	15567	34192	cw_bot	history-import:cw_bot:6440	2026-08-06 17:33:40.928+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4506575217	dracislav	HROT	\N	46800000	1249	34192	cw_bot	history-import:cw_bot:7310	2026-07-26 08:10:51.343+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4511725993	Kvetamin	VLP	\N	3190000	19393	34191	cw_bot	history-import:cw_bot:5248	2026-08-21 19:36:06.87+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4515946186	bakedashboii	SLRP	\N	33620000	3314	34194	cw_bot	history-import:cw_bot:8295	2026-04-19 17:46:14.335+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4540869398	proto123q	NS4R	\N	9340000	13700	34192	cw_bot	history-import:cw_bot:570	2026-07-17 18:49:06.221+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4544162965	icestormvoyager	S2PU	\N	23550000	5421	34194	cw_bot	history-import:cw_bot:8237	2026-04-11 00:41:39.288+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4583513261	xXJ0hnXx23	POJO	\N	22530000	5743	34191	cw_bot	history-import:cw_bot:5296	2026-08-22 16:50:40.795+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4584982387	Misabilk	VLP2	\N	8060000	15243	34192	cw_bot	history-import:cw_bot:5941	2026-08-11 16:19:44.683+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4597064685	nevimheslo108	K989	\N	24140000	5253	34192	cw_bot	history-import:cw_bot:6650	2026-08-05 20:02:56.557+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4610459819	srolik249	Sro	\N	9720000	13229	34191	cw_bot	history-import:cw_bot:5709	2026-08-15 08:07:19.768+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4633578732	m3wpewpew	07W	\N	29260000	4042	34192	cw_bot	history-import:cw_bot:3002	2026-07-29 15:03:42.497+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4634042698	Psxtrader327	OTTR	\N	41170000	2152	34191	cw_bot	history-import:cw_bot:8510	2026-08-22 22:47:27.757+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4652078124	jaximeler	PABS	\N	39730000	2412	34194	cw_bot	history-import:cw_bot:8428	2026-06-17 00:24:11.273+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4686873488	Monty_Tomas10	K989	\N	31860000	3571	34191	cw_bot	history-import:cw_bot:5326	2026-08-21 07:45:07.526+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4759297476	psst1422	HROT	\N	43240000	1772	34194	cw_bot	history-import:cw_bot:147	2026-05-20 23:35:12.448+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4792692703	ced123zx	ROMU	\N	8140000	15153	34192	cw_bot	history-import:cw_bot:716	2026-07-17 18:57:41.576+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4833004455	Deniska_1990	bkl	\N	36430000	2891	34192	cw_bot	history-import:cw_bot:7327	2026-07-25 23:11:40.176+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4897243840	Bubbly_num2	UNO	\N	72200000	179	34194	cw_bot	history-import:cw_bot:8370	2026-04-06 08:31:41.74+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4957497369	ammi0729	GANG	\N	49780000	918	34194	cw_bot	history-import:cw_bot:984	2026-04-18 02:13:35.573+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4989918296	PtiDoriankt	ROMU	\N	20520000	6522	34192	cw_bot	history-import:cw_bot:848	2026-07-17 18:56:47.208+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	4999104751	Speaxk17	P2PS	\N	11010000	11953	34194	cw_bot	history-import:cw_bot:1628	2026-05-21 01:10:10.679+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5042635636	Cultiv8R_NZ	DLOW	\N	51950000	772	34194	cw_bot	history-import:cw_bot:8228	2026-04-11 00:40:42.513+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5044736168	CBroGolden	N2	\N	20710000	6447	34194	cw_bot	history-import:cw_bot:4092	2026-04-12 20:16:41.119+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5049376575	AGR_GamerY	AGR	\N	10690000	12249	34192	cw_bot	history-import:cw_bot:9688	2026-07-19 05:15:01.102+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5063089605	REAL3ST_NZ	DLOW	\N	46780000	1253	34194	cw_bot	history-import:cw_bot:8269	2026-04-11 00:55:05.933+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5076379116	samco137	EROS	\N	8180000	15089	34191	cw_bot	history-import:cw_bot:4858	2026-08-28 07:12:12.071+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5115775245	gympie54	WSL	\N	9070000	14007	34191	cw_bot	history-import:cw_bot:9758	2026-08-26 20:07:29.974+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5120442322	kirasm0m	ORBI	\N	54610000	646	34192	cw_bot	history-import:cw_bot:2207	2026-07-17 04:33:26.901+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5127406568	dadchris86	NONG	\N	74840000	77	34194	cw_bot	history-import:cw_bot:8185	2026-04-21 16:30:58.569+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5128164487	drako83cz	HROT	\N	27710000	4420	34191	cw_bot	history-import:cw_bot:5536	2026-08-17 12:17:13.979+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5131558904	COOL_BOY00277	M2D	\N	3110000	19503	34192	cw_bot	history-import:cw_bot:6164	2026-08-08 18:22:16.401+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5138542110	greatfullyyy	0RB2	\N	5010000	17866	34192	cw_bot	history-import:cw_bot:2904	2026-07-31 06:42:06.061+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5139018150	safdasdadwad524	B2NG	\N	58040000	544	34194	cw_bot	history-import:cw_bot:3776	2026-04-06 19:44:17.668+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5143387515	babykweeef	BOSS	\N	70680000	218	34191	cw_bot	history-import:cw_bot:2104	2026-08-14 22:59:19.851+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5170991645	galvoir2712	H8M3	\N	26400000	4706	34192	cw_bot	history-import:cw_bot:4419	2026-08-07 08:30:13.219+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5189669801	johqnel	Sro	\N	184270	30418	34191	cw_bot	history-import:cw_bot:5570	2026-08-17 00:52:03.053+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5197468736	ttkcash1	Goop	\N	61210000	456	34194	cw_bot	history-import:cw_bot:1394	2026-05-09 05:34:47.34+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5203613717	Arteomcka0_z	BEZE	\N	50780000	836	34192	cw_bot	history-import:cw_bot:3375	2026-07-23 19:33:38.366+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5207679662	GrinchFrend	HR2T	\N	33120000	3380	34191	cw_bot	history-import:cw_bot:4883	2026-08-28 13:55:05.802+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5209078854	Rydma73	H8ER	\N	44220000	1604	34194	cw_bot	history-import:cw_bot:3971	2026-04-12 22:17:12.736+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5209583889	pepajzik	STPS	\N	139160	31479	34191	cw_bot	history-import:cw_bot:5371	2026-08-20 18:05:20.789+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5246280273	janjelinek3	POJO	\N	3510000	19035	34192	cw_bot	history-import:cw_bot:6044	2026-08-09 09:04:37.217+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5254272309	shadow_ggofficial	M4RB	\N	46310000	1328	34194	cw_bot	history-import:cw_bot:1758	2026-05-28 21:55:36.515+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5267528496	hahagoo4	EGP	\N	6510000	16792	34192	cw_bot	history-import:cw_bot:9632	2026-07-31 16:29:28.688+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5288045534	tombayfarm4	XY11	\N	47010000	1213	34194	cw_bot	history-import:cw_bot:9529	2026-07-02 14:49:23.85+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	109818	Cinnamowopal	NONG	\N	66980000	306	34194	cw_bot	history-import:cw_bot:157	2026-04-27 00:46:27.41+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	1533791	clankbot	UN0	\N	73520000	129	34194	cw_bot	history-import:cw_bot:1706	2026-05-23 13:09:17.782+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	14538110	joeycb	ORBI	\N	58950000	519	34194	cw_bot	history-import:cw_bot:1688	2026-05-23 12:54:45.542+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	20532808	GamesReborn	Rfil	\N	51590000	789	34194	cw_bot	history-import:cw_bot:1223	2026-05-01 18:19:11.948+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	25894803	Malmortius	N3NG	\N	19420	33015	34194	cw_bot	history-import:cw_bot:2057	2026-06-30 14:47:28.663+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	31989428	zoggi10	Goop	\N	45680000	1411	34192	cw_bot	history-import:cw_bot:4610	2026-08-04 07:49:22.305+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	33492395	unoyea	UN0	\N	75490000	61	34194	cw_bot	history-import:cw_bot:1381	2026-05-07 10:52:28.967+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	33928536	banan123123123	NXNG	\N	18510000	7322	34194	cw_bot	history-import:cw_bot:1661	2026-05-22 07:26:22.196+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	45130460	Ziilionaires	UN0	\N	77470000	20	34194	cw_bot	history-import:cw_bot:3803	2026-04-05 08:12:37.375+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	58312098	sosd35	NONG	\N	68700000	264	34192	cw_bot	history-import:cw_bot:692	2026-07-17 18:57:28.202+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5313080791	HerzogDL	RATZ	\N	14350000	9327	34194	cw_bot	history-import:cw_bot:950	2026-04-17 00:08:20.006+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5320035299	connie4502	DOLA	\N	9790000	13161	34194	cw_bot	history-import:cw_bot:3929	2026-06-24 23:27:58.484+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5328968538	Iphone1835	SAM4	\N	8500000	14687	34191	cw_bot	history-import:cw_bot:5194	2026-08-21 18:06:41.136+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5348057277	petsimulator99nic	\N	\N	\N	5981	34194	cw_bot	history-import:cw_bot:3595	2026-05-08 01:40:42.8+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5368149066	blizn4	DVQ	\N	30540000	3814	34194	cw_bot	history-import:cw_bot:8047	2026-06-23 16:35:37.33+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5378360782	dog22122011trade	VLP2	\N	2070000	22092	34192	cw_bot	history-import:cw_bot:6483	2026-08-06 18:22:55.632+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5383071838	mr_895675	LXCC	\N	15710000	8548	34191	cw_bot	history-import:cw_bot:7680	2026-08-14 20:23:40.83+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5407742794	baba_gamer239	ROMU	\N	16460000	8216	34194	cw_bot	history-import:cw_bot:1584	2026-05-20 17:25:36.224+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5414318030	demonfaarm3	2WEI	\N	32830000	3430	34194	cw_bot	history-import:cw_bot:9355	2026-03-31 20:30:04.513+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5423870289	manzanopet206	DOLA	\N	19560000	6881	34194	cw_bot	history-import:cw_bot:3892	2026-06-24 22:57:46.772+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5436365094	Bruin444444	st1z	\N	34930000	3110	34192	cw_bot	history-import:cw_bot:2408	2026-08-10 00:49:21.439+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5510809744	moneyskallin	C4T6	\N	71310000	208	34192	cw_bot	history-import:cw_bot:2086	2026-07-19 11:32:01.392+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5514178688	Mason03388	SSQD	\N	8960000	14140	34194	cw_bot	history-import:cw_bot:4170	2026-04-12 21:05:45.162+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5516978036	omgitzmaatt3	_hot	\N	7930000	15407	34191	cw_bot	history-import:cw_bot:9874	2026-08-23 11:16:05.962+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5534860785	rostislavvv155	HROT	\N	26240000	4748	34192	cw_bot	history-import:cw_bot:2862	2026-07-31 15:54:01.042+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5560545010	crimxzysgoatedalt	N1GD	\N	8940000	14167	34194	cw_bot	history-import:cw_bot:1747	2026-05-28 19:25:01.662+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5575261241	noliogames3	IWHN	\N	1500000	23195	34192	cw_bot	history-import:cw_bot:9489	2026-08-04 08:47:00.84+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5603268347	demonfaarm6	2WEI	\N	45180000	1481	34194	cw_bot	history-import:cw_bot:9377	2026-03-31 20:30:56.071+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5623447261	quoicoubeh5608	RATZ	\N	7490000	15943	34192	cw_bot	history-import:cw_bot:6213	2026-08-08 20:49:37.159+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5683944571	startsevrblx	B2SS	\N	21430000	6174	34192	cw_bot	history-import:cw_bot:4496	2026-08-06 00:59:16.16+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5703128088	elnubsen	SOPU	\N	37430000	2768	34194	cw_bot	history-import:cw_bot:3868	2026-04-05 06:56:35.208+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5708006511	prd2137	URS7	\N	299730	27838	34192	cw_bot	history-import:cw_bot:6738	2026-08-04 10:16:22.823+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5718001505	samaorithor	WSL	\N	237990	28880	34191	cw_bot	history-import:cw_bot:9795	2026-08-26 19:50:37.879+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5743563432	Alexfarm_too	BMJ4	\N	1630000	23014	34192	cw_bot	history-import:cw_bot:10076	2026-08-08 09:43:53.852+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5793778586	PeaceAllAlone	UN0	\N	76470000	32	34194	cw_bot	history-import:cw_bot:8087	2026-04-26 19:32:34.93+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5818869297	knoxcoder	SOPU	\N	63550000	390	34192	cw_bot	history-import:cw_bot:3023	2026-07-29 13:28:15.912+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	5837946305	husos112410	COMT	\N	223440	29257	34192	cw_bot	history-import:cw_bot:3332	2026-07-24 20:49:25.624+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	6067661412	manzanopet106	DOLA	\N	8360000	14872	34194	cw_bot	history-import:cw_bot:3911	2026-06-24 23:01:08.618+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	6109731708	YoBaskett	W2VY	\N	29240000	4047	34192	cw_bot	history-import:cw_bot:430	2026-07-17 18:47:23.21+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	6156770625	pepajzikv2	STPS	\N	1260000	23647	34191	cw_bot	history-import:cw_bot:5385	2026-08-20 18:30:12.586+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	6180933436	Atefluigi1	V1LN	\N	20480000	6531	34191	cw_bot	history-import:cw_bot:4825	2026-08-28 16:24:47.076+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7005100565	Crazypuzzlehead15	DLOW	\N	32800000	3432	34192	cw_bot	history-import:cw_bot:2472	2026-08-01 09:28:25.648+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7092466884	dolabank	DOLA	\N	9380000	13644	34194	cw_bot	history-import:cw_bot:3909	2026-06-24 23:00:55.173+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7106055158	windstok10	N1TR	\N	4930000	17920	34191	cw_bot	history-import:cw_bot:5145	2026-08-23 04:27:42.377+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7116154575	windstok15	N1TR	\N	2750000	20122	34192	cw_bot	history-import:cw_bot:7180	2026-07-30 13:48:56.086+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7168755253	JoJo_Gaming2341	XMA2	\N	6920000	16483	34194	cw_bot	history-import:cw_bot:1889	2026-06-20 14:27:05.49+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7173492482	Kyan65427	j300	\N	16070000	8389	34192	cw_bot	history-import:cw_bot:3237	2026-07-26 12:04:59.618+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7202704987	wslhuge	WSL	\N	9890000	13056	34191	cw_bot	history-import:cw_bot:9819	2026-08-26 19:55:49.742+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7286879472	rvpfan555	DOLA	\N	16450000	8220	34194	cw_bot	history-import:cw_bot:3921	2026-06-24 23:03:50.624+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7426690057	Duckyphant	H8M3	\N	44930000	1518	34191	cw_bot	history-import:cw_bot:5642	2026-08-14 22:07:36.457+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7492577011	XBLTAZEEEE	V015	\N	14570000	9184	34194	cw_bot	history-import:cw_bot:9087	2026-07-03 23:49:41.902+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7577631298	zeefarmer	Z3EE	\N	11950000	11137	34194	cw_bot	history-import:cw_bot:1879	2026-06-20 03:22:08.873+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7583161395	Tgzzgzzltg33	HROT	\N	30470000	3828	34192	cw_bot	history-import:cw_bot:7267	2026-07-27 11:39:20.283+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7594665011	demonfaarm10	2WEI	\N	27920000	4364	34194	cw_bot	history-import:cw_bot:9362	2026-03-31 20:30:40.275+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7697761463	joeponsock12345	V1LN	\N	14680000	9115	34192	cw_bot	history-import:cw_bot:8950	2026-07-26 22:32:25.767+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7710452262	hrac_821	BDX	\N	988660	24357	34192	cw_bot	history-import:cw_bot:6005	2026-08-10 07:17:41.604+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7742077490	sirwabbs	st1z	\N	16000000	8420	34192	cw_bot	history-import:cw_bot:4643	2026-08-02 03:35:57.878+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7806857762	selena082319	W2VY	\N	18070000	7518	34192	cw_bot	history-import:cw_bot:378	2026-07-17 18:33:34.992+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	7811627595	Star_1110789	DRK5	\N	16260000	8315	34194	cw_bot	history-import:cw_bot:917	2026-05-01 16:32:32.474+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8016179740	limitless123234	DLOW	\N	5040000	17831	34191	cw_bot	history-import:cw_bot:8765	2026-08-15 05:26:46.656+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8032070860	angiepieterse01	GSWW	\N	17360000	7805	34192	cw_bot	history-import:cw_bot:7740	2026-08-06 17:04:53.85+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8136551278	vincbond15	DJRK	\N	295940	27884	34192	cw_bot	history-import:cw_bot:6192	2026-08-08 20:08:01.556+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8187537946	nzr5581	V1LN	\N	31090000	3720	34194	cw_bot	history-import:cw_bot:8197	2026-04-23 19:12:26.428+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8321323353	MercBandit_08	B2NG	\N	53350000	704	34192	cw_bot	history-import:cw_bot:32	2026-07-17 18:31:34.656+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8321341219	mercbandit_07	B2NG	\N	56980000	572	34194	cw_bot	history-import:cw_bot:3775	2026-04-06 19:44:09.747+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	8558531098	manzanopet306	DOLA	\N	13240000	10073	34194	cw_bot	history-import:cw_bot:3920	2026-06-24 23:01:16.868+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	92251776	thepiedealer	W2VY	\N	19520000	6900	34192	cw_bot	\N	2026-07-22 17:40:42.591+00	imported_history	10879
+BasketballBattle	Basketball Battle	basketballbattle	105342908	josephm922	07W	\N	7180000	16258	34194	cw_bot	\N	2026-07-05 05:15:14.676+00	imported_history	11273
+BasketballBattle	Basketball Battle	basketballbattle	106654316	Wooftamer	Do1t	\N	32480000	3476	34192	cw_bot	\N	2026-08-06 21:25:15.831+00	imported_history	10370
+BasketballBattle	Basketball Battle	basketballbattle	123813615	zabimar420	AWZY	\N	32900000	3418	34192	cw_bot	\N	2026-08-05 05:05:47.203+00	imported_history	10552
+BasketballBattle	Basketball Battle	basketballbattle	127350243	calum123abc	Tsne	\N	1090000	24046	34192	cw_bot	\N	2026-07-05 21:23:17.507+00	imported_history	11268
+BasketballBattle	Basketball Battle	basketballbattle	138136935	woeizl	EROS	\N	184130	30426	34192	cw_bot	\N	2026-07-12 05:31:58.227+00	imported_history	11128
+BasketballBattle	Basketball Battle	basketballbattle	226285350	farlorddeath	UN0	\N	72220000	177	34192	cw_bot	\N	2026-07-20 02:25:37.839+00	imported_history	11000
+BasketballBattle	Basketball Battle	basketballbattle	240536469	aysear	Goop	\N	73020000	150	34192	cw_bot	\N	2026-07-17 03:28:32.523+00	imported_history	11089
+BasketballBattle	Basketball Battle	basketballbattle	263596366	monisvibing	HARM	\N	66050000	331	34192	cw_bot	\N	2026-07-18 17:03:10.091+00	imported_history	11033
+BasketballBattle	Basketball Battle	basketballbattle	267466791	black_ninja890	T1ED	\N	12410	33367	34192	cw_bot	\N	2026-08-05 00:39:53.294+00	imported_history	10533
+BasketballBattle	Basketball Battle	basketballbattle	303729688	futtedk11	UN0	\N	73660000	120	34192	cw_bot	\N	2026-08-06 16:14:56.146+00	imported_history	10387
+BasketballBattle	Basketball Battle	basketballbattle	483055560	Riderkoooo154	HR2T	\N	28820000	4152	34192	cw_bot	\N	2026-08-08 17:14:11.89+00	imported_history	10135
+BasketballBattle	Basketball Battle	basketballbattle	504442502	cleitonp100	NXNG	\N	11250000	11728	34192	cw_bot	\N	2026-08-06 19:36:09.461+00	imported_history	10325
+BasketballBattle	Basketball Battle	basketballbattle	617430328	Fireez999	vysn	\N	187530	30331	34192	cw_bot	\N	2026-08-07 16:23:32.565+00	imported_history	10193
+BasketballBattle	Basketball Battle	basketballbattle	634506574	BlameGrinders	SOPU	\N	49230000	971	34192	cw_bot	\N	2026-07-16 18:06:48.246+00	imported_history	11104
+BasketballBattle	Basketball Battle	basketballbattle	712421191	CoderGrey	Goop	\N	38760000	2567	34192	cw_bot	\N	2026-08-06 21:12:21.177+00	imported_history	10347
+BasketballBattle	Basketball Battle	basketballbattle	820701226	jaydenpool20	GST2	\N	50870000	831	34192	cw_bot	\N	2026-08-07 14:27:41.154+00	imported_history	10179
+BasketballBattle	Basketball Battle	basketballbattle	866298991	Gusgusmagus	RAPT	\N	11030000	11929	34192	cw_bot	\N	2026-08-01 20:45:45.172+00	imported_history	10775
+BasketballBattle	Basketball Battle	basketballbattle	907305738	hockeymac1011	S2PU	\N	10200000	12711	34192	cw_bot	\N	2026-08-06 01:24:46.875+00	imported_history	10440
+BasketballBattle	Basketball Battle	basketballbattle	912250692	bwlovescars	RBN9	\N	327180	27572	34192	cw_bot	\N	2026-08-01 19:59:44.339+00	imported_history	10747
+BasketballBattle	Basketball Battle	basketballbattle	946600540	lolkownik	AWZY	\N	2230000	21522	34192	cw_bot	\N	2026-08-04 18:56:31.56+00	imported_history	10564
+BasketballBattle	Basketball Battle	basketballbattle	1134304957	odderuh	Drod	\N	6820000	16561	34192	cw_bot	\N	2026-08-03 14:41:14.82+00	imported_history	10676
+BasketballBattle	Basketball Battle	basketballbattle	1162093762	callumJplunkett	st1z	\N	17870000	7599	34192	cw_bot	\N	2026-07-21 13:58:33.053+00	imported_history	10939
+BasketballBattle	Basketball Battle	basketballbattle	1260752023	jemmness	K0ii	\N	48230000	1056	34192	cw_bot	\N	2026-08-05 19:53:14.077+00	imported_history	10505
+BasketballBattle	Basketball Battle	basketballbattle	1342058144	maxbercar	4GH	\N	8790000	14343	34192	cw_bot	\N	2026-08-03 15:01:26.751+00	imported_history	10688
+BasketballBattle	Basketball Battle	basketballbattle	1378926704	thetoad419	FF2H	\N	4490000	18232	34192	cw_bot	\N	2026-07-20 11:11:03.422+00	imported_history	10975
+BasketballBattle	Basketball Battle	basketballbattle	1524474134	partlysweeet	SOPU	\N	39350000	2473	34192	cw_bot	\N	2026-08-05 17:54:26.824+00	imported_history	10455
+BasketballBattle	Basketball Battle	basketballbattle	1559794555	MrsBrumal93	FMLY	\N	73370000	133	34192	cw_bot	\N	2026-08-06 21:10:37.188+00	imported_history	10307
+BasketballBattle	Basketball Battle	basketballbattle	1810349750	doughnutlordlup	SVB	\N	40480000	2275	34192	cw_bot	\N	2026-08-04 09:24:34.058+00	imported_history	10607
+BasketballBattle	Basketball Battle	basketballbattle	1854721596	LovesFlyers	FMLY	\N	4400000	18296	34192	cw_bot	\N	2026-08-08 16:32:23.384+00	imported_history	10117
+BasketballBattle	Basketball Battle	basketballbattle	1860842454	DaceyBisagamer	NONG	\N	75160000	71	34192	cw_bot	\N	2026-07-21 13:55:19.369+00	imported_history	10926
+BasketballBattle	Basketball Battle	basketballbattle	2046736760	omgakaroen2	KOHV	\N	26350000	4720	34192	cw_bot	\N	2026-08-05 12:42:48.772+00	imported_history	10522
+BasketballBattle	Basketball Battle	basketballbattle	2210572151	ztormwolf	ORBI	\N	42750000	1876	34192	cw_bot	\N	2026-08-07 18:42:26.67+00	imported_history	10215
+BasketballBattle	Basketball Battle	basketballbattle	2466416505	Brent133225	M4RB	\N	14550000	9198	34192	cw_bot	\N	2026-08-07 10:44:06.949+00	imported_history	10239
+BasketballBattle	Basketball Battle	basketballbattle	2548718008	scottewillis1982	KOii	\N	45400000	1443	34192	cw_bot	\N	2026-08-05 19:51:42.011+00	imported_history	10473
+BasketballBattle	Basketball Battle	basketballbattle	2554405092	Amazonhadababby	SFTC	\N	65690000	342	34192	cw_bot	\N	2026-07-08 19:40:21.57+00	imported_history	11237
+BasketballBattle	Basketball Battle	basketballbattle	2685249091	demslzv	Goop	\N	40290000	2308	34192	cw_bot	\N	2026-08-07 18:41:53.817+00	imported_history	10201
+BasketballBattle	Basketball Battle	basketballbattle	2843513755	firefeather46	HSTL	\N	40440000	2282	34192	cw_bot	\N	2026-07-12 00:54:10.458+00	imported_history	11144
+BasketballBattle	Basketball Battle	basketballbattle	3111804593	boomhahahau4	ERC	\N	18660000	7241	34192	cw_bot	\N	2026-08-07 11:10:01.99+00	imported_history	10253
+BasketballBattle	Basketball Battle	basketballbattle	3242097876	Adam340i	ICYT	\N	33130000	3379	34192	cw_bot	\N	2026-08-01 20:38:19.334+00	imported_history	10764
+BasketballBattle	Basketball Battle	basketballbattle	3257426178	thebroccoli20	J200	\N	9280000	13764	34192	cw_bot	\N	2026-08-03 18:58:51.895+00	imported_history	10662
+BasketballBattle	Basketball Battle	basketballbattle	3302444862	EndOfAnEra007	NONG	\N	69950000	231	34192	cw_bot	\N	2026-07-16 23:20:31.616+00	imported_history	11072
+BasketballBattle	Basketball Battle	basketballbattle	3823391474	ryanismyname55	_CEO	\N	12820000	10376	34192	cw_bot	\N	2026-08-06 19:47:56.266+00	imported_history	10338
+BasketballBattle	Basketball Battle	basketballbattle	3988909281	ScriptingIntoabysmal	IWHN	\N	11510000	11493	34192	cw_bot	\N	2026-08-07 14:02:53.391+00	imported_history	10160
+BasketballBattle	Basketball Battle	basketballbattle	4002857188	hyhhui5rhg	QUOK	\N	1030000	24223	34194	cw_bot	\N	2026-07-04 01:47:15.942+00	imported_history	11316
+BasketballBattle	Basketball Battle	basketballbattle	4030750707	SpiroBebex71	Goop	\N	60520000	478	34192	cw_bot	\N	2026-08-06 18:54:36.251+00	imported_history	10288
+BasketballBattle	Basketball Battle	basketballbattle	4142534434	be_bebrs	BU TI	\N	25650000	4880	34192	cw_bot	\N	2026-07-20 11:09:04.745+00	imported_history	10958
+BasketballBattle	Basketball Battle	basketballbattle	4284280354	Superxia4460	V1LN	\N	29340000	4027	34192	cw_bot	\N	2026-07-23 13:14:52.606+00	imported_history	10847
+BasketballBattle	Basketball Battle	basketballbattle	4311417620	Weller457sk	HROT	\N	46920000	1232	34192	cw_bot	\N	2026-07-22 16:09:45.829+00	imported_history	10903
+BasketballBattle	Basketball Battle	basketballbattle	4476083695	EinMensch939	GL10	\N	2090000	22016	34192	cw_bot	\N	2026-07-11 20:34:22.019+00	imported_history	11162
+BasketballBattle	Basketball Battle	basketballbattle	4608344169	Spyd3rino	W2VY	\N	9200000	13857	34192	cw_bot	\N	2026-07-10 15:35:31.189+00	imported_history	11216
+BasketballBattle	Basketball Battle	basketballbattle	4610856184	Whatsup12719	Inno	\N	6530000	16775	34192	cw_bot	\N	2026-08-05 22:21:53.995+00	imported_history	10432
+BasketballBattle	Basketball Battle	basketballbattle	4825781288	Xx_godofdeath96	3MEH	\N	9580000	13401	34192	cw_bot	\N	2026-07-19 21:55:59.986+00	imported_history	11013
+BasketballBattle	Basketball Battle	basketballbattle	5105458194	FlawedButLoved	BOSS	\N	73760000	117	34194	cw_bot	\N	2026-07-04 01:47:40.163+00	imported_history	11326
+BasketballBattle	Basketball Battle	basketballbattle	5246174184	Quiricou4	Bu1l	\N	7160000	16269	34192	cw_bot	\N	2026-07-20 15:58:51.541+00	imported_history	10984
+BasketballBattle	Basketball Battle	basketballbattle	5429784771	ETHANVU11	SS1N	\N	2590000	20471	34192	cw_bot	\N	2026-08-08 09:55:49.165+00	imported_history	10105
+BasketballBattle	Basketball Battle	basketballbattle	5532910197	Vvistal_farm	NS4R	\N	17310000	7824	34192	cw_bot	\N	2026-08-06 08:45:15.612+00	imported_history	10403
+BasketballBattle	Basketball Battle	basketballbattle	5702033770	dabbin_boittv	UN0	\N	71020000	214	34192	cw_bot	\N	2026-08-03 16:23:31.807+00	imported_history	10634
+BasketballBattle	Basketball Battle	basketballbattle	5841315264	bolleboom1	K8er	\N	25340000	4949	34192	cw_bot	\N	2026-07-08 09:59:00.953+00	imported_history	11247
+BasketballBattle	Basketball Battle	basketballbattle	6127399811	GoopGoopMaSi	0FCL	\N	31450000	3645	34192	cw_bot	\N	2026-07-23 13:53:22.765+00	imported_history	10861
+BasketballBattle	Basketball Battle	basketballbattle	7074492190	scoutiiiiiiiii	H8M3	\N	54780000	636	34192	cw_bot	\N	2026-08-01 09:24:22.841+00	imported_history	10824
+BasketballBattle	Basketball Battle	basketballbattle	7213418603	proline_urlocalsweat	Pugy	\N	2490000	20745	34192	cw_bot	\N	2026-08-01 18:24:48.12+00	imported_history	10808
+BasketballBattle	Basketball Battle	basketballbattle	7241086258	unoyea4	TRE5	\N	2040000	22194	34192	cw_bot	\N	2026-08-02 01:06:37.815+00	imported_history	10730
+BasketballBattle	Basketball Battle	basketballbattle	7330652305	Proferas2701	N7NG	\N	39600000	2425	34192	cw_bot	\N	2026-07-11 17:52:21.526+00	imported_history	11186
+BasketballBattle	Basketball Battle	basketballbattle	7515473066	thriveontop	SOPU	\N	38310000	2636	34192	cw_bot	\N	2026-08-05 19:52:35.435+00	imported_history	10492
+BasketballBattle	Basketball Battle	basketballbattle	7674089046	scythehatching1	FYNE	\N	10260000	12653	34192	cw_bot	\N	2026-07-10 23:29:17.786+00	imported_history	11222
 \.
 
 
@@ -526,8 +592,8 @@ BasketballBattle	Basketball Battle	basketballbattle	8558531098	manzanopet306	DOL
 -- PostgreSQL database dump complete
 --
 
-\unrestrict jhcuYybnktPKygkAqCTFbtAMPD7tN80Xix7TtZG56fbhU8P6IuyfEuxa2Ovba6v
+\unrestrict SlteVEu6ybxRacdYWugnUHCvKv7pGLw7DiYLMp6nn2jrGrxyUkuMbuXLQN8dVqU
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.
