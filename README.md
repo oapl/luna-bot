@@ -1,6 +1,6 @@
 # luna-bot
 
-This is a standalone database for bot developers. It contains saved game results, event catalogs, and attributed imported claims. It does not require Supabase, Luna's bot code, an API key, a Discord token, or access to the production database.
+This database is for any current or future PS99 bot developers. Also because fuck CW-Bot and their team that are passive-aggressive assholes who treat this like it's more serious than any political topic I've ever engaged my worst enemy on? Updates will occur after each Clan Battle and League. Not yet established, but preparing to store Leaderboard data as well.
 
 ## Files
 
@@ -10,7 +10,7 @@ This is a standalone database for bot developers. It contains saved game results
 - `Battles/` and `Leagues/` contain one folder per canonical event.
 - `Imports/` contains one SQL file per source bot.
 
-There are 33 recorded clan battles, 10 league identities, 301,201 resolved battle results and 94,088 league observations. Original imported claims are retained separately from the chosen results.
+Luna's DB has 33 recorded clan battles, 10 leagues, 301,201 clan battle player performances and 94,088 league player performances.
 
 ## Restore the database
 
@@ -168,5 +168,3 @@ Use an application role with only schema usage and table/view reads. For an exis
 GRANT USAGE ON SCHEMA catalog, battles, leagues, imports TO luna_reader;
 GRANT SELECT ON ALL TABLES IN SCHEMA catalog, battles, leagues, imports TO luna_reader;
 ```
-
-The archive does not create this role or provide a password. Do not give a public bot database-owner or superuser access. The release contains public game data; website sessions, Discord associations, private-server credentials, tickets, IP records, moderation material, and operational bot settings are excluded.
