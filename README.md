@@ -1,5 +1,8 @@
 # luna-bot
 
+<img width="373" height="420" alt="image" src="https://github.com/user-attachments/assets/9ccd8449-add8-4ab1-a846-958d5aeefadc" />
+
+
 This database is for any current or future PS99 bot developers. Also because fuck CW-Bot and their team that are passive-aggressive assholes who treat this like it's more serious than any political topic I've ever engaged my worst enemy on? Updates will occur after each Clan Battle and League. Not yet established, but preparing to store Leaderboard data as well.
 
 ## Files
