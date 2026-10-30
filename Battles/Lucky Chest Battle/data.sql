@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict JLYfxMh5LVOtfto615lEzklbUdtLXfdv2azaidFoqsmJ1ep32XVunb2coLT1xB0
+\restrict ylYRNGzIB6bKG99tlYm2J0urlAnrRsAQvTrs9RZUCthYw9JWTeVeo0JYo4Z1uIP
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,570 +23,612 @@ SET row_security = off;
 -- Data for Name: Lucky Chest Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Lucky Chest Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1533791	clankbot	UN0	\N	29380	15947	23538	cw_bot	history-import:cw_bot:1702	2026-05-23 13:09:17.782+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	14538110	joeycb	SOPU	\N	12670000	602	23538	cw_bot	history-import:cw_bot:1682	2026-05-23 12:54:45.542+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	20532808	GamesReborn	Rfil	\N	16290000	407	23538	cw_bot	history-import:cw_bot:1220	2026-05-01 18:19:11.948+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	33492395	unoyea	UN0	\N	339460	9829	23538	cw_bot	history-import:cw_bot:1377	2026-05-07 10:52:28.967+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	114776268	0ffxikea	TLGZ	\N	5550000	2365	23538	cw_bot	history-import:cw_bot:110	2026-04-17 13:02:07.482+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	125272790	ur_salty091	XBOX	\N	41600000	88	23538	cw_bot	history-import:cw_bot:1914	2026-06-21 04:13:46.321+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	138619446	darkenedwishes	EXP	\N	1990000	5122	23538	cw_bot	history-import:cw_bot:2001	2026-06-28 16:26:03.666+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	184309752	expellez	SOPU	\N	24760000	207	23538	cw_bot	history-import:cw_bot:1101	2026-04-25 23:28:51.667+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	241713789	J2X1NESIWXID	DLOW	\N	87470	13387	23537	cw_bot	history-import:cw_bot:746	2026-07-17 18:58:04.211+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	413355357	tofuu12342	st1z	\N	8780000	1145	23538	cw_bot	history-import:cw_bot:630	2026-06-12 05:00:54.965+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	496935076	mawahlah	DOLA	\N	2910000	4110	23538	cw_bot	history-import:cw_bot:45	2026-06-27 00:05:32.123+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	544198160	JimmyCIeetus	DOLA	\N	16870000	394	23537	cw_bot	history-import:cw_bot:471	2026-07-17 18:47:56.313+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	573955632	Johanplayzrb21	BYRD	\N	14360000	487	23538	cw_bot	history-import:cw_bot:992	2026-04-18 02:22:53.465+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	646372767	904aj603	JEW	\N	1730000	5465	23538	cw_bot	history-import:cw_bot:1115	2026-04-27 02:09:16.229+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	656420117	MercilessBanditTaken	SOPU	\N	62220000	36	23538	cw_bot	history-import:cw_bot:166	2026-04-19 13:44:30.618+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	659542061	rrodgers0206	BOSS	\N	13190000	560	23537	cw_bot	history-import:cw_bot:730	2026-07-17 18:57:55.775+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	699004759	stickmasterluke12414	LXCC	\N	3470000	3627	23538	cw_bot	history-import:cw_bot:1524	2026-05-16 23:37:41.388+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	722456679	mujiTABA1	\N	\N	12320000	618	23538	cw_bot	history-import:cw_bot:2016	2026-06-28 16:42:57.557+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	779059828	jimynew	SS1N	\N	1280000	6260	23538	cw_bot	history-import:cw_bot:1532	2026-05-16 23:39:36.553+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	904244953	MetaStreamz	SOPU	\N	232150000	3	23538	cw_bot	history-import:cw_bot:1655	2026-05-21 10:33:45.865+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	940036866	colinaidan1234567890	\N	\N	\N	10177	23538	cw_bot	history-import:cw_bot:940	2026-04-19 17:10:54.929+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1000059115	rimonus	SOPU	\N	218140000	4	23538	cw_bot	history-import:cw_bot:1798	2026-06-13 11:10:39.923+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1029579815	Marshmellow_1177	AWZY	\N	1470000	5887	23538	cw_bot	history-import:cw_bot:1295	2026-05-05 21:28:38.219+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1049702109	realchaseblox	FaZ	\N	9440000	976	23538	cw_bot	history-import:cw_bot:1306	2026-05-05 21:59:20.786+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5414318030	demonfaarm3	y3ki	\N	1880000	5255	23538	cw_bot	history-import:cw_bot:9351	2026-03-31 20:30:04.513+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	204751057	SainLol	DOLA	\N	1770000	5415	23537	cw_bot	history-import:cw_bot:10039	2026-08-08 18:46:45.184+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5428208423	charez20	S_TR	\N	596300	8332	25337	cw_bot	history-import:cw_bot:5927	2026-08-12 12:51:37.564+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	109818	Cinnamowopal	NONG	56	\N	56	\N	external_import	history-import:big_bot:19	2026-07-16 23:13:26.686+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1454397	IDKDabble	DGSL	\N	2400000	4631	23538	cw_bot	history-import:cw_bot:3981	2026-04-12 22:21:06.985+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1821481	shortly	BYRD	\N	7360000	1563	23538	cw_bot	history-import:cw_bot:3860	2026-04-05 06:53:03.099+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	23260643	crazyblox6677	ANG	41	5930000	41	\N	external_import	history-import:big_bot:960	2026-07-28 22:03:29.525+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	31989428	zoggi10	V1LN	\N	24120000	222	23537	cw_bot	history-import:cw_bot:4606	2026-08-04 07:49:22.305+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	90767636	bobdog751	V1LN	\N	13150000	563	23538	cw_bot	history-import:cw_bot:8126	2026-04-27 21:06:33.398+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	92553746	zoggi12	PNDR	\N	6510	18653	23538	cw_bot	history-import:cw_bot:9235	2026-05-06 15:08:19.655+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	120904005	nublet28	BYRD	\N	7400000	1550	23538	cw_bot	history-import:cw_bot:8437	2026-07-03 22:38:52.17+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	125775822	NightFoxx	BOSS	\N	74390000	25	23537	cw_bot	history-import:cw_bot:4316	2026-08-10 19:33:10.888+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	136661329	ghanta2a	SOPU	\N	16460000	401	23538	cw_bot	history-import:cw_bot:8099	2026-04-26 23:31:56.073+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	156957387	itsminerr	ORBI	\N	7500000	1518	23537	cw_bot	history-import:cw_bot:2150	2026-08-01 03:26:51.039+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	160551060	firethrower0	3zEZ	\N	5220000	2536	23537	cw_bot	history-import:cw_bot:2741	2026-07-31 17:13:09.457+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	163195458	20xseron20	VLP	\N	34030	15608	23537	cw_bot	history-import:cw_bot:6572	2026-08-06 07:05:22.236+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	170719079	tnocko	HROT	\N	9440000	975	23537	cw_bot	history-import:cw_bot:2284	2026-08-12 07:40:01.692+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	170896669	toratot	OT3R	\N	4230000	3076	23538	cw_bot	history-import:cw_bot:9146	2026-06-29 23:29:26.064+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	192463394	NukeOfLava12	3zEZ	\N	13320000	548	23538	cw_bot	history-import:cw_bot:4126	2026-04-12 20:31:33.085+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	194076029	Gromic5876	MNBB	\N	2030	19962	23537	cw_bot	history-import:cw_bot:6095	2026-08-08 23:25:51.173+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	194260673	thecooladam9010	4D4M	\N	3880000	3334	23538	cw_bot	history-import:cw_bot:9398	2026-04-04 14:14:19.439+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	200273468	kubaill	HR2T	\N	428680	9223	25337	cw_bot	history-import:cw_bot:6552	2026-08-06 00:48:24.483+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	210966410	onoraksal	hlx	\N	125290	12442	23536	cw_bot	history-import:cw_bot:8777	2026-08-15 13:55:15.256+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	223141866	LoLLubas	DPSF	\N	8520	18249	23535	cw_bot	history-import:cw_bot:4796	2026-08-28 14:48:40.144+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	245484862	skippythomas	st1z	\N	6750000	1825	23537	cw_bot	history-import:cw_bot:7612	2026-08-11 19:40:41.113+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	250562586	zcm_Xi	CC4T	\N	2320000	4714	23537	cw_bot	history-import:cw_bot:4360	2026-08-09 17:51:30.585+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	273316338	stevowsl	WSL	\N	3170000	3873	23535	cw_bot	history-import:cw_bot:9802	2026-08-26 19:54:20.308+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	296854741	Cinco112309	XBOX	\N	9790000	929	23537	cw_bot	history-import:cw_bot:2805	2026-07-31 16:11:19.068+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	331930897	gogeta363	TLGZ	\N	30620000	139	23537	cw_bot	history-import:cw_bot:4377	2026-08-09 04:19:11.832+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	343511782	octojabb	V1LN	\N	27780000	174	23538	cw_bot	history-import:cw_bot:9242	2026-04-30 14:51:23.517+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	363194601	LUKAS1357924	Axet	\N	481950	8920	23537	cw_bot	history-import:cw_bot:6841	2026-08-01 14:53:05.008+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	413758213	NotMrTroll_YT	SOPU	\N	14810000	465	23537	cw_bot	history-import:cw_bot:2831	2026-07-31 16:31:43.631+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	419588952	got207	DgSL	\N	934800	7169	23538	cw_bot	history-import:cw_bot:3965	2026-04-12 22:21:39.424+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	423460663	bub2540	V1LN	\N	15660000	438	23538	cw_bot	history-import:cw_bot:1503	2026-05-16 12:19:40.788+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	425660194	chinovelaz	3zEZ	\N	11220000	724	23538	cw_bot	history-import:cw_bot:4147	2026-04-12 20:33:18.646+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	435823564	brandon292016	KOHV	\N	19620000	330	23538	cw_bot	history-import:cw_bot:1030	2026-04-20 06:06:34.027+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	438538044	Tissemanneke	ENTS	\N	395650	9454	23537	cw_bot	history-import:cw_bot:9546	2026-08-02 14:48:44.12+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	445901501	USECODE_THAT1NPC	3zEZ	\N	30890000	138	23538	cw_bot	history-import:cw_bot:4216	2026-04-12 20:09:26.048+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	452314193	LandOfDoggos	V1LN	\N	8330000	1259	25338	cw_bot	history-import:cw_bot:9184	2026-06-23 15:37:48.38+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	460000821	maserofwater098	DOLA	\N	929	20630	23538	cw_bot	history-import:cw_bot:2034	2026-06-29 17:36:18.828+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	462497307	Corey_Bailey	\N	\N	2890000	4130	23537	cw_bot	history-import:cw_bot:9982	2026-08-09 06:10:03.038+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	463900811	AgentP_0928	GSTG	\N	10060000	885	23538	cw_bot	history-import:cw_bot:646	2026-04-26 04:08:51.656+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	470464024	ceficat	XBOX	\N	12810000	596	23537	cw_bot	history-import:cw_bot:2579	2026-08-01 14:42:49.688+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	490804310	kubas1018	NUUP	\N	4420000	2955	23538	cw_bot	history-import:cw_bot:3740	2026-04-20 12:22:31.231+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	501328621	wigglywoo321	st1z	\N	1930000	5173	23537	cw_bot	history-import:cw_bot:2664	2026-08-01 00:14:18.246+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	502312785	tomasek8557	BDX	\N	1990000	5119	23536	cw_bot	history-import:cw_bot:5448	2026-08-19 16:40:59.801+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	503486505	campagnolo5	V1LN	\N	26160000	189	23536	cw_bot	history-import:cw_bot:7655	2026-08-16 14:51:20.144+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	518710094	mrlol4315	V1LN	\N	41750000	85	23537	cw_bot	history-import:cw_bot:2790	2026-07-31 16:01:39.344+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	538266747	Judah3000	XBOX	\N	5220000	2535	23537	cw_bot	history-import:cw_bot:7844	2026-07-08 14:31:05.959+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	539895181	sportsboy2626	KOHV	\N	8360000	1254	23537	cw_bot	history-import:cw_bot:4405	2026-08-08 07:25:07.846+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	569678937	StormerAceCT	PsAG	\N	796240	7551	23537	cw_bot	history-import:cw_bot:3321	2026-07-24 20:47:00.595+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	587994363	Real_RoNexq	EDS1	\N	1870000	5266	23537	cw_bot	history-import:cw_bot:3154	2026-07-27 16:53:43.006+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	588437757	beastbrody12345	LX2C	\N	28030	16046	23536	cw_bot	history-import:cw_bot:8594	2026-08-21 00:15:42.209+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	588685015	jonis_chicken	XBOX	\N	13070000	571	23538	cw_bot	history-import:cw_bot:9207	2026-06-13 20:55:03.535+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	648389471	dominatorek111	STPS	\N	1360000	6104	23536	cw_bot	history-import:cw_bot:5343	2026-08-20 16:19:31.975+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	651456138	TrikStar007	3zEZ	\N	37390000	105	23538	cw_bot	history-import:cw_bot:4208	2026-04-12 20:09:23.388+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	653179078	killinBABYS111	V1LN	\N	22230000	261	23538	cw_bot	history-import:cw_bot:8282	2026-04-15 20:29:26.949+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	661099895	patcola2010	V1LN	\N	32220000	128	23537	cw_bot	history-import:cw_bot:7796	2026-07-24 00:04:23.322+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	665659912	Cieciuchas	TLGZ	\N	1050000	6820	23538	cw_bot	history-import:cw_bot:1436	2026-05-11 16:24:27.583+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	681369033	Thatrobloxguy63	BYRD	\N	8070000	1341	23538	cw_bot	history-import:cw_bot:8328	2026-04-06 08:26:58.844+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	688928053	Noahangrybird1234	BEZE	\N	5000000	2654	23538	cw_bot	history-import:cw_bot:8346	2026-04-06 08:29:37.081+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	704550307	osmanefe334	BYRD	\N	3110000	3919	23538	cw_bot	history-import:cw_bot:8337	2026-04-06 08:27:50.069+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	709222551	Theozzz12	S0PU	\N	23250000	237	23538	cw_bot	history-import:cw_bot:8164	2026-04-26 15:05:43.056+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	730772803	sidsew	HSTL	\N	1460000	5916	23535	cw_bot	history-import:cw_bot:7534	2026-08-25 14:36:17.613+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	757692049	Hulkian1	V1LN	\N	3360000	3716	23538	cw_bot	history-import:cw_bot:8301	2026-03-28 21:21:50.541+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	790873913	homless9	STPS	\N	2100	19925	23537	cw_bot	history-import:cw_bot:6442	2026-08-06 17:44:57.059+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	808679837	sqirtel50	KOHV	\N	14450000	482	23537	cw_bot	history-import:cw_bot:2417	2026-08-09 16:10:37.911+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	810054419	catloncat	3zEZ	\N	4160000	3128	23538	cw_bot	history-import:cw_bot:4018	2026-04-12 21:24:49.553+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	815753300	maseboybd	Luxk	\N	313570	10033	23537	cw_bot	history-import:cw_bot:6759	2026-08-03 05:31:44.119+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	844720150	Sebastjan35	NONG	\N	212350	11062	23537	cw_bot	history-import:cw_bot:526	2026-07-17 18:48:35.159+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	852170656	vojitano	0PAL	\N	1910000	5205	23535	cw_bot	history-import:cw_bot:5063	2026-08-23 12:46:22.495+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	876991750	Mertiliano	ORB2	\N	773990	7634	23537	cw_bot	history-import:cw_bot:2132	2026-08-01 04:17:09.805+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	877353566	lpvarmi	VLP	\N	3930000	3297	23537	cw_bot	history-import:cw_bot:7205	2026-07-29 20:25:50.738+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	877593504	kral_geldi123	V1LN	\N	8530000	1205	23538	cw_bot	history-import:cw_bot:9379	2026-04-02 02:39:58.035+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	884971222	henchal13	FGZW	\N	542030	8599	23538	cw_bot	history-import:cw_bot:9307	2026-04-19 12:19:45.145+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	911932139	Daniel8czs	HROT	\N	233370	10840	23537	cw_bot	history-import:cw_bot:6804	2026-08-01 11:19:39.153+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	938868540	eso343	SHAG	\N	57550	14382	23537	cw_bot	history-import:cw_bot:6545	2026-08-07 09:09:20.624+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	955175856	fatalwaccle	3zEZ	\N	13280000	551	23538	cw_bot	history-import:cw_bot:4176	2026-04-12 20:31:29.037+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	968065508	eEmsorry	AWZY	\N	5940000	2178	23537	cw_bot	history-import:cw_bot:9055	2026-07-09 08:48:58.97+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	992712527	flashbooom	3zEZ	\N	18820000	345	23538	cw_bot	history-import:cw_bot:4098	2026-04-12 20:16:43.362+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1020655453	Rotkiv7777	M4RB	\N	2270000	4778	23538	cw_bot	history-import:cw_bot:1983	2026-06-28 14:56:16.644+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1024664859	NotArsann7	AR2Y	\N	425	21149	23538	cw_bot	history-import:cw_bot:1248	2026-05-03 05:34:41.421+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1055219519	eon2020	V1LN	\N	16240000	408	23538	cw_bot	history-import:cw_bot:8093	2026-06-24 23:15:47.3+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1060055099	mimo_4	Axet	\N	909740	7228	25337	cw_bot	history-import:cw_bot:6729	2026-08-04 10:19:23.697+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1077060589	playaplaya811	\N	\N	\N	10922	23538	cw_bot	history-import:cw_bot:3610	2026-05-01 22:31:32.732+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1081067684	mimilrol	ROMU	\N	2410000	4617	23537	cw_bot	history-import:cw_bot:401	2026-07-17 18:47:08.019+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1100810390	Starslikebirds	7HRW	\N	1680000	5556	23537	cw_bot	history-import:cw_bot:4682	2026-08-01 01:45:14.128+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1102595704	Jurogaming333	Luxk	\N	1030000	6885	23537	cw_bot	history-import:cw_bot:6880	2026-07-31 18:41:33.487+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1109750537	tonynecko	HR0T	\N	10420000	834	23537	cw_bot	history-import:cw_bot:4275	2026-08-12 03:27:47.805+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1137640592	clackerskill	V1LN	\N	14840	462	23537	cw_bot	history-import:cw_bot:4654	2026-08-01 00:22:28.841+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1146217738	xXjirkaXxboys	FGZW	\N	14560000	476	23538	cw_bot	history-import:cw_bot:4040	2026-04-12 22:01:07.439+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1157052710	laughytrex	XPQX	\N	8030000	1358	23538	cw_bot	history-import:cw_bot:884	2026-04-24 03:00:59.658+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1158978049	Mr_trolololx019	BYRD	\N	6390000	1960	23537	cw_bot	history-import:cw_bot:7829	2026-07-05 15:55:32.872+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1163321217	protozejelen	LV13	\N	3910000	3306	23537	cw_bot	history-import:cw_bot:7128	2026-07-30 15:23:48.828+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1171409734	tominko130	tNo	\N	203360	11209	23537	cw_bot	history-import:cw_bot:6321	2026-08-07 12:38:50.885+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1178078831	mavilure	NONG	\N	1710000	5505	23538	cw_bot	history-import:cw_bot:9106	2026-07-04 02:37:26.103+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1179507007	tomisek134	VPT0	\N	10930000	751	23537	cw_bot	history-import:cw_bot:4735	2026-08-11 18:03:07.712+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1192463440	Jonas139075	dkps	\N	14700	17320	23537	cw_bot	history-import:cw_bot:2776	2026-07-31 19:36:15.216+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1201926794	acejdh	CE7	\N	4960000	2670	23538	cw_bot	history-import:cw_bot:4204	2026-04-12 20:05:16.827+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1215733674	M_parker234	SOPU	\N	254290000	1	23538	cw_bot	history-import:cw_bot:1695	2026-05-23 12:58:36.466+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1221841742	Azurqson	SOPU	\N	14900000	458	23538	cw_bot	history-import:cw_bot:3779	2026-04-06 19:59:26.612+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1229931292	ijyrgk	XRS	\N	218220	10996	23538	cw_bot	history-import:cw_bot:9094	2026-07-04 00:22:27.772+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1243643868	ASEYIsoos	V1LN	\N	14660000	472	23537	cw_bot	history-import:cw_bot:9420	2026-08-12 22:46:12.145+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1245227095	TheoFuraxe	ROMU	\N	632020	8176	23537	cw_bot	history-import:cw_bot:119	2026-07-17 18:32:35.762+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1253134958	Emalele093	EDS1	\N	6920000	1746	23537	cw_bot	history-import:cw_bot:3168	2026-07-27 16:55:04.085+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1274135054	latestmallard87	vysn	\N	4570000	2883	23538	cw_bot	history-import:cw_bot:3747	2026-04-18 01:16:24.862+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1277089394	LUVALICEEXO	V1LN	\N	10330000	852	23538	cw_bot	history-import:cw_bot:9255	2026-04-28 15:57:56.007+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1279232695	Ac3scar	M4RB	\N	9250000	1020	23538	cw_bot	history-import:cw_bot:239	2026-05-10 02:13:40.5+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1283935690	Laura_V13	M4RB	\N	9900000	912	23537	cw_bot	history-import:cw_bot:4338	2026-08-09 17:50:39.523+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1286384664	uzuisnipes	W2VY	\N	12940000	585	23537	cw_bot	history-import:cw_bot:332	2026-07-17 18:33:12.116+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1294169389	crazy_blox6677	ANG_	\N	5930000	2181	23537	cw_bot	history-import:cw_bot:2613	2026-07-31 20:54:30.508+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1294494054	Ethanblaze112	KOHV	\N	19110000	337	23538	cw_bot	history-import:cw_bot:8317	2026-04-03 19:35:37.401+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1303101490	gordieman11	L2GO	\N	323510	9949	23537	cw_bot	history-import:cw_bot:10015	2026-08-09 00:29:33.416+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1307288868	ivanpr03	CE7	\N	272570	10391	23537	cw_bot	history-import:cw_bot:2597	2026-07-31 20:07:37.335+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1322640473	Barsuchonok23	dace	\N	7190000	1626	23537	cw_bot	history-import:cw_bot:2652	2026-07-31 22:58:18.195+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1330097404	tomasbudik007	HROT	\N	6760000	1819	23537	cw_bot	history-import:cw_bot:7093	2026-07-30 18:00:28.62+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1351524241	ARSENAEAL	Axet	\N	662920	8049	23537	cw_bot	history-import:cw_bot:7249	2026-07-27 22:16:37.398+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1358021767	luky23fd	Axet	\N	33600	15638	23536	cw_bot	history-import:cw_bot:5583	2026-08-17 04:03:58.79+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1362185234	BWL2020	XBOX	\N	5130000	2585	23538	cw_bot	history-import:cw_bot:1073	2026-04-25 16:45:57.107+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1371972870	sgteliteleo	V1LN	\N	16400000	402	23537	cw_bot	history-import:cw_bot:7734	2026-08-05 22:50:31.029+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1373748557	poopsmcgoops132	st1z	\N	1250000	6332	23538	cw_bot	history-import:cw_bot:8362	2026-04-24 01:57:13.047+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1376213247	eric23129	XBOX	\N	2430000	4599	23538	cw_bot	history-import:cw_bot:3933	2026-06-26 14:54:31.345+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1380082703	Allalboy2	7HRW	\N	42620000	83	23538	cw_bot	history-import:cw_bot:8209	2026-04-08 19:50:25.995+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1381505419	0LDBS	V1LN	\N	13130000	568	23538	cw_bot	history-import:cw_bot:8462	2026-06-17 00:36:35.957+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1384486800	Hellowentonio	WSL	\N	2330000	4706	23535	cw_bot	history-import:cw_bot:9829	2026-08-26 19:56:32.35+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1384716628	barti12345610	LSQ	\N	3120000	3914	23537	cw_bot	history-import:cw_bot:8524	2026-07-21 19:41:58.049+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1391268938	stopmumcrime	PNDR	\N	2890	19594	23538	cw_bot	history-import:cw_bot:9234	2026-05-06 15:08:15.191+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1394634696	glyycann	W2VY	\N	5190000	2559	23537	cw_bot	history-import:cw_bot:3095	2026-07-28 21:09:51.076+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1403606137	GhostWhisperer03	PAAC	\N	29120	15973	23537	cw_bot	history-import:cw_bot:6906	2026-08-01 01:11:48.951+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1409166088	treytonpeterbuilt	🏰 Clan: **GSTG**	\N	3580000	3564	23538	cw_bot	history-import:cw_bot:1364	2026-05-07 00:17:11.22+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1425534684	Dupsy4Real	nath	\N	2600000	4400	23538	cw_bot	history-import:cw_bot:1150	2026-04-27 19:50:07.39+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1437069784	oldmanwrinklenose	BEZE	\N	2460000	4568	23538	cw_bot	history-import:cw_bot:3896	2026-05-25 16:50:02.805+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1445565364	cfwinner12	DOLA	\N	22070000	266	23538	cw_bot	history-import:cw_bot:203	2026-06-17 17:02:08.323+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1452886316	kubistaa	SPPK	\N	400600	9415	23536	cw_bot	history-import:cw_bot:5217	2026-08-21 19:09:04.387+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1455404309	vavasamasa	HROT	\N	3650000	3506	23537	cw_bot	history-import:cw_bot:6766	2026-08-03 07:19:33.116+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1462748729	dragonballx1412	NONG	\N	7030000	1695	23537	cw_bot	history-import:cw_bot:185	2026-07-17 01:03:33.384+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1469224615	TheRealToonster	3zEZ	\N	10090000	881	23538	cw_bot	history-import:cw_bot:1085	2026-04-25 23:24:03.687+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1470086836	jman8960	3GM6	\N	4460	19126	23537	cw_bot	history-import:cw_bot:2767	2026-07-31 18:44:32.707+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1473100864	urosuko1	4D4M	\N	856350	7383	23538	cw_bot	history-import:cw_bot:9341	2026-04-08 13:25:49.579+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1474622702	fumiya0416	TKMR	\N	2730000	4275	23538	cw_bot	history-import:cw_bot:1078	2026-04-25 17:17:31.97+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1476403654	dilerij2	BEZE	\N	1020000	6919	23538	cw_bot	history-import:cw_bot:2068	2026-07-01 18:46:57.039+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1501050755	RealYTStarz	st1z	20	21890000	269	23538	cw_bot	history-import:big_bot:1033	2026-06-27 18:27:30.824+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1509495433	arrume_aparte12	JEW_	\N	1450000	5945	23537	cw_bot	history-import:cw_bot:8016	2026-07-08 14:39:41.28+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1510971300	Informix_CZ	KMo	\N	5260	18929	23537	cw_bot	history-import:cw_bot:6219	2026-08-08 08:18:03.311+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1519381006	CloudyVR65	BYRD	\N	4020000	3225	23538	cw_bot	history-import:cw_bot:1136	2026-04-27 02:10:48.062+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1519933607	JustCaIIMeEgg	NS4R	\N	8980000	1087	23537	cw_bot	history-import:cw_bot:496	2026-07-17 18:48:12.453+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1520358099	FlipFlopFloop417	AWZY	\N	1690000	5549	23537	cw_bot	history-import:cw_bot:349	2026-07-17 18:33:20.942+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1523688491	runea6	DHFA	\N	1790000	5382	23538	cw_bot	history-import:cw_bot:3977	2026-04-12 22:19:46.23+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1526386410	yriderkootop	XRS	\N	786310	7587	23537	cw_bot	history-import:cw_bot:6924	2026-08-01 01:01:08.694+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1528045909	Matysek0000000	SAM4	\N	14000	17401	23536	cw_bot	history-import:cw_bot:5884	2026-08-14 13:19:31.864+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1531503047	papa_ilse	🏰 Clan: **LXCC**	\N	\N	3317	23538	cw_bot	history-import:cw_bot:1056	2026-04-24 02:11:16.259+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1537916189	MailDaCoolKid	SOPU	\N	21000000	290	23538	cw_bot	history-import:cw_bot:9192	2026-06-19 13:04:44.383+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1539398349	Darkszern	SOPU	\N	24370000	214	23537	cw_bot	history-import:cw_bot:4566	2026-08-04 19:57:01.734+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1544837203	legpro11	ihw	\N	1920000	5184	23535	cw_bot	history-import:cw_bot:7493	2026-08-27 21:28:49.869+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1573629774	mkmike27mk	XPQX	\N	12630000	606	23538	cw_bot	history-import:cw_bot:251	2026-05-16 17:04:30.807+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1581306248	Robloxak_Honiik	KMo	\N	2410000	4618	23536	cw_bot	history-import:cw_bot:5829	2026-08-14 19:05:13.93+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1581826789	wastedpassion	DOLA	\N	2580000	4427	23537	cw_bot	history-import:cw_bot:3041	2026-07-29 00:49:05.59+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1583648375	KeyzziHD94	GSTG	\N	6380000	1963	23537	cw_bot	history-import:cw_bot:278	2026-07-17 17:28:11.535+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1587906543	wexfordfox	V1LN	\N	10980000	743	23538	cw_bot	history-import:cw_bot:9282	2026-04-29 12:14:55.272+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1588037884	gamingISbest13	V1LN	\N	29590000	148	23536	cw_bot	history-import:cw_bot:8733	2026-08-17 23:15:43.389+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1592738293	1ncr3d1bl3sulk	JEW_	\N	13810000	514	23538	cw_bot	history-import:cw_bot:1274	2026-05-03 22:19:36.985+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1594240458	milan123CZ2	LEV	\N	2390000	4645	23536	cw_bot	history-import:cw_bot:5590	2026-08-16 09:47:43.095+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1595934010	LayAngel007	DOLA	\N	187300	11406	23538	cw_bot	history-import:cw_bot:1793	2026-06-09 15:52:54.249+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1599021912	aidz123457	FGZW	\N	8900000	1111	23538	cw_bot	history-import:cw_bot:4036	2026-04-12 22:01:39.552+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1605744856	jackster_theman	EDS1	\N	355800	9703	23538	cw_bot	history-import:cw_bot:1960	2026-06-26 17:58:01.449+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1613882953	toastedpoptartonyt	CXTG	\N	5110000	2596	23536	cw_bot	history-import:cw_bot:9914	2026-08-18 18:50:20.423+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1626378539	Fulda645	V1LN	\N	9800000	928	23538	cw_bot	history-import:cw_bot:8140	2026-04-28 12:17:49.765+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1627385372	DomiDomik36	BMJ1	\N	6	23059	23536	cw_bot	history-import:cw_bot:5205	2026-08-21 19:06:00.967+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1644308020	hoon9900a	vvjp	\N	238	21571	23537	cw_bot	history-import:cw_bot:8931	2026-07-29 11:32:45.032+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1646208259	Jgporte	ROMU	\N	1790000	5378	23537	cw_bot	history-import:cw_bot:9986	2026-08-09 15:03:41.348+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1647731044	angelwytb	AR2Y	\N	3050000	3978	23537	cw_bot	history-import:cw_bot:7979	2026-07-08 14:37:40.756+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1652197454	fighter92399_alt	DOLA	\N	13370000	544	23538	cw_bot	history-import:cw_bot:1827	2026-06-16 00:22:27.481+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1670011733	Kono9595	HROT	\N	2600000	4401	23537	cw_bot	history-import:cw_bot:6371	2026-08-07 18:53:41.202+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1672034827	coolguy35166	SOPU	\N	269560	10422	23538	cw_bot	history-import:cw_bot:8377	2026-04-06 22:11:51.888+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1676340458	AgreedFlower11	0RBI	\N	29350	15951	23537	cw_bot	history-import:cw_bot:613	2026-07-17 18:49:30.27+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1676361250	RealYoDarkshadow	DGSL	\N	329260	9907	23538	cw_bot	history-import:cw_bot:3985	2026-04-12 22:22:05.865+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1683480006	kminoscz	KMo	\N	9440000	974	23537	cw_bot	history-import:cw_bot:7074	2026-07-30 17:15:30.786+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1690820953	1tombay	BEZE	\N	13710000	520	23538	cw_bot	history-import:cw_bot:1713	2026-05-23 14:09:54.985+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1727137762	azmvoisshot	CE7	\N	1520000	5802	23538	cw_bot	history-import:cw_bot:820	2026-06-13 03:07:29.607+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1748839707	XDbro234	fnue	\N	157950	11857	23537	cw_bot	history-import:cw_bot:2503	2026-08-01 10:44:01.654+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1749647628	da1niell	HROT	\N	10320000	853	23537	cw_bot	history-import:cw_bot:6361	2026-08-07 18:52:55.147+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1750005492	averyhein1920	V1LN	\N	13350000	546	23538	cw_bot	history-import:cw_bot:8393	2026-06-17 00:11:42.038+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1759162396	9kbotzz	XBOX	\N	31220000	137	23538	cw_bot	history-import:cw_bot:9328	2026-04-05 20:49:49.97+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1780089241	dominikando11	3zEZ	\N	2160000	4906	23538	cw_bot	history-import:cw_bot:4004	2026-04-12 21:23:47.034+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1787663283	TheBuilder5649	FGZW	\N	6060000	2120	23538	cw_bot	history-import:cw_bot:4072	2026-04-12 22:03:03.052+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1814033582	xvlamer	\N	\N	\N	1467	23538	cw_bot	history-import:cw_bot:3656	2026-04-19 07:41:22.679+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1817334423	zerz06	Goop	\N	1700	20120	23535	cw_bot	history-import:cw_bot:8705	2026-08-26 17:22:03.043+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1818966891	Drak1735	HR2T	\N	1250000	6326	23536	cw_bot	history-import:cw_bot:5842	2026-08-14 19:17:31.862+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1824713899	hayojeu2k	W2VY	\N	7150000	1639	23537	cw_bot	history-import:cw_bot:665	2026-07-17 18:57:09.828+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1828385404	blackdragon2ben	WSL	\N	273	21482	23535	cw_bot	history-import:cw_bot:9860	2026-08-24 10:49:40.35+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1835808563	1213eric	V1LN	\N	10020000	891	23538	cw_bot	history-import:cw_bot:1638	2026-05-21 04:56:29.857+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1839592202	benzonnheimer	\N	\N	\N	2641	23538	cw_bot	history-import:cw_bot:1111	2026-04-26 22:02:19.744+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1850980985	x_0203AAx	CE7	\N	6710000	1846	23538	cw_bot	history-import:cw_bot:4203	2026-04-12 20:04:24.494+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1856284829	younes89755	NONG	\N	10080000	883	23538	cw_bot	history-import:cw_bot:1349	2026-05-06 23:01:41.242+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1881899133	Coxxman	VLP	\N	5060000	2617	23537	cw_bot	history-import:cw_bot:7437	2026-07-13 19:26:57.695+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1909441823	EddieTeddy_2009	st1z	\N	16110000	413	23537	cw_bot	history-import:cw_bot:2643	2026-07-31 22:57:16.616+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1928012737	JoseMcTIRAPDOS	CE7	\N	6570000	1897	23538	cw_bot	history-import:cw_bot:4215	2026-04-12 20:04:43.64+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1933064023	cb7rebel	3zEZ	\N	17520000	375	23538	cw_bot	history-import:cw_bot:4102	2026-04-12 20:17:10.048+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1944841143	BEARDED_DRAGONGUY	karl	\N	1930000	5178	23538	cw_bot	history-import:cw_bot:1896	2026-06-20 15:13:49.311+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1950318403	itsgaternotgator	W2VY	\N	987670	7026	23538	cw_bot	history-import:cw_bot:305	2026-07-01 16:29:10.815+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1973447751	radkozahumensky5	HR2T	\N	3060000	3973	23535	cw_bot	history-import:cw_bot:4969	2026-08-24 18:50:27.632+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1973891991	lab44162	DOLA	\N	934720	7170	25337	cw_bot	history-import:cw_bot:2356	2026-08-11 11:08:52.921+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1986018475	Yazooony55	AXOK	\N	54950	14508	23537	cw_bot	history-import:cw_bot:2307	2026-08-12 18:23:23.035+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1996183705	humicek2020cz	HROT	\N	9380000	987	23535	cw_bot	history-import:cw_bot:5157	2026-08-23 06:34:54.553+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1998984070	gamerguy9764	SOPU	\N	79750000	22	23538	cw_bot	history-import:cw_bot:1322	2026-05-06 02:10:01.919+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2005983585	shadowstaristhegoat	LXCC	\N	11940000	648	23537	cw_bot	history-import:cw_bot:9555	2026-07-31 10:09:27.163+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2015826915	Thiballa	ANG_	\N	2180000	4896	23538	cw_bot	history-import:cw_bot:1005	2026-04-18 19:09:38.623+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2066465994	04AshKetchum	Aifo	\N	57860	14371	23537	cw_bot	history-import:cw_bot:3297	2026-07-24 18:07:21.258+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2067834432	blazeeok	SOPU	\N	34690000	111	23537	cw_bot	history-import:cw_bot:3177	2026-07-26 20:02:36.593+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2224635290	Xx19Q2	LEM9	\N	3410000	3668	23538	cw_bot	history-import:cw_bot:1863	2026-06-19 08:10:21.563+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2226792909	Raptorik_gamer	HR2T	\N	394140	9462	23537	cw_bot	history-import:cw_bot:7421	2026-07-18 17:45:36.477+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2239000216	patrik_skloky	W0m1	\N	224180	10934	23537	cw_bot	history-import:cw_bot:5898	2026-08-13 07:06:27.465+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2248938648	chobotnice444	HROT	\N	2580000	4422	23537	cw_bot	history-import:cw_bot:6849	2026-08-01 18:25:25.198+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2251616291	miminkoxxxxczdd	HR2T	\N	1810000	5345	23536	cw_bot	history-import:cw_bot:7631	2026-08-15 11:12:28.99+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2257521302	Likynda2011	ROGU	\N	82420	13533	23537	cw_bot	history-import:cw_bot:6023	2026-08-10 09:31:18.664+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2268926446	Feibapa	Ash	\N	11830000	656	23537	cw_bot	history-import:cw_bot:2701	2026-07-31 16:47:53.554+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2282416912	vae1oria	AWZY	\N	5590000	2347	23538	cw_bot	history-import:cw_bot:9294	2026-04-25 08:43:24.827+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2294044095	Pekano123	0PAL	\N	6220	18704	23537	cw_bot	history-import:cw_bot:6661	2026-08-04 10:40:12.235+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2316325389	julimowi	SOPU	\N	20750000	298	23537	cw_bot	history-import:cw_bot:2726	2026-07-31 17:12:47.437+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2320688195	daihukumochi223	V1LN	\N	28330000	163	23538	cw_bot	history-import:cw_bot:8550	2026-06-17 03:04:38.757+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2349313768	crystalboyo256	BYRD	\N	6860000	1789	23537	cw_bot	history-import:cw_bot:2972	2026-07-30 10:49:42.699+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2349773489	jsemdobrejkabe	VPTO	\N	165130	11742	23537	cw_bot	history-import:cw_bot:6233	2026-08-08 09:15:39.653+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2374805653	dhsfwfwef	HROT	\N	2500000	4517	23537	cw_bot	history-import:cw_bot:6085	2026-08-08 22:12:37.796+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2375471082	RayquazaPlayz_yt	3zEZ	\N	15190000	453	23538	cw_bot	history-import:cw_bot:4106	2026-04-12 20:27:06.36+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2377170031	Imaninjahu	MTS1	\N	164590	11748	23538	cw_bot	history-import:cw_bot:4166	2026-04-12 20:58:40.632+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2390532251	sirnative	H8ER	\N	14540000	477	23538	cw_bot	history-import:cw_bot:1948	2026-06-22 02:40:06.54+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2398510848	noobatobbysman	FGZW	\N	16030000	420	23538	cw_bot	history-import:cw_bot:4034	2026-04-12 22:00:51.566+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2399889452	starwax85	V1LN	\N	28190000	166	23537	cw_bot	history-import:cw_bot:7759	2026-07-17 15:53:21.548+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2420801797	0k_0w	Go5s	\N	839730	7428	23537	cw_bot	history-import:cw_bot:439	2026-07-17 18:47:32.43+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2431643806	1KRUCHY	XREX	\N	9820000	925	23538	cw_bot	history-import:cw_bot:8054	2026-06-23 16:35:49.505+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2443619256	mihokkon	UNO	\N	49370000	65	23538	cw_bot	history-import:cw_bot:3754	2026-04-17 00:20:59.211+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	20110000	317	23537	cw_bot	history-import:cw_bot:2939	2026-07-30 23:41:01.908+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2463337749	mrtendieman	GSTG	\N	25190000	198	23536	cw_bot	history-import:cw_bot:7693	2026-08-16 16:38:00.619+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2469768592	Raitonn0609	y3ki	\N	670320	8020	23538	cw_bot	history-import:cw_bot:9365	2026-03-31 20:29:42.263+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2475732693	Fazmashwastaken	FaZ	\N	2180000	4884	23537	cw_bot	history-import:cw_bot:9995	2026-08-09 01:32:35.34+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2487889713	Doggo_1490	JEW	\N	1930000	5169	23538	cw_bot	history-import:cw_bot:1213	2026-05-01 16:32:08.802+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2489048274	BlissfulBurper	V1LN	\N	8840000	1133	23537	cw_bot	history-import:cw_bot:8902	2026-07-31 16:46:44.148+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2489878566	K1ng_01iver	Quaz	\N	59	22068	23537	cw_bot	history-import:cw_bot:6869	2026-07-31 18:14:04.272+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2495030397	fartagus_angel	WSL	\N	80000	13608	23536	cw_bot	history-import:cw_bot:9598	2026-08-16 14:44:32.773+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2509513667	Ryderkoo5545	HOMY	\N	430040	9211	23535	cw_bot	history-import:cw_bot:5046	2026-08-23 10:46:48.07+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2530992063	smrtak54	ULCK	\N	739750	7754	23537	cw_bot	history-import:cw_bot:6177	2026-08-08 19:57:25.253+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2539070982	Nomdecodetotoc34	ANG_	\N	1770000	5419	23538	cw_bot	history-import:cw_bot:1235	2026-05-02 16:27:23.292+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2545832975	baconszombiesarmy	FGZW	\N	7050000	1685	23538	cw_bot	history-import:cw_bot:4050	2026-04-12 22:02:06.94+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2566901760	Megaobam123z	HROT	\N	4900000	2698	23536	cw_bot	history-import:cw_bot:5509	2026-08-19 09:02:01.142+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2575495153	IStoleYourChica	UN0	\N	84280	13476	23537	cw_bot	history-import:cw_bot:75	2026-07-17 18:32:12.646+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2607789450	yeetboiisyay	\N	\N	\N	3074	23538	cw_bot	history-import:cw_bot:3622	2026-04-27 05:25:27.894+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2628215963	praisevolxtz	YLW	\N	12250000	623	23537	cw_bot	history-import:cw_bot:451	2026-07-17 18:47:40.523+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2633185327	luxxrro	EXP	\N	2560000	4440	23538	cw_bot	history-import:cw_bot:1987	2026-06-28 16:25:22.311+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2644620447	Jakeplayswithbatsyt	D0LA	\N	228500	10887	23537	cw_bot	history-import:cw_bot:4671	2026-08-01 01:27:28.822+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2645047144	Savvag3e	DOLA	\N	4690000	2815	23537	cw_bot	history-import:cw_bot:877	2026-07-17 19:08:31.837+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2655904739	840game	_EGO	\N	1010000	6958	23537	cw_bot	history-import:cw_bot:834	2026-07-17 18:58:58.948+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2667688976	SlimGreycz_2	VLP	\N	5010000	2643	23537	cw_bot	history-import:cw_bot:7932	2026-07-08 14:35:29.662+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2667997484	trustrosiee	MWHO	185	158000	185	\N	external_import	history-import:big_bot:978	2026-07-17 00:13:35.622+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2668452334	Xxhello_Sir	FGZW	\N	686150	7951	23537	cw_bot	history-import:cw_bot:2373	2026-08-10 17:49:54.782+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2709299989	fishy_axl22	KOHV	\N	6540000	1905	23538	cw_bot	history-import:cw_bot:766	2026-05-10 02:24:40.449+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2716893236	lian2234j	BYRD	\N	4150000	3132	23538	cw_bot	history-import:cw_bot:1556	2026-05-17 03:22:56.088+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2719084403	aidananthony013	XPQX	\N	7500000	1519	23538	cw_bot	history-import:cw_bot:1811	2026-06-13 15:03:54.201+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2732960938	rivvonthebest64	FGZW	\N	626630	8197	23538	cw_bot	history-import:cw_bot:9175	2026-06-20 12:50:43.156+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2755950731	Jesuisfrancaiallo	ST1L	\N	866670	7353	23537	cw_bot	history-import:cw_bot:2634	2026-07-31 22:09:15.462+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2786686086	Loewentatze12	t36	\N	50	22116	23537	cw_bot	history-import:cw_bot:2432	2026-08-09 19:22:00.052+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2793216369	F_Bizzle	SOPU	\N	233940000	2	23538	cw_bot	history-import:cw_bot:1152	2026-04-27 21:42:43.611+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2807629356	NarutoShipuden5511	🏰 Clan: **DOLA**	\N	245130	10686	23538	cw_bot	history-import:cw_bot:8359	2026-04-21 09:43:35.978+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2843513755	firefeather46	HSTL	24	11200000	24	\N	external_import	history-import:big_bot:1014	2026-07-12 00:55:29.049+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2851678609	akordeony	gfwe	\N	4810000	2751	23535	cw_bot	history-import:cw_bot:5028	2026-08-23 22:10:48.074+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2863035405	ZacianJace	CE7	\N	6290000	2002	23538	cw_bot	history-import:cw_bot:4196	2026-04-12 20:04:45.583+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2865136155	caitlin15628	WSL	\N	15650	17200	23535	cw_bot	history-import:cw_bot:9884	2026-08-24 10:51:41.622+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2892299154	Baggooooo	UN0	\N	8840000	1129	23537	cw_bot	history-import:cw_bot:4542	2026-08-04 19:57:26.933+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2912101187	coolgur0	D0LA	\N	7240000	1601	23537	cw_bot	history-import:cw_bot:510	2026-07-17 18:48:27.061+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2915153725	Ishan90091	Luxk	\N	1460000	5909	23537	cw_bot	history-import:cw_bot:10050	2026-08-08 18:49:12.798+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2929825206	roplexbuddy	XRS	\N	1910000	5203	23537	cw_bot	history-import:cw_bot:4254	2026-08-13 04:25:30.76+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2948612124	saud02x	UN0	\N	3930000	3293	23538	cw_bot	history-import:cw_bot:8202	2026-04-25 09:16:47.451+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2956070032	AnnexOO1	DLOW	\N	109160	12810	23538	cw_bot	history-import:cw_bot:8241	2026-04-11 00:42:36.107+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2956113153	xwiktorxxxx3	LSQ	\N	1050000	6813	23537	cw_bot	history-import:cw_bot:8912	2026-07-30 10:52:00.891+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2961636717	nichozr	V1LN	\N	171650000	5	23538	cw_bot	history-import:cw_bot:1415	2026-05-11 01:18:04.672+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2965361189	Mynestra	🏰 Clan: **Roux**	\N	\N	17059	23538	cw_bot	history-import:cw_bot:3606	2026-04-30 21:26:17.172+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2973745571	WGZ7uzg	T2UX	\N	45	22156	23538	cw_bot	history-import:cw_bot:1591	2026-05-20 17:40:45.45+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2988275843	zspjasieniec1	PABS	\N	281	21465	23536	cw_bot	history-import:cw_bot:8491	2026-08-19 15:24:30.108+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2999732017	derharzendeharzer	3zEZ	\N	23130000	240	23538	cw_bot	history-import:cw_bot:4221	2026-04-12 20:09:36.816+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3000748132	PickleCloudNacho	H8ER	\N	13700000	522	23538	cw_bot	history-import:cw_bot:3952	2026-04-12 22:17:35.814+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3016891949	petaf1234	HR2T	\N	517180	8720	23536	cw_bot	history-import:cw_bot:5259	2026-08-21 20:32:57.322+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3019955385	stevesteve466	VLP	\N	4610000	2857	23537	cw_bot	history-import:cw_bot:6260	2026-08-08 11:17:12.174+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3019968804	Houtchyoi	ROMU	\N	590640	8352	23538	cw_bot	history-import:cw_bot:1610	2026-05-20 23:36:44.19+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3022616943	floatindrag	K1WI	\N	3890000	3328	23537	cw_bot	history-import:cw_bot:2559	2026-08-01 14:35:07.364+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3023165535	wanted_o1lie	BYRD	\N	34510000	115	23538	cw_bot	history-import:cw_bot:1095	2026-04-25 23:24:38.777+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3023440598	rokster359	SOPU	\N	24300000	216	23538	cw_bot	history-import:cw_bot:1329	2026-05-06 02:32:10.589+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3033026212	flexmyspa1	Goop	\N	634120	8163	23537	cw_bot	history-import:cw_bot:795	2026-07-17 18:58:35.721+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3039307282	Mr_agnes30	XREX	\N	14150000	499	23538	cw_bot	history-import:cw_bot:8071	2026-06-23 16:38:19.044+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3043643867	Leonthelegend9	CE7	\N	1430000	5977	23537	cw_bot	history-import:cw_bot:10086	2026-08-08 09:52:33.881+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3054766960	realyodream	BYRD	\N	8280000	1279	23537	cw_bot	history-import:cw_bot:4454	2026-08-05 18:06:41.781+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3059849612	coolkidwwwa	FGZW	\N	16460000	400	23538	cw_bot	history-import:cw_bot:4030	2026-04-12 22:00:36.823+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3060745926	thetruetdsglitch	V1LN	\N	15670000	436	23538	cw_bot	history-import:cw_bot:8035	2026-04-30 15:47:59.662+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3061738775	Robin_toxic19	karl	\N	817330	7485	23535	cw_bot	history-import:cw_bot:5076	2026-08-22 18:03:46.769+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3064251597	filipek2600cz	HROT	\N	7570000	1494	23538	cw_bot	history-import:cw_bot:1563	2026-05-17 11:56:22.532+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3078836998	minzxn_11	AQ	\N	5230000	2528	23535	cw_bot	history-import:cw_bot:8630	2026-08-26 16:34:14.001+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3094350982	kki201217	L1GO	\N	3690000	3467	23536	cw_bot	history-import:cw_bot:9904	2026-08-18 18:07:03.497+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3108660508	Darcacz2	Axet	\N	7230000	1611	23537	cw_bot	history-import:cw_bot:6676	2026-08-04 13:06:03.104+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3110455209	kuroihanin	TKMR	\N	2350000	4680	23537	cw_bot	history-import:cw_bot:905	2026-07-17 19:08:55.749+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3117910530	bosanderos25	CE7	\N	33280000	123	23538	cw_bot	history-import:cw_bot:4193	2026-04-12 19:56:48.787+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3124408432	Mr96eduD	3zEZ	\N	10980000	745	23538	cw_bot	history-import:cw_bot:4160	2026-04-12 20:33:19.889+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3128771885	45_Matesman	VLP	\N	85770	13430	23536	cw_bot	history-import:cw_bot:5819	2026-08-14 18:49:47.375+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3139037723	Tobik987123	cspe	\N	289800	10220	23537	cw_bot	history-import:cw_bot:6472	2026-08-06 18:08:45.622+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3141351327	vitek668701	ROGU	\N	273980	10377	23537	cw_bot	history-import:cw_bot:6351	2026-08-07 17:33:25.404+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3143604581	RebelkaCZ157	VLP	\N	2490000	4532	23537	cw_bot	history-import:cw_bot:6707	2026-08-04 09:43:51.606+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3144581284	averyhein1920212223	Rval	\N	95500	13162	23537	cw_bot	history-import:cw_bot:9033	2026-07-17 16:38:09.537+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3149302489	code_wille	SOPU	\N	10400000	838	23538	cw_bot	history-import:cw_bot:3837	2026-04-05 06:57:37.866+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3154472096	Pepicek1982	PnS2	\N	9270000	1017	23537	cw_bot	history-import:cw_bot:6997	2026-07-31 11:03:17.955+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3171368431	darklode100	JEW	\N	541	21003	23538	cw_bot	history-import:cw_bot:1124	2026-04-27 02:10:10.025+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3172618280	cannelle4545	xpp_	\N	239160	10756	23536	cw_bot	history-import:cw_bot:8751	2026-08-15 22:33:59.794+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3181994439	anrijs9991	st1z	\N	2580000	4426	23538	cw_bot	history-import:cw_bot:1187	2026-04-30 19:59:29.548+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3186034676	tobicole	3zEZ	\N	13870000	511	23538	cw_bot	history-import:cw_bot:4118	2026-04-12 20:27:08.198+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3189090824	bobbybiz1	BYRD	\N	2610000	4385	23538	cw_bot	history-import:cw_bot:3827	2026-04-05 06:52:03.294+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3214063706	ZoraDaGoatOfficial	ROMU	\N	7450000	1533	23538	cw_bot	history-import:cw_bot:952	2026-04-17 00:09:22.187+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3214496713	DarkPhoenix917	UN0	\N	25680000	195	23537	cw_bot	history-import:cw_bot:4505	2026-08-04 19:56:06.385+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3215370935	snorlaxfox1	V1LN	\N	10810000	767	23538	cw_bot	history-import:cw_bot:9382	2026-04-02 02:54:57.549+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3228101331	phoen1x_aus	WSL	\N	639	20885	23535	cw_bot	history-import:cw_bot:9765	2026-08-26 19:49:57.893+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3248091509	professorfeliks	LSQ	\N	1860000	5273	23537	cw_bot	history-import:cw_bot:8978	2026-07-19 16:26:07.395+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3248243502	IchBin21CPS_2	B2SS	\N	2340000	4698	23538	cw_bot	history-import:cw_bot:3770	2026-04-06 19:40:16.13+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3252894844	vexityonnic	SOPU	\N	18030000	365	23538	cw_bot	history-import:cw_bot:3809	2026-04-05 06:50:41.945+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3265168895	catanddog15123	CRUI	476	\N	476	\N	external_import	history-import:big_bot:1098	2026-08-03 10:43:52.209+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3271035452	Misak0912	HROT	\N	6650000	1861	23537	cw_bot	history-import:cw_bot:6940	2026-08-01 08:49:00.863+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3271442208	Jonglesje	VPT0	\N	15	22532	23535	cw_bot	history-import:cw_bot:2229	2026-08-24 09:46:55.285+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3289385978	KnKmor	DK	\N	8880000	1115	23537	cw_bot	history-import:cw_bot:8886	2026-08-01 18:12:49.345+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3299278772	xxprozombix	V1LN	\N	20800000	297	23538	cw_bot	history-import:cw_bot:8665	2026-06-26 13:37:08.577+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3301277606	filipaugustin201	W0m1	\N	768	20780	23537	cw_bot	history-import:cw_bot:6596	2026-08-06 08:48:01.163+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3302444862	EndOfAnEra007	NONG	56	\N	56	\N	external_import	history-import:big_bot:968	2026-07-16 23:25:31.662+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3323392290	D0m1n8tr	V1LN	\N	85110000	21	23538	cw_bot	history-import:cw_bot:9269	2026-04-29 06:50:40.467+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3331690810	Martin_robloxone	MDKT	\N	435570	9182	23536	cw_bot	history-import:cw_bot:5420	2026-08-20 08:50:10.532+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3341508339	2rello	karl	\N	4310000	3015	23538	cw_bot	history-import:cw_bot:1389	2026-05-08 04:15:04.447+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3344342434	MUI_5aiyajin	SOPU	\N	21370000	283	23538	cw_bot	history-import:cw_bot:3833	2026-04-05 06:57:09.847+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3354879384	skipDwyne	L2GO	\N	25630	16259	23537	cw_bot	history-import:cw_bot:7223	2026-07-29 01:58:06.07+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3357292523	Grec_Game	HR2T	\N	170340	11644	23537	cw_bot	history-import:cw_bot:7058	2026-07-30 17:14:48.532+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3370104014	Standa256	VLP	\N	415260	9305	23535	cw_bot	history-import:cw_bot:5133	2026-08-23 03:03:21.508+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3372527888	CokoladovaZmrzska	cspe	\N	3120000	3910	23537	cw_bot	history-import:cw_bot:7352	2026-07-22 01:19:32.889+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3373408758	housebox_go	A1LT	\N	4910000	2689	23537	cw_bot	history-import:cw_bot:6453	2026-08-06 17:53:29.386+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3377511045	mercstien	SOPU	\N	21260000	286	23538	cw_bot	history-import:cw_bot:1335	2026-05-06 09:08:51.241+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3377790375	CharliePatryk	JPX_	\N	414260	9316	23537	cw_bot	history-import:cw_bot:2453	2026-08-01 19:23:22.272+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3378947321	reset45624382	BOSS	\N	10450000	830	23537	cw_bot	history-import:cw_bot:8821	2026-08-08 12:36:56.654+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3379551767	scytheskii	st1z	\N	10840000	762	23538	cw_bot	history-import:cw_bot:319	2026-04-16 22:13:50.244+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3382833387	kingweslie123	karl	\N	3120000	3913	23537	cw_bot	history-import:cw_bot:2321	2026-08-12 21:19:37.585+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3393324525	BigWolfPL	XREX	\N	20880000	292	23537	cw_bot	history-import:cw_bot:7815	2026-07-24 20:08:19.243+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3416641778	dd_ontop13	SOPU	\N	15290000	449	23538	cw_bot	history-import:cw_bot:3820	2026-04-05 06:51:12.613+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3421453702	noliogames	IWHN	\N	6920	18565	23537	cw_bot	history-import:cw_bot:9470	2026-08-04 08:46:51.508+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3439337856	prezley_official2022	HROT	\N	4740000	2795	23537	cw_bot	history-import:cw_bot:7112	2026-07-30 15:19:24.23+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3444459957	Radek25101982	VLP	\N	7310	18477	23537	cw_bot	history-import:cw_bot:6047	2026-08-09 09:04:46.362+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3447427741	filipekisfff	3zEZ	\N	3110000	3918	23538	cw_bot	history-import:cw_bot:3882	2026-05-11 00:51:30.646+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3448405650	eldublinfox	Fchn	\N	8350000	1255	23538	cw_bot	history-import:cw_bot:9392	2026-04-01 08:35:40.039+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3456377805	Zyro12347	\N	\N	\N	8655	23538	cw_bot	history-import:cw_bot:3495	2026-04-19 07:03:56.014+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3500795024	Ey3d46	BYRD	\N	4920000	2685	23538	cw_bot	history-import:cw_bot:291	2026-05-09 14:14:11.57+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3509021767	JonnyM55	HR2T	\N	447790	9110	23536	cw_bot	history-import:cw_bot:5546	2026-08-17 00:51:43.291+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3549731928	Thijklo2003	KOHV	\N	24980000	203	23538	cw_bot	history-import:cw_bot:1543	2026-05-17 01:50:48.281+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3557375419	Subtokirbofanyt	ORBI	\N	1400000	6027	23537	cw_bot	history-import:cw_bot:2186	2026-07-27 21:40:54.835+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3563519895	dexxifying	st1z	\N	5120000	2592	23538	cw_bot	history-import:cw_bot:3765	2026-04-17 00:22:16.986+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3567067280	Kurtis2345789	ROMU	\N	4770000	2770	23538	cw_bot	history-import:cw_bot:582	2026-05-19 20:18:17.483+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3582853902	godboy94875	🏰 Clan: **DOLA**	\N	375600	9586	23538	cw_bot	history-import:cw_bot:2545	2026-04-19 16:39:54.272+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3589740153	WhosStarl1ght	BYRD	\N	5960000	2166	23538	cw_bot	history-import:cw_bot:1289	2026-05-04 17:16:23.567+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3593720708	Malysberatel	AR2Y	\N	127320	12398	23537	cw_bot	history-import:cw_bot:7990	2026-07-08 14:36:56.328+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3602402808	Flexsnack21	UNTY	\N	35860000	107	23538	cw_bot	history-import:cw_bot:1199	2026-05-01 08:05:11.74+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3628039137	anoknight5	XPQX	\N	41770	15125	23537	cw_bot	history-import:cw_bot:3114	2026-07-28 18:56:15.247+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3630752477	ffggss478	ROGU	\N	171210	11631	23536	cw_bot	history-import:cw_bot:5486	2026-08-19 21:29:14.497+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3655474970	Shrooomdevourer10	V1LN	\N	7190000	1625	23538	cw_bot	history-import:cw_bot:8471	2026-06-17 00:21:50.467+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3672938221	zhulenc	VLP	\N	471360	8980	25337	cw_bot	history-import:cw_bot:6522	2026-08-06 21:54:27.517+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3683660130	Medvid3k11	cspe	\N	3250000	3797	23537	cw_bot	history-import:cw_bot:6983	2026-07-31 17:00:07.71+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3717157427	Gx_BlackNinja	BYRD	\N	33720000	119	23538	cw_bot	history-import:cw_bot:3792	2026-04-06 19:59:53.068+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3750045967	imnotdigitosim1476	HROT	\N	10280000	858	23536	cw_bot	history-import:cw_bot:5654	2026-08-14 22:17:44.993+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3768828357	mrs_reset	V1LN	\N	9620000	956	23538	cw_bot	history-import:cw_bot:8604	2026-06-17 00:15:13.179+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3779230353	goat201470	H8M3	\N	2500000	4521	23538	cw_bot	history-import:cw_bot:8273	2026-04-13 16:26:51.02+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3785644519	tttttttdrghrd	L2GO	\N	5780	18803	23538	cw_bot	history-import:cw_bot:9327	2026-04-05 18:41:41.965+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3797718809	m4thou3	Goop	\N	394230	9461	23537	cw_bot	history-import:cw_bot:3072	2026-07-28 21:07:33.267+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3804356173	fishyaxl22	KOHV	9	\N	9	\N	external_import	history-import:big_bot:985	2026-07-14 03:44:42.78+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3808414208	Suppe_Can	V1LN	\N	29260000	153	23538	cw_bot	history-import:cw_bot:8112	2026-04-27 17:55:05.386+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3830370598	cxr_lo	1DOL	\N	6410000	1952	23538	cw_bot	history-import:cw_bot:1442	2026-05-12 09:49:26.321+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3834652767	Roman5556_CZ	SAM4	\N	2200000	4872	23537	cw_bot	history-import:cw_bot:7405	2026-07-17 16:42:07.486+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3853349557	melpatate12	SOPU	\N	71570000	30	23538	cw_bot	history-import:cw_bot:964	2026-04-18 02:12:53.563+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3868174361	popcatbrohter	FGZW	\N	259770	10512	23537	cw_bot	history-import:cw_bot:2873	2026-07-31 15:58:17.484+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3915256201	david_smeg	7HRW	\N	1220000	6400	23537	cw_bot	history-import:cw_bot:3347	2026-07-23 15:30:35.199+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3919100604	Filda7329	STPS	\N	2430000	4595	23537	cw_bot	history-import:cw_bot:6490	2026-08-06 18:48:55.736+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3940781859	tigran_2206	BEZE	\N	3730000	3443	23537	cw_bot	history-import:cw_bot:860	2026-07-17 18:56:54.568+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3952416098	000pattik000	HR2T	\N	166170	11728	23537	cw_bot	history-import:cw_bot:6615	2026-08-05 07:49:04.542+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3978547556	Zoliisrecords	VLP	\N	645590	8117	23535	cw_bot	history-import:cw_bot:4992	2026-08-24 10:40:01.728+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3989169114	h278lo	ROGU	\N	282970	10279	23537	cw_bot	history-import:cw_bot:6315	2026-08-07 11:16:42.044+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3994956294	Bxcan_official	A2H	\N	6	22925	23538	cw_bot	history-import:cw_bot:1730	2026-05-26 13:32:49.12+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3997096343	BvZyIoo	CE7	\N	25210000	198	23538	cw_bot	history-import:cw_bot:4194	2026-04-12 19:57:54.108+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4002999162	mrifkrj1	OPAL	\N	111290	12762	23537	cw_bot	history-import:cw_bot:6630	2026-08-05 08:00:31.329+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4004160475	KUKYOFFCIAL	MKVB	\N	62780	14192	23537	cw_bot	history-import:cw_bot:6074	2026-08-09 10:43:35.919+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4023070188	kocovina98	HROT	\N	1810000	5346	23536	cw_bot	history-import:cw_bot:5730	2026-08-15 11:32:52.389+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4023223009	Aadhav_mahajan	ST1L	\N	56570	14425	23537	cw_bot	history-import:cw_bot:3266	2026-07-25 14:43:49.342+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4028104754	jaratupy36	HR2T	\N	45000	14971	23536	cw_bot	history-import:cw_bot:5759	2026-08-14 16:48:48.942+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4035198924	ytpandaroux	R0MU	\N	6440000	1938	23537	cw_bot	history-import:cw_bot:925	2026-07-08 19:17:13.13+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4043566918	M4x153452	L1GO	\N	1890000	5229	23538	cw_bot	history-import:cw_bot:9238	2026-05-03 00:02:29.48+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4054510143	kudlankovec	VLP	\N	456780	9054	23537	cw_bot	history-import:cw_bot:2482	2026-08-01 09:59:49.052+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4062541064	Franta99996	ROYL	\N	832020	7448	23535	cw_bot	history-import:cw_bot:5102	2026-08-22 20:31:49.529+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4085016779	the_mandalorian963	V1LN	\N	18840000	343	23536	cw_bot	history-import:cw_bot:7644	2026-08-14 10:22:52.548+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4091709355	1230david4567	SAM4	\N	7220000	1611	23536	cw_bot	history-import:cw_bot:5691	2026-08-15 05:24:53.093+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4097051785	yO_aDzeY	LSQ	\N	859960	7375	23538	cw_bot	history-import:cw_bot:1666	2026-05-23 10:59:06.769+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4113094220	TTobbboTT	V1LN	\N	16110000	414	23538	cw_bot	history-import:cw_bot:9222	2026-05-12 19:20:42.195+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4130228136	Deezwalnutsbig	CE7	\N	6090000	2106	23538	cw_bot	history-import:cw_bot:4197	2026-04-12 20:04:58.899+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4138810457	ibaitier	JEW_	\N	968940	7073	23538	cw_bot	history-import:cw_bot:9121	2026-07-04 07:44:27.013+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4142577179	omgmegakiller_28	DGSL	\N	374880	9591	23537	cw_bot	history-import:cw_bot:3257	2026-07-25 13:57:23.221+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4160339225	JamalTheHarryThe3rd	CE7	\N	24570000	210	23538	cw_bot	history-import:cw_bot:234	2026-04-18 20:55:48.35+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4161934376	honza01021983	VLP	\N	7970000	1375	25335	cw_bot	history-import:cw_bot:4843	2026-08-28 06:57:40.513+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4175082110	PLukk_2	eguh	\N	791940	7561	23535	cw_bot	history-import:cw_bot:2225	2026-08-24 09:48:14.467+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4177849716	doperthanyou67	EDS1	\N	32510	15718	23537	cw_bot	history-import:cw_bot:9066	2026-07-08 01:06:13.66+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4186244568	Radkocraftypmobile	\N	\N	\N	3857	23538	cw_bot	history-import:cw_bot:939	2026-04-19 16:42:21.91+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4215988499	abby_gamera	V1LN	\N	17630000	372	23538	cw_bot	history-import:cw_bot:8151	2026-04-28 15:06:15.006+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4238790853	samsam16725	ROMU	\N	6340000	1981	23538	cw_bot	history-import:cw_bot:90	2026-06-19 21:20:32.05+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4242955713	KazuyaTTV	BYRD	\N	8840000	1130	23538	cw_bot	history-import:cw_bot:209	2026-05-01 10:25:23.892+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4247108285	irdski	IWHN	\N	647880	8106	23536	cw_bot	history-import:cw_bot:4715	2026-08-14 21:21:37.198+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4247536223	VoiDZzDripzz	JYRO	\N	2670000	4328	23537	cw_bot	history-import:cw_bot:3063	2026-07-28 21:47:34.066+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4269125451	hryzal213	eguh	\N	399020	9424	23535	cw_bot	history-import:cw_bot:5305	2026-08-22 16:59:45.703+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4278667781	r1chta49	0PAL	\N	396480	9445	23536	cw_bot	history-import:cw_bot:5283	2026-08-22 14:04:02.769+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4281402342	Selcuk1143	S2PU	\N	1030000	6890	23537	cw_bot	history-import:cw_bot:3047	2026-07-28 21:24:31.882+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4294745835	angarus_tutunum	HROT	\N	1330000	6169	23536	cw_bot	history-import:cw_bot:5207	2026-08-21 19:06:36.932+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4301431724	Bobsussybu123	BURN	\N	4110	19230	23537	cw_bot	history-import:cw_bot:2518	2026-08-01 12:26:31.166+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4307217370	BuzekPetr2003	VLP	\N	582	20962	23536	cw_bot	history-import:cw_bot:5476	2026-08-19 18:30:11.966+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4313949380	Dada343410	HR2T	\N	966510	7081	23537	cw_bot	history-import:cw_bot:6383	2026-08-07 20:30:35.379+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4336818312	Myguy_Ky1	Ayes	\N	2190000	4875	23537	cw_bot	history-import:cw_bot:3214	2026-07-26 11:08:12.603+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4345972644	venti12011201	y3ki	\N	1540000	5768	23538	cw_bot	history-import:cw_bot:8540	2026-06-17 00:04:41.889+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4350673674	jblmax11	SXT	\N	2940000	4075	23538	cw_bot	history-import:cw_bot:1737	2026-05-27 13:43:08.907+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4359375074	PostalChaos1	3zEZ	\N	18290000	356	23538	cw_bot	history-import:cw_bot:4099	2026-04-12 20:17:08.094+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4388509145	kukurice153	tNo	\N	655750	8082	23537	cw_bot	history-import:cw_bot:5953	2026-08-11 16:22:14.568+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4430200296	daytime7789	OTTR	\N	3860000	3358	23538	cw_bot	history-import:cw_bot:9160	2026-06-29 23:32:40.195+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4449496597	dodo_jePRO	Axet	\N	258410	10528	23535	cw_bot	history-import:cw_bot:4809	2026-08-28 15:34:00.919+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4455397343	Denis512657	ULCK	\N	63060	14176	23537	cw_bot	history-import:cw_bot:7047	2026-07-30 18:27:47.628+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4470776324	frajeerDodo	MDKT	\N	44640	14985	23537	cw_bot	history-import:cw_bot:2278	2026-08-13 08:52:59.931+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4471953599	alexander1234_hi56	BEZE	\N	6300000	1999	23537	cw_bot	history-import:cw_bot:8793	2026-08-12 23:40:25.692+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4482372398	Burak30_CZ	VLP	\N	309840	10065	23537	cw_bot	history-import:cw_bot:7162	2026-07-30 13:05:24.983+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4483758330	Sooz_events	FGZW	\N	6820000	1801	23538	cw_bot	history-import:cw_bot:4063	2026-04-12 22:02:33.256+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4511286390	tadeasvrsovsky12345	HR2T	\N	2010000	5085	23536	cw_bot	history-import:cw_bot:5312	2026-08-21 07:07:08.39+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4511725993	Kvetamin	VLP	\N	3510000	3601	23536	cw_bot	history-import:cw_bot:5243	2026-08-21 19:36:06.87+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4515946186	bakedashboii	BOSS	\N	10350000	845	23538	cw_bot	history-import:cw_bot:8292	2026-04-19 17:46:14.335+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4540869398	proto123q	NS4R	\N	5960000	2169	23537	cw_bot	history-import:cw_bot:563	2026-07-17 18:49:06.221+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4574397825	PET_HERO676	MWHO	\N	101980	12982	23536	cw_bot	history-import:cw_bot:5409	2026-08-20 09:37:57.743+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4610459819	srolik249	VP TO	\N	139200	12165	23536	cw_bot	history-import:cw_bot:5706	2026-08-15 08:07:19.768+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4633578732	m3wpewpew	DOLA	\N	581050	8395	25337	cw_bot	history-import:cw_bot:3000	2026-07-29 15:03:42.497+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4634042698	psxtrader327	OTTR	361	\N	361	\N	external_import	history-import:big_bot:1081	2026-06-29 23:25:50.145+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4652078124	jaximeler	PABS	\N	9190000	1031	23538	cw_bot	history-import:cw_bot:8423	2026-06-17 00:24:11.273+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4656324138	mrbloxterr10	V1LN	\N	25040000	202	23538	cw_bot	history-import:cw_bot:8654	2026-07-01 16:35:03.562+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4680362717	hrac_829	BDX	\N	30350	15867	23537	cw_bot	history-import:cw_bot:6432	2026-08-06 15:57:32.872+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4686873488	Monty_Tomas10	Vajn	\N	6130000	2082	23536	cw_bot	history-import:cw_bot:5321	2026-08-21 07:45:07.526+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4691948849	matiasvanicek231	M4TX	\N	410130	9341	23537	cw_bot	history-import:cw_bot:6280	2026-08-08 15:58:08.794+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4759297476	psst1422	HROT	\N	11070000	739	23538	cw_bot	history-import:cw_bot:140	2026-05-20 23:35:12.448+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4766082129	oscarhfe168	CE7	\N	7900000	1393	23538	cw_bot	history-import:cw_bot:4201	2026-04-12 20:04:21.807+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4792692703	ced123zx	ROMU	\N	5140000	2581	23537	cw_bot	history-import:cw_bot:709	2026-07-17 18:57:41.576+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4833004455	Deniska_1990	bkl	\N	10320000	854	23537	cw_bot	history-import:cw_bot:7321	2026-07-25 23:11:40.176+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4864087085	projectsupramev2	CE7	\N	50110000	64	23537	cw_bot	history-import:cw_bot:553	2026-07-17 18:48:50.928+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4897243840	Bubbly_num2	UNO	\N	4250000	3060	23538	cw_bot	history-import:cw_bot:8367	2026-04-06 08:31:41.74+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4916438361	ArmNotPro	st1z	\N	272630	10388	23537	cw_bot	history-import:cw_bot:805	2026-07-17 18:58:43.871+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4923138175	WORZ_51	Bu1l	\N	553690	8532	23538	cw_bot	history-import:cw_bot:4189	2026-04-12 21:06:34.77+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4944901310	WalterHartwellWhit00	FBGO	\N	53580	14572	23538	cw_bot	history-import:cw_bot:1440	2026-05-12 08:44:35.056+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4957497369	ammi0729	SOPU	\N	115930000	10	23538	cw_bot	history-import:cw_bot:977	2026-04-18 02:13:35.573+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4977279614	Alfiehibbo	2war	\N	116710	12628	23537	cw_bot	history-import:cw_bot:3407	2026-07-23 08:33:50.395+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4989918296	PtiDoriankt	ROMU	\N	6270000	2015	23537	cw_bot	history-import:cw_bot:841	2026-07-17 18:56:47.208+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4999104751	Speaxk17	AR2Y	\N	6870000	1782	23538	cw_bot	history-import:cw_bot:1621	2026-05-21 01:10:10.679+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5013545323	gravysek666	HR2T	\N	1670000	5578	23537	cw_bot	history-import:cw_bot:6415	2026-08-08 02:16:50.888+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5042635636	Cultiv8R_NZ	DLOW	\N	1500000	5845	23538	cw_bot	history-import:cw_bot:8222	2026-04-11 00:40:42.513+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5044736168	CBroGolden	3zEZ	\N	19590000	331	23538	cw_bot	history-import:cw_bot:4085	2026-04-12 20:16:41.119+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5049376575	AGR_GamerY	XPQX	\N	80120	13606	23537	cw_bot	history-import:cw_bot:9684	2026-07-19 05:15:01.102+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5063089605	REAL3ST_NZ	DLOW	\N	697620	7913	23538	cw_bot	history-import:cw_bot:8264	2026-04-11 00:55:05.933+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5115775245	gympie54	WSL	\N	228410	10886	23535	cw_bot	history-import:cw_bot:9754	2026-08-26 20:07:29.974+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5119214721	thatonepsxyoutuber	E_IF	\N	1450000	5931	23538	cw_bot	history-import:cw_bot:2065	2026-07-01 15:37:05.173+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5120642383	hydra_dynamo71	DHFA	\N	100240	13043	23538	cw_bot	history-import:cw_bot:1676	2026-05-23 12:52:57.165+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5127406568	dadchris86	V1LN	\N	45540000	75	23538	cw_bot	history-import:cw_bot:8178	2026-04-21 16:30:58.569+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5128774229	livelasso	V1LN	\N	63620000	33	23537	cw_bot	history-import:cw_bot:8994	2026-07-19 09:14:05.882+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5143387515	babykweeef	UN0	\N	6	22901	23536	cw_bot	history-import:cw_bot:2099	2026-08-14 22:59:19.851+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5165277431	nojkdfnjyfdhufdhn	ROGU	\N	397550	9437	23536	cw_bot	history-import:cw_bot:5434	2026-08-19 14:48:26.843+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5168853814	Legion2728	🏰 Clan: **OTTR**	\N	\N	2304	23538	cw_bot	history-import:cw_bot:3618	2026-04-28 22:34:07.104+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5170991645	galvoir2712	H8M3	\N	5070000	2611	23537	cw_bot	history-import:cw_bot:4417	2026-08-07 08:30:13.219+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5189669801	johqnel	ROGU	\N	299780	10143	23536	cw_bot	history-import:cw_bot:5565	2026-08-17 00:52:03.053+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5203613717	Arteomcka0_z	BEZE	\N	8650000	1176	23537	cw_bot	history-import:cw_bot:3370	2026-07-23 19:33:38.366+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5209078854	Rydma73	H8ER	\N	38340000	103	23538	cw_bot	history-import:cw_bot:3967	2026-04-12 22:17:12.736+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5209583889	pepajzik	STPS	\N	6030	18743	23536	cw_bot	history-import:cw_bot:5367	2026-08-20 18:05:20.789+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5254272309	shadow_ggofficial	M4RB	\N	50740000	61	23538	cw_bot	history-import:cw_bot:1752	2026-05-28 21:55:36.515+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5291595908	iTTv6	3zEZ	\N	7520000	1512	23538	cw_bot	history-import:cw_bot:3996	2026-04-12 21:22:33.583+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5328968538	Iphone1835	SAM4	\N	225940	10913	23536	cw_bot	history-import:cw_bot:5188	2026-08-21 18:06:41.136+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5349160911	ArcticGalaxy14	🏰 Clan: **NONG**	\N	\N	2731	23538	cw_bot	history-import:cw_bot:1175	2026-04-30 01:32:47.772+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5363596325	eja99991	_MGW	\N	605350	8288	23537	cw_bot	history-import:cw_bot:6011	2026-08-10 08:39:01.416+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5363786388	HippoALT116	DOLA	\N	1830000	5326	23537	cw_bot	history-import:cw_bot:4398	2026-08-08 17:50:18.656+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5383071838	mr_895675	LXCC	\N	2140000	4912	23536	cw_bot	history-import:cw_bot:7673	2026-08-14 20:23:40.83+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5407742794	baba_gamer239	ROMU	\N	3730000	3442	23538	cw_bot	history-import:cw_bot:1579	2026-05-20 17:25:36.224+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5471242617	vkerazzzzzzzzz	TLGZ	\N	1140000	6575	23538	cw_bot	history-import:cw_bot:9171	2026-06-19 21:51:42.469+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5516978036	omgitzmaatt3	S_TR	\N	218730	10991	23535	cw_bot	history-import:cw_bot:9869	2026-08-23 11:16:05.962+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5560545010	crimxzysgoatedalt	DHFA	\N	621010	8216	23538	cw_bot	history-import:cw_bot:1743	2026-05-28 19:25:01.662+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5592576307	Lukasek_mlejn	HR2T	\N	5070	18977	23537	cw_bot	history-import:cw_bot:5959	2026-08-11 10:05:19.007+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5603268347	demonfaarm6	y3ki	\N	168790	11677	23538	cw_bot	history-import:cw_bot:9375	2026-03-31 20:30:56.071+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5615179956	MonsterWithGod	ROMU	\N	6970000	1722	23538	cw_bot	history-import:cw_bot:4138	2026-04-12 21:05:00.581+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5623447261	quoicoubeh5608	RATZ	\N	445430	9127	23537	cw_bot	history-import:cw_bot:6207	2026-08-08 20:49:37.159+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5703128088	elnubsen	SOPU	\N	17780000	370	23538	cw_bot	history-import:cw_bot:3861	2026-04-05 06:56:35.208+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5718001505	samaorithor	WSL	\N	6490	18653	23535	cw_bot	history-import:cw_bot:9792	2026-08-26 19:50:37.879+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5738682813	robloxpus2202	A10z	\N	1850000	5285	23537	cw_bot	history-import:cw_bot:7860	2026-07-07 22:35:17.009+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5743563432	Alexfarm_too	LXCC	\N	526070	8673	23537	cw_bot	history-import:cw_bot:10075	2026-08-08 09:43:53.852+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5818869297	knoxcoder	SOPU	\N	31810000	133	23537	cw_bot	history-import:cw_bot:3016	2026-07-29 13:28:15.912+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5825369243	DahRealXaViMaVi2	M4RB	\N	14690000	471	23537	cw_bot	history-import:cw_bot:545	2026-07-17 18:48:43.803+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5837946305	husos112410	ggyt	\N	83070	13519	23537	cw_bot	history-import:cw_bot:3329	2026-07-24 20:49:25.624+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6024579040	siemanokolano3211	NUUP	\N	796910	7548	23537	cw_bot	history-import:cw_bot:8835	2026-08-08 13:22:11.942+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6035434188	Pokeccc_yt423	VLP	\N	1200	20429	23536	cw_bot	history-import:cw_bot:5425	2026-08-19 14:44:02.981+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6083864493	evelizda	st1z	\N	6240000	2036	23537	cw_bot	history-import:cw_bot:3133	2026-07-28 14:53:35.902+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6109731708	YoBaskett	W2VY	\N	11410000	699	23537	cw_bot	history-import:cw_bot:423	2026-07-17 18:47:23.21+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6156770625	pepajzikv2	STPS	\N	1090000	6695	23536	cw_bot	history-import:cw_bot:5378	2026-08-20 18:30:12.586+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6180933436	Atefluigi1	LX2C	\N	4250	19181	23535	cw_bot	history-import:cw_bot:4819	2026-08-28 16:24:47.076+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7005100565	Crazypuzzlehead15	V1LN	\N	35770000	108	23537	cw_bot	history-import:cw_bot:2465	2026-08-01 09:28:25.648+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7144927541	linya_w	2WEI	\N	425240	9253	23538	cw_bot	history-import:cw_bot:8566	2026-06-27 16:58:18.228+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7168755253	JoJo_Gaming2341	XMA2	\N	35520	15515	23538	cw_bot	history-import:cw_bot:1887	2026-06-20 14:27:05.49+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7173492482	Kyan65427	J200	\N	524490	8687	23537	cw_bot	history-import:cw_bot:3232	2026-07-26 12:04:59.618+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7191829024	Rizz100122	MKVB	\N	217140	11010	23537	cw_bot	history-import:cw_bot:7417	2026-07-18 10:00:29.926+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7202704987	wslhuge	WSL	\N	2280000	4768	23535	cw_bot	history-import:cw_bot:9816	2026-08-26 19:55:49.742+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7232809185	Kessho02	PEND	\N	8570000	1197	23537	cw_bot	history-import:cw_bot:600	2026-07-17 18:49:22.998+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7299604677	McAnt1c_Official	VPTO	\N	356840	9698	23537	cw_bot	history-import:cw_bot:6780	2026-08-03 07:34:50.336+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7378517417	XoticAtBlacket	CE7	\N	6020000	2140	23538	cw_bot	history-import:cw_bot:4202	2026-04-12 20:05:01.706+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7402474782	LuxXscout_Rasmus	V1LN	\N	9970000	900	23538	cw_bot	history-import:cw_bot:9302	2026-04-23 08:14:07.862+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7426690057	Duckyphant	H8M3	\N	60080000	40	23536	cw_bot	history-import:cw_bot:5636	2026-08-14 22:07:36.457+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7507588845	Sussy_man709	W0m1	\N	29490	15938	23537	cw_bot	history-import:cw_bot:7303	2026-07-26 11:10:25.798+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7535417374	StarShineSammy	MAH1	\N	21360000	284	23538	cw_bot	history-import:cw_bot:3982	2026-04-12 22:31:35.21+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7541580784	Chawa_X	V1LN	\N	7730000	1447	23538	cw_bot	history-import:cw_bot:9232	2026-05-05 20:32:03.784+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7583161395	Tgzzgzzltg33	HROT	\N	9190000	1028	23537	cw_bot	history-import:cw_bot:7261	2026-07-27 11:39:20.283+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7594665011	demonfaarm10	y3ki	\N	936	20618	23538	cw_bot	history-import:cw_bot:9360	2026-03-31 20:30:40.275+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7697761463	joeponsock12345	Rval	\N	3270000	3789	23537	cw_bot	history-import:cw_bot:8947	2026-07-26 22:32:25.767+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7710452262	hrac_821	BDX	\N	71780	13881	23537	cw_bot	history-import:cw_bot:6000	2026-08-10 07:17:41.604+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7739597690	LukyPuky2122	SORV	\N	200780	11245	23537	cw_bot	history-import:cw_bot:6076	2026-08-09 10:54:34.37+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7742077490	sirwabbs	V1LN	\N	21850000	271	23537	cw_bot	history-import:cw_bot:4636	2026-08-02 03:35:57.878+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7806857762	selena082319	W2VY	\N	23850000	226	23537	cw_bot	history-import:cw_bot:371	2026-07-17 18:33:34.992+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7808641651	Elis_123cz12	HR2T	\N	150060	11984	23537	cw_bot	history-import:cw_bot:6511	2026-08-07 05:42:34.596+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7811627595	Star_1110789	H8M3	\N	3400000	3674	23538	cw_bot	history-import:cw_bot:913	2026-05-01 16:32:32.474+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7850808088	Small_best1	HR2T	\N	10440	17909	23536	cw_bot	history-import:cw_bot:5772	2026-08-14 17:04:57.564+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7927344025	Dominik_3127	RHSF	\N	30260	15873	23535	cw_bot	history-import:cw_bot:2248	2026-08-24 09:45:40.555+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7932915767	frlzleo	L1GO	30	\N	30	\N	external_import	history-import:big_bot:1091	2026-07-01 11:42:44.424+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7943415059	SAE14RBLX	daco	\N	1750000	5450	23538	cw_bot	history-import:cw_bot:990	2026-04-18 02:19:37.646+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7971575569	projet_kevinfv	S_TR	\N	153980	11925	23537	cw_bot	history-import:cw_bot:6928	2026-08-01 07:35:47.188+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8087930970	sleeperb99	OT3R	\N	2050000	5030	23537	cw_bot	history-import:cw_bot:9024	2026-07-17 16:18:36.71+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8202998917	StanleyFox92	AV3Y	\N	8560000	1200	23538	cw_bot	history-import:cw_bot:15	2026-04-25 12:24:19.176+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8234157001	Xplayer548	2zEZ	\N	3440	19403	23537	cw_bot	history-import:cw_bot:6200	2026-08-08 20:30:31.468+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8339961481	Nocaper122	MKVB	\N	1150	20457	23535	cw_bot	history-import:cw_bot:4789	2026-08-28 14:09:37.109+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8356861824	aaadaaaaaaaaaaaaaam	ORX	\N	242920	10715	23536	cw_bot	history-import:cw_bot:5811	2026-08-14 17:57:23.77+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8858235990	michalmma2013	Axet	\N	18840	16853	23535	cw_bot	history-import:cw_bot:5178	2026-08-23 08:12:29.366+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9024250807	envycallftx	CE7	\N	9630000	954	23538	cw_bot	history-import:cw_bot:4195	2026-04-12 19:58:08.906+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9447539728	provazni10	BDX	\N	44340	15001	23536	cw_bot	history-import:cw_bot:5495	2026-08-19 20:50:38.357+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9540798587	Mahtaboscar2	ata2	\N	265100	10464	23537	cw_bot	history-import:cw_bot:7027	2026-07-31 09:44:22.743+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9543005920	VL1ST11	MDKT	\N	261860	10497	23537	cw_bot	history-import:cw_bot:6564	2026-08-06 07:03:40.747+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9760509062	Coder_Elicx	DOLA	\N	4440000	2942	23538	cw_bot	history-import:cw_bot:8177	2026-04-26 08:50:25.793+00
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	10271602994	ninja_luky4	HR2T	\N	66340	14064	23537	cw_bot	history-import:cw_bot:7375	2026-07-22 21:44:03.763+00
+COPY battles."Lucky Chest Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	413355357	tofuu12342	st1z	\N	8780000	1145	23538	cw_bot	history-import:cw_bot:630	2026-06-12 05:00:54.965+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	496935076	mawahlah	DOLA	\N	2910000	4110	23538	cw_bot	history-import:cw_bot:45	2026-06-27 00:05:32.123+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	544198160	JimmyCIeetus	DOLA	\N	16870000	394	23537	cw_bot	history-import:cw_bot:471	2026-07-17 18:47:56.313+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	573955632	Johanplayzrb21	BYRD	\N	14360000	487	23538	cw_bot	history-import:cw_bot:992	2026-04-18 02:22:53.465+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	646372767	904aj603	JEW	\N	1730000	5465	23538	cw_bot	history-import:cw_bot:1115	2026-04-27 02:09:16.229+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	656420117	MercilessBanditTaken	SOPU	\N	62220000	36	23538	cw_bot	history-import:cw_bot:166	2026-04-19 13:44:30.618+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	659542061	rrodgers0206	BOSS	\N	13190000	560	23537	cw_bot	history-import:cw_bot:730	2026-07-17 18:57:55.775+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	699004759	stickmasterluke12414	LXCC	\N	3470000	3627	23538	cw_bot	history-import:cw_bot:1524	2026-05-16 23:37:41.388+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	722456679	mujiTABA1	\N	\N	12320000	618	23538	cw_bot	history-import:cw_bot:2016	2026-06-28 16:42:57.557+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	779059828	jimynew	SS1N	\N	1280000	6260	23538	cw_bot	history-import:cw_bot:1532	2026-05-16 23:39:36.553+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	904244953	MetaStreamz	SOPU	\N	232150000	3	23538	cw_bot	history-import:cw_bot:1655	2026-05-21 10:33:45.865+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	940036866	colinaidan1234567890	\N	\N	\N	10177	23538	cw_bot	history-import:cw_bot:940	2026-04-19 17:10:54.929+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1000059115	rimonus	SOPU	\N	218140000	4	23538	cw_bot	history-import:cw_bot:1798	2026-06-13 11:10:39.923+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1029579815	Marshmellow_1177	AWZY	\N	1470000	5887	23538	cw_bot	history-import:cw_bot:1295	2026-05-05 21:28:38.219+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1049702109	realchaseblox	FaZ	\N	9440000	976	23538	cw_bot	history-import:cw_bot:1306	2026-05-05 21:59:20.786+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5414318030	demonfaarm3	y3ki	\N	1880000	5255	23538	cw_bot	history-import:cw_bot:9351	2026-03-31 20:30:04.513+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	204751057	SainLol	DOLA	\N	1770000	5415	23537	cw_bot	history-import:cw_bot:10039	2026-08-08 18:46:45.184+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5428208423	charez20	S_TR	\N	596300	8332	25337	cw_bot	history-import:cw_bot:5927	2026-08-12 12:51:37.564+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	109818	Cinnamowopal	NONG	56	\N	56	\N	external_import	history-import:big_bot:19	2026-07-16 23:13:26.686+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1454397	IDKDabble	DGSL	\N	2400000	4631	23538	cw_bot	history-import:cw_bot:3981	2026-04-12 22:21:06.985+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1821481	shortly	BYRD	\N	7360000	1563	23538	cw_bot	history-import:cw_bot:3860	2026-04-05 06:53:03.099+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	23260643	crazyblox6677	ANG	41	5930000	41	\N	external_import	history-import:big_bot:960	2026-07-28 22:03:29.525+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	31989428	zoggi10	V1LN	\N	24120000	222	23537	cw_bot	history-import:cw_bot:4606	2026-08-04 07:49:22.305+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	90767636	bobdog751	V1LN	\N	13150000	563	23538	cw_bot	history-import:cw_bot:8126	2026-04-27 21:06:33.398+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	92553746	zoggi12	PNDR	\N	6510	18653	23538	cw_bot	history-import:cw_bot:9235	2026-05-06 15:08:19.655+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	120904005	nublet28	BYRD	\N	7400000	1550	23538	cw_bot	history-import:cw_bot:8437	2026-07-03 22:38:52.17+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	125775822	NightFoxx	BOSS	\N	74390000	25	23537	cw_bot	history-import:cw_bot:4316	2026-08-10 19:33:10.888+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	136661329	ghanta2a	SOPU	\N	16460000	401	23538	cw_bot	history-import:cw_bot:8099	2026-04-26 23:31:56.073+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	156957387	itsminerr	ORBI	\N	7500000	1518	23537	cw_bot	history-import:cw_bot:2150	2026-08-01 03:26:51.039+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	160551060	firethrower0	3zEZ	\N	5220000	2536	23537	cw_bot	history-import:cw_bot:2741	2026-07-31 17:13:09.457+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	163195458	20xseron20	VLP	\N	34030	15608	23537	cw_bot	history-import:cw_bot:6572	2026-08-06 07:05:22.236+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	170719079	tnocko	HROT	\N	9440000	975	23537	cw_bot	history-import:cw_bot:2284	2026-08-12 07:40:01.692+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	170896669	toratot	OT3R	\N	4230000	3076	23538	cw_bot	history-import:cw_bot:9146	2026-06-29 23:29:26.064+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	192463394	NukeOfLava12	3zEZ	\N	13320000	548	23538	cw_bot	history-import:cw_bot:4126	2026-04-12 20:31:33.085+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	194076029	Gromic5876	MNBB	\N	2030	19962	23537	cw_bot	history-import:cw_bot:6095	2026-08-08 23:25:51.173+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	194260673	thecooladam9010	4D4M	\N	3880000	3334	23538	cw_bot	history-import:cw_bot:9398	2026-04-04 14:14:19.439+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	200273468	kubaill	HR2T	\N	428680	9223	25337	cw_bot	history-import:cw_bot:6552	2026-08-06 00:48:24.483+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	210966410	onoraksal	hlx	\N	125290	12442	23536	cw_bot	history-import:cw_bot:8777	2026-08-15 13:55:15.256+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	223141866	LoLLubas	DPSF	\N	8520	18249	23535	cw_bot	history-import:cw_bot:4796	2026-08-28 14:48:40.144+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	245484862	skippythomas	st1z	\N	6750000	1825	23537	cw_bot	history-import:cw_bot:7612	2026-08-11 19:40:41.113+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	250562586	zcm_Xi	CC4T	\N	2320000	4714	23537	cw_bot	history-import:cw_bot:4360	2026-08-09 17:51:30.585+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	273316338	stevowsl	WSL	\N	3170000	3873	23535	cw_bot	history-import:cw_bot:9802	2026-08-26 19:54:20.308+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	296854741	Cinco112309	XBOX	\N	9790000	929	23537	cw_bot	history-import:cw_bot:2805	2026-07-31 16:11:19.068+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	331930897	gogeta363	TLGZ	\N	30620000	139	23537	cw_bot	history-import:cw_bot:4377	2026-08-09 04:19:11.832+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	343511782	octojabb	V1LN	\N	27780000	174	23538	cw_bot	history-import:cw_bot:9242	2026-04-30 14:51:23.517+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	363194601	LUKAS1357924	Axet	\N	481950	8920	23537	cw_bot	history-import:cw_bot:6841	2026-08-01 14:53:05.008+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	413758213	NotMrTroll_YT	SOPU	\N	14810000	465	23537	cw_bot	history-import:cw_bot:2831	2026-07-31 16:31:43.631+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	419588952	got207	DgSL	\N	934800	7169	23538	cw_bot	history-import:cw_bot:3965	2026-04-12 22:21:39.424+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	423460663	bub2540	V1LN	\N	15660000	438	23538	cw_bot	history-import:cw_bot:1503	2026-05-16 12:19:40.788+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	425660194	chinovelaz	3zEZ	\N	11220000	724	23538	cw_bot	history-import:cw_bot:4147	2026-04-12 20:33:18.646+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	435823564	brandon292016	KOHV	\N	19620000	330	23538	cw_bot	history-import:cw_bot:1030	2026-04-20 06:06:34.027+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	438538044	Tissemanneke	ENTS	\N	395650	9454	23537	cw_bot	history-import:cw_bot:9546	2026-08-02 14:48:44.12+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	445901501	USECODE_THAT1NPC	3zEZ	\N	30890000	138	23538	cw_bot	history-import:cw_bot:4216	2026-04-12 20:09:26.048+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	452314193	LandOfDoggos	V1LN	\N	8330000	1259	25338	cw_bot	history-import:cw_bot:9184	2026-06-23 15:37:48.38+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	460000821	maserofwater098	DOLA	\N	929	20630	23538	cw_bot	history-import:cw_bot:2034	2026-06-29 17:36:18.828+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	462497307	Corey_Bailey	\N	\N	2890000	4130	23537	cw_bot	history-import:cw_bot:9982	2026-08-09 06:10:03.038+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	463900811	AgentP_0928	GSTG	\N	10060000	885	23538	cw_bot	history-import:cw_bot:646	2026-04-26 04:08:51.656+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	470464024	ceficat	XBOX	\N	12810000	596	23537	cw_bot	history-import:cw_bot:2579	2026-08-01 14:42:49.688+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	490804310	kubas1018	NUUP	\N	4420000	2955	23538	cw_bot	history-import:cw_bot:3740	2026-04-20 12:22:31.231+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	501328621	wigglywoo321	st1z	\N	1930000	5173	23537	cw_bot	history-import:cw_bot:2664	2026-08-01 00:14:18.246+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	502312785	tomasek8557	BDX	\N	1990000	5119	23536	cw_bot	history-import:cw_bot:5448	2026-08-19 16:40:59.801+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	503486505	campagnolo5	V1LN	\N	26160000	189	23536	cw_bot	history-import:cw_bot:7655	2026-08-16 14:51:20.144+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	518710094	mrlol4315	V1LN	\N	41750000	85	23537	cw_bot	history-import:cw_bot:2790	2026-07-31 16:01:39.344+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	538266747	Judah3000	XBOX	\N	5220000	2535	23537	cw_bot	history-import:cw_bot:7844	2026-07-08 14:31:05.959+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	539895181	sportsboy2626	KOHV	\N	8360000	1254	23537	cw_bot	history-import:cw_bot:4405	2026-08-08 07:25:07.846+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	569678937	StormerAceCT	PsAG	\N	796240	7551	23537	cw_bot	history-import:cw_bot:3321	2026-07-24 20:47:00.595+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	587994363	Real_RoNexq	EDS1	\N	1870000	5266	23537	cw_bot	history-import:cw_bot:3154	2026-07-27 16:53:43.006+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	588437757	beastbrody12345	LX2C	\N	28030	16046	23536	cw_bot	history-import:cw_bot:8594	2026-08-21 00:15:42.209+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	588685015	jonis_chicken	XBOX	\N	13070000	571	23538	cw_bot	history-import:cw_bot:9207	2026-06-13 20:55:03.535+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	648389471	dominatorek111	STPS	\N	1360000	6104	23536	cw_bot	history-import:cw_bot:5343	2026-08-20 16:19:31.975+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	651456138	TrikStar007	3zEZ	\N	37390000	105	23538	cw_bot	history-import:cw_bot:4208	2026-04-12 20:09:23.388+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	653179078	killinBABYS111	V1LN	\N	22230000	261	23538	cw_bot	history-import:cw_bot:8282	2026-04-15 20:29:26.949+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	661099895	patcola2010	V1LN	\N	32220000	128	23537	cw_bot	history-import:cw_bot:7796	2026-07-24 00:04:23.322+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	665659912	Cieciuchas	TLGZ	\N	1050000	6820	23538	cw_bot	history-import:cw_bot:1436	2026-05-11 16:24:27.583+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	681369033	Thatrobloxguy63	BYRD	\N	8070000	1341	23538	cw_bot	history-import:cw_bot:8328	2026-04-06 08:26:58.844+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	688928053	Noahangrybird1234	BEZE	\N	5000000	2654	23538	cw_bot	history-import:cw_bot:8346	2026-04-06 08:29:37.081+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	704550307	osmanefe334	BYRD	\N	3110000	3919	23538	cw_bot	history-import:cw_bot:8337	2026-04-06 08:27:50.069+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	709222551	Theozzz12	S0PU	\N	23250000	237	23538	cw_bot	history-import:cw_bot:8164	2026-04-26 15:05:43.056+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	730772803	sidsew	HSTL	\N	1460000	5916	23535	cw_bot	history-import:cw_bot:7534	2026-08-25 14:36:17.613+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	757692049	Hulkian1	V1LN	\N	3360000	3716	23538	cw_bot	history-import:cw_bot:8301	2026-03-28 21:21:50.541+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	790873913	homless9	STPS	\N	2100	19925	23537	cw_bot	history-import:cw_bot:6442	2026-08-06 17:44:57.059+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	808679837	sqirtel50	KOHV	\N	14450000	482	23537	cw_bot	history-import:cw_bot:2417	2026-08-09 16:10:37.911+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	810054419	catloncat	3zEZ	\N	4160000	3128	23538	cw_bot	history-import:cw_bot:4018	2026-04-12 21:24:49.553+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	815753300	maseboybd	Luxk	\N	313570	10033	23537	cw_bot	history-import:cw_bot:6759	2026-08-03 05:31:44.119+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	844720150	Sebastjan35	NONG	\N	212350	11062	23537	cw_bot	history-import:cw_bot:526	2026-07-17 18:48:35.159+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	852170656	vojitano	0PAL	\N	1910000	5205	23535	cw_bot	history-import:cw_bot:5063	2026-08-23 12:46:22.495+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	876991750	Mertiliano	ORB2	\N	773990	7634	23537	cw_bot	history-import:cw_bot:2132	2026-08-01 04:17:09.805+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	877353566	lpvarmi	VLP	\N	3930000	3297	23537	cw_bot	history-import:cw_bot:7205	2026-07-29 20:25:50.738+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	877593504	kral_geldi123	V1LN	\N	8530000	1205	23538	cw_bot	history-import:cw_bot:9379	2026-04-02 02:39:58.035+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	884971222	henchal13	FGZW	\N	542030	8599	23538	cw_bot	history-import:cw_bot:9307	2026-04-19 12:19:45.145+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	911932139	Daniel8czs	HROT	\N	233370	10840	23537	cw_bot	history-import:cw_bot:6804	2026-08-01 11:19:39.153+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	938868540	eso343	SHAG	\N	57550	14382	23537	cw_bot	history-import:cw_bot:6545	2026-08-07 09:09:20.624+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	955175856	fatalwaccle	3zEZ	\N	13280000	551	23538	cw_bot	history-import:cw_bot:4176	2026-04-12 20:31:29.037+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	968065508	eEmsorry	AWZY	\N	5940000	2178	23537	cw_bot	history-import:cw_bot:9055	2026-07-09 08:48:58.97+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	992712527	flashbooom	3zEZ	\N	18820000	345	23538	cw_bot	history-import:cw_bot:4098	2026-04-12 20:16:43.362+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1020655453	Rotkiv7777	M4RB	\N	2270000	4778	23538	cw_bot	history-import:cw_bot:1983	2026-06-28 14:56:16.644+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1024664859	NotArsann7	AR2Y	\N	425	21149	23538	cw_bot	history-import:cw_bot:1248	2026-05-03 05:34:41.421+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1055219519	eon2020	V1LN	\N	16240000	408	23538	cw_bot	history-import:cw_bot:8093	2026-06-24 23:15:47.3+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1060055099	mimo_4	Axet	\N	909740	7228	25337	cw_bot	history-import:cw_bot:6729	2026-08-04 10:19:23.697+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1077060589	playaplaya811	\N	\N	\N	10922	23538	cw_bot	history-import:cw_bot:3610	2026-05-01 22:31:32.732+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1081067684	mimilrol	ROMU	\N	2410000	4617	23537	cw_bot	history-import:cw_bot:401	2026-07-17 18:47:08.019+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1100810390	Starslikebirds	7HRW	\N	1680000	5556	23537	cw_bot	history-import:cw_bot:4682	2026-08-01 01:45:14.128+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1102595704	Jurogaming333	Luxk	\N	1030000	6885	23537	cw_bot	history-import:cw_bot:6880	2026-07-31 18:41:33.487+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1109750537	tonynecko	HR0T	\N	10420000	834	23537	cw_bot	history-import:cw_bot:4275	2026-08-12 03:27:47.805+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1137640592	clackerskill	V1LN	\N	14840	462	23537	cw_bot	history-import:cw_bot:4654	2026-08-01 00:22:28.841+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1146217738	xXjirkaXxboys	FGZW	\N	14560000	476	23538	cw_bot	history-import:cw_bot:4040	2026-04-12 22:01:07.439+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1157052710	laughytrex	XPQX	\N	8030000	1358	23538	cw_bot	history-import:cw_bot:884	2026-04-24 03:00:59.658+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1158978049	Mr_trolololx019	BYRD	\N	6390000	1960	23537	cw_bot	history-import:cw_bot:7829	2026-07-05 15:55:32.872+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1163321217	protozejelen	LV13	\N	3910000	3306	23537	cw_bot	history-import:cw_bot:7128	2026-07-30 15:23:48.828+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1171409734	tominko130	tNo	\N	203360	11209	23537	cw_bot	history-import:cw_bot:6321	2026-08-07 12:38:50.885+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1178078831	mavilure	NONG	\N	1710000	5505	23538	cw_bot	history-import:cw_bot:9106	2026-07-04 02:37:26.103+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1179507007	tomisek134	VPT0	\N	10930000	751	23537	cw_bot	history-import:cw_bot:4735	2026-08-11 18:03:07.712+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1192463440	Jonas139075	dkps	\N	14700	17320	23537	cw_bot	history-import:cw_bot:2776	2026-07-31 19:36:15.216+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1201926794	acejdh	CE7	\N	4960000	2670	23538	cw_bot	history-import:cw_bot:4204	2026-04-12 20:05:16.827+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1215733674	M_parker234	SOPU	\N	254290000	1	23538	cw_bot	history-import:cw_bot:1695	2026-05-23 12:58:36.466+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1221841742	Azurqson	SOPU	\N	14900000	458	23538	cw_bot	history-import:cw_bot:3779	2026-04-06 19:59:26.612+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1229931292	ijyrgk	XRS	\N	218220	10996	23538	cw_bot	history-import:cw_bot:9094	2026-07-04 00:22:27.772+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1243643868	ASEYIsoos	V1LN	\N	14660000	472	23537	cw_bot	history-import:cw_bot:9420	2026-08-12 22:46:12.145+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1245227095	TheoFuraxe	ROMU	\N	632020	8176	23537	cw_bot	history-import:cw_bot:119	2026-07-17 18:32:35.762+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1253134958	Emalele093	EDS1	\N	6920000	1746	23537	cw_bot	history-import:cw_bot:3168	2026-07-27 16:55:04.085+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1274135054	latestmallard87	vysn	\N	4570000	2883	23538	cw_bot	history-import:cw_bot:3747	2026-04-18 01:16:24.862+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1277089394	LUVALICEEXO	V1LN	\N	10330000	852	23538	cw_bot	history-import:cw_bot:9255	2026-04-28 15:57:56.007+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1279232695	Ac3scar	M4RB	\N	9250000	1020	23538	cw_bot	history-import:cw_bot:239	2026-05-10 02:13:40.5+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1283935690	Laura_V13	M4RB	\N	9900000	912	23537	cw_bot	history-import:cw_bot:4338	2026-08-09 17:50:39.523+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1286384664	uzuisnipes	W2VY	\N	12940000	585	23537	cw_bot	history-import:cw_bot:332	2026-07-17 18:33:12.116+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1294169389	crazy_blox6677	ANG_	\N	5930000	2181	23537	cw_bot	history-import:cw_bot:2613	2026-07-31 20:54:30.508+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1294494054	Ethanblaze112	KOHV	\N	19110000	337	23538	cw_bot	history-import:cw_bot:8317	2026-04-03 19:35:37.401+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1303101490	gordieman11	L2GO	\N	323510	9949	23537	cw_bot	history-import:cw_bot:10015	2026-08-09 00:29:33.416+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1307288868	ivanpr03	CE7	\N	272570	10391	23537	cw_bot	history-import:cw_bot:2597	2026-07-31 20:07:37.335+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1322640473	Barsuchonok23	dace	\N	7190000	1626	23537	cw_bot	history-import:cw_bot:2652	2026-07-31 22:58:18.195+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1330097404	tomasbudik007	HROT	\N	6760000	1819	23537	cw_bot	history-import:cw_bot:7093	2026-07-30 18:00:28.62+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1351524241	ARSENAEAL	Axet	\N	662920	8049	23537	cw_bot	history-import:cw_bot:7249	2026-07-27 22:16:37.398+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1358021767	luky23fd	Axet	\N	33600	15638	23536	cw_bot	history-import:cw_bot:5583	2026-08-17 04:03:58.79+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1362185234	BWL2020	XBOX	\N	5130000	2585	23538	cw_bot	history-import:cw_bot:1073	2026-04-25 16:45:57.107+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1371972870	sgteliteleo	V1LN	\N	16400000	402	23537	cw_bot	history-import:cw_bot:7734	2026-08-05 22:50:31.029+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1373748557	poopsmcgoops132	st1z	\N	1250000	6332	23538	cw_bot	history-import:cw_bot:8362	2026-04-24 01:57:13.047+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1376213247	eric23129	XBOX	\N	2430000	4599	23538	cw_bot	history-import:cw_bot:3933	2026-06-26 14:54:31.345+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1380082703	Allalboy2	7HRW	\N	42620000	83	23538	cw_bot	history-import:cw_bot:8209	2026-04-08 19:50:25.995+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1381505419	0LDBS	V1LN	\N	13130000	568	23538	cw_bot	history-import:cw_bot:8462	2026-06-17 00:36:35.957+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1384486800	Hellowentonio	WSL	\N	2330000	4706	23535	cw_bot	history-import:cw_bot:9829	2026-08-26 19:56:32.35+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1384716628	barti12345610	LSQ	\N	3120000	3914	23537	cw_bot	history-import:cw_bot:8524	2026-07-21 19:41:58.049+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1391268938	stopmumcrime	PNDR	\N	2890	19594	23538	cw_bot	history-import:cw_bot:9234	2026-05-06 15:08:15.191+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1394634696	glyycann	W2VY	\N	5190000	2559	23537	cw_bot	history-import:cw_bot:3095	2026-07-28 21:09:51.076+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1403606137	GhostWhisperer03	PAAC	\N	29120	15973	23537	cw_bot	history-import:cw_bot:6906	2026-08-01 01:11:48.951+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1409166088	treytonpeterbuilt	🏰 Clan: **GSTG**	\N	3580000	3564	23538	cw_bot	history-import:cw_bot:1364	2026-05-07 00:17:11.22+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1425534684	Dupsy4Real	nath	\N	2600000	4400	23538	cw_bot	history-import:cw_bot:1150	2026-04-27 19:50:07.39+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1437069784	oldmanwrinklenose	BEZE	\N	2460000	4568	23538	cw_bot	history-import:cw_bot:3896	2026-05-25 16:50:02.805+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1445565364	cfwinner12	DOLA	\N	22070000	266	23538	cw_bot	history-import:cw_bot:203	2026-06-17 17:02:08.323+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1452886316	kubistaa	SPPK	\N	400600	9415	23536	cw_bot	history-import:cw_bot:5217	2026-08-21 19:09:04.387+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1455404309	vavasamasa	HROT	\N	3650000	3506	23537	cw_bot	history-import:cw_bot:6766	2026-08-03 07:19:33.116+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1462748729	dragonballx1412	NONG	\N	7030000	1695	23537	cw_bot	history-import:cw_bot:185	2026-07-17 01:03:33.384+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1469224615	TheRealToonster	3zEZ	\N	10090000	881	23538	cw_bot	history-import:cw_bot:1085	2026-04-25 23:24:03.687+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1470086836	jman8960	3GM6	\N	4460	19126	23537	cw_bot	history-import:cw_bot:2767	2026-07-31 18:44:32.707+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1473100864	urosuko1	4D4M	\N	856350	7383	23538	cw_bot	history-import:cw_bot:9341	2026-04-08 13:25:49.579+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1474622702	fumiya0416	TKMR	\N	2730000	4275	23538	cw_bot	history-import:cw_bot:1078	2026-04-25 17:17:31.97+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1476403654	dilerij2	BEZE	\N	1020000	6919	23538	cw_bot	history-import:cw_bot:2068	2026-07-01 18:46:57.039+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1501050755	RealYTStarz	st1z	20	21890000	269	23538	cw_bot	history-import:big_bot:1033	2026-06-27 18:27:30.824+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1509495433	arrume_aparte12	JEW_	\N	1450000	5945	23537	cw_bot	history-import:cw_bot:8016	2026-07-08 14:39:41.28+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1510971300	Informix_CZ	KMo	\N	5260	18929	23537	cw_bot	history-import:cw_bot:6219	2026-08-08 08:18:03.311+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1519381006	CloudyVR65	BYRD	\N	4020000	3225	23538	cw_bot	history-import:cw_bot:1136	2026-04-27 02:10:48.062+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1519933607	JustCaIIMeEgg	NS4R	\N	8980000	1087	23537	cw_bot	history-import:cw_bot:496	2026-07-17 18:48:12.453+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1520358099	FlipFlopFloop417	AWZY	\N	1690000	5549	23537	cw_bot	history-import:cw_bot:349	2026-07-17 18:33:20.942+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1523688491	runea6	DHFA	\N	1790000	5382	23538	cw_bot	history-import:cw_bot:3977	2026-04-12 22:19:46.23+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1526386410	yriderkootop	XRS	\N	786310	7587	23537	cw_bot	history-import:cw_bot:6924	2026-08-01 01:01:08.694+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1528045909	Matysek0000000	SAM4	\N	14000	17401	23536	cw_bot	history-import:cw_bot:5884	2026-08-14 13:19:31.864+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1531503047	papa_ilse	🏰 Clan: **LXCC**	\N	\N	3317	23538	cw_bot	history-import:cw_bot:1056	2026-04-24 02:11:16.259+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1537916189	MailDaCoolKid	SOPU	\N	21000000	290	23538	cw_bot	history-import:cw_bot:9192	2026-06-19 13:04:44.383+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1539398349	Darkszern	SOPU	\N	24370000	214	23537	cw_bot	history-import:cw_bot:4566	2026-08-04 19:57:01.734+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1544837203	legpro11	ihw	\N	1920000	5184	23535	cw_bot	history-import:cw_bot:7493	2026-08-27 21:28:49.869+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1573629774	mkmike27mk	XPQX	\N	12630000	606	23538	cw_bot	history-import:cw_bot:251	2026-05-16 17:04:30.807+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1581306248	Robloxak_Honiik	KMo	\N	2410000	4618	23536	cw_bot	history-import:cw_bot:5829	2026-08-14 19:05:13.93+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1581826789	wastedpassion	DOLA	\N	2580000	4427	23537	cw_bot	history-import:cw_bot:3041	2026-07-29 00:49:05.59+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1583648375	KeyzziHD94	GSTG	\N	6380000	1963	23537	cw_bot	history-import:cw_bot:278	2026-07-17 17:28:11.535+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1587906543	wexfordfox	V1LN	\N	10980000	743	23538	cw_bot	history-import:cw_bot:9282	2026-04-29 12:14:55.272+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1588037884	gamingISbest13	V1LN	\N	29590000	148	23536	cw_bot	history-import:cw_bot:8733	2026-08-17 23:15:43.389+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1592738293	1ncr3d1bl3sulk	JEW_	\N	13810000	514	23538	cw_bot	history-import:cw_bot:1274	2026-05-03 22:19:36.985+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1594240458	milan123CZ2	LEV	\N	2390000	4645	23536	cw_bot	history-import:cw_bot:5590	2026-08-16 09:47:43.095+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1595934010	LayAngel007	DOLA	\N	187300	11406	23538	cw_bot	history-import:cw_bot:1793	2026-06-09 15:52:54.249+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1599021912	aidz123457	FGZW	\N	8900000	1111	23538	cw_bot	history-import:cw_bot:4036	2026-04-12 22:01:39.552+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1605744856	jackster_theman	EDS1	\N	355800	9703	23538	cw_bot	history-import:cw_bot:1960	2026-06-26 17:58:01.449+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1613882953	toastedpoptartonyt	CXTG	\N	5110000	2596	23536	cw_bot	history-import:cw_bot:9914	2026-08-18 18:50:20.423+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1626378539	Fulda645	V1LN	\N	9800000	928	23538	cw_bot	history-import:cw_bot:8140	2026-04-28 12:17:49.765+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1627385372	DomiDomik36	BMJ1	\N	6	23059	23536	cw_bot	history-import:cw_bot:5205	2026-08-21 19:06:00.967+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1644308020	hoon9900a	vvjp	\N	238	21571	23537	cw_bot	history-import:cw_bot:8931	2026-07-29 11:32:45.032+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1646208259	Jgporte	ROMU	\N	1790000	5378	23537	cw_bot	history-import:cw_bot:9986	2026-08-09 15:03:41.348+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1647731044	angelwytb	AR2Y	\N	3050000	3978	23537	cw_bot	history-import:cw_bot:7979	2026-07-08 14:37:40.756+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1652197454	fighter92399_alt	DOLA	\N	13370000	544	23538	cw_bot	history-import:cw_bot:1827	2026-06-16 00:22:27.481+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1670011733	Kono9595	HROT	\N	2600000	4401	23537	cw_bot	history-import:cw_bot:6371	2026-08-07 18:53:41.202+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1672034827	coolguy35166	SOPU	\N	269560	10422	23538	cw_bot	history-import:cw_bot:8377	2026-04-06 22:11:51.888+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1676340458	AgreedFlower11	0RBI	\N	29350	15951	23537	cw_bot	history-import:cw_bot:613	2026-07-17 18:49:30.27+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1676361250	RealYoDarkshadow	DGSL	\N	329260	9907	23538	cw_bot	history-import:cw_bot:3985	2026-04-12 22:22:05.865+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1683480006	kminoscz	KMo	\N	9440000	974	23537	cw_bot	history-import:cw_bot:7074	2026-07-30 17:15:30.786+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1690820953	1tombay	BEZE	\N	13710000	520	23538	cw_bot	history-import:cw_bot:1713	2026-05-23 14:09:54.985+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1727137762	azmvoisshot	CE7	\N	1520000	5802	23538	cw_bot	history-import:cw_bot:820	2026-06-13 03:07:29.607+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1748839707	XDbro234	fnue	\N	157950	11857	23537	cw_bot	history-import:cw_bot:2503	2026-08-01 10:44:01.654+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1749647628	da1niell	HROT	\N	10320000	853	23537	cw_bot	history-import:cw_bot:6361	2026-08-07 18:52:55.147+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1750005492	averyhein1920	V1LN	\N	13350000	546	23538	cw_bot	history-import:cw_bot:8393	2026-06-17 00:11:42.038+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1759162396	9kbotzz	XBOX	\N	31220000	137	23538	cw_bot	history-import:cw_bot:9328	2026-04-05 20:49:49.97+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1780089241	dominikando11	3zEZ	\N	2160000	4906	23538	cw_bot	history-import:cw_bot:4004	2026-04-12 21:23:47.034+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1787663283	TheBuilder5649	FGZW	\N	6060000	2120	23538	cw_bot	history-import:cw_bot:4072	2026-04-12 22:03:03.052+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1814033582	xvlamer	\N	\N	\N	1467	23538	cw_bot	history-import:cw_bot:3656	2026-04-19 07:41:22.679+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1817334423	zerz06	Goop	\N	1700	20120	23535	cw_bot	history-import:cw_bot:8705	2026-08-26 17:22:03.043+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1818966891	Drak1735	HR2T	\N	1250000	6326	23536	cw_bot	history-import:cw_bot:5842	2026-08-14 19:17:31.862+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1824713899	hayojeu2k	W2VY	\N	7150000	1639	23537	cw_bot	history-import:cw_bot:665	2026-07-17 18:57:09.828+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1828385404	blackdragon2ben	WSL	\N	273	21482	23535	cw_bot	history-import:cw_bot:9860	2026-08-24 10:49:40.35+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1835808563	1213eric	V1LN	\N	10020000	891	23538	cw_bot	history-import:cw_bot:1638	2026-05-21 04:56:29.857+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1839592202	benzonnheimer	\N	\N	\N	2641	23538	cw_bot	history-import:cw_bot:1111	2026-04-26 22:02:19.744+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1850980985	x_0203AAx	CE7	\N	6710000	1846	23538	cw_bot	history-import:cw_bot:4203	2026-04-12 20:04:24.494+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1856284829	younes89755	NONG	\N	10080000	883	23538	cw_bot	history-import:cw_bot:1349	2026-05-06 23:01:41.242+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1881899133	Coxxman	VLP	\N	5060000	2617	23537	cw_bot	history-import:cw_bot:7437	2026-07-13 19:26:57.695+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1909441823	EddieTeddy_2009	st1z	\N	16110000	413	23537	cw_bot	history-import:cw_bot:2643	2026-07-31 22:57:16.616+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1928012737	JoseMcTIRAPDOS	CE7	\N	6570000	1897	23538	cw_bot	history-import:cw_bot:4215	2026-04-12 20:04:43.64+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1933064023	cb7rebel	3zEZ	\N	17520000	375	23538	cw_bot	history-import:cw_bot:4102	2026-04-12 20:17:10.048+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1944841143	BEARDED_DRAGONGUY	karl	\N	1930000	5178	23538	cw_bot	history-import:cw_bot:1896	2026-06-20 15:13:49.311+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1950318403	itsgaternotgator	W2VY	\N	987670	7026	23538	cw_bot	history-import:cw_bot:305	2026-07-01 16:29:10.815+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1973447751	radkozahumensky5	HR2T	\N	3060000	3973	23535	cw_bot	history-import:cw_bot:4969	2026-08-24 18:50:27.632+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1973891991	lab44162	DOLA	\N	934720	7170	25337	cw_bot	history-import:cw_bot:2356	2026-08-11 11:08:52.921+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1986018475	Yazooony55	AXOK	\N	54950	14508	23537	cw_bot	history-import:cw_bot:2307	2026-08-12 18:23:23.035+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1996183705	humicek2020cz	HROT	\N	9380000	987	23535	cw_bot	history-import:cw_bot:5157	2026-08-23 06:34:54.553+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1998984070	gamerguy9764	SOPU	\N	79750000	22	23538	cw_bot	history-import:cw_bot:1322	2026-05-06 02:10:01.919+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2005983585	shadowstaristhegoat	LXCC	\N	11940000	648	23537	cw_bot	history-import:cw_bot:9555	2026-07-31 10:09:27.163+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2015826915	Thiballa	ANG_	\N	2180000	4896	23538	cw_bot	history-import:cw_bot:1005	2026-04-18 19:09:38.623+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2066465994	04AshKetchum	Aifo	\N	57860	14371	23537	cw_bot	history-import:cw_bot:3297	2026-07-24 18:07:21.258+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2067834432	blazeeok	SOPU	\N	34690000	111	23537	cw_bot	history-import:cw_bot:3177	2026-07-26 20:02:36.593+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2224635290	Xx19Q2	LEM9	\N	3410000	3668	23538	cw_bot	history-import:cw_bot:1863	2026-06-19 08:10:21.563+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2226792909	Raptorik_gamer	HR2T	\N	394140	9462	23537	cw_bot	history-import:cw_bot:7421	2026-07-18 17:45:36.477+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2239000216	patrik_skloky	W0m1	\N	224180	10934	23537	cw_bot	history-import:cw_bot:5898	2026-08-13 07:06:27.465+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2248938648	chobotnice444	HROT	\N	2580000	4422	23537	cw_bot	history-import:cw_bot:6849	2026-08-01 18:25:25.198+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2251616291	miminkoxxxxczdd	HR2T	\N	1810000	5345	23536	cw_bot	history-import:cw_bot:7631	2026-08-15 11:12:28.99+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2257521302	Likynda2011	ROGU	\N	82420	13533	23537	cw_bot	history-import:cw_bot:6023	2026-08-10 09:31:18.664+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2268926446	Feibapa	Ash	\N	11830000	656	23537	cw_bot	history-import:cw_bot:2701	2026-07-31 16:47:53.554+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2282416912	vae1oria	AWZY	\N	5590000	2347	23538	cw_bot	history-import:cw_bot:9294	2026-04-25 08:43:24.827+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2294044095	Pekano123	0PAL	\N	6220	18704	23537	cw_bot	history-import:cw_bot:6661	2026-08-04 10:40:12.235+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2316325389	julimowi	SOPU	\N	20750000	298	23537	cw_bot	history-import:cw_bot:2726	2026-07-31 17:12:47.437+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2320688195	daihukumochi223	V1LN	\N	28330000	163	23538	cw_bot	history-import:cw_bot:8550	2026-06-17 03:04:38.757+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2349313768	crystalboyo256	BYRD	\N	6860000	1789	23537	cw_bot	history-import:cw_bot:2972	2026-07-30 10:49:42.699+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2349773489	jsemdobrejkabe	VPTO	\N	165130	11742	23537	cw_bot	history-import:cw_bot:6233	2026-08-08 09:15:39.653+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2374805653	dhsfwfwef	HROT	\N	2500000	4517	23537	cw_bot	history-import:cw_bot:6085	2026-08-08 22:12:37.796+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2375471082	RayquazaPlayz_yt	3zEZ	\N	15190000	453	23538	cw_bot	history-import:cw_bot:4106	2026-04-12 20:27:06.36+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2377170031	Imaninjahu	MTS1	\N	164590	11748	23538	cw_bot	history-import:cw_bot:4166	2026-04-12 20:58:40.632+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2390532251	sirnative	H8ER	\N	14540000	477	23538	cw_bot	history-import:cw_bot:1948	2026-06-22 02:40:06.54+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2398510848	noobatobbysman	FGZW	\N	16030000	420	23538	cw_bot	history-import:cw_bot:4034	2026-04-12 22:00:51.566+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2399889452	starwax85	V1LN	\N	28190000	166	23537	cw_bot	history-import:cw_bot:7759	2026-07-17 15:53:21.548+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2420801797	0k_0w	Go5s	\N	839730	7428	23537	cw_bot	history-import:cw_bot:439	2026-07-17 18:47:32.43+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2431643806	1KRUCHY	XREX	\N	9820000	925	23538	cw_bot	history-import:cw_bot:8054	2026-06-23 16:35:49.505+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2443619256	mihokkon	UNO	\N	49370000	65	23538	cw_bot	history-import:cw_bot:3754	2026-04-17 00:20:59.211+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	20110000	317	23537	cw_bot	history-import:cw_bot:2939	2026-07-30 23:41:01.908+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2463337749	mrtendieman	GSTG	\N	25190000	198	23536	cw_bot	history-import:cw_bot:7693	2026-08-16 16:38:00.619+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2469768592	Raitonn0609	y3ki	\N	670320	8020	23538	cw_bot	history-import:cw_bot:9365	2026-03-31 20:29:42.263+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2475732693	Fazmashwastaken	FaZ	\N	2180000	4884	23537	cw_bot	history-import:cw_bot:9995	2026-08-09 01:32:35.34+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2487889713	Doggo_1490	JEW	\N	1930000	5169	23538	cw_bot	history-import:cw_bot:1213	2026-05-01 16:32:08.802+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2489048274	BlissfulBurper	V1LN	\N	8840000	1133	23537	cw_bot	history-import:cw_bot:8902	2026-07-31 16:46:44.148+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2489878566	K1ng_01iver	Quaz	\N	59	22068	23537	cw_bot	history-import:cw_bot:6869	2026-07-31 18:14:04.272+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2495030397	fartagus_angel	WSL	\N	80000	13608	23536	cw_bot	history-import:cw_bot:9598	2026-08-16 14:44:32.773+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2509513667	Ryderkoo5545	HOMY	\N	430040	9211	23535	cw_bot	history-import:cw_bot:5046	2026-08-23 10:46:48.07+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2530992063	smrtak54	ULCK	\N	739750	7754	23537	cw_bot	history-import:cw_bot:6177	2026-08-08 19:57:25.253+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2539070982	Nomdecodetotoc34	ANG_	\N	1770000	5419	23538	cw_bot	history-import:cw_bot:1235	2026-05-02 16:27:23.292+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2545832975	baconszombiesarmy	FGZW	\N	7050000	1685	23538	cw_bot	history-import:cw_bot:4050	2026-04-12 22:02:06.94+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2566901760	Megaobam123z	HROT	\N	4900000	2698	23536	cw_bot	history-import:cw_bot:5509	2026-08-19 09:02:01.142+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2575495153	IStoleYourChica	UN0	\N	84280	13476	23537	cw_bot	history-import:cw_bot:75	2026-07-17 18:32:12.646+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2607789450	yeetboiisyay	\N	\N	\N	3074	23538	cw_bot	history-import:cw_bot:3622	2026-04-27 05:25:27.894+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2628215963	praisevolxtz	YLW	\N	12250000	623	23537	cw_bot	history-import:cw_bot:451	2026-07-17 18:47:40.523+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2633185327	luxxrro	EXP	\N	2560000	4440	23538	cw_bot	history-import:cw_bot:1987	2026-06-28 16:25:22.311+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2644620447	Jakeplayswithbatsyt	D0LA	\N	228500	10887	23537	cw_bot	history-import:cw_bot:4671	2026-08-01 01:27:28.822+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2645047144	Savvag3e	DOLA	\N	4690000	2815	23537	cw_bot	history-import:cw_bot:877	2026-07-17 19:08:31.837+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2655904739	840game	_EGO	\N	1010000	6958	23537	cw_bot	history-import:cw_bot:834	2026-07-17 18:58:58.948+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2667688976	SlimGreycz_2	VLP	\N	5010000	2643	23537	cw_bot	history-import:cw_bot:7932	2026-07-08 14:35:29.662+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2667997484	trustrosiee	MWHO	185	158000	185	\N	external_import	history-import:big_bot:978	2026-07-17 00:13:35.622+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2668452334	Xxhello_Sir	FGZW	\N	686150	7951	23537	cw_bot	history-import:cw_bot:2373	2026-08-10 17:49:54.782+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2709299989	fishy_axl22	KOHV	\N	6540000	1905	23538	cw_bot	history-import:cw_bot:766	2026-05-10 02:24:40.449+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2716893236	lian2234j	BYRD	\N	4150000	3132	23538	cw_bot	history-import:cw_bot:1556	2026-05-17 03:22:56.088+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2719084403	aidananthony013	XPQX	\N	7500000	1519	23538	cw_bot	history-import:cw_bot:1811	2026-06-13 15:03:54.201+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2732960938	rivvonthebest64	FGZW	\N	626630	8197	23538	cw_bot	history-import:cw_bot:9175	2026-06-20 12:50:43.156+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2755950731	Jesuisfrancaiallo	ST1L	\N	866670	7353	23537	cw_bot	history-import:cw_bot:2634	2026-07-31 22:09:15.462+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2786686086	Loewentatze12	t36	\N	50	22116	23537	cw_bot	history-import:cw_bot:2432	2026-08-09 19:22:00.052+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2793216369	F_Bizzle	SOPU	\N	233940000	2	23538	cw_bot	history-import:cw_bot:1152	2026-04-27 21:42:43.611+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2807629356	NarutoShipuden5511	🏰 Clan: **DOLA**	\N	245130	10686	23538	cw_bot	history-import:cw_bot:8359	2026-04-21 09:43:35.978+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2843513755	firefeather46	HSTL	24	11200000	24	\N	external_import	history-import:big_bot:1014	2026-07-12 00:55:29.049+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2851678609	akordeony	gfwe	\N	4810000	2751	23535	cw_bot	history-import:cw_bot:5028	2026-08-23 22:10:48.074+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2863035405	ZacianJace	CE7	\N	6290000	2002	23538	cw_bot	history-import:cw_bot:4196	2026-04-12 20:04:45.583+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2865136155	caitlin15628	WSL	\N	15650	17200	23535	cw_bot	history-import:cw_bot:9884	2026-08-24 10:51:41.622+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2892299154	Baggooooo	UN0	\N	8840000	1129	23537	cw_bot	history-import:cw_bot:4542	2026-08-04 19:57:26.933+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2912101187	coolgur0	D0LA	\N	7240000	1601	23537	cw_bot	history-import:cw_bot:510	2026-07-17 18:48:27.061+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2915153725	Ishan90091	Luxk	\N	1460000	5909	23537	cw_bot	history-import:cw_bot:10050	2026-08-08 18:49:12.798+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2929825206	roplexbuddy	XRS	\N	1910000	5203	23537	cw_bot	history-import:cw_bot:4254	2026-08-13 04:25:30.76+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2948612124	saud02x	UN0	\N	3930000	3293	23538	cw_bot	history-import:cw_bot:8202	2026-04-25 09:16:47.451+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2956070032	AnnexOO1	DLOW	\N	109160	12810	23538	cw_bot	history-import:cw_bot:8241	2026-04-11 00:42:36.107+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2956113153	xwiktorxxxx3	LSQ	\N	1050000	6813	23537	cw_bot	history-import:cw_bot:8912	2026-07-30 10:52:00.891+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2961636717	nichozr	V1LN	\N	171650000	5	23538	cw_bot	history-import:cw_bot:1415	2026-05-11 01:18:04.672+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2965361189	Mynestra	🏰 Clan: **Roux**	\N	\N	17059	23538	cw_bot	history-import:cw_bot:3606	2026-04-30 21:26:17.172+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2973745571	WGZ7uzg	T2UX	\N	45	22156	23538	cw_bot	history-import:cw_bot:1591	2026-05-20 17:40:45.45+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2988275843	zspjasieniec1	PABS	\N	281	21465	23536	cw_bot	history-import:cw_bot:8491	2026-08-19 15:24:30.108+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2999732017	derharzendeharzer	3zEZ	\N	23130000	240	23538	cw_bot	history-import:cw_bot:4221	2026-04-12 20:09:36.816+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3000748132	PickleCloudNacho	H8ER	\N	13700000	522	23538	cw_bot	history-import:cw_bot:3952	2026-04-12 22:17:35.814+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3016891949	petaf1234	HR2T	\N	517180	8720	23536	cw_bot	history-import:cw_bot:5259	2026-08-21 20:32:57.322+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3019955385	stevesteve466	VLP	\N	4610000	2857	23537	cw_bot	history-import:cw_bot:6260	2026-08-08 11:17:12.174+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3019968804	Houtchyoi	ROMU	\N	590640	8352	23538	cw_bot	history-import:cw_bot:1610	2026-05-20 23:36:44.19+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3022616943	floatindrag	K1WI	\N	3890000	3328	23537	cw_bot	history-import:cw_bot:2559	2026-08-01 14:35:07.364+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3023165535	wanted_o1lie	BYRD	\N	34510000	115	23538	cw_bot	history-import:cw_bot:1095	2026-04-25 23:24:38.777+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3023440598	rokster359	SOPU	\N	24300000	216	23538	cw_bot	history-import:cw_bot:1329	2026-05-06 02:32:10.589+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3033026212	flexmyspa1	Goop	\N	634120	8163	23537	cw_bot	history-import:cw_bot:795	2026-07-17 18:58:35.721+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3039307282	Mr_agnes30	XREX	\N	14150000	499	23538	cw_bot	history-import:cw_bot:8071	2026-06-23 16:38:19.044+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3043643867	Leonthelegend9	CE7	\N	1430000	5977	23537	cw_bot	history-import:cw_bot:10086	2026-08-08 09:52:33.881+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3054766960	realyodream	BYRD	\N	8280000	1279	23537	cw_bot	history-import:cw_bot:4454	2026-08-05 18:06:41.781+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3059849612	coolkidwwwa	FGZW	\N	16460000	400	23538	cw_bot	history-import:cw_bot:4030	2026-04-12 22:00:36.823+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3060745926	thetruetdsglitch	V1LN	\N	15670000	436	23538	cw_bot	history-import:cw_bot:8035	2026-04-30 15:47:59.662+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3061738775	Robin_toxic19	karl	\N	817330	7485	23535	cw_bot	history-import:cw_bot:5076	2026-08-22 18:03:46.769+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3064251597	filipek2600cz	HROT	\N	7570000	1494	23538	cw_bot	history-import:cw_bot:1563	2026-05-17 11:56:22.532+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3078836998	minzxn_11	AQ	\N	5230000	2528	23535	cw_bot	history-import:cw_bot:8630	2026-08-26 16:34:14.001+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3094350982	kki201217	L1GO	\N	3690000	3467	23536	cw_bot	history-import:cw_bot:9904	2026-08-18 18:07:03.497+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3108660508	Darcacz2	Axet	\N	7230000	1611	23537	cw_bot	history-import:cw_bot:6676	2026-08-04 13:06:03.104+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3110455209	kuroihanin	TKMR	\N	2350000	4680	23537	cw_bot	history-import:cw_bot:905	2026-07-17 19:08:55.749+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3117910530	bosanderos25	CE7	\N	33280000	123	23538	cw_bot	history-import:cw_bot:4193	2026-04-12 19:56:48.787+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3124408432	Mr96eduD	3zEZ	\N	10980000	745	23538	cw_bot	history-import:cw_bot:4160	2026-04-12 20:33:19.889+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3128771885	45_Matesman	VLP	\N	85770	13430	23536	cw_bot	history-import:cw_bot:5819	2026-08-14 18:49:47.375+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3139037723	Tobik987123	cspe	\N	289800	10220	23537	cw_bot	history-import:cw_bot:6472	2026-08-06 18:08:45.622+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3141351327	vitek668701	ROGU	\N	273980	10377	23537	cw_bot	history-import:cw_bot:6351	2026-08-07 17:33:25.404+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3143604581	RebelkaCZ157	VLP	\N	2490000	4532	23537	cw_bot	history-import:cw_bot:6707	2026-08-04 09:43:51.606+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3144581284	averyhein1920212223	Rval	\N	95500	13162	23537	cw_bot	history-import:cw_bot:9033	2026-07-17 16:38:09.537+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3149302489	code_wille	SOPU	\N	10400000	838	23538	cw_bot	history-import:cw_bot:3837	2026-04-05 06:57:37.866+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3154472096	Pepicek1982	PnS2	\N	9270000	1017	23537	cw_bot	history-import:cw_bot:6997	2026-07-31 11:03:17.955+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3171368431	darklode100	JEW	\N	541	21003	23538	cw_bot	history-import:cw_bot:1124	2026-04-27 02:10:10.025+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3172618280	cannelle4545	xpp_	\N	239160	10756	23536	cw_bot	history-import:cw_bot:8751	2026-08-15 22:33:59.794+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3181994439	anrijs9991	st1z	\N	2580000	4426	23538	cw_bot	history-import:cw_bot:1187	2026-04-30 19:59:29.548+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3186034676	tobicole	3zEZ	\N	13870000	511	23538	cw_bot	history-import:cw_bot:4118	2026-04-12 20:27:08.198+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3189090824	bobbybiz1	BYRD	\N	2610000	4385	23538	cw_bot	history-import:cw_bot:3827	2026-04-05 06:52:03.294+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3214063706	ZoraDaGoatOfficial	ROMU	\N	7450000	1533	23538	cw_bot	history-import:cw_bot:952	2026-04-17 00:09:22.187+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3214496713	DarkPhoenix917	UN0	\N	25680000	195	23537	cw_bot	history-import:cw_bot:4505	2026-08-04 19:56:06.385+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3215370935	snorlaxfox1	V1LN	\N	10810000	767	23538	cw_bot	history-import:cw_bot:9382	2026-04-02 02:54:57.549+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3228101331	phoen1x_aus	WSL	\N	639	20885	23535	cw_bot	history-import:cw_bot:9765	2026-08-26 19:49:57.893+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3248091509	professorfeliks	LSQ	\N	1860000	5273	23537	cw_bot	history-import:cw_bot:8978	2026-07-19 16:26:07.395+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3248243502	IchBin21CPS_2	B2SS	\N	2340000	4698	23538	cw_bot	history-import:cw_bot:3770	2026-04-06 19:40:16.13+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3252894844	vexityonnic	SOPU	\N	18030000	365	23538	cw_bot	history-import:cw_bot:3809	2026-04-05 06:50:41.945+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3265168895	catanddog15123	CRUI	476	\N	476	\N	external_import	history-import:big_bot:1098	2026-08-03 10:43:52.209+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3271035452	Misak0912	HROT	\N	6650000	1861	23537	cw_bot	history-import:cw_bot:6940	2026-08-01 08:49:00.863+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3271442208	Jonglesje	VPT0	\N	15	22532	23535	cw_bot	history-import:cw_bot:2229	2026-08-24 09:46:55.285+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3289385978	KnKmor	DK	\N	8880000	1115	23537	cw_bot	history-import:cw_bot:8886	2026-08-01 18:12:49.345+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3299278772	xxprozombix	V1LN	\N	20800000	297	23538	cw_bot	history-import:cw_bot:8665	2026-06-26 13:37:08.577+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3301277606	filipaugustin201	W0m1	\N	768	20780	23537	cw_bot	history-import:cw_bot:6596	2026-08-06 08:48:01.163+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3302444862	EndOfAnEra007	NONG	56	\N	56	\N	external_import	history-import:big_bot:968	2026-07-16 23:25:31.662+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3323392290	D0m1n8tr	V1LN	\N	85110000	21	23538	cw_bot	history-import:cw_bot:9269	2026-04-29 06:50:40.467+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3331690810	Martin_robloxone	MDKT	\N	435570	9182	23536	cw_bot	history-import:cw_bot:5420	2026-08-20 08:50:10.532+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3341508339	2rello	karl	\N	4310000	3015	23538	cw_bot	history-import:cw_bot:1389	2026-05-08 04:15:04.447+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3344342434	MUI_5aiyajin	SOPU	\N	21370000	283	23538	cw_bot	history-import:cw_bot:3833	2026-04-05 06:57:09.847+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3354879384	skipDwyne	L2GO	\N	25630	16259	23537	cw_bot	history-import:cw_bot:7223	2026-07-29 01:58:06.07+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3357292523	Grec_Game	HR2T	\N	170340	11644	23537	cw_bot	history-import:cw_bot:7058	2026-07-30 17:14:48.532+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3370104014	Standa256	VLP	\N	415260	9305	23535	cw_bot	history-import:cw_bot:5133	2026-08-23 03:03:21.508+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3372527888	CokoladovaZmrzska	cspe	\N	3120000	3910	23537	cw_bot	history-import:cw_bot:7352	2026-07-22 01:19:32.889+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3373408758	housebox_go	A1LT	\N	4910000	2689	23537	cw_bot	history-import:cw_bot:6453	2026-08-06 17:53:29.386+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3377511045	mercstien	SOPU	\N	21260000	286	23538	cw_bot	history-import:cw_bot:1335	2026-05-06 09:08:51.241+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3377790375	CharliePatryk	JPX_	\N	414260	9316	23537	cw_bot	history-import:cw_bot:2453	2026-08-01 19:23:22.272+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3378947321	reset45624382	BOSS	\N	10450000	830	23537	cw_bot	history-import:cw_bot:8821	2026-08-08 12:36:56.654+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3379551767	scytheskii	st1z	\N	10840000	762	23538	cw_bot	history-import:cw_bot:319	2026-04-16 22:13:50.244+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3382833387	kingweslie123	karl	\N	3120000	3913	23537	cw_bot	history-import:cw_bot:2321	2026-08-12 21:19:37.585+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3393324525	BigWolfPL	XREX	\N	20880000	292	23537	cw_bot	history-import:cw_bot:7815	2026-07-24 20:08:19.243+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3416641778	dd_ontop13	SOPU	\N	15290000	449	23538	cw_bot	history-import:cw_bot:3820	2026-04-05 06:51:12.613+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3421453702	noliogames	IWHN	\N	6920	18565	23537	cw_bot	history-import:cw_bot:9470	2026-08-04 08:46:51.508+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3439337856	prezley_official2022	HROT	\N	4740000	2795	23537	cw_bot	history-import:cw_bot:7112	2026-07-30 15:19:24.23+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3444459957	Radek25101982	VLP	\N	7310	18477	23537	cw_bot	history-import:cw_bot:6047	2026-08-09 09:04:46.362+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3447427741	filipekisfff	3zEZ	\N	3110000	3918	23538	cw_bot	history-import:cw_bot:3882	2026-05-11 00:51:30.646+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3448405650	eldublinfox	Fchn	\N	8350000	1255	23538	cw_bot	history-import:cw_bot:9392	2026-04-01 08:35:40.039+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3456377805	Zyro12347	\N	\N	\N	8655	23538	cw_bot	history-import:cw_bot:3495	2026-04-19 07:03:56.014+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3500795024	Ey3d46	BYRD	\N	4920000	2685	23538	cw_bot	history-import:cw_bot:291	2026-05-09 14:14:11.57+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3509021767	JonnyM55	HR2T	\N	447790	9110	23536	cw_bot	history-import:cw_bot:5546	2026-08-17 00:51:43.291+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3549731928	Thijklo2003	KOHV	\N	24980000	203	23538	cw_bot	history-import:cw_bot:1543	2026-05-17 01:50:48.281+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3557375419	Subtokirbofanyt	ORBI	\N	1400000	6027	23537	cw_bot	history-import:cw_bot:2186	2026-07-27 21:40:54.835+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3563519895	dexxifying	st1z	\N	5120000	2592	23538	cw_bot	history-import:cw_bot:3765	2026-04-17 00:22:16.986+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3567067280	Kurtis2345789	ROMU	\N	4770000	2770	23538	cw_bot	history-import:cw_bot:582	2026-05-19 20:18:17.483+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3582853902	godboy94875	🏰 Clan: **DOLA**	\N	375600	9586	23538	cw_bot	history-import:cw_bot:2545	2026-04-19 16:39:54.272+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3589740153	WhosStarl1ght	BYRD	\N	5960000	2166	23538	cw_bot	history-import:cw_bot:1289	2026-05-04 17:16:23.567+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3593720708	Malysberatel	AR2Y	\N	127320	12398	23537	cw_bot	history-import:cw_bot:7990	2026-07-08 14:36:56.328+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3602402808	Flexsnack21	UNTY	\N	35860000	107	23538	cw_bot	history-import:cw_bot:1199	2026-05-01 08:05:11.74+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3628039137	anoknight5	XPQX	\N	41770	15125	23537	cw_bot	history-import:cw_bot:3114	2026-07-28 18:56:15.247+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3630752477	ffggss478	ROGU	\N	171210	11631	23536	cw_bot	history-import:cw_bot:5486	2026-08-19 21:29:14.497+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3655474970	Shrooomdevourer10	V1LN	\N	7190000	1625	23538	cw_bot	history-import:cw_bot:8471	2026-06-17 00:21:50.467+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3672938221	zhulenc	VLP	\N	471360	8980	25337	cw_bot	history-import:cw_bot:6522	2026-08-06 21:54:27.517+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3683660130	Medvid3k11	cspe	\N	3250000	3797	23537	cw_bot	history-import:cw_bot:6983	2026-07-31 17:00:07.71+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3717157427	Gx_BlackNinja	BYRD	\N	33720000	119	23538	cw_bot	history-import:cw_bot:3792	2026-04-06 19:59:53.068+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3750045967	imnotdigitosim1476	HROT	\N	10280000	858	23536	cw_bot	history-import:cw_bot:5654	2026-08-14 22:17:44.993+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3768828357	mrs_reset	V1LN	\N	9620000	956	23538	cw_bot	history-import:cw_bot:8604	2026-06-17 00:15:13.179+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3779230353	goat201470	H8M3	\N	2500000	4521	23538	cw_bot	history-import:cw_bot:8273	2026-04-13 16:26:51.02+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3785644519	tttttttdrghrd	L2GO	\N	5780	18803	23538	cw_bot	history-import:cw_bot:9327	2026-04-05 18:41:41.965+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3797718809	m4thou3	Goop	\N	394230	9461	23537	cw_bot	history-import:cw_bot:3072	2026-07-28 21:07:33.267+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3804356173	fishyaxl22	KOHV	9	\N	9	\N	external_import	history-import:big_bot:985	2026-07-14 03:44:42.78+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3808414208	Suppe_Can	V1LN	\N	29260000	153	23538	cw_bot	history-import:cw_bot:8112	2026-04-27 17:55:05.386+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3830370598	cxr_lo	1DOL	\N	6410000	1952	23538	cw_bot	history-import:cw_bot:1442	2026-05-12 09:49:26.321+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3834652767	Roman5556_CZ	SAM4	\N	2200000	4872	23537	cw_bot	history-import:cw_bot:7405	2026-07-17 16:42:07.486+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3853349557	melpatate12	SOPU	\N	71570000	30	23538	cw_bot	history-import:cw_bot:964	2026-04-18 02:12:53.563+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3868174361	popcatbrohter	FGZW	\N	259770	10512	23537	cw_bot	history-import:cw_bot:2873	2026-07-31 15:58:17.484+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3915256201	david_smeg	7HRW	\N	1220000	6400	23537	cw_bot	history-import:cw_bot:3347	2026-07-23 15:30:35.199+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3919100604	Filda7329	STPS	\N	2430000	4595	23537	cw_bot	history-import:cw_bot:6490	2026-08-06 18:48:55.736+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3940781859	tigran_2206	BEZE	\N	3730000	3443	23537	cw_bot	history-import:cw_bot:860	2026-07-17 18:56:54.568+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3952416098	000pattik000	HR2T	\N	166170	11728	23537	cw_bot	history-import:cw_bot:6615	2026-08-05 07:49:04.542+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3978547556	Zoliisrecords	VLP	\N	645590	8117	23535	cw_bot	history-import:cw_bot:4992	2026-08-24 10:40:01.728+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3989169114	h278lo	ROGU	\N	282970	10279	23537	cw_bot	history-import:cw_bot:6315	2026-08-07 11:16:42.044+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3994956294	Bxcan_official	A2H	\N	6	22925	23538	cw_bot	history-import:cw_bot:1730	2026-05-26 13:32:49.12+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3997096343	BvZyIoo	CE7	\N	25210000	198	23538	cw_bot	history-import:cw_bot:4194	2026-04-12 19:57:54.108+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4002999162	mrifkrj1	OPAL	\N	111290	12762	23537	cw_bot	history-import:cw_bot:6630	2026-08-05 08:00:31.329+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4004160475	KUKYOFFCIAL	MKVB	\N	62780	14192	23537	cw_bot	history-import:cw_bot:6074	2026-08-09 10:43:35.919+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4023070188	kocovina98	HROT	\N	1810000	5346	23536	cw_bot	history-import:cw_bot:5730	2026-08-15 11:32:52.389+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4023223009	Aadhav_mahajan	ST1L	\N	56570	14425	23537	cw_bot	history-import:cw_bot:3266	2026-07-25 14:43:49.342+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4028104754	jaratupy36	HR2T	\N	45000	14971	23536	cw_bot	history-import:cw_bot:5759	2026-08-14 16:48:48.942+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4035198924	ytpandaroux	R0MU	\N	6440000	1938	23537	cw_bot	history-import:cw_bot:925	2026-07-08 19:17:13.13+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4043566918	M4x153452	L1GO	\N	1890000	5229	23538	cw_bot	history-import:cw_bot:9238	2026-05-03 00:02:29.48+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4054510143	kudlankovec	VLP	\N	456780	9054	23537	cw_bot	history-import:cw_bot:2482	2026-08-01 09:59:49.052+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4062541064	Franta99996	ROYL	\N	832020	7448	23535	cw_bot	history-import:cw_bot:5102	2026-08-22 20:31:49.529+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4085016779	the_mandalorian963	V1LN	\N	18840000	343	23536	cw_bot	history-import:cw_bot:7644	2026-08-14 10:22:52.548+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4091709355	1230david4567	SAM4	\N	7220000	1611	23536	cw_bot	history-import:cw_bot:5691	2026-08-15 05:24:53.093+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4097051785	yO_aDzeY	LSQ	\N	859960	7375	23538	cw_bot	history-import:cw_bot:1666	2026-05-23 10:59:06.769+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4113094220	TTobbboTT	V1LN	\N	16110000	414	23538	cw_bot	history-import:cw_bot:9222	2026-05-12 19:20:42.195+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4130228136	Deezwalnutsbig	CE7	\N	6090000	2106	23538	cw_bot	history-import:cw_bot:4197	2026-04-12 20:04:58.899+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4138810457	ibaitier	JEW_	\N	968940	7073	23538	cw_bot	history-import:cw_bot:9121	2026-07-04 07:44:27.013+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4142577179	omgmegakiller_28	DGSL	\N	374880	9591	23537	cw_bot	history-import:cw_bot:3257	2026-07-25 13:57:23.221+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4160339225	JamalTheHarryThe3rd	CE7	\N	24570000	210	23538	cw_bot	history-import:cw_bot:234	2026-04-18 20:55:48.35+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4161934376	honza01021983	VLP	\N	7970000	1375	25335	cw_bot	history-import:cw_bot:4843	2026-08-28 06:57:40.513+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4175082110	PLukk_2	eguh	\N	791940	7561	23535	cw_bot	history-import:cw_bot:2225	2026-08-24 09:48:14.467+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4177849716	doperthanyou67	EDS1	\N	32510	15718	23537	cw_bot	history-import:cw_bot:9066	2026-07-08 01:06:13.66+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4186244568	Radkocraftypmobile	\N	\N	\N	3857	23538	cw_bot	history-import:cw_bot:939	2026-04-19 16:42:21.91+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4215988499	abby_gamera	V1LN	\N	17630000	372	23538	cw_bot	history-import:cw_bot:8151	2026-04-28 15:06:15.006+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4238790853	samsam16725	ROMU	\N	6340000	1981	23538	cw_bot	history-import:cw_bot:90	2026-06-19 21:20:32.05+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4242955713	KazuyaTTV	BYRD	\N	8840000	1130	23538	cw_bot	history-import:cw_bot:209	2026-05-01 10:25:23.892+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4247108285	irdski	IWHN	\N	647880	8106	23536	cw_bot	history-import:cw_bot:4715	2026-08-14 21:21:37.198+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4247536223	VoiDZzDripzz	JYRO	\N	2670000	4328	23537	cw_bot	history-import:cw_bot:3063	2026-07-28 21:47:34.066+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4269125451	hryzal213	eguh	\N	399020	9424	23535	cw_bot	history-import:cw_bot:5305	2026-08-22 16:59:45.703+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4278667781	r1chta49	0PAL	\N	396480	9445	23536	cw_bot	history-import:cw_bot:5283	2026-08-22 14:04:02.769+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4281402342	Selcuk1143	S2PU	\N	1030000	6890	23537	cw_bot	history-import:cw_bot:3047	2026-07-28 21:24:31.882+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4294745835	angarus_tutunum	HROT	\N	1330000	6169	23536	cw_bot	history-import:cw_bot:5207	2026-08-21 19:06:36.932+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4301431724	Bobsussybu123	BURN	\N	4110	19230	23537	cw_bot	history-import:cw_bot:2518	2026-08-01 12:26:31.166+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4307217370	BuzekPetr2003	VLP	\N	582	20962	23536	cw_bot	history-import:cw_bot:5476	2026-08-19 18:30:11.966+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4313949380	Dada343410	HR2T	\N	966510	7081	23537	cw_bot	history-import:cw_bot:6383	2026-08-07 20:30:35.379+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4336818312	Myguy_Ky1	Ayes	\N	2190000	4875	23537	cw_bot	history-import:cw_bot:3214	2026-07-26 11:08:12.603+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4345972644	venti12011201	y3ki	\N	1540000	5768	23538	cw_bot	history-import:cw_bot:8540	2026-06-17 00:04:41.889+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4350673674	jblmax11	SXT	\N	2940000	4075	23538	cw_bot	history-import:cw_bot:1737	2026-05-27 13:43:08.907+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4359375074	PostalChaos1	3zEZ	\N	18290000	356	23538	cw_bot	history-import:cw_bot:4099	2026-04-12 20:17:08.094+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4388509145	kukurice153	tNo	\N	655750	8082	23537	cw_bot	history-import:cw_bot:5953	2026-08-11 16:22:14.568+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4430200296	daytime7789	OTTR	\N	3860000	3358	23538	cw_bot	history-import:cw_bot:9160	2026-06-29 23:32:40.195+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4449496597	dodo_jePRO	Axet	\N	258410	10528	23535	cw_bot	history-import:cw_bot:4809	2026-08-28 15:34:00.919+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4455397343	Denis512657	ULCK	\N	63060	14176	23537	cw_bot	history-import:cw_bot:7047	2026-07-30 18:27:47.628+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4470776324	frajeerDodo	MDKT	\N	44640	14985	23537	cw_bot	history-import:cw_bot:2278	2026-08-13 08:52:59.931+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4471953599	alexander1234_hi56	BEZE	\N	6300000	1999	23537	cw_bot	history-import:cw_bot:8793	2026-08-12 23:40:25.692+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4482372398	Burak30_CZ	VLP	\N	309840	10065	23537	cw_bot	history-import:cw_bot:7162	2026-07-30 13:05:24.983+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4483758330	Sooz_events	FGZW	\N	6820000	1801	23538	cw_bot	history-import:cw_bot:4063	2026-04-12 22:02:33.256+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4511286390	tadeasvrsovsky12345	HR2T	\N	2010000	5085	23536	cw_bot	history-import:cw_bot:5312	2026-08-21 07:07:08.39+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4511725993	Kvetamin	VLP	\N	3510000	3601	23536	cw_bot	history-import:cw_bot:5243	2026-08-21 19:36:06.87+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4515946186	bakedashboii	BOSS	\N	10350000	845	23538	cw_bot	history-import:cw_bot:8292	2026-04-19 17:46:14.335+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4540869398	proto123q	NS4R	\N	5960000	2169	23537	cw_bot	history-import:cw_bot:563	2026-07-17 18:49:06.221+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4574397825	PET_HERO676	MWHO	\N	101980	12982	23536	cw_bot	history-import:cw_bot:5409	2026-08-20 09:37:57.743+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4610459819	srolik249	VP TO	\N	139200	12165	23536	cw_bot	history-import:cw_bot:5706	2026-08-15 08:07:19.768+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4633578732	m3wpewpew	DOLA	\N	581050	8395	25337	cw_bot	history-import:cw_bot:3000	2026-07-29 15:03:42.497+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4634042698	psxtrader327	OTTR	361	\N	361	\N	external_import	history-import:big_bot:1081	2026-06-29 23:25:50.145+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4652078124	jaximeler	PABS	\N	9190000	1031	23538	cw_bot	history-import:cw_bot:8423	2026-06-17 00:24:11.273+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4656324138	mrbloxterr10	V1LN	\N	25040000	202	23538	cw_bot	history-import:cw_bot:8654	2026-07-01 16:35:03.562+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4680362717	hrac_829	BDX	\N	30350	15867	23537	cw_bot	history-import:cw_bot:6432	2026-08-06 15:57:32.872+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4686873488	Monty_Tomas10	Vajn	\N	6130000	2082	23536	cw_bot	history-import:cw_bot:5321	2026-08-21 07:45:07.526+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4691948849	matiasvanicek231	M4TX	\N	410130	9341	23537	cw_bot	history-import:cw_bot:6280	2026-08-08 15:58:08.794+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4759297476	psst1422	HROT	\N	11070000	739	23538	cw_bot	history-import:cw_bot:140	2026-05-20 23:35:12.448+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4766082129	oscarhfe168	CE7	\N	7900000	1393	23538	cw_bot	history-import:cw_bot:4201	2026-04-12 20:04:21.807+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4792692703	ced123zx	ROMU	\N	5140000	2581	23537	cw_bot	history-import:cw_bot:709	2026-07-17 18:57:41.576+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4833004455	Deniska_1990	bkl	\N	10320000	854	23537	cw_bot	history-import:cw_bot:7321	2026-07-25 23:11:40.176+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4864087085	projectsupramev2	CE7	\N	50110000	64	23537	cw_bot	history-import:cw_bot:553	2026-07-17 18:48:50.928+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4897243840	Bubbly_num2	UNO	\N	4250000	3060	23538	cw_bot	history-import:cw_bot:8367	2026-04-06 08:31:41.74+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4916438361	ArmNotPro	st1z	\N	272630	10388	23537	cw_bot	history-import:cw_bot:805	2026-07-17 18:58:43.871+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4923138175	WORZ_51	Bu1l	\N	553690	8532	23538	cw_bot	history-import:cw_bot:4189	2026-04-12 21:06:34.77+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4944901310	WalterHartwellWhit00	FBGO	\N	53580	14572	23538	cw_bot	history-import:cw_bot:1440	2026-05-12 08:44:35.056+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4957497369	ammi0729	SOPU	\N	115930000	10	23538	cw_bot	history-import:cw_bot:977	2026-04-18 02:13:35.573+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4977279614	Alfiehibbo	2war	\N	116710	12628	23537	cw_bot	history-import:cw_bot:3407	2026-07-23 08:33:50.395+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4989918296	PtiDoriankt	ROMU	\N	6270000	2015	23537	cw_bot	history-import:cw_bot:841	2026-07-17 18:56:47.208+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4999104751	Speaxk17	AR2Y	\N	6870000	1782	23538	cw_bot	history-import:cw_bot:1621	2026-05-21 01:10:10.679+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1533791	clankbot	UN0	\N	29380	15947	23538	cw_bot	history-import:cw_bot:1702	2026-05-23 13:09:17.782+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	14538110	joeycb	SOPU	\N	12670000	602	23538	cw_bot	history-import:cw_bot:1682	2026-05-23 12:54:45.542+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	20532808	GamesReborn	Rfil	\N	16290000	407	23538	cw_bot	history-import:cw_bot:1220	2026-05-01 18:19:11.948+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	33492395	unoyea	UN0	\N	339460	9829	23538	cw_bot	history-import:cw_bot:1377	2026-05-07 10:52:28.967+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	114776268	0ffxikea	TLGZ	\N	5550000	2365	23538	cw_bot	history-import:cw_bot:110	2026-04-17 13:02:07.482+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	125272790	ur_salty091	XBOX	\N	41600000	88	23538	cw_bot	history-import:cw_bot:1914	2026-06-21 04:13:46.321+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	138619446	darkenedwishes	EXP	\N	1990000	5122	23538	cw_bot	history-import:cw_bot:2001	2026-06-28 16:26:03.666+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	184309752	expellez	SOPU	\N	24760000	207	23538	cw_bot	history-import:cw_bot:1101	2026-04-25 23:28:51.667+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	241713789	J2X1NESIWXID	DLOW	\N	87470	13387	23537	cw_bot	history-import:cw_bot:746	2026-07-17 18:58:04.211+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5013545323	gravysek666	HR2T	\N	1670000	5578	23537	cw_bot	history-import:cw_bot:6415	2026-08-08 02:16:50.888+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5042635636	Cultiv8R_NZ	DLOW	\N	1500000	5845	23538	cw_bot	history-import:cw_bot:8222	2026-04-11 00:40:42.513+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5044736168	CBroGolden	3zEZ	\N	19590000	331	23538	cw_bot	history-import:cw_bot:4085	2026-04-12 20:16:41.119+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5049376575	AGR_GamerY	XPQX	\N	80120	13606	23537	cw_bot	history-import:cw_bot:9684	2026-07-19 05:15:01.102+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5063089605	REAL3ST_NZ	DLOW	\N	697620	7913	23538	cw_bot	history-import:cw_bot:8264	2026-04-11 00:55:05.933+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5115775245	gympie54	WSL	\N	228410	10886	23535	cw_bot	history-import:cw_bot:9754	2026-08-26 20:07:29.974+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5119214721	thatonepsxyoutuber	E_IF	\N	1450000	5931	23538	cw_bot	history-import:cw_bot:2065	2026-07-01 15:37:05.173+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5120642383	hydra_dynamo71	DHFA	\N	100240	13043	23538	cw_bot	history-import:cw_bot:1676	2026-05-23 12:52:57.165+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5127406568	dadchris86	V1LN	\N	45540000	75	23538	cw_bot	history-import:cw_bot:8178	2026-04-21 16:30:58.569+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5128774229	livelasso	V1LN	\N	63620000	33	23537	cw_bot	history-import:cw_bot:8994	2026-07-19 09:14:05.882+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5143387515	babykweeef	UN0	\N	6	22901	23536	cw_bot	history-import:cw_bot:2099	2026-08-14 22:59:19.851+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5165277431	nojkdfnjyfdhufdhn	ROGU	\N	397550	9437	23536	cw_bot	history-import:cw_bot:5434	2026-08-19 14:48:26.843+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5168853814	Legion2728	🏰 Clan: **OTTR**	\N	\N	2304	23538	cw_bot	history-import:cw_bot:3618	2026-04-28 22:34:07.104+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5170991645	galvoir2712	H8M3	\N	5070000	2611	23537	cw_bot	history-import:cw_bot:4417	2026-08-07 08:30:13.219+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5189669801	johqnel	ROGU	\N	299780	10143	23536	cw_bot	history-import:cw_bot:5565	2026-08-17 00:52:03.053+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5203613717	Arteomcka0_z	BEZE	\N	8650000	1176	23537	cw_bot	history-import:cw_bot:3370	2026-07-23 19:33:38.366+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5209078854	Rydma73	H8ER	\N	38340000	103	23538	cw_bot	history-import:cw_bot:3967	2026-04-12 22:17:12.736+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5209583889	pepajzik	STPS	\N	6030	18743	23536	cw_bot	history-import:cw_bot:5367	2026-08-20 18:05:20.789+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5254272309	shadow_ggofficial	M4RB	\N	50740000	61	23538	cw_bot	history-import:cw_bot:1752	2026-05-28 21:55:36.515+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5291595908	iTTv6	3zEZ	\N	7520000	1512	23538	cw_bot	history-import:cw_bot:3996	2026-04-12 21:22:33.583+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5328968538	Iphone1835	SAM4	\N	225940	10913	23536	cw_bot	history-import:cw_bot:5188	2026-08-21 18:06:41.136+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5349160911	ArcticGalaxy14	🏰 Clan: **NONG**	\N	\N	2731	23538	cw_bot	history-import:cw_bot:1175	2026-04-30 01:32:47.772+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5363596325	eja99991	_MGW	\N	605350	8288	23537	cw_bot	history-import:cw_bot:6011	2026-08-10 08:39:01.416+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5363786388	HippoALT116	DOLA	\N	1830000	5326	23537	cw_bot	history-import:cw_bot:4398	2026-08-08 17:50:18.656+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5383071838	mr_895675	LXCC	\N	2140000	4912	23536	cw_bot	history-import:cw_bot:7673	2026-08-14 20:23:40.83+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5407742794	baba_gamer239	ROMU	\N	3730000	3442	23538	cw_bot	history-import:cw_bot:1579	2026-05-20 17:25:36.224+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5471242617	vkerazzzzzzzzz	TLGZ	\N	1140000	6575	23538	cw_bot	history-import:cw_bot:9171	2026-06-19 21:51:42.469+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5516978036	omgitzmaatt3	S_TR	\N	218730	10991	23535	cw_bot	history-import:cw_bot:9869	2026-08-23 11:16:05.962+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5560545010	crimxzysgoatedalt	DHFA	\N	621010	8216	23538	cw_bot	history-import:cw_bot:1743	2026-05-28 19:25:01.662+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5592576307	Lukasek_mlejn	HR2T	\N	5070	18977	23537	cw_bot	history-import:cw_bot:5959	2026-08-11 10:05:19.007+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5603268347	demonfaarm6	y3ki	\N	168790	11677	23538	cw_bot	history-import:cw_bot:9375	2026-03-31 20:30:56.071+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5615179956	MonsterWithGod	ROMU	\N	6970000	1722	23538	cw_bot	history-import:cw_bot:4138	2026-04-12 21:05:00.581+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5623447261	quoicoubeh5608	RATZ	\N	445430	9127	23537	cw_bot	history-import:cw_bot:6207	2026-08-08 20:49:37.159+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5703128088	elnubsen	SOPU	\N	17780000	370	23538	cw_bot	history-import:cw_bot:3861	2026-04-05 06:56:35.208+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5718001505	samaorithor	WSL	\N	6490	18653	23535	cw_bot	history-import:cw_bot:9792	2026-08-26 19:50:37.879+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5738682813	robloxpus2202	A10z	\N	1850000	5285	23537	cw_bot	history-import:cw_bot:7860	2026-07-07 22:35:17.009+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5743563432	Alexfarm_too	LXCC	\N	526070	8673	23537	cw_bot	history-import:cw_bot:10075	2026-08-08 09:43:53.852+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5818869297	knoxcoder	SOPU	\N	31810000	133	23537	cw_bot	history-import:cw_bot:3016	2026-07-29 13:28:15.912+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5825369243	DahRealXaViMaVi2	M4RB	\N	14690000	471	23537	cw_bot	history-import:cw_bot:545	2026-07-17 18:48:43.803+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5837946305	husos112410	ggyt	\N	83070	13519	23537	cw_bot	history-import:cw_bot:3329	2026-07-24 20:49:25.624+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6024579040	siemanokolano3211	NUUP	\N	796910	7548	23537	cw_bot	history-import:cw_bot:8835	2026-08-08 13:22:11.942+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6035434188	Pokeccc_yt423	VLP	\N	1200	20429	23536	cw_bot	history-import:cw_bot:5425	2026-08-19 14:44:02.981+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6083864493	evelizda	st1z	\N	6240000	2036	23537	cw_bot	history-import:cw_bot:3133	2026-07-28 14:53:35.902+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6109731708	YoBaskett	W2VY	\N	11410000	699	23537	cw_bot	history-import:cw_bot:423	2026-07-17 18:47:23.21+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6156770625	pepajzikv2	STPS	\N	1090000	6695	23536	cw_bot	history-import:cw_bot:5378	2026-08-20 18:30:12.586+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	6180933436	Atefluigi1	LX2C	\N	4250	19181	23535	cw_bot	history-import:cw_bot:4819	2026-08-28 16:24:47.076+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7005100565	Crazypuzzlehead15	V1LN	\N	35770000	108	23537	cw_bot	history-import:cw_bot:2465	2026-08-01 09:28:25.648+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7144927541	linya_w	2WEI	\N	425240	9253	23538	cw_bot	history-import:cw_bot:8566	2026-06-27 16:58:18.228+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7168755253	JoJo_Gaming2341	XMA2	\N	35520	15515	23538	cw_bot	history-import:cw_bot:1887	2026-06-20 14:27:05.49+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7173492482	Kyan65427	J200	\N	524490	8687	23537	cw_bot	history-import:cw_bot:3232	2026-07-26 12:04:59.618+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7191829024	Rizz100122	MKVB	\N	217140	11010	23537	cw_bot	history-import:cw_bot:7417	2026-07-18 10:00:29.926+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7202704987	wslhuge	WSL	\N	2280000	4768	23535	cw_bot	history-import:cw_bot:9816	2026-08-26 19:55:49.742+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7232809185	Kessho02	PEND	\N	8570000	1197	23537	cw_bot	history-import:cw_bot:600	2026-07-17 18:49:22.998+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7299604677	McAnt1c_Official	VPTO	\N	356840	9698	23537	cw_bot	history-import:cw_bot:6780	2026-08-03 07:34:50.336+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7378517417	XoticAtBlacket	CE7	\N	6020000	2140	23538	cw_bot	history-import:cw_bot:4202	2026-04-12 20:05:01.706+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7402474782	LuxXscout_Rasmus	V1LN	\N	9970000	900	23538	cw_bot	history-import:cw_bot:9302	2026-04-23 08:14:07.862+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7426690057	Duckyphant	H8M3	\N	60080000	40	23536	cw_bot	history-import:cw_bot:5636	2026-08-14 22:07:36.457+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7507588845	Sussy_man709	W0m1	\N	29490	15938	23537	cw_bot	history-import:cw_bot:7303	2026-07-26 11:10:25.798+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7535417374	StarShineSammy	MAH1	\N	21360000	284	23538	cw_bot	history-import:cw_bot:3982	2026-04-12 22:31:35.21+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7541580784	Chawa_X	V1LN	\N	7730000	1447	23538	cw_bot	history-import:cw_bot:9232	2026-05-05 20:32:03.784+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7583161395	Tgzzgzzltg33	HROT	\N	9190000	1028	23537	cw_bot	history-import:cw_bot:7261	2026-07-27 11:39:20.283+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7594665011	demonfaarm10	y3ki	\N	936	20618	23538	cw_bot	history-import:cw_bot:9360	2026-03-31 20:30:40.275+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7697761463	joeponsock12345	Rval	\N	3270000	3789	23537	cw_bot	history-import:cw_bot:8947	2026-07-26 22:32:25.767+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7710452262	hrac_821	BDX	\N	71780	13881	23537	cw_bot	history-import:cw_bot:6000	2026-08-10 07:17:41.604+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7739597690	LukyPuky2122	SORV	\N	200780	11245	23537	cw_bot	history-import:cw_bot:6076	2026-08-09 10:54:34.37+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7742077490	sirwabbs	V1LN	\N	21850000	271	23537	cw_bot	history-import:cw_bot:4636	2026-08-02 03:35:57.878+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7806857762	selena082319	W2VY	\N	23850000	226	23537	cw_bot	history-import:cw_bot:371	2026-07-17 18:33:34.992+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7808641651	Elis_123cz12	HR2T	\N	150060	11984	23537	cw_bot	history-import:cw_bot:6511	2026-08-07 05:42:34.596+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7811627595	Star_1110789	H8M3	\N	3400000	3674	23538	cw_bot	history-import:cw_bot:913	2026-05-01 16:32:32.474+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7850808088	Small_best1	HR2T	\N	10440	17909	23536	cw_bot	history-import:cw_bot:5772	2026-08-14 17:04:57.564+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7927344025	Dominik_3127	RHSF	\N	30260	15873	23535	cw_bot	history-import:cw_bot:2248	2026-08-24 09:45:40.555+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7932915767	frlzleo	L1GO	30	\N	30	\N	external_import	history-import:big_bot:1091	2026-07-01 11:42:44.424+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7943415059	SAE14RBLX	daco	\N	1750000	5450	23538	cw_bot	history-import:cw_bot:990	2026-04-18 02:19:37.646+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7971575569	projet_kevinfv	S_TR	\N	153980	11925	23537	cw_bot	history-import:cw_bot:6928	2026-08-01 07:35:47.188+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8087930970	sleeperb99	OT3R	\N	2050000	5030	23537	cw_bot	history-import:cw_bot:9024	2026-07-17 16:18:36.71+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8202998917	StanleyFox92	AV3Y	\N	8560000	1200	23538	cw_bot	history-import:cw_bot:15	2026-04-25 12:24:19.176+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8234157001	Xplayer548	2zEZ	\N	3440	19403	23537	cw_bot	history-import:cw_bot:6200	2026-08-08 20:30:31.468+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8339961481	Nocaper122	MKVB	\N	1150	20457	23535	cw_bot	history-import:cw_bot:4789	2026-08-28 14:09:37.109+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8356861824	aaadaaaaaaaaaaaaaam	ORX	\N	242920	10715	23536	cw_bot	history-import:cw_bot:5811	2026-08-14 17:57:23.77+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	8858235990	michalmma2013	Axet	\N	18840	16853	23535	cw_bot	history-import:cw_bot:5178	2026-08-23 08:12:29.366+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9024250807	envycallftx	CE7	\N	9630000	954	23538	cw_bot	history-import:cw_bot:4195	2026-04-12 19:58:08.906+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9447539728	provazni10	BDX	\N	44340	15001	23536	cw_bot	history-import:cw_bot:5495	2026-08-19 20:50:38.357+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9540798587	Mahtaboscar2	ata2	\N	265100	10464	23537	cw_bot	history-import:cw_bot:7027	2026-07-31 09:44:22.743+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9543005920	VL1ST11	MDKT	\N	261860	10497	23537	cw_bot	history-import:cw_bot:6564	2026-08-06 07:03:40.747+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	9760509062	Coder_Elicx	DOLA	\N	4440000	2942	23538	cw_bot	history-import:cw_bot:8177	2026-04-26 08:50:25.793+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	10271602994	ninja_luky4	HR2T	\N	66340	14064	23537	cw_bot	history-import:cw_bot:7375	2026-07-22 21:44:03.763+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	71696819	dantemine4	\N	\N	24	22405	23537	cw_bot	\N	2026-07-11 21:18:04.895+00	imported_history	11168
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	92251776	thepiedealer	W2VY	\N	6280000	2010	23537	cw_bot	\N	2026-07-22 17:40:42.591+00	imported_history	10873
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	105342908	josephm922	DOLA	\N	3490000	3612	23538	cw_bot	\N	2026-07-05 05:15:14.676+00	imported_history	11269
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	123813615	zabimar420	AWZY	\N	20860000	294	23537	cw_bot	\N	2026-08-05 05:05:47.203+00	imported_history	10545
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	226285350	farlorddeath	UN0	\N	4830000	2737	23537	cw_bot	\N	2026-07-20 02:25:37.839+00	imported_history	10994
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	240536469	aysear	Goop	\N	22220000	262	23537	cw_bot	\N	2026-07-17 03:28:32.523+00	imported_history	11082
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	267466791	black_ninja890	JEW	\N	476950	8949	23537	cw_bot	\N	2026-08-05 00:39:53.294+00	imported_history	10529
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	391457947	Pukkas08	st1z	\N	48020	14834	23537	cw_bot	\N	2026-07-17 23:20:47.664+00	imported_history	11050
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	492232916	lexmoonxx	LXCC	\N	15670000	435	23537	cw_bot	\N	2026-08-03 06:04:18.55+00	imported_history	10699
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	504442502	cleitonp100	BOSS	\N	24230000	219	23537	cw_bot	\N	2026-08-06 19:36:09.461+00	imported_history	10320
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	634506574	BlameGrinders	SOPU	\N	12820000	594	23537	cw_bot	\N	2026-07-16 18:06:48.246+00	imported_history	11099
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	703619230	cashmoneyracer6	BYRD	\N	58330	14354	23537	cw_bot	\N	2026-07-06 17:10:13.966+00	imported_history	11261
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	820701226	jaydenpool20	7HRW	\N	10170000	873	23537	cw_bot	\N	2026-08-07 14:27:41.154+00	imported_history	10174
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	912250692	bwlovescars	RBN9	\N	1670000	5569	23537	cw_bot	\N	2026-08-01 19:59:44.339+00	imported_history	10742
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1192350790	Steven_Shurf	KOHV	\N	8530000	1206	23537	cw_bot	\N	2026-08-04 17:26:23.152+00	imported_history	10579
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1253064849	hivghdf	Fm4L	\N	217	21613	23537	cw_bot	\N	2026-07-11 17:37:40.354+00	imported_history	11181
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1378926704	thetoad419	FFLH	\N	3360000	3720	23537	cw_bot	\N	2026-07-20 11:11:03.422+00	imported_history	10969
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1502289731	juan784gk	Aifo	\N	5520000	2380	23538	cw_bot	\N	2026-07-04 01:46:55.269+00	imported_history	11305
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1524474134	partlysweeet	SOPU	\N	11310000	715	23537	cw_bot	\N	2026-08-05 17:54:26.824+00	imported_history	10450
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1550266454	OWL20121	M4RB	\N	1580000	5718	23537	cw_bot	\N	2026-08-08 09:49:20.219+00	imported_history	10096
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1559794555	MrsBrumal93	BOSS	\N	135880000	8	23537	cw_bot	\N	2026-08-06 21:10:37.188+00	imported_history	10300
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1716609096	RyanW0623	DLNX	\N	1470	20250	23538	cw_bot	\N	2026-07-04 18:02:20.894+00	imported_history	11282
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1810349750	doughnutlordlup	BOSS	\N	118630000	9	23537	cw_bot	\N	2026-08-04 09:24:34.058+00	imported_history	10600
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1860842454	DaceyBisagamer	UN0	\N	6	22975	23537	cw_bot	\N	2026-07-21 13:55:19.369+00	imported_history	10921
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2046736760	omgakaroen2	KOHV	\N	4700000	2807	23537	cw_bot	\N	2026-08-05 12:42:48.772+00	imported_history	10516
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2548718008	scottewillis1982	KOii	\N	14240000	493	23537	cw_bot	\N	2026-08-05 19:51:42.011+00	imported_history	10467
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2554405092	Amazonhadababby	XBOX	\N	4000000	3235	23537	cw_bot	\N	2026-07-08 19:40:21.57+00	imported_history	11235
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2687152279	roblobhubi	PCM	\N	985460	7033	23537	cw_bot	\N	2026-07-12 10:50:14.663+00	imported_history	11124
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	2878087594	Kbob_2021	H8M3	\N	3600000	3537	23537	cw_bot	\N	2026-08-07 12:07:07.069+00	imported_history	10261
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3111804593	boomhahahau4	YLW	\N	518310	8715	23537	cw_bot	\N	2026-08-07 11:10:01.99+00	imported_history	10247
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3152491552	imipcdoki772536	nuki	\N	108900	12813	23537	cw_bot	\N	2026-08-01 15:43:40.521+00	imported_history	10783
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3257426178	thebroccoli20	M4RB	\N	1420000	5983	23537	cw_bot	\N	2026-08-03 18:58:51.895+00	imported_history	10656
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3586862591	dndjdjemcjsndjd	st1z	\N	1990000	5116	23537	cw_bot	\N	2026-07-22 20:34:28.337+00	imported_history	10890
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3787688911	Kaelqor	K0ii	\N	2080000	4984	23537	cw_bot	\N	2026-08-07 10:30:50.859+00	imported_history	10225
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	3988909281	ScriptingIntoabysmal	Ice6	\N	4950000	2671	23537	cw_bot	\N	2026-08-07 14:02:53.391+00	imported_history	10156
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4142534434	be_bebrs	BU TI	\N	2780000	4234	23537	cw_bot	\N	2026-07-20 11:09:04.745+00	imported_history	10953
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4284280354	Superxia4460	Xia7	\N	477850	8946	23537	cw_bot	\N	2026-07-23 13:14:52.606+00	imported_history	10840
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4311417620	Weller457sk	HR2T	\N	1860000	5283	23537	cw_bot	\N	2026-07-22 16:09:45.829+00	imported_history	10897
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4476083695	EinMensch939	KOHV	\N	5830000	2232	23537	cw_bot	\N	2026-07-11 20:34:22.019+00	imported_history	11155
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	4608344169	Spyd3rino	W2VY	\N	4860000	2728	23537	cw_bot	\N	2026-07-10 15:35:31.189+00	imported_history	11209
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5532910197	Vvistal_farm	BYRD	\N	5630000	2331	23537	cw_bot	\N	2026-08-06 08:45:15.612+00	imported_history	10399
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7074492190	scoutiiiiiiiii	H8M3	\N	2740000	4263	23537	cw_bot	\N	2026-08-01 09:24:22.841+00	imported_history	10818
 \.
 
 
@@ -594,8 +636,8 @@ LuckyChestBattle	Lucky Chest Battle	luckychestbattle	10271602994	ninja_luky4	HR2
 -- PostgreSQL database dump complete
 --
 
-\unrestrict JLYfxMh5LVOtfto615lEzklbUdtLXfdv2azaidFoqsmJ1ep32XVunb2coLT1xB0
+\unrestrict ylYRNGzIB6bKG99tlYm2J0urlAnrRsAQvTrs9RZUCthYw9JWTeVeo0JYo4Z1uIP
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

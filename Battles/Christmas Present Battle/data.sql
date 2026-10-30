@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 0OaX46U2FpPgtVlRuP971Te6WubdZ71mSdsUPyIsZs4yf2GjAuY8YHl2EgUT0y3
+\restrict ZUPrU7wIzL7EmTKiRD5p1soOEWI9NQARsH7SLQAgJ5G2spBKCPlw7wKfhxduLpc
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,8 +23,8 @@ SET row_security = off;
 -- Data for Name: Christmas Present Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Christmas Present Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-YearEnd2024	Christmas Present Battle	christmaspresentbattle	4641548217	FIGHTER92399alt	FR3E	18	\N	18	\N	external_import	history-import:big_bot:940	2026-07-07 20:28:47.777+00
+COPY battles."Christmas Present Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+YearEnd2024	Christmas Present Battle	christmaspresentbattle	4641548217	FIGHTER92399alt	FR3E	18	\N	18	\N	external_import	history-import:big_bot:940	2026-07-07 20:28:47.777+00	imported_history	\N
 \.
 
 
@@ -32,8 +32,8 @@ YearEnd2024	Christmas Present Battle	christmaspresentbattle	4641548217	FIGHTER92
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 0OaX46U2FpPgtVlRuP971Te6WubdZ71mSdsUPyIsZs4yf2GjAuY8YHl2EgUT0y3
+\unrestrict ZUPrU7wIzL7EmTKiRD5p1soOEWI9NQARsH7SLQAgJ5G2spBKCPlw7wKfhxduLpc
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

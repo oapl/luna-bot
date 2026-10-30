@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Bn1SAacPfRuC7hmaWpEUzGhryAwlrZgY2ANvJRp4aNs7q1WM5ra0L2Ly6cYnhI4
+\restrict zHFqk6bP4CUcrFWvYzBGVW745mucxiySM7rOWZoU4duypZdUhPC7wrFtv4fTEfl
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,462 +23,517 @@ SET row_security = off;
 -- Data for Name: Pixel Chick Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Pixel Chick Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	109818	Cinnamowopal	NONG	\N	833320	496	32210	cw_bot	history-import:cw_bot:160	2026-04-27 00:46:27.41+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	14538110	joeycb	NONG	\N	991300	173	32210	cw_bot	history-import:cw_bot:1691	2026-05-23 12:54:45.542+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	25894803	Malmortius	N6NG	\N	163220	10913	32210	cw_bot	history-import:cw_bot:2059	2026-06-30 14:47:28.663+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	31989428	zoggi10	Goop	\N	589920	1667	32209	cw_bot	history-import:cw_bot:4613	2026-08-04 07:49:22.305+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	33492395	unoyea	UN0	\N	1080000	77	32210	cw_bot	history-import:cw_bot:1384	2026-05-07 10:52:28.967+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	33945887	awesomeness4122	FFLH	\N	771880	658	32210	cw_bot	history-import:cw_bot:3928	2026-06-24 23:04:27.415+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	37169860	hoang109	\N	\N	\N	93	32210	cw_bot	history-import:cw_bot:3513	2026-04-23 22:12:20.396+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	41215233	galooney	UN0	\N	1160000	28	32209	cw_bot	history-import:cw_bot:9957	2026-07-18 16:34:45.497+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	45130460	Ziilionaires	UN0	\N	1090000	67	32210	cw_bot	history-import:cw_bot:3806	2026-04-05 08:12:37.375+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	58312098	sosd35	NONG	\N	866050	426	32209	cw_bot	history-import:cw_bot:695	2026-07-17 18:57:28.202+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	67319189	iduzel	NONG	\N	1090000	66	32207	cw_bot	history-import:cw_bot:8739	2026-08-18 05:01:05.774+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	90767636	bobdog751	V1LN	\N	758590	706	32210	cw_bot	history-import:cw_bot:8136	2026-04-27 21:06:33.398+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	125272790	ur_salty091	XBOX	\N	556230	1993	32210	cw_bot	history-import:cw_bot:1924	2026-06-21 04:13:46.321+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	125848672	montrealpuppy	PDYL	\N	244	28764	32209	cw_bot	history-import:cw_bot:5	2026-07-17 18:30:59.447+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	136661329	ghanta2a	S7NS	\N	368610	4579	32210	cw_bot	history-import:cw_bot:8108	2026-04-26 23:31:56.073+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	138619446	darkenedwishes	EXP	\N	312580	5915	32210	cw_bot	history-import:cw_bot:2011	2026-06-28 16:26:03.666+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	148251054	EpicRider6729	ORBI	\N	251970	7736	32210	cw_bot	history-import:cw_bot:3857	2026-04-05 07:59:08.938+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	156957387	itsminerr	ORBI	\N	774730	649	32209	cw_bot	history-import:cw_bot:2160	2026-08-01 03:26:51.039+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	160013234	Megasonicex	S7NS	\N	467350	2944	32209	cw_bot	history-import:cw_bot:3247	2026-07-25 06:28:07.641+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	163195458	20xseron20	VLP	\N	2810	25727	32209	cw_bot	history-import:cw_bot:6577	2026-08-06 07:05:22.236+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	165817996	16_BitPotato	UN0	\N	1210000	17	32209	cw_bot	history-import:cw_bot:4528	2026-08-04 19:56:26.259+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	170719079	tnocko	HROT	\N	629230	1366	32209	cw_bot	history-import:cw_bot:2294	2026-08-12 07:40:01.692+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	170896669	toratot	OTTR	\N	362060	4713	32210	cw_bot	history-import:cw_bot:9154	2026-06-29 23:29:26.064+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	184309752	expellez	NS4R	\N	542230	2130	32210	cw_bot	history-import:cw_bot:1108	2026-04-25 23:28:51.667+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	192463394	NukeOfLava12	CB_	\N	450790	3151	32210	cw_bot	history-import:cw_bot:4136	2026-04-12 20:31:33.085+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	192653117	carloskar08	MLIB	\N	364650	4655	32209	cw_bot	history-import:cw_bot:4471	2026-08-05 22:58:43.526+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	194076029	Gromic5876	MNBB	\N	12940	22339	32209	cw_bot	history-import:cw_bot:6104	2026-08-08 23:25:51.173+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	204751057	SainLol	fr2e	\N	416	28211	32209	cw_bot	history-import:cw_bot:10043	2026-08-08 18:46:45.184+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	207778892	unoyea441	vysn	\N	228750	8490	32210	cw_bot	history-import:cw_bot:3950	2026-04-19 19:32:32.711+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	210966410	onoraksal	hlx	\N	590600	1659	32207	cw_bot	history-import:cw_bot:8786	2026-08-15 13:55:15.256+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	241713789	J2X1NESIWXID	LXCC	\N	36960	18729	32209	cw_bot	history-import:cw_bot:755	2026-07-17 18:58:04.211+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	250562586	zcm_Xi	CC4T	\N	56590	16845	32209	cw_bot	history-import:cw_bot:4369	2026-08-09 17:51:30.585+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	254885188	Prodav1	SULS	\N	490430	2666	32209	cw_bot	history-import:cw_bot:8008	2026-07-08 14:39:05.73+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	272741362	kyle558888	LV13	\N	2240	26143	32209	cw_bot	history-import:cw_bot:226	2026-07-17 17:23:47.778+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	273316338	stevowsl	WSL	\N	145720	11689	32207	cw_bot	history-import:cw_bot:9808	2026-08-26 19:54:20.308+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	343511782	octojabb	SLRP	\N	334650	5326	32210	cw_bot	history-import:cw_bot:9252	2026-04-30 14:51:23.517+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	365225419	prorik228	07W	\N	570060	1845	32209	cw_bot	history-import:cw_bot:7917	2026-07-08 14:30:35.5+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	413355357	tofuu12342	B33Z	\N	1170	27131	32210	cw_bot	history-import:cw_bot:631	2026-06-12 05:00:54.965+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	413758213	NotMrTroll_YT	SOPU	\N	703400	939	32209	cw_bot	history-import:cw_bot:2837	2026-07-31 16:31:43.631+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	418400389	vojtaprovaznik	VLP2	\N	13290	22269	32207	cw_bot	history-import:cw_bot:4943	2026-08-26 06:26:26.509+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	420043304	Malik_daghan21346	OTTR	\N	63910	16284	32209	cw_bot	history-import:cw_bot:6341	2026-08-07 16:31:48.928+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	423460663	bub2540	POPS	\N	601660	1573	32210	cw_bot	history-import:cw_bot:1513	2026-05-16 12:19:40.788+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	425660194	chinovelaz	stzr	\N	63700	16304	32210	cw_bot	history-import:cw_bot:4157	2026-04-12 20:33:18.646+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	435823564	brandon292016	3zEZ	\N	203620	9374	32210	cw_bot	history-import:cw_bot:1040	2026-04-20 06:06:34.027+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	436460285	spideenation	fr3e	\N	207010	9245	32209	cw_bot	history-import:cw_bot:2924	2026-07-31 03:58:35.999+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	440712600	xblackstar16x	🏰 Clan: **SLRP**	\N	\N	6784	32210	cw_bot	history-import:cw_bot:3668	2026-03-23 23:51:22.847+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	463900811	AgentP_0928	NONG	\N	938600	271	32210	cw_bot	history-import:cw_bot:656	2026-04-26 04:08:51.656+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	470464024	ceficat	POPS	\N	185110	10041	32209	cw_bot	history-import:cw_bot:2586	2026-08-01 14:42:49.688+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	496935076	mawahlah	07W	\N	395650	4054	32210	cw_bot	history-import:cw_bot:53	2026-06-27 00:05:32.123+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	502312785	tomasek8557	BDX	\N	389630	4154	32207	cw_bot	history-import:cw_bot:5458	2026-08-19 16:40:59.801+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	503486505	campagnolo5	_hot	\N	751210	739	32207	cw_bot	history-import:cw_bot:7663	2026-08-16 14:51:20.144+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	532884141	walosdan	VLP2	\N	19170	21101	32209	cw_bot	history-import:cw_bot:5918	2026-08-12 18:39:07.299+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	538266747	Judah3000	SVLW	\N	247070	7909	32209	cw_bot	history-import:cw_bot:7853	2026-07-08 14:31:05.959+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	544198160	JimmyCIeetus	SOPU	\N	695430	975	32209	cw_bot	history-import:cw_bot:480	2026-07-17 18:47:56.313+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	562277230	Berryuk19sdad	UN0	\N	947940	251	32210	cw_bot	history-import:cw_bot:3918	2026-06-24 23:01:30.995+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	573589049	nerfbro9000	GSTG	\N	330610	5424	32210	cw_bot	history-import:cw_bot:9409	2026-03-26 19:15:43.999+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	573955632	Johanplayzrb21	HARM	\N	914840	311	32210	cw_bot	history-import:cw_bot:1000	2026-04-18 02:22:53.465+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	588685015	jonis_chicken	XBOX	\N	346080	5059	32210	cw_bot	history-import:cw_bot:9216	2026-06-13 20:55:03.535+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	621412324	dabcat818	S7NS	\N	379090	4344	32210	cw_bot	history-import:cw_bot:1785	2026-06-07 17:32:51.445+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	653179078	killinBABYS111	DGSL	\N	420710	3605	32210	cw_bot	history-import:cw_bot:8289	2026-04-15 20:29:26.949+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	656420117	MercilessBanditTaken	NONG	\N	959870	226	32210	cw_bot	history-import:cw_bot:176	2026-04-19 13:44:30.618+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	661099895	patcola2010	V1LN	\N	9120	23277	32209	cw_bot	history-import:cw_bot:7806	2026-07-24 00:04:23.322+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	688928053	Noahangrybird1234	S7NS	\N	501890	2554	32210	cw_bot	history-import:cw_bot:8356	2026-04-06 08:29:37.081+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	694900194	Manolodroidgamer12	CB_	\N	137050	12065	32210	cw_bot	history-import:cw_bot:1935	2026-06-21 04:18:35.734+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	704550307	osmanefe334	K0ii	\N	66090	16146	32210	cw_bot	history-import:cw_bot:8344	2026-04-06 08:27:50.069+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	709222551	Theozzz12	UN0	\N	990360	174	32210	cw_bot	history-import:cw_bot:8173	2026-04-26 15:05:43.056+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	722456679	mujiTABA1	\N	\N	604050	1551	32210	cw_bot	history-import:cw_bot:2024	2026-06-28 16:42:57.557+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	779059828	jimynew	SS1N	\N	12180	22528	32210	cw_bot	history-import:cw_bot:1538	2026-05-16 23:39:36.553+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	782937820	the_macraft7	skvi	\N	977500	195	32207	cw_bot	history-import:cw_bot:7570	2026-08-16 22:06:59.348+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	790873913	homless9	STPS	\N	122	29430	32209	cw_bot	history-import:cw_bot:6448	2026-08-06 17:44:57.059+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	810054419	catloncat	ytvn	\N	83570	14993	32210	cw_bot	history-import:cw_bot:4028	2026-04-12 21:24:49.553+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	844720150	Sebastjan35	NXNG	\N	428170	3478	32209	cw_bot	history-import:cw_bot:536	2026-07-17 18:48:35.159+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	855529087	lolo0510p	\N	\N	372690	4481	32209	cw_bot	history-import:cw_bot:8800	2026-08-11 02:08:03.012+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	864632403	galaxyknight9204	Gewp	\N	34	30214	32210	cw_bot	history-import:cw_bot:1772	2026-05-29 01:34:02.793+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	876991750	Mertiliano	FFLH	\N	843920	474	32209	cw_bot	history-import:cw_bot:2140	2026-08-01 04:17:09.805+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	877353566	lpvarmi	VLP	\N	351320	4928	32209	cw_bot	history-import:cw_bot:7214	2026-07-29 20:25:50.738+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	911583034	Jozula12	HROT	\N	602860	1563	32209	cw_bot	history-import:cw_bot:3102	2026-07-28 21:12:50.801+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	911932139	Daniel8czs	HROT	\N	472330	2869	32209	cw_bot	history-import:cw_bot:6814	2026-08-01 11:19:39.153+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	915515621	math33g4	ACDR	\N	167780	10711	32209	cw_bot	history-import:cw_bot:7954	2026-07-08 14:35:53.418+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	916438379	Tq_Senior	SOPU	\N	954760	241	32209	cw_bot	history-import:cw_bot:3146	2026-07-27 19:03:49.201+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	955175856	fatalwaccle	DRK5	\N	560900	1943	32210	cw_bot	history-import:cw_bot:4186	2026-04-12 20:31:29.037+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	981933151	doczmerson	hlx	\N	513350	2437	32209	cw_bot	history-import:cw_bot:7604	2026-08-11 13:00:07.332+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	983863343	akita_nuru	MTNR	\N	235530	8270	32207	cw_bot	history-import:cw_bot:9585	2026-08-16 14:43:07.843+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	984824128	xFrixal	Goop	\N	874080	406	32210	cw_bot	history-import:cw_bot:9305	2026-04-19 18:12:12.648+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1000059115	rimonus	SOPU	\N	796400	579	32210	cw_bot	history-import:cw_bot:1805	2026-06-13 11:10:39.923+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1024664859	NotArsann7	AR2Y	\N	247020	7913	32210	cw_bot	history-import:cw_bot:1257	2026-05-03 05:34:41.421+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1029579815	Marshmellow_1177	BLXF	\N	157640	11138	32210	cw_bot	history-import:cw_bot:1302	2026-05-05 21:28:38.219+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1049702109	realchaseblox	FaZ	\N	122720	12748	32210	cw_bot	history-import:cw_bot:1316	2026-05-05 21:59:20.786+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1081067684	mimilrol	ROMU	\N	364480	4662	32209	cw_bot	history-import:cw_bot:410	2026-07-17 18:47:08.019+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1109750537	tonynecko	UN0	\N	885390	383	32209	cw_bot	history-import:cw_bot:4278	2026-08-12 03:27:47.805+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1137640592	clackerskill	HPE	\N	170480	10593	32209	cw_bot	history-import:cw_bot:4662	2026-08-01 00:22:28.841+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1150663755	Ramaxik2002	HR2T	\N	219490	8831	32209	cw_bot	history-import:cw_bot:5989	2026-08-10 19:24:39.717+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1157052710	laughytrex	XPQX	\N	136750	12080	32210	cw_bot	history-import:cw_bot:894	2026-04-24 03:00:59.658+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1160481763	fajeczka4	BOTZ	\N	15710	21748	32209	cw_bot	history-import:cw_bot:6793	2026-08-03 09:49:43.16+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1163321217	protozejelen	LV13	\N	126550	12555	32209	cw_bot	history-import:cw_bot:7138	2026-07-30 15:23:48.828+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1171409734	tominko130	K989	\N	31450	19371	32209	cw_bot	history-import:cw_bot:6327	2026-08-07 12:38:50.885+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1178078831	mavilure	NXNG	\N	446730	3210	32210	cw_bot	history-import:cw_bot:9115	2026-07-04 02:37:26.103+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1179507007	tomisek134	HR2T	\N	509520	2473	32209	cw_bot	history-import:cw_bot:4745	2026-08-11 18:03:07.712+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1179750334	D40RC3	WYC	\N	15470	21803	32209	cw_bot	history-import:cw_bot:6846	2026-08-01 15:00:26.628+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1192463440	Jonas139075	dkps	\N	12850	22364	32209	cw_bot	history-import:cw_bot:2783	2026-07-31 19:36:15.216+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1201926794	acejdh	P2PS	\N	157230	11155	32210	cw_bot	history-import:cw_bot:4207	2026-04-12 20:05:16.827+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1221841742	Azurqson	BOSS	\N	1160000	29	32210	cw_bot	history-import:cw_bot:3789	2026-04-06 19:59:26.612+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1232493274	MARYNADA058	BDX	\N	13730	22169	32209	cw_bot	history-import:cw_bot:6892	2026-07-31 20:00:25.469+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1238833367	ciganskysaman	K_TB	\N	330	28451	32207	cw_bot	history-import:cw_bot:5796	2026-08-14 17:36:42.35+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1239924818	txawhy	YEMN	\N	298800	6315	32210	cw_bot	history-import:cw_bot:1004	2026-04-18 14:07:59.883+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1240710842	voffenleon	ICYT	\N	84640	14920	32209	cw_bot	history-import:cw_bot:7019	2026-07-31 09:34:26.196+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1243643868	ASEYIsoos	Goop	\N	911710	323	32209	cw_bot	history-import:cw_bot:9430	2026-08-12 22:46:12.145+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1245227095	TheoFuraxe	ROMU	\N	634140	1327	32209	cw_bot	history-import:cw_bot:128	2026-07-17 18:32:35.762+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1253134958	Emalele093	xxEU	\N	48090	17573	32209	cw_bot	history-import:cw_bot:3171	2026-07-27 16:55:04.085+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1258957228	idjdjjdi2	B2ZE	\N	30980	19430	32210	cw_bot	history-import:cw_bot:1943	2026-06-21 20:32:04.889+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1274135054	latestmallard87	vysn	\N	276300	6927	32210	cw_bot	history-import:cw_bot:3752	2026-04-18 01:16:24.862+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1277089394	LUVALICEEXO	XTND	\N	203330	9382	32210	cw_bot	history-import:cw_bot:9265	2026-04-28 15:57:56.007+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1283935690	Laura_V13	07W	\N	254780	7649	32209	cw_bot	history-import:cw_bot:4348	2026-08-09 17:50:39.523+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1286384664	uzuisnipes	W2VY	\N	747550	752	32209	cw_bot	history-import:cw_bot:342	2026-07-17 18:33:12.116+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1294494054	Ethanblaze112	CBJT	\N	283110	6729	32210	cw_bot	history-import:cw_bot:8325	2026-04-03 19:35:37.401+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1307288868	ivanpr03	7HRW	\N	162950	10925	32209	cw_bot	history-import:cw_bot:2601	2026-07-31 20:07:37.335+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1326160949	VeriseQ1996	HROT	\N	314730	5851	32207	cw_bot	history-import:cw_bot:5235	2026-08-21 19:32:55.468+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1330097404	tomasbudik007	VLP	\N	398640	3998	32209	cw_bot	history-import:cw_bot:7103	2026-07-30 18:00:28.62+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1339745372	alescar234	S2PU	\N	190900	9824	32209	cw_bot	history-import:cw_bot:2964	2026-07-30 13:27:00.044+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1364275114	Czech9912	VLP	\N	391120	4128	32209	cw_bot	history-import:cw_bot:6696	2026-08-04 20:29:16.813+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1373748557	poopsmcgoops132	🏰 Clan: **YLW**	\N	169220	10652	32210	cw_bot	history-import:cw_bot:8364	2026-04-24 01:57:13.047+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1376213247	eric23129	MSHC	\N	9170	23268	32210	cw_bot	history-import:cw_bot:3941	2026-06-26 14:54:31.345+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1380082703	Allalboy2	Goop	\N	472770	2861	32210	cw_bot	history-import:cw_bot:8219	2026-04-08 19:50:25.995+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1384486800	Hellowentonio	WSL	\N	626960	1382	32207	cw_bot	history-import:cw_bot:9833	2026-08-26 19:56:32.35+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1384716628	barti12345610	LSQ	\N	32820	19199	32209	cw_bot	history-import:cw_bot:8534	2026-07-21 19:41:58.049+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1386665561	nuxx7	Z3EE	\N	300110	6280	32210	cw_bot	history-import:cw_bot:277	2026-05-17 10:44:35.489+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1403606137	GhostWhisperer03	H2RM	\N	39650	18453	32209	cw_bot	history-import:cw_bot:6915	2026-08-01 01:11:48.951+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1437069784	oldmanwrinklenose	BBSH	\N	181460	10180	32210	cw_bot	history-import:cw_bot:3902	2026-05-25 16:50:02.805+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1452886316	kubistaa	DJRK	\N	43390	18047	32207	cw_bot	history-import:cw_bot:5223	2026-08-21 19:09:04.387+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1462748729	dragonballx1412	V1LN	\N	264930	7303	32209	cw_bot	history-import:cw_bot:195	2026-07-17 01:03:33.384+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1469224615	TheRealToonster	XBOX	\N	320850	5681	32210	cw_bot	history-import:cw_bot:1093	2026-04-25 23:24:03.687+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1476403654	dilerij2	BEZE	\N	383000	4281	32210	cw_bot	history-import:cw_bot:2077	2026-07-01 18:46:57.039+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1501050755	RealYTStarz	st1z	\N	293070	6446	32210	cw_bot	history-import:cw_bot:1976	2026-06-27 18:27:30.824+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1501625591	floriansamuraiu	07W	\N	160530	11019	32209	cw_bot	history-import:cw_bot:7907	2026-07-08 14:32:48.38+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1509495433	arrume_aparte12	SULS	\N	55740	16917	32209	cw_bot	history-import:cw_bot:8025	2026-07-08 14:39:41.28+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1510971300	Informix_CZ	KMo	\N	87100	14766	32209	cw_bot	history-import:cw_bot:6228	2026-08-08 08:18:03.311+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1514487909	mufflingg	Z3EE	\N	274520	6990	32210	cw_bot	history-import:cw_bot:2049	2026-06-30 03:14:01.994+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1515580709	notaurorasky008	UNTY	\N	992440	169	32207	cw_bot	history-import:cw_bot:7553	2026-08-16 16:38:28.759+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1516764583	YoDemonXwasTaken	0FCL	\N	1	31971	32207	cw_bot	history-import:cw_bot:7523	2026-08-26 04:12:36.173+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1520358099	FlipFlopFloop417	CC4T	\N	149210	11544	32209	cw_bot	history-import:cw_bot:359	2026-07-17 18:33:20.942+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1523831473	malfiv	K989	\N	6	31339	32209	cw_bot	history-import:cw_bot:6246	2026-08-08 14:47:52.966+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1528718508	strykertoff	XPQX	\N	207170	9242	32210	cw_bot	history-import:cw_bot:1270	2026-05-03 14:42:25.308+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1537916189	MailDaCoolKid	S7NS	\N	551280	2035	32210	cw_bot	history-import:cw_bot:9201	2026-06-19 13:04:44.383+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1539398349	Darkszern	SOPU	\N	856160	440	32209	cw_bot	history-import:cw_bot:4576	2026-08-04 19:57:01.734+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1545978553	softsdua	TPSE	\N	2730	25781	32209	cw_bot	history-import:cw_bot:4584	2026-08-05 00:55:39.191+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1573629774	mkmike27mk	XPQX	\N	118010	13012	32210	cw_bot	history-import:cw_bot:261	2026-05-16 17:04:30.807+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1581306248	Robloxak_Honiik	KMo	\N	90140	14587	32207	cw_bot	history-import:cw_bot:5838	2026-08-14 19:05:13.93+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1587906543	wexfordfox	BOSK	\N	660340	1161	32210	cw_bot	history-import:cw_bot:9291	2026-04-29 12:14:55.272+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1592738293	1ncr3d1bl3sulk	DRK5	\N	280580	6795	32210	cw_bot	history-import:cw_bot:1284	2026-05-03 22:19:36.985+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1596560199	wiegehtdennsowas	XBOX	\N	358360	4785	32210	cw_bot	history-import:cw_bot:9326	2026-04-05 16:35:34.64+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1613882953	toastedpoptartonyt	CXTG	\N	325930	5545	32207	cw_bot	history-import:cw_bot:9923	2026-08-18 18:50:20.423+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1617221713	waheedplayzYT	EIM0	\N	106440	13647	32209	cw_bot	history-import:cw_bot:7787	2026-07-22 21:12:43.733+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1626378539	Fulda645	S7NS	\N	310490	5965	32210	cw_bot	history-import:cw_bot:8148	2026-04-28 12:17:49.765+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1638202885	pumacero	PROX	\N	1810	26469	32207	cw_bot	history-import:cw_bot:4792	2026-08-28 14:10:21.001+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1644308020	hoon9900a	vvjp	\N	728230	818	32209	cw_bot	history-import:cw_bot:8938	2026-07-29 11:32:45.032+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1647731044	angelwytb	GST2	\N	134620	12176	32209	cw_bot	history-import:cw_bot:7983	2026-07-08 14:37:40.756+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1652197454	fighter92399_alt	fr3e	\N	879950	393	32210	cw_bot	history-import:cw_bot:1837	2026-06-16 00:22:27.481+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1670011733	Kono9595	RBD	\N	35770	18872	32209	cw_bot	history-import:cw_bot:6375	2026-08-07 18:53:41.202+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1676340458	AgreedFlower11	XB0X	\N	299070	6309	32209	cw_bot	history-import:cw_bot:621	2026-07-17 18:49:30.27+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1676361250	RealYoDarkshadow	Lyyt	\N	18560	21213	32210	cw_bot	history-import:cw_bot:3992	2026-04-12 22:22:05.865+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1683480006	kminoscz	KMo	\N	656930	1184	32209	cw_bot	history-import:cw_bot:7084	2026-07-30 17:15:30.786+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1685635748	farmboyjetw	Goop	\N	321770	5660	32210	cw_bot	history-import:cw_bot:8314	2026-04-02 20:23:10.489+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1690820953	1tombay	BEZE	\N	1020000	129	32210	cw_bot	history-import:cw_bot:1723	2026-05-23 14:09:54.985+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1697239942	racingchampaj	AR2Y	\N	103980	13800	32209	cw_bot	history-import:cw_bot:7895	2026-07-08 14:32:13.162+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1727137762	azmvoisshot	ORB	\N	13740	22163	32210	cw_bot	history-import:cw_bot:826	2026-06-13 03:07:29.607+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1749647628	da1niell	HR2T	\N	473740	2845	32209	cw_bot	history-import:cw_bot:6368	2026-08-07 18:52:55.147+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1750005492	averyhein1920	EIMO	\N	519980	2361	32210	cw_bot	history-import:cw_bot:8400	2026-06-17 00:11:42.038+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1756730755	imsazzyy	OTTR	\N	71630	15736	32210	cw_bot	history-import:cw_bot:9139	2026-06-29 23:26:20.807+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1759162396	9kbotzz	XBOX	\N	748570	746	32210	cw_bot	history-import:cw_bot:9338	2026-04-05 20:49:49.97+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1787663283	TheBuilder5649	FGZW	\N	110750	13412	32210	cw_bot	history-import:cw_bot:4082	2026-04-12 22:03:03.052+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1804106976	lukmaT05_cus1	VLP2	\N	17170	21456	32209	cw_bot	history-import:cw_bot:7157	2026-07-30 12:36:25.508+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1818966891	Drak1735	HFYG	\N	21630	20714	32207	cw_bot	history-import:cw_bot:5852	2026-08-14 19:17:31.862+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1824713899	hayojeu2k	W2VY	\N	574990	1804	32209	cw_bot	history-import:cw_bot:675	2026-07-17 18:57:09.828+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1835808563	1213eric	GCEM	\N	105650	13693	32210	cw_bot	history-import:cw_bot:1647	2026-05-21 04:56:29.857+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1856284829	younes89755	NONG	\N	849110	461	32210	cw_bot	history-import:cw_bot:1356	2026-05-06 23:01:41.242+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1881899133	Coxxman	HROT	\N	549500	2054	32209	cw_bot	history-import:cw_bot:7442	2026-07-13 19:26:57.695+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1895942489	ziomek1000oo	LSQ	\N	31400	19375	32207	cw_bot	history-import:cw_bot:7589	2026-08-19 21:17:39.542+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1909574870	jjdjsjsmsmmd	KKT8	\N	175010	10419	32207	cw_bot	history-import:cw_bot:5039	2026-08-24 10:03:20.943+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1933064023	cb7rebel	SAM4	\N	2160	26206	32210	cw_bot	history-import:cw_bot:4104	2026-04-12 20:17:10.048+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1957801731	Sign_EEE	🏰 Clan: **DMMR**	\N	\N	5402	32210	cw_bot	history-import:cw_bot:3552	2026-03-12 23:08:34.393+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1973447751	radkozahumensky5	BDX	\N	230780	8413	32207	cw_bot	history-import:cw_bot:4979	2026-08-24 18:50:27.632+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1973891991	lab44162	GFIT	\N	54330	17029	32209	cw_bot	history-import:cw_bot:2361	2026-08-11 11:08:52.921+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1996183705	humicek2020cz	HROT	\N	475310	2827	32207	cw_bot	history-import:cw_bot:5164	2026-08-23 06:34:54.553+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2005983585	shadowstaristhegoat	LXCC	\N	352480	4901	32209	cw_bot	history-import:cw_bot:9564	2026-07-31 10:09:27.163+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2015826915	Thiballa	ANG_	\N	100420	13999	32210	cw_bot	history-import:cw_bot:1012	2026-04-18 19:09:38.623+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2017652746	roastedduck123	OTTR	\N	323000	5629	32209	cw_bot	history-import:cw_bot:9046	2026-07-12 22:45:18.893+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2046133197	coltwertzu	V1LN	\N	138250	12007	32210	cw_bot	history-import:cw_bot:9348	2026-03-30 23:05:52.126+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2064474099	macejko998	K989	\N	150770	11482	32207	cw_bot	history-import:cw_bot:5609	2026-08-16 18:31:51.714+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2067834432	blazeeok	Goop	\N	777770	640	32209	cw_bot	history-import:cw_bot:3187	2026-07-26 20:02:36.593+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2226792909	Raptorik_gamer	BDX	\N	128580	12447	32209	cw_bot	history-import:cw_bot:7430	2026-07-18 17:45:36.477+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2241042742	WallEExtreme	L1ES	\N	639960	1285	32209	cw_bot	history-import:cw_bot:8688	2026-07-15 16:36:29.044+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2251616291	miminkoxxxxczdd	VLP2	\N	484690	2724	32207	cw_bot	history-import:cw_bot:7639	2026-08-15 11:12:28.99+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2257366377	lottewashere	UKUF	\N	659860	1163	32210	cw_bot	history-import:cw_bot:9315	2026-04-13 22:48:01.131+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2268926446	Feibapa	Ash	\N	363200	4690	32209	cw_bot	history-import:cw_bot:2709	2026-07-31 16:47:53.554+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2272058278	tomasmessi2567	HROT	\N	351570	4922	32209	cw_bot	history-import:cw_bot:6601	2026-08-06 14:40:37.08+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2296914657	officialchost	NXNG	\N	648560	1236	32210	cw_bot	history-import:cw_bot:3738	2026-04-22 06:40:26.037+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2316325389	julimowi	TeGu	\N	387060	4207	32209	cw_bot	history-import:cw_bot:2735	2026-07-31 17:12:47.437+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2318308002	karelman1451	HR2T	\N	413400	3714	32207	cw_bot	history-import:cw_bot:4919	2026-08-26 18:25:05.52+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2320688195	daihukumochi223	2WEI	\N	180590	10220	32210	cw_bot	history-import:cw_bot:8559	2026-06-17 03:04:38.757+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2349313768	crystalboyo256	KAG8	\N	135810	12127	32209	cw_bot	history-import:cw_bot:2981	2026-07-30 10:49:42.699+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2375471082	RayquazaPlayz_yt	PSMF	\N	391060	4130	32210	cw_bot	history-import:cw_bot:4115	2026-04-12 20:27:06.36+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2399889452	starwax85	V1LN	\N	246550	7927	32209	cw_bot	history-import:cw_bot:7769	2026-07-17 15:53:21.548+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2431643806	1KRUCHY	XREX	\N	516430	2394	32210	cw_bot	history-import:cw_bot:8064	2026-06-23 16:35:49.505+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2443619256	mihokkon	UNO	\N	908530	331	32210	cw_bot	history-import:cw_bot:3762	2026-04-17 00:20:59.211+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	361930	4717	32209	cw_bot	history-import:cw_bot:2949	2026-07-30 23:41:01.908+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2463337749	mrtendieman	GSTG	\N	854590	442	32207	cw_bot	history-import:cw_bot:7703	2026-08-16 16:38:00.619+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2469768592	Raitonn0609	2WEI	\N	180100	10235	32210	cw_bot	history-import:cw_bot:9373	2026-03-31 20:29:42.263+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2475732693	Fazmashwastaken	BOSS	\N	805420	555	32209	cw_bot	history-import:cw_bot:10005	2026-08-09 01:32:35.34+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2487889713	Doggo_1490	st1z	\N	150440	11495	32210	cw_bot	history-import:cw_bot:1218	2026-05-01 16:32:08.802+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2489885181	Ewan_314	NXNG	\N	895540	360	32209	cw_bot	history-import:cw_bot:4439	2026-08-07 01:31:38.701+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2494077434	matyx00777	XBOX	\N	119390	12935	32209	cw_bot	history-import:cw_bot:4768	2026-08-01 12:20:27.96+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2509513667	Ryderkoo5545	ERC	\N	36090	18824	32207	cw_bot	history-import:cw_bot:5055	2026-08-23 10:46:48.07+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2521267504	matejsbss	OCHG	\N	36910	18736	32209	cw_bot	history-import:cw_bot:7480	2026-07-15 14:29:29.985+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2530992063	smrtak54	DJRK	\N	61050	16499	32209	cw_bot	history-import:cw_bot:6183	2026-08-08 19:57:25.253+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2539070982	Nomdecodetotoc34	PEND	\N	439480	3307	32210	cw_bot	history-import:cw_bot:1244	2026-05-02 16:27:23.292+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2545832975	baconszombiesarmy	FGZW	\N	152980	11373	32210	cw_bot	history-import:cw_bot:4060	2026-04-12 22:02:06.94+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2566901760	Megaobam123z	44gh	\N	30560	19487	32207	cw_bot	history-import:cw_bot:5513	2026-08-19 09:02:01.142+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2577660536	srbj2013	op66	\N	366	28345	32209	cw_bot	history-import:cw_bot:6143	2026-08-08 18:12:23.397+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2628215963	praisevolxtz	st1z	\N	375230	4425	32209	cw_bot	history-import:cw_bot:460	2026-07-17 18:47:40.523+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2633185327	luxxrro	SOPU	\N	533140	2219	32210	cw_bot	history-import:cw_bot:1995	2026-06-28 16:25:22.311+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2644620447	Jakeplayswithbatsyt	2523	\N	89500	14626	32209	cw_bot	history-import:cw_bot:4674	2026-08-01 01:27:28.822+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2667688976	SlimGreycz_2	VLP	\N	130940	12335	32209	cw_bot	history-import:cw_bot:7941	2026-07-08 14:35:29.662+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2699598634	rosta128	HROT	\N	334820	5319	32209	cw_bot	history-import:cw_bot:6968	2026-07-31 16:07:38.598+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2709299989	fishy_axl22	BEZE	\N	457560	3076	32210	cw_bot	history-import:cw_bot:775	2026-05-10 02:24:40.449+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2719084403	aidananthony013	XPQX	\N	157370	11145	32210	cw_bot	history-import:cw_bot:1821	2026-06-13 15:03:54.201+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2741560826	notaps322	OTTR	\N	123480	12720	32209	cw_bot	history-import:cw_bot:9948	2026-07-18 18:26:05.951+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2773606910	Onlypetw	OzTM	\N	8470	23437	32209	cw_bot	history-import:cw_bot:9976	2026-08-09 13:14:08.798+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2793216369	F_Bizzle	UNITY	\N	849400	459	32210	cw_bot	history-import:cw_bot:1160	2026-04-27 21:42:43.611+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2813767675	Sam262010Y	BEZE	\N	380190	4326	32210	cw_bot	history-import:cw_bot:1870	2026-06-19 19:17:38.63+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2844876464	Destructcz23	HROT	\N	532210	2227	32207	cw_bot	history-import:cw_bot:2273	2026-08-20 07:56:23.411+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2853594415	peslolpj	K989	\N	37050	18717	32207	cw_bot	history-import:cw_bot:5752	2026-08-14 16:23:32.844+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2892299154	Baggooooo	UN0	\N	1060000	89	32209	cw_bot	history-import:cw_bot:4550	2026-08-04 19:57:26.933+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2901565950	bestrobloxsimsplayer	NONG	\N	1000000	144	32210	cw_bot	history-import:cw_bot:1183	2026-04-30 19:38:45.807+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2912101187	coolgur0	NXNG	\N	424780	3533	32209	cw_bot	history-import:cw_bot:517	2026-07-17 18:48:27.061+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2915153725	Ishan90091	07W	\N	63780	16296	32209	cw_bot	history-import:cw_bot:10060	2026-08-08 18:49:12.798+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2929134841	thatguyjax777	\N	\N	\N	5597	32210	cw_bot	history-import:cw_bot:3487	2026-04-20 00:15:17.048+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2929825206	roplexbuddy	F4DE	\N	89820	14612	32209	cw_bot	history-import:cw_bot:4263	2026-08-13 04:25:30.76+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2939673088	quantexroblox	🏰 Clan: **SOPU**	\N	\N	1694	32210	cw_bot	history-import:cw_bot:3434	2026-04-27 20:54:01.145+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2948612124	saud02x	UN0	\N	961550	222	32210	cw_bot	history-import:cw_bot:8207	2026-04-25 09:16:47.451+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2956070032	AnnexOO1	DLOW	\N	765920	682	32210	cw_bot	history-import:cw_bot:8251	2026-04-11 00:42:36.107+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2980262380	Xperide	KOR_	\N	112420	13316	32210	cw_bot	history-import:cw_bot:1492	2026-05-15 20:24:52.409+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2988275843	zspjasieniec1	hlx	\N	578850	1759	32207	cw_bot	history-import:cw_bot:8499	2026-08-19 15:24:30.108+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2992299705	Afrykan0	LSQ	\N	180830	10206	32207	cw_bot	history-import:cw_bot:7512	2026-08-28 16:42:30.025+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2999732017	derharzendeharzer	EGP	\N	390950	4133	32210	cw_bot	history-import:cw_bot:4230	2026-04-12 20:09:36.816+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3000748132	PickleCloudNacho	H8ER	\N	692960	985	32210	cw_bot	history-import:cw_bot:3962	2026-04-12 22:17:35.814+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3016891949	petaf1234	HFYG	\N	34190	19039	32207	cw_bot	history-import:cw_bot:5267	2026-08-21 20:32:57.322+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3022616943	floatindrag	SSQD	\N	78850	15276	32209	cw_bot	history-import:cw_bot:2569	2026-08-01 14:35:07.364+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3023165535	wanted_o1lie	UNTY	\N	514380	2422	32210	cw_bot	history-import:cw_bot:1097	2026-04-25 23:24:38.777+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3035841415	shiiiiiru	LSQ	\N	207220	9237	32209	cw_bot	history-import:cw_bot:8811	2026-08-10 16:29:41.022+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3036025083	Fernando0876543	NNVV	\N	10840	22839	32209	cw_bot	history-import:cw_bot:6117	2026-08-09 01:13:58.738+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3039307282	Mr_agnes30	XREX	\N	348030	4993	32210	cw_bot	history-import:cw_bot:8081	2026-06-23 16:38:19.044+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3046788322	Xerenity1	DLOW	\N	166310	10773	32210	cw_bot	history-import:cw_bot:8262	2026-04-11 00:53:10.021+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3059704488	Acerbugs	🏰 Clan: **YLW**	\N	\N	17683	32210	cw_bot	history-import:cw_bot:3715	2025-12-23 17:53:13.404+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3064251597	filipek2600cz	H8ER	\N	74860	15525	32210	cw_bot	history-import:cw_bot:1570	2026-05-17 11:56:22.532+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3076166235	dadgonecrazy2021	WSL	\N	61800	16446	32207	cw_bot	history-import:cw_bot:9783	2026-08-26 19:50:08.045+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3094350982	kki201217	LEGT	\N	273750	7010	32207	cw_bot	history-import:cw_bot:9908	2026-08-18 18:07:03.497+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3110455209	kuroihanin	JPST	\N	2230	26149	32209	cw_bot	history-import:cw_bot:909	2026-07-17 19:08:55.749+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3124408432	Mr96eduD	Mr96	\N	160950	11002	32210	cw_bot	history-import:cw_bot:4164	2026-04-12 20:33:19.889+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3143604581	RebelkaCZ157	VLP	\N	331490	5403	32209	cw_bot	history-import:cw_bot:6717	2026-08-04 09:43:51.606+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3149302489	code_wille	0RBI	\N	357830	4798	32210	cw_bot	history-import:cw_bot:3847	2026-04-05 06:57:37.866+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3167272498	zdendpicl9	DJRK	\N	43660	18016	32207	cw_bot	history-import:cw_bot:5722	2026-08-15 08:51:50.658+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3167571592	Hickarn1	NONG	\N	887440	378	32210	cw_bot	history-import:cw_bot:8387	2026-03-22 11:06:41.693+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3171368431	darklode100	CC4T	\N	345010	5082	32210	cw_bot	history-import:cw_bot:1133	2026-04-27 02:10:10.025+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3181994439	anrijs9991	NXNG	\N	466160	2957	32210	cw_bot	history-import:cw_bot:1196	2026-04-30 19:59:29.548+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3186034676	tobicole	DKWR	\N	123730	12704	32210	cw_bot	history-import:cw_bot:4125	2026-04-12 20:27:08.198+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3214063706	ZoraDaGoatOfficial	ROMU	\N	424330	3546	32210	cw_bot	history-import:cw_bot:961	2026-04-17 00:09:22.187+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3214496713	DarkPhoenix917	UN0	\N	1000000	148	32209	cw_bot	history-import:cw_bot:4512	2026-08-04 19:56:06.385+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3215370935	snorlaxfox1	Fchn	\N	458820	3056	32210	cw_bot	history-import:cw_bot:9389	2026-04-02 02:54:57.549+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3228101331	phoen1x_aus	WSL	\N	51120	17298	32207	cw_bot	history-import:cw_bot:9771	2026-08-26 19:49:57.893+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3233034644	ARIGO11234	Scly	\N	218050	8879	32209	cw_bot	history-import:cw_bot:3312	2026-07-24 20:34:16.905+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3239125804	Pabloeldahablos	🏰 Clan: **EXP**	\N	\N	29386	32210	cw_bot	history-import:cw_bot:1410	2026-05-10 21:35:38.255+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3248091509	professorfeliks	hlx	\N	129280	12415	32209	cw_bot	history-import:cw_bot:8985	2026-07-19 16:26:07.395+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3252894844	vexityonnic	WJAY	\N	526990	2295	32210	cw_bot	history-import:cw_bot:3817	2026-04-05 06:50:41.945+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3270087406	Mrkrecek12	VLP2	\N	5	31458	32207	cw_bot	history-import:cw_bot:5618	2026-08-14 19:39:09.575+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3271035452	Misak0912	K989	\N	113080	13280	32209	cw_bot	history-import:cw_bot:6950	2026-08-01 08:49:00.863+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3271442208	Jonglesje	HROT	\N	440300	3288	32207	cw_bot	history-import:cw_bot:2238	2026-08-24 09:46:55.285+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3282696395	max_squash	Goop	\N	475150	2831	32209	cw_bot	history-import:cw_bot:2125	2026-08-01 03:32:06.841+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3289385978	KnKmor	DK	\N	426580	3499	32209	cw_bot	history-import:cw_bot:8896	2026-08-01 18:12:49.345+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3299278772	xxprozombix	BEZE	\N	588050	1688	32210	cw_bot	history-import:cw_bot:8674	2026-06-26 13:37:08.577+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3317957632	Stepan3456678	HR2T	\N	112880	13288	32209	cw_bot	history-import:cw_bot:7371	2026-07-21 20:40:06.566+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3323392290	D0m1n8tr	SAM	\N	344900	5083	32210	cw_bot	history-import:cw_bot:9278	2026-04-29 06:50:40.467+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3326513585	alexesalt08	🏰 Clan: **NONG**	\N	\N	730	32210	cw_bot	history-import:cw_bot:3472	2026-04-21 20:06:40.446+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3327485448	thegoatedkidof2022	WSL	\N	952	27397	32207	cw_bot	history-import:cw_bot:9713	2026-08-28 19:31:59.738+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3338233326	Andrewasper0987	LSQ	\N	170930	10576	32210	cw_bot	history-import:cw_bot:1853	2026-06-17 12:39:01.167+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3344342434	MUI_5aiyajin	MUI	\N	658550	1174	32210	cw_bot	history-import:cw_bot:3836	2026-04-05 06:57:09.847+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3345239646	vojtas98CZ	K989	\N	12740	22380	32209	cw_bot	history-import:cw_bot:6156	2026-08-08 18:13:17.798+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3357292523	Grec_Game	VLP	\N	80740	15152	32209	cw_bot	history-import:cw_bot:7068	2026-07-30 17:14:48.532+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3370104014	Standa256	VLP	\N	63640	16309	32207	cw_bot	history-import:cw_bot:5142	2026-08-23 03:03:21.508+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3372527888	CokoladovaZmrzska	cspe	\N	111960	13348	32209	cw_bot	history-import:cw_bot:7362	2026-07-22 01:19:32.889+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3377511045	mercstien	B2SS	\N	762170	698	32210	cw_bot	history-import:cw_bot:1344	2026-05-06 09:08:51.241+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3377790375	CharliePatryk	Tbx_	\N	6310	24109	32209	cw_bot	history-import:cw_bot:2457	2026-08-01 19:23:22.272+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3379551767	scytheskii	SOPU	\N	737490	778	32210	cw_bot	history-import:cw_bot:324	2026-04-16 22:13:50.244+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3382833387	kingweslie123	BUTI	\N	103920	13805	32209	cw_bot	history-import:cw_bot:2330	2026-08-12 21:19:37.585+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3393324525	BigWolfPL	XREX	\N	441100	3281	32209	cw_bot	history-import:cw_bot:7822	2026-07-24 20:08:19.243+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3402015952	Josep_xD2	NONG	\N	939620	270	32210	cw_bot	history-import:cw_bot:67	2026-04-27 04:36:38.637+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3416641778	dd_ontop13	SOPU	\N	853080	451	32210	cw_bot	history-import:cw_bot:3826	2026-04-05 06:51:12.613+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3421453702	noliogames	EVOL	\N	28050	19814	32209	cw_bot	history-import:cw_bot:9474	2026-08-04 08:46:51.508+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3439337856	prezley_official2022	VLP2	\N	100810	13976	32209	cw_bot	history-import:cw_bot:7122	2026-07-30 15:19:24.23+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3444459957	Radek25101982	VLP	\N	97350	14182	32209	cw_bot	history-import:cw_bot:6056	2026-08-09 09:04:46.362+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3448405650	eldublinfox	Fchn	\N	408260	3826	32210	cw_bot	history-import:cw_bot:9396	2026-04-01 08:35:40.039+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3451284729	Rilies_rx	JHGJ	\N	197330	9566	32209	cw_bot	history-import:cw_bot:6687	2026-08-04 20:01:20.409+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3456377805	Zyro12347	\N	\N	\N	31580	32210	cw_bot	history-import:cw_bot:3497	2026-04-19 07:03:56.014+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3500795024	Ey3d46	_hot	\N	308210	6035	32210	cw_bot	history-import:cw_bot:297	2026-05-09 14:14:11.57+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3509021767	JonnyM55	STPS	\N	82850	15026	32207	cw_bot	history-import:cw_bot:5556	2026-08-17 00:51:43.291+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3549731928	Thijklo2003	KOHV	\N	474480	2838	32210	cw_bot	history-import:cw_bot:1550	2026-05-17 01:50:48.281+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3557375419	Subtokirbofanyt	AWZY	\N	127310	12517	32209	cw_bot	history-import:cw_bot:2195	2026-07-27 21:40:54.835+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3565857429	Bb874tad	AR2Y	\N	411410	3758	32209	cw_bot	history-import:cw_bot:7971	2026-07-08 14:36:26.417+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3570093892	CZ_Ondiik	HROT	\N	407310	3842	32207	cw_bot	history-import:cw_bot:5872	2026-08-14 19:38:17.627+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3582853902	Godboy94875	212	\N	276090	6932	32209	cw_bot	history-import:cw_bot:2550	2026-08-01 14:32:30.444+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3596245301	Jahodnik1990	SSQD	\N	82320	15064	32209	cw_bot	history-import:cw_bot:6266	2026-08-08 11:21:12.701+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3602402808	Flexsnack21	UNTY	\N	899450	348	32210	cw_bot	history-import:cw_bot:1209	2026-05-01 08:05:11.74+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3628039137	anoknight5	XPQX	\N	109080	13497	32209	cw_bot	history-import:cw_bot:3123	2026-07-28 18:56:15.247+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3639903941	imandaskye	ORBI	\N	764250	691	32209	cw_bot	history-import:cw_bot:2177	2026-08-01 03:30:43.552+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3655474970	Shrooomdevourer10	V1LN	105	409000	105	\N	external_import	history-import:big_bot:1074	2026-07-03 23:39:30.698+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3672938221	zhulenc	VLP	\N	277260	6901	32209	cw_bot	history-import:cw_bot:6531	2026-08-06 21:54:27.517+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3683660130	Medvid3k11	cspe	\N	266350	7258	32209	cw_bot	history-import:cw_bot:6992	2026-07-31 17:00:07.71+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3693112421	levisfound	ORBI	\N	418080	3652	32209	cw_bot	history-import:cw_bot:2200	2026-07-17 04:29:59.602+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3714270625	angiespartytreat	RFIL	\N	456930	3083	32209	cw_bot	history-import:cw_bot:7717	2026-08-02 11:57:07.168+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3717157427	Gx_BlackNinja	SSQD	\N	94220	14357	32210	cw_bot	history-import:cw_bot:3797	2026-04-06 19:59:53.068+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3741610856	DemxnIRL	ORBI	\N	568250	1861	32209	cw_bot	history-import:cw_bot:4487	2026-08-06 00:26:19.98+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3750045967	imnotdigitosim1476	BEZE	\N	493830	2628	32207	cw_bot	history-import:cw_bot:5663	2026-08-14 22:17:44.993+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3753977683	mybanana367	NONG	\N	1050000	104	32210	cw_bot	history-import:cw_bot:1472	2026-05-13 21:54:17.124+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3768828357	mrs_reset	POPS	\N	118340	12991	32210	cw_bot	history-import:cw_bot:8613	2026-06-17 00:15:13.179+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3779230353	goat201470	L1ES	\N	207080	9244	32210	cw_bot	history-import:cw_bot:8280	2026-04-13 16:26:51.02+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3780183080	melounik9085	HR2T	\N	183890	10082	32209	cw_bot	history-import:cw_bot:7341	2026-07-19 14:27:23.079+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3797718809	m4thou3	BMJ4	\N	119770	12921	32209	cw_bot	history-import:cw_bot:3081	2026-07-28 21:07:33.267+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3808414208	Suppe_Can	S7NS	\N	868720	419	32210	cw_bot	history-import:cw_bot:8122	2026-04-27 17:55:05.386+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3830370598	cxr_lo	1DOL	\N	244070	8018	32210	cw_bot	history-import:cw_bot:1443	2026-05-12 09:49:26.321+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3853349557	melpatate12	GANG	\N	552510	2026	32210	cw_bot	history-import:cw_bot:974	2026-04-18 02:12:53.563+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3876471062	cxrl_o	1DOL	\N	368760	4575	32210	cw_bot	history-import:cw_bot:1020	2026-04-19 11:13:00.827+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3919100604	Filda7329	STPS	\N	134900	12167	32209	cw_bot	history-import:cw_bot:6500	2026-08-06 18:48:55.736+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3926695029	22mamamama	tNo	\N	175400	10411	32209	cw_bot	history-import:cw_bot:7460	2026-07-15 07:59:07.687+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3940781859	tigran_2206	BEZE	\N	819540	525	32209	cw_bot	history-import:cw_bot:869	2026-07-17 18:56:54.568+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3978547556	Zoliisrecords	K989	\N	17950	21307	32207	cw_bot	history-import:cw_bot:5000	2026-08-24 10:40:01.728+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4005548494	Nekrynk_cz	HROT	\N	650490	1222	32209	cw_bot	history-import:cw_bot:6857	2026-08-01 23:09:05.564+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4006052667	badamtttt	K989	\N	45470	17816	32209	cw_bot	history-import:cw_bot:6275	2026-08-08 11:25:07.466+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4010792811	1zelvak	BDX	\N	19290	21074	32209	cw_bot	history-import:cw_bot:7280	2026-07-27 11:51:24.945+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4023070188	kocovina98	DJRK	\N	18830	21159	32207	cw_bot	history-import:cw_bot:5736	2026-08-15 11:32:52.389+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4032508929	Skibidieny	K989	\N	290870	6506	32209	cw_bot	history-import:cw_bot:7197	2026-07-30 04:52:07.394+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4034865826	ncksjduwiwjnm	HR2T	\N	358830	4777	32209	cw_bot	history-import:cw_bot:4757	2026-08-01 10:14:30.098+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4035198924	ytpandaroux	ANG2	\N	43030	18082	32209	cw_bot	history-import:cw_bot:935	2026-07-08 19:17:13.13+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4043566918	M4x153452	BFLL	\N	100660	13990	32210	cw_bot	history-import:cw_bot:9240	2026-05-03 00:02:29.48+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4051469126	Naruto61925	_hot	\N	277190	6903	32209	cw_bot	history-import:cw_bot:3399	2026-07-23 20:03:20.004+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4054510143	kudlankovec	VLP2	\N	8650	23393	32209	cw_bot	history-import:cw_bot:2488	2026-08-01 09:59:49.052+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4054820865	jimmy_johnhi	ICYT	\N	324650	5580	32210	cw_bot	history-import:cw_bot:1427	2026-05-11 01:19:45.857+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4097051785	yO_aDzeY	op66	\N	31130	19406	32210	cw_bot	history-import:cw_bot:1672	2026-05-23 10:59:06.769+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4113094220	TTobbboTT	HERD	\N	506250	2512	32210	cw_bot	history-import:cw_bot:9230	2026-05-12 19:20:42.195+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4130228136	Deezwalnutsbig	WWGT	\N	19	30580	32210	cw_bot	history-import:cw_bot:4198	2026-04-12 20:04:58.899+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4138810457	ibaitier	ORB	\N	75020	15508	32210	cw_bot	history-import:cw_bot:9126	2026-07-04 07:44:27.013+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4161934376	honza01021983	DJRK	\N	447280	3200	32207	cw_bot	history-import:cw_bot:4852	2026-08-28 06:57:40.513+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4167232216	nanuk_2232	VLP2	\N	204330	9342	32209	cw_bot	history-import:cw_bot:6308	2026-08-08 12:06:58.145+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4177849716	doperthanyou67	IVLI	\N	25360	20157	32209	cw_bot	history-import:cw_bot:9073	2026-07-08 01:06:13.66+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4197618114	Danczek0102	OCHG	\N	8630	23402	32209	cw_bot	history-import:cw_bot:6290	2026-08-08 16:08:23.534+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4215988499	abby_gamera	V1LN	\N	340670	5178	32210	cw_bot	history-import:cw_bot:8161	2026-04-28 15:06:15.006+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4224841429	Holemedonescr10	3zEZ	\N	530000	2250	32210	cw_bot	history-import:cw_bot:1600	2026-05-20 19:08:41.718+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4232697950	kankojoe	1FCL	\N	6980	23856	32210	cw_bot	history-import:cw_bot:1843	2026-06-16 17:49:30.715+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4238790853	samsam16725	ROMU	\N	123430	12723	32210	cw_bot	history-import:cw_bot:100	2026-06-19 21:20:32.05+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4242955713	KazuyaTTV	DRK5	\N	97490	14172	32210	cw_bot	history-import:cw_bot:218	2026-05-01 10:25:23.892+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4247108285	irdski	IWHN	\N	164570	10837	32207	cw_bot	history-import:cw_bot:4722	2026-08-14 21:21:37.198+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4281402342	Selcuk1143	SW23	\N	53100	17119	32209	cw_bot	history-import:cw_bot:3056	2026-07-28 21:24:31.882+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4290313900	rubberluffy1235	DRK5	\N	19360	21067	32209	cw_bot	history-import:cw_bot:4243	2026-08-13 06:29:40.629+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4301431724	Bobsussybu123	x100	\N	17950	21310	32209	cw_bot	history-import:cw_bot:2525	2026-08-01 12:26:31.166+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4313949380	Dada343410	W0m1	\N	20390	20888	32209	cw_bot	history-import:cw_bot:6393	2026-08-07 20:30:35.379+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4336818312	Myguy_Ky1	Nump	\N	20240	20913	32209	cw_bot	history-import:cw_bot:3220	2026-07-26 11:08:12.603+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4345972644	venti12011201	2WEI	\N	149190	11548	32210	cw_bot	history-import:cw_bot:8546	2026-06-17 00:04:41.889+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4350673674	jblmax11	RATZ	\N	8	31180	32210	cw_bot	history-import:cw_bot:1739	2026-05-27 13:43:08.907+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4388509145	kukurice153	tNo	\N	102700	13867	32209	cw_bot	history-import:cw_bot:5957	2026-08-11 16:22:14.568+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4393951337	lukascccs	VLP2	\N	50530	17357	32209	cw_bot	history-import:cw_bot:6138	2026-08-08 17:36:40.231+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4414924368	1ninjaomg	_MGW	\N	79700	15214	32210	cw_bot	history-import:cw_bot:1083	2026-04-25 20:32:31.847+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4418075437	Koudys7	STPS	\N	9020	23301	32207	cw_bot	history-import:cw_bot:5350	2026-08-20 16:59:38.171+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4452395552	Xavier_Toorp	STPS	\N	79760	15209	32209	cw_bot	history-import:cw_bot:7042	2026-07-31 00:21:48.123+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4468537889	tvojemamag101	VLP2	\N	31360	19376	32207	cw_bot	history-import:cw_bot:5094	2026-08-22 23:18:43.789+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4471953599	alexander1234_hi56	B3ZE	\N	180210	10229	32209	cw_bot	history-import:cw_bot:8797	2026-08-12 23:40:25.692+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4482372398	Burak30_CZ	VLP	\N	94110	14364	32209	cw_bot	history-import:cw_bot:7171	2026-07-30 13:05:24.983+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4483758330	Sooz_events	NS4R	\N	520210	2357	32210	cw_bot	history-import:cw_bot:4069	2026-04-12 22:02:33.256+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4506575217	dracislav	HROT	\N	769540	668	32209	cw_bot	history-import:cw_bot:7313	2026-07-26 08:10:51.343+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4511725993	Kvetamin	VLP	\N	337100	5260	32207	cw_bot	history-import:cw_bot:5251	2026-08-21 19:36:06.87+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4515946186	bakedashboii	SLRP	\N	196780	9594	32210	cw_bot	history-import:cw_bot:8298	2026-04-19 17:46:14.335+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4540869398	proto123q	NS42	\N	256170	7598	32209	cw_bot	history-import:cw_bot:573	2026-07-17 18:49:06.221+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4584982387	Misabilk	VLP2	\N	316810	5795	32209	cw_bot	history-import:cw_bot:5944	2026-08-11 16:19:44.683+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4597064685	nevimheslo108	K989	\N	130780	12343	32209	cw_bot	history-import:cw_bot:6653	2026-08-05 20:02:56.557+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4610459819	srolik249	Sro	\N	88500	14677	32207	cw_bot	history-import:cw_bot:5712	2026-08-15 08:07:19.768+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4633578732	m3wpewpew	07W	\N	189670	9869	32209	cw_bot	history-import:cw_bot:3003	2026-07-29 15:03:42.497+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4634042698	Psxtrader327	OTTR	\N	772090	655	32207	cw_bot	history-import:cw_bot:8513	2026-08-22 22:47:27.757+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4652078124	jaximeler	hlx	\N	398660	3997	32210	cw_bot	history-import:cw_bot:8431	2026-06-17 00:24:11.273+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4680362717	hrac_829	CITC	\N	104	29594	32209	cw_bot	history-import:cw_bot:6434	2026-08-06 15:57:32.872+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4686873488	Monty_Tomas10	K989	\N	404180	3894	32207	cw_bot	history-import:cw_bot:5329	2026-08-21 07:45:07.526+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4759297476	psst1422	HROT	\N	677340	1068	32210	cw_bot	history-import:cw_bot:56	2026-05-20 23:35:12.448+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4782011239	theqqxz	DRK5	\N	49310	17461	32209	cw_bot	history-import:cw_bot:4597	2026-08-04 04:21:59.834+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4792692703	ced123zx	PEND	\N	209590	9156	32209	cw_bot	history-import:cw_bot:719	2026-07-17 18:57:41.576+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4833004455	Deniska_1990	HROT	\N	693530	982	32209	cw_bot	history-import:cw_bot:7328	2026-07-25 23:11:40.176+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4897243840	Bubbly_num2	UNO	\N	958410	231	32210	cw_bot	history-import:cw_bot:8373	2026-04-06 08:31:41.74+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4957497369	ammi0729	GANG	\N	569630	1850	32210	cw_bot	history-import:cw_bot:987	2026-04-18 02:13:35.573+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4989918296	PtiDoriankt	ROMU	\N	130570	12355	32209	cw_bot	history-import:cw_bot:851	2026-07-17 18:56:47.208+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4999104751	Speaxk17	P2PS	\N	194580	9688	32210	cw_bot	history-import:cw_bot:1631	2026-05-21 01:10:10.679+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5042635636	Cultiv8R_NZ	DLOW	\N	646170	1248	32210	cw_bot	history-import:cw_bot:8231	2026-04-11 00:40:42.513+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5044736168	CBroGolden	N2	\N	11610	22659	32210	cw_bot	history-import:cw_bot:4095	2026-04-12 20:16:41.119+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5063089605	REAL3ST_NZ	DLOW	\N	423130	3567	32210	cw_bot	history-import:cw_bot:8272	2026-04-11 00:55:05.933+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5120442322	kirasm0m	ORBI	\N	371930	4505	32209	cw_bot	history-import:cw_bot:2210	2026-07-17 04:33:26.901+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5127406568	dadchris86	NONG	\N	625890	1396	32210	cw_bot	history-import:cw_bot:8188	2026-04-21 16:30:58.569+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5128164487	drako83cz	HROT	\N	471050	2890	32207	cw_bot	history-import:cw_bot:5539	2026-08-17 12:17:13.979+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5128774229	livelasso	2WEI	\N	348250	4988	32209	cw_bot	history-import:cw_bot:9002	2026-07-19 09:14:05.882+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5138542110	greatfullyyy	1FCL	\N	183020	10125	32209	cw_bot	history-import:cw_bot:2907	2026-07-31 06:42:06.061+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5143387515	babykweeef	BOSS	\N	1060000	90	32207	cw_bot	history-import:cw_bot:2107	2026-08-14 22:59:19.851+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5170991645	galvoir2712	L1ES	\N	126250	12569	32209	cw_bot	history-import:cw_bot:4422	2026-08-07 08:30:13.219+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5189669801	johqnel	Sro	\N	8240	23497	32207	cw_bot	history-import:cw_bot:5573	2026-08-17 00:52:03.053+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5197468736	ttkcash1	🏰 Clan: **Goop**	\N	681670	1036	32210	cw_bot	history-import:cw_bot:1397	2026-04-21 00:27:07.401+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5203613717	Arteomcka0_z	BEZE	\N	860610	434	32209	cw_bot	history-import:cw_bot:3378	2026-07-23 19:33:38.366+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5207679662	GrinchFrend	HR2T	\N	250350	7795	32207	cw_bot	history-import:cw_bot:4886	2026-08-28 13:55:05.802+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5209078854	Rydma73	H8ER	\N	868920	418	32210	cw_bot	history-import:cw_bot:3974	2026-04-12 22:17:12.736+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5254272309	shadow_ggofficial	RLHA	\N	390570	4144	32210	cw_bot	history-import:cw_bot:1760	2026-05-28 21:55:36.515+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5291595908	iTTv6	Lawn	\N	318090	5760	32210	cw_bot	history-import:cw_bot:4003	2026-04-12 21:22:33.583+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5328968538	Iphone1835	SAM4	\N	96460	14228	32207	cw_bot	history-import:cw_bot:5197	2026-08-21 18:06:41.136+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5339963078	Kvetamin2	VLP	\N	302760	6200	32209	cw_bot	history-import:cw_bot:6543	2026-08-07 09:05:29.727+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5378360782	dog22122011trade	K989	\N	414	28220	32209	cw_bot	history-import:cw_bot:6484	2026-08-06 18:22:55.632+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5383071838	mr_895675	LXCC	\N	109590	13466	32207	cw_bot	history-import:cw_bot:7683	2026-08-14 20:23:40.83+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5400417690	catIover57	H8ER	\N	395740	4050	32209	cw_bot	history-import:cw_bot:4328	2026-08-09 19:02:46.162+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5407742794	baba_gamer239	ROMU	\N	111970	13347	32210	cw_bot	history-import:cw_bot:1587	2026-05-20 17:25:36.224+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5414318030	demonfaarm3	2WEI	\N	134550	12180	32210	cw_bot	history-import:cw_bot:9358	2026-03-31 20:30:04.513+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5436365094	Bruin444444	A6NT	\N	460040	3032	32209	cw_bot	history-import:cw_bot:2411	2026-08-10 00:49:21.439+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5514178688	Mason03388	SSQD	\N	71560	15742	32210	cw_bot	history-import:cw_bot:4173	2026-04-12 21:05:45.162+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5516978036	omgitzmaatt3	UKUF	\N	8550	23416	32207	cw_bot	history-import:cw_bot:9877	2026-08-23 11:16:05.962+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5534860785	rostislavvv155	HROT	\N	626900	1385	32209	cw_bot	history-import:cw_bot:2865	2026-07-31 15:54:01.042+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5575261241	noliogames3	IWHN	\N	53870	17070	32209	cw_bot	history-import:cw_bot:9491	2026-08-04 08:47:00.84+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5615179956	MonsterWithGod	ANG_	\N	204330	9344	32210	cw_bot	history-import:cw_bot:4145	2026-04-12 21:05:00.581+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5623447261	quoicoubeh5608	IFRA	\N	71560	15739	32209	cw_bot	history-import:cw_bot:6216	2026-08-08 20:49:37.159+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5703128088	elnubsen	SOPU	\N	783450	622	32210	cw_bot	history-import:cw_bot:3871	2026-04-05 06:56:35.208+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5708006511	prd2137	URS7	\N	8220	23503	32209	cw_bot	history-import:cw_bot:6740	2026-08-04 10:16:22.823+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5718001505	samaorithor	WSL	\N	9310	23226	32207	cw_bot	history-import:cw_bot:9798	2026-08-26 19:50:37.879+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5743563432	Alexfarm_too	VU	\N	156910	11169	32209	cw_bot	history-import:cw_bot:10078	2026-08-08 09:43:53.852+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5793778586	PeaceAllAlone	UN0	\N	1050000	105	32210	cw_bot	history-import:cw_bot:8090	2026-04-26 19:32:34.93+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5818869297	knoxcoder	SOPU	\N	572020	1830	32209	cw_bot	history-import:cw_bot:3026	2026-07-29 13:28:15.912+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5837946305	husos112410	COMT	\N	48590	17540	32209	cw_bot	history-import:cw_bot:3335	2026-07-24 20:49:25.624+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6024579040	siemanokolano3211	HSRS	\N	59740	16596	32209	cw_bot	history-import:cw_bot:8839	2026-08-08 13:22:11.942+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6109731708	YoBaskett	W2VY	\N	523800	2327	32209	cw_bot	history-import:cw_bot:433	2026-07-17 18:47:23.21+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6156770625	pepajzikv2	STPS	\N	83030	15019	32207	cw_bot	history-import:cw_bot:5388	2026-08-20 18:30:12.586+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6180933436	Atefluigi1	V1LN	\N	73440	15619	32207	cw_bot	history-import:cw_bot:4828	2026-08-28 16:24:47.076+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7005100565	Crazypuzzlehead15	UKUF	\N	373160	4470	32209	cw_bot	history-import:cw_bot:2473	2026-08-01 09:28:25.648+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7106055158	windstok10	N1TR	\N	284810	6682	32207	cw_bot	history-import:cw_bot:5147	2026-08-23 04:27:42.377+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7144927541	linya_w	2WEI	\N	288860	6569	32210	cw_bot	history-import:cw_bot:8572	2026-06-27 16:58:18.228+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7168755253	JoJo_Gaming2341	XMA2	\N	243320	8045	32210	cw_bot	history-import:cw_bot:1891	2026-06-20 14:27:05.49+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7202704987	wslhuge	WSL	\N	139970	11932	32207	cw_bot	history-import:cw_bot:9822	2026-08-26 19:55:49.742+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7232809185	Kessho02	PEND	\N	234380	8321	32209	cw_bot	history-import:cw_bot:606	2026-07-17 18:49:22.998+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7426690057	Duckyphant	L1ES	\N	885610	380	32207	cw_bot	history-import:cw_bot:5644	2026-08-14 22:07:36.457+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7577631298	zeefarmer	Z3EE	\N	334000	5347	32210	cw_bot	history-import:cw_bot:1882	2026-06-20 03:22:08.873+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7583161395	Tgzzgzzltg33	HR2T	\N	121480	12818	32209	cw_bot	history-import:cw_bot:7270	2026-07-27 11:39:20.283+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7697761463	joeponsock12345	V1LN	\N	1620	26621	32209	cw_bot	history-import:cw_bot:8953	2026-07-26 22:32:25.767+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7710452262	hrac_821	BDX	\N	11640	22654	32209	cw_bot	history-import:cw_bot:6008	2026-08-10 07:17:41.604+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7742077490	sirwabbs	st1z	\N	333810	5354	32209	cw_bot	history-import:cw_bot:4646	2026-08-02 03:35:57.878+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7806857762	selena082319	W2VY	\N	502480	2547	32209	cw_bot	history-import:cw_bot:381	2026-07-17 18:33:34.992+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7811627595	Star_1110789	st1z	\N	127840	12484	32210	cw_bot	history-import:cw_bot:919	2026-05-01 16:32:32.474+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8016179740	limitless123234	DLOW	\N	1420	26838	32207	cw_bot	history-import:cw_bot:8768	2026-08-15 05:26:46.656+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8087930970	sleeperb99	OT2R	\N	99110	14068	32209	cw_bot	history-import:cw_bot:9028	2026-07-17 16:18:36.71+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8182869593	SuperrMessi87	W0m1	\N	14510	21998	32207	cw_bot	history-import:cw_bot:5019	2026-08-23 20:41:38.353+00
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8187537946	nzr5581	V1LN	\N	443970	3246	32210	cw_bot	history-import:cw_bot:8200	2026-04-23 19:12:26.428+00
+COPY battles."Pixel Chick Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	136661329	ghanta2a	S7NS	\N	368610	4579	32210	cw_bot	history-import:cw_bot:8108	2026-04-26 23:31:56.073+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	138619446	darkenedwishes	EXP	\N	312580	5915	32210	cw_bot	history-import:cw_bot:2011	2026-06-28 16:26:03.666+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	148251054	EpicRider6729	ORBI	\N	251970	7736	32210	cw_bot	history-import:cw_bot:3857	2026-04-05 07:59:08.938+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	156957387	itsminerr	ORBI	\N	774730	649	32209	cw_bot	history-import:cw_bot:2160	2026-08-01 03:26:51.039+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	160013234	Megasonicex	S7NS	\N	467350	2944	32209	cw_bot	history-import:cw_bot:3247	2026-07-25 06:28:07.641+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	163195458	20xseron20	VLP	\N	2810	25727	32209	cw_bot	history-import:cw_bot:6577	2026-08-06 07:05:22.236+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	165817996	16_BitPotato	UN0	\N	1210000	17	32209	cw_bot	history-import:cw_bot:4528	2026-08-04 19:56:26.259+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	170719079	tnocko	HROT	\N	629230	1366	32209	cw_bot	history-import:cw_bot:2294	2026-08-12 07:40:01.692+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	170896669	toratot	OTTR	\N	362060	4713	32210	cw_bot	history-import:cw_bot:9154	2026-06-29 23:29:26.064+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	184309752	expellez	NS4R	\N	542230	2130	32210	cw_bot	history-import:cw_bot:1108	2026-04-25 23:28:51.667+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	192463394	NukeOfLava12	CB_	\N	450790	3151	32210	cw_bot	history-import:cw_bot:4136	2026-04-12 20:31:33.085+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	192653117	carloskar08	MLIB	\N	364650	4655	32209	cw_bot	history-import:cw_bot:4471	2026-08-05 22:58:43.526+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	194076029	Gromic5876	MNBB	\N	12940	22339	32209	cw_bot	history-import:cw_bot:6104	2026-08-08 23:25:51.173+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	204751057	SainLol	fr2e	\N	416	28211	32209	cw_bot	history-import:cw_bot:10043	2026-08-08 18:46:45.184+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	207778892	unoyea441	vysn	\N	228750	8490	32210	cw_bot	history-import:cw_bot:3950	2026-04-19 19:32:32.711+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	210966410	onoraksal	hlx	\N	590600	1659	32207	cw_bot	history-import:cw_bot:8786	2026-08-15 13:55:15.256+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	241713789	J2X1NESIWXID	LXCC	\N	36960	18729	32209	cw_bot	history-import:cw_bot:755	2026-07-17 18:58:04.211+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	250562586	zcm_Xi	CC4T	\N	56590	16845	32209	cw_bot	history-import:cw_bot:4369	2026-08-09 17:51:30.585+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	254885188	Prodav1	SULS	\N	490430	2666	32209	cw_bot	history-import:cw_bot:8008	2026-07-08 14:39:05.73+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	272741362	kyle558888	LV13	\N	2240	26143	32209	cw_bot	history-import:cw_bot:226	2026-07-17 17:23:47.778+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	273316338	stevowsl	WSL	\N	145720	11689	32207	cw_bot	history-import:cw_bot:9808	2026-08-26 19:54:20.308+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	343511782	octojabb	SLRP	\N	334650	5326	32210	cw_bot	history-import:cw_bot:9252	2026-04-30 14:51:23.517+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	365225419	prorik228	07W	\N	570060	1845	32209	cw_bot	history-import:cw_bot:7917	2026-07-08 14:30:35.5+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	413355357	tofuu12342	B33Z	\N	1170	27131	32210	cw_bot	history-import:cw_bot:631	2026-06-12 05:00:54.965+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	413758213	NotMrTroll_YT	SOPU	\N	703400	939	32209	cw_bot	history-import:cw_bot:2837	2026-07-31 16:31:43.631+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	418400389	vojtaprovaznik	VLP2	\N	13290	22269	32207	cw_bot	history-import:cw_bot:4943	2026-08-26 06:26:26.509+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	420043304	Malik_daghan21346	OTTR	\N	63910	16284	32209	cw_bot	history-import:cw_bot:6341	2026-08-07 16:31:48.928+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	423460663	bub2540	POPS	\N	601660	1573	32210	cw_bot	history-import:cw_bot:1513	2026-05-16 12:19:40.788+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	425660194	chinovelaz	stzr	\N	63700	16304	32210	cw_bot	history-import:cw_bot:4157	2026-04-12 20:33:18.646+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	435823564	brandon292016	3zEZ	\N	203620	9374	32210	cw_bot	history-import:cw_bot:1040	2026-04-20 06:06:34.027+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	436460285	spideenation	fr3e	\N	207010	9245	32209	cw_bot	history-import:cw_bot:2924	2026-07-31 03:58:35.999+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	440712600	xblackstar16x	🏰 Clan: **SLRP**	\N	\N	6784	32210	cw_bot	history-import:cw_bot:3668	2026-03-23 23:51:22.847+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	463900811	AgentP_0928	NONG	\N	938600	271	32210	cw_bot	history-import:cw_bot:656	2026-04-26 04:08:51.656+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	470464024	ceficat	POPS	\N	185110	10041	32209	cw_bot	history-import:cw_bot:2586	2026-08-01 14:42:49.688+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	496935076	mawahlah	07W	\N	395650	4054	32210	cw_bot	history-import:cw_bot:53	2026-06-27 00:05:32.123+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	502312785	tomasek8557	BDX	\N	389630	4154	32207	cw_bot	history-import:cw_bot:5458	2026-08-19 16:40:59.801+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	503486505	campagnolo5	_hot	\N	751210	739	32207	cw_bot	history-import:cw_bot:7663	2026-08-16 14:51:20.144+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	532884141	walosdan	VLP2	\N	19170	21101	32209	cw_bot	history-import:cw_bot:5918	2026-08-12 18:39:07.299+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	538266747	Judah3000	SVLW	\N	247070	7909	32209	cw_bot	history-import:cw_bot:7853	2026-07-08 14:31:05.959+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	544198160	JimmyCIeetus	SOPU	\N	695430	975	32209	cw_bot	history-import:cw_bot:480	2026-07-17 18:47:56.313+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	562277230	Berryuk19sdad	UN0	\N	947940	251	32210	cw_bot	history-import:cw_bot:3918	2026-06-24 23:01:30.995+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	573589049	nerfbro9000	GSTG	\N	330610	5424	32210	cw_bot	history-import:cw_bot:9409	2026-03-26 19:15:43.999+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	573955632	Johanplayzrb21	HARM	\N	914840	311	32210	cw_bot	history-import:cw_bot:1000	2026-04-18 02:22:53.465+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	588685015	jonis_chicken	XBOX	\N	346080	5059	32210	cw_bot	history-import:cw_bot:9216	2026-06-13 20:55:03.535+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	621412324	dabcat818	S7NS	\N	379090	4344	32210	cw_bot	history-import:cw_bot:1785	2026-06-07 17:32:51.445+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	653179078	killinBABYS111	DGSL	\N	420710	3605	32210	cw_bot	history-import:cw_bot:8289	2026-04-15 20:29:26.949+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	656420117	MercilessBanditTaken	NONG	\N	959870	226	32210	cw_bot	history-import:cw_bot:176	2026-04-19 13:44:30.618+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	661099895	patcola2010	V1LN	\N	9120	23277	32209	cw_bot	history-import:cw_bot:7806	2026-07-24 00:04:23.322+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	688928053	Noahangrybird1234	S7NS	\N	501890	2554	32210	cw_bot	history-import:cw_bot:8356	2026-04-06 08:29:37.081+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	694900194	Manolodroidgamer12	CB_	\N	137050	12065	32210	cw_bot	history-import:cw_bot:1935	2026-06-21 04:18:35.734+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	704550307	osmanefe334	K0ii	\N	66090	16146	32210	cw_bot	history-import:cw_bot:8344	2026-04-06 08:27:50.069+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	709222551	Theozzz12	UN0	\N	990360	174	32210	cw_bot	history-import:cw_bot:8173	2026-04-26 15:05:43.056+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	722456679	mujiTABA1	\N	\N	604050	1551	32210	cw_bot	history-import:cw_bot:2024	2026-06-28 16:42:57.557+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	779059828	jimynew	SS1N	\N	12180	22528	32210	cw_bot	history-import:cw_bot:1538	2026-05-16 23:39:36.553+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	782937820	the_macraft7	skvi	\N	977500	195	32207	cw_bot	history-import:cw_bot:7570	2026-08-16 22:06:59.348+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	790873913	homless9	STPS	\N	122	29430	32209	cw_bot	history-import:cw_bot:6448	2026-08-06 17:44:57.059+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	810054419	catloncat	ytvn	\N	83570	14993	32210	cw_bot	history-import:cw_bot:4028	2026-04-12 21:24:49.553+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	844720150	Sebastjan35	NXNG	\N	428170	3478	32209	cw_bot	history-import:cw_bot:536	2026-07-17 18:48:35.159+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	855529087	lolo0510p	\N	\N	372690	4481	32209	cw_bot	history-import:cw_bot:8800	2026-08-11 02:08:03.012+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	864632403	galaxyknight9204	Gewp	\N	34	30214	32210	cw_bot	history-import:cw_bot:1772	2026-05-29 01:34:02.793+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	876991750	Mertiliano	FFLH	\N	843920	474	32209	cw_bot	history-import:cw_bot:2140	2026-08-01 04:17:09.805+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	877353566	lpvarmi	VLP	\N	351320	4928	32209	cw_bot	history-import:cw_bot:7214	2026-07-29 20:25:50.738+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	911583034	Jozula12	HROT	\N	602860	1563	32209	cw_bot	history-import:cw_bot:3102	2026-07-28 21:12:50.801+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	911932139	Daniel8czs	HROT	\N	472330	2869	32209	cw_bot	history-import:cw_bot:6814	2026-08-01 11:19:39.153+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	915515621	math33g4	ACDR	\N	167780	10711	32209	cw_bot	history-import:cw_bot:7954	2026-07-08 14:35:53.418+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	916438379	Tq_Senior	SOPU	\N	954760	241	32209	cw_bot	history-import:cw_bot:3146	2026-07-27 19:03:49.201+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	955175856	fatalwaccle	DRK5	\N	560900	1943	32210	cw_bot	history-import:cw_bot:4186	2026-04-12 20:31:29.037+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	981933151	doczmerson	hlx	\N	513350	2437	32209	cw_bot	history-import:cw_bot:7604	2026-08-11 13:00:07.332+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	983863343	akita_nuru	MTNR	\N	235530	8270	32207	cw_bot	history-import:cw_bot:9585	2026-08-16 14:43:07.843+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	984824128	xFrixal	Goop	\N	874080	406	32210	cw_bot	history-import:cw_bot:9305	2026-04-19 18:12:12.648+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1000059115	rimonus	SOPU	\N	796400	579	32210	cw_bot	history-import:cw_bot:1805	2026-06-13 11:10:39.923+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1024664859	NotArsann7	AR2Y	\N	247020	7913	32210	cw_bot	history-import:cw_bot:1257	2026-05-03 05:34:41.421+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1029579815	Marshmellow_1177	BLXF	\N	157640	11138	32210	cw_bot	history-import:cw_bot:1302	2026-05-05 21:28:38.219+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1049702109	realchaseblox	FaZ	\N	122720	12748	32210	cw_bot	history-import:cw_bot:1316	2026-05-05 21:59:20.786+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1081067684	mimilrol	ROMU	\N	364480	4662	32209	cw_bot	history-import:cw_bot:410	2026-07-17 18:47:08.019+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1109750537	tonynecko	UN0	\N	885390	383	32209	cw_bot	history-import:cw_bot:4278	2026-08-12 03:27:47.805+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1137640592	clackerskill	HPE	\N	170480	10593	32209	cw_bot	history-import:cw_bot:4662	2026-08-01 00:22:28.841+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1150663755	Ramaxik2002	HR2T	\N	219490	8831	32209	cw_bot	history-import:cw_bot:5989	2026-08-10 19:24:39.717+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1157052710	laughytrex	XPQX	\N	136750	12080	32210	cw_bot	history-import:cw_bot:894	2026-04-24 03:00:59.658+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1160481763	fajeczka4	BOTZ	\N	15710	21748	32209	cw_bot	history-import:cw_bot:6793	2026-08-03 09:49:43.16+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1163321217	protozejelen	LV13	\N	126550	12555	32209	cw_bot	history-import:cw_bot:7138	2026-07-30 15:23:48.828+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1171409734	tominko130	K989	\N	31450	19371	32209	cw_bot	history-import:cw_bot:6327	2026-08-07 12:38:50.885+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1178078831	mavilure	NXNG	\N	446730	3210	32210	cw_bot	history-import:cw_bot:9115	2026-07-04 02:37:26.103+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1179507007	tomisek134	HR2T	\N	509520	2473	32209	cw_bot	history-import:cw_bot:4745	2026-08-11 18:03:07.712+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1179750334	D40RC3	WYC	\N	15470	21803	32209	cw_bot	history-import:cw_bot:6846	2026-08-01 15:00:26.628+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1192463440	Jonas139075	dkps	\N	12850	22364	32209	cw_bot	history-import:cw_bot:2783	2026-07-31 19:36:15.216+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1201926794	acejdh	P2PS	\N	157230	11155	32210	cw_bot	history-import:cw_bot:4207	2026-04-12 20:05:16.827+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1221841742	Azurqson	BOSS	\N	1160000	29	32210	cw_bot	history-import:cw_bot:3789	2026-04-06 19:59:26.612+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1232493274	MARYNADA058	BDX	\N	13730	22169	32209	cw_bot	history-import:cw_bot:6892	2026-07-31 20:00:25.469+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1238833367	ciganskysaman	K_TB	\N	330	28451	32207	cw_bot	history-import:cw_bot:5796	2026-08-14 17:36:42.35+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1239924818	txawhy	YEMN	\N	298800	6315	32210	cw_bot	history-import:cw_bot:1004	2026-04-18 14:07:59.883+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1240710842	voffenleon	ICYT	\N	84640	14920	32209	cw_bot	history-import:cw_bot:7019	2026-07-31 09:34:26.196+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1243643868	ASEYIsoos	Goop	\N	911710	323	32209	cw_bot	history-import:cw_bot:9430	2026-08-12 22:46:12.145+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1245227095	TheoFuraxe	ROMU	\N	634140	1327	32209	cw_bot	history-import:cw_bot:128	2026-07-17 18:32:35.762+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1253134958	Emalele093	xxEU	\N	48090	17573	32209	cw_bot	history-import:cw_bot:3171	2026-07-27 16:55:04.085+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1258957228	idjdjjdi2	B2ZE	\N	30980	19430	32210	cw_bot	history-import:cw_bot:1943	2026-06-21 20:32:04.889+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1274135054	latestmallard87	vysn	\N	276300	6927	32210	cw_bot	history-import:cw_bot:3752	2026-04-18 01:16:24.862+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1277089394	LUVALICEEXO	XTND	\N	203330	9382	32210	cw_bot	history-import:cw_bot:9265	2026-04-28 15:57:56.007+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1283935690	Laura_V13	07W	\N	254780	7649	32209	cw_bot	history-import:cw_bot:4348	2026-08-09 17:50:39.523+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1286384664	uzuisnipes	W2VY	\N	747550	752	32209	cw_bot	history-import:cw_bot:342	2026-07-17 18:33:12.116+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1294494054	Ethanblaze112	CBJT	\N	283110	6729	32210	cw_bot	history-import:cw_bot:8325	2026-04-03 19:35:37.401+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1307288868	ivanpr03	7HRW	\N	162950	10925	32209	cw_bot	history-import:cw_bot:2601	2026-07-31 20:07:37.335+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1326160949	VeriseQ1996	HROT	\N	314730	5851	32207	cw_bot	history-import:cw_bot:5235	2026-08-21 19:32:55.468+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1330097404	tomasbudik007	VLP	\N	398640	3998	32209	cw_bot	history-import:cw_bot:7103	2026-07-30 18:00:28.62+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1339745372	alescar234	S2PU	\N	190900	9824	32209	cw_bot	history-import:cw_bot:2964	2026-07-30 13:27:00.044+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1364275114	Czech9912	VLP	\N	391120	4128	32209	cw_bot	history-import:cw_bot:6696	2026-08-04 20:29:16.813+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1373748557	poopsmcgoops132	🏰 Clan: **YLW**	\N	169220	10652	32210	cw_bot	history-import:cw_bot:8364	2026-04-24 01:57:13.047+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1376213247	eric23129	MSHC	\N	9170	23268	32210	cw_bot	history-import:cw_bot:3941	2026-06-26 14:54:31.345+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1380082703	Allalboy2	Goop	\N	472770	2861	32210	cw_bot	history-import:cw_bot:8219	2026-04-08 19:50:25.995+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1384486800	Hellowentonio	WSL	\N	626960	1382	32207	cw_bot	history-import:cw_bot:9833	2026-08-26 19:56:32.35+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1384716628	barti12345610	LSQ	\N	32820	19199	32209	cw_bot	history-import:cw_bot:8534	2026-07-21 19:41:58.049+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1386665561	nuxx7	Z3EE	\N	300110	6280	32210	cw_bot	history-import:cw_bot:277	2026-05-17 10:44:35.489+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1403606137	GhostWhisperer03	H2RM	\N	39650	18453	32209	cw_bot	history-import:cw_bot:6915	2026-08-01 01:11:48.951+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1437069784	oldmanwrinklenose	BBSH	\N	181460	10180	32210	cw_bot	history-import:cw_bot:3902	2026-05-25 16:50:02.805+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1452886316	kubistaa	DJRK	\N	43390	18047	32207	cw_bot	history-import:cw_bot:5223	2026-08-21 19:09:04.387+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1462748729	dragonballx1412	V1LN	\N	264930	7303	32209	cw_bot	history-import:cw_bot:195	2026-07-17 01:03:33.384+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1469224615	TheRealToonster	XBOX	\N	320850	5681	32210	cw_bot	history-import:cw_bot:1093	2026-04-25 23:24:03.687+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1476403654	dilerij2	BEZE	\N	383000	4281	32210	cw_bot	history-import:cw_bot:2077	2026-07-01 18:46:57.039+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1501050755	RealYTStarz	st1z	\N	293070	6446	32210	cw_bot	history-import:cw_bot:1976	2026-06-27 18:27:30.824+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1501625591	floriansamuraiu	07W	\N	160530	11019	32209	cw_bot	history-import:cw_bot:7907	2026-07-08 14:32:48.38+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1509495433	arrume_aparte12	SULS	\N	55740	16917	32209	cw_bot	history-import:cw_bot:8025	2026-07-08 14:39:41.28+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1510971300	Informix_CZ	KMo	\N	87100	14766	32209	cw_bot	history-import:cw_bot:6228	2026-08-08 08:18:03.311+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1514487909	mufflingg	Z3EE	\N	274520	6990	32210	cw_bot	history-import:cw_bot:2049	2026-06-30 03:14:01.994+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1515580709	notaurorasky008	UNTY	\N	992440	169	32207	cw_bot	history-import:cw_bot:7553	2026-08-16 16:38:28.759+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1516764583	YoDemonXwasTaken	0FCL	\N	1	31971	32207	cw_bot	history-import:cw_bot:7523	2026-08-26 04:12:36.173+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1520358099	FlipFlopFloop417	CC4T	\N	149210	11544	32209	cw_bot	history-import:cw_bot:359	2026-07-17 18:33:20.942+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1523831473	malfiv	K989	\N	6	31339	32209	cw_bot	history-import:cw_bot:6246	2026-08-08 14:47:52.966+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1528718508	strykertoff	XPQX	\N	207170	9242	32210	cw_bot	history-import:cw_bot:1270	2026-05-03 14:42:25.308+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1537916189	MailDaCoolKid	S7NS	\N	551280	2035	32210	cw_bot	history-import:cw_bot:9201	2026-06-19 13:04:44.383+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1539398349	Darkszern	SOPU	\N	856160	440	32209	cw_bot	history-import:cw_bot:4576	2026-08-04 19:57:01.734+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1545978553	softsdua	TPSE	\N	2730	25781	32209	cw_bot	history-import:cw_bot:4584	2026-08-05 00:55:39.191+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1573629774	mkmike27mk	XPQX	\N	118010	13012	32210	cw_bot	history-import:cw_bot:261	2026-05-16 17:04:30.807+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1581306248	Robloxak_Honiik	KMo	\N	90140	14587	32207	cw_bot	history-import:cw_bot:5838	2026-08-14 19:05:13.93+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1587906543	wexfordfox	BOSK	\N	660340	1161	32210	cw_bot	history-import:cw_bot:9291	2026-04-29 12:14:55.272+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1592738293	1ncr3d1bl3sulk	DRK5	\N	280580	6795	32210	cw_bot	history-import:cw_bot:1284	2026-05-03 22:19:36.985+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1596560199	wiegehtdennsowas	XBOX	\N	358360	4785	32210	cw_bot	history-import:cw_bot:9326	2026-04-05 16:35:34.64+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1613882953	toastedpoptartonyt	CXTG	\N	325930	5545	32207	cw_bot	history-import:cw_bot:9923	2026-08-18 18:50:20.423+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1617221713	waheedplayzYT	EIM0	\N	106440	13647	32209	cw_bot	history-import:cw_bot:7787	2026-07-22 21:12:43.733+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1626378539	Fulda645	S7NS	\N	310490	5965	32210	cw_bot	history-import:cw_bot:8148	2026-04-28 12:17:49.765+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1638202885	pumacero	PROX	\N	1810	26469	32207	cw_bot	history-import:cw_bot:4792	2026-08-28 14:10:21.001+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1644308020	hoon9900a	vvjp	\N	728230	818	32209	cw_bot	history-import:cw_bot:8938	2026-07-29 11:32:45.032+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1647731044	angelwytb	GST2	\N	134620	12176	32209	cw_bot	history-import:cw_bot:7983	2026-07-08 14:37:40.756+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1652197454	fighter92399_alt	fr3e	\N	879950	393	32210	cw_bot	history-import:cw_bot:1837	2026-06-16 00:22:27.481+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1670011733	Kono9595	RBD	\N	35770	18872	32209	cw_bot	history-import:cw_bot:6375	2026-08-07 18:53:41.202+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1676340458	AgreedFlower11	XB0X	\N	299070	6309	32209	cw_bot	history-import:cw_bot:621	2026-07-17 18:49:30.27+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1676361250	RealYoDarkshadow	Lyyt	\N	18560	21213	32210	cw_bot	history-import:cw_bot:3992	2026-04-12 22:22:05.865+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1683480006	kminoscz	KMo	\N	656930	1184	32209	cw_bot	history-import:cw_bot:7084	2026-07-30 17:15:30.786+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1685635748	farmboyjetw	Goop	\N	321770	5660	32210	cw_bot	history-import:cw_bot:8314	2026-04-02 20:23:10.489+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1690820953	1tombay	BEZE	\N	1020000	129	32210	cw_bot	history-import:cw_bot:1723	2026-05-23 14:09:54.985+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1697239942	racingchampaj	AR2Y	\N	103980	13800	32209	cw_bot	history-import:cw_bot:7895	2026-07-08 14:32:13.162+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1727137762	azmvoisshot	ORB	\N	13740	22163	32210	cw_bot	history-import:cw_bot:826	2026-06-13 03:07:29.607+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1749647628	da1niell	HR2T	\N	473740	2845	32209	cw_bot	history-import:cw_bot:6368	2026-08-07 18:52:55.147+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1750005492	averyhein1920	EIMO	\N	519980	2361	32210	cw_bot	history-import:cw_bot:8400	2026-06-17 00:11:42.038+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1756730755	imsazzyy	OTTR	\N	71630	15736	32210	cw_bot	history-import:cw_bot:9139	2026-06-29 23:26:20.807+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1759162396	9kbotzz	XBOX	\N	748570	746	32210	cw_bot	history-import:cw_bot:9338	2026-04-05 20:49:49.97+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1787663283	TheBuilder5649	FGZW	\N	110750	13412	32210	cw_bot	history-import:cw_bot:4082	2026-04-12 22:03:03.052+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1804106976	lukmaT05_cus1	VLP2	\N	17170	21456	32209	cw_bot	history-import:cw_bot:7157	2026-07-30 12:36:25.508+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1818966891	Drak1735	HFYG	\N	21630	20714	32207	cw_bot	history-import:cw_bot:5852	2026-08-14 19:17:31.862+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1824713899	hayojeu2k	W2VY	\N	574990	1804	32209	cw_bot	history-import:cw_bot:675	2026-07-17 18:57:09.828+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1835808563	1213eric	GCEM	\N	105650	13693	32210	cw_bot	history-import:cw_bot:1647	2026-05-21 04:56:29.857+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1856284829	younes89755	NONG	\N	849110	461	32210	cw_bot	history-import:cw_bot:1356	2026-05-06 23:01:41.242+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1881899133	Coxxman	HROT	\N	549500	2054	32209	cw_bot	history-import:cw_bot:7442	2026-07-13 19:26:57.695+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1895942489	ziomek1000oo	LSQ	\N	31400	19375	32207	cw_bot	history-import:cw_bot:7589	2026-08-19 21:17:39.542+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1909574870	jjdjsjsmsmmd	KKT8	\N	175010	10419	32207	cw_bot	history-import:cw_bot:5039	2026-08-24 10:03:20.943+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1933064023	cb7rebel	SAM4	\N	2160	26206	32210	cw_bot	history-import:cw_bot:4104	2026-04-12 20:17:10.048+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1957801731	Sign_EEE	🏰 Clan: **DMMR**	\N	\N	5402	32210	cw_bot	history-import:cw_bot:3552	2026-03-12 23:08:34.393+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1973447751	radkozahumensky5	BDX	\N	230780	8413	32207	cw_bot	history-import:cw_bot:4979	2026-08-24 18:50:27.632+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1973891991	lab44162	GFIT	\N	54330	17029	32209	cw_bot	history-import:cw_bot:2361	2026-08-11 11:08:52.921+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1996183705	humicek2020cz	HROT	\N	475310	2827	32207	cw_bot	history-import:cw_bot:5164	2026-08-23 06:34:54.553+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2005983585	shadowstaristhegoat	LXCC	\N	352480	4901	32209	cw_bot	history-import:cw_bot:9564	2026-07-31 10:09:27.163+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2015826915	Thiballa	ANG_	\N	100420	13999	32210	cw_bot	history-import:cw_bot:1012	2026-04-18 19:09:38.623+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2017652746	roastedduck123	OTTR	\N	323000	5629	32209	cw_bot	history-import:cw_bot:9046	2026-07-12 22:45:18.893+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2046133197	coltwertzu	V1LN	\N	138250	12007	32210	cw_bot	history-import:cw_bot:9348	2026-03-30 23:05:52.126+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2064474099	macejko998	K989	\N	150770	11482	32207	cw_bot	history-import:cw_bot:5609	2026-08-16 18:31:51.714+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2067834432	blazeeok	Goop	\N	777770	640	32209	cw_bot	history-import:cw_bot:3187	2026-07-26 20:02:36.593+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2226792909	Raptorik_gamer	BDX	\N	128580	12447	32209	cw_bot	history-import:cw_bot:7430	2026-07-18 17:45:36.477+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2241042742	WallEExtreme	L1ES	\N	639960	1285	32209	cw_bot	history-import:cw_bot:8688	2026-07-15 16:36:29.044+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2251616291	miminkoxxxxczdd	VLP2	\N	484690	2724	32207	cw_bot	history-import:cw_bot:7639	2026-08-15 11:12:28.99+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2257366377	lottewashere	UKUF	\N	659860	1163	32210	cw_bot	history-import:cw_bot:9315	2026-04-13 22:48:01.131+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2268926446	Feibapa	Ash	\N	363200	4690	32209	cw_bot	history-import:cw_bot:2709	2026-07-31 16:47:53.554+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2272058278	tomasmessi2567	HROT	\N	351570	4922	32209	cw_bot	history-import:cw_bot:6601	2026-08-06 14:40:37.08+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2296914657	officialchost	NXNG	\N	648560	1236	32210	cw_bot	history-import:cw_bot:3738	2026-04-22 06:40:26.037+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2316325389	julimowi	TeGu	\N	387060	4207	32209	cw_bot	history-import:cw_bot:2735	2026-07-31 17:12:47.437+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2318308002	karelman1451	HR2T	\N	413400	3714	32207	cw_bot	history-import:cw_bot:4919	2026-08-26 18:25:05.52+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2320688195	daihukumochi223	2WEI	\N	180590	10220	32210	cw_bot	history-import:cw_bot:8559	2026-06-17 03:04:38.757+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2349313768	crystalboyo256	KAG8	\N	135810	12127	32209	cw_bot	history-import:cw_bot:2981	2026-07-30 10:49:42.699+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2375471082	RayquazaPlayz_yt	PSMF	\N	391060	4130	32210	cw_bot	history-import:cw_bot:4115	2026-04-12 20:27:06.36+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2399889452	starwax85	V1LN	\N	246550	7927	32209	cw_bot	history-import:cw_bot:7769	2026-07-17 15:53:21.548+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2431643806	1KRUCHY	XREX	\N	516430	2394	32210	cw_bot	history-import:cw_bot:8064	2026-06-23 16:35:49.505+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2443619256	mihokkon	UNO	\N	908530	331	32210	cw_bot	history-import:cw_bot:3762	2026-04-17 00:20:59.211+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	361930	4717	32209	cw_bot	history-import:cw_bot:2949	2026-07-30 23:41:01.908+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2463337749	mrtendieman	GSTG	\N	854590	442	32207	cw_bot	history-import:cw_bot:7703	2026-08-16 16:38:00.619+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2469768592	Raitonn0609	2WEI	\N	180100	10235	32210	cw_bot	history-import:cw_bot:9373	2026-03-31 20:29:42.263+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2475732693	Fazmashwastaken	BOSS	\N	805420	555	32209	cw_bot	history-import:cw_bot:10005	2026-08-09 01:32:35.34+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2487889713	Doggo_1490	st1z	\N	150440	11495	32210	cw_bot	history-import:cw_bot:1218	2026-05-01 16:32:08.802+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2489885181	Ewan_314	NXNG	\N	895540	360	32209	cw_bot	history-import:cw_bot:4439	2026-08-07 01:31:38.701+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2494077434	matyx00777	XBOX	\N	119390	12935	32209	cw_bot	history-import:cw_bot:4768	2026-08-01 12:20:27.96+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2509513667	Ryderkoo5545	ERC	\N	36090	18824	32207	cw_bot	history-import:cw_bot:5055	2026-08-23 10:46:48.07+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2521267504	matejsbss	OCHG	\N	36910	18736	32209	cw_bot	history-import:cw_bot:7480	2026-07-15 14:29:29.985+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2530992063	smrtak54	DJRK	\N	61050	16499	32209	cw_bot	history-import:cw_bot:6183	2026-08-08 19:57:25.253+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2539070982	Nomdecodetotoc34	PEND	\N	439480	3307	32210	cw_bot	history-import:cw_bot:1244	2026-05-02 16:27:23.292+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2545832975	baconszombiesarmy	FGZW	\N	152980	11373	32210	cw_bot	history-import:cw_bot:4060	2026-04-12 22:02:06.94+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2566901760	Megaobam123z	44gh	\N	30560	19487	32207	cw_bot	history-import:cw_bot:5513	2026-08-19 09:02:01.142+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2577660536	srbj2013	op66	\N	366	28345	32209	cw_bot	history-import:cw_bot:6143	2026-08-08 18:12:23.397+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2628215963	praisevolxtz	st1z	\N	375230	4425	32209	cw_bot	history-import:cw_bot:460	2026-07-17 18:47:40.523+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2633185327	luxxrro	SOPU	\N	533140	2219	32210	cw_bot	history-import:cw_bot:1995	2026-06-28 16:25:22.311+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2644620447	Jakeplayswithbatsyt	2523	\N	89500	14626	32209	cw_bot	history-import:cw_bot:4674	2026-08-01 01:27:28.822+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2667688976	SlimGreycz_2	VLP	\N	130940	12335	32209	cw_bot	history-import:cw_bot:7941	2026-07-08 14:35:29.662+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2699598634	rosta128	HROT	\N	334820	5319	32209	cw_bot	history-import:cw_bot:6968	2026-07-31 16:07:38.598+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2709299989	fishy_axl22	BEZE	\N	457560	3076	32210	cw_bot	history-import:cw_bot:775	2026-05-10 02:24:40.449+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2719084403	aidananthony013	XPQX	\N	157370	11145	32210	cw_bot	history-import:cw_bot:1821	2026-06-13 15:03:54.201+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2741560826	notaps322	OTTR	\N	123480	12720	32209	cw_bot	history-import:cw_bot:9948	2026-07-18 18:26:05.951+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2773606910	Onlypetw	OzTM	\N	8470	23437	32209	cw_bot	history-import:cw_bot:9976	2026-08-09 13:14:08.798+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2793216369	F_Bizzle	UNITY	\N	849400	459	32210	cw_bot	history-import:cw_bot:1160	2026-04-27 21:42:43.611+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2813767675	Sam262010Y	BEZE	\N	380190	4326	32210	cw_bot	history-import:cw_bot:1870	2026-06-19 19:17:38.63+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2844876464	Destructcz23	HROT	\N	532210	2227	32207	cw_bot	history-import:cw_bot:2273	2026-08-20 07:56:23.411+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2853594415	peslolpj	K989	\N	37050	18717	32207	cw_bot	history-import:cw_bot:5752	2026-08-14 16:23:32.844+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2892299154	Baggooooo	UN0	\N	1060000	89	32209	cw_bot	history-import:cw_bot:4550	2026-08-04 19:57:26.933+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2901565950	bestrobloxsimsplayer	NONG	\N	1000000	144	32210	cw_bot	history-import:cw_bot:1183	2026-04-30 19:38:45.807+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2912101187	coolgur0	NXNG	\N	424780	3533	32209	cw_bot	history-import:cw_bot:517	2026-07-17 18:48:27.061+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2915153725	Ishan90091	07W	\N	63780	16296	32209	cw_bot	history-import:cw_bot:10060	2026-08-08 18:49:12.798+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2929134841	thatguyjax777	\N	\N	\N	5597	32210	cw_bot	history-import:cw_bot:3487	2026-04-20 00:15:17.048+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2929825206	roplexbuddy	F4DE	\N	89820	14612	32209	cw_bot	history-import:cw_bot:4263	2026-08-13 04:25:30.76+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2939673088	quantexroblox	🏰 Clan: **SOPU**	\N	\N	1694	32210	cw_bot	history-import:cw_bot:3434	2026-04-27 20:54:01.145+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2948612124	saud02x	UN0	\N	961550	222	32210	cw_bot	history-import:cw_bot:8207	2026-04-25 09:16:47.451+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2956070032	AnnexOO1	DLOW	\N	765920	682	32210	cw_bot	history-import:cw_bot:8251	2026-04-11 00:42:36.107+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2980262380	Xperide	KOR_	\N	112420	13316	32210	cw_bot	history-import:cw_bot:1492	2026-05-15 20:24:52.409+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2988275843	zspjasieniec1	hlx	\N	578850	1759	32207	cw_bot	history-import:cw_bot:8499	2026-08-19 15:24:30.108+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2992299705	Afrykan0	LSQ	\N	180830	10206	32207	cw_bot	history-import:cw_bot:7512	2026-08-28 16:42:30.025+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2999732017	derharzendeharzer	EGP	\N	390950	4133	32210	cw_bot	history-import:cw_bot:4230	2026-04-12 20:09:36.816+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3000748132	PickleCloudNacho	H8ER	\N	692960	985	32210	cw_bot	history-import:cw_bot:3962	2026-04-12 22:17:35.814+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3016891949	petaf1234	HFYG	\N	34190	19039	32207	cw_bot	history-import:cw_bot:5267	2026-08-21 20:32:57.322+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3022616943	floatindrag	SSQD	\N	78850	15276	32209	cw_bot	history-import:cw_bot:2569	2026-08-01 14:35:07.364+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3023165535	wanted_o1lie	UNTY	\N	514380	2422	32210	cw_bot	history-import:cw_bot:1097	2026-04-25 23:24:38.777+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3035841415	shiiiiiru	LSQ	\N	207220	9237	32209	cw_bot	history-import:cw_bot:8811	2026-08-10 16:29:41.022+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3036025083	Fernando0876543	NNVV	\N	10840	22839	32209	cw_bot	history-import:cw_bot:6117	2026-08-09 01:13:58.738+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3039307282	Mr_agnes30	XREX	\N	348030	4993	32210	cw_bot	history-import:cw_bot:8081	2026-06-23 16:38:19.044+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3046788322	Xerenity1	DLOW	\N	166310	10773	32210	cw_bot	history-import:cw_bot:8262	2026-04-11 00:53:10.021+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3059704488	Acerbugs	🏰 Clan: **YLW**	\N	\N	17683	32210	cw_bot	history-import:cw_bot:3715	2025-12-23 17:53:13.404+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3064251597	filipek2600cz	H8ER	\N	74860	15525	32210	cw_bot	history-import:cw_bot:1570	2026-05-17 11:56:22.532+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3076166235	dadgonecrazy2021	WSL	\N	61800	16446	32207	cw_bot	history-import:cw_bot:9783	2026-08-26 19:50:08.045+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3094350982	kki201217	LEGT	\N	273750	7010	32207	cw_bot	history-import:cw_bot:9908	2026-08-18 18:07:03.497+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3110455209	kuroihanin	JPST	\N	2230	26149	32209	cw_bot	history-import:cw_bot:909	2026-07-17 19:08:55.749+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3124408432	Mr96eduD	Mr96	\N	160950	11002	32210	cw_bot	history-import:cw_bot:4164	2026-04-12 20:33:19.889+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3143604581	RebelkaCZ157	VLP	\N	331490	5403	32209	cw_bot	history-import:cw_bot:6717	2026-08-04 09:43:51.606+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3149302489	code_wille	0RBI	\N	357830	4798	32210	cw_bot	history-import:cw_bot:3847	2026-04-05 06:57:37.866+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3167272498	zdendpicl9	DJRK	\N	43660	18016	32207	cw_bot	history-import:cw_bot:5722	2026-08-15 08:51:50.658+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3167571592	Hickarn1	NONG	\N	887440	378	32210	cw_bot	history-import:cw_bot:8387	2026-03-22 11:06:41.693+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3171368431	darklode100	CC4T	\N	345010	5082	32210	cw_bot	history-import:cw_bot:1133	2026-04-27 02:10:10.025+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3181994439	anrijs9991	NXNG	\N	466160	2957	32210	cw_bot	history-import:cw_bot:1196	2026-04-30 19:59:29.548+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3186034676	tobicole	DKWR	\N	123730	12704	32210	cw_bot	history-import:cw_bot:4125	2026-04-12 20:27:08.198+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3214063706	ZoraDaGoatOfficial	ROMU	\N	424330	3546	32210	cw_bot	history-import:cw_bot:961	2026-04-17 00:09:22.187+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3214496713	DarkPhoenix917	UN0	\N	1000000	148	32209	cw_bot	history-import:cw_bot:4512	2026-08-04 19:56:06.385+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3215370935	snorlaxfox1	Fchn	\N	458820	3056	32210	cw_bot	history-import:cw_bot:9389	2026-04-02 02:54:57.549+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3228101331	phoen1x_aus	WSL	\N	51120	17298	32207	cw_bot	history-import:cw_bot:9771	2026-08-26 19:49:57.893+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3233034644	ARIGO11234	Scly	\N	218050	8879	32209	cw_bot	history-import:cw_bot:3312	2026-07-24 20:34:16.905+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3239125804	Pabloeldahablos	🏰 Clan: **EXP**	\N	\N	29386	32210	cw_bot	history-import:cw_bot:1410	2026-05-10 21:35:38.255+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3248091509	professorfeliks	hlx	\N	129280	12415	32209	cw_bot	history-import:cw_bot:8985	2026-07-19 16:26:07.395+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3252894844	vexityonnic	WJAY	\N	526990	2295	32210	cw_bot	history-import:cw_bot:3817	2026-04-05 06:50:41.945+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3270087406	Mrkrecek12	VLP2	\N	5	31458	32207	cw_bot	history-import:cw_bot:5618	2026-08-14 19:39:09.575+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3271035452	Misak0912	K989	\N	113080	13280	32209	cw_bot	history-import:cw_bot:6950	2026-08-01 08:49:00.863+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3271442208	Jonglesje	HROT	\N	440300	3288	32207	cw_bot	history-import:cw_bot:2238	2026-08-24 09:46:55.285+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3282696395	max_squash	Goop	\N	475150	2831	32209	cw_bot	history-import:cw_bot:2125	2026-08-01 03:32:06.841+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3289385978	KnKmor	DK	\N	426580	3499	32209	cw_bot	history-import:cw_bot:8896	2026-08-01 18:12:49.345+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3299278772	xxprozombix	BEZE	\N	588050	1688	32210	cw_bot	history-import:cw_bot:8674	2026-06-26 13:37:08.577+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3317957632	Stepan3456678	HR2T	\N	112880	13288	32209	cw_bot	history-import:cw_bot:7371	2026-07-21 20:40:06.566+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3323392290	D0m1n8tr	SAM	\N	344900	5083	32210	cw_bot	history-import:cw_bot:9278	2026-04-29 06:50:40.467+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3326513585	alexesalt08	🏰 Clan: **NONG**	\N	\N	730	32210	cw_bot	history-import:cw_bot:3472	2026-04-21 20:06:40.446+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3327485448	thegoatedkidof2022	WSL	\N	952	27397	32207	cw_bot	history-import:cw_bot:9713	2026-08-28 19:31:59.738+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3338233326	Andrewasper0987	LSQ	\N	170930	10576	32210	cw_bot	history-import:cw_bot:1853	2026-06-17 12:39:01.167+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3344342434	MUI_5aiyajin	MUI	\N	658550	1174	32210	cw_bot	history-import:cw_bot:3836	2026-04-05 06:57:09.847+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3345239646	vojtas98CZ	K989	\N	12740	22380	32209	cw_bot	history-import:cw_bot:6156	2026-08-08 18:13:17.798+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3357292523	Grec_Game	VLP	\N	80740	15152	32209	cw_bot	history-import:cw_bot:7068	2026-07-30 17:14:48.532+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3370104014	Standa256	VLP	\N	63640	16309	32207	cw_bot	history-import:cw_bot:5142	2026-08-23 03:03:21.508+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3372527888	CokoladovaZmrzska	cspe	\N	111960	13348	32209	cw_bot	history-import:cw_bot:7362	2026-07-22 01:19:32.889+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3377511045	mercstien	B2SS	\N	762170	698	32210	cw_bot	history-import:cw_bot:1344	2026-05-06 09:08:51.241+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3377790375	CharliePatryk	Tbx_	\N	6310	24109	32209	cw_bot	history-import:cw_bot:2457	2026-08-01 19:23:22.272+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3379551767	scytheskii	SOPU	\N	737490	778	32210	cw_bot	history-import:cw_bot:324	2026-04-16 22:13:50.244+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3382833387	kingweslie123	BUTI	\N	103920	13805	32209	cw_bot	history-import:cw_bot:2330	2026-08-12 21:19:37.585+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3393324525	BigWolfPL	XREX	\N	441100	3281	32209	cw_bot	history-import:cw_bot:7822	2026-07-24 20:08:19.243+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3402015952	Josep_xD2	NONG	\N	939620	270	32210	cw_bot	history-import:cw_bot:67	2026-04-27 04:36:38.637+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3416641778	dd_ontop13	SOPU	\N	853080	451	32210	cw_bot	history-import:cw_bot:3826	2026-04-05 06:51:12.613+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3421453702	noliogames	EVOL	\N	28050	19814	32209	cw_bot	history-import:cw_bot:9474	2026-08-04 08:46:51.508+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3439337856	prezley_official2022	VLP2	\N	100810	13976	32209	cw_bot	history-import:cw_bot:7122	2026-07-30 15:19:24.23+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3444459957	Radek25101982	VLP	\N	97350	14182	32209	cw_bot	history-import:cw_bot:6056	2026-08-09 09:04:46.362+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3448405650	eldublinfox	Fchn	\N	408260	3826	32210	cw_bot	history-import:cw_bot:9396	2026-04-01 08:35:40.039+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3451284729	Rilies_rx	JHGJ	\N	197330	9566	32209	cw_bot	history-import:cw_bot:6687	2026-08-04 20:01:20.409+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3456377805	Zyro12347	\N	\N	\N	31580	32210	cw_bot	history-import:cw_bot:3497	2026-04-19 07:03:56.014+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3500795024	Ey3d46	_hot	\N	308210	6035	32210	cw_bot	history-import:cw_bot:297	2026-05-09 14:14:11.57+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3509021767	JonnyM55	STPS	\N	82850	15026	32207	cw_bot	history-import:cw_bot:5556	2026-08-17 00:51:43.291+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3549731928	Thijklo2003	KOHV	\N	474480	2838	32210	cw_bot	history-import:cw_bot:1550	2026-05-17 01:50:48.281+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3557375419	Subtokirbofanyt	AWZY	\N	127310	12517	32209	cw_bot	history-import:cw_bot:2195	2026-07-27 21:40:54.835+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3565857429	Bb874tad	AR2Y	\N	411410	3758	32209	cw_bot	history-import:cw_bot:7971	2026-07-08 14:36:26.417+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3570093892	CZ_Ondiik	HROT	\N	407310	3842	32207	cw_bot	history-import:cw_bot:5872	2026-08-14 19:38:17.627+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3582853902	Godboy94875	212	\N	276090	6932	32209	cw_bot	history-import:cw_bot:2550	2026-08-01 14:32:30.444+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3596245301	Jahodnik1990	SSQD	\N	82320	15064	32209	cw_bot	history-import:cw_bot:6266	2026-08-08 11:21:12.701+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3602402808	Flexsnack21	UNTY	\N	899450	348	32210	cw_bot	history-import:cw_bot:1209	2026-05-01 08:05:11.74+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3628039137	anoknight5	XPQX	\N	109080	13497	32209	cw_bot	history-import:cw_bot:3123	2026-07-28 18:56:15.247+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3639903941	imandaskye	ORBI	\N	764250	691	32209	cw_bot	history-import:cw_bot:2177	2026-08-01 03:30:43.552+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3655474970	Shrooomdevourer10	V1LN	105	409000	105	\N	external_import	history-import:big_bot:1074	2026-07-03 23:39:30.698+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3672938221	zhulenc	VLP	\N	277260	6901	32209	cw_bot	history-import:cw_bot:6531	2026-08-06 21:54:27.517+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3683660130	Medvid3k11	cspe	\N	266350	7258	32209	cw_bot	history-import:cw_bot:6992	2026-07-31 17:00:07.71+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3693112421	levisfound	ORBI	\N	418080	3652	32209	cw_bot	history-import:cw_bot:2200	2026-07-17 04:29:59.602+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3714270625	angiespartytreat	RFIL	\N	456930	3083	32209	cw_bot	history-import:cw_bot:7717	2026-08-02 11:57:07.168+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3717157427	Gx_BlackNinja	SSQD	\N	94220	14357	32210	cw_bot	history-import:cw_bot:3797	2026-04-06 19:59:53.068+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3741610856	DemxnIRL	ORBI	\N	568250	1861	32209	cw_bot	history-import:cw_bot:4487	2026-08-06 00:26:19.98+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3750045967	imnotdigitosim1476	BEZE	\N	493830	2628	32207	cw_bot	history-import:cw_bot:5663	2026-08-14 22:17:44.993+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3753977683	mybanana367	NONG	\N	1050000	104	32210	cw_bot	history-import:cw_bot:1472	2026-05-13 21:54:17.124+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3768828357	mrs_reset	POPS	\N	118340	12991	32210	cw_bot	history-import:cw_bot:8613	2026-06-17 00:15:13.179+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3779230353	goat201470	L1ES	\N	207080	9244	32210	cw_bot	history-import:cw_bot:8280	2026-04-13 16:26:51.02+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3780183080	melounik9085	HR2T	\N	183890	10082	32209	cw_bot	history-import:cw_bot:7341	2026-07-19 14:27:23.079+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3797718809	m4thou3	BMJ4	\N	119770	12921	32209	cw_bot	history-import:cw_bot:3081	2026-07-28 21:07:33.267+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3808414208	Suppe_Can	S7NS	\N	868720	419	32210	cw_bot	history-import:cw_bot:8122	2026-04-27 17:55:05.386+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3830370598	cxr_lo	1DOL	\N	244070	8018	32210	cw_bot	history-import:cw_bot:1443	2026-05-12 09:49:26.321+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3853349557	melpatate12	GANG	\N	552510	2026	32210	cw_bot	history-import:cw_bot:974	2026-04-18 02:12:53.563+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3876471062	cxrl_o	1DOL	\N	368760	4575	32210	cw_bot	history-import:cw_bot:1020	2026-04-19 11:13:00.827+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3919100604	Filda7329	STPS	\N	134900	12167	32209	cw_bot	history-import:cw_bot:6500	2026-08-06 18:48:55.736+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3926695029	22mamamama	tNo	\N	175400	10411	32209	cw_bot	history-import:cw_bot:7460	2026-07-15 07:59:07.687+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3940781859	tigran_2206	BEZE	\N	819540	525	32209	cw_bot	history-import:cw_bot:869	2026-07-17 18:56:54.568+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3978547556	Zoliisrecords	K989	\N	17950	21307	32207	cw_bot	history-import:cw_bot:5000	2026-08-24 10:40:01.728+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4005548494	Nekrynk_cz	HROT	\N	650490	1222	32209	cw_bot	history-import:cw_bot:6857	2026-08-01 23:09:05.564+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4006052667	badamtttt	K989	\N	45470	17816	32209	cw_bot	history-import:cw_bot:6275	2026-08-08 11:25:07.466+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4010792811	1zelvak	BDX	\N	19290	21074	32209	cw_bot	history-import:cw_bot:7280	2026-07-27 11:51:24.945+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4023070188	kocovina98	DJRK	\N	18830	21159	32207	cw_bot	history-import:cw_bot:5736	2026-08-15 11:32:52.389+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4032508929	Skibidieny	K989	\N	290870	6506	32209	cw_bot	history-import:cw_bot:7197	2026-07-30 04:52:07.394+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4034865826	ncksjduwiwjnm	HR2T	\N	358830	4777	32209	cw_bot	history-import:cw_bot:4757	2026-08-01 10:14:30.098+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4035198924	ytpandaroux	ANG2	\N	43030	18082	32209	cw_bot	history-import:cw_bot:935	2026-07-08 19:17:13.13+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4043566918	M4x153452	BFLL	\N	100660	13990	32210	cw_bot	history-import:cw_bot:9240	2026-05-03 00:02:29.48+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4051469126	Naruto61925	_hot	\N	277190	6903	32209	cw_bot	history-import:cw_bot:3399	2026-07-23 20:03:20.004+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4054510143	kudlankovec	VLP2	\N	8650	23393	32209	cw_bot	history-import:cw_bot:2488	2026-08-01 09:59:49.052+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4054820865	jimmy_johnhi	ICYT	\N	324650	5580	32210	cw_bot	history-import:cw_bot:1427	2026-05-11 01:19:45.857+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4097051785	yO_aDzeY	op66	\N	31130	19406	32210	cw_bot	history-import:cw_bot:1672	2026-05-23 10:59:06.769+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4113094220	TTobbboTT	HERD	\N	506250	2512	32210	cw_bot	history-import:cw_bot:9230	2026-05-12 19:20:42.195+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4130228136	Deezwalnutsbig	WWGT	\N	19	30580	32210	cw_bot	history-import:cw_bot:4198	2026-04-12 20:04:58.899+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4138810457	ibaitier	ORB	\N	75020	15508	32210	cw_bot	history-import:cw_bot:9126	2026-07-04 07:44:27.013+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4161934376	honza01021983	DJRK	\N	447280	3200	32207	cw_bot	history-import:cw_bot:4852	2026-08-28 06:57:40.513+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4167232216	nanuk_2232	VLP2	\N	204330	9342	32209	cw_bot	history-import:cw_bot:6308	2026-08-08 12:06:58.145+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4177849716	doperthanyou67	IVLI	\N	25360	20157	32209	cw_bot	history-import:cw_bot:9073	2026-07-08 01:06:13.66+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4197618114	Danczek0102	OCHG	\N	8630	23402	32209	cw_bot	history-import:cw_bot:6290	2026-08-08 16:08:23.534+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4215988499	abby_gamera	V1LN	\N	340670	5178	32210	cw_bot	history-import:cw_bot:8161	2026-04-28 15:06:15.006+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4224841429	Holemedonescr10	3zEZ	\N	530000	2250	32210	cw_bot	history-import:cw_bot:1600	2026-05-20 19:08:41.718+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4232697950	kankojoe	1FCL	\N	6980	23856	32210	cw_bot	history-import:cw_bot:1843	2026-06-16 17:49:30.715+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4238790853	samsam16725	ROMU	\N	123430	12723	32210	cw_bot	history-import:cw_bot:100	2026-06-19 21:20:32.05+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4242955713	KazuyaTTV	DRK5	\N	97490	14172	32210	cw_bot	history-import:cw_bot:218	2026-05-01 10:25:23.892+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4247108285	irdski	IWHN	\N	164570	10837	32207	cw_bot	history-import:cw_bot:4722	2026-08-14 21:21:37.198+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4281402342	Selcuk1143	SW23	\N	53100	17119	32209	cw_bot	history-import:cw_bot:3056	2026-07-28 21:24:31.882+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4290313900	rubberluffy1235	DRK5	\N	19360	21067	32209	cw_bot	history-import:cw_bot:4243	2026-08-13 06:29:40.629+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4301431724	Bobsussybu123	x100	\N	17950	21310	32209	cw_bot	history-import:cw_bot:2525	2026-08-01 12:26:31.166+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4313949380	Dada343410	W0m1	\N	20390	20888	32209	cw_bot	history-import:cw_bot:6393	2026-08-07 20:30:35.379+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4336818312	Myguy_Ky1	Nump	\N	20240	20913	32209	cw_bot	history-import:cw_bot:3220	2026-07-26 11:08:12.603+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4345972644	venti12011201	2WEI	\N	149190	11548	32210	cw_bot	history-import:cw_bot:8546	2026-06-17 00:04:41.889+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4350673674	jblmax11	RATZ	\N	8	31180	32210	cw_bot	history-import:cw_bot:1739	2026-05-27 13:43:08.907+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4388509145	kukurice153	tNo	\N	102700	13867	32209	cw_bot	history-import:cw_bot:5957	2026-08-11 16:22:14.568+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4393951337	lukascccs	VLP2	\N	50530	17357	32209	cw_bot	history-import:cw_bot:6138	2026-08-08 17:36:40.231+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4414924368	1ninjaomg	_MGW	\N	79700	15214	32210	cw_bot	history-import:cw_bot:1083	2026-04-25 20:32:31.847+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4418075437	Koudys7	STPS	\N	9020	23301	32207	cw_bot	history-import:cw_bot:5350	2026-08-20 16:59:38.171+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4452395552	Xavier_Toorp	STPS	\N	79760	15209	32209	cw_bot	history-import:cw_bot:7042	2026-07-31 00:21:48.123+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4468537889	tvojemamag101	VLP2	\N	31360	19376	32207	cw_bot	history-import:cw_bot:5094	2026-08-22 23:18:43.789+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4471953599	alexander1234_hi56	B3ZE	\N	180210	10229	32209	cw_bot	history-import:cw_bot:8797	2026-08-12 23:40:25.692+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4482372398	Burak30_CZ	VLP	\N	94110	14364	32209	cw_bot	history-import:cw_bot:7171	2026-07-30 13:05:24.983+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4483758330	Sooz_events	NS4R	\N	520210	2357	32210	cw_bot	history-import:cw_bot:4069	2026-04-12 22:02:33.256+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4506575217	dracislav	HROT	\N	769540	668	32209	cw_bot	history-import:cw_bot:7313	2026-07-26 08:10:51.343+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4511725993	Kvetamin	VLP	\N	337100	5260	32207	cw_bot	history-import:cw_bot:5251	2026-08-21 19:36:06.87+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4515946186	bakedashboii	SLRP	\N	196780	9594	32210	cw_bot	history-import:cw_bot:8298	2026-04-19 17:46:14.335+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4540869398	proto123q	NS42	\N	256170	7598	32209	cw_bot	history-import:cw_bot:573	2026-07-17 18:49:06.221+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4584982387	Misabilk	VLP2	\N	316810	5795	32209	cw_bot	history-import:cw_bot:5944	2026-08-11 16:19:44.683+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4597064685	nevimheslo108	K989	\N	130780	12343	32209	cw_bot	history-import:cw_bot:6653	2026-08-05 20:02:56.557+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4610459819	srolik249	Sro	\N	88500	14677	32207	cw_bot	history-import:cw_bot:5712	2026-08-15 08:07:19.768+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4633578732	m3wpewpew	07W	\N	189670	9869	32209	cw_bot	history-import:cw_bot:3003	2026-07-29 15:03:42.497+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4634042698	Psxtrader327	OTTR	\N	772090	655	32207	cw_bot	history-import:cw_bot:8513	2026-08-22 22:47:27.757+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4652078124	jaximeler	hlx	\N	398660	3997	32210	cw_bot	history-import:cw_bot:8431	2026-06-17 00:24:11.273+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4680362717	hrac_829	CITC	\N	104	29594	32209	cw_bot	history-import:cw_bot:6434	2026-08-06 15:57:32.872+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4686873488	Monty_Tomas10	K989	\N	404180	3894	32207	cw_bot	history-import:cw_bot:5329	2026-08-21 07:45:07.526+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4759297476	psst1422	HROT	\N	677340	1068	32210	cw_bot	history-import:cw_bot:56	2026-05-20 23:35:12.448+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4782011239	theqqxz	DRK5	\N	49310	17461	32209	cw_bot	history-import:cw_bot:4597	2026-08-04 04:21:59.834+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4792692703	ced123zx	PEND	\N	209590	9156	32209	cw_bot	history-import:cw_bot:719	2026-07-17 18:57:41.576+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4833004455	Deniska_1990	HROT	\N	693530	982	32209	cw_bot	history-import:cw_bot:7328	2026-07-25 23:11:40.176+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4897243840	Bubbly_num2	UNO	\N	958410	231	32210	cw_bot	history-import:cw_bot:8373	2026-04-06 08:31:41.74+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4957497369	ammi0729	GANG	\N	569630	1850	32210	cw_bot	history-import:cw_bot:987	2026-04-18 02:13:35.573+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4989918296	PtiDoriankt	ROMU	\N	130570	12355	32209	cw_bot	history-import:cw_bot:851	2026-07-17 18:56:47.208+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4999104751	Speaxk17	P2PS	\N	194580	9688	32210	cw_bot	history-import:cw_bot:1631	2026-05-21 01:10:10.679+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5042635636	Cultiv8R_NZ	DLOW	\N	646170	1248	32210	cw_bot	history-import:cw_bot:8231	2026-04-11 00:40:42.513+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5044736168	CBroGolden	N2	\N	11610	22659	32210	cw_bot	history-import:cw_bot:4095	2026-04-12 20:16:41.119+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5063089605	REAL3ST_NZ	DLOW	\N	423130	3567	32210	cw_bot	history-import:cw_bot:8272	2026-04-11 00:55:05.933+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5120442322	kirasm0m	ORBI	\N	371930	4505	32209	cw_bot	history-import:cw_bot:2210	2026-07-17 04:33:26.901+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5127406568	dadchris86	NONG	\N	625890	1396	32210	cw_bot	history-import:cw_bot:8188	2026-04-21 16:30:58.569+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5128164487	drako83cz	HROT	\N	471050	2890	32207	cw_bot	history-import:cw_bot:5539	2026-08-17 12:17:13.979+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5128774229	livelasso	2WEI	\N	348250	4988	32209	cw_bot	history-import:cw_bot:9002	2026-07-19 09:14:05.882+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5138542110	greatfullyyy	1FCL	\N	183020	10125	32209	cw_bot	history-import:cw_bot:2907	2026-07-31 06:42:06.061+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5143387515	babykweeef	BOSS	\N	1060000	90	32207	cw_bot	history-import:cw_bot:2107	2026-08-14 22:59:19.851+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	109818	Cinnamowopal	NONG	\N	833320	496	32210	cw_bot	history-import:cw_bot:160	2026-04-27 00:46:27.41+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	14538110	joeycb	NONG	\N	991300	173	32210	cw_bot	history-import:cw_bot:1691	2026-05-23 12:54:45.542+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	25894803	Malmortius	N6NG	\N	163220	10913	32210	cw_bot	history-import:cw_bot:2059	2026-06-30 14:47:28.663+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	31989428	zoggi10	Goop	\N	589920	1667	32209	cw_bot	history-import:cw_bot:4613	2026-08-04 07:49:22.305+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	33492395	unoyea	UN0	\N	1080000	77	32210	cw_bot	history-import:cw_bot:1384	2026-05-07 10:52:28.967+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	33945887	awesomeness4122	FFLH	\N	771880	658	32210	cw_bot	history-import:cw_bot:3928	2026-06-24 23:04:27.415+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	37169860	hoang109	\N	\N	\N	93	32210	cw_bot	history-import:cw_bot:3513	2026-04-23 22:12:20.396+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	41215233	galooney	UN0	\N	1160000	28	32209	cw_bot	history-import:cw_bot:9957	2026-07-18 16:34:45.497+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	45130460	Ziilionaires	UN0	\N	1090000	67	32210	cw_bot	history-import:cw_bot:3806	2026-04-05 08:12:37.375+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	58312098	sosd35	NONG	\N	866050	426	32209	cw_bot	history-import:cw_bot:695	2026-07-17 18:57:28.202+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	67319189	iduzel	NONG	\N	1090000	66	32207	cw_bot	history-import:cw_bot:8739	2026-08-18 05:01:05.774+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	90767636	bobdog751	V1LN	\N	758590	706	32210	cw_bot	history-import:cw_bot:8136	2026-04-27 21:06:33.398+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	125272790	ur_salty091	XBOX	\N	556230	1993	32210	cw_bot	history-import:cw_bot:1924	2026-06-21 04:13:46.321+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	125848672	montrealpuppy	PDYL	\N	244	28764	32209	cw_bot	history-import:cw_bot:5	2026-07-17 18:30:59.447+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5170991645	galvoir2712	L1ES	\N	126250	12569	32209	cw_bot	history-import:cw_bot:4422	2026-08-07 08:30:13.219+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5189669801	johqnel	Sro	\N	8240	23497	32207	cw_bot	history-import:cw_bot:5573	2026-08-17 00:52:03.053+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5197468736	ttkcash1	🏰 Clan: **Goop**	\N	681670	1036	32210	cw_bot	history-import:cw_bot:1397	2026-04-21 00:27:07.401+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5203613717	Arteomcka0_z	BEZE	\N	860610	434	32209	cw_bot	history-import:cw_bot:3378	2026-07-23 19:33:38.366+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5207679662	GrinchFrend	HR2T	\N	250350	7795	32207	cw_bot	history-import:cw_bot:4886	2026-08-28 13:55:05.802+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5209078854	Rydma73	H8ER	\N	868920	418	32210	cw_bot	history-import:cw_bot:3974	2026-04-12 22:17:12.736+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5254272309	shadow_ggofficial	RLHA	\N	390570	4144	32210	cw_bot	history-import:cw_bot:1760	2026-05-28 21:55:36.515+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5291595908	iTTv6	Lawn	\N	318090	5760	32210	cw_bot	history-import:cw_bot:4003	2026-04-12 21:22:33.583+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5328968538	Iphone1835	SAM4	\N	96460	14228	32207	cw_bot	history-import:cw_bot:5197	2026-08-21 18:06:41.136+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5339963078	Kvetamin2	VLP	\N	302760	6200	32209	cw_bot	history-import:cw_bot:6543	2026-08-07 09:05:29.727+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5378360782	dog22122011trade	K989	\N	414	28220	32209	cw_bot	history-import:cw_bot:6484	2026-08-06 18:22:55.632+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5383071838	mr_895675	LXCC	\N	109590	13466	32207	cw_bot	history-import:cw_bot:7683	2026-08-14 20:23:40.83+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5400417690	catIover57	H8ER	\N	395740	4050	32209	cw_bot	history-import:cw_bot:4328	2026-08-09 19:02:46.162+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5407742794	baba_gamer239	ROMU	\N	111970	13347	32210	cw_bot	history-import:cw_bot:1587	2026-05-20 17:25:36.224+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5414318030	demonfaarm3	2WEI	\N	134550	12180	32210	cw_bot	history-import:cw_bot:9358	2026-03-31 20:30:04.513+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5436365094	Bruin444444	A6NT	\N	460040	3032	32209	cw_bot	history-import:cw_bot:2411	2026-08-10 00:49:21.439+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5514178688	Mason03388	SSQD	\N	71560	15742	32210	cw_bot	history-import:cw_bot:4173	2026-04-12 21:05:45.162+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5516978036	omgitzmaatt3	UKUF	\N	8550	23416	32207	cw_bot	history-import:cw_bot:9877	2026-08-23 11:16:05.962+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5534860785	rostislavvv155	HROT	\N	626900	1385	32209	cw_bot	history-import:cw_bot:2865	2026-07-31 15:54:01.042+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5575261241	noliogames3	IWHN	\N	53870	17070	32209	cw_bot	history-import:cw_bot:9491	2026-08-04 08:47:00.84+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5615179956	MonsterWithGod	ANG_	\N	204330	9344	32210	cw_bot	history-import:cw_bot:4145	2026-04-12 21:05:00.581+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5623447261	quoicoubeh5608	IFRA	\N	71560	15739	32209	cw_bot	history-import:cw_bot:6216	2026-08-08 20:49:37.159+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5703128088	elnubsen	SOPU	\N	783450	622	32210	cw_bot	history-import:cw_bot:3871	2026-04-05 06:56:35.208+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5708006511	prd2137	URS7	\N	8220	23503	32209	cw_bot	history-import:cw_bot:6740	2026-08-04 10:16:22.823+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5718001505	samaorithor	WSL	\N	9310	23226	32207	cw_bot	history-import:cw_bot:9798	2026-08-26 19:50:37.879+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5743563432	Alexfarm_too	VU	\N	156910	11169	32209	cw_bot	history-import:cw_bot:10078	2026-08-08 09:43:53.852+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5793778586	PeaceAllAlone	UN0	\N	1050000	105	32210	cw_bot	history-import:cw_bot:8090	2026-04-26 19:32:34.93+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5818869297	knoxcoder	SOPU	\N	572020	1830	32209	cw_bot	history-import:cw_bot:3026	2026-07-29 13:28:15.912+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5837946305	husos112410	COMT	\N	48590	17540	32209	cw_bot	history-import:cw_bot:3335	2026-07-24 20:49:25.624+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6024579040	siemanokolano3211	HSRS	\N	59740	16596	32209	cw_bot	history-import:cw_bot:8839	2026-08-08 13:22:11.942+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6109731708	YoBaskett	W2VY	\N	523800	2327	32209	cw_bot	history-import:cw_bot:433	2026-07-17 18:47:23.21+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6156770625	pepajzikv2	STPS	\N	83030	15019	32207	cw_bot	history-import:cw_bot:5388	2026-08-20 18:30:12.586+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6180933436	Atefluigi1	V1LN	\N	73440	15619	32207	cw_bot	history-import:cw_bot:4828	2026-08-28 16:24:47.076+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7005100565	Crazypuzzlehead15	UKUF	\N	373160	4470	32209	cw_bot	history-import:cw_bot:2473	2026-08-01 09:28:25.648+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7106055158	windstok10	N1TR	\N	284810	6682	32207	cw_bot	history-import:cw_bot:5147	2026-08-23 04:27:42.377+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7144927541	linya_w	2WEI	\N	288860	6569	32210	cw_bot	history-import:cw_bot:8572	2026-06-27 16:58:18.228+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7168755253	JoJo_Gaming2341	XMA2	\N	243320	8045	32210	cw_bot	history-import:cw_bot:1891	2026-06-20 14:27:05.49+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7202704987	wslhuge	WSL	\N	139970	11932	32207	cw_bot	history-import:cw_bot:9822	2026-08-26 19:55:49.742+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7232809185	Kessho02	PEND	\N	234380	8321	32209	cw_bot	history-import:cw_bot:606	2026-07-17 18:49:22.998+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7426690057	Duckyphant	L1ES	\N	885610	380	32207	cw_bot	history-import:cw_bot:5644	2026-08-14 22:07:36.457+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7577631298	zeefarmer	Z3EE	\N	334000	5347	32210	cw_bot	history-import:cw_bot:1882	2026-06-20 03:22:08.873+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7583161395	Tgzzgzzltg33	HR2T	\N	121480	12818	32209	cw_bot	history-import:cw_bot:7270	2026-07-27 11:39:20.283+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7697761463	joeponsock12345	V1LN	\N	1620	26621	32209	cw_bot	history-import:cw_bot:8953	2026-07-26 22:32:25.767+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7710452262	hrac_821	BDX	\N	11640	22654	32209	cw_bot	history-import:cw_bot:6008	2026-08-10 07:17:41.604+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7742077490	sirwabbs	st1z	\N	333810	5354	32209	cw_bot	history-import:cw_bot:4646	2026-08-02 03:35:57.878+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7806857762	selena082319	W2VY	\N	502480	2547	32209	cw_bot	history-import:cw_bot:381	2026-07-17 18:33:34.992+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7811627595	Star_1110789	st1z	\N	127840	12484	32210	cw_bot	history-import:cw_bot:919	2026-05-01 16:32:32.474+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8016179740	limitless123234	DLOW	\N	1420	26838	32207	cw_bot	history-import:cw_bot:8768	2026-08-15 05:26:46.656+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8087930970	sleeperb99	OT2R	\N	99110	14068	32209	cw_bot	history-import:cw_bot:9028	2026-07-17 16:18:36.71+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8182869593	SuperrMessi87	W0m1	\N	14510	21998	32207	cw_bot	history-import:cw_bot:5019	2026-08-23 20:41:38.353+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8187537946	nzr5581	V1LN	\N	443970	3246	32210	cw_bot	history-import:cw_bot:8200	2026-04-23 19:12:26.428+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	123813615	zabimar420	AWZY	\N	458520	3061	32209	cw_bot	\N	2026-08-05 05:05:47.203+00	imported_history	10555
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	129027644	Praetoris	L1ES	\N	47450	17632	32209	cw_bot	\N	2026-08-02 15:30:24.953+00	imported_history	10711
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	138136935	woeizl	EROS	\N	61940	16437	32209	cw_bot	\N	2026-07-12 05:31:58.227+00	imported_history	11131
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	226285350	farlorddeath	LV13	\N	788780	607	32209	cw_bot	\N	2026-07-20 02:25:37.839+00	imported_history	11003
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	236179966	MohFrenzy	BOSK	\N	10570	22917	32209	cw_bot	\N	2026-08-03 19:05:01.239+00	imported_history	10647
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	240536469	aysear	Goop	\N	727680	822	32209	cw_bot	\N	2026-07-17 03:28:32.523+00	imported_history	11091
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	263596366	monisvibing	HARM	\N	772790	655	32209	cw_bot	\N	2026-07-18 17:03:10.091+00	imported_history	11036
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	267466791	black_ninja890	T1ED	\N	112230	13329	32209	cw_bot	\N	2026-08-05 00:39:53.294+00	imported_history	10536
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	275990898	AHMADGAMER64	POPS	\N	381800	4300	32209	cw_bot	\N	2026-08-02 01:00:22.079+00	imported_history	10721
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	483055560	Riderkoooo154	HROT	\N	570130	1844	32209	cw_bot	\N	2026-08-08 17:14:11.89+00	imported_history	10137
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	504442502	cleitonp100	H2RM	\N	429520	3454	32209	cw_bot	\N	2026-08-06 19:36:09.461+00	imported_history	10328
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	634506574	BlameGrinders	S2PU	\N	529660	2256	32209	cw_bot	\N	2026-07-16 18:06:48.246+00	imported_history	11107
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	712421191	CoderGrey	L1ES	\N	433110	3399	32209	cw_bot	\N	2026-08-06 21:12:21.177+00	imported_history	10350
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	820701226	jaydenpool20	GSTG	\N	159920	11044	32209	cw_bot	\N	2026-08-07 14:27:41.154+00	imported_history	10182
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	912250692	bwlovescars	RBN9	\N	129410	12409	32209	cw_bot	\N	2026-08-01 19:59:44.339+00	imported_history	10750
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	946600540	lolkownik	AWZY	\N	297160	6355	32209	cw_bot	\N	2026-08-04 18:56:31.56+00	imported_history	10567
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1134304957	odderuh	FFLH	\N	588610	1681	32209	cw_bot	\N	2026-08-03 14:41:14.82+00	imported_history	10679
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1162093762	callumJplunkett	st1z	\N	56940	16818	32209	cw_bot	\N	2026-07-21 13:58:33.053+00	imported_history	10942
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1192350790	Steven_Shurf	_hot	\N	163870	10875	32209	cw_bot	\N	2026-08-04 17:26:23.152+00	imported_history	10587
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1260752023	jemmness	K0ii	\N	374290	4449	32209	cw_bot	\N	2026-08-05 19:53:14.077+00	imported_history	10507
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1342058144	maxbercar	4GH	\N	114810	13179	32209	cw_bot	\N	2026-08-03 15:01:26.751+00	imported_history	10690
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1362417287	codeyosoymau	PDYL	\N	38510	18561	32209	cw_bot	\N	2026-07-08 23:47:40.671+00	imported_history	11242
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1378926704	thetoad419	FF2H	\N	67310	16057	32209	cw_bot	\N	2026-07-20 11:11:03.422+00	imported_history	10978
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1524474134	partlysweeet	SOPU	\N	636290	1313	32209	cw_bot	\N	2026-08-05 17:54:26.824+00	imported_history	10458
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1559794555	MrsBrumal93	BLXF	\N	503740	2537	32209	cw_bot	\N	2026-08-06 21:10:37.188+00	imported_history	10310
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1810349750	doughnutlordlup	SVB	\N	937460	273	32209	cw_bot	\N	2026-08-04 09:24:34.058+00	imported_history	10610
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1854721596	LovesFlyers	FMLY	\N	160100	11038	32209	cw_bot	\N	2026-08-08 16:32:23.384+00	imported_history	10120
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	1860842454	DaceyBisagamer	NXNG	\N	462540	3009	32209	cw_bot	\N	2026-07-21 13:55:19.369+00	imported_history	10929
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2046736760	omgakaroen2	KOHV	\N	107300	13593	32209	cw_bot	\N	2026-08-05 12:42:48.772+00	imported_history	10525
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2210572151	ztormwolf	ORBI	\N	857990	438	32209	cw_bot	\N	2026-08-07 18:42:26.67+00	imported_history	10218
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2548718008	scottewillis1982	KOii	\N	932610	281	32209	cw_bot	\N	2026-08-05 19:51:42.011+00	imported_history	10476
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2658235500	blackgolds47plays	QNE	\N	219820	8823	32209	cw_bot	\N	2026-07-13 04:08:31.304+00	imported_history	11120
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2685249091	demslzv	FFLH	\N	896570	354	32209	cw_bot	\N	2026-08-07 18:41:53.817+00	imported_history	10203
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	2843513755	firefeather46	HSTL	\N	349610	4960	32209	cw_bot	\N	2026-07-12 00:54:10.458+00	imported_history	11147
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3111804593	boomhahahau4	YLW	\N	26010	20065	32209	cw_bot	\N	2026-08-07 11:10:01.99+00	imported_history	10254
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3242097876	Adam340i	ICYT	\N	215060	8980	32209	cw_bot	\N	2026-08-01 20:38:19.334+00	imported_history	10767
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3302444862	EndOfAnEra007	NONG	\N	1060000	95	32209	cw_bot	\N	2026-07-16 23:20:31.616+00	imported_history	11075
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3787688911	Kaelqor	KOR_	\N	264560	7317	32209	cw_bot	\N	2026-08-07 10:30:50.859+00	imported_history	10231
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	3988909281	ScriptingIntoabysmal	xpp_	\N	56750	16829	32209	cw_bot	\N	2026-08-07 14:02:53.391+00	imported_history	10162
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4002857188	hyhhui5rhg	QUOK	\N	3700	25195	32210	cw_bot	\N	2026-07-04 01:47:15.942+00	imported_history	11318
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4030750707	SpiroBebex71	Goop	\N	922300	297	32209	cw_bot	\N	2026-08-06 18:54:36.251+00	imported_history	10291
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4142534434	be_bebrs	BU TI	\N	173590	10481	32209	cw_bot	\N	2026-07-20 11:09:04.745+00	imported_history	10961
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4284280354	Superxia4460	ROGT	\N	81300	15122	32209	cw_bot	\N	2026-07-23 13:14:52.606+00	imported_history	10850
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4311417620	Weller457sk	HROT	\N	477280	2802	32209	cw_bot	\N	2026-07-22 16:09:45.829+00	imported_history	10906
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4608344169	Spyd3rino	W2VY	\N	121560	12810	32209	cw_bot	\N	2026-07-10 15:35:31.189+00	imported_history	11219
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4610856184	Whatsup12719	Inno	\N	49090	17487	32209	cw_bot	\N	2026-08-05 22:21:53.995+00	imported_history	10435
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	4735355728	seanfarm6263	KR0	\N	209	28921	32209	cw_bot	\N	2026-07-10 19:23:53.34+00	imported_history	11194
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5105458194	FlawedButLoved	NONG	\N	1070000	86	32210	cw_bot	\N	2026-07-04 01:47:40.163+00	imported_history	11329
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5429784771	ETHANVU11	SS1N	\N	8	31189	32209	cw_bot	\N	2026-08-08 09:55:49.165+00	imported_history	10108
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5702033770	dabbin_boittv	UN0	\N	1180000	24	32209	cw_bot	\N	2026-08-03 16:23:31.807+00	imported_history	10637
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	6127399811	GoopGoopMaSi	GSQD	\N	668690	1108	32209	cw_bot	\N	2026-07-23 13:53:22.765+00	imported_history	10864
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7074492190	scoutiiiiiiiii	L1ES	\N	306700	6074	32209	cw_bot	\N	2026-08-01 09:24:22.841+00	imported_history	10827
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7213418603	proline_urlocalsweat	Pugy	\N	3470	25319	32209	cw_bot	\N	2026-08-01 18:24:48.12+00	imported_history	10810
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7241086258	unoyea4	TRE5	\N	125900	12581	32209	cw_bot	\N	2026-08-02 01:06:37.815+00	imported_history	10733
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7242780756	unoyea5	TRE5	\N	136070	12108	32209	cw_bot	\N	2026-08-02 01:06:20.623+00	imported_history	10727
 \.
 
 
@@ -486,8 +541,8 @@ PixelChickBattle	Pixel Chick Battle	pixelchickbattle	8187537946	nzr5581	V1LN	\N	
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Bn1SAacPfRuC7hmaWpEUzGhryAwlrZgY2ANvJRp4aNs7q1WM5ra0L2Ly6cYnhI4
+\unrestrict zHFqk6bP4CUcrFWvYzBGVW745mucxiySM7rOWZoU4duypZdUhPC7wrFtv4fTEfl
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 3zZuQCgCdPTTzNszUo8xeouWV5wtJdryGjawzM6nVLOxE3wR64q085Pq1OoChmE
+\restrict 8IL8ZsWAHSIE2JRzDJAifUsRGFwqTlc1MCzBrJ6PQQPOplf9o7AXpf8fNg31iD8
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -23,451 +23,509 @@ SET row_security = off;
 -- Data for Name: Strength Battle; Type: TABLE DATA; Schema: battles; Owner: -
 --
 
-COPY battles."Strength Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at) FROM stdin;
-StrengthBattle	Strength Battle	strengthbattle	1258957228	idjdjjdi2	ORB2	\N	13070000	11068	27163	cw_bot	history-import:cw_bot:1938	2026-06-21 20:32:04.889+00
-StrengthBattle	Strength Battle	strengthbattle	20532808	GamesReborn	Rfil	\N	76400000	1543	27163	cw_bot	history-import:cw_bot:1222	2026-05-01 18:19:11.948+00
-StrengthBattle	Strength Battle	strengthbattle	33492395	unoyea	UN0	\N	81710000	536	27163	cw_bot	history-import:cw_bot:1379	2026-05-07 10:52:28.967+00
-StrengthBattle	Strength Battle	strengthbattle	45130460	Ziilionaires	UN0	\N	83540000	266	27163	cw_bot	history-import:cw_bot:3801	2026-04-05 08:12:37.375+00
-StrengthBattle	Strength Battle	strengthbattle	58312098	sosd35	SOPU	\N	85420000	99	27161	cw_bot	history-import:cw_bot:690	2026-07-17 18:57:28.202+00
-StrengthBattle	Strength Battle	strengthbattle	79237321	GodlySalt	BYRD	110	\N	110	\N	external_import	history-import:big_bot:950	2026-07-11 14:28:35.433+00
-StrengthBattle	Strength Battle	strengthbattle	90767636	bobdog751	V1LN	\N	46320000	4306	27163	cw_bot	history-import:cw_bot:8131	2026-04-27 21:06:33.398+00
-StrengthBattle	Strength Battle	strengthbattle	120904005	nublet28	BYRD	\N	83200000	301	27163	cw_bot	history-import:cw_bot:8442	2026-07-03 22:38:52.17+00
-StrengthBattle	Strength Battle	strengthbattle	125272790	ur_salty091	XBOX	\N	53990000	3016	27163	cw_bot	history-import:cw_bot:1919	2026-06-21 04:13:46.321+00
-StrengthBattle	Strength Battle	strengthbattle	136661329	ghanta2a	Goop	\N	55250000	2924	27163	cw_bot	history-import:cw_bot:8103	2026-04-26 23:31:56.073+00
-StrengthBattle	Strength Battle	strengthbattle	138619446	darkenedwishes	Goop	\N	83440000	275	27163	cw_bot	history-import:cw_bot:2006	2026-06-28 16:26:03.666+00
-StrengthBattle	Strength Battle	strengthbattle	148251054	EpicRider6729	NONG	\N	83320000	288	27163	cw_bot	history-import:cw_bot:3852	2026-04-05 07:59:08.938+00
-StrengthBattle	Strength Battle	strengthbattle	156957387	itsminerr	ORBI	\N	79900000	916	27161	cw_bot	history-import:cw_bot:2155	2026-08-01 03:26:51.039+00
-StrengthBattle	Strength Battle	strengthbattle	170719079	tnocko	HROT	\N	44080000	4824	27161	cw_bot	history-import:cw_bot:2289	2026-08-12 07:40:01.692+00
-StrengthBattle	Strength Battle	strengthbattle	170896669	toratot	OTTR	\N	47730000	3998	27163	cw_bot	history-import:cw_bot:9149	2026-06-29 23:29:26.064+00
-StrengthBattle	Strength Battle	strengthbattle	192463394	NukeOfLava12	3zEZ	\N	84840000	139	27163	cw_bot	history-import:cw_bot:4131	2026-04-12 20:31:33.085+00
-StrengthBattle	Strength Battle	strengthbattle	5663792716	snowzyfarm	ROMU	\N	46250000	4321	27159	cw_bot	history-import:cw_bot:8694	2026-08-28 16:09:02.733+00
-StrengthBattle	Strength Battle	strengthbattle	192653117	carloskar08	ORBI	\N	81750000	529	27161	cw_bot	history-import:cw_bot:4466	2026-08-05 22:58:43.526+00
-StrengthBattle	Strength Battle	strengthbattle	194076029	Gromic5876	MNBB	\N	2550000	18830	27161	cw_bot	history-import:cw_bot:6100	2026-08-08 23:25:51.173+00
-StrengthBattle	Strength Battle	strengthbattle	204751057	SainLol	fr2e	\N	1400000	21417	27161	cw_bot	history-import:cw_bot:10040	2026-08-08 18:46:45.184+00
-StrengthBattle	Strength Battle	strengthbattle	210966410	onoraksal	hlx	\N	59640000	2655	27159	cw_bot	history-import:cw_bot:8782	2026-08-15 13:55:15.256+00
-StrengthBattle	Strength Battle	strengthbattle	223141866	LoLLubas	DPSF	\N	43100000	5026	27159	cw_bot	history-import:cw_bot:4798	2026-08-28 14:48:40.144+00
-StrengthBattle	Strength Battle	strengthbattle	241713789	J2X1NESIWXID	DLOW	\N	894460	23653	27161	cw_bot	history-import:cw_bot:750	2026-07-17 18:58:04.211+00
-StrengthBattle	Strength Battle	strengthbattle	250562586	zcm_Xi	CC4T	\N	32380000	7420	27161	cw_bot	history-import:cw_bot:4364	2026-08-09 17:51:30.585+00
-StrengthBattle	Strength Battle	strengthbattle	254885188	Prodav1	SULS	\N	58630000	2735	27161	cw_bot	history-import:cw_bot:8003	2026-07-08 14:39:05.73+00
-StrengthBattle	Strength Battle	strengthbattle	272741362	kyle558888	ORBI	\N	80600000	768	27161	cw_bot	history-import:cw_bot:221	2026-07-17 17:23:47.778+00
-StrengthBattle	Strength Battle	strengthbattle	321031467	GBGamer68	🏰 Clan: **ANG_**	\N	\N	5199	27163	cw_bot	history-import:cw_bot:3444	2026-04-26 17:27:16.306+00
-StrengthBattle	Strength Battle	strengthbattle	331930897	gogeta363	TLGZ	\N	75610000	1637	27161	cw_bot	history-import:cw_bot:4382	2026-08-09 04:19:11.832+00
-StrengthBattle	Strength Battle	strengthbattle	343511782	octojabb	SLRP	\N	69470000	2093	27163	cw_bot	history-import:cw_bot:9247	2026-04-30 14:51:23.517+00
-StrengthBattle	Strength Battle	strengthbattle	365225419	prorik228	07W	\N	79040000	1070	27161	cw_bot	history-import:cw_bot:7912	2026-07-08 14:30:35.5+00
-StrengthBattle	Strength Battle	strengthbattle	413758213	NotMrTroll_YT	SOPU	\N	81470000	583	27161	cw_bot	history-import:cw_bot:2833	2026-07-31 16:31:43.631+00
-StrengthBattle	Strength Battle	strengthbattle	418400389	vojtaprovaznik	VLP2	\N	746840	24303	27159	cw_bot	history-import:cw_bot:4939	2026-08-26 06:26:26.509+00
-StrengthBattle	Strength Battle	strengthbattle	423460663	bub2540	POPS	\N	46820000	4204	27163	cw_bot	history-import:cw_bot:1508	2026-05-16 12:19:40.788+00
-StrengthBattle	Strength Battle	strengthbattle	425660194	chinovelaz	stzr	\N	64380000	2324	27163	cw_bot	history-import:cw_bot:4152	2026-04-12 20:33:18.646+00
-StrengthBattle	Strength Battle	strengthbattle	435823564	brandon292016	3zEZ	\N	52010000	3231	27163	cw_bot	history-import:cw_bot:1035	2026-04-20 06:06:34.027+00
-StrengthBattle	Strength Battle	strengthbattle	452314193	LandOfDoggos	V1LN	\N	48970000	3722	27163	cw_bot	history-import:cw_bot:9189	2026-06-23 15:37:48.38+00
-StrengthBattle	Strength Battle	strengthbattle	460000821	maserofwater098	C4T6	\N	38890000	5977	27163	cw_bot	history-import:cw_bot:2037	2026-06-29 17:36:18.828+00
-StrengthBattle	Strength Battle	strengthbattle	463900811	AgentP_0928	NONG	\N	79990000	901	27163	cw_bot	history-import:cw_bot:651	2026-04-26 04:08:51.656+00
-StrengthBattle	Strength Battle	strengthbattle	470464024	ceficat	H8M3	\N	78910000	1101	27161	cw_bot	history-import:cw_bot:2581	2026-08-01 14:42:49.688+00
-StrengthBattle	Strength Battle	strengthbattle	496935076	mawahlah	07W	\N	75840000	1611	27163	cw_bot	history-import:cw_bot:48	2026-06-27 00:05:32.123+00
-StrengthBattle	Strength Battle	strengthbattle	502312785	tomasek8557	BDX	\N	3970000	17354	27159	cw_bot	history-import:cw_bot:5453	2026-08-19 16:40:59.801+00
-StrengthBattle	Strength Battle	strengthbattle	503486505	campagnolo5	_hot	\N	83790000	233	27159	cw_bot	history-import:cw_bot:7659	2026-08-16 14:51:20.144+00
-StrengthBattle	Strength Battle	strengthbattle	544198160	JimmyCIeetus	SOPU	\N	83610000	259	27161	cw_bot	history-import:cw_bot:476	2026-07-17 18:47:56.313+00
-StrengthBattle	Strength Battle	strengthbattle	546090248	cheburek_x	mrnw	\N	2170000	19502	27161	cw_bot	history-import:cw_bot:2752	2026-07-31 17:21:30.816+00
-StrengthBattle	Strength Battle	strengthbattle	562277230	Berryuk19sdad	UN0	\N	81450000	591	27163	cw_bot	history-import:cw_bot:3913	2026-06-24 23:01:30.995+00
-StrengthBattle	Strength Battle	strengthbattle	569678937	StormerAceCT	PsAG	\N	45650000	4463	27161	cw_bot	history-import:cw_bot:3324	2026-07-24 20:47:00.595+00
-StrengthBattle	Strength Battle	strengthbattle	573589049	nerfbro9000	GSTG	\N	78680000	1134	27163	cw_bot	history-import:cw_bot:9404	2026-03-26 19:15:43.999+00
-StrengthBattle	Strength Battle	strengthbattle	573955632	Johanplayzrb21	HARM	\N	84820000	140	27163	cw_bot	history-import:cw_bot:996	2026-04-18 02:22:53.465+00
-StrengthBattle	Strength Battle	strengthbattle	584516944	renzcru	KGHC	\N	2800000	18469	27163	cw_bot	history-import:cw_bot:1448	2026-05-12 10:24:24.514+00
-StrengthBattle	Strength Battle	strengthbattle	587622297	Raihania54321	Raq	\N	1300000	21781	27163	cw_bot	history-import:cw_bot:1026	2026-04-19 21:12:31.376+00
-StrengthBattle	Strength Battle	strengthbattle	587994363	Real_RoNexq	EDS1	\N	18190000	8929	27161	cw_bot	history-import:cw_bot:3159	2026-07-27 16:53:43.006+00
-StrengthBattle	Strength Battle	strengthbattle	588437757	beastbrody12345	LX2C	\N	730500	24371	27159	cw_bot	history-import:cw_bot:8596	2026-08-21 00:15:42.209+00
-StrengthBattle	Strength Battle	strengthbattle	588685015	jonis_chicken	XBOX	\N	76090000	1584	27163	cw_bot	history-import:cw_bot:9212	2026-06-13 20:55:03.535+00
-StrengthBattle	Strength Battle	strengthbattle	621412324	dabcat818	S7NS	\N	57830000	2785	27163	cw_bot	history-import:cw_bot:1780	2026-06-07 17:32:51.445+00
-StrengthBattle	Strength Battle	strengthbattle	643466909	itsmason3725	H8M3	\N	50670000	3431	27163	cw_bot	history-import:cw_bot:782	2026-05-16 01:26:54.902+00
-StrengthBattle	Strength Battle	strengthbattle	651456138	TrikStar007	3zEZ	\N	66270000	2225	27163	cw_bot	history-import:cw_bot:4210	2026-04-12 20:09:23.388+00
-StrengthBattle	Strength Battle	strengthbattle	656420117	MercilessBanditTaken	NS4R	\N	78110000	1249	27163	cw_bot	history-import:cw_bot:171	2026-04-19 13:44:30.618+00
-StrengthBattle	Strength Battle	strengthbattle	659542061	rrodgers0206	POPS	\N	80390000	820	27161	cw_bot	history-import:cw_bot:735	2026-07-17 18:57:55.775+00
-StrengthBattle	Strength Battle	strengthbattle	661099895	patcola2010	V1LN	\N	18810000	8754	27161	cw_bot	history-import:cw_bot:7801	2026-07-24 00:04:23.322+00
-StrengthBattle	Strength Battle	strengthbattle	688928053	Noahangrybird1234	S2PU	\N	59640000	2656	27163	cw_bot	history-import:cw_bot:8351	2026-04-06 08:29:37.081+00
-StrengthBattle	Strength Battle	strengthbattle	697378514	robloxiswaste213445	NXNG	\N	34850000	6993	27161	cw_bot	history-import:cw_bot:3085	2026-07-28 21:08:04.725+00
-StrengthBattle	Strength Battle	strengthbattle	709222551	Theozzz12	UN0	\N	81440000	592	27163	cw_bot	history-import:cw_bot:8168	2026-04-26 15:05:43.056+00
-StrengthBattle	Strength Battle	strengthbattle	722456679	mujiTABA1	\N	\N	84900000	133	27163	cw_bot	history-import:cw_bot:2021	2026-06-28 16:42:57.557+00
-StrengthBattle	Strength Battle	strengthbattle	730772803	sidsew	HSTL	\N	51170000	3339	27159	cw_bot	history-import:cw_bot:7539	2026-08-25 14:36:17.613+00
-StrengthBattle	Strength Battle	strengthbattle	779059828	jimynew	SS1N	\N	1100000	22650	27163	cw_bot	history-import:cw_bot:1535	2026-05-16 23:39:36.553+00
-StrengthBattle	Strength Battle	strengthbattle	782937820	the_macraft7	skvi	\N	81110000	663	27159	cw_bot	history-import:cw_bot:7568	2026-08-16 22:06:59.348+00
-StrengthBattle	Strength Battle	strengthbattle	792204503	Arek2qe4	V1LN	\N	58270000	2757	27161	cw_bot	history-import:cw_bot:8646	2026-07-15 22:49:51.435+00
-StrengthBattle	Strength Battle	strengthbattle	808679837	sqirtel50	KOHV	\N	47220000	4100	27161	cw_bot	history-import:cw_bot:2422	2026-08-09 16:10:37.911+00
-StrengthBattle	Strength Battle	strengthbattle	810054419	catloncat	LEGT	\N	5560000	16243	27163	cw_bot	history-import:cw_bot:4023	2026-04-12 21:24:49.553+00
-StrengthBattle	Strength Battle	strengthbattle	844720150	Sebastjan35	SOPU	\N	80080000	887	27161	cw_bot	history-import:cw_bot:531	2026-07-17 18:48:35.159+00
-StrengthBattle	Strength Battle	strengthbattle	855012952	batuoffi	OzTM	\N	1890000	20045	27163	cw_bot	history-import:cw_bot:3743	2026-04-18 01:15:08.854+00
-StrengthBattle	Strength Battle	strengthbattle	857986484	pogujsn	DVQ	\N	38880	26377	27161	cw_bot	history-import:cw_bot:7865	2026-07-08 14:28:28.369+00
-StrengthBattle	Strength Battle	strengthbattle	864632403	galaxyknight9204	Gewp	\N	13640000	10783	27163	cw_bot	history-import:cw_bot:1768	2026-05-29 01:34:02.793+00
-StrengthBattle	Strength Battle	strengthbattle	876991750	Mertiliano	ORBI	\N	80620000	763	27161	cw_bot	history-import:cw_bot:2135	2026-08-01 04:17:09.805+00
-StrengthBattle	Strength Battle	strengthbattle	877353566	lpvarmi	VLP	\N	36320000	6625	27161	cw_bot	history-import:cw_bot:7209	2026-07-29 20:25:50.738+00
-StrengthBattle	Strength Battle	strengthbattle	911932139	Daniel8czs	W0m1	\N	15780000	9715	27161	cw_bot	history-import:cw_bot:6809	2026-08-01 11:19:39.153+00
-StrengthBattle	Strength Battle	strengthbattle	938868540	eso343	SHAG	\N	37240000	6382	27161	cw_bot	history-import:cw_bot:6547	2026-08-07 09:09:20.624+00
-StrengthBattle	Strength Battle	strengthbattle	955175856	fatalwaccle	3zEZ	\N	57290000	2813	27163	cw_bot	history-import:cw_bot:4181	2026-04-12 20:31:29.037+00
-StrengthBattle	Strength Battle	strengthbattle	983863343	akita_nuru	MTNR	\N	5910000	16040	27159	cw_bot	history-import:cw_bot:9580	2026-08-16 14:43:07.843+00
-StrengthBattle	Strength Battle	strengthbattle	1024664859	NotArsann7	AR2Y	\N	63160000	2405	27163	cw_bot	history-import:cw_bot:1253	2026-05-03 05:34:41.421+00
-StrengthBattle	Strength Battle	strengthbattle	1044395777	patrykkpro1	V1LN	\N	16300000	9516	27161	cw_bot	history-import:cw_bot:7723	2026-08-05 20:28:34.504+00
-StrengthBattle	Strength Battle	strengthbattle	1049702109	realchaseblox	FaZ	\N	75720000	1628	27163	cw_bot	history-import:cw_bot:1311	2026-05-05 21:59:20.786+00
-StrengthBattle	Strength Battle	strengthbattle	1055219519	eon2020	H8M3	\N	51810000	3257	27163	cw_bot	history-import:cw_bot:8095	2026-06-24 23:15:47.3+00
-StrengthBattle	Strength Battle	strengthbattle	1081067684	mimilrol	ROMU	\N	70980000	2014	27161	cw_bot	history-import:cw_bot:405	2026-07-17 18:47:08.019+00
-StrengthBattle	Strength Battle	strengthbattle	1137640592	clackerskill	Goop	\N	81510000	575	27161	cw_bot	history-import:cw_bot:4658	2026-08-01 00:22:28.841+00
-StrengthBattle	Strength Battle	strengthbattle	1146217738	xXjirkaXxboys	SJCJ	\N	46530000	4260	27163	cw_bot	history-import:cw_bot:4045	2026-04-12 22:01:07.439+00
-StrengthBattle	Strength Battle	strengthbattle	1157052710	laughytrex	XPQX	\N	8580000	14174	27163	cw_bot	history-import:cw_bot:889	2026-04-24 03:00:59.658+00
-StrengthBattle	Strength Battle	strengthbattle	1158978049	Mr_trolololx019	BCN2	\N	1060000	22844	27161	cw_bot	history-import:cw_bot:7831	2026-07-05 15:55:32.872+00
-StrengthBattle	Strength Battle	strengthbattle	1160481763	fajeczka4	BOTZ	\N	7850000	14725	27161	cw_bot	history-import:cw_bot:6789	2026-08-03 09:49:43.16+00
-StrengthBattle	Strength Battle	strengthbattle	1163321217	protozejelen	LV13	\N	10580000	12494	27161	cw_bot	history-import:cw_bot:7133	2026-07-30 15:23:48.828+00
-StrengthBattle	Strength Battle	strengthbattle	1178078831	mavilure	NXNG	\N	65560000	2261	27163	cw_bot	history-import:cw_bot:9110	2026-07-04 02:37:26.103+00
-StrengthBattle	Strength Battle	strengthbattle	1179507007	tomisek134	HR2T	\N	58900000	2709	27161	cw_bot	history-import:cw_bot:4740	2026-08-11 18:03:07.712+00
-StrengthBattle	Strength Battle	strengthbattle	1192463440	Jonas139075	dkps	\N	1020000	23005	27161	cw_bot	history-import:cw_bot:2778	2026-07-31 19:36:15.216+00
-StrengthBattle	Strength Battle	strengthbattle	1215733674	M_parker234	1DOL	\N	36140000	6676	27163	cw_bot	history-import:cw_bot:1697	2026-05-23 12:58:36.466+00
-StrengthBattle	Strength Battle	strengthbattle	1217944056	aussieoutlaww	H8M3	\N	46670000	4231	27161	cw_bot	history-import:cw_bot:2881	2026-07-31 15:48:02.888+00
-StrengthBattle	Strength Battle	strengthbattle	1221841742	Azurqson	ORBI	\N	84640000	152	27163	cw_bot	history-import:cw_bot:3784	2026-04-06 19:59:26.612+00
-StrengthBattle	Strength Battle	strengthbattle	1229931292	ijyrgk	W0m1	\N	2880000	18379	27163	cw_bot	history-import:cw_bot:9096	2026-07-04 00:22:27.772+00
-StrengthBattle	Strength Battle	strengthbattle	1232493274	MARYNADA058	BDX	\N	2020000	19795	27161	cw_bot	history-import:cw_bot:6887	2026-07-31 20:00:25.469+00
-StrengthBattle	Strength Battle	strengthbattle	1243643868	ASEYIsoos	Goop	\N	79060000	1067	27161	cw_bot	history-import:cw_bot:9425	2026-08-12 22:46:12.145+00
-StrengthBattle	Strength Battle	strengthbattle	1245227095	TheoFuraxe	ROMU	\N	91760000	2	27161	cw_bot	history-import:cw_bot:123	2026-07-17 18:32:35.762+00
-StrengthBattle	Strength Battle	strengthbattle	1274135054	latestmallard87	vysn	\N	32450000	7408	27163	cw_bot	history-import:cw_bot:3748	2026-04-18 01:16:24.862+00
-StrengthBattle	Strength Battle	strengthbattle	1277089394	LUVALICEEXO	XTND	\N	44650000	4684	27163	cw_bot	history-import:cw_bot:9260	2026-04-28 15:57:56.007+00
-StrengthBattle	Strength Battle	strengthbattle	1279232695	Ac3scar	HSTL	\N	41180000	5428	27163	cw_bot	history-import:cw_bot:243	2026-05-10 02:13:40.5+00
-StrengthBattle	Strength Battle	strengthbattle	1283935690	Laura_V13	07W	\N	42930000	5062	27161	cw_bot	history-import:cw_bot:4343	2026-08-09 17:50:39.523+00
-StrengthBattle	Strength Battle	strengthbattle	1286384664	uzuisnipes	W2VY	\N	80790000	723	27161	cw_bot	history-import:cw_bot:337	2026-07-17 18:33:12.116+00
-StrengthBattle	Strength Battle	strengthbattle	1294169389	crazy_blox6677	RATZ	\N	13710000	10735	27161	cw_bot	history-import:cw_bot:2618	2026-07-31 20:54:30.508+00
-StrengthBattle	Strength Battle	strengthbattle	1294494054	Ethanblaze112	x75p	\N	48590000	3797	27163	cw_bot	history-import:cw_bot:8322	2026-04-03 19:35:37.401+00
-StrengthBattle	Strength Battle	strengthbattle	1330097404	tomasbudik007	VLP	\N	76160000	1575	27161	cw_bot	history-import:cw_bot:7098	2026-07-30 18:00:28.62+00
-StrengthBattle	Strength Battle	strengthbattle	1364275114	Czech9912	VLP	\N	1390000	21473	27161	cw_bot	history-import:cw_bot:6693	2026-08-04 20:29:16.813+00
-StrengthBattle	Strength Battle	strengthbattle	1376213247	eric23129	DLOW	\N	10480000	12572	27163	cw_bot	history-import:cw_bot:3936	2026-06-26 14:54:31.345+00
-StrengthBattle	Strength Battle	strengthbattle	1380082703	Allalboy2	7HRW	\N	52050000	3224	27163	cw_bot	history-import:cw_bot:8214	2026-04-08 19:50:25.995+00
-StrengthBattle	Strength Battle	strengthbattle	1384716628	barti12345610	_hot	\N	39910000	5714	27161	cw_bot	history-import:cw_bot:8529	2026-07-21 19:41:58.049+00
-StrengthBattle	Strength Battle	strengthbattle	1403606137	GhostWhisperer03	PAAC	\N	52200000	3195	27161	cw_bot	history-import:cw_bot:6910	2026-08-01 01:11:48.951+00
-StrengthBattle	Strength Battle	strengthbattle	1409166088	treytonpeterbuilt	GSTG	\N	82340000	431	27163	cw_bot	history-import:cw_bot:1369	2026-05-07 00:27:08.494+00
-StrengthBattle	Strength Battle	strengthbattle	1413108041	Gajmer2011	🏰 Clan: **dkps**	\N	\N	22433	27163	cw_bot	history-import:cw_bot:3549	2026-03-12 11:07:41.895+00
-StrengthBattle	Strength Battle	strengthbattle	1448209893	starwarsroblox2099	Goop	\N	62330000	2449	27161	cw_bot	history-import:cw_bot:2678	2026-08-01 04:00:56.996+00
-StrengthBattle	Strength Battle	strengthbattle	1452886316	kubistaa	DJRK	\N	845640	23883	27159	cw_bot	history-import:cw_bot:5219	2026-08-21 19:09:04.387+00
-StrengthBattle	Strength Battle	strengthbattle	1455404309	vavasamasa	_CEO	\N	59990000	2631	27161	cw_bot	history-import:cw_bot:6768	2026-08-03 07:19:33.116+00
-StrengthBattle	Strength Battle	strengthbattle	1462748729	dragonballx1412	NONG	3	79400000	1007	27161	cw_bot	history-import:big_bot:1047	2026-07-17 01:03:33.384+00
-StrengthBattle	Strength Battle	strengthbattle	1501050755	RealYTStarz	st1z	\N	25130000	8066	27163	cw_bot	history-import:cw_bot:1971	2026-06-27 18:27:30.824+00
-StrengthBattle	Strength Battle	strengthbattle	1501625591	floriansamuraiu	07W	\N	11440000	11889	27161	cw_bot	history-import:cw_bot:7902	2026-07-08 14:32:48.38+00
-StrengthBattle	Strength Battle	strengthbattle	1509495433	arrume_aparte12	KOHV	\N	42360000	5189	27161	cw_bot	history-import:cw_bot:8020	2026-07-08 14:39:41.28+00
-StrengthBattle	Strength Battle	strengthbattle	1510971300	Informix_CZ	KMo	\N	43610000	4925	27161	cw_bot	history-import:cw_bot:6223	2026-08-08 08:18:03.311+00
-StrengthBattle	Strength Battle	strengthbattle	1514487909	mufflingg	Z3EE	\N	17810000	9044	27163	cw_bot	history-import:cw_bot:2044	2026-06-30 03:14:01.994+00
-StrengthBattle	Strength Battle	strengthbattle	1515580709	notaurorasky008	skvi	\N	56590000	2841	27159	cw_bot	history-import:cw_bot:7549	2026-08-16 16:38:28.759+00
-StrengthBattle	Strength Battle	strengthbattle	1519381006	CloudyVR65	x75p	\N	64950000	2295	27163	cw_bot	history-import:cw_bot:1140	2026-04-27 02:10:48.062+00
-StrengthBattle	Strength Battle	strengthbattle	1520358099	FlipFlopFloop417	CC4T	\N	8510000	14219	27161	cw_bot	history-import:cw_bot:354	2026-07-17 18:33:20.942+00
-StrengthBattle	Strength Battle	strengthbattle	1523831473	malfiv	K989	\N	3650000	17629	27161	cw_bot	history-import:cw_bot:6243	2026-08-08 14:47:52.966+00
-StrengthBattle	Strength Battle	strengthbattle	1528045909	Matysek0000000	SAM4	\N	9600000	13333	27160	cw_bot	history-import:cw_bot:5886	2026-08-14 13:19:31.864+00
-StrengthBattle	Strength Battle	strengthbattle	1528718508	strykertoff	XPQX	\N	9160000	13707	27163	cw_bot	history-import:cw_bot:1265	2026-05-03 14:42:25.308+00
-StrengthBattle	Strength Battle	strengthbattle	1537916189	MailDaCoolKid	Goop	\N	80700000	750	27163	cw_bot	history-import:cw_bot:9196	2026-06-19 13:04:44.383+00
-StrengthBattle	Strength Battle	strengthbattle	1539398349	Darkszern	SOPU	\N	81930000	499	27161	cw_bot	history-import:cw_bot:4571	2026-08-04 19:57:01.734+00
-StrengthBattle	Strength Battle	strengthbattle	1544837203	legpro11	auli	\N	37710000	6253	27159	cw_bot	history-import:cw_bot:7495	2026-08-27 21:28:49.869+00
-StrengthBattle	Strength Battle	strengthbattle	1546214233	ninjaogifox	H8M3	\N	48320000	3864	27161	cw_bot	history-import:cw_bot:5978	2026-08-10 21:49:03.348+00
-StrengthBattle	Strength Battle	strengthbattle	1573629774	mkmike27mk	XPQX	\N	37480000	6316	27163	cw_bot	history-import:cw_bot:256	2026-05-16 17:04:30.807+00
-StrengthBattle	Strength Battle	strengthbattle	1581306248	Robloxak_Honiik	KMo	\N	42060000	5247	27159	cw_bot	history-import:cw_bot:5833	2026-08-14 19:05:13.93+00
-StrengthBattle	Strength Battle	strengthbattle	1583648375	KeyzziHD94	GSTG	\N	82450000	410	27161	cw_bot	history-import:cw_bot:288	2026-07-17 17:28:11.535+00
-StrengthBattle	Strength Battle	strengthbattle	1587906543	wexfordfox	BOSK	\N	14370000	10405	27163	cw_bot	history-import:cw_bot:9286	2026-04-29 12:14:55.272+00
-StrengthBattle	Strength Battle	strengthbattle	1592738293	1ncr3d1bl3sulk	x75p	\N	57980000	2777	27163	cw_bot	history-import:cw_bot:1279	2026-05-03 22:19:36.985+00
-StrengthBattle	Strength Battle	strengthbattle	1596560199	wiegehtdennsowas	XBOX	\N	45670000	4458	27163	cw_bot	history-import:cw_bot:9321	2026-04-05 16:35:34.64+00
-StrengthBattle	Strength Battle	strengthbattle	1613882953	toastedpoptartonyt	CXTG	\N	7320000	15114	27159	cw_bot	history-import:cw_bot:9919	2026-08-18 18:50:20.423+00
-StrengthBattle	Strength Battle	strengthbattle	1617221713	waheedplayzYT	S2PU	\N	43410000	4969	27161	cw_bot	history-import:cw_bot:7782	2026-07-22 21:12:43.733+00
-StrengthBattle	Strength Battle	strengthbattle	1626378539	Fulda645	S7NS	\N	3560000	17705	27163	cw_bot	history-import:cw_bot:8145	2026-04-28 12:17:49.765+00
-StrengthBattle	Strength Battle	strengthbattle	1644308020	hoon9900a	vvjp	\N	23620000	8138	27161	cw_bot	history-import:cw_bot:8933	2026-07-29 11:32:45.032+00
-StrengthBattle	Strength Battle	strengthbattle	1652197454	fighter92399_alt	NONG	\N	83530000	267	27163	cw_bot	history-import:cw_bot:1832	2026-06-16 00:22:27.481+00
-StrengthBattle	Strength Battle	strengthbattle	1676340458	AgreedFlower11	NFZZ	\N	43010000	5047	27161	cw_bot	history-import:cw_bot:617	2026-07-17 18:49:30.27+00
-StrengthBattle	Strength Battle	strengthbattle	1676361250	RealYoDarkshadow	Sh2p	\N	12720000	11237	27163	cw_bot	history-import:cw_bot:3988	2026-04-12 22:22:05.865+00
-StrengthBattle	Strength Battle	strengthbattle	1683480006	kminoscz	KMo	\N	42140000	5231	27161	cw_bot	history-import:cw_bot:7079	2026-07-30 17:15:30.786+00
-StrengthBattle	Strength Battle	strengthbattle	1690820953	1tombay	BEZE	\N	79760000	938	27163	cw_bot	history-import:cw_bot:1718	2026-05-23 14:09:54.985+00
-StrengthBattle	Strength Battle	strengthbattle	1697239942	racingchampaj	AR2Y	\N	39700000	5759	27161	cw_bot	history-import:cw_bot:7891	2026-07-08 14:32:13.162+00
-StrengthBattle	Strength Battle	strengthbattle	1746819605	Ofdintss	KOHV	\N	85030000	123	27163	cw_bot	history-import:cw_bot:1908	2026-06-20 19:36:02.048+00
-StrengthBattle	Strength Battle	strengthbattle	1749647628	da1niell	HR2T	\N	44730000	4662	27161	cw_bot	history-import:cw_bot:6364	2026-08-07 18:52:55.147+00
-StrengthBattle	Strength Battle	strengthbattle	1750005492	averyhein1920	S2PU	\N	9870000	13087	27163	cw_bot	history-import:cw_bot:8396	2026-06-17 00:11:42.038+00
-StrengthBattle	Strength Battle	strengthbattle	1756730755	imsazzyy	OTTR	\N	17080000	9233	27163	cw_bot	history-import:cw_bot:9134	2026-06-29 23:26:20.807+00
-StrengthBattle	Strength Battle	strengthbattle	1759162396	9kbotzz	XBOX	\N	73570000	1839	27163	cw_bot	history-import:cw_bot:9333	2026-04-05 20:49:49.97+00
-StrengthBattle	Strength Battle	strengthbattle	1780089241	dominikando11	3zEZ	\N	49930000	3544	27163	cw_bot	history-import:cw_bot:4008	2026-04-12 21:23:47.034+00
-StrengthBattle	Strength Battle	strengthbattle	1787663283	TheBuilder5649	FGZW	\N	13680000	10762	27163	cw_bot	history-import:cw_bot:4077	2026-04-12 22:03:03.052+00
-StrengthBattle	Strength Battle	strengthbattle	1817334423	zerz06	Goop	\N	83050000	324	27159	cw_bot	history-import:cw_bot:8708	2026-08-26 17:22:03.043+00
-StrengthBattle	Strength Battle	strengthbattle	1818966891	Drak1735	PROX	\N	31360000	7576	27159	cw_bot	history-import:cw_bot:5847	2026-08-14 19:17:31.862+00
-StrengthBattle	Strength Battle	strengthbattle	1824713899	hayojeu2k	W2VY	\N	58390000	2748	27161	cw_bot	history-import:cw_bot:670	2026-07-17 18:57:09.828+00
-StrengthBattle	Strength Battle	strengthbattle	1835808563	1213eric	_MGW	\N	77910000	1294	27163	cw_bot	history-import:cw_bot:1642	2026-05-21 04:56:29.857+00
-StrengthBattle	Strength Battle	strengthbattle	1856284829	younes89755	NONG	\N	79380000	1012	27163	cw_bot	history-import:cw_bot:1351	2026-05-06 23:01:41.242+00
-StrengthBattle	Strength Battle	strengthbattle	1881899133	Coxxman	HROT	\N	83610000	260	27161	cw_bot	history-import:cw_bot:7439	2026-07-13 19:26:57.695+00
-StrengthBattle	Strength Battle	strengthbattle	1895942489	ziomek1000oo	_hot	\N	54020000	3010	27159	cw_bot	history-import:cw_bot:7584	2026-08-19 21:17:39.542+00
-StrengthBattle	Strength Battle	strengthbattle	1950318403	itsgaternotgator	W2VY	\N	15480000	9864	27163	cw_bot	history-import:cw_bot:309	2026-07-01 16:29:10.815+00
-StrengthBattle	Strength Battle	strengthbattle	1957877866	MRDanThePan	AR2Y	\N	37220000	6389	27161	cw_bot	history-import:cw_bot:3224	2026-07-26 11:08:55.681+00
-StrengthBattle	Strength Battle	strengthbattle	1973447751	radkozahumensky5	x75p	\N	77090000	1429	27159	cw_bot	history-import:cw_bot:4974	2026-08-24 18:50:27.632+00
-StrengthBattle	Strength Battle	strengthbattle	1986018475	Yazooony55	AXOK	\N	910030	23568	27161	cw_bot	history-import:cw_bot:2311	2026-08-12 18:23:23.035+00
-StrengthBattle	Strength Battle	strengthbattle	2015826915	Thiballa	ANG_	\N	18240000	8912	27163	cw_bot	history-import:cw_bot:1007	2026-04-18 19:09:38.623+00
-StrengthBattle	Strength Battle	strengthbattle	2017652746	roastedduck123	OTTR	\N	14610000	10275	27161	cw_bot	history-import:cw_bot:9041	2026-07-12 22:45:18.893+00
-StrengthBattle	Strength Battle	strengthbattle	2022911056	Iamaboy222224	XBOX	\N	79240000	1036	27161	cw_bot	history-import:cw_bot:3281	2026-07-25 17:51:10.303+00
-StrengthBattle	Strength Battle	strengthbattle	2046133197	coltwertzu	V1LN	\N	18510000	8825	27163	cw_bot	history-import:cw_bot:9343	2026-03-30 23:05:52.126+00
-StrengthBattle	Strength Battle	strengthbattle	2064474099	macejko998	K989	\N	37500000	6309	27159	cw_bot	history-import:cw_bot:5604	2026-08-16 18:31:51.714+00
-StrengthBattle	Strength Battle	strengthbattle	2067834432	blazeeok	Goop	\N	87000000	43	27161	cw_bot	history-import:cw_bot:3182	2026-07-26 20:02:36.593+00
-StrengthBattle	Strength Battle	strengthbattle	2209981951	andreas33709	SOPU	\N	77620000	1339	27163	cw_bot	history-import:cw_bot:1981	2026-06-28 13:45:11.795+00
-StrengthBattle	Strength Battle	strengthbattle	2226792909	Raptorik_gamer	HR2T	\N	43890000	4862	27161	cw_bot	history-import:cw_bot:7425	2026-07-18 17:45:36.477+00
-StrengthBattle	Strength Battle	strengthbattle	2241042742	WallEExtreme	BURN	\N	84950000	127	27161	cw_bot	history-import:cw_bot:8683	2026-07-15 16:36:29.044+00
-StrengthBattle	Strength Battle	strengthbattle	2257366377	lottewashere	LXCC	\N	87320000	35	27163	cw_bot	history-import:cw_bot:9312	2026-04-13 22:48:01.131+00
-StrengthBattle	Strength Battle	strengthbattle	2268926446	Feibapa	SOPU	\N	77820000	1312	27161	cw_bot	history-import:cw_bot:2704	2026-07-31 16:47:53.554+00
-StrengthBattle	Strength Battle	strengthbattle	2272058278	tomasmessi2567	HROT	\N	46330000	4302	27161	cw_bot	history-import:cw_bot:6599	2026-08-06 14:40:37.08+00
-StrengthBattle	Strength Battle	strengthbattle	2282416912	vae1oria	BEZE	\N	82390000	420	27163	cw_bot	history-import:cw_bot:9297	2026-04-25 08:43:24.827+00
-StrengthBattle	Strength Battle	strengthbattle	2296914657	officialchost	🏰 Clan: **NONG**	\N	81470000	585	27163	cw_bot	history-import:cw_bot:3733	2026-04-22 16:35:18.109+00
-StrengthBattle	Strength Battle	strengthbattle	2316325389	julimowi	TeGu	\N	81800000	522	27161	cw_bot	history-import:cw_bot:2730	2026-07-31 17:12:47.437+00
-StrengthBattle	Strength Battle	strengthbattle	2318308002	karelman1451	HR2T	\N	36450000	6582	27159	cw_bot	history-import:cw_bot:4914	2026-08-26 18:25:05.52+00
-StrengthBattle	Strength Battle	strengthbattle	2320688195	daihukumochi223	2WEI	\N	6260000	15792	27163	cw_bot	history-import:cw_bot:8554	2026-06-17 03:04:38.757+00
-StrengthBattle	Strength Battle	strengthbattle	2349313768	crystalboyo256	S7PY	\N	43670000	4916	27161	cw_bot	history-import:cw_bot:2976	2026-07-30 10:49:42.699+00
-StrengthBattle	Strength Battle	strengthbattle	2349773489	jsemdobrejkabe	MSPN	\N	1720000	20458	27161	cw_bot	history-import:cw_bot:6236	2026-08-08 09:15:39.653+00
-StrengthBattle	Strength Battle	strengthbattle	2375471082	RayquazaPlayz_yt	0RBI	\N	82590000	385	27163	cw_bot	history-import:cw_bot:4111	2026-04-12 20:27:06.36+00
-StrengthBattle	Strength Battle	strengthbattle	2399889452	starwax85	V1LN	\N	37870000	6220	27161	cw_bot	history-import:cw_bot:7764	2026-07-17 15:53:21.548+00
-StrengthBattle	Strength Battle	strengthbattle	2420801797	0k_0w	eguh	\N	5330000	16386	27161	cw_bot	history-import:cw_bot:443	2026-07-17 18:47:32.43+00
-StrengthBattle	Strength Battle	strengthbattle	2431643806	1KRUCHY	XREX	\N	51380000	3322	27163	cw_bot	history-import:cw_bot:8059	2026-06-23 16:35:49.505+00
-StrengthBattle	Strength Battle	strengthbattle	2443619256	mihokkon	UNO	\N	82650000	375	27163	cw_bot	history-import:cw_bot:3757	2026-04-17 00:20:59.211+00
-StrengthBattle	Strength Battle	strengthbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	64150000	2339	27161	cw_bot	history-import:cw_bot:2944	2026-07-30 23:41:01.908+00
-StrengthBattle	Strength Battle	strengthbattle	2463337749	mrtendieman	GSTG	\N	82700000	370	27159	cw_bot	history-import:cw_bot:7698	2026-08-16 16:38:00.619+00
-StrengthBattle	Strength Battle	strengthbattle	2469768592	Raitonn0609	2WEI	\N	64780000	2307	27163	cw_bot	history-import:cw_bot:9369	2026-03-31 20:29:42.263+00
-StrengthBattle	Strength Battle	strengthbattle	2475732693	Fazmashwastaken	FaZ	\N	48060000	3931	27161	cw_bot	history-import:cw_bot:10000	2026-08-09 01:32:35.34+00
-StrengthBattle	Strength Battle	strengthbattle	2489885181	Ewan_314	NONG	\N	79700000	952	27161	cw_bot	history-import:cw_bot:4434	2026-08-07 01:31:38.701+00
-StrengthBattle	Strength Battle	strengthbattle	2494077434	matyx00777	MNCS	\N	75280	25918	27161	cw_bot	history-import:cw_bot:4765	2026-08-01 12:20:27.96+00
-StrengthBattle	Strength Battle	strengthbattle	2509513667	Ryderkoo5545	ERC	\N	1850000	20146	27159	cw_bot	history-import:cw_bot:5050	2026-08-23 10:46:48.07+00
-StrengthBattle	Strength Battle	strengthbattle	2521267504	matejsbss	MDKT	\N	17570000	9108	27161	cw_bot	history-import:cw_bot:7475	2026-07-15 14:29:29.985+00
-StrengthBattle	Strength Battle	strengthbattle	2529950059	swbrthe34rd	LBB	\N	69450	25951	27159	cw_bot	history-import:cw_bot:5679	2026-08-15 00:36:32.07+00
-StrengthBattle	Strength Battle	strengthbattle	2530992063	smrtak54	DJRK	\N	1170000	22260	27161	cw_bot	history-import:cw_bot:6181	2026-08-08 19:57:25.253+00
-StrengthBattle	Strength Battle	strengthbattle	2534684186	mrtoping123	Zeiz	\N	41430000	5364	27161	cw_bot	history-import:cw_bot:7031	2026-07-30 22:26:36.798+00
-StrengthBattle	Strength Battle	strengthbattle	2539070982	Nomdecodetotoc34	ANG_	\N	45790000	4431	27163	cw_bot	history-import:cw_bot:1240	2026-05-02 16:27:23.292+00
-StrengthBattle	Strength Battle	strengthbattle	2545832975	baconszombiesarmy	FGZW	\N	9810000	13144	27163	cw_bot	history-import:cw_bot:4055	2026-04-12 22:02:06.94+00
-StrengthBattle	Strength Battle	strengthbattle	2575495153	IStoleYourChica	ORBI	\N	80870000	710	27161	cw_bot	history-import:cw_bot:78	2026-07-17 18:32:12.646+00
-StrengthBattle	Strength Battle	strengthbattle	2577660536	srbj2013	Do'It	\N	9550000	13366	27161	cw_bot	history-import:cw_bot:6140	2026-08-08 18:12:23.397+00
-StrengthBattle	Strength Battle	strengthbattle	2628215963	praisevolxtz	st1z	\N	21330000	8280	27161	cw_bot	history-import:cw_bot:455	2026-07-17 18:47:40.523+00
-StrengthBattle	Strength Battle	strengthbattle	2633185327	luxxrro	Goop	\N	84080000	191	27163	cw_bot	history-import:cw_bot:1991	2026-06-28 16:25:22.311+00
-StrengthBattle	Strength Battle	strengthbattle	2648563570	Stepa16th	MDKT	\N	59970000	2635	27161	cw_bot	history-import:cw_bot:7395	2026-07-17 14:30:03.697+00
-StrengthBattle	Strength Battle	strengthbattle	2667688976	SlimGreycz_2	VLP	\N	1080000	22747	27161	cw_bot	history-import:cw_bot:7937	2026-07-08 14:35:29.662+00
-StrengthBattle	Strength Battle	strengthbattle	2681952829	samplayz9977	XPQX	\N	114010	25783	27163	cw_bot	history-import:cw_bot:1399	2026-05-10 00:23:27.332+00
-StrengthBattle	Strength Battle	strengthbattle	2699598634	rosta128	HR2T	\N	8490000	14237	27161	cw_bot	history-import:cw_bot:6964	2026-07-31 16:07:38.598+00
-StrengthBattle	Strength Battle	strengthbattle	2709299989	fishy_axl22	st1z	\N	15960000	9647	27163	cw_bot	history-import:cw_bot:770	2026-05-10 02:24:40.449+00
-StrengthBattle	Strength Battle	strengthbattle	2719084403	aidananthony013	XPQX	\N	37950000	6199	27163	cw_bot	history-import:cw_bot:1816	2026-06-13 15:03:54.201+00
-StrengthBattle	Strength Battle	strengthbattle	2739287597	krillerproxd	AR2Y	\N	16080000	9596	27161	cw_bot	history-import:cw_bot:7884	2026-07-08 14:29:50.8+00
-StrengthBattle	Strength Battle	strengthbattle	2786686086	Loewentatze12	CITC	\N	676110	24590	27161	cw_bot	history-import:cw_bot:2436	2026-08-09 19:22:00.052+00
-StrengthBattle	Strength Battle	strengthbattle	2844876464	Destructcz23	tNo	\N	71160000	2003	27159	cw_bot	history-import:cw_bot:2268	2026-08-20 07:56:23.411+00
-StrengthBattle	Strength Battle	strengthbattle	2892299154	Baggooooo	UN0	\N	82510000	405	27161	cw_bot	history-import:cw_bot:4545	2026-08-04 19:57:26.933+00
-StrengthBattle	Strength Battle	strengthbattle	2901565950	bestrobloxsimsplayer	NONG	\N	82360000	426	27163	cw_bot	history-import:cw_bot:1178	2026-04-30 19:38:45.807+00
-StrengthBattle	Strength Battle	strengthbattle	2912101187	coolgur0	0RBI	\N	61520000	2515	27161	cw_bot	history-import:cw_bot:513	2026-07-17 18:48:27.061+00
-StrengthBattle	Strength Battle	strengthbattle	2915153725	Ishan90091	07W	\N	15240000	9985	27161	cw_bot	history-import:cw_bot:10055	2026-08-08 18:49:12.798+00
-StrengthBattle	Strength Battle	strengthbattle	2929825206	roplexbuddy	F4DE	\N	13220000	10999	27161	cw_bot	history-import:cw_bot:4258	2026-08-13 04:25:30.76+00
-StrengthBattle	Strength Battle	strengthbattle	2956070032	AnnexOO1	DLOW	\N	64480000	2319	27163	cw_bot	history-import:cw_bot:8246	2026-04-11 00:42:36.107+00
-StrengthBattle	Strength Battle	strengthbattle	2956113153	xwiktorxxxx3	LSQ	\N	547860	25032	27161	cw_bot	history-import:cw_bot:8916	2026-07-30 10:52:00.891+00
-StrengthBattle	Strength Battle	strengthbattle	2961636717	nichozr	V1LN	\N	46100000	4356	27163	cw_bot	history-import:cw_bot:1420	2026-05-11 01:18:04.672+00
-StrengthBattle	Strength Battle	strengthbattle	2965361189	mynestra	🏰 Clan: **Roux**	\N	\N	8550	27163	cw_bot	history-import:cw_bot:3577	2026-05-20 23:35:22.269+00
-StrengthBattle	Strength Battle	strengthbattle	2980262380	Xperide	KOR_	\N	38090000	6170	27163	cw_bot	history-import:cw_bot:1487	2026-05-15 20:24:52.409+00
-StrengthBattle	Strength Battle	strengthbattle	2981591104	Maroko_013	V1LN	\N	80110000	879	27161	cw_bot	history-import:cw_bot:8866	2026-07-31 17:35:33.295+00
-StrengthBattle	Strength Battle	strengthbattle	2988275843	zspjasieniec1	PABS	\N	73960000	1812	27159	cw_bot	history-import:cw_bot:8495	2026-08-19 15:24:30.108+00
-StrengthBattle	Strength Battle	strengthbattle	2992299705	Afrykan0	XREX	\N	36330000	6620	27159	cw_bot	history-import:cw_bot:7507	2026-08-28 16:42:30.025+00
-StrengthBattle	Strength Battle	strengthbattle	2999732017	derharzendeharzer	V1LN	\N	69820000	2074	27163	cw_bot	history-import:cw_bot:4225	2026-04-12 20:09:36.816+00
-StrengthBattle	Strength Battle	strengthbattle	3000748132	PickleCloudNacho	H8ER	\N	79820000	925	27163	cw_bot	history-import:cw_bot:3957	2026-04-12 22:17:35.814+00
-StrengthBattle	Strength Battle	strengthbattle	3000932506	JackJAC123999	URS7	\N	3120000	18118	27161	cw_bot	history-import:cw_bot:9511	2026-07-07 15:52:50.748+00
-StrengthBattle	Strength Battle	strengthbattle	3010290250	Hiitzjust	NXNG	\N	61150000	2536	27161	cw_bot	history-import:cw_bot:8033	2026-07-08 14:40:06.768+00
-StrengthBattle	Strength Battle	strengthbattle	3016891949	petaf1234	MDKT	\N	37280000	6366	27159	cw_bot	history-import:cw_bot:5263	2026-08-21 20:32:57.322+00
-StrengthBattle	Strength Battle	strengthbattle	3022616943	floatindrag	DRC	\N	46800000	4207	27161	cw_bot	history-import:cw_bot:2564	2026-08-01 14:35:07.364+00
-StrengthBattle	Strength Battle	strengthbattle	3033026212	flexmyspa1	0RBI	\N	60590000	2582	27161	cw_bot	history-import:cw_bot:797	2026-07-17 18:58:35.721+00
-StrengthBattle	Strength Battle	strengthbattle	3035121387	Profaluky1	MDKT	\N	10770000	12350	27159	cw_bot	history-import:cw_bot:5500	2026-08-19 08:35:54.162+00
-StrengthBattle	Strength Battle	strengthbattle	3039307282	Mr_agnes30	XREX	\N	81520000	572	27163	cw_bot	history-import:cw_bot:8076	2026-06-23 16:38:19.044+00
-StrengthBattle	Strength Battle	strengthbattle	3046788322	Xerenity1	DLOW	\N	49320000	3658	27163	cw_bot	history-import:cw_bot:8257	2026-04-11 00:53:10.021+00
-StrengthBattle	Strength Battle	strengthbattle	3060745926	thetruetdsglitch	XBOX	\N	83640000	257	27163	cw_bot	history-import:cw_bot:8040	2026-04-30 15:47:59.662+00
-StrengthBattle	Strength Battle	strengthbattle	3064251597	filipek2600cz	vdfn	\N	3650000	17635	27163	cw_bot	history-import:cw_bot:1566	2026-05-17 11:56:22.532+00
-StrengthBattle	Strength Battle	strengthbattle	3078836998	minzxn_11	AQ	\N	47810000	3981	27159	cw_bot	history-import:cw_bot:8635	2026-08-26 16:34:14.001+00
-StrengthBattle	Strength Battle	strengthbattle	3096883976	markosk2007	IDF	\N	29340000	7774	27161	cw_bot	history-import:cw_bot:6069	2026-08-09 09:27:28.449+00
-StrengthBattle	Strength Battle	strengthbattle	3108660508	Darcacz2	MNCS	\N	39680000	5764	27161	cw_bot	history-import:cw_bot:6680	2026-08-04 13:06:03.104+00
-StrengthBattle	Strength Battle	strengthbattle	3110455209	kuroihanin	JPST	\N	2710000	18604	27161	cw_bot	history-import:cw_bot:906	2026-07-17 19:08:55.749+00
-StrengthBattle	Strength Battle	strengthbattle	3136650641	petr1235786435	HROT	\N	49180000	3679	27159	cw_bot	history-import:cw_bot:4868	2026-08-28 09:45:55.454+00
-StrengthBattle	Strength Battle	strengthbattle	3139037723	Tobik987123	cspe	\N	15380000	9909	27161	cw_bot	history-import:cw_bot:6477	2026-08-06 18:08:45.622+00
-StrengthBattle	Strength Battle	strengthbattle	3143604581	RebelkaCZ157	VLP	\N	60740000	2566	27161	cw_bot	history-import:cw_bot:6712	2026-08-04 09:43:51.606+00
-StrengthBattle	Strength Battle	strengthbattle	3149302489	code_wille	0RBI	\N	82000000	490	27163	cw_bot	history-import:cw_bot:3842	2026-04-05 06:57:37.866+00
-StrengthBattle	Strength Battle	strengthbattle	3163626549	free2krazy	Goop	\N	80400000	816	27163	cw_bot	history-import:cw_bot:1063	2026-04-24 21:15:18.897+00
-StrengthBattle	Strength Battle	strengthbattle	3167252782	aromelkasto2	POJO	\N	9740000	13208	27161	cw_bot	history-import:cw_bot:6825	2026-08-01 11:19:56.793+00
-StrengthBattle	Strength Battle	strengthbattle	3167272498	zdendpicl9	DJRK	\N	817190	24012	27159	cw_bot	history-import:cw_bot:5718	2026-08-15 08:51:50.658+00
-StrengthBattle	Strength Battle	strengthbattle	3167571592	Hickarn1	NONG	\N	81250000	639	27163	cw_bot	history-import:cw_bot:8383	2026-03-22 11:06:41.693+00
-StrengthBattle	Strength Battle	strengthbattle	3171368431	darklode100	x75p	\N	29790000	7731	27163	cw_bot	history-import:cw_bot:1128	2026-04-27 02:10:10.025+00
-StrengthBattle	Strength Battle	strengthbattle	3175584454	ImLeroXx	🏰 Clan: **LXCC**	\N	\N	2043	27163	cw_bot	history-import:cw_bot:3512	2026-04-23 13:44:15.669+00
-StrengthBattle	Strength Battle	strengthbattle	3181994439	anrijs9991	ORBI	\N	76060000	1587	27163	cw_bot	history-import:cw_bot:1191	2026-04-30 19:59:29.548+00
-StrengthBattle	Strength Battle	strengthbattle	3186034676	tobicole	TPLX	\N	42500000	5156	27163	cw_bot	history-import:cw_bot:4120	2026-04-12 20:27:08.198+00
-StrengthBattle	Strength Battle	strengthbattle	3189090824	bobbybiz1	BOSS	\N	82820000	352	27163	cw_bot	history-import:cw_bot:3828	2026-04-05 06:52:03.294+00
-StrengthBattle	Strength Battle	strengthbattle	3203422029	drlllolll	MDKT	\N	35770000	6769	27159	cw_bot	history-import:cw_bot:9444	2026-08-22 16:01:45.839+00
-StrengthBattle	Strength Battle	strengthbattle	3214063706	ZoraDaGoatOfficial	Goop	\N	80400000	817	27163	cw_bot	history-import:cw_bot:956	2026-04-17 00:09:22.187+00
-StrengthBattle	Strength Battle	strengthbattle	3214496713	DarkPhoenix917	UN0	\N	78410000	1182	27161	cw_bot	history-import:cw_bot:4507	2026-08-04 19:56:06.385+00
-StrengthBattle	Strength Battle	strengthbattle	3215370935	snorlaxfox1	DGSL	\N	69280000	2101	27163	cw_bot	history-import:cw_bot:9386	2026-04-02 02:54:57.549+00
-StrengthBattle	Strength Battle	strengthbattle	3233034644	ARIGO11234	BRWZ	\N	11100000	12111	27161	cw_bot	history-import:cw_bot:3308	2026-07-24 20:34:16.905+00
-StrengthBattle	Strength Battle	strengthbattle	3252894844	vexityonnic	WJAY	\N	51360000	3324	27163	cw_bot	history-import:cw_bot:3813	2026-04-05 06:50:41.945+00
-StrengthBattle	Strength Battle	strengthbattle	3252937116	vladysbomb	whpk	\N	1460000	21187	27161	cw_bot	history-import:cw_bot:3362	2026-07-23 18:49:39.625+00
-StrengthBattle	Strength Battle	strengthbattle	3270087406	Mrkrecek12	VLP2	\N	1940000	19950	27159	cw_bot	history-import:cw_bot:5615	2026-08-14 19:39:09.575+00
-StrengthBattle	Strength Battle	strengthbattle	3271035452	Misak0912	K989	\N	10420000	12629	27161	cw_bot	history-import:cw_bot:6945	2026-08-01 08:49:00.863+00
-StrengthBattle	Strength Battle	strengthbattle	3271442208	Jonglesje	HR2T	\N	79130000	1057	27159	cw_bot	history-import:cw_bot:2233	2026-08-24 09:46:55.285+00
-StrengthBattle	Strength Battle	strengthbattle	3282696395	max_squash	ORBI	\N	64210000	2335	27161	cw_bot	history-import:cw_bot:2120	2026-08-01 03:32:06.841+00
-StrengthBattle	Strength Battle	strengthbattle	3289385978	KnKmor	DK	\N	82170000	459	27161	cw_bot	history-import:cw_bot:8891	2026-08-01 18:12:49.345+00
-StrengthBattle	Strength Battle	strengthbattle	3318596083	Mamaris357357	MDKT	\N	77340000	1387	27159	cw_bot	history-import:cw_bot:5784	2026-08-14 17:19:41.498+00
-StrengthBattle	Strength Battle	strengthbattle	3323392290	D0m1n8tr	SAM	\N	34080000	7134	27163	cw_bot	history-import:cw_bot:9273	2026-04-29 06:50:40.467+00
-StrengthBattle	Strength Battle	strengthbattle	3338233326	Andrewasper0987	KOHV	\N	77270000	1407	27163	cw_bot	history-import:cw_bot:1849	2026-06-17 12:39:01.167+00
-StrengthBattle	Strength Battle	strengthbattle	3345239646	vojtas98CZ	K989	\N	36470	26421	27161	cw_bot	history-import:cw_bot:6151	2026-08-08 18:13:17.798+00
-StrengthBattle	Strength Battle	strengthbattle	3357292523	Grec_Game	VLP	\N	9930000	13048	27161	cw_bot	history-import:cw_bot:7063	2026-07-30 17:14:48.532+00
-StrengthBattle	Strength Battle	strengthbattle	3370104014	Standa256	VLP	\N	7440000	15021	27159	cw_bot	history-import:cw_bot:5137	2026-08-23 03:03:21.508+00
-StrengthBattle	Strength Battle	strengthbattle	3372527888	CokoladovaZmrzska	cspe	\N	42980000	5052	27161	cw_bot	history-import:cw_bot:7357	2026-07-22 01:19:32.889+00
-StrengthBattle	Strength Battle	strengthbattle	3373408758	housebox_go	HR2T	\N	39120000	5911	27161	cw_bot	history-import:cw_bot:6457	2026-08-06 17:53:29.386+00
-StrengthBattle	Strength Battle	strengthbattle	3378947321	reset45624382	0RBI	\N	83910000	210	27161	cw_bot	history-import:cw_bot:8826	2026-08-08 12:36:56.654+00
-StrengthBattle	Strength Battle	strengthbattle	3379551767	scytheskii	BURN	\N	82120000	469	27163	cw_bot	history-import:cw_bot:321	2026-04-16 22:13:50.244+00
-StrengthBattle	Strength Battle	strengthbattle	3382833387	kingweslie123	BUTI	\N	12650000	11271	27161	cw_bot	history-import:cw_bot:2325	2026-08-12 21:19:37.585+00
-StrengthBattle	Strength Battle	strengthbattle	3393324525	BigWolfPL	XREX	\N	48970000	3720	27161	cw_bot	history-import:cw_bot:7818	2026-07-24 20:08:19.243+00
-StrengthBattle	Strength Battle	strengthbattle	3402015952	Josep_xD2	NXNG	\N	8660000	14111	27163	cw_bot	history-import:cw_bot:62	2026-04-27 04:36:38.637+00
-StrengthBattle	Strength Battle	strengthbattle	3416641778	dd_ontop13	SOPU	\N	77710000	1324	27163	cw_bot	history-import:cw_bot:3823	2026-04-05 06:51:12.613+00
-StrengthBattle	Strength Battle	strengthbattle	3421453702	noliogames	LXCC	\N	6150000	15868	27161	cw_bot	history-import:cw_bot:9471	2026-08-04 08:46:51.508+00
-StrengthBattle	Strength Battle	strengthbattle	3437861615	sebhvvj	MLVE	\N	933580	23443	27161	cw_bot	history-import:cw_bot:7009	2026-07-31 07:46:40.545+00
-StrengthBattle	Strength Battle	strengthbattle	3439337856	prezley_official2022	HROT	\N	74740000	1744	27161	cw_bot	history-import:cw_bot:7117	2026-07-30 15:19:24.23+00
-StrengthBattle	Strength Battle	strengthbattle	3444459957	Radek25101982	VLP	\N	1870000	20095	27161	cw_bot	history-import:cw_bot:6051	2026-08-09 09:04:46.362+00
-StrengthBattle	Strength Battle	strengthbattle	3450868495	nolram1a	Roux	\N	40590000	5565	27161	cw_bot	history-import:cw_bot:8851	2026-08-04 06:49:16.854+00
-StrengthBattle	Strength Battle	strengthbattle	3509021767	JonnyM55	OCGH	\N	44870000	4628	27159	cw_bot	history-import:cw_bot:5551	2026-08-17 00:51:43.291+00
-StrengthBattle	Strength Battle	strengthbattle	3512682343	sempanev	MDKT	\N	77340000	1390	27161	cw_bot	history-import:cw_bot:7382	2026-07-25 10:40:23.64+00
-StrengthBattle	Strength Battle	strengthbattle	3549731928	Thijklo2003	KOHV	\N	49130000	3693	27163	cw_bot	history-import:cw_bot:1546	2026-05-17 01:50:48.281+00
-StrengthBattle	Strength Battle	strengthbattle	3557375419	Subtokirbofanyt	AWZY	\N	47410000	4054	27161	cw_bot	history-import:cw_bot:2190	2026-07-27 21:40:54.835+00
-StrengthBattle	Strength Battle	strengthbattle	3563519895	dexxifying	st1z	\N	80510000	789	27163	cw_bot	history-import:cw_bot:3768	2026-04-17 00:22:16.986+00
-StrengthBattle	Strength Battle	strengthbattle	3565857429	Bb874tad	AR2Y	\N	37520000	6307	27161	cw_bot	history-import:cw_bot:7966	2026-07-08 14:36:26.417+00
-StrengthBattle	Strength Battle	strengthbattle	3567067280	Kurtis2345789	ROMU	\N	42770000	5102	27163	cw_bot	history-import:cw_bot:587	2026-05-19 20:18:17.483+00
-StrengthBattle	Strength Battle	strengthbattle	3582853902	godboy94875	NS42	\N	9240000	13650	27163	cw_bot	history-import:cw_bot:2547	2026-04-19 16:39:54.272+00
-StrengthBattle	Strength Battle	strengthbattle	3602402808	Flexsnack21	UNTY	\N	79700000	954	27163	cw_bot	history-import:cw_bot:1204	2026-05-01 08:05:11.74+00
-StrengthBattle	Strength Battle	strengthbattle	3607555867	thechristhe98289	XREX	\N	45640000	4467	27161	cw_bot	history-import:cw_bot:2952	2026-07-30 22:14:25.7+00
-StrengthBattle	Strength Battle	strengthbattle	3628039137	anoknight5	XPQX	\N	36290000	6635	27161	cw_bot	history-import:cw_bot:3119	2026-07-28 18:56:15.247+00
-StrengthBattle	Strength Battle	strengthbattle	3639903941	imandaskye	UN0	\N	80400000	813	27161	cw_bot	history-import:cw_bot:2173	2026-08-01 03:30:43.552+00
-StrengthBattle	Strength Battle	strengthbattle	3655474970	Shrooomdevourer10	V1LN	73	18200000	73	\N	external_import	history-import:big_bot:1069	2026-07-03 23:39:30.698+00
-StrengthBattle	Strength Battle	strengthbattle	3661951050	Murderface2022	🏰 Clan: **FMLY**	\N	\N	5300	27163	cw_bot	history-import:cw_bot:3557	2026-03-12 23:11:43.732+00
-StrengthBattle	Strength Battle	strengthbattle	3672938221	zhulenc	VLP	\N	16450000	9458	27161	cw_bot	history-import:cw_bot:6526	2026-08-06 21:54:27.517+00
-StrengthBattle	Strength Battle	strengthbattle	3683660130	Medvid3k11	cspe	\N	37930000	6208	27161	cw_bot	history-import:cw_bot:6987	2026-07-31 17:00:07.71+00
-StrengthBattle	Strength Battle	strengthbattle	3693112421	levisfound	ORBI	\N	67020000	2185	27161	cw_bot	history-import:cw_bot:2197	2026-07-17 04:29:59.602+00
-StrengthBattle	Strength Battle	strengthbattle	3714270625	angiespartytreat	B2SS	\N	46980000	4169	27161	cw_bot	history-import:cw_bot:7713	2026-08-02 11:57:07.168+00
-StrengthBattle	Strength Battle	strengthbattle	3741610856	DemxnIRL	ORBI	\N	59810000	2646	27161	cw_bot	history-import:cw_bot:4482	2026-08-06 00:26:19.98+00
-StrengthBattle	Strength Battle	strengthbattle	3750045967	imnotdigitosim1476	0RBI	\N	81200000	648	27159	cw_bot	history-import:cw_bot:5658	2026-08-14 22:17:44.993+00
-StrengthBattle	Strength Battle	strengthbattle	3779230353	goat201470	Y0M	\N	7230000	15185	27163	cw_bot	history-import:cw_bot:8278	2026-04-13 16:26:51.02+00
-StrengthBattle	Strength Battle	strengthbattle	3790178976	lifetime2099	Gewp	\N	12900000	11144	27161	cw_bot	history-import:cw_bot:10071	2026-08-07 21:18:36.83+00
-StrengthBattle	Strength Battle	strengthbattle	3797718809	m4thou3	BEZE	\N	80370000	824	27161	cw_bot	history-import:cw_bot:3076	2026-07-28 21:07:33.267+00
-StrengthBattle	Strength Battle	strengthbattle	3808414208	Suppe_Can	Goop	\N	82120000	471	27163	cw_bot	history-import:cw_bot:8117	2026-04-27 17:55:05.386+00
-StrengthBattle	Strength Battle	strengthbattle	3834652767	Roman5556_CZ	SAM4	\N	39840000	5728	27161	cw_bot	history-import:cw_bot:7409	2026-07-17 16:42:07.486+00
-StrengthBattle	Strength Battle	strengthbattle	3853349557	melpatate12	Goop	\N	78550000	1154	27163	cw_bot	history-import:cw_bot:969	2026-04-18 02:12:53.563+00
-StrengthBattle	Strength Battle	strengthbattle	3915256201	david_smeg	mbee	\N	1380000	21513	27161	cw_bot	history-import:cw_bot:3350	2026-07-23 15:30:35.199+00
-StrengthBattle	Strength Battle	strengthbattle	3919100604	Filda7329	STPS	\N	5070000	16551	27161	cw_bot	history-import:cw_bot:6495	2026-08-06 18:48:55.736+00
-StrengthBattle	Strength Battle	strengthbattle	3926695029	22mamamama	tNo	\N	2070000	19686	27161	cw_bot	history-import:cw_bot:7455	2026-07-15 07:59:07.687+00
-StrengthBattle	Strength Battle	strengthbattle	3952416098	000pattik000	POJO	\N	1540000	20910	27161	cw_bot	history-import:cw_bot:6618	2026-08-05 07:49:04.542+00
-StrengthBattle	Strength Battle	strengthbattle	3978547556	Zoliisrecords	K989	\N	2520000	18865	27159	cw_bot	history-import:cw_bot:4996	2026-08-24 10:40:01.728+00
-StrengthBattle	Strength Battle	strengthbattle	4005548494	Nekrynk_cz	HROT	\N	50240000	3493	27161	cw_bot	history-import:cw_bot:6852	2026-08-01 23:09:05.564+00
-StrengthBattle	Strength Battle	strengthbattle	4010792811	1zelvak	BDX	\N	44700	26295	27161	cw_bot	history-import:cw_bot:7275	2026-07-27 11:51:24.945+00
-StrengthBattle	Strength Battle	strengthbattle	4023070188	kocovina98	DJRK	\N	7650000	14855	27159	cw_bot	history-import:cw_bot:5732	2026-08-15 11:32:52.389+00
-StrengthBattle	Strength Battle	strengthbattle	4028104754	jaratupy36	vdfn	\N	3190000	18037	27159	cw_bot	history-import:cw_bot:5763	2026-08-14 16:48:48.942+00
-StrengthBattle	Strength Battle	strengthbattle	4035198924	ytpandaroux	R0MU	\N	44930000	4612	27161	cw_bot	history-import:cw_bot:930	2026-07-08 19:17:13.13+00
-StrengthBattle	Strength Battle	strengthbattle	4051469126	Naruto61925	_hot	\N	46200000	4339	27161	cw_bot	history-import:cw_bot:3394	2026-07-23 20:03:20.004+00
-StrengthBattle	Strength Battle	strengthbattle	4054510143	kudlankovec	POJO	\N	7680000	14834	27161	cw_bot	history-import:cw_bot:2485	2026-08-01 09:59:49.052+00
-StrengthBattle	Strength Battle	strengthbattle	4054820865	jimmy_johnhi	K1WI	\N	1160000	22345	27163	cw_bot	history-import:cw_bot:1422	2026-05-11 01:19:45.857+00
-StrengthBattle	Strength Battle	strengthbattle	4097051785	yO_aDzeY	Do1t	\N	8970000	13863	27163	cw_bot	history-import:cw_bot:1669	2026-05-23 10:59:06.769+00
-StrengthBattle	Strength Battle	strengthbattle	4113094220	TTobbboTT	PAAC	\N	62280000	2458	27163	cw_bot	history-import:cw_bot:9227	2026-05-12 19:20:42.195+00
-StrengthBattle	Strength Battle	strengthbattle	4161934376	honza01021983	DJRK	\N	63470000	2381	27159	cw_bot	history-import:cw_bot:4848	2026-08-28 06:57:40.513+00
-StrengthBattle	Strength Battle	strengthbattle	4165162503	trubgut3	MDKT	\N	82620000	380	27161	cw_bot	history-import:cw_bot:6422	2026-08-06 15:24:37.222+00
-StrengthBattle	Strength Battle	strengthbattle	4167232216	nanuk_2232	VLP2	\N	5110000	16529	27161	cw_bot	history-import:cw_bot:6303	2026-08-08 12:06:58.145+00
-StrengthBattle	Strength Battle	strengthbattle	4196761995	GravysOfficial	MDKT	\N	14150000	10535	27159	cw_bot	history-import:cw_bot:5118	2026-08-22 23:53:53.389+00
-StrengthBattle	Strength Battle	strengthbattle	4197618114	Danczek0102	IDF	\N	10940000	12224	27161	cw_bot	history-import:cw_bot:6285	2026-08-08 16:08:23.534+00
-StrengthBattle	Strength Battle	strengthbattle	4213289713	jezykFCP2	PABS	\N	41810000	5296	27161	cw_bot	history-import:cw_bot:8962	2026-07-26 21:01:59.544+00
-StrengthBattle	Strength Battle	strengthbattle	4215988499	abby_gamera	V1LN	\N	32310000	7432	27163	cw_bot	history-import:cw_bot:8156	2026-04-28 15:06:15.006+00
-StrengthBattle	Strength Battle	strengthbattle	4224841429	Holemedonescr10	3zEZ	\N	47580000	4030	27163	cw_bot	history-import:cw_bot:1595	2026-05-20 19:08:41.718+00
-StrengthBattle	Strength Battle	strengthbattle	4227181139	Filip2817fi	vdfn	\N	1020000	23008	27159	cw_bot	history-import:cw_bot:4898	2026-08-27 07:57:31.613+00
-StrengthBattle	Strength Battle	strengthbattle	4238790853	samsam16725	ROMU	\N	81200000	647	27163	cw_bot	history-import:cw_bot:95	2026-06-19 21:20:32.05+00
-StrengthBattle	Strength Battle	strengthbattle	4242955713	KazuyaTTV	S2PU	\N	15380000	9913	27163	cw_bot	history-import:cw_bot:213	2026-05-01 10:25:23.892+00
-StrengthBattle	Strength Battle	strengthbattle	4247108285	irdski	IWHN	\N	9980000	12994	27159	cw_bot	history-import:cw_bot:4718	2026-08-14 21:21:37.198+00
-StrengthBattle	Strength Battle	strengthbattle	4281402342	Selcuk1143	SW23	\N	46450000	4272	27161	cw_bot	history-import:cw_bot:3051	2026-07-28 21:24:31.882+00
-StrengthBattle	Strength Battle	strengthbattle	4290313900	rubberluffy1235	S2PU	\N	53980000	3016	27161	cw_bot	history-import:cw_bot:4238	2026-08-13 06:29:40.629+00
-StrengthBattle	Strength Battle	strengthbattle	4301431724	Bobsussybu123	SLRP	\N	1150000	22390	27161	cw_bot	history-import:cw_bot:2521	2026-08-01 12:26:31.166+00
-StrengthBattle	Strength Battle	strengthbattle	4313949380	Dada343410	MDKT	\N	49170000	3682	27161	cw_bot	history-import:cw_bot:6388	2026-08-07 20:30:35.379+00
-StrengthBattle	Strength Battle	strengthbattle	4336818312	Myguy_Ky1	Nump	\N	18420000	8856	27161	cw_bot	history-import:cw_bot:3218	2026-07-26 11:08:12.603+00
-StrengthBattle	Strength Battle	strengthbattle	4339145979	Dandis_20	COLU	\N	44130000	4811	27159	cw_bot	history-import:cw_bot:5521	2026-08-18 13:11:18.989+00
-StrengthBattle	Strength Battle	strengthbattle	4393951337	lukascccs	VLP2	\N	49550000	3613	27161	cw_bot	history-import:cw_bot:6133	2026-08-08 17:36:40.231+00
-StrengthBattle	Strength Battle	strengthbattle	4430200296	daytime7789	OTTR	\N	51870000	3243	27163	cw_bot	history-import:cw_bot:9163	2026-06-29 23:32:40.195+00
-StrengthBattle	Strength Battle	strengthbattle	4452395552	Xavier_Toorp	STPS	\N	50440000	3461	27161	cw_bot	history-import:cw_bot:7037	2026-07-31 00:21:48.123+00
-StrengthBattle	Strength Battle	strengthbattle	4468537889	tvojemamag101	VLP2	\N	3970000	17351	27159	cw_bot	history-import:cw_bot:5090	2026-08-22 23:18:43.789+00
-StrengthBattle	Strength Battle	strengthbattle	4471953599	alexander1234_hi56	BEZE	\N	77170000	1423	27161	cw_bot	history-import:cw_bot:8796	2026-08-12 23:40:25.692+00
-StrengthBattle	Strength Battle	strengthbattle	4482372398	Burak30_CZ	HR2T	\N	34850000	6992	27161	cw_bot	history-import:cw_bot:7166	2026-07-30 13:05:24.983+00
-StrengthBattle	Strength Battle	strengthbattle	4506575217	dracislav	HROT	\N	80520000	786	27161	cw_bot	history-import:cw_bot:7309	2026-07-26 08:10:51.343+00
-StrengthBattle	Strength Battle	strengthbattle	4511725993	Kvetamin	VLP	\N	12360000	11408	27159	cw_bot	history-import:cw_bot:5246	2026-08-21 19:36:06.87+00
-StrengthBattle	Strength Battle	strengthbattle	4515946186	bakedashboii	WSOW	\N	15480000	9859	27163	cw_bot	history-import:cw_bot:8294	2026-04-19 17:46:14.335+00
-StrengthBattle	Strength Battle	strengthbattle	4540869398	proto123q	NS4R	\N	37900000	6213	27161	cw_bot	history-import:cw_bot:568	2026-07-17 18:49:06.221+00
-StrengthBattle	Strength Battle	strengthbattle	4544162965	icestormvoyager	S2PU	\N	27800000	7920	27163	cw_bot	history-import:cw_bot:8235	2026-04-11 00:41:39.288+00
-StrengthBattle	Strength Battle	strengthbattle	4574397825	PET_HERO676	FYRX	\N	6620000	15576	27159	cw_bot	history-import:cw_bot:5414	2026-08-20 09:37:57.743+00
-StrengthBattle	Strength Battle	strengthbattle	4583513261	xXJ0hnXx23	POJO	\N	48580000	3795	27159	cw_bot	history-import:cw_bot:5294	2026-08-22 16:50:40.795+00
-StrengthBattle	Strength Battle	strengthbattle	4584982387	Misabilk	VLP2	\N	5700000	16166	27161	cw_bot	history-import:cw_bot:5939	2026-08-11 16:19:44.683+00
-StrengthBattle	Strength Battle	strengthbattle	4597064685	nevimheslo108	K989	\N	45140000	4554	27161	cw_bot	history-import:cw_bot:6648	2026-08-05 20:02:56.557+00
-StrengthBattle	Strength Battle	strengthbattle	4633578732	m3wpewpew	07W	\N	11070000	12132	27161	cw_bot	history-import:cw_bot:3001	2026-07-29 15:03:42.497+00
-StrengthBattle	Strength Battle	strengthbattle	4634042698	Psxtrader327	OTTR	\N	15110000	10034	27159	cw_bot	history-import:cw_bot:8508	2026-08-22 22:47:27.757+00
-StrengthBattle	Strength Battle	strengthbattle	4652078124	jaximeler	PABS	\N	77940000	1287	27163	cw_bot	history-import:cw_bot:8426	2026-06-17 00:24:11.273+00
-StrengthBattle	Strength Battle	strengthbattle	4686873488	Monty_Tomas10	K989	\N	79900000	914	27159	cw_bot	history-import:cw_bot:5324	2026-08-21 07:45:07.526+00
-StrengthBattle	Strength Battle	strengthbattle	4759297476	psst1422	HROT	\N	82050000	483	27163	cw_bot	history-import:cw_bot:145	2026-05-20 23:35:12.448+00
-StrengthBattle	Strength Battle	strengthbattle	4792692703	ced123zx	ROMU	\N	50400000	3464	27161	cw_bot	history-import:cw_bot:714	2026-07-17 18:57:41.576+00
-StrengthBattle	Strength Battle	strengthbattle	4833004455	Deniska_1990	HROT	\N	80750000	735	27161	cw_bot	history-import:cw_bot:7325	2026-07-25 23:11:40.176+00
-StrengthBattle	Strength Battle	strengthbattle	4895856612	Dikgeevik2CZ	K989	\N	2660000	18661	27160	cw_bot	history-import:cw_bot:5889	2026-08-13 23:41:00.142+00
-StrengthBattle	Strength Battle	strengthbattle	4923138175	WORZ_51	ROMU	\N	10400000	12648	27163	cw_bot	history-import:cw_bot:4191	2026-04-12 21:06:34.77+00
-StrengthBattle	Strength Battle	strengthbattle	4957497369	ammi0729	Goop	\N	80780000	725	27163	cw_bot	history-import:cw_bot:982	2026-04-18 02:13:35.573+00
-StrengthBattle	Strength Battle	strengthbattle	4989918296	PtiDoriankt	ROMU	\N	78610000	1145	27161	cw_bot	history-import:cw_bot:846	2026-07-17 18:56:47.208+00
-StrengthBattle	Strength Battle	strengthbattle	4999104751	Speaxk17	POPS	\N	54030000	3012	27163	cw_bot	history-import:cw_bot:1626	2026-05-21 01:10:10.679+00
-StrengthBattle	Strength Battle	strengthbattle	5042635636	Cultiv8R_NZ	DLOW	\N	60290000	2606	27163	cw_bot	history-import:cw_bot:8226	2026-04-11 00:40:42.513+00
-StrengthBattle	Strength Battle	strengthbattle	5044736168	CBroGolden	3zEZ	\N	74370000	1788	27163	cw_bot	history-import:cw_bot:4090	2026-04-12 20:16:41.119+00
-StrengthBattle	Strength Battle	strengthbattle	5049376575	AGR_GamerY	AGR	\N	5750000	16127	27161	cw_bot	history-import:cw_bot:9686	2026-07-19 05:15:01.102+00
-StrengthBattle	Strength Battle	strengthbattle	5063089605	REAL3ST_NZ	DLOW	\N	43040000	5041	27163	cw_bot	history-import:cw_bot:8267	2026-04-11 00:55:05.933+00
-StrengthBattle	Strength Battle	strengthbattle	5076379116	samco137	EROS	\N	1570000	20850	27159	cw_bot	history-import:cw_bot:4856	2026-08-28 07:12:12.071+00
-StrengthBattle	Strength Battle	strengthbattle	5091424925	spiederpro9	Taux	\N	7290000	15137	27161	cw_bot	history-import:cw_bot:2494	2026-08-01 10:12:35.596+00
-StrengthBattle	Strength Battle	strengthbattle	5115775245	gympie54	cloz	\N	1560000	20866	27159	cw_bot	history-import:cw_bot:9756	2026-08-26 20:07:29.974+00
-StrengthBattle	Strength Battle	strengthbattle	5120442322	kirasm0m	ORBI	\N	54030000	3010	27161	cw_bot	history-import:cw_bot:2205	2026-07-17 04:33:26.901+00
-StrengthBattle	Strength Battle	strengthbattle	5127406568	dadchris86	Goop	\N	82230000	451	27163	cw_bot	history-import:cw_bot:8183	2026-04-21 16:30:58.569+00
-StrengthBattle	Strength Battle	strengthbattle	5128164487	drako83cz	HROT	\N	76830000	1473	27159	cw_bot	history-import:cw_bot:5534	2026-08-17 12:17:13.979+00
-StrengthBattle	Strength Battle	strengthbattle	5128774229	livelasso	2WEI	\N	77850000	1303	27161	cw_bot	history-import:cw_bot:8999	2026-07-19 09:14:05.882+00
-StrengthBattle	Strength Battle	strengthbattle	5131558904	COOL_BOY00277	FRC	\N	6400000	15708	27161	cw_bot	history-import:cw_bot:6163	2026-08-08 18:22:16.401+00
-StrengthBattle	Strength Battle	strengthbattle	5138542110	greatfullyyy	W2VY	\N	28450000	7858	27161	cw_bot	history-import:cw_bot:2902	2026-07-31 06:42:06.061+00
-StrengthBattle	Strength Battle	strengthbattle	5143387515	babykweeef	UN0	\N	84250000	176	27159	cw_bot	history-import:cw_bot:2102	2026-08-14 22:59:19.851+00
-StrengthBattle	Strength Battle	strengthbattle	5170991645	galvoir2712	H8M3	\N	43720000	4903	27161	cw_bot	history-import:cw_bot:4418	2026-08-07 08:30:13.219+00
-StrengthBattle	Strength Battle	strengthbattle	5189669801	johqnel	IDF	\N	38660000	6028	27159	cw_bot	history-import:cw_bot:5569	2026-08-17 00:52:03.053+00
-StrengthBattle	Strength Battle	strengthbattle	5203613717	Arteomcka0_z	BEZE	\N	81800000	524	27161	cw_bot	history-import:cw_bot:3373	2026-07-23 19:33:38.366+00
-StrengthBattle	Strength Battle	strengthbattle	5207679662	GrinchFrend	HROT	\N	77960000	1282	27159	cw_bot	history-import:cw_bot:4881	2026-08-28 13:55:05.802+00
-StrengthBattle	Strength Battle	strengthbattle	5209583889	pepajzik	STPS	\N	2170000	19504	27159	cw_bot	history-import:cw_bot:5370	2026-08-20 18:05:20.789+00
-StrengthBattle	Strength Battle	strengthbattle	5234843031	Ps99_Demon	minx	\N	80010000	897	27161	cw_bot	history-import:cw_bot:3385	2026-07-23 20:00:22.189+00
-StrengthBattle	Strength Battle	strengthbattle	5246280273	janjelinek3	POJO	\N	10970000	12203	27161	cw_bot	history-import:cw_bot:6042	2026-08-09 09:04:37.217+00
-StrengthBattle	Strength Battle	strengthbattle	5254272309	shadow_ggofficial	H8M3	\N	82710000	367	27163	cw_bot	history-import:cw_bot:1756	2026-05-28 21:55:36.515+00
-StrengthBattle	Strength Battle	strengthbattle	5267528496	hahagoo4	EGP	\N	31730000	7533	27161	cw_bot	history-import:cw_bot:9631	2026-07-31 16:29:28.688+00
-StrengthBattle	Strength Battle	strengthbattle	5291595908	iTTv6	stzr	\N	75370000	1671	27163	cw_bot	history-import:cw_bot:4001	2026-04-12 21:22:33.583+00
-StrengthBattle	Strength Battle	strengthbattle	5313080791	HerzogDL	RATZ	\N	7480000	15006	27163	cw_bot	history-import:cw_bot:948	2026-04-17 00:08:20.006+00
-StrengthBattle	Strength Battle	strengthbattle	5328968538	Iphone1835	SAM4	\N	871660	23751	27159	cw_bot	history-import:cw_bot:5192	2026-08-21 18:06:41.136+00
-StrengthBattle	Strength Battle	strengthbattle	5339963078	Kvetamin2	VLP	\N	1910000	20004	27161	cw_bot	history-import:cw_bot:6540	2026-08-07 09:05:29.727+00
-StrengthBattle	Strength Battle	strengthbattle	5363786388	HippoALT116	C4T6	\N	4440000	16970	27161	cw_bot	history-import:cw_bot:4399	2026-08-08 17:50:18.656+00
-StrengthBattle	Strength Battle	strengthbattle	5383071838	mr_895675	LXCC	\N	73660000	1832	27159	cw_bot	history-import:cw_bot:7678	2026-08-14 20:23:40.83+00
-StrengthBattle	Strength Battle	strengthbattle	5436365094	Bruin444444	st1z	\N	49360000	3650	27161	cw_bot	history-import:cw_bot:2406	2026-08-10 00:49:21.439+00
-StrengthBattle	Strength Battle	strengthbattle	5510809744	moneyskallin	ORBI	\N	82780000	354	27161	cw_bot	history-import:cw_bot:2085	2026-07-19 11:32:01.392+00
-StrengthBattle	Strength Battle	strengthbattle	5514178688	Mason03388	SSQD	\N	38620000	6043	27163	cw_bot	history-import:cw_bot:4168	2026-04-12 21:05:45.162+00
-StrengthBattle	Strength Battle	strengthbattle	5516978036	omgitzmaatt3	LSQ	\N	29190000	7788	27159	cw_bot	history-import:cw_bot:9872	2026-08-23 11:16:05.962+00
-StrengthBattle	Strength Battle	strengthbattle	5534860785	rostislavvv155	HROT	\N	33810000	7189	27161	cw_bot	history-import:cw_bot:2860	2026-07-31 15:54:01.042+00
-StrengthBattle	Strength Battle	strengthbattle	5560545010	crimxzysgoatedalt	N1GD	\N	1680000	20561	27163	cw_bot	history-import:cw_bot:1745	2026-05-28 19:25:01.662+00
-StrengthBattle	Strength Battle	strengthbattle	5575261241	noliogames3	IWHN	\N	5450000	16308	27161	cw_bot	history-import:cw_bot:9487	2026-08-04 08:47:00.84+00
-StrengthBattle	Strength Battle	strengthbattle	5615179956	MonsterWithGod	ROMU	\N	88110000	25	27163	cw_bot	history-import:cw_bot:4143	2026-04-12 21:05:00.581+00
-StrengthBattle	Strength Battle	strengthbattle	5623447261	quoicoubeh5608	RATZ	\N	28500000	7852	27161	cw_bot	history-import:cw_bot:6211	2026-08-08 20:49:37.159+00
-StrengthBattle	Strength Battle	strengthbattle	5703128088	elnubsen	SOPU	\N	52620000	3138	27163	cw_bot	history-import:cw_bot:3866	2026-04-05 06:56:35.208+00
-StrengthBattle	Strength Battle	strengthbattle	5708006511	prd2137	URS7	\N	931350	23453	27161	cw_bot	history-import:cw_bot:6736	2026-08-04 10:16:22.823+00
-StrengthBattle	Strength Battle	strengthbattle	5771998323	Tadeas5303	IDF	\N	36550000	6554	27161	cw_bot	history-import:cw_bot:7149	2026-07-30 15:42:22.574+00
-StrengthBattle	Strength Battle	strengthbattle	5793778586	PeaceAllAlone	UN0	\N	82290000	434	27163	cw_bot	history-import:cw_bot:8085	2026-04-26 19:32:34.93+00
-StrengthBattle	Strength Battle	strengthbattle	5818869297	knoxcoder	SOPU	\N	44370000	4746	27161	cw_bot	history-import:cw_bot:3021	2026-07-29 13:28:15.912+00
-StrengthBattle	Strength Battle	strengthbattle	6024579040	siemanokolano3211	HSRS	\N	33260000	7282	27161	cw_bot	history-import:cw_bot:8838	2026-08-08 13:22:11.942+00
-StrengthBattle	Strength Battle	strengthbattle	6083864493	evelizda	minx	\N	48610000	3792	27161	cw_bot	history-import:cw_bot:3134	2026-07-28 14:53:35.902+00
-StrengthBattle	Strength Battle	strengthbattle	6109731708	YoBaskett	W2VY	\N	83980000	203	27161	cw_bot	history-import:cw_bot:428	2026-07-17 18:47:23.21+00
-StrengthBattle	Strength Battle	strengthbattle	6148028892	zumbak126	RTS_	\N	825650	23973	27161	cw_bot	history-import:cw_bot:9937	2026-07-25 08:28:36.222+00
-StrengthBattle	Strength Battle	strengthbattle	6156770625	pepajzikv2	STPS	\N	4340000	17028	27159	cw_bot	history-import:cw_bot:5383	2026-08-20 18:30:12.586+00
-StrengthBattle	Strength Battle	strengthbattle	6180933436	Atefluigi1	V1LN	\N	16670000	9374	27159	cw_bot	history-import:cw_bot:4823	2026-08-28 16:24:47.076+00
-StrengthBattle	Strength Battle	strengthbattle	7005100565	Crazypuzzlehead15	Goop	\N	76970000	1450	27161	cw_bot	history-import:cw_bot:2470	2026-08-01 09:28:25.648+00
-StrengthBattle	Strength Battle	strengthbattle	7032976096	party0boy	ORBI	\N	73460000	1849	27161	cw_bot	history-import:cw_bot:4352	2026-08-10 04:15:38.555+00
-StrengthBattle	Strength Battle	strengthbattle	7137596133	XOGN1ENX	AR3S	\N	2230000	19368	27159	cw_bot	history-import:cw_bot:9571	2026-08-28 22:06:25.286+00
-StrengthBattle	Strength Battle	strengthbattle	7144927541	linya_w	2WEI	\N	5630000	16210	27163	cw_bot	history-import:cw_bot:8568	2026-06-27 16:58:18.228+00
-StrengthBattle	Strength Battle	strengthbattle	7173492482	Kyan65427	J200	\N	4960000	16628	27161	cw_bot	history-import:cw_bot:3235	2026-07-26 12:04:59.618+00
-StrengthBattle	Strength Battle	strengthbattle	7426690057	Duckyphant	H8M3	\N	81320000	620	27159	cw_bot	history-import:cw_bot:5640	2026-08-14 22:07:36.457+00
-StrengthBattle	Strength Battle	strengthbattle	7492577011	XBLTAZEEEE	V015	\N	82770000	356	27163	cw_bot	history-import:cw_bot:9085	2026-07-03 23:49:41.902+00
-StrengthBattle	Strength Battle	strengthbattle	7552499616	ll4cki	GSTG	\N	64940000	2295	27160	cw_bot	history-import:cw_bot:9436	2026-08-14 10:30:26.862+00
-StrengthBattle	Strength Battle	strengthbattle	7710452262	hrac_821	BDX	\N	4950000	16637	27161	cw_bot	history-import:cw_bot:6004	2026-08-10 07:17:41.604+00
-StrengthBattle	Strength Battle	strengthbattle	7742077490	sirwabbs	st1z	\N	85610000	91	27161	cw_bot	history-import:cw_bot:4641	2026-08-02 03:35:57.878+00
-StrengthBattle	Strength Battle	strengthbattle	7806857762	selena082319	W2VY	\N	59670000	2652	27161	cw_bot	history-import:cw_bot:376	2026-07-17 18:33:34.992+00
-StrengthBattle	Strength Battle	strengthbattle	7824029976	nubnubsen	S2PU	\N	47890000	3968	27163	cw_bot	history-import:cw_bot:9079	2026-07-04 15:59:25.721+00
-StrengthBattle	Strength Battle	strengthbattle	7932915767	frlzleo	RAQ	450	\N	450	\N	external_import	history-import:big_bot:1092	2026-07-01 11:42:44.424+00
-StrengthBattle	Strength Battle	strengthbattle	8016179740	limitless123234	DLOW	\N	4950000	16632	27159	cw_bot	history-import:cw_bot:8763	2026-08-15 05:26:46.656+00
-StrengthBattle	Strength Battle	strengthbattle	8087930970	sleeperb99	OTTR	\N	12610000	11298	27161	cw_bot	history-import:cw_bot:9027	2026-07-17 16:18:36.71+00
-StrengthBattle	Strength Battle	strengthbattle	8136551278	vincbond15	DJRK	\N	2390000	19096	27161	cw_bot	history-import:cw_bot:6191	2026-08-08 20:08:01.556+00
-StrengthBattle	Strength Battle	strengthbattle	8187537946	nzr5581	V1LN	\N	19260000	8654	27163	cw_bot	history-import:cw_bot:8195	2026-04-23 19:12:26.428+00
-StrengthBattle	Strength Battle	strengthbattle	8202998917	StanleyFox92	AV3Y	\N	47150000	4113	27163	cw_bot	history-import:cw_bot:18	2026-04-25 12:24:19.176+00
+COPY battles."Strength Battle" (event_key, battle_name, original_battle_key, user_id, username, clan_name, member_rank, points, global_rank, ranked_players, source_kind, source_run_key, observed_at, result_status, source_record_id) FROM stdin;
+StrengthBattle	Strength Battle	strengthbattle	192653117	carloskar08	ORBI	\N	81750000	529	27161	cw_bot	history-import:cw_bot:4466	2026-08-05 22:58:43.526+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	194076029	Gromic5876	MNBB	\N	2550000	18830	27161	cw_bot	history-import:cw_bot:6100	2026-08-08 23:25:51.173+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	204751057	SainLol	fr2e	\N	1400000	21417	27161	cw_bot	history-import:cw_bot:10040	2026-08-08 18:46:45.184+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	210966410	onoraksal	hlx	\N	59640000	2655	27159	cw_bot	history-import:cw_bot:8782	2026-08-15 13:55:15.256+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	223141866	LoLLubas	DPSF	\N	43100000	5026	27159	cw_bot	history-import:cw_bot:4798	2026-08-28 14:48:40.144+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	241713789	J2X1NESIWXID	DLOW	\N	894460	23653	27161	cw_bot	history-import:cw_bot:750	2026-07-17 18:58:04.211+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	250562586	zcm_Xi	CC4T	\N	32380000	7420	27161	cw_bot	history-import:cw_bot:4364	2026-08-09 17:51:30.585+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	254885188	Prodav1	SULS	\N	58630000	2735	27161	cw_bot	history-import:cw_bot:8003	2026-07-08 14:39:05.73+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	272741362	kyle558888	ORBI	\N	80600000	768	27161	cw_bot	history-import:cw_bot:221	2026-07-17 17:23:47.778+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	321031467	GBGamer68	🏰 Clan: **ANG_**	\N	\N	5199	27163	cw_bot	history-import:cw_bot:3444	2026-04-26 17:27:16.306+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	331930897	gogeta363	TLGZ	\N	75610000	1637	27161	cw_bot	history-import:cw_bot:4382	2026-08-09 04:19:11.832+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	343511782	octojabb	SLRP	\N	69470000	2093	27163	cw_bot	history-import:cw_bot:9247	2026-04-30 14:51:23.517+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	365225419	prorik228	07W	\N	79040000	1070	27161	cw_bot	history-import:cw_bot:7912	2026-07-08 14:30:35.5+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	413758213	NotMrTroll_YT	SOPU	\N	81470000	583	27161	cw_bot	history-import:cw_bot:2833	2026-07-31 16:31:43.631+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	418400389	vojtaprovaznik	VLP2	\N	746840	24303	27159	cw_bot	history-import:cw_bot:4939	2026-08-26 06:26:26.509+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	423460663	bub2540	POPS	\N	46820000	4204	27163	cw_bot	history-import:cw_bot:1508	2026-05-16 12:19:40.788+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	425660194	chinovelaz	stzr	\N	64380000	2324	27163	cw_bot	history-import:cw_bot:4152	2026-04-12 20:33:18.646+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	435823564	brandon292016	3zEZ	\N	52010000	3231	27163	cw_bot	history-import:cw_bot:1035	2026-04-20 06:06:34.027+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	452314193	LandOfDoggos	V1LN	\N	48970000	3722	27163	cw_bot	history-import:cw_bot:9189	2026-06-23 15:37:48.38+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	460000821	maserofwater098	C4T6	\N	38890000	5977	27163	cw_bot	history-import:cw_bot:2037	2026-06-29 17:36:18.828+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	463900811	AgentP_0928	NONG	\N	79990000	901	27163	cw_bot	history-import:cw_bot:651	2026-04-26 04:08:51.656+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	470464024	ceficat	H8M3	\N	78910000	1101	27161	cw_bot	history-import:cw_bot:2581	2026-08-01 14:42:49.688+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	496935076	mawahlah	07W	\N	75840000	1611	27163	cw_bot	history-import:cw_bot:48	2026-06-27 00:05:32.123+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	502312785	tomasek8557	BDX	\N	3970000	17354	27159	cw_bot	history-import:cw_bot:5453	2026-08-19 16:40:59.801+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	503486505	campagnolo5	_hot	\N	83790000	233	27159	cw_bot	history-import:cw_bot:7659	2026-08-16 14:51:20.144+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	544198160	JimmyCIeetus	SOPU	\N	83610000	259	27161	cw_bot	history-import:cw_bot:476	2026-07-17 18:47:56.313+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	546090248	cheburek_x	mrnw	\N	2170000	19502	27161	cw_bot	history-import:cw_bot:2752	2026-07-31 17:21:30.816+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	562277230	Berryuk19sdad	UN0	\N	81450000	591	27163	cw_bot	history-import:cw_bot:3913	2026-06-24 23:01:30.995+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	569678937	StormerAceCT	PsAG	\N	45650000	4463	27161	cw_bot	history-import:cw_bot:3324	2026-07-24 20:47:00.595+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	573589049	nerfbro9000	GSTG	\N	78680000	1134	27163	cw_bot	history-import:cw_bot:9404	2026-03-26 19:15:43.999+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	573955632	Johanplayzrb21	HARM	\N	84820000	140	27163	cw_bot	history-import:cw_bot:996	2026-04-18 02:22:53.465+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	584516944	renzcru	KGHC	\N	2800000	18469	27163	cw_bot	history-import:cw_bot:1448	2026-05-12 10:24:24.514+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	587622297	Raihania54321	Raq	\N	1300000	21781	27163	cw_bot	history-import:cw_bot:1026	2026-04-19 21:12:31.376+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	587994363	Real_RoNexq	EDS1	\N	18190000	8929	27161	cw_bot	history-import:cw_bot:3159	2026-07-27 16:53:43.006+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	588437757	beastbrody12345	LX2C	\N	730500	24371	27159	cw_bot	history-import:cw_bot:8596	2026-08-21 00:15:42.209+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	588685015	jonis_chicken	XBOX	\N	76090000	1584	27163	cw_bot	history-import:cw_bot:9212	2026-06-13 20:55:03.535+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	621412324	dabcat818	S7NS	\N	57830000	2785	27163	cw_bot	history-import:cw_bot:1780	2026-06-07 17:32:51.445+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	643466909	itsmason3725	H8M3	\N	50670000	3431	27163	cw_bot	history-import:cw_bot:782	2026-05-16 01:26:54.902+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	651456138	TrikStar007	3zEZ	\N	66270000	2225	27163	cw_bot	history-import:cw_bot:4210	2026-04-12 20:09:23.388+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	656420117	MercilessBanditTaken	NS4R	\N	78110000	1249	27163	cw_bot	history-import:cw_bot:171	2026-04-19 13:44:30.618+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	659542061	rrodgers0206	POPS	\N	80390000	820	27161	cw_bot	history-import:cw_bot:735	2026-07-17 18:57:55.775+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	661099895	patcola2010	V1LN	\N	18810000	8754	27161	cw_bot	history-import:cw_bot:7801	2026-07-24 00:04:23.322+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	688928053	Noahangrybird1234	S2PU	\N	59640000	2656	27163	cw_bot	history-import:cw_bot:8351	2026-04-06 08:29:37.081+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	697378514	robloxiswaste213445	NXNG	\N	34850000	6993	27161	cw_bot	history-import:cw_bot:3085	2026-07-28 21:08:04.725+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	709222551	Theozzz12	UN0	\N	81440000	592	27163	cw_bot	history-import:cw_bot:8168	2026-04-26 15:05:43.056+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	722456679	mujiTABA1	\N	\N	84900000	133	27163	cw_bot	history-import:cw_bot:2021	2026-06-28 16:42:57.557+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	730772803	sidsew	HSTL	\N	51170000	3339	27159	cw_bot	history-import:cw_bot:7539	2026-08-25 14:36:17.613+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	779059828	jimynew	SS1N	\N	1100000	22650	27163	cw_bot	history-import:cw_bot:1535	2026-05-16 23:39:36.553+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	782937820	the_macraft7	skvi	\N	81110000	663	27159	cw_bot	history-import:cw_bot:7568	2026-08-16 22:06:59.348+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	792204503	Arek2qe4	V1LN	\N	58270000	2757	27161	cw_bot	history-import:cw_bot:8646	2026-07-15 22:49:51.435+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	808679837	sqirtel50	KOHV	\N	47220000	4100	27161	cw_bot	history-import:cw_bot:2422	2026-08-09 16:10:37.911+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	810054419	catloncat	LEGT	\N	5560000	16243	27163	cw_bot	history-import:cw_bot:4023	2026-04-12 21:24:49.553+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	844720150	Sebastjan35	SOPU	\N	80080000	887	27161	cw_bot	history-import:cw_bot:531	2026-07-17 18:48:35.159+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	855012952	batuoffi	OzTM	\N	1890000	20045	27163	cw_bot	history-import:cw_bot:3743	2026-04-18 01:15:08.854+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	857986484	pogujsn	DVQ	\N	38880	26377	27161	cw_bot	history-import:cw_bot:7865	2026-07-08 14:28:28.369+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	864632403	galaxyknight9204	Gewp	\N	13640000	10783	27163	cw_bot	history-import:cw_bot:1768	2026-05-29 01:34:02.793+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	876991750	Mertiliano	ORBI	\N	80620000	763	27161	cw_bot	history-import:cw_bot:2135	2026-08-01 04:17:09.805+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	877353566	lpvarmi	VLP	\N	36320000	6625	27161	cw_bot	history-import:cw_bot:7209	2026-07-29 20:25:50.738+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	911932139	Daniel8czs	W0m1	\N	15780000	9715	27161	cw_bot	history-import:cw_bot:6809	2026-08-01 11:19:39.153+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	938868540	eso343	SHAG	\N	37240000	6382	27161	cw_bot	history-import:cw_bot:6547	2026-08-07 09:09:20.624+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	955175856	fatalwaccle	3zEZ	\N	57290000	2813	27163	cw_bot	history-import:cw_bot:4181	2026-04-12 20:31:29.037+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	983863343	akita_nuru	MTNR	\N	5910000	16040	27159	cw_bot	history-import:cw_bot:9580	2026-08-16 14:43:07.843+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1024664859	NotArsann7	AR2Y	\N	63160000	2405	27163	cw_bot	history-import:cw_bot:1253	2026-05-03 05:34:41.421+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1044395777	patrykkpro1	V1LN	\N	16300000	9516	27161	cw_bot	history-import:cw_bot:7723	2026-08-05 20:28:34.504+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1049702109	realchaseblox	FaZ	\N	75720000	1628	27163	cw_bot	history-import:cw_bot:1311	2026-05-05 21:59:20.786+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1055219519	eon2020	H8M3	\N	51810000	3257	27163	cw_bot	history-import:cw_bot:8095	2026-06-24 23:15:47.3+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1081067684	mimilrol	ROMU	\N	70980000	2014	27161	cw_bot	history-import:cw_bot:405	2026-07-17 18:47:08.019+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1137640592	clackerskill	Goop	\N	81510000	575	27161	cw_bot	history-import:cw_bot:4658	2026-08-01 00:22:28.841+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1146217738	xXjirkaXxboys	SJCJ	\N	46530000	4260	27163	cw_bot	history-import:cw_bot:4045	2026-04-12 22:01:07.439+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1157052710	laughytrex	XPQX	\N	8580000	14174	27163	cw_bot	history-import:cw_bot:889	2026-04-24 03:00:59.658+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1158978049	Mr_trolololx019	BCN2	\N	1060000	22844	27161	cw_bot	history-import:cw_bot:7831	2026-07-05 15:55:32.872+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1160481763	fajeczka4	BOTZ	\N	7850000	14725	27161	cw_bot	history-import:cw_bot:6789	2026-08-03 09:49:43.16+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1163321217	protozejelen	LV13	\N	10580000	12494	27161	cw_bot	history-import:cw_bot:7133	2026-07-30 15:23:48.828+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1178078831	mavilure	NXNG	\N	65560000	2261	27163	cw_bot	history-import:cw_bot:9110	2026-07-04 02:37:26.103+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1179507007	tomisek134	HR2T	\N	58900000	2709	27161	cw_bot	history-import:cw_bot:4740	2026-08-11 18:03:07.712+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1192463440	Jonas139075	dkps	\N	1020000	23005	27161	cw_bot	history-import:cw_bot:2778	2026-07-31 19:36:15.216+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1215733674	M_parker234	1DOL	\N	36140000	6676	27163	cw_bot	history-import:cw_bot:1697	2026-05-23 12:58:36.466+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1217944056	aussieoutlaww	H8M3	\N	46670000	4231	27161	cw_bot	history-import:cw_bot:2881	2026-07-31 15:48:02.888+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1221841742	Azurqson	ORBI	\N	84640000	152	27163	cw_bot	history-import:cw_bot:3784	2026-04-06 19:59:26.612+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1229931292	ijyrgk	W0m1	\N	2880000	18379	27163	cw_bot	history-import:cw_bot:9096	2026-07-04 00:22:27.772+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1232493274	MARYNADA058	BDX	\N	2020000	19795	27161	cw_bot	history-import:cw_bot:6887	2026-07-31 20:00:25.469+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1243643868	ASEYIsoos	Goop	\N	79060000	1067	27161	cw_bot	history-import:cw_bot:9425	2026-08-12 22:46:12.145+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1245227095	TheoFuraxe	ROMU	\N	91760000	2	27161	cw_bot	history-import:cw_bot:123	2026-07-17 18:32:35.762+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1274135054	latestmallard87	vysn	\N	32450000	7408	27163	cw_bot	history-import:cw_bot:3748	2026-04-18 01:16:24.862+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1277089394	LUVALICEEXO	XTND	\N	44650000	4684	27163	cw_bot	history-import:cw_bot:9260	2026-04-28 15:57:56.007+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1279232695	Ac3scar	HSTL	\N	41180000	5428	27163	cw_bot	history-import:cw_bot:243	2026-05-10 02:13:40.5+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1283935690	Laura_V13	07W	\N	42930000	5062	27161	cw_bot	history-import:cw_bot:4343	2026-08-09 17:50:39.523+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1286384664	uzuisnipes	W2VY	\N	80790000	723	27161	cw_bot	history-import:cw_bot:337	2026-07-17 18:33:12.116+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1294169389	crazy_blox6677	RATZ	\N	13710000	10735	27161	cw_bot	history-import:cw_bot:2618	2026-07-31 20:54:30.508+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1294494054	Ethanblaze112	x75p	\N	48590000	3797	27163	cw_bot	history-import:cw_bot:8322	2026-04-03 19:35:37.401+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1330097404	tomasbudik007	VLP	\N	76160000	1575	27161	cw_bot	history-import:cw_bot:7098	2026-07-30 18:00:28.62+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1364275114	Czech9912	VLP	\N	1390000	21473	27161	cw_bot	history-import:cw_bot:6693	2026-08-04 20:29:16.813+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1376213247	eric23129	DLOW	\N	10480000	12572	27163	cw_bot	history-import:cw_bot:3936	2026-06-26 14:54:31.345+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1380082703	Allalboy2	7HRW	\N	52050000	3224	27163	cw_bot	history-import:cw_bot:8214	2026-04-08 19:50:25.995+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1384716628	barti12345610	_hot	\N	39910000	5714	27161	cw_bot	history-import:cw_bot:8529	2026-07-21 19:41:58.049+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1403606137	GhostWhisperer03	PAAC	\N	52200000	3195	27161	cw_bot	history-import:cw_bot:6910	2026-08-01 01:11:48.951+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1409166088	treytonpeterbuilt	GSTG	\N	82340000	431	27163	cw_bot	history-import:cw_bot:1369	2026-05-07 00:27:08.494+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1413108041	Gajmer2011	🏰 Clan: **dkps**	\N	\N	22433	27163	cw_bot	history-import:cw_bot:3549	2026-03-12 11:07:41.895+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1448209893	starwarsroblox2099	Goop	\N	62330000	2449	27161	cw_bot	history-import:cw_bot:2678	2026-08-01 04:00:56.996+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1452886316	kubistaa	DJRK	\N	845640	23883	27159	cw_bot	history-import:cw_bot:5219	2026-08-21 19:09:04.387+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1455404309	vavasamasa	_CEO	\N	59990000	2631	27161	cw_bot	history-import:cw_bot:6768	2026-08-03 07:19:33.116+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1462748729	dragonballx1412	NONG	3	79400000	1007	27161	cw_bot	history-import:big_bot:1047	2026-07-17 01:03:33.384+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1501050755	RealYTStarz	st1z	\N	25130000	8066	27163	cw_bot	history-import:cw_bot:1971	2026-06-27 18:27:30.824+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1501625591	floriansamuraiu	07W	\N	11440000	11889	27161	cw_bot	history-import:cw_bot:7902	2026-07-08 14:32:48.38+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1509495433	arrume_aparte12	KOHV	\N	42360000	5189	27161	cw_bot	history-import:cw_bot:8020	2026-07-08 14:39:41.28+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1510971300	Informix_CZ	KMo	\N	43610000	4925	27161	cw_bot	history-import:cw_bot:6223	2026-08-08 08:18:03.311+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1514487909	mufflingg	Z3EE	\N	17810000	9044	27163	cw_bot	history-import:cw_bot:2044	2026-06-30 03:14:01.994+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1515580709	notaurorasky008	skvi	\N	56590000	2841	27159	cw_bot	history-import:cw_bot:7549	2026-08-16 16:38:28.759+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1519381006	CloudyVR65	x75p	\N	64950000	2295	27163	cw_bot	history-import:cw_bot:1140	2026-04-27 02:10:48.062+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1520358099	FlipFlopFloop417	CC4T	\N	8510000	14219	27161	cw_bot	history-import:cw_bot:354	2026-07-17 18:33:20.942+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1523831473	malfiv	K989	\N	3650000	17629	27161	cw_bot	history-import:cw_bot:6243	2026-08-08 14:47:52.966+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1528045909	Matysek0000000	SAM4	\N	9600000	13333	27160	cw_bot	history-import:cw_bot:5886	2026-08-14 13:19:31.864+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1528718508	strykertoff	XPQX	\N	9160000	13707	27163	cw_bot	history-import:cw_bot:1265	2026-05-03 14:42:25.308+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1537916189	MailDaCoolKid	Goop	\N	80700000	750	27163	cw_bot	history-import:cw_bot:9196	2026-06-19 13:04:44.383+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1539398349	Darkszern	SOPU	\N	81930000	499	27161	cw_bot	history-import:cw_bot:4571	2026-08-04 19:57:01.734+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1544837203	legpro11	auli	\N	37710000	6253	27159	cw_bot	history-import:cw_bot:7495	2026-08-27 21:28:49.869+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1546214233	ninjaogifox	H8M3	\N	48320000	3864	27161	cw_bot	history-import:cw_bot:5978	2026-08-10 21:49:03.348+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1573629774	mkmike27mk	XPQX	\N	37480000	6316	27163	cw_bot	history-import:cw_bot:256	2026-05-16 17:04:30.807+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1581306248	Robloxak_Honiik	KMo	\N	42060000	5247	27159	cw_bot	history-import:cw_bot:5833	2026-08-14 19:05:13.93+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1583648375	KeyzziHD94	GSTG	\N	82450000	410	27161	cw_bot	history-import:cw_bot:288	2026-07-17 17:28:11.535+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1587906543	wexfordfox	BOSK	\N	14370000	10405	27163	cw_bot	history-import:cw_bot:9286	2026-04-29 12:14:55.272+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1592738293	1ncr3d1bl3sulk	x75p	\N	57980000	2777	27163	cw_bot	history-import:cw_bot:1279	2026-05-03 22:19:36.985+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1596560199	wiegehtdennsowas	XBOX	\N	45670000	4458	27163	cw_bot	history-import:cw_bot:9321	2026-04-05 16:35:34.64+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1613882953	toastedpoptartonyt	CXTG	\N	7320000	15114	27159	cw_bot	history-import:cw_bot:9919	2026-08-18 18:50:20.423+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1617221713	waheedplayzYT	S2PU	\N	43410000	4969	27161	cw_bot	history-import:cw_bot:7782	2026-07-22 21:12:43.733+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1626378539	Fulda645	S7NS	\N	3560000	17705	27163	cw_bot	history-import:cw_bot:8145	2026-04-28 12:17:49.765+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1644308020	hoon9900a	vvjp	\N	23620000	8138	27161	cw_bot	history-import:cw_bot:8933	2026-07-29 11:32:45.032+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1652197454	fighter92399_alt	NONG	\N	83530000	267	27163	cw_bot	history-import:cw_bot:1832	2026-06-16 00:22:27.481+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1676340458	AgreedFlower11	NFZZ	\N	43010000	5047	27161	cw_bot	history-import:cw_bot:617	2026-07-17 18:49:30.27+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1676361250	RealYoDarkshadow	Sh2p	\N	12720000	11237	27163	cw_bot	history-import:cw_bot:3988	2026-04-12 22:22:05.865+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1683480006	kminoscz	KMo	\N	42140000	5231	27161	cw_bot	history-import:cw_bot:7079	2026-07-30 17:15:30.786+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1690820953	1tombay	BEZE	\N	79760000	938	27163	cw_bot	history-import:cw_bot:1718	2026-05-23 14:09:54.985+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1697239942	racingchampaj	AR2Y	\N	39700000	5759	27161	cw_bot	history-import:cw_bot:7891	2026-07-08 14:32:13.162+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1746819605	Ofdintss	KOHV	\N	85030000	123	27163	cw_bot	history-import:cw_bot:1908	2026-06-20 19:36:02.048+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1749647628	da1niell	HR2T	\N	44730000	4662	27161	cw_bot	history-import:cw_bot:6364	2026-08-07 18:52:55.147+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1750005492	averyhein1920	S2PU	\N	9870000	13087	27163	cw_bot	history-import:cw_bot:8396	2026-06-17 00:11:42.038+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1756730755	imsazzyy	OTTR	\N	17080000	9233	27163	cw_bot	history-import:cw_bot:9134	2026-06-29 23:26:20.807+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1759162396	9kbotzz	XBOX	\N	73570000	1839	27163	cw_bot	history-import:cw_bot:9333	2026-04-05 20:49:49.97+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1780089241	dominikando11	3zEZ	\N	49930000	3544	27163	cw_bot	history-import:cw_bot:4008	2026-04-12 21:23:47.034+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1787663283	TheBuilder5649	FGZW	\N	13680000	10762	27163	cw_bot	history-import:cw_bot:4077	2026-04-12 22:03:03.052+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1817334423	zerz06	Goop	\N	83050000	324	27159	cw_bot	history-import:cw_bot:8708	2026-08-26 17:22:03.043+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1818966891	Drak1735	PROX	\N	31360000	7576	27159	cw_bot	history-import:cw_bot:5847	2026-08-14 19:17:31.862+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1824713899	hayojeu2k	W2VY	\N	58390000	2748	27161	cw_bot	history-import:cw_bot:670	2026-07-17 18:57:09.828+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1835808563	1213eric	_MGW	\N	77910000	1294	27163	cw_bot	history-import:cw_bot:1642	2026-05-21 04:56:29.857+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1856284829	younes89755	NONG	\N	79380000	1012	27163	cw_bot	history-import:cw_bot:1351	2026-05-06 23:01:41.242+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1881899133	Coxxman	HROT	\N	83610000	260	27161	cw_bot	history-import:cw_bot:7439	2026-07-13 19:26:57.695+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1895942489	ziomek1000oo	_hot	\N	54020000	3010	27159	cw_bot	history-import:cw_bot:7584	2026-08-19 21:17:39.542+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1950318403	itsgaternotgator	W2VY	\N	15480000	9864	27163	cw_bot	history-import:cw_bot:309	2026-07-01 16:29:10.815+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1957877866	MRDanThePan	AR2Y	\N	37220000	6389	27161	cw_bot	history-import:cw_bot:3224	2026-07-26 11:08:55.681+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1973447751	radkozahumensky5	x75p	\N	77090000	1429	27159	cw_bot	history-import:cw_bot:4974	2026-08-24 18:50:27.632+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1986018475	Yazooony55	AXOK	\N	910030	23568	27161	cw_bot	history-import:cw_bot:2311	2026-08-12 18:23:23.035+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2015826915	Thiballa	ANG_	\N	18240000	8912	27163	cw_bot	history-import:cw_bot:1007	2026-04-18 19:09:38.623+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2017652746	roastedduck123	OTTR	\N	14610000	10275	27161	cw_bot	history-import:cw_bot:9041	2026-07-12 22:45:18.893+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2022911056	Iamaboy222224	XBOX	\N	79240000	1036	27161	cw_bot	history-import:cw_bot:3281	2026-07-25 17:51:10.303+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2046133197	coltwertzu	V1LN	\N	18510000	8825	27163	cw_bot	history-import:cw_bot:9343	2026-03-30 23:05:52.126+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2064474099	macejko998	K989	\N	37500000	6309	27159	cw_bot	history-import:cw_bot:5604	2026-08-16 18:31:51.714+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2067834432	blazeeok	Goop	\N	87000000	43	27161	cw_bot	history-import:cw_bot:3182	2026-07-26 20:02:36.593+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2209981951	andreas33709	SOPU	\N	77620000	1339	27163	cw_bot	history-import:cw_bot:1981	2026-06-28 13:45:11.795+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2226792909	Raptorik_gamer	HR2T	\N	43890000	4862	27161	cw_bot	history-import:cw_bot:7425	2026-07-18 17:45:36.477+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2241042742	WallEExtreme	BURN	\N	84950000	127	27161	cw_bot	history-import:cw_bot:8683	2026-07-15 16:36:29.044+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2257366377	lottewashere	LXCC	\N	87320000	35	27163	cw_bot	history-import:cw_bot:9312	2026-04-13 22:48:01.131+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2268926446	Feibapa	SOPU	\N	77820000	1312	27161	cw_bot	history-import:cw_bot:2704	2026-07-31 16:47:53.554+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2272058278	tomasmessi2567	HROT	\N	46330000	4302	27161	cw_bot	history-import:cw_bot:6599	2026-08-06 14:40:37.08+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2282416912	vae1oria	BEZE	\N	82390000	420	27163	cw_bot	history-import:cw_bot:9297	2026-04-25 08:43:24.827+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2296914657	officialchost	🏰 Clan: **NONG**	\N	81470000	585	27163	cw_bot	history-import:cw_bot:3733	2026-04-22 16:35:18.109+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2316325389	julimowi	TeGu	\N	81800000	522	27161	cw_bot	history-import:cw_bot:2730	2026-07-31 17:12:47.437+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2318308002	karelman1451	HR2T	\N	36450000	6582	27159	cw_bot	history-import:cw_bot:4914	2026-08-26 18:25:05.52+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2320688195	daihukumochi223	2WEI	\N	6260000	15792	27163	cw_bot	history-import:cw_bot:8554	2026-06-17 03:04:38.757+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2349313768	crystalboyo256	S7PY	\N	43670000	4916	27161	cw_bot	history-import:cw_bot:2976	2026-07-30 10:49:42.699+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2349773489	jsemdobrejkabe	MSPN	\N	1720000	20458	27161	cw_bot	history-import:cw_bot:6236	2026-08-08 09:15:39.653+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2375471082	RayquazaPlayz_yt	0RBI	\N	82590000	385	27163	cw_bot	history-import:cw_bot:4111	2026-04-12 20:27:06.36+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2399889452	starwax85	V1LN	\N	37870000	6220	27161	cw_bot	history-import:cw_bot:7764	2026-07-17 15:53:21.548+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2420801797	0k_0w	eguh	\N	5330000	16386	27161	cw_bot	history-import:cw_bot:443	2026-07-17 18:47:32.43+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2431643806	1KRUCHY	XREX	\N	51380000	3322	27163	cw_bot	history-import:cw_bot:8059	2026-06-23 16:35:49.505+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2443619256	mihokkon	UNO	\N	82650000	375	27163	cw_bot	history-import:cw_bot:3757	2026-04-17 00:20:59.211+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2451180568	SuperSpeedyC_12345	3zEZ	\N	64150000	2339	27161	cw_bot	history-import:cw_bot:2944	2026-07-30 23:41:01.908+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2463337749	mrtendieman	GSTG	\N	82700000	370	27159	cw_bot	history-import:cw_bot:7698	2026-08-16 16:38:00.619+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2469768592	Raitonn0609	2WEI	\N	64780000	2307	27163	cw_bot	history-import:cw_bot:9369	2026-03-31 20:29:42.263+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2475732693	Fazmashwastaken	FaZ	\N	48060000	3931	27161	cw_bot	history-import:cw_bot:10000	2026-08-09 01:32:35.34+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2489885181	Ewan_314	NONG	\N	79700000	952	27161	cw_bot	history-import:cw_bot:4434	2026-08-07 01:31:38.701+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2494077434	matyx00777	MNCS	\N	75280	25918	27161	cw_bot	history-import:cw_bot:4765	2026-08-01 12:20:27.96+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2509513667	Ryderkoo5545	ERC	\N	1850000	20146	27159	cw_bot	history-import:cw_bot:5050	2026-08-23 10:46:48.07+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2521267504	matejsbss	MDKT	\N	17570000	9108	27161	cw_bot	history-import:cw_bot:7475	2026-07-15 14:29:29.985+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2529950059	swbrthe34rd	LBB	\N	69450	25951	27159	cw_bot	history-import:cw_bot:5679	2026-08-15 00:36:32.07+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2530992063	smrtak54	DJRK	\N	1170000	22260	27161	cw_bot	history-import:cw_bot:6181	2026-08-08 19:57:25.253+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2534684186	mrtoping123	Zeiz	\N	41430000	5364	27161	cw_bot	history-import:cw_bot:7031	2026-07-30 22:26:36.798+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2539070982	Nomdecodetotoc34	ANG_	\N	45790000	4431	27163	cw_bot	history-import:cw_bot:1240	2026-05-02 16:27:23.292+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2545832975	baconszombiesarmy	FGZW	\N	9810000	13144	27163	cw_bot	history-import:cw_bot:4055	2026-04-12 22:02:06.94+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2575495153	IStoleYourChica	ORBI	\N	80870000	710	27161	cw_bot	history-import:cw_bot:78	2026-07-17 18:32:12.646+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2577660536	srbj2013	Do'It	\N	9550000	13366	27161	cw_bot	history-import:cw_bot:6140	2026-08-08 18:12:23.397+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2628215963	praisevolxtz	st1z	\N	21330000	8280	27161	cw_bot	history-import:cw_bot:455	2026-07-17 18:47:40.523+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2633185327	luxxrro	Goop	\N	84080000	191	27163	cw_bot	history-import:cw_bot:1991	2026-06-28 16:25:22.311+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2648563570	Stepa16th	MDKT	\N	59970000	2635	27161	cw_bot	history-import:cw_bot:7395	2026-07-17 14:30:03.697+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2667688976	SlimGreycz_2	VLP	\N	1080000	22747	27161	cw_bot	history-import:cw_bot:7937	2026-07-08 14:35:29.662+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2681952829	samplayz9977	XPQX	\N	114010	25783	27163	cw_bot	history-import:cw_bot:1399	2026-05-10 00:23:27.332+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2699598634	rosta128	HR2T	\N	8490000	14237	27161	cw_bot	history-import:cw_bot:6964	2026-07-31 16:07:38.598+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2709299989	fishy_axl22	st1z	\N	15960000	9647	27163	cw_bot	history-import:cw_bot:770	2026-05-10 02:24:40.449+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2719084403	aidananthony013	XPQX	\N	37950000	6199	27163	cw_bot	history-import:cw_bot:1816	2026-06-13 15:03:54.201+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2739287597	krillerproxd	AR2Y	\N	16080000	9596	27161	cw_bot	history-import:cw_bot:7884	2026-07-08 14:29:50.8+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2786686086	Loewentatze12	CITC	\N	676110	24590	27161	cw_bot	history-import:cw_bot:2436	2026-08-09 19:22:00.052+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2844876464	Destructcz23	tNo	\N	71160000	2003	27159	cw_bot	history-import:cw_bot:2268	2026-08-20 07:56:23.411+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2892299154	Baggooooo	UN0	\N	82510000	405	27161	cw_bot	history-import:cw_bot:4545	2026-08-04 19:57:26.933+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2901565950	bestrobloxsimsplayer	NONG	\N	82360000	426	27163	cw_bot	history-import:cw_bot:1178	2026-04-30 19:38:45.807+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2912101187	coolgur0	0RBI	\N	61520000	2515	27161	cw_bot	history-import:cw_bot:513	2026-07-17 18:48:27.061+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2915153725	Ishan90091	07W	\N	15240000	9985	27161	cw_bot	history-import:cw_bot:10055	2026-08-08 18:49:12.798+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2929825206	roplexbuddy	F4DE	\N	13220000	10999	27161	cw_bot	history-import:cw_bot:4258	2026-08-13 04:25:30.76+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2956070032	AnnexOO1	DLOW	\N	64480000	2319	27163	cw_bot	history-import:cw_bot:8246	2026-04-11 00:42:36.107+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2956113153	xwiktorxxxx3	LSQ	\N	547860	25032	27161	cw_bot	history-import:cw_bot:8916	2026-07-30 10:52:00.891+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2961636717	nichozr	V1LN	\N	46100000	4356	27163	cw_bot	history-import:cw_bot:1420	2026-05-11 01:18:04.672+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2965361189	mynestra	🏰 Clan: **Roux**	\N	\N	8550	27163	cw_bot	history-import:cw_bot:3577	2026-05-20 23:35:22.269+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2980262380	Xperide	KOR_	\N	38090000	6170	27163	cw_bot	history-import:cw_bot:1487	2026-05-15 20:24:52.409+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2981591104	Maroko_013	V1LN	\N	80110000	879	27161	cw_bot	history-import:cw_bot:8866	2026-07-31 17:35:33.295+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2988275843	zspjasieniec1	PABS	\N	73960000	1812	27159	cw_bot	history-import:cw_bot:8495	2026-08-19 15:24:30.108+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2992299705	Afrykan0	XREX	\N	36330000	6620	27159	cw_bot	history-import:cw_bot:7507	2026-08-28 16:42:30.025+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	2999732017	derharzendeharzer	V1LN	\N	69820000	2074	27163	cw_bot	history-import:cw_bot:4225	2026-04-12 20:09:36.816+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3000748132	PickleCloudNacho	H8ER	\N	79820000	925	27163	cw_bot	history-import:cw_bot:3957	2026-04-12 22:17:35.814+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3000932506	JackJAC123999	URS7	\N	3120000	18118	27161	cw_bot	history-import:cw_bot:9511	2026-07-07 15:52:50.748+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3010290250	Hiitzjust	NXNG	\N	61150000	2536	27161	cw_bot	history-import:cw_bot:8033	2026-07-08 14:40:06.768+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3016891949	petaf1234	MDKT	\N	37280000	6366	27159	cw_bot	history-import:cw_bot:5263	2026-08-21 20:32:57.322+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3022616943	floatindrag	DRC	\N	46800000	4207	27161	cw_bot	history-import:cw_bot:2564	2026-08-01 14:35:07.364+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3033026212	flexmyspa1	0RBI	\N	60590000	2582	27161	cw_bot	history-import:cw_bot:797	2026-07-17 18:58:35.721+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3035121387	Profaluky1	MDKT	\N	10770000	12350	27159	cw_bot	history-import:cw_bot:5500	2026-08-19 08:35:54.162+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3039307282	Mr_agnes30	XREX	\N	81520000	572	27163	cw_bot	history-import:cw_bot:8076	2026-06-23 16:38:19.044+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3046788322	Xerenity1	DLOW	\N	49320000	3658	27163	cw_bot	history-import:cw_bot:8257	2026-04-11 00:53:10.021+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3060745926	thetruetdsglitch	XBOX	\N	83640000	257	27163	cw_bot	history-import:cw_bot:8040	2026-04-30 15:47:59.662+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3064251597	filipek2600cz	vdfn	\N	3650000	17635	27163	cw_bot	history-import:cw_bot:1566	2026-05-17 11:56:22.532+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3078836998	minzxn_11	AQ	\N	47810000	3981	27159	cw_bot	history-import:cw_bot:8635	2026-08-26 16:34:14.001+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3096883976	markosk2007	IDF	\N	29340000	7774	27161	cw_bot	history-import:cw_bot:6069	2026-08-09 09:27:28.449+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3108660508	Darcacz2	MNCS	\N	39680000	5764	27161	cw_bot	history-import:cw_bot:6680	2026-08-04 13:06:03.104+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3110455209	kuroihanin	JPST	\N	2710000	18604	27161	cw_bot	history-import:cw_bot:906	2026-07-17 19:08:55.749+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3136650641	petr1235786435	HROT	\N	49180000	3679	27159	cw_bot	history-import:cw_bot:4868	2026-08-28 09:45:55.454+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3139037723	Tobik987123	cspe	\N	15380000	9909	27161	cw_bot	history-import:cw_bot:6477	2026-08-06 18:08:45.622+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3143604581	RebelkaCZ157	VLP	\N	60740000	2566	27161	cw_bot	history-import:cw_bot:6712	2026-08-04 09:43:51.606+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3149302489	code_wille	0RBI	\N	82000000	490	27163	cw_bot	history-import:cw_bot:3842	2026-04-05 06:57:37.866+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3163626549	free2krazy	Goop	\N	80400000	816	27163	cw_bot	history-import:cw_bot:1063	2026-04-24 21:15:18.897+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3167252782	aromelkasto2	POJO	\N	9740000	13208	27161	cw_bot	history-import:cw_bot:6825	2026-08-01 11:19:56.793+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3167272498	zdendpicl9	DJRK	\N	817190	24012	27159	cw_bot	history-import:cw_bot:5718	2026-08-15 08:51:50.658+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3167571592	Hickarn1	NONG	\N	81250000	639	27163	cw_bot	history-import:cw_bot:8383	2026-03-22 11:06:41.693+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3171368431	darklode100	x75p	\N	29790000	7731	27163	cw_bot	history-import:cw_bot:1128	2026-04-27 02:10:10.025+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3175584454	ImLeroXx	🏰 Clan: **LXCC**	\N	\N	2043	27163	cw_bot	history-import:cw_bot:3512	2026-04-23 13:44:15.669+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3181994439	anrijs9991	ORBI	\N	76060000	1587	27163	cw_bot	history-import:cw_bot:1191	2026-04-30 19:59:29.548+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3186034676	tobicole	TPLX	\N	42500000	5156	27163	cw_bot	history-import:cw_bot:4120	2026-04-12 20:27:08.198+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3189090824	bobbybiz1	BOSS	\N	82820000	352	27163	cw_bot	history-import:cw_bot:3828	2026-04-05 06:52:03.294+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3203422029	drlllolll	MDKT	\N	35770000	6769	27159	cw_bot	history-import:cw_bot:9444	2026-08-22 16:01:45.839+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3214063706	ZoraDaGoatOfficial	Goop	\N	80400000	817	27163	cw_bot	history-import:cw_bot:956	2026-04-17 00:09:22.187+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3214496713	DarkPhoenix917	UN0	\N	78410000	1182	27161	cw_bot	history-import:cw_bot:4507	2026-08-04 19:56:06.385+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3215370935	snorlaxfox1	DGSL	\N	69280000	2101	27163	cw_bot	history-import:cw_bot:9386	2026-04-02 02:54:57.549+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3233034644	ARIGO11234	BRWZ	\N	11100000	12111	27161	cw_bot	history-import:cw_bot:3308	2026-07-24 20:34:16.905+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3252894844	vexityonnic	WJAY	\N	51360000	3324	27163	cw_bot	history-import:cw_bot:3813	2026-04-05 06:50:41.945+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3252937116	vladysbomb	whpk	\N	1460000	21187	27161	cw_bot	history-import:cw_bot:3362	2026-07-23 18:49:39.625+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3270087406	Mrkrecek12	VLP2	\N	1940000	19950	27159	cw_bot	history-import:cw_bot:5615	2026-08-14 19:39:09.575+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3271035452	Misak0912	K989	\N	10420000	12629	27161	cw_bot	history-import:cw_bot:6945	2026-08-01 08:49:00.863+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3271442208	Jonglesje	HR2T	\N	79130000	1057	27159	cw_bot	history-import:cw_bot:2233	2026-08-24 09:46:55.285+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3282696395	max_squash	ORBI	\N	64210000	2335	27161	cw_bot	history-import:cw_bot:2120	2026-08-01 03:32:06.841+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3289385978	KnKmor	DK	\N	82170000	459	27161	cw_bot	history-import:cw_bot:8891	2026-08-01 18:12:49.345+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3318596083	Mamaris357357	MDKT	\N	77340000	1387	27159	cw_bot	history-import:cw_bot:5784	2026-08-14 17:19:41.498+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3323392290	D0m1n8tr	SAM	\N	34080000	7134	27163	cw_bot	history-import:cw_bot:9273	2026-04-29 06:50:40.467+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3338233326	Andrewasper0987	KOHV	\N	77270000	1407	27163	cw_bot	history-import:cw_bot:1849	2026-06-17 12:39:01.167+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3345239646	vojtas98CZ	K989	\N	36470	26421	27161	cw_bot	history-import:cw_bot:6151	2026-08-08 18:13:17.798+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3357292523	Grec_Game	VLP	\N	9930000	13048	27161	cw_bot	history-import:cw_bot:7063	2026-07-30 17:14:48.532+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3370104014	Standa256	VLP	\N	7440000	15021	27159	cw_bot	history-import:cw_bot:5137	2026-08-23 03:03:21.508+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3372527888	CokoladovaZmrzska	cspe	\N	42980000	5052	27161	cw_bot	history-import:cw_bot:7357	2026-07-22 01:19:32.889+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3373408758	housebox_go	HR2T	\N	39120000	5911	27161	cw_bot	history-import:cw_bot:6457	2026-08-06 17:53:29.386+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3378947321	reset45624382	0RBI	\N	83910000	210	27161	cw_bot	history-import:cw_bot:8826	2026-08-08 12:36:56.654+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3379551767	scytheskii	BURN	\N	82120000	469	27163	cw_bot	history-import:cw_bot:321	2026-04-16 22:13:50.244+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3382833387	kingweslie123	BUTI	\N	12650000	11271	27161	cw_bot	history-import:cw_bot:2325	2026-08-12 21:19:37.585+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3393324525	BigWolfPL	XREX	\N	48970000	3720	27161	cw_bot	history-import:cw_bot:7818	2026-07-24 20:08:19.243+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3402015952	Josep_xD2	NXNG	\N	8660000	14111	27163	cw_bot	history-import:cw_bot:62	2026-04-27 04:36:38.637+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3416641778	dd_ontop13	SOPU	\N	77710000	1324	27163	cw_bot	history-import:cw_bot:3823	2026-04-05 06:51:12.613+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3421453702	noliogames	LXCC	\N	6150000	15868	27161	cw_bot	history-import:cw_bot:9471	2026-08-04 08:46:51.508+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3437861615	sebhvvj	MLVE	\N	933580	23443	27161	cw_bot	history-import:cw_bot:7009	2026-07-31 07:46:40.545+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3439337856	prezley_official2022	HROT	\N	74740000	1744	27161	cw_bot	history-import:cw_bot:7117	2026-07-30 15:19:24.23+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3444459957	Radek25101982	VLP	\N	1870000	20095	27161	cw_bot	history-import:cw_bot:6051	2026-08-09 09:04:46.362+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3450868495	nolram1a	Roux	\N	40590000	5565	27161	cw_bot	history-import:cw_bot:8851	2026-08-04 06:49:16.854+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3509021767	JonnyM55	OCGH	\N	44870000	4628	27159	cw_bot	history-import:cw_bot:5551	2026-08-17 00:51:43.291+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3512682343	sempanev	MDKT	\N	77340000	1390	27161	cw_bot	history-import:cw_bot:7382	2026-07-25 10:40:23.64+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3549731928	Thijklo2003	KOHV	\N	49130000	3693	27163	cw_bot	history-import:cw_bot:1546	2026-05-17 01:50:48.281+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3557375419	Subtokirbofanyt	AWZY	\N	47410000	4054	27161	cw_bot	history-import:cw_bot:2190	2026-07-27 21:40:54.835+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3563519895	dexxifying	st1z	\N	80510000	789	27163	cw_bot	history-import:cw_bot:3768	2026-04-17 00:22:16.986+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3565857429	Bb874tad	AR2Y	\N	37520000	6307	27161	cw_bot	history-import:cw_bot:7966	2026-07-08 14:36:26.417+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3567067280	Kurtis2345789	ROMU	\N	42770000	5102	27163	cw_bot	history-import:cw_bot:587	2026-05-19 20:18:17.483+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3582853902	godboy94875	NS42	\N	9240000	13650	27163	cw_bot	history-import:cw_bot:2547	2026-04-19 16:39:54.272+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3602402808	Flexsnack21	UNTY	\N	79700000	954	27163	cw_bot	history-import:cw_bot:1204	2026-05-01 08:05:11.74+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3607555867	thechristhe98289	XREX	\N	45640000	4467	27161	cw_bot	history-import:cw_bot:2952	2026-07-30 22:14:25.7+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3628039137	anoknight5	XPQX	\N	36290000	6635	27161	cw_bot	history-import:cw_bot:3119	2026-07-28 18:56:15.247+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3639903941	imandaskye	UN0	\N	80400000	813	27161	cw_bot	history-import:cw_bot:2173	2026-08-01 03:30:43.552+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3655474970	Shrooomdevourer10	V1LN	73	18200000	73	\N	external_import	history-import:big_bot:1069	2026-07-03 23:39:30.698+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3661951050	Murderface2022	🏰 Clan: **FMLY**	\N	\N	5300	27163	cw_bot	history-import:cw_bot:3557	2026-03-12 23:11:43.732+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3672938221	zhulenc	VLP	\N	16450000	9458	27161	cw_bot	history-import:cw_bot:6526	2026-08-06 21:54:27.517+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3683660130	Medvid3k11	cspe	\N	37930000	6208	27161	cw_bot	history-import:cw_bot:6987	2026-07-31 17:00:07.71+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3693112421	levisfound	ORBI	\N	67020000	2185	27161	cw_bot	history-import:cw_bot:2197	2026-07-17 04:29:59.602+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3714270625	angiespartytreat	B2SS	\N	46980000	4169	27161	cw_bot	history-import:cw_bot:7713	2026-08-02 11:57:07.168+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3741610856	DemxnIRL	ORBI	\N	59810000	2646	27161	cw_bot	history-import:cw_bot:4482	2026-08-06 00:26:19.98+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3750045967	imnotdigitosim1476	0RBI	\N	81200000	648	27159	cw_bot	history-import:cw_bot:5658	2026-08-14 22:17:44.993+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3779230353	goat201470	Y0M	\N	7230000	15185	27163	cw_bot	history-import:cw_bot:8278	2026-04-13 16:26:51.02+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3790178976	lifetime2099	Gewp	\N	12900000	11144	27161	cw_bot	history-import:cw_bot:10071	2026-08-07 21:18:36.83+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3797718809	m4thou3	BEZE	\N	80370000	824	27161	cw_bot	history-import:cw_bot:3076	2026-07-28 21:07:33.267+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3808414208	Suppe_Can	Goop	\N	82120000	471	27163	cw_bot	history-import:cw_bot:8117	2026-04-27 17:55:05.386+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3834652767	Roman5556_CZ	SAM4	\N	39840000	5728	27161	cw_bot	history-import:cw_bot:7409	2026-07-17 16:42:07.486+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3853349557	melpatate12	Goop	\N	78550000	1154	27163	cw_bot	history-import:cw_bot:969	2026-04-18 02:12:53.563+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3915256201	david_smeg	mbee	\N	1380000	21513	27161	cw_bot	history-import:cw_bot:3350	2026-07-23 15:30:35.199+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3919100604	Filda7329	STPS	\N	5070000	16551	27161	cw_bot	history-import:cw_bot:6495	2026-08-06 18:48:55.736+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3926695029	22mamamama	tNo	\N	2070000	19686	27161	cw_bot	history-import:cw_bot:7455	2026-07-15 07:59:07.687+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3952416098	000pattik000	POJO	\N	1540000	20910	27161	cw_bot	history-import:cw_bot:6618	2026-08-05 07:49:04.542+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	3978547556	Zoliisrecords	K989	\N	2520000	18865	27159	cw_bot	history-import:cw_bot:4996	2026-08-24 10:40:01.728+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4005548494	Nekrynk_cz	HROT	\N	50240000	3493	27161	cw_bot	history-import:cw_bot:6852	2026-08-01 23:09:05.564+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4010792811	1zelvak	BDX	\N	44700	26295	27161	cw_bot	history-import:cw_bot:7275	2026-07-27 11:51:24.945+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4023070188	kocovina98	DJRK	\N	7650000	14855	27159	cw_bot	history-import:cw_bot:5732	2026-08-15 11:32:52.389+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4028104754	jaratupy36	vdfn	\N	3190000	18037	27159	cw_bot	history-import:cw_bot:5763	2026-08-14 16:48:48.942+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4035198924	ytpandaroux	R0MU	\N	44930000	4612	27161	cw_bot	history-import:cw_bot:930	2026-07-08 19:17:13.13+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4051469126	Naruto61925	_hot	\N	46200000	4339	27161	cw_bot	history-import:cw_bot:3394	2026-07-23 20:03:20.004+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4054510143	kudlankovec	POJO	\N	7680000	14834	27161	cw_bot	history-import:cw_bot:2485	2026-08-01 09:59:49.052+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4054820865	jimmy_johnhi	K1WI	\N	1160000	22345	27163	cw_bot	history-import:cw_bot:1422	2026-05-11 01:19:45.857+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4097051785	yO_aDzeY	Do1t	\N	8970000	13863	27163	cw_bot	history-import:cw_bot:1669	2026-05-23 10:59:06.769+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4113094220	TTobbboTT	PAAC	\N	62280000	2458	27163	cw_bot	history-import:cw_bot:9227	2026-05-12 19:20:42.195+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4161934376	honza01021983	DJRK	\N	63470000	2381	27159	cw_bot	history-import:cw_bot:4848	2026-08-28 06:57:40.513+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4165162503	trubgut3	MDKT	\N	82620000	380	27161	cw_bot	history-import:cw_bot:6422	2026-08-06 15:24:37.222+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4167232216	nanuk_2232	VLP2	\N	5110000	16529	27161	cw_bot	history-import:cw_bot:6303	2026-08-08 12:06:58.145+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4196761995	GravysOfficial	MDKT	\N	14150000	10535	27159	cw_bot	history-import:cw_bot:5118	2026-08-22 23:53:53.389+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4197618114	Danczek0102	IDF	\N	10940000	12224	27161	cw_bot	history-import:cw_bot:6285	2026-08-08 16:08:23.534+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4213289713	jezykFCP2	PABS	\N	41810000	5296	27161	cw_bot	history-import:cw_bot:8962	2026-07-26 21:01:59.544+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4215988499	abby_gamera	V1LN	\N	32310000	7432	27163	cw_bot	history-import:cw_bot:8156	2026-04-28 15:06:15.006+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4224841429	Holemedonescr10	3zEZ	\N	47580000	4030	27163	cw_bot	history-import:cw_bot:1595	2026-05-20 19:08:41.718+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4227181139	Filip2817fi	vdfn	\N	1020000	23008	27159	cw_bot	history-import:cw_bot:4898	2026-08-27 07:57:31.613+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4238790853	samsam16725	ROMU	\N	81200000	647	27163	cw_bot	history-import:cw_bot:95	2026-06-19 21:20:32.05+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4242955713	KazuyaTTV	S2PU	\N	15380000	9913	27163	cw_bot	history-import:cw_bot:213	2026-05-01 10:25:23.892+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4247108285	irdski	IWHN	\N	9980000	12994	27159	cw_bot	history-import:cw_bot:4718	2026-08-14 21:21:37.198+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4281402342	Selcuk1143	SW23	\N	46450000	4272	27161	cw_bot	history-import:cw_bot:3051	2026-07-28 21:24:31.882+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4290313900	rubberluffy1235	S2PU	\N	53980000	3016	27161	cw_bot	history-import:cw_bot:4238	2026-08-13 06:29:40.629+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4301431724	Bobsussybu123	SLRP	\N	1150000	22390	27161	cw_bot	history-import:cw_bot:2521	2026-08-01 12:26:31.166+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4313949380	Dada343410	MDKT	\N	49170000	3682	27161	cw_bot	history-import:cw_bot:6388	2026-08-07 20:30:35.379+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4336818312	Myguy_Ky1	Nump	\N	18420000	8856	27161	cw_bot	history-import:cw_bot:3218	2026-07-26 11:08:12.603+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4339145979	Dandis_20	COLU	\N	44130000	4811	27159	cw_bot	history-import:cw_bot:5521	2026-08-18 13:11:18.989+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4393951337	lukascccs	VLP2	\N	49550000	3613	27161	cw_bot	history-import:cw_bot:6133	2026-08-08 17:36:40.231+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4430200296	daytime7789	OTTR	\N	51870000	3243	27163	cw_bot	history-import:cw_bot:9163	2026-06-29 23:32:40.195+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4452395552	Xavier_Toorp	STPS	\N	50440000	3461	27161	cw_bot	history-import:cw_bot:7037	2026-07-31 00:21:48.123+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4468537889	tvojemamag101	VLP2	\N	3970000	17351	27159	cw_bot	history-import:cw_bot:5090	2026-08-22 23:18:43.789+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4471953599	alexander1234_hi56	BEZE	\N	77170000	1423	27161	cw_bot	history-import:cw_bot:8796	2026-08-12 23:40:25.692+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4482372398	Burak30_CZ	HR2T	\N	34850000	6992	27161	cw_bot	history-import:cw_bot:7166	2026-07-30 13:05:24.983+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4506575217	dracislav	HROT	\N	80520000	786	27161	cw_bot	history-import:cw_bot:7309	2026-07-26 08:10:51.343+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4511725993	Kvetamin	VLP	\N	12360000	11408	27159	cw_bot	history-import:cw_bot:5246	2026-08-21 19:36:06.87+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4515946186	bakedashboii	WSOW	\N	15480000	9859	27163	cw_bot	history-import:cw_bot:8294	2026-04-19 17:46:14.335+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4540869398	proto123q	NS4R	\N	37900000	6213	27161	cw_bot	history-import:cw_bot:568	2026-07-17 18:49:06.221+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4544162965	icestormvoyager	S2PU	\N	27800000	7920	27163	cw_bot	history-import:cw_bot:8235	2026-04-11 00:41:39.288+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4574397825	PET_HERO676	FYRX	\N	6620000	15576	27159	cw_bot	history-import:cw_bot:5414	2026-08-20 09:37:57.743+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4583513261	xXJ0hnXx23	POJO	\N	48580000	3795	27159	cw_bot	history-import:cw_bot:5294	2026-08-22 16:50:40.795+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4584982387	Misabilk	VLP2	\N	5700000	16166	27161	cw_bot	history-import:cw_bot:5939	2026-08-11 16:19:44.683+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4597064685	nevimheslo108	K989	\N	45140000	4554	27161	cw_bot	history-import:cw_bot:6648	2026-08-05 20:02:56.557+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4633578732	m3wpewpew	07W	\N	11070000	12132	27161	cw_bot	history-import:cw_bot:3001	2026-07-29 15:03:42.497+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4634042698	Psxtrader327	OTTR	\N	15110000	10034	27159	cw_bot	history-import:cw_bot:8508	2026-08-22 22:47:27.757+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4652078124	jaximeler	PABS	\N	77940000	1287	27163	cw_bot	history-import:cw_bot:8426	2026-06-17 00:24:11.273+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4686873488	Monty_Tomas10	K989	\N	79900000	914	27159	cw_bot	history-import:cw_bot:5324	2026-08-21 07:45:07.526+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4759297476	psst1422	HROT	\N	82050000	483	27163	cw_bot	history-import:cw_bot:145	2026-05-20 23:35:12.448+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4792692703	ced123zx	ROMU	\N	50400000	3464	27161	cw_bot	history-import:cw_bot:714	2026-07-17 18:57:41.576+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4833004455	Deniska_1990	HROT	\N	80750000	735	27161	cw_bot	history-import:cw_bot:7325	2026-07-25 23:11:40.176+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4895856612	Dikgeevik2CZ	K989	\N	2660000	18661	27160	cw_bot	history-import:cw_bot:5889	2026-08-13 23:41:00.142+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4923138175	WORZ_51	ROMU	\N	10400000	12648	27163	cw_bot	history-import:cw_bot:4191	2026-04-12 21:06:34.77+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4957497369	ammi0729	Goop	\N	80780000	725	27163	cw_bot	history-import:cw_bot:982	2026-04-18 02:13:35.573+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4989918296	PtiDoriankt	ROMU	\N	78610000	1145	27161	cw_bot	history-import:cw_bot:846	2026-07-17 18:56:47.208+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	4999104751	Speaxk17	POPS	\N	54030000	3012	27163	cw_bot	history-import:cw_bot:1626	2026-05-21 01:10:10.679+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5042635636	Cultiv8R_NZ	DLOW	\N	60290000	2606	27163	cw_bot	history-import:cw_bot:8226	2026-04-11 00:40:42.513+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	1258957228	idjdjjdi2	ORB2	\N	13070000	11068	27163	cw_bot	history-import:cw_bot:1938	2026-06-21 20:32:04.889+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	20532808	GamesReborn	Rfil	\N	76400000	1543	27163	cw_bot	history-import:cw_bot:1222	2026-05-01 18:19:11.948+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	33492395	unoyea	UN0	\N	81710000	536	27163	cw_bot	history-import:cw_bot:1379	2026-05-07 10:52:28.967+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	45130460	Ziilionaires	UN0	\N	83540000	266	27163	cw_bot	history-import:cw_bot:3801	2026-04-05 08:12:37.375+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	58312098	sosd35	SOPU	\N	85420000	99	27161	cw_bot	history-import:cw_bot:690	2026-07-17 18:57:28.202+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	79237321	GodlySalt	BYRD	110	\N	110	\N	external_import	history-import:big_bot:950	2026-07-11 14:28:35.433+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	90767636	bobdog751	V1LN	\N	46320000	4306	27163	cw_bot	history-import:cw_bot:8131	2026-04-27 21:06:33.398+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	120904005	nublet28	BYRD	\N	83200000	301	27163	cw_bot	history-import:cw_bot:8442	2026-07-03 22:38:52.17+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	125272790	ur_salty091	XBOX	\N	53990000	3016	27163	cw_bot	history-import:cw_bot:1919	2026-06-21 04:13:46.321+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	136661329	ghanta2a	Goop	\N	55250000	2924	27163	cw_bot	history-import:cw_bot:8103	2026-04-26 23:31:56.073+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	138619446	darkenedwishes	Goop	\N	83440000	275	27163	cw_bot	history-import:cw_bot:2006	2026-06-28 16:26:03.666+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	148251054	EpicRider6729	NONG	\N	83320000	288	27163	cw_bot	history-import:cw_bot:3852	2026-04-05 07:59:08.938+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	156957387	itsminerr	ORBI	\N	79900000	916	27161	cw_bot	history-import:cw_bot:2155	2026-08-01 03:26:51.039+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	170719079	tnocko	HROT	\N	44080000	4824	27161	cw_bot	history-import:cw_bot:2289	2026-08-12 07:40:01.692+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	170896669	toratot	OTTR	\N	47730000	3998	27163	cw_bot	history-import:cw_bot:9149	2026-06-29 23:29:26.064+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	192463394	NukeOfLava12	3zEZ	\N	84840000	139	27163	cw_bot	history-import:cw_bot:4131	2026-04-12 20:31:33.085+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5663792716	snowzyfarm	ROMU	\N	46250000	4321	27159	cw_bot	history-import:cw_bot:8694	2026-08-28 16:09:02.733+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5044736168	CBroGolden	3zEZ	\N	74370000	1788	27163	cw_bot	history-import:cw_bot:4090	2026-04-12 20:16:41.119+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5049376575	AGR_GamerY	AGR	\N	5750000	16127	27161	cw_bot	history-import:cw_bot:9686	2026-07-19 05:15:01.102+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5063089605	REAL3ST_NZ	DLOW	\N	43040000	5041	27163	cw_bot	history-import:cw_bot:8267	2026-04-11 00:55:05.933+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5076379116	samco137	EROS	\N	1570000	20850	27159	cw_bot	history-import:cw_bot:4856	2026-08-28 07:12:12.071+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5091424925	spiederpro9	Taux	\N	7290000	15137	27161	cw_bot	history-import:cw_bot:2494	2026-08-01 10:12:35.596+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5115775245	gympie54	cloz	\N	1560000	20866	27159	cw_bot	history-import:cw_bot:9756	2026-08-26 20:07:29.974+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5120442322	kirasm0m	ORBI	\N	54030000	3010	27161	cw_bot	history-import:cw_bot:2205	2026-07-17 04:33:26.901+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5127406568	dadchris86	Goop	\N	82230000	451	27163	cw_bot	history-import:cw_bot:8183	2026-04-21 16:30:58.569+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5128164487	drako83cz	HROT	\N	76830000	1473	27159	cw_bot	history-import:cw_bot:5534	2026-08-17 12:17:13.979+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5128774229	livelasso	2WEI	\N	77850000	1303	27161	cw_bot	history-import:cw_bot:8999	2026-07-19 09:14:05.882+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5131558904	COOL_BOY00277	FRC	\N	6400000	15708	27161	cw_bot	history-import:cw_bot:6163	2026-08-08 18:22:16.401+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5138542110	greatfullyyy	W2VY	\N	28450000	7858	27161	cw_bot	history-import:cw_bot:2902	2026-07-31 06:42:06.061+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5143387515	babykweeef	UN0	\N	84250000	176	27159	cw_bot	history-import:cw_bot:2102	2026-08-14 22:59:19.851+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5170991645	galvoir2712	H8M3	\N	43720000	4903	27161	cw_bot	history-import:cw_bot:4418	2026-08-07 08:30:13.219+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5189669801	johqnel	IDF	\N	38660000	6028	27159	cw_bot	history-import:cw_bot:5569	2026-08-17 00:52:03.053+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5203613717	Arteomcka0_z	BEZE	\N	81800000	524	27161	cw_bot	history-import:cw_bot:3373	2026-07-23 19:33:38.366+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5207679662	GrinchFrend	HROT	\N	77960000	1282	27159	cw_bot	history-import:cw_bot:4881	2026-08-28 13:55:05.802+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5209583889	pepajzik	STPS	\N	2170000	19504	27159	cw_bot	history-import:cw_bot:5370	2026-08-20 18:05:20.789+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5234843031	Ps99_Demon	minx	\N	80010000	897	27161	cw_bot	history-import:cw_bot:3385	2026-07-23 20:00:22.189+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5246280273	janjelinek3	POJO	\N	10970000	12203	27161	cw_bot	history-import:cw_bot:6042	2026-08-09 09:04:37.217+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5254272309	shadow_ggofficial	H8M3	\N	82710000	367	27163	cw_bot	history-import:cw_bot:1756	2026-05-28 21:55:36.515+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5267528496	hahagoo4	EGP	\N	31730000	7533	27161	cw_bot	history-import:cw_bot:9631	2026-07-31 16:29:28.688+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5291595908	iTTv6	stzr	\N	75370000	1671	27163	cw_bot	history-import:cw_bot:4001	2026-04-12 21:22:33.583+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5313080791	HerzogDL	RATZ	\N	7480000	15006	27163	cw_bot	history-import:cw_bot:948	2026-04-17 00:08:20.006+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5328968538	Iphone1835	SAM4	\N	871660	23751	27159	cw_bot	history-import:cw_bot:5192	2026-08-21 18:06:41.136+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5339963078	Kvetamin2	VLP	\N	1910000	20004	27161	cw_bot	history-import:cw_bot:6540	2026-08-07 09:05:29.727+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5363786388	HippoALT116	C4T6	\N	4440000	16970	27161	cw_bot	history-import:cw_bot:4399	2026-08-08 17:50:18.656+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5383071838	mr_895675	LXCC	\N	73660000	1832	27159	cw_bot	history-import:cw_bot:7678	2026-08-14 20:23:40.83+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5436365094	Bruin444444	st1z	\N	49360000	3650	27161	cw_bot	history-import:cw_bot:2406	2026-08-10 00:49:21.439+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5510809744	moneyskallin	ORBI	\N	82780000	354	27161	cw_bot	history-import:cw_bot:2085	2026-07-19 11:32:01.392+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5514178688	Mason03388	SSQD	\N	38620000	6043	27163	cw_bot	history-import:cw_bot:4168	2026-04-12 21:05:45.162+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5516978036	omgitzmaatt3	LSQ	\N	29190000	7788	27159	cw_bot	history-import:cw_bot:9872	2026-08-23 11:16:05.962+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5534860785	rostislavvv155	HROT	\N	33810000	7189	27161	cw_bot	history-import:cw_bot:2860	2026-07-31 15:54:01.042+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5560545010	crimxzysgoatedalt	N1GD	\N	1680000	20561	27163	cw_bot	history-import:cw_bot:1745	2026-05-28 19:25:01.662+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5575261241	noliogames3	IWHN	\N	5450000	16308	27161	cw_bot	history-import:cw_bot:9487	2026-08-04 08:47:00.84+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5615179956	MonsterWithGod	ROMU	\N	88110000	25	27163	cw_bot	history-import:cw_bot:4143	2026-04-12 21:05:00.581+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5623447261	quoicoubeh5608	RATZ	\N	28500000	7852	27161	cw_bot	history-import:cw_bot:6211	2026-08-08 20:49:37.159+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5703128088	elnubsen	SOPU	\N	52620000	3138	27163	cw_bot	history-import:cw_bot:3866	2026-04-05 06:56:35.208+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5708006511	prd2137	URS7	\N	931350	23453	27161	cw_bot	history-import:cw_bot:6736	2026-08-04 10:16:22.823+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5771998323	Tadeas5303	IDF	\N	36550000	6554	27161	cw_bot	history-import:cw_bot:7149	2026-07-30 15:42:22.574+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5793778586	PeaceAllAlone	UN0	\N	82290000	434	27163	cw_bot	history-import:cw_bot:8085	2026-04-26 19:32:34.93+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	5818869297	knoxcoder	SOPU	\N	44370000	4746	27161	cw_bot	history-import:cw_bot:3021	2026-07-29 13:28:15.912+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	6024579040	siemanokolano3211	HSRS	\N	33260000	7282	27161	cw_bot	history-import:cw_bot:8838	2026-08-08 13:22:11.942+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	6083864493	evelizda	minx	\N	48610000	3792	27161	cw_bot	history-import:cw_bot:3134	2026-07-28 14:53:35.902+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	6109731708	YoBaskett	W2VY	\N	83980000	203	27161	cw_bot	history-import:cw_bot:428	2026-07-17 18:47:23.21+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	6148028892	zumbak126	RTS_	\N	825650	23973	27161	cw_bot	history-import:cw_bot:9937	2026-07-25 08:28:36.222+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	6156770625	pepajzikv2	STPS	\N	4340000	17028	27159	cw_bot	history-import:cw_bot:5383	2026-08-20 18:30:12.586+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	6180933436	Atefluigi1	V1LN	\N	16670000	9374	27159	cw_bot	history-import:cw_bot:4823	2026-08-28 16:24:47.076+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7005100565	Crazypuzzlehead15	Goop	\N	76970000	1450	27161	cw_bot	history-import:cw_bot:2470	2026-08-01 09:28:25.648+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7032976096	party0boy	ORBI	\N	73460000	1849	27161	cw_bot	history-import:cw_bot:4352	2026-08-10 04:15:38.555+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7137596133	XOGN1ENX	AR3S	\N	2230000	19368	27159	cw_bot	history-import:cw_bot:9571	2026-08-28 22:06:25.286+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7144927541	linya_w	2WEI	\N	5630000	16210	27163	cw_bot	history-import:cw_bot:8568	2026-06-27 16:58:18.228+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7173492482	Kyan65427	J200	\N	4960000	16628	27161	cw_bot	history-import:cw_bot:3235	2026-07-26 12:04:59.618+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7426690057	Duckyphant	H8M3	\N	81320000	620	27159	cw_bot	history-import:cw_bot:5640	2026-08-14 22:07:36.457+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7492577011	XBLTAZEEEE	V015	\N	82770000	356	27163	cw_bot	history-import:cw_bot:9085	2026-07-03 23:49:41.902+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7552499616	ll4cki	GSTG	\N	64940000	2295	27160	cw_bot	history-import:cw_bot:9436	2026-08-14 10:30:26.862+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7710452262	hrac_821	BDX	\N	4950000	16637	27161	cw_bot	history-import:cw_bot:6004	2026-08-10 07:17:41.604+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7742077490	sirwabbs	st1z	\N	85610000	91	27161	cw_bot	history-import:cw_bot:4641	2026-08-02 03:35:57.878+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7806857762	selena082319	W2VY	\N	59670000	2652	27161	cw_bot	history-import:cw_bot:376	2026-07-17 18:33:34.992+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7824029976	nubnubsen	S2PU	\N	47890000	3968	27163	cw_bot	history-import:cw_bot:9079	2026-07-04 15:59:25.721+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	7932915767	frlzleo	RAQ	450	\N	450	\N	external_import	history-import:big_bot:1092	2026-07-01 11:42:44.424+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	8016179740	limitless123234	DLOW	\N	4950000	16632	27159	cw_bot	history-import:cw_bot:8763	2026-08-15 05:26:46.656+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	8087930970	sleeperb99	OTTR	\N	12610000	11298	27161	cw_bot	history-import:cw_bot:9027	2026-07-17 16:18:36.71+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	8136551278	vincbond15	DJRK	\N	2390000	19096	27161	cw_bot	history-import:cw_bot:6191	2026-08-08 20:08:01.556+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	8187537946	nzr5581	V1LN	\N	19260000	8654	27163	cw_bot	history-import:cw_bot:8195	2026-04-23 19:12:26.428+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	8202998917	StanleyFox92	AV3Y	\N	47150000	4113	27163	cw_bot	history-import:cw_bot:18	2026-04-25 12:24:19.176+00	imported_history	\N
+StrengthBattle	Strength Battle	strengthbattle	92251776	thepiedealer	W2VY	\N	11580000	11804	27161	cw_bot	\N	2026-07-22 17:40:42.591+00	imported_history	10877
+StrengthBattle	Strength Battle	strengthbattle	105342908	josephm922	07W	\N	73580000	1838	27163	cw_bot	\N	2026-07-05 05:15:14.676+00	imported_history	11272
+StrengthBattle	Strength Battle	strengthbattle	106654316	Wooftamer	Do1t	\N	46280000	4315	27161	cw_bot	\N	2026-08-06 21:25:15.831+00	imported_history	10368
+StrengthBattle	Strength Battle	strengthbattle	123813615	zabimar420	AWZY	\N	76990000	1446	27161	cw_bot	\N	2026-08-05 05:05:47.203+00	imported_history	10550
+StrengthBattle	Strength Battle	strengthbattle	226285350	farlorddeath	UN0	\N	85080000	119	27161	cw_bot	\N	2026-07-20 02:25:37.839+00	imported_history	10998
+StrengthBattle	Strength Battle	strengthbattle	240536469	aysear	Goop	\N	77160000	1424	27161	cw_bot	\N	2026-07-17 03:28:32.523+00	imported_history	11087
+StrengthBattle	Strength Battle	strengthbattle	263596366	monisvibing	HARM	\N	79400000	1009	27161	cw_bot	\N	2026-07-18 17:03:10.091+00	imported_history	11031
+StrengthBattle	Strength Battle	strengthbattle	267466791	black_ninja890	x75p	\N	17860000	9023	27161	cw_bot	\N	2026-08-05 00:39:53.294+00	imported_history	10531
+StrengthBattle	Strength Battle	strengthbattle	303729688	futtedk11	UN0	\N	83900000	215	27161	cw_bot	\N	2026-08-06 16:14:56.146+00	imported_history	10385
+StrengthBattle	Strength Battle	strengthbattle	391457947	Pukkas08	st1z	\N	42540000	5147	27161	cw_bot	\N	2026-07-17 23:20:47.664+00	imported_history	11055
+StrengthBattle	Strength Battle	strengthbattle	504442502	cleitonp100	NXNG	\N	47450000	4050	27161	cw_bot	\N	2026-08-06 19:36:09.461+00	imported_history	10323
+StrengthBattle	Strength Battle	strengthbattle	617430328	Fireez999	UN0	\N	86720000	47	27161	cw_bot	\N	2026-08-07 16:23:32.565+00	imported_history	10192
+StrengthBattle	Strength Battle	strengthbattle	634506574	BlameGrinders	SOPU	\N	87130000	42	27161	cw_bot	\N	2026-07-16 18:06:48.246+00	imported_history	11102
+StrengthBattle	Strength Battle	strengthbattle	712421191	CoderGrey	Gewp	\N	44550000	4713	27161	cw_bot	\N	2026-08-06 21:12:21.177+00	imported_history	10345
+StrengthBattle	Strength Battle	strengthbattle	820701226	jaydenpool20	GST2	\N	11220000	12038	27161	cw_bot	\N	2026-08-07 14:27:41.154+00	imported_history	10177
+StrengthBattle	Strength Battle	strengthbattle	866298991	Gusgusmagus	RAPT	\N	42910000	5067	27161	cw_bot	\N	2026-08-01 20:45:45.172+00	imported_history	10773
+StrengthBattle	Strength Battle	strengthbattle	907305738	hockeymac1011	S2PU	\N	4930000	16656	27161	cw_bot	\N	2026-08-06 01:24:46.875+00	imported_history	10438
+StrengthBattle	Strength Battle	strengthbattle	912250692	bwlovescars	RBN9	\N	71640000	1974	27161	cw_bot	\N	2026-08-01 19:59:44.339+00	imported_history	10745
+StrengthBattle	Strength Battle	strengthbattle	946600540	lolkownik	AWZY	\N	2680000	18643	27161	cw_bot	\N	2026-08-04 18:56:31.56+00	imported_history	10562
+StrengthBattle	Strength Battle	strengthbattle	1162093762	callumJplunkett	st1z	\N	12190000	11493	27161	cw_bot	\N	2026-07-21 13:58:33.053+00	imported_history	10937
+StrengthBattle	Strength Battle	strengthbattle	1192350790	Steven_Shurf	_hot	\N	47980000	3949	27161	cw_bot	\N	2026-08-04 17:26:23.152+00	imported_history	10584
+StrengthBattle	Strength Battle	strengthbattle	1260752023	jemmness	K0ii	\N	84090000	190	27161	cw_bot	\N	2026-08-05 19:53:14.077+00	imported_history	10503
+StrengthBattle	Strength Battle	strengthbattle	1378926704	thetoad419	FF2H	\N	7370000	15080	27161	cw_bot	\N	2026-07-20 11:11:03.422+00	imported_history	10974
+StrengthBattle	Strength Battle	strengthbattle	1559794555	MrsBrumal93	FMLY	\N	79740000	943	27161	cw_bot	\N	2026-08-06 21:10:37.188+00	imported_history	10305
+StrengthBattle	Strength Battle	strengthbattle	1716972927	theyfwchickenn	UIM	\N	40610000	5556	27161	cw_bot	\N	2026-07-19 01:58:34.751+00	imported_history	11021
+StrengthBattle	Strength Battle	strengthbattle	1810349750	doughnutlordlup	SVB	\N	81310000	621	27161	cw_bot	\N	2026-08-04 09:24:34.058+00	imported_history	10605
+StrengthBattle	Strength Battle	strengthbattle	1860842454	DaceyBisagamer	NONG	\N	85320000	107	27161	cw_bot	\N	2026-07-21 13:55:19.369+00	imported_history	10924
+StrengthBattle	Strength Battle	strengthbattle	2046736760	omgakaroen2	KOHV	\N	46130000	4351	27161	cw_bot	\N	2026-08-05 12:42:48.772+00	imported_history	10521
+StrengthBattle	Strength Battle	strengthbattle	2210572151	ztormwolf	ORB2	\N	4650000	16820	27161	cw_bot	\N	2026-08-07 18:42:26.67+00	imported_history	10213
+StrengthBattle	Strength Battle	strengthbattle	2299269663	pickle_fish44	2OLT	\N	8460000	14259	27161	cw_bot	\N	2026-07-07 01:45:13.053+00	imported_history	11254
+StrengthBattle	Strength Battle	strengthbattle	2466416505	Brent133225	M4RB	\N	58750	26063	27161	cw_bot	\N	2026-08-07 10:44:06.949+00	imported_history	10237
+StrengthBattle	Strength Battle	strengthbattle	2548718008	scottewillis1982	KOii	\N	73210000	1867	27161	cw_bot	\N	2026-08-05 19:51:42.011+00	imported_history	10471
+StrengthBattle	Strength Battle	strengthbattle	2568428336	Arthur_legendmaster	TLGZ	\N	9130000	13728	27161	cw_bot	\N	2026-08-08 15:19:29.543+00	imported_history	10112
+StrengthBattle	Strength Battle	strengthbattle	2843513755	firefeather46	HSTL	\N	52760000	3121	27161	cw_bot	\N	2026-07-12 00:54:10.458+00	imported_history	11142
+StrengthBattle	Strength Battle	strengthbattle	3111804593	boomhahahau4	ERC	\N	44670000	4681	27161	cw_bot	\N	2026-08-07 11:10:01.99+00	imported_history	10251
+StrengthBattle	Strength Battle	strengthbattle	3242097876	Adam340i	C4SH	\N	37830000	6230	27161	cw_bot	\N	2026-08-01 20:38:19.334+00	imported_history	10762
+StrengthBattle	Strength Battle	strengthbattle	3257426178	thebroccoli20	J200	\N	5180000	16482	27161	cw_bot	\N	2026-08-03 18:58:51.895+00	imported_history	10660
+StrengthBattle	Strength Battle	strengthbattle	3302444862	EndOfAnEra007	NONG	\N	81660000	547	27161	cw_bot	\N	2026-07-16 23:20:31.616+00	imported_history	11070
+StrengthBattle	Strength Battle	strengthbattle	3823391474	ryanismyname55	_CEO	\N	2220000	19403	27161	cw_bot	\N	2026-08-06 19:47:56.266+00	imported_history	10336
+StrengthBattle	Strength Battle	strengthbattle	3988909281	ScriptingIntoabysmal	PROX	\N	3860000	17462	27161	cw_bot	\N	2026-08-07 14:02:53.391+00	imported_history	10158
+StrengthBattle	Strength Battle	strengthbattle	4002857188	hyhhui5rhg	QUOK	\N	19470000	8604	27163	cw_bot	\N	2026-07-04 01:47:15.942+00	imported_history	11314
+StrengthBattle	Strength Battle	strengthbattle	4030750707	SpiroBebex71	Goop	\N	89990000	6	27161	cw_bot	\N	2026-08-06 18:54:36.251+00	imported_history	10286
+StrengthBattle	Strength Battle	strengthbattle	4142534434	be_bebrs	BU TI	\N	40600000	5561	27161	cw_bot	\N	2026-07-20 11:09:04.745+00	imported_history	10956
+StrengthBattle	Strength Battle	strengthbattle	4284280354	Superxia4460	V1LN	\N	32300000	7433	27161	cw_bot	\N	2026-07-23 13:14:52.606+00	imported_history	10845
+StrengthBattle	Strength Battle	strengthbattle	4311417620	Weller457sk	HROT	\N	82540000	394	27161	cw_bot	\N	2026-07-22 16:09:45.829+00	imported_history	10901
+StrengthBattle	Strength Battle	strengthbattle	4476083695	EinMensch939	GL10	\N	20650000	8378	27161	cw_bot	\N	2026-07-11 20:34:22.019+00	imported_history	11160
+StrengthBattle	Strength Battle	strengthbattle	4608344169	Spyd3rino	W2VY	\N	43990000	4845	27161	cw_bot	\N	2026-07-10 15:35:31.189+00	imported_history	11214
+StrengthBattle	Strength Battle	strengthbattle	4610856184	Whatsup12719	Inno	\N	9700000	13243	27161	cw_bot	\N	2026-08-05 22:21:53.995+00	imported_history	10430
+StrengthBattle	Strength Battle	strengthbattle	4825781288	Xx_godofdeath96	3MEH	\N	7600000	14899	27161	cw_bot	\N	2026-07-19 21:55:59.986+00	imported_history	11011
+StrengthBattle	Strength Battle	strengthbattle	5429784771	ETHANVU11	SS1N	\N	718520	24410	27161	cw_bot	\N	2026-08-08 09:55:49.165+00	imported_history	10104
+StrengthBattle	Strength Battle	strengthbattle	5532910197	Vvistal_farm	NS4R	\N	43880000	4867	27161	cw_bot	\N	2026-08-06 08:45:15.612+00	imported_history	10401
+StrengthBattle	Strength Battle	strengthbattle	5702033770	dabbin_boittv	UN0	\N	84430000	166	27161	cw_bot	\N	2026-08-03 16:23:31.807+00	imported_history	10632
+StrengthBattle	Strength Battle	strengthbattle	6127399811	GoopGoopMaSi	NONG	\N	84210000	178	27161	cw_bot	\N	2026-07-23 13:53:22.765+00	imported_history	10859
+StrengthBattle	Strength Battle	strengthbattle	7074492190	scoutiiiiiiiii	H8M3	\N	77020000	1440	27161	cw_bot	\N	2026-08-01 09:24:22.841+00	imported_history	10822
+StrengthBattle	Strength Battle	strengthbattle	7213418603	proline_urlocalsweat	FYRX	\N	8450000	14272	27161	cw_bot	\N	2026-08-01 18:24:48.12+00	imported_history	10806
+StrengthBattle	Strength Battle	strengthbattle	7330652305	Proferas2701	JASC	\N	7100000	15281	27161	cw_bot	\N	2026-07-11 17:52:21.526+00	imported_history	11184
+StrengthBattle	Strength Battle	strengthbattle	7515473066	thriveontop	S2PU	\N	38070000	6177	27161	cw_bot	\N	2026-08-05 19:52:35.435+00	imported_history	10491
+StrengthBattle	Strength Battle	strengthbattle	7674089046	scythehatching1	st1z	\N	50980000	3371	27161	cw_bot	\N	2026-07-10 23:29:17.786+00	imported_history	11221
 \.
 
 
@@ -475,8 +533,8 @@ StrengthBattle	Strength Battle	strengthbattle	8202998917	StanleyFox92	AV3Y	\N	47
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 3zZuQCgCdPTTzNszUo8xeouWV5wtJdryGjawzM6nVLOxE3wR64q085Pq1OoChmE
+\unrestrict 8IL8ZsWAHSIE2JRzDJAifUsRGFwqTlc1MCzBrJ6PQQPOplf9o7AXpf8fNg31iD8
 
 
-COPY battles.clan_results("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at")FROM stdin;
+COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
 \.

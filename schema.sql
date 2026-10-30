@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 7nFYsAtkHzaXYbE97za66zQwVxRok6wZTVFMNLDSbJMCIuHOD8vs43g5qBX8dl7
+\restrict KROuFdS9SjsRNZfqlZa80psva8fnI28kQ3UNqcqZg5GN2sMJa77UgtfRbMNpgJ8
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -94,7 +94,10 @@ CREATE TABLE battles.player_results (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 )
 PARTITION BY LIST (event_key);
 
@@ -103,7 +106,7 @@ PARTITION BY LIST (event_key);
 -- Name: TABLE player_results; Type: COMMENT; Schema: battles; Owner: -
 --
 
-COMMENT ON TABLE battles.player_results IS 'One resolved player claim per catalog battle. Rank and points are exported as stored, without new pulls or rank recalculation.';
+COMMENT ON TABLE battles.player_results IS 'One resolved historical player result per catalog battle. Existing archive results have priority; approved imports fill missing participation; final-window member recoveries are labeled separately and have NULL global rank. No new gameplay pull or rank recalculation.';
 
 
 --
@@ -141,6 +144,20 @@ COMMENT ON COLUMN battles.player_results.source_kind IS 'Existing Luna resolutio
 COMMENT ON COLUMN battles.player_results.observed_at IS 'Stored source observation time. Imported sources can use a message/import time rather than the battle endpoint.';
 
 
+--
+-- Name: COLUMN player_results.result_status; Type: COMMENT; Schema: battles; Owner: -
+--
+
+COMMENT ON COLUMN battles.player_results.result_status IS 'stored_final: existing compact archive selection, not a guarantee of exact endpoint completeness; imported_history: approved source-reported historical result; last_saved_pre_end: retained final-window member capture with no confirmed final global rank.';
+
+
+--
+-- Name: COLUMN player_results.source_record_id; Type: COMMENT; Schema: battles; Owner: -
+--
+
+COMMENT ON COLUMN battles.player_results.source_record_id IS 'Original source row ID where added by history completion: imports.cw_bot.source_record_id for cw_bot, or production c0ld_clan_snapshots.id for member_snapshot. NULL on pre-existing resolved results; source_run_key retains their original provenance.';
+
+
 SET default_table_access_method = heap;
 
 --
@@ -160,7 +177,10 @@ CREATE TABLE battles."Angel 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -181,7 +201,10 @@ CREATE TABLE battles."Arcade 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -202,7 +225,10 @@ CREATE TABLE battles."Athena Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -223,7 +249,10 @@ CREATE TABLE battles."Backrooms 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -244,7 +273,10 @@ CREATE TABLE battles."Balloon Corgi Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -265,7 +297,10 @@ CREATE TABLE battles."Basketball Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -286,7 +321,10 @@ CREATE TABLE battles."Bee Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -307,7 +345,10 @@ CREATE TABLE battles."Block Party Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -328,7 +369,10 @@ CREATE TABLE battles."Christmas Present Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -349,7 +393,10 @@ CREATE TABLE battles."Evil Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -370,7 +417,10 @@ CREATE TABLE battles."Fantasy 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -391,7 +441,10 @@ CREATE TABLE battles."Gingerbread Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -412,7 +465,10 @@ CREATE TABLE battles."Gingerbread Battle 2025" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -433,7 +489,10 @@ CREATE TABLE battles."Gummy 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -454,7 +513,10 @@ CREATE TABLE battles."Hatch War 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -475,7 +537,10 @@ CREATE TABLE battles."Lucky Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -496,7 +561,10 @@ CREATE TABLE battles."Lucky Chest Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -517,7 +585,10 @@ CREATE TABLE battles."Lunar 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -538,7 +609,10 @@ CREATE TABLE battles."New Years Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -559,7 +633,10 @@ CREATE TABLE battles."Ninja 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -580,7 +657,10 @@ CREATE TABLE battles."Pet Games Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -601,7 +681,10 @@ CREATE TABLE battles."Pixel Chick Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -622,7 +705,10 @@ CREATE TABLE battles."Poison Turtle Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -643,7 +729,10 @@ CREATE TABLE battles."Royal 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -664,7 +753,10 @@ CREATE TABLE battles."Soccer 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -685,7 +777,10 @@ CREATE TABLE battles."Space Mine 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -706,7 +801,10 @@ CREATE TABLE battles."Spring 2026" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -727,7 +825,10 @@ CREATE TABLE battles."Starry" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -748,7 +849,10 @@ CREATE TABLE battles."Strength Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -769,7 +873,10 @@ CREATE TABLE battles."Thanksgiving 2025 Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -790,7 +897,10 @@ CREATE TABLE battles."Tie Dye Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -811,7 +921,10 @@ CREATE TABLE battles."Tower Defense Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -832,7 +945,10 @@ CREATE TABLE battles."Trick or Treat Battle" (
     ranked_players integer,
     source_kind text NOT NULL,
     source_run_key text,
-    observed_at timestamp with time zone
+    observed_at timestamp with time zone,
+    result_status text NOT NULL,
+    source_record_id bigint,
+    CONSTRAINT player_results_status_check CHECK ((result_status = ANY (ARRAY['stored_final'::text, 'imported_history'::text, 'last_saved_pre_end'::text])))
 );
 
 
@@ -878,7 +994,9 @@ CREATE VIEW battles.native_player_results AS
     ranked_players,
     source_kind,
     source_run_key,
-    observed_at
+    observed_at,
+    result_status,
+    source_record_id
    FROM battles.player_results
   WHERE (source_kind = ANY (ARRAY['global_candidate'::text, 'member_snapshot'::text]));
 
@@ -887,7 +1005,7 @@ CREATE VIEW battles.native_player_results AS
 -- Name: VIEW native_player_results; Type: COMMENT; Schema: battles; Owner: -
 --
 
-COMMENT ON VIEW battles.native_player_results IS 'Native Luna observations selected from the resolved ledger, without duplicating player rows.';
+COMMENT ON VIEW battles.native_player_results IS 'Native Luna observations selected from the resolved ledger, including final-window member recoveries explicitly labeled last_saved_pre_end; no imported bot claims or duplicate player rows.';
 
 
 --
@@ -1280,55 +1398,99 @@ ALTER TABLE imports.cw_bot ALTER COLUMN record_id ADD GENERATED ALWAYS AS IDENTI
 
 
 --
--- Name: player_observations; Type: TABLE; Schema: leagues; Owner: -
+-- Name: player_results; Type: TABLE; Schema: leagues; Owner: -
 --
 
-CREATE TABLE leagues.player_observations (
+CREATE TABLE leagues.player_results (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 )
 PARTITION BY LIST (event_key);
 
 
 --
--- Name: TABLE player_observations; Type: COMMENT; Schema: leagues; Owner: -
+-- Name: TABLE player_results; Type: COMMENT; Schema: leagues; Owner: -
 --
 
-COMMENT ON TABLE leagues.player_observations IS 'Retained source observations. Aggregate leaderboard and direct-membership views can both contain the same player; no invented single final ranking is imposed.';
-
-
---
--- Name: COLUMN player_observations.league_id; Type: COMMENT; Schema: leagues; Owner: -
---
-
-COMMENT ON COLUMN leagues.player_observations.league_id IS 'Opaque game League identifier; retained as text because not all source identifiers are numeric.';
+COMMENT ON TABLE leagues.player_results IS 'One last-saved historical participation per real Roblox player/event. Unknown manual points/member ranks are NULL. No intermediate snapshots or synthetic team IDs are represented as players.';
 
 
 --
--- Name: COLUMN player_observations.source_rank; Type: COMMENT; Schema: leagues; Owner: -
+-- Name: COLUMN player_results.league_rank; Type: COMMENT; Schema: leagues; Owner: -
 --
 
-COMMENT ON COLUMN leagues.player_observations.source_rank IS 'Rank in the original source view. It can be a global aggregate rank or a direct League member rank.';
+COMMENT ON COLUMN leagues.player_results.league_rank IS 'Team placement, distinct from the player global/pool rank and internal member rank.';
+
+
+--
+-- Name: COLUMN player_results.global_rank; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON COLUMN leagues.player_results.global_rank IS 'Only direct BIG Games global-player leaderboard rank; unknown for collector-derived placements.';
+
+
+--
+-- Name: COLUMN player_results.pool_rank; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON COLUMN leagues.player_results.pool_rank IS 'Collector-maintained player-pool rank, including authoritative direct-player prefix. Not a complete official global ranking.';
+
+
+--
+-- Name: COLUMN player_results.collected_population; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON COLUMN leagues.player_results.collected_population IS 'Stored size of the collected player pool, not proof of a complete game population.';
+
+
+--
+-- Name: COLUMN player_results.period_ended_at; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON COLUMN leagues.player_results.period_ended_at IS 'Original frozen source capture window end, preserved even when it differs from the official metadata date.';
+
+
+--
+-- Name: COLUMN player_results.result_status; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON COLUMN leagues.player_results.result_status IS 'last_saved means observed history, not a guarantee of exact finality. manual_membership means confirmed roster membership with unknown points/ranks remaining NULL.';
 
 
 --
@@ -1337,27 +1499,89 @@ COMMENT ON COLUMN leagues.player_observations.source_rank IS 'Rank in the origin
 
 CREATE TABLE leagues."2026 Arcade League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
+);
+
+
+--
+-- Name: 2026 Space Mine League; Type: TABLE; Schema: leagues; Owner: -
+--
+
+CREATE TABLE leagues."2026 Space Mine League" (
+    event_key text NOT NULL,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
+    period_started_at timestamp with time zone,
+    period_ended_at timestamp with time zone,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
+    last_contribution_at timestamp with time zone,
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1367,35 +1591,90 @@ CREATE TABLE leagues."2026 Arcade League" (
 
 CREATE TABLE leagues."Basketball Leagues" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
 --
--- Name: TABLE "Basketball Leagues"; Type: COMMENT; Schema: leagues; Owner: -
+-- Name: Blood Moon League; Type: TABLE; Schema: leagues; Owner: -
 --
 
-COMMENT ON TABLE leagues."Basketball Leagues" IS 'Basketball Leagues: official Update 63 identity. No saved player observations. Exact event timestamps are not established by the naming source.';
+CREATE TABLE leagues."Blood Moon League" (
+    event_key text NOT NULL,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
+    period_started_at timestamp with time zone,
+    period_ended_at timestamp with time zone,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
+    last_contribution_at timestamp with time zone,
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
+);
 
 
 --
@@ -1404,27 +1683,43 @@ COMMENT ON TABLE leagues."Basketball Leagues" IS 'Basketball Leagues: official U
 
 CREATE TABLE leagues."Deep Backrooms League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1434,27 +1729,43 @@ CREATE TABLE leagues."Deep Backrooms League" (
 
 CREATE TABLE leagues."Fiesta League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1464,27 +1775,43 @@ CREATE TABLE leagues."Fiesta League" (
 
 CREATE TABLE leagues."Garden League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1494,27 +1821,43 @@ CREATE TABLE leagues."Garden League" (
 
 CREATE TABLE leagues."Lucky Breakout League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1524,27 +1867,43 @@ CREATE TABLE leagues."Lucky Breakout League" (
 
 CREATE TABLE leagues."RNG League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1554,27 +1913,43 @@ CREATE TABLE leagues."RNG League" (
 
 CREATE TABLE leagues."Soccer League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1584,27 +1959,43 @@ CREATE TABLE leagues."Soccer League" (
 
 CREATE TABLE leagues."Tap Heroes League 2026" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1614,27 +2005,43 @@ CREATE TABLE leagues."Tap Heroes League 2026" (
 
 CREATE TABLE leagues."Time Trials League" (
     event_key text NOT NULL,
-    observation_id bigint NOT NULL,
-    original_event_key text NOT NULL,
-    league_run_key text,
+    user_id bigint NOT NULL,
+    username text,
+    team_key text,
+    league_id text,
+    league_name text,
+    points bigint,
+    member_rank integer,
+    league_rank integer,
+    global_rank integer,
+    pool_rank integer,
+    rank_scope text NOT NULL,
+    collected_population integer,
+    league_points bigint,
+    captured_at timestamp with time zone NOT NULL,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
     period_started_at timestamp with time zone,
     period_ended_at timestamp with time zone,
-    source_record_id bigint,
-    snapshot_id text,
-    fetched_at timestamp with time zone,
-    source text,
-    league_name text,
-    league_id text,
-    league_level integer,
-    league_points bigint,
-    member_capacity integer,
-    source_rank integer,
-    user_id bigint NOT NULL,
-    display_name text,
-    points bigint,
+    result_status text NOT NULL,
+    member_rank_captured_at timestamp with time zone,
+    league_rank_captured_at timestamp with time zone,
+    global_rank_captured_at timestamp with time zone,
+    pool_rank_captured_at timestamp with time zone,
     last_contribution_at timestamp with time zone,
-    source_created_at timestamp with time zone,
-    archived_at timestamp with time zone
+    CONSTRAINT player_results_collected_population_check CHECK ((collected_population > 0)),
+    CONSTRAINT player_results_global_rank_check CHECK ((global_rank > 0)),
+    CONSTRAINT player_results_league_points_check CHECK ((league_points >= 0)),
+    CONSTRAINT player_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT player_results_member_rank_check CHECK ((member_rank > 0)),
+    CONSTRAINT player_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT player_results_pool_rank_check CHECK ((pool_rank > 0)),
+    CONSTRAINT player_results_rank_scope_check CHECK ((rank_scope = ANY (ARRAY['official_global'::text, 'collected_pool'::text, 'member_only'::text, 'membership_only'::text]))),
+    CONSTRAINT player_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text]))),
+    CONSTRAINT player_results_user_id_check CHECK ((user_id > 0))
 );
 
 
@@ -1662,7 +2069,7 @@ CREATE TABLE leagues.coverage (
 -- Name: TABLE coverage; Type: COMMENT; Schema: leagues; Owner: -
 --
 
-COMMENT ON TABLE leagues.coverage IS 'Archive preservation and source coverage evidence. Verification does not prove complete player coverage or exact end-of-event freshness.';
+COMMENT ON TABLE leagues.coverage IS 'Original archive-preservation checks. verified proves stored-row preservation only, not complete player coverage, official finality or end-time freshness.';
 
 
 --
@@ -1686,8 +2093,9 @@ CREATE TABLE leagues.events (
     source_url text,
     source_run_keys text[] DEFAULT ARRAY[]::text[] NOT NULL,
     updated_at timestamp with time zone,
-    observation_table text,
+    result_table text,
     metadata jsonb DEFAULT '{}'::jsonb NOT NULL,
+    team_table text DEFAULT 'leagues.team_results'::text NOT NULL,
     CONSTRAINT league_events_dates CHECK (((ended_at IS NULL) OR (started_at IS NULL) OR (ended_at >= started_at))),
     CONSTRAINT league_events_metadata_object CHECK ((jsonb_typeof(metadata) = 'object'::text))
 );
@@ -1708,17 +2116,44 @@ COMMENT ON COLUMN leagues.events.source_run_keys IS 'Original collector keys lin
 
 
 --
--- Name: player_observations_observation_id_seq; Type: SEQUENCE; Schema: leagues; Owner: -
+-- Name: team_results; Type: TABLE; Schema: leagues; Owner: -
 --
 
-ALTER TABLE leagues.player_observations ALTER COLUMN observation_id ADD GENERATED ALWAYS AS IDENTITY (
-    SEQUENCE NAME leagues.player_observations_observation_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1
+CREATE TABLE leagues.team_results (
+    event_key text NOT NULL,
+    team_key text NOT NULL,
+    league_id text,
+    league_name text NOT NULL,
+    points bigint,
+    league_rank integer,
+    captured_at timestamp with time zone NOT NULL,
+    rank_captured_at timestamp with time zone,
+    source text,
+    source_table text NOT NULL,
+    source_record_id bigint NOT NULL,
+    snapshot_id text,
+    source_run_key text,
+    period_started_at timestamp with time zone,
+    period_ended_at timestamp with time zone,
+    result_status text NOT NULL,
+    CONSTRAINT team_results_league_rank_check CHECK ((league_rank > 0)),
+    CONSTRAINT team_results_points_check CHECK ((points >= 0)),
+    CONSTRAINT team_results_result_status_check CHECK ((result_status = ANY (ARRAY['last_saved'::text, 'manual_membership'::text])))
 );
+
+
+--
+-- Name: TABLE team_results; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON TABLE leagues.team_results IS 'Separate final/last-saved team rankings. team_key is an export join key; genuine game league_id is NULL when unknown. Synthetic source player IDs are excluded.';
+
+
+--
+-- Name: COLUMN team_results.team_key; Type: COMMENT; Schema: leagues; Owner: -
+--
+
+COMMENT ON COLUMN leagues.team_results.team_key IS 'id:<genuine game ID>, or name:<normalized team name> when no unique genuine ID is known within the event.';
 
 
 --
@@ -1956,70 +2391,84 @@ ALTER TABLE ONLY battles.player_results ATTACH PARTITION battles."Trick or Treat
 -- Name: 2026 Arcade League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."2026 Arcade League" FOR VALUES IN ('arcade-league-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."2026 Arcade League" FOR VALUES IN ('arcade-league-2026');
+
+
+--
+-- Name: 2026 Space Mine League; Type: TABLE ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."2026 Space Mine League" FOR VALUES IN ('mining-league-2026');
 
 
 --
 -- Name: Basketball Leagues; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Basketball Leagues" FOR VALUES IN ('basketball-2025');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Basketball Leagues" FOR VALUES IN ('basketball-2025');
+
+
+--
+-- Name: Blood Moon League; Type: TABLE ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Blood Moon League" FOR VALUES IN ('blood-moon-league-2026');
 
 
 --
 -- Name: Deep Backrooms League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Deep Backrooms League" FOR VALUES IN ('deep-backrooms-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Deep Backrooms League" FOR VALUES IN ('deep-backrooms-2026');
 
 
 --
 -- Name: Fiesta League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Fiesta League" FOR VALUES IN ('fiesta-part-2-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Fiesta League" FOR VALUES IN ('fiesta-part-2-2026');
 
 
 --
 -- Name: Garden League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Garden League" FOR VALUES IN ('garden-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Garden League" FOR VALUES IN ('garden-2026');
 
 
 --
 -- Name: Lucky Breakout League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Lucky Breakout League" FOR VALUES IN ('lucky-block-blitz-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Lucky Breakout League" FOR VALUES IN ('lucky-block-blitz-2026');
 
 
 --
 -- Name: RNG League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."RNG League" FOR VALUES IN ('rng-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."RNG League" FOR VALUES IN ('rng-2026');
 
 
 --
 -- Name: Soccer League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Soccer League" FOR VALUES IN ('soccer-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Soccer League" FOR VALUES IN ('soccer-2026');
 
 
 --
 -- Name: Tap Heroes League 2026; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Tap Heroes League 2026" FOR VALUES IN ('tap-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Tap Heroes League 2026" FOR VALUES IN ('tap-2026');
 
 
 --
 -- Name: Time Trials League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations ATTACH PARTITION leagues."Time Trials League" FOR VALUES IN ('time-trials-2026');
+ALTER TABLE ONLY leagues.player_results ATTACH PARTITION leagues."Time Trials League" FOR VALUES IN ('time-trials-2026');
 
 
 --
@@ -2351,11 +2800,27 @@ ALTER TABLE ONLY imports.cw_bot
 
 
 --
--- Name: player_observations player_observations_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+-- Name: player_results player_results_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues.player_observations
-    ADD CONSTRAINT player_observations_pkey PRIMARY KEY (event_key, observation_id);
+ALTER TABLE ONLY leagues.player_results
+    ADD CONSTRAINT player_results_pkey PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: 2026 Arcade League 2026 Arcade League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."2026 Arcade League"
+    ADD CONSTRAINT "2026 Arcade League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: 2026 Space Mine League 2026 Space Mine League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."2026 Space Mine League"
+    ADD CONSTRAINT "2026 Space Mine League_pkey" PRIMARY KEY (event_key, user_id);
 
 
 --
@@ -2363,7 +2828,79 @@ ALTER TABLE ONLY leagues.player_observations
 --
 
 ALTER TABLE ONLY leagues."Basketball Leagues"
-    ADD CONSTRAINT "Basketball Leagues_pkey" PRIMARY KEY (event_key, observation_id);
+    ADD CONSTRAINT "Basketball Leagues_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Blood Moon League Blood Moon League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Blood Moon League"
+    ADD CONSTRAINT "Blood Moon League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Deep Backrooms League Deep Backrooms League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Deep Backrooms League"
+    ADD CONSTRAINT "Deep Backrooms League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Fiesta League Fiesta League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Fiesta League"
+    ADD CONSTRAINT "Fiesta League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Garden League Garden League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Garden League"
+    ADD CONSTRAINT "Garden League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Lucky Breakout League Lucky Breakout League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Lucky Breakout League"
+    ADD CONSTRAINT "Lucky Breakout League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: RNG League RNG League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."RNG League"
+    ADD CONSTRAINT "RNG League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Soccer League Soccer League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Soccer League"
+    ADD CONSTRAINT "Soccer League_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Tap Heroes League 2026 Tap Heroes League 2026_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Tap Heroes League 2026"
+    ADD CONSTRAINT "Tap Heroes League 2026_pkey" PRIMARY KEY (event_key, user_id);
+
+
+--
+-- Name: Time Trials League Time Trials League_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues."Time Trials League"
+    ADD CONSTRAINT "Time Trials League_pkey" PRIMARY KEY (event_key, user_id);
 
 
 --
@@ -2383,75 +2920,11 @@ ALTER TABLE ONLY leagues.events
 
 
 --
--- Name: 2026 Arcade League observations_arcade-league-2026-f4f145a8_f4f145a8_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
+-- Name: team_results team_results_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
 --
 
-ALTER TABLE ONLY leagues."2026 Arcade League"
-    ADD CONSTRAINT "observations_arcade-league-2026-f4f145a8_f4f145a8_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Deep Backrooms League observations_deep-backrooms-2026-32fd794a_32fd794a_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Deep Backrooms League"
-    ADD CONSTRAINT "observations_deep-backrooms-2026-32fd794a_32fd794a_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Fiesta League observations_fiesta-part-2-2026-b61617c8_b61617c8_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Fiesta League"
-    ADD CONSTRAINT "observations_fiesta-part-2-2026-b61617c8_b61617c8_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Garden League observations_garden-2026-d037caec_d037caec_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Garden League"
-    ADD CONSTRAINT "observations_garden-2026-d037caec_d037caec_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Lucky Breakout League observations_lucky-block-blitz-2026-da1a607e_da1a607e_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Lucky Breakout League"
-    ADD CONSTRAINT "observations_lucky-block-blitz-2026-da1a607e_da1a607e_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: RNG League observations_rng-2026-f39d456f_f39d456f_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."RNG League"
-    ADD CONSTRAINT "observations_rng-2026-f39d456f_f39d456f_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Soccer League observations_soccer-2026-40099d05_40099d05_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Soccer League"
-    ADD CONSTRAINT "observations_soccer-2026-40099d05_40099d05_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Tap Heroes League 2026 observations_tap-2026-73b1ab05_73b1ab05_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Tap Heroes League 2026"
-    ADD CONSTRAINT "observations_tap-2026-73b1ab05_73b1ab05_pkey" PRIMARY KEY (event_key, observation_id);
-
-
---
--- Name: Time Trials League observations_time-trials-2026-a850baae_a850baae_pkey; Type: CONSTRAINT; Schema: leagues; Owner: -
---
-
-ALTER TABLE ONLY leagues."Time Trials League"
-    ADD CONSTRAINT "observations_time-trials-2026-a850baae_a850baae_pkey" PRIMARY KEY (event_key, observation_id);
+ALTER TABLE ONLY leagues.team_results
+    ADD CONSTRAINT team_results_pkey PRIMARY KEY (event_key, team_key);
 
 
 --
@@ -3512,311 +3985,381 @@ CREATE INDEX cw_bot_user_history_idx ON imports.cw_bot USING btree (user_id, eve
 
 
 --
--- Name: league_observations_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: player_results_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX league_observations_rank_idx ON ONLY leagues.player_observations USING btree (event_key, league_name, source_rank);
+CREATE INDEX player_results_event_key_global_rank_idx ON ONLY leagues.player_results USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: Basketball Leagues_event_key_league_name_source_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Arcade League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "Basketball Leagues_event_key_league_name_source_rank_idx" ON leagues."Basketball Leagues" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "2026 Arcade League_event_key_global_rank_idx" ON leagues."2026 Arcade League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: league_observations_source_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: player_results_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX league_observations_source_idx ON ONLY leagues.player_observations USING btree (event_key, source, league_name);
+CREATE INDEX player_results_event_key_pool_rank_idx ON ONLY leagues.player_results USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: Basketball Leagues_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Arcade League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "Basketball Leagues_event_key_source_league_name_idx" ON leagues."Basketball Leagues" USING btree (event_key, source, league_name);
+CREATE INDEX "2026 Arcade League_event_key_pool_rank_idx" ON leagues."2026 Arcade League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: league_observations_source_row_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: player_results_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX league_observations_source_row_idx ON ONLY leagues.player_observations USING btree (source_record_id);
+CREATE INDEX player_results_event_key_team_key_idx ON ONLY leagues.player_results USING btree (event_key, team_key);
 
 
 --
--- Name: Basketball Leagues_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Arcade League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "Basketball Leagues_source_record_id_idx" ON leagues."Basketball Leagues" USING btree (source_record_id);
+CREATE INDEX "2026 Arcade League_event_key_team_key_idx" ON leagues."2026 Arcade League" USING btree (event_key, team_key);
 
 
 --
--- Name: league_observations_player_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: player_results_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX league_observations_player_idx ON ONLY leagues.player_observations USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX player_results_user_id_event_key_idx ON ONLY leagues.player_results USING btree (user_id, event_key);
 
 
 --
--- Name: Basketball Leagues_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Arcade League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "Basketball Leagues_user_id_event_key_fetched_at_idx" ON leagues."Basketball Leagues" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "2026 Arcade League_user_id_event_key_idx" ON leagues."2026 Arcade League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_arcade-league-2026-f4f145a8_f_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Space Mine League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_arcade-league-2026-f4f145a8_f_source_record_id_idx" ON leagues."2026 Arcade League" USING btree (source_record_id);
+CREATE INDEX "2026 Space Mine League_event_key_global_rank_idx" ON leagues."2026 Space Mine League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_arcade-league-202_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Space Mine League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_arcade-league-202_event_key_source_league_name_idx" ON leagues."2026 Arcade League" USING btree (event_key, source, league_name);
+CREATE INDEX "2026 Space Mine League_event_key_pool_rank_idx" ON leagues."2026 Space Mine League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_arcade-league-202_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Space Mine League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_arcade-league-202_user_id_event_key_fetched_at_idx" ON leagues."2026 Arcade League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "2026 Space Mine League_event_key_team_key_idx" ON leagues."2026 Space Mine League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_arcade-league-20_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: 2026 Space Mine League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_arcade-league-20_event_key_league_name_source__idx" ON leagues."2026 Arcade League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "2026 Space Mine League_user_id_event_key_idx" ON leagues."2026 Space Mine League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_deep-backrooms-2026-32fd794a__source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Basketball Leagues_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_deep-backrooms-2026-32fd794a__source_record_id_idx" ON leagues."Deep Backrooms League" USING btree (source_record_id);
+CREATE INDEX "Basketball Leagues_event_key_global_rank_idx" ON leagues."Basketball Leagues" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_deep-backrooms-20_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Basketball Leagues_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_deep-backrooms-20_event_key_source_league_name_idx" ON leagues."Deep Backrooms League" USING btree (event_key, source, league_name);
+CREATE INDEX "Basketball Leagues_event_key_pool_rank_idx" ON leagues."Basketball Leagues" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_deep-backrooms-20_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Basketball Leagues_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_deep-backrooms-20_user_id_event_key_fetched_at_idx" ON leagues."Deep Backrooms League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Basketball Leagues_event_key_team_key_idx" ON leagues."Basketball Leagues" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_deep-backrooms-2_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Basketball Leagues_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_deep-backrooms-2_event_key_league_name_source__idx" ON leagues."Deep Backrooms League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Basketball Leagues_user_id_event_key_idx" ON leagues."Basketball Leagues" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_fiesta-part-2-2026-b61617c8_b_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Blood Moon League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_fiesta-part-2-2026-b61617c8_b_source_record_id_idx" ON leagues."Fiesta League" USING btree (source_record_id);
+CREATE INDEX "Blood Moon League_event_key_global_rank_idx" ON leagues."Blood Moon League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_fiesta-part-2-202_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Blood Moon League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_fiesta-part-2-202_event_key_source_league_name_idx" ON leagues."Fiesta League" USING btree (event_key, source, league_name);
+CREATE INDEX "Blood Moon League_event_key_pool_rank_idx" ON leagues."Blood Moon League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_fiesta-part-2-202_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Blood Moon League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_fiesta-part-2-202_user_id_event_key_fetched_at_idx" ON leagues."Fiesta League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Blood Moon League_event_key_team_key_idx" ON leagues."Blood Moon League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_fiesta-part-2-20_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Blood Moon League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_fiesta-part-2-20_event_key_league_name_source__idx" ON leagues."Fiesta League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Blood Moon League_user_id_event_key_idx" ON leagues."Blood Moon League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_garden-2026-d037_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_garden-2026-d037_event_key_league_name_source__idx" ON leagues."Garden League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Deep Backrooms League_event_key_global_rank_idx" ON leagues."Deep Backrooms League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_garden-2026-d037c_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_garden-2026-d037c_event_key_source_league_name_idx" ON leagues."Garden League" USING btree (event_key, source, league_name);
+CREATE INDEX "Deep Backrooms League_event_key_pool_rank_idx" ON leagues."Deep Backrooms League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_garden-2026-d037c_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_garden-2026-d037c_user_id_event_key_fetched_at_idx" ON leagues."Garden League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Deep Backrooms League_event_key_team_key_idx" ON leagues."Deep Backrooms League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_garden-2026-d037caec_d037caec_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_garden-2026-d037caec_d037caec_source_record_id_idx" ON leagues."Garden League" USING btree (source_record_id);
+CREATE INDEX "Deep Backrooms League_user_id_event_key_idx" ON leagues."Deep Backrooms League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_lucky-block-blit_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Fiesta League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_lucky-block-blit_event_key_league_name_source__idx" ON leagues."Lucky Breakout League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Fiesta League_event_key_global_rank_idx" ON leagues."Fiesta League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_lucky-block-blitz-2026-da1a60_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Fiesta League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_lucky-block-blitz-2026-da1a60_source_record_id_idx" ON leagues."Lucky Breakout League" USING btree (source_record_id);
+CREATE INDEX "Fiesta League_event_key_pool_rank_idx" ON leagues."Fiesta League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_lucky-block-blitz_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Fiesta League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_lucky-block-blitz_event_key_source_league_name_idx" ON leagues."Lucky Breakout League" USING btree (event_key, source, league_name);
+CREATE INDEX "Fiesta League_event_key_team_key_idx" ON leagues."Fiesta League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_lucky-block-blitz_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Fiesta League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_lucky-block-blitz_user_id_event_key_fetched_at_idx" ON leagues."Lucky Breakout League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Fiesta League_user_id_event_key_idx" ON leagues."Fiesta League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_rng-2026-f39d456_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Garden League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_rng-2026-f39d456_event_key_league_name_source__idx" ON leagues."RNG League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Garden League_event_key_global_rank_idx" ON leagues."Garden League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_rng-2026-f39d456f_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Garden League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_rng-2026-f39d456f_event_key_source_league_name_idx" ON leagues."RNG League" USING btree (event_key, source, league_name);
+CREATE INDEX "Garden League_event_key_pool_rank_idx" ON leagues."Garden League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_rng-2026-f39d456f_f39d456f_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Garden League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_rng-2026-f39d456f_f39d456f_source_record_id_idx" ON leagues."RNG League" USING btree (source_record_id);
+CREATE INDEX "Garden League_event_key_team_key_idx" ON leagues."Garden League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_rng-2026-f39d456f_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Garden League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_rng-2026-f39d456f_user_id_event_key_fetched_at_idx" ON leagues."RNG League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Garden League_user_id_event_key_idx" ON leagues."Garden League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_soccer-2026-40099_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_soccer-2026-40099_event_key_source_league_name_idx" ON leagues."Soccer League" USING btree (event_key, source, league_name);
+CREATE INDEX "Lucky Breakout League_event_key_global_rank_idx" ON leagues."Lucky Breakout League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_soccer-2026-40099_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_soccer-2026-40099_user_id_event_key_fetched_at_idx" ON leagues."Soccer League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Lucky Breakout League_event_key_pool_rank_idx" ON leagues."Lucky Breakout League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_soccer-2026-40099d05_40099d05_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_soccer-2026-40099d05_40099d05_source_record_id_idx" ON leagues."Soccer League" USING btree (source_record_id);
+CREATE INDEX "Lucky Breakout League_event_key_team_key_idx" ON leagues."Lucky Breakout League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_soccer-2026-4009_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_soccer-2026-4009_event_key_league_name_source__idx" ON leagues."Soccer League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Lucky Breakout League_user_id_event_key_idx" ON leagues."Lucky Breakout League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_tap-2026-73b1ab05_73b1ab05_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: RNG League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_tap-2026-73b1ab05_73b1ab05_source_record_id_idx" ON leagues."Tap Heroes League 2026" USING btree (source_record_id);
+CREATE INDEX "RNG League_event_key_global_rank_idx" ON leagues."RNG League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_tap-2026-73b1ab05_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: RNG League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_tap-2026-73b1ab05_event_key_source_league_name_idx" ON leagues."Tap Heroes League 2026" USING btree (event_key, source, league_name);
+CREATE INDEX "RNG League_event_key_pool_rank_idx" ON leagues."RNG League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_tap-2026-73b1ab05_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: RNG League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_tap-2026-73b1ab05_user_id_event_key_fetched_at_idx" ON leagues."Tap Heroes League 2026" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "RNG League_event_key_team_key_idx" ON leagues."RNG League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_tap-2026-73b1ab0_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: RNG League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_tap-2026-73b1ab0_event_key_league_name_source__idx" ON leagues."Tap Heroes League 2026" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "RNG League_user_id_event_key_idx" ON leagues."RNG League" USING btree (user_id, event_key);
 
 
 --
--- Name: observations_time-trials-2026-_event_key_source_league_name_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Soccer League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_time-trials-2026-_event_key_source_league_name_idx" ON leagues."Time Trials League" USING btree (event_key, source, league_name);
+CREATE INDEX "Soccer League_event_key_global_rank_idx" ON leagues."Soccer League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
 
 
 --
--- Name: observations_time-trials-2026-_user_id_event_key_fetched_at_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Soccer League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_time-trials-2026-_user_id_event_key_fetched_at_idx" ON leagues."Time Trials League" USING btree (user_id, event_key, fetched_at DESC);
+CREATE INDEX "Soccer League_event_key_pool_rank_idx" ON leagues."Soccer League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
 
 
 --
--- Name: observations_time-trials-2026-a850baae_a85_source_record_id_idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Soccer League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_time-trials-2026-a850baae_a85_source_record_id_idx" ON leagues."Time Trials League" USING btree (source_record_id);
+CREATE INDEX "Soccer League_event_key_team_key_idx" ON leagues."Soccer League" USING btree (event_key, team_key);
 
 
 --
--- Name: observations_time-trials-2026_event_key_league_name_source__idx; Type: INDEX; Schema: leagues; Owner: -
+-- Name: Soccer League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
 --
 
-CREATE INDEX "observations_time-trials-2026_event_key_league_name_source__idx" ON leagues."Time Trials League" USING btree (event_key, league_name, source_rank);
+CREATE INDEX "Soccer League_user_id_event_key_idx" ON leagues."Soccer League" USING btree (user_id, event_key);
+
+
+--
+-- Name: Tap Heroes League 2026_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Tap Heroes League 2026_event_key_global_rank_idx" ON leagues."Tap Heroes League 2026" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
+
+
+--
+-- Name: Tap Heroes League 2026_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Tap Heroes League 2026_event_key_pool_rank_idx" ON leagues."Tap Heroes League 2026" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
+
+
+--
+-- Name: Tap Heroes League 2026_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Tap Heroes League 2026_event_key_team_key_idx" ON leagues."Tap Heroes League 2026" USING btree (event_key, team_key);
+
+
+--
+-- Name: Tap Heroes League 2026_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Tap Heroes League 2026_user_id_event_key_idx" ON leagues."Tap Heroes League 2026" USING btree (user_id, event_key);
+
+
+--
+-- Name: Time Trials League_event_key_global_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Time Trials League_event_key_global_rank_idx" ON leagues."Time Trials League" USING btree (event_key, global_rank) WHERE (global_rank IS NOT NULL);
+
+
+--
+-- Name: Time Trials League_event_key_pool_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Time Trials League_event_key_pool_rank_idx" ON leagues."Time Trials League" USING btree (event_key, pool_rank) WHERE (pool_rank IS NOT NULL);
+
+
+--
+-- Name: Time Trials League_event_key_team_key_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Time Trials League_event_key_team_key_idx" ON leagues."Time Trials League" USING btree (event_key, team_key);
+
+
+--
+-- Name: Time Trials League_user_id_event_key_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX "Time Trials League_user_id_event_key_idx" ON leagues."Time Trials League" USING btree (user_id, event_key);
+
+
+--
+-- Name: team_results_event_key_league_id_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE UNIQUE INDEX team_results_event_key_league_id_idx ON leagues.team_results USING btree (event_key, league_id) WHERE (league_id IS NOT NULL);
+
+
+--
+-- Name: team_results_event_key_league_rank_idx; Type: INDEX; Schema: leagues; Owner: -
+--
+
+CREATE INDEX team_results_event_key_league_rank_idx ON leagues.team_results USING btree (event_key, league_rank);
 
 
 --
@@ -4975,353 +5518,423 @@ ALTER INDEX battles.player_results_user_history_idx ATTACH PARTITION battles."pl
 
 
 --
--- Name: Basketball Leagues_event_key_league_name_source_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: 2026 Arcade League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."Basketball Leagues_event_key_league_name_source_rank_idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."2026 Arcade League_event_key_global_rank_idx";
 
 
 --
--- Name: Basketball Leagues_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: 2026 Arcade League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."Basketball Leagues_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."2026 Arcade League_event_key_pool_rank_idx";
+
+
+--
+-- Name: 2026 Arcade League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."2026 Arcade League_event_key_team_key_idx";
+
+
+--
+-- Name: 2026 Arcade League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."2026 Arcade League_pkey";
+
+
+--
+-- Name: 2026 Arcade League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."2026 Arcade League_user_id_event_key_idx";
+
+
+--
+-- Name: 2026 Space Mine League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."2026 Space Mine League_event_key_global_rank_idx";
+
+
+--
+-- Name: 2026 Space Mine League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."2026 Space Mine League_event_key_pool_rank_idx";
+
+
+--
+-- Name: 2026 Space Mine League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."2026 Space Mine League_event_key_team_key_idx";
+
+
+--
+-- Name: 2026 Space Mine League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."2026 Space Mine League_pkey";
+
+
+--
+-- Name: 2026 Space Mine League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."2026 Space Mine League_user_id_event_key_idx";
+
+
+--
+-- Name: Basketball Leagues_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Basketball Leagues_event_key_global_rank_idx";
+
+
+--
+-- Name: Basketball Leagues_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Basketball Leagues_event_key_pool_rank_idx";
+
+
+--
+-- Name: Basketball Leagues_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+--
+
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Basketball Leagues_event_key_team_key_idx";
 
 
 --
 -- Name: Basketball Leagues_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."Basketball Leagues_pkey";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Basketball Leagues_pkey";
 
 
 --
--- Name: Basketball Leagues_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Basketball Leagues_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."Basketball Leagues_source_record_id_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Basketball Leagues_user_id_event_key_idx";
 
 
 --
--- Name: Basketball Leagues_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Blood Moon League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."Basketball Leagues_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Blood Moon League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_arcade-league-2026-f4f145a8_f4f145a8_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Blood Moon League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_arcade-league-2026-f4f145a8_f4f145a8_pkey";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Blood Moon League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_arcade-league-2026-f4f145a8_f_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Blood Moon League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_arcade-league-2026-f4f145a8_f_source_record_id_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Blood Moon League_event_key_team_key_idx";
 
 
 --
--- Name: observations_arcade-league-202_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Blood Moon League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_arcade-league-202_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Blood Moon League_pkey";
 
 
 --
--- Name: observations_arcade-league-202_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Blood Moon League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_arcade-league-202_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Blood Moon League_user_id_event_key_idx";
 
 
 --
--- Name: observations_arcade-league-20_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_arcade-league-20_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Deep Backrooms League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_deep-backrooms-2026-32fd794a_32fd794a_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_deep-backrooms-2026-32fd794a_32fd794a_pkey";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Deep Backrooms League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_deep-backrooms-2026-32fd794a__source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_deep-backrooms-2026-32fd794a__source_record_id_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Deep Backrooms League_event_key_team_key_idx";
 
 
 --
--- Name: observations_deep-backrooms-20_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_deep-backrooms-20_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Deep Backrooms League_pkey";
 
 
 --
--- Name: observations_deep-backrooms-20_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Deep Backrooms League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_deep-backrooms-20_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Deep Backrooms League_user_id_event_key_idx";
 
 
 --
--- Name: observations_deep-backrooms-2_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Fiesta League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_deep-backrooms-2_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Fiesta League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_fiesta-part-2-2026-b61617c8_b61617c8_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Fiesta League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_fiesta-part-2-2026-b61617c8_b61617c8_pkey";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Fiesta League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_fiesta-part-2-2026-b61617c8_b_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Fiesta League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_fiesta-part-2-2026-b61617c8_b_source_record_id_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Fiesta League_event_key_team_key_idx";
 
 
 --
--- Name: observations_fiesta-part-2-202_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Fiesta League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_fiesta-part-2-202_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Fiesta League_pkey";
 
 
 --
--- Name: observations_fiesta-part-2-202_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Fiesta League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_fiesta-part-2-202_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Fiesta League_user_id_event_key_idx";
 
 
 --
--- Name: observations_fiesta-part-2-20_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Garden League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_fiesta-part-2-20_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Garden League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_garden-2026-d037_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Garden League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_garden-2026-d037_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Garden League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_garden-2026-d037c_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Garden League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_garden-2026-d037c_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Garden League_event_key_team_key_idx";
 
 
 --
--- Name: observations_garden-2026-d037c_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Garden League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_garden-2026-d037c_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Garden League_pkey";
 
 
 --
--- Name: observations_garden-2026-d037caec_d037caec_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Garden League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_garden-2026-d037caec_d037caec_pkey";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Garden League_user_id_event_key_idx";
 
 
 --
--- Name: observations_garden-2026-d037caec_d037caec_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_garden-2026-d037caec_d037caec_source_record_id_idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Lucky Breakout League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_lucky-block-blit_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_lucky-block-blit_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Lucky Breakout League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_lucky-block-blitz-2026-da1a607e_da1a607e_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_lucky-block-blitz-2026-da1a607e_da1a607e_pkey";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Lucky Breakout League_event_key_team_key_idx";
 
 
 --
--- Name: observations_lucky-block-blitz-2026-da1a60_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_lucky-block-blitz-2026-da1a60_source_record_id_idx";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Lucky Breakout League_pkey";
 
 
 --
--- Name: observations_lucky-block-blitz_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Lucky Breakout League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_lucky-block-blitz_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Lucky Breakout League_user_id_event_key_idx";
 
 
 --
--- Name: observations_lucky-block-blitz_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: RNG League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_lucky-block-blitz_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."RNG League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_rng-2026-f39d456_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: RNG League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_rng-2026-f39d456_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."RNG League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_rng-2026-f39d456f_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: RNG League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_rng-2026-f39d456f_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."RNG League_event_key_team_key_idx";
 
 
 --
--- Name: observations_rng-2026-f39d456f_f39d456f_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: RNG League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_rng-2026-f39d456f_f39d456f_pkey";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."RNG League_pkey";
 
 
 --
--- Name: observations_rng-2026-f39d456f_f39d456f_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: RNG League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_rng-2026-f39d456f_f39d456f_source_record_id_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."RNG League_user_id_event_key_idx";
 
 
 --
--- Name: observations_rng-2026-f39d456f_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Soccer League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_rng-2026-f39d456f_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Soccer League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_soccer-2026-40099_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Soccer League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_soccer-2026-40099_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Soccer League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_soccer-2026-40099_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Soccer League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_soccer-2026-40099_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Soccer League_event_key_team_key_idx";
 
 
 --
--- Name: observations_soccer-2026-40099d05_40099d05_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Soccer League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_soccer-2026-40099d05_40099d05_pkey";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Soccer League_pkey";
 
 
 --
--- Name: observations_soccer-2026-40099d05_40099d05_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Soccer League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_soccer-2026-40099d05_40099d05_source_record_id_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Soccer League_user_id_event_key_idx";
 
 
 --
--- Name: observations_soccer-2026-4009_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Tap Heroes League 2026_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_soccer-2026-4009_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Tap Heroes League 2026_event_key_global_rank_idx";
 
 
 --
--- Name: observations_tap-2026-73b1ab05_73b1ab05_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Tap Heroes League 2026_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_tap-2026-73b1ab05_73b1ab05_pkey";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Tap Heroes League 2026_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_tap-2026-73b1ab05_73b1ab05_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Tap Heroes League 2026_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_tap-2026-73b1ab05_73b1ab05_source_record_id_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Tap Heroes League 2026_event_key_team_key_idx";
 
 
 --
--- Name: observations_tap-2026-73b1ab05_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Tap Heroes League 2026_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_tap-2026-73b1ab05_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Tap Heroes League 2026_pkey";
 
 
 --
--- Name: observations_tap-2026-73b1ab05_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Tap Heroes League 2026_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_tap-2026-73b1ab05_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Tap Heroes League 2026_user_id_event_key_idx";
 
 
 --
--- Name: observations_tap-2026-73b1ab0_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Time Trials League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_tap-2026-73b1ab0_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_event_key_global_rank_idx ATTACH PARTITION leagues."Time Trials League_event_key_global_rank_idx";
 
 
 --
--- Name: observations_time-trials-2026-_event_key_source_league_name_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Time Trials League_event_key_pool_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_idx ATTACH PARTITION leagues."observations_time-trials-2026-_event_key_source_league_name_idx";
+ALTER INDEX leagues.player_results_event_key_pool_rank_idx ATTACH PARTITION leagues."Time Trials League_event_key_pool_rank_idx";
 
 
 --
--- Name: observations_time-trials-2026-_user_id_event_key_fetched_at_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Time Trials League_event_key_team_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_player_idx ATTACH PARTITION leagues."observations_time-trials-2026-_user_id_event_key_fetched_at_idx";
+ALTER INDEX leagues.player_results_event_key_team_key_idx ATTACH PARTITION leagues."Time Trials League_event_key_team_key_idx";
 
 
 --
--- Name: observations_time-trials-2026-a850baae_a850baae_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Time Trials League_pkey; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.player_observations_pkey ATTACH PARTITION leagues."observations_time-trials-2026-a850baae_a850baae_pkey";
+ALTER INDEX leagues.player_results_pkey ATTACH PARTITION leagues."Time Trials League_pkey";
 
 
 --
--- Name: observations_time-trials-2026-a850baae_a85_source_record_id_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
+-- Name: Time Trials League_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
-ALTER INDEX leagues.league_observations_source_row_idx ATTACH PARTITION leagues."observations_time-trials-2026-a850baae_a85_source_record_id_idx";
-
-
---
--- Name: observations_time-trials-2026_event_key_league_name_source__idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
---
-
-ALTER INDEX leagues.league_observations_rank_idx ATTACH PARTITION leagues."observations_time-trials-2026_event_key_league_name_source__idx";
+ALTER INDEX leagues.player_results_user_id_event_key_idx ATTACH PARTITION leagues."Time Trials League_user_id_event_key_idx";
 
 
 --
@@ -5381,16 +5994,32 @@ ALTER TABLE ONLY leagues.coverage
 
 
 --
--- Name: player_observations player_observations_event_key_fkey; Type: FK CONSTRAINT; Schema: leagues; Owner: -
+-- Name: player_results league_player_team_fk; Type: FK CONSTRAINT; Schema: leagues; Owner: -
 --
 
-ALTER TABLE leagues.player_observations
-    ADD CONSTRAINT player_observations_event_key_fkey FOREIGN KEY (event_key) REFERENCES leagues.events(event_key);
+ALTER TABLE leagues.player_results
+    ADD CONSTRAINT league_player_team_fk FOREIGN KEY (event_key, team_key) REFERENCES leagues.team_results(event_key, team_key);
+
+
+--
+-- Name: player_results player_results_event_key_fkey; Type: FK CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE leagues.player_results
+    ADD CONSTRAINT player_results_event_key_fkey FOREIGN KEY (event_key) REFERENCES leagues.events(event_key);
+
+
+--
+-- Name: team_results team_results_event_key_fkey; Type: FK CONSTRAINT; Schema: leagues; Owner: -
+--
+
+ALTER TABLE ONLY leagues.team_results
+    ADD CONSTRAINT team_results_event_key_fkey FOREIGN KEY (event_key) REFERENCES leagues.events(event_key);
 
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 7nFYsAtkHzaXYbE97za66zQwVxRok6wZTVFMNLDSbJMCIuHOD8vs43g5qBX8dl7
+\unrestrict KROuFdS9SjsRNZfqlZa80psva8fnI28kQ3UNqcqZg5GN2sMJa77UgtfRbMNpgJ8
 
