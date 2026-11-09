@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict FCasUo1te2VTp2mJuv9NKreafozfDXqneHuLPSZttBKspKiWS4TpXpE72FglpZe
+\restrict 70cJqEZdcRcxXY9yRdvudqv6ephAqf5kzuVf8qzGNnzgL6CZMg4cNiAkh7AbvLT
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -72,7 +72,7 @@ CREATE SCHEMA leaderboards;
 -- Name: SCHEMA leaderboards; Type: COMMENT; Schema: -; Owner: -
 --
 
-COMMENT ON SCHEMA leaderboards IS 'Reserved for future public gameplay leaderboard results.';
+COMMENT ON SCHEMA leaderboards IS 'Official standalone gameplay leaderboards, separate from clan battles and leagues. Player results contain complete official final standings only.';
 
 
 --
@@ -1416,28 +1416,509 @@ ALTER TABLE imports.cw_bot ALTER COLUMN record_id ADD GENERATED ALWAYS AS IDENTI
 --
 
 CREATE TABLE leaderboards.results (
-    leaderboard_key text NOT NULL,
-    entity_id text NOT NULL,
-    name text,
-    rank bigint,
-    value numeric,
-    observed_at timestamp with time zone,
-    CONSTRAINT results_rank_check CHECK ((rank > 0))
-);
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+)
+PARTITION BY LIST (event_key);
 
 
 --
 -- Name: TABLE results; Type: COMMENT; Schema: leaderboards; Owner: -
 --
 
-COMMENT ON TABLE leaderboards.results IS 'Empty placeholder for the future Leaderboards feature. No collection is enabled; the feature contract will define leaderboard keys and entity identities before rows are stored.';
+COMMENT ON TABLE leaderboards.results IS 'Complete official final standings only. The recorded placement is the standalone leaderboard position; no clan/global rank is calculated or substituted.';
 
 
 --
--- Name: COLUMN results.entity_id; Type: COMMENT; Schema: leaderboards; Owner: -
+-- Name: COLUMN results.user_id; Type: COMMENT; Schema: leaderboards; Owner: -
 --
 
-COMMENT ON COLUMN leaderboards.results.entity_id IS 'Recorded entity identity within one leaderboard; separate leaderboard keys must be used for different entity kinds.';
+COMMENT ON COLUMN leaderboards.results.user_id IS 'Roblox user ID where supplied/resolved by the official capture. NULL preserves an unknown identity at its original placement; it is never replaced with a fabricated ID.';
+
+
+--
+-- Name: COLUMN results.value; Type: COMMENT; Schema: leaderboards; Owner: -
+--
+
+COMMENT ON COLUMN leaderboards.results.value IS 'Exact numeric leaderboard value as supplied by BIG Games, without floating-point conversion or shortening.';
+
+
+--
+-- Name: COLUMN results.reward_tier; Type: COMMENT; Schema: leaderboards; Owner: -
+--
+
+COMMENT ON COLUMN leaderboards.results.reward_tier IS 'Original official final RewardTier, when supplied. NULL means unknown or absent.';
+
+
+--
+-- Name: COLUMN results.source_run_id; Type: COMMENT; Schema: leaderboards; Owner: -
+--
+
+COMMENT ON COLUMN leaderboards.results.source_run_id IS 'Identifier of the complete official-final capture retained by Luna; operational lease owners and credentials are excluded.';
+
+
+--
+-- Name: Arcade Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Arcade Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Blood Moon Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Blood Moon Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Boss Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Boss Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Breakout Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Breakout Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Fiesta Forever!; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Fiesta Forever!" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Fiesta Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Fiesta Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Halloween Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Halloween Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Hatch Battle Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Hatch Battle Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Kick Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Kick Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: PSX Classic Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."PSX Classic Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Piñata Maze!; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Piñata Maze!" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Space Forge!; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Space Forge!" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Speedrun Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Speedrun Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Tap Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Tap Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Time Trial Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Time Trial Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Top Hatches; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Top Hatches" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Transcends Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Transcends Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: Yeti Leaderboard; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards."Yeti Leaderboard" (
+    event_key text NOT NULL,
+    placement bigint NOT NULL,
+    user_id bigint,
+    username text,
+    display_name text,
+    value numeric NOT NULL,
+    reward_tier integer,
+    source_run_id uuid NOT NULL,
+    source_updated_at timestamp with time zone NOT NULL,
+    captured_at timestamp with time zone NOT NULL,
+    result_status text NOT NULL,
+    CONSTRAINT results_placement_check CHECK ((placement > 0)),
+    CONSTRAINT results_result_status_check CHECK ((result_status = 'official_final'::text)),
+    CONSTRAINT results_user_id_check CHECK ((user_id > 0)),
+    CONSTRAINT results_value_check CHECK ((value >= (0)::numeric))
+);
+
+
+--
+-- Name: events; Type: TABLE; Schema: leaderboards; Owner: -
+--
+
+CREATE TABLE leaderboards.events (
+    event_key text NOT NULL,
+    board_id text NOT NULL,
+    title text NOT NULL,
+    scoring_ends_at timestamp with time zone,
+    state text NOT NULL,
+    list_size integer,
+    codec text,
+    source_url text NOT NULL,
+    result_table text NOT NULL,
+    source_run_id uuid,
+    source_updated_at timestamp with time zone,
+    captured_at timestamp with time zone,
+    final_row_count integer,
+    result_status text NOT NULL,
+    metadata jsonb DEFAULT '{}'::jsonb NOT NULL,
+    CONSTRAINT events_check CHECK (((result_status = 'complete_official_final'::text) = (source_run_id IS NOT NULL))),
+    CONSTRAINT events_check1 CHECK (((result_status <> 'complete_official_final'::text) OR ((source_updated_at IS NOT NULL) AND (captured_at IS NOT NULL) AND (final_row_count IS NOT NULL)))),
+    CONSTRAINT events_final_row_count_check CHECK ((final_row_count >= 0)),
+    CONSTRAINT events_list_size_check CHECK ((list_size > 0)),
+    CONSTRAINT events_metadata_check CHECK ((jsonb_typeof(metadata) = 'object'::text)),
+    CONSTRAINT events_result_status_check CHECK ((result_status = ANY (ARRAY['awaiting_official_final'::text, 'awaiting_final_capture'::text, 'complete_official_final'::text]))),
+    CONSTRAINT events_state_check CHECK ((state = ANY (ARRAY['live'::text, 'ended'::text, 'final'::text, 'inactive'::text])))
+);
+
+
+--
+-- Name: TABLE events; Type: COMMENT; Schema: leaderboards; Owner: -
+--
+
+COMMENT ON TABLE leaderboards.events IS 'One identity per official board and contest boundary. Live or not-yet-complete events are cataloged with an empty results partition. Multiple contests may share one official-title partition without merging event identities.';
 
 
 --
@@ -2431,6 +2912,132 @@ ALTER TABLE ONLY battles.player_results ATTACH PARTITION battles."Trick or Treat
 
 
 --
+-- Name: Arcade Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Arcade Leaderboard" FOR VALUES IN ('CoinArcadeHatchPoints:1789142400', 'CoinArcadeHatchPoints2:1789747200');
+
+
+--
+-- Name: Blood Moon Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Blood Moon Leaderboard" FOR VALUES IN ('HatchWarBloodMoon:1792166400');
+
+
+--
+-- Name: Boss Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Boss Leaderboard" FOR VALUES IN ('GardenBossKills2026:1785513600', 'GardenPoints2026:1786118400');
+
+
+--
+-- Name: Breakout Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Breakout Leaderboard" FOR VALUES IN ('LuckyBreakoutLevels:1788019200');
+
+
+--
+-- Name: Fiesta Forever!; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Fiesta Forever!" FOR VALUES IN ('FiestaMazeDiff2:1787407200', 'FiestaMazeRace2:1787407200');
+
+
+--
+-- Name: Fiesta Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Fiesta Leaderboard" FOR VALUES IN ('EternalMazeDepth:1787407200', 'FiestaMazeMaxDifficulty:1786806000');
+
+
+--
+-- Name: Halloween Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Halloween Leaderboard" FOR VALUES IN ('HalloweenGamesTreatsWon:1793984400');
+
+
+--
+-- Name: Hatch Battle Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Hatch Battle Leaderboard" FOR VALUES IN ('HatchWarBossWins:1791561600');
+
+
+--
+-- Name: Kick Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Kick Leaderboard" FOR VALUES IN ('SoccerFurthestKick:1783180800', 'SoccerFurthestKick2:1783785600');
+
+
+--
+-- Name: PSX Classic Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."PSX Classic Leaderboard" FOR VALUES IN ('PSXRebornEggs:1793376000');
+
+
+--
+-- Name: Piñata Maze!; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Piñata Maze!" FOR VALUES IN ('FiestaMazeRace:1786806000');
+
+
+--
+-- Name: Space Forge!; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Space Forge!" FOR VALUES IN ('SpaceMineLBPart2:1790956800');
+
+
+--
+-- Name: Speedrun Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Speedrun Leaderboard" FOR VALUES IN ('PSXRebornSpeedrun:1793376000');
+
+
+--
+-- Name: Tap Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Tap Leaderboard" FOR VALUES IN ('TapHeroesLevels2026:1784390400');
+
+
+--
+-- Name: Time Trial Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Time Trial Leaderboard" FOR VALUES IN ('LuckyBreakoutTrial:1788537600');
+
+
+--
+-- Name: Top Hatches; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Top Hatches" FOR VALUES IN ('DeepBackroom2026:1782572400');
+
+
+--
+-- Name: Transcends Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Transcends Leaderboard" FOR VALUES IN ('TapHeroesTranscends2026:1784908800');
+
+
+--
+-- Name: Yeti Leaderboard; Type: TABLE ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results ATTACH PARTITION leaderboards."Yeti Leaderboard" FOR VALUES IN ('DiamondMountainYetiPoints:1792771200');
+
+
+--
 -- Name: 2026 Arcade League; Type: TABLE ATTACH; Schema: leagues; Owner: -
 --
 
@@ -2843,11 +3450,315 @@ ALTER TABLE ONLY imports.cw_bot
 
 
 --
+-- Name: results results_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.results
+    ADD CONSTRAINT results_event_key_user_id_key UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Arcade Leaderboard Arcade Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Arcade Leaderboard"
+    ADD CONSTRAINT "Arcade Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
 -- Name: results results_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
 --
 
 ALTER TABLE ONLY leaderboards.results
-    ADD CONSTRAINT results_pkey PRIMARY KEY (leaderboard_key, entity_id);
+    ADD CONSTRAINT results_pkey PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Arcade Leaderboard Arcade Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Arcade Leaderboard"
+    ADD CONSTRAINT "Arcade Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Blood Moon Leaderboard Blood Moon Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Blood Moon Leaderboard"
+    ADD CONSTRAINT "Blood Moon Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Blood Moon Leaderboard Blood Moon Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Blood Moon Leaderboard"
+    ADD CONSTRAINT "Blood Moon Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Boss Leaderboard Boss Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Boss Leaderboard"
+    ADD CONSTRAINT "Boss Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Boss Leaderboard Boss Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Boss Leaderboard"
+    ADD CONSTRAINT "Boss Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Breakout Leaderboard Breakout Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Breakout Leaderboard"
+    ADD CONSTRAINT "Breakout Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Breakout Leaderboard Breakout Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Breakout Leaderboard"
+    ADD CONSTRAINT "Breakout Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Fiesta Forever! Fiesta Forever!_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Fiesta Forever!"
+    ADD CONSTRAINT "Fiesta Forever!_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Fiesta Forever! Fiesta Forever!_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Fiesta Forever!"
+    ADD CONSTRAINT "Fiesta Forever!_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Fiesta Leaderboard Fiesta Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Fiesta Leaderboard"
+    ADD CONSTRAINT "Fiesta Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Fiesta Leaderboard Fiesta Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Fiesta Leaderboard"
+    ADD CONSTRAINT "Fiesta Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Halloween Leaderboard Halloween Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Halloween Leaderboard"
+    ADD CONSTRAINT "Halloween Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Halloween Leaderboard Halloween Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Halloween Leaderboard"
+    ADD CONSTRAINT "Halloween Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Hatch Battle Leaderboard Hatch Battle Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Hatch Battle Leaderboard"
+    ADD CONSTRAINT "Hatch Battle Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Hatch Battle Leaderboard Hatch Battle Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Hatch Battle Leaderboard"
+    ADD CONSTRAINT "Hatch Battle Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Kick Leaderboard Kick Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Kick Leaderboard"
+    ADD CONSTRAINT "Kick Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Kick Leaderboard Kick Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Kick Leaderboard"
+    ADD CONSTRAINT "Kick Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: PSX Classic Leaderboard PSX Classic Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."PSX Classic Leaderboard"
+    ADD CONSTRAINT "PSX Classic Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: PSX Classic Leaderboard PSX Classic Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."PSX Classic Leaderboard"
+    ADD CONSTRAINT "PSX Classic Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Piñata Maze! Piñata Maze!_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Piñata Maze!"
+    ADD CONSTRAINT "Piñata Maze!_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Piñata Maze! Piñata Maze!_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Piñata Maze!"
+    ADD CONSTRAINT "Piñata Maze!_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Space Forge! Space Forge!_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Space Forge!"
+    ADD CONSTRAINT "Space Forge!_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Space Forge! Space Forge!_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Space Forge!"
+    ADD CONSTRAINT "Space Forge!_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Speedrun Leaderboard Speedrun Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Speedrun Leaderboard"
+    ADD CONSTRAINT "Speedrun Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Speedrun Leaderboard Speedrun Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Speedrun Leaderboard"
+    ADD CONSTRAINT "Speedrun Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Tap Leaderboard Tap Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Tap Leaderboard"
+    ADD CONSTRAINT "Tap Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Tap Leaderboard Tap Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Tap Leaderboard"
+    ADD CONSTRAINT "Tap Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Time Trial Leaderboard Time Trial Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Time Trial Leaderboard"
+    ADD CONSTRAINT "Time Trial Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Time Trial Leaderboard Time Trial Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Time Trial Leaderboard"
+    ADD CONSTRAINT "Time Trial Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Top Hatches Top Hatches_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Top Hatches"
+    ADD CONSTRAINT "Top Hatches_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Top Hatches Top Hatches_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Top Hatches"
+    ADD CONSTRAINT "Top Hatches_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Transcends Leaderboard Transcends Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Transcends Leaderboard"
+    ADD CONSTRAINT "Transcends Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Transcends Leaderboard Transcends Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Transcends Leaderboard"
+    ADD CONSTRAINT "Transcends Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: Yeti Leaderboard Yeti Leaderboard_event_key_user_id_key; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Yeti Leaderboard"
+    ADD CONSTRAINT "Yeti Leaderboard_event_key_user_id_key" UNIQUE (event_key, user_id);
+
+
+--
+-- Name: Yeti Leaderboard Yeti Leaderboard_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards."Yeti Leaderboard"
+    ADD CONSTRAINT "Yeti Leaderboard_pkey" PRIMARY KEY (event_key, placement);
+
+
+--
+-- Name: events events_pkey; Type: CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE ONLY leaderboards.events
+    ADD CONSTRAINT events_pkey PRIMARY KEY (event_key);
 
 
 --
@@ -4033,6 +4944,139 @@ CREATE INDEX cw_bot_source_record_idx ON imports.cw_bot USING btree (source_reco
 --
 
 CREATE INDEX cw_bot_user_history_idx ON imports.cw_bot USING btree (user_id, event_key);
+
+
+--
+-- Name: leaderboard_results_user_history_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX leaderboard_results_user_history_idx ON ONLY leaderboards.results USING btree (user_id, event_key);
+
+
+--
+-- Name: Arcade Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Arcade Leaderboard_user_id_event_key_idx" ON leaderboards."Arcade Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Blood Moon Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Blood Moon Leaderboard_user_id_event_key_idx" ON leaderboards."Blood Moon Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Boss Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Boss Leaderboard_user_id_event_key_idx" ON leaderboards."Boss Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Breakout Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Breakout Leaderboard_user_id_event_key_idx" ON leaderboards."Breakout Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Fiesta Forever!_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Fiesta Forever!_user_id_event_key_idx" ON leaderboards."Fiesta Forever!" USING btree (user_id, event_key);
+
+
+--
+-- Name: Fiesta Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Fiesta Leaderboard_user_id_event_key_idx" ON leaderboards."Fiesta Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Halloween Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Halloween Leaderboard_user_id_event_key_idx" ON leaderboards."Halloween Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Hatch Battle Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Hatch Battle Leaderboard_user_id_event_key_idx" ON leaderboards."Hatch Battle Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Kick Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Kick Leaderboard_user_id_event_key_idx" ON leaderboards."Kick Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: PSX Classic Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "PSX Classic Leaderboard_user_id_event_key_idx" ON leaderboards."PSX Classic Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Piñata Maze!_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Piñata Maze!_user_id_event_key_idx" ON leaderboards."Piñata Maze!" USING btree (user_id, event_key);
+
+
+--
+-- Name: Space Forge!_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Space Forge!_user_id_event_key_idx" ON leaderboards."Space Forge!" USING btree (user_id, event_key);
+
+
+--
+-- Name: Speedrun Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Speedrun Leaderboard_user_id_event_key_idx" ON leaderboards."Speedrun Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Tap Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Tap Leaderboard_user_id_event_key_idx" ON leaderboards."Tap Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Time Trial Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Time Trial Leaderboard_user_id_event_key_idx" ON leaderboards."Time Trial Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Top Hatches_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Top Hatches_user_id_event_key_idx" ON leaderboards."Top Hatches" USING btree (user_id, event_key);
+
+
+--
+-- Name: Transcends Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Transcends Leaderboard_user_id_event_key_idx" ON leaderboards."Transcends Leaderboard" USING btree (user_id, event_key);
+
+
+--
+-- Name: Yeti Leaderboard_user_id_event_key_idx; Type: INDEX; Schema: leaderboards; Owner: -
+--
+
+CREATE INDEX "Yeti Leaderboard_user_id_event_key_idx" ON leaderboards."Yeti Leaderboard" USING btree (user_id, event_key);
 
 
 --
@@ -5569,6 +6613,384 @@ ALTER INDEX battles.player_results_user_history_idx ATTACH PARTITION battles."pl
 
 
 --
+-- Name: Arcade Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Arcade Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Arcade Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Arcade Leaderboard_pkey";
+
+
+--
+-- Name: Arcade Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Arcade Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Blood Moon Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Blood Moon Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Blood Moon Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Blood Moon Leaderboard_pkey";
+
+
+--
+-- Name: Blood Moon Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Blood Moon Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Boss Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Boss Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Boss Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Boss Leaderboard_pkey";
+
+
+--
+-- Name: Boss Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Boss Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Breakout Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Breakout Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Breakout Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Breakout Leaderboard_pkey";
+
+
+--
+-- Name: Breakout Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Breakout Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Fiesta Forever!_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Fiesta Forever!_event_key_user_id_key";
+
+
+--
+-- Name: Fiesta Forever!_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Fiesta Forever!_pkey";
+
+
+--
+-- Name: Fiesta Forever!_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Fiesta Forever!_user_id_event_key_idx";
+
+
+--
+-- Name: Fiesta Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Fiesta Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Fiesta Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Fiesta Leaderboard_pkey";
+
+
+--
+-- Name: Fiesta Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Fiesta Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Halloween Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Halloween Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Halloween Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Halloween Leaderboard_pkey";
+
+
+--
+-- Name: Halloween Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Halloween Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Hatch Battle Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Hatch Battle Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Hatch Battle Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Hatch Battle Leaderboard_pkey";
+
+
+--
+-- Name: Hatch Battle Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Hatch Battle Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Kick Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Kick Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Kick Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Kick Leaderboard_pkey";
+
+
+--
+-- Name: Kick Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Kick Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: PSX Classic Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."PSX Classic Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: PSX Classic Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."PSX Classic Leaderboard_pkey";
+
+
+--
+-- Name: PSX Classic Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."PSX Classic Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Piñata Maze!_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Piñata Maze!_event_key_user_id_key";
+
+
+--
+-- Name: Piñata Maze!_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Piñata Maze!_pkey";
+
+
+--
+-- Name: Piñata Maze!_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Piñata Maze!_user_id_event_key_idx";
+
+
+--
+-- Name: Space Forge!_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Space Forge!_event_key_user_id_key";
+
+
+--
+-- Name: Space Forge!_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Space Forge!_pkey";
+
+
+--
+-- Name: Space Forge!_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Space Forge!_user_id_event_key_idx";
+
+
+--
+-- Name: Speedrun Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Speedrun Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Speedrun Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Speedrun Leaderboard_pkey";
+
+
+--
+-- Name: Speedrun Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Speedrun Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Tap Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Tap Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Tap Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Tap Leaderboard_pkey";
+
+
+--
+-- Name: Tap Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Tap Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Time Trial Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Time Trial Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Time Trial Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Time Trial Leaderboard_pkey";
+
+
+--
+-- Name: Time Trial Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Time Trial Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Top Hatches_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Top Hatches_event_key_user_id_key";
+
+
+--
+-- Name: Top Hatches_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Top Hatches_pkey";
+
+
+--
+-- Name: Top Hatches_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Top Hatches_user_id_event_key_idx";
+
+
+--
+-- Name: Transcends Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Transcends Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Transcends Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Transcends Leaderboard_pkey";
+
+
+--
+-- Name: Transcends Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Transcends Leaderboard_user_id_event_key_idx";
+
+
+--
+-- Name: Yeti Leaderboard_event_key_user_id_key; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_event_key_user_id_key ATTACH PARTITION leaderboards."Yeti Leaderboard_event_key_user_id_key";
+
+
+--
+-- Name: Yeti Leaderboard_pkey; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.results_pkey ATTACH PARTITION leaderboards."Yeti Leaderboard_pkey";
+
+
+--
+-- Name: Yeti Leaderboard_user_id_event_key_idx; Type: INDEX ATTACH; Schema: leaderboards; Owner: -
+--
+
+ALTER INDEX leaderboards.leaderboard_results_user_history_idx ATTACH PARTITION leaderboards."Yeti Leaderboard_user_id_event_key_idx";
+
+
+--
 -- Name: 2026 Arcade League_event_key_global_rank_idx; Type: INDEX ATTACH; Schema: leagues; Owner: -
 --
 
@@ -6037,6 +7459,14 @@ ALTER TABLE ONLY imports.cw_bot
 
 
 --
+-- Name: results results_event_key_fkey; Type: FK CONSTRAINT; Schema: leaderboards; Owner: -
+--
+
+ALTER TABLE leaderboards.results
+    ADD CONSTRAINT results_event_key_fkey FOREIGN KEY (event_key) REFERENCES leaderboards.events(event_key);
+
+
+--
 -- Name: coverage coverage_event_key_fkey; Type: FK CONSTRAINT; Schema: leagues; Owner: -
 --
 
@@ -6069,8 +7499,10 @@ ALTER TABLE ONLY leagues.team_results
 
 
 --
+CREATE TABLE battles."Halloween Games 2026" PARTITION OF battles.player_results FOR VALUES IN ('HalloweenGamesBattle2026');
+
 -- PostgreSQL database dump complete
 --
 
-\unrestrict FCasUo1te2VTp2mJuv9NKreafozfDXqneHuLPSZttBKspKiWS4TpXpE72FglpZe
+\unrestrict 70cJqEZdcRcxXY9yRdvudqv6ephAqf5kzuVf8qzGNnzgL6CZMg4cNiAkh7AbvLT
 

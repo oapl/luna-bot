@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict zHFqk6bP4CUcrFWvYzBGVW745mucxiySM7rOWZoU4duypZdUhPC7wrFtv4fTEfl
+\restrict Xk8kBWJEFKxEaQfxeE4k7IP4rIy6d9iMlgzd1HFVd5oIDLVRUeQxReif3zRPmgA
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -414,7 +414,6 @@ PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5128164487	drako83cz	HROT	\
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5128774229	livelasso	2WEI	\N	348250	4988	32209	cw_bot	history-import:cw_bot:9002	2026-07-19 09:14:05.882+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5138542110	greatfullyyy	1FCL	\N	183020	10125	32209	cw_bot	history-import:cw_bot:2907	2026-07-31 06:42:06.061+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5143387515	babykweeef	BOSS	\N	1060000	90	32207	cw_bot	history-import:cw_bot:2107	2026-08-14 22:59:19.851+00	imported_history	\N
-PixelChickBattle	Pixel Chick Battle	pixelchickbattle	109818	Cinnamowopal	NONG	\N	833320	496	32210	cw_bot	history-import:cw_bot:160	2026-04-27 00:46:27.41+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	14538110	joeycb	NONG	\N	991300	173	32210	cw_bot	history-import:cw_bot:1691	2026-05-23 12:54:45.542+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	25894803	Malmortius	N6NG	\N	163220	10913	32210	cw_bot	history-import:cw_bot:2059	2026-06-30 14:47:28.663+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	31989428	zoggi10	Goop	\N	589920	1667	32209	cw_bot	history-import:cw_bot:4613	2026-08-04 07:49:22.305+00	imported_history	\N
@@ -428,6 +427,7 @@ PixelChickBattle	Pixel Chick Battle	pixelchickbattle	67319189	iduzel	NONG	\N	109
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	90767636	bobdog751	V1LN	\N	758590	706	32210	cw_bot	history-import:cw_bot:8136	2026-04-27 21:06:33.398+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	125272790	ur_salty091	XBOX	\N	556230	1993	32210	cw_bot	history-import:cw_bot:1924	2026-06-21 04:13:46.321+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	125848672	montrealpuppy	PDYL	\N	244	28764	32209	cw_bot	history-import:cw_bot:5	2026-07-17 18:30:59.447+00	imported_history	\N
+PixelChickBattle	Pixel Chick Battle	pixelchickbattle	109818	Kerplopal	NONG	\N	833320	496	32210	cw_bot	history-import:cw_bot:160	2026-04-27 00:46:27.41+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5170991645	galvoir2712	L1ES	\N	126250	12569	32209	cw_bot	history-import:cw_bot:4422	2026-08-07 08:30:13.219+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5189669801	johqnel	Sro	\N	8240	23497	32207	cw_bot	history-import:cw_bot:5573	2026-08-17 00:52:03.053+00	imported_history	\N
 PixelChickBattle	Pixel Chick Battle	pixelchickbattle	5197468736	ttkcash1	🏰 Clan: **Goop**	\N	681670	1036	32210	cw_bot	history-import:cw_bot:1397	2026-04-21 00:27:07.401+00	imported_history	\N
@@ -541,7 +541,7 @@ PixelChickBattle	Pixel Chick Battle	pixelchickbattle	7242780756	unoyea5	TRE5	\N	
 -- PostgreSQL database dump complete
 --
 
-\unrestrict zHFqk6bP4CUcrFWvYzBGVW745mucxiySM7rOWZoU4duypZdUhPC7wrFtv4fTEfl
+\unrestrict Xk8kBWJEFKxEaQfxeE4k7IP4rIy6d9iMlgzd1HFVd5oIDLVRUeQxReif3zRPmgA
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

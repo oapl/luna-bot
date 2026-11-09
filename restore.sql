@@ -16,6 +16,7 @@ BEGIN;
 \ir 'Battles/Gingerbread Battle/data.sql'
 \ir 'Battles/Gingerbread Battle 2025/data.sql'
 \ir 'Battles/Gummy 2026/data.sql'
+\ir 'Battles/Halloween Games 2026/data.sql'
 \ir 'Battles/Hatch War 2026/data.sql'
 \ir 'Battles/Lucky Battle/data.sql'
 \ir 'Battles/Lucky Chest Battle/data.sql'
@@ -47,6 +48,24 @@ BEGIN;
 \ir 'Leagues/Soccer League/data.sql'
 \ir 'Leagues/Tap Heroes League 2026/data.sql'
 \ir 'Leagues/Time Trials League/data.sql'
+\ir 'Leaderboards/Arcade Leaderboard/data.sql'
+\ir 'Leaderboards/Blood Moon Leaderboard/data.sql'
+\ir 'Leaderboards/Boss Leaderboard/data.sql'
+\ir 'Leaderboards/Breakout Leaderboard/data.sql'
+\ir 'Leaderboards/Fiesta Forever!/data.sql'
+\ir 'Leaderboards/Fiesta Leaderboard/data.sql'
+\ir 'Leaderboards/Halloween Leaderboard/data.sql'
+\ir 'Leaderboards/Hatch Battle Leaderboard/data.sql'
+\ir 'Leaderboards/Kick Leaderboard/data.sql'
+\ir 'Leaderboards/Piñata Maze!/data.sql'
+\ir 'Leaderboards/PSX Classic Leaderboard/data.sql'
+\ir 'Leaderboards/Space Forge!/data.sql'
+\ir 'Leaderboards/Speedrun Leaderboard/data.sql'
+\ir 'Leaderboards/Tap Leaderboard/data.sql'
+\ir 'Leaderboards/Time Trial Leaderboard/data.sql'
+\ir 'Leaderboards/Top Hatches/data.sql'
+\ir 'Leaderboards/Transcends Leaderboard/data.sql'
+\ir 'Leaderboards/Yeti Leaderboard/data.sql'
 \ir 'Imports/CW-Bot.sql'
 \ir 'Imports/Big Bot.sql'
 \ir 'Imports/Battle Bot.sql'
@@ -60,6 +79,7 @@ ANALYZE battles.player_results;
 ANALYZE battles.clan_results;
 ANALYZE leagues.player_results;
 ANALYZE leagues.team_results;
+ANALYZE leaderboards.results;
 ANALYZE imports.cw_bot;
 ANALYZE imports.big_bot;
 ANALYZE imports.battle_bot;

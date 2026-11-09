@@ -1,6 +1,6 @@
 # luna-bot
 
-This database is for any current or future PS99 bot developers. Also because fuck CW-Bot and their team that are passive-aggressive assholes who treat this like it's more serious than any political topic I've ever engaged my worst enemy on? Updates will occur after each Clan Battle and League. Not yet established, but preparing to store Leaderboard data as well.
+This database is for any current or future PS99 bot developers. Also because fuck CW-Bot and their team that are passive-aggressive assholes who treat this like it's more serious than any political topic I've ever engaged my worst enemy on? Updates will occur after each Clan Battle and League. Final leaderboard data is stored as well.
 
 ## Files
 
@@ -8,9 +8,10 @@ This database is for any current or future PS99 bot developers. Also because fuc
 - `restore.sql` restores the same dataset from the readable SQL files.
 - `schema.sql` defines the database structure; `catalog.sql` supplies event names, dates, aliases and coverage.
 - `Battles/` and `Leagues/` contain one folder per canonical event.
+- `Leaderboards/` contains official leaderboard event tables and complete final placements.
 - `Imports/` contains one SQL file per source bot.
 
-Luna's DB has 33 recorded clan battles, 10 leagues, 301,201 clan battle player performances and 94,088 league player performances.
+Luna's DB has 34 recorded clan battles, 10 leagues, 342,110 clan battle player performances and 94,088 league player performances.
 
 ## Database layout
 
@@ -20,6 +21,7 @@ Luna's DB has 33 recorded clan battles, 10 leagues, 301,201 clan battle player p
 | `battles` | `player_results`, `native_player_results` | Resolved player results and a view restricted to Luna observations |
 | `battles` | `clan_results` | Saved clan leaderboard and contribution views, distinguished by `source_view` |
 | `leagues` | `events`, `player_observations`, `coverage` | Official league events, contextual league observations and archive coverage |
+| `leaderboards` | `events`, `results` | Official standalone leaderboard catalog and complete final placements |
 | `imports` | `cw_bot`, `big_bot`, `battle_bot`, `all_records` | One physical table per bot and a combined view, with `record_kind` distinguishing results from source references |
 
 ## Example queries
@@ -113,3 +115,25 @@ JOIN leagues.events AS e USING (event_key)
 WHERE p.event_key = 'tap-2026'
 ORDER BY p.league_name, p.source_rank NULLS LAST, p.user_id;
 ```
+
+<!-- luna-leaderboards:start -->
+## Leaderboards
+
+Standalone BIG Games leaderboards are separate from clan battle rankings. `Leaderboards/` contains a folder and PostgreSQL results partition for each official title. Multiple contests sharing a title keep separate `event_key` identities.
+
+`leaderboards.events` lists board IDs, official titles, contest end times, source references, and final capture status. `leaderboards.results` contains only complete official final standings, with the original placement, Roblox identity when known, exact numeric value, and reward tier when supplied. Unknown user IDs remain NULL; live events are cataloged with empty result tables until the official final is fully saved. No clan/global rank is substituted.
+
+This package contains 23 leaderboard events, 4 complete official finals, and 44,000 final leaderboard placements.
+
+```sql
+SELECT e.title, e.board_id, e.scoring_ends_at, e.result_status, e.result_table
+FROM leaderboards.events AS e
+ORDER BY e.scoring_ends_at DESC NULLS LAST, e.event_key;
+
+SELECT e.title, r.placement, r.user_id, r.username, r.display_name, r.value, r.reward_tier
+FROM leaderboards.results AS r
+JOIN leaderboards.events AS e USING (event_key)
+WHERE r.user_id = 451631996
+ORDER BY e.scoring_ends_at DESC NULLS LAST;
+```
+<!-- luna-leaderboards:end -->

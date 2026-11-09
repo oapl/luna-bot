@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict kwMZJFSCsV7NJQkZYnfN7BbvBJMwOFRaP5AK8j78lWi22vNDsi3DJFPdnOjQ8kE
+\restrict SyYm6ajEelr8XbZJLOfYKrUR274Ox0yRSpcocePUvDfQiU2aLYf7SQzcdFrnlZO
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -466,7 +466,6 @@ Backrooms2026	Backrooms 2026	backrooms2026	5234843031	Ps99_Demon	3zEZ	\N	1034900
 Backrooms2026	Backrooms 2026	backrooms2026	5267528496	hahagoo4	WSL	\N	4630000	9920	26331	cw_bot	history-import:cw_bot:9628	2026-07-31 16:29:28.688+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5288045534	tombayfarm4	H8M3	\N	15850	21432	26333	cw_bot	history-import:cw_bot:9524	2026-07-02 14:49:23.85+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5368149066	blizn4	XREX	\N	56110000	1435	26333	cw_bot	history-import:cw_bot:8044	2026-06-23 16:35:37.33+00	imported_history	\N
-Backrooms2026	Backrooms 2026	backrooms2026	109818	Cinnamowopal	COLD	3	118870000	251	26333	cw_bot	history-import:big_bot:15	2026-06-19 16:36:56.991+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	23260643	crazyblox6677	ANG	58	62500	58	\N	external_import	history-import:big_bot:956	2026-07-28 22:03:29.525+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	31989428	zoggi10	SOPU	\N	138870000	149	26331	cw_bot	history-import:cw_bot:4602	2026-08-04 07:49:22.305+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	33105702	scootaloobc	WSL	\N	1520000	13681	26329	cw_bot	history-import:cw_bot:9741	2026-08-26 20:06:34.623+00	imported_history	\N
@@ -491,6 +490,7 @@ Backrooms2026	Backrooms 2026	backrooms2026	5421600558	babayagaberdy	TLGZ	\N	1960
 Backrooms2026	Backrooms 2026	backrooms2026	5423870289	manzanopet206	COLD	\N	72640000	882	26333	cw_bot	history-import:cw_bot:3890	2026-06-24 22:57:46.772+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5428208423	charez20	A1RZ	\N	11300000	6777	26331	cw_bot	history-import:cw_bot:5923	2026-08-12 12:51:37.564+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5436365094	Bruin444444	st1z	\N	41730000	2312	26331	cw_bot	history-import:cw_bot:2401	2026-08-10 00:49:21.439+00	imported_history	\N
+Backrooms2026	Backrooms 2026	backrooms2026	109818	Kerplopal	COLD	3	118870000	251	26333	cw_bot	history-import:big_bot:15	2026-06-19 16:36:56.991+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5471242617	vkerazzzzzzzzz	V1LN	\N	94450000	452	26333	cw_bot	history-import:cw_bot:9167	2026-06-19 21:51:42.469+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5471325841	pavlik4524	JJ07	\N	12430000	6427	26329	cw_bot	history-import:cw_bot:5210	2026-08-21 19:08:27.137+00	imported_history	\N
 Backrooms2026	Backrooms 2026	backrooms2026	5510809744	moneyskallin	ORBI	\N	82940000	654	26331	cw_bot	history-import:cw_bot:2082	2026-07-19 11:32:01.392+00	imported_history	\N
@@ -649,7 +649,7 @@ Backrooms2026	Backrooms 2026	backrooms2026	7515473066	thriveontop	S7PY	\N	100190
 -- PostgreSQL database dump complete
 --
 
-\unrestrict kwMZJFSCsV7NJQkZYnfN7BbvBJMwOFRaP5AK8j78lWi22vNDsi3DJFPdnOjQ8kE
+\unrestrict SyYm6ajEelr8XbZJLOfYKrUR274Ox0yRSpcocePUvDfQiU2aLYf7SQzcdFrnlZO
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

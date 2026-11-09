@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict ylYRNGzIB6bKG99tlYm2J0urlAnrRsAQvTrs9RZUCthYw9JWTeVeo0JYo4Z1uIP
+\restrict g7ksqIp3Wvqra7GdeLxYbv6HtKw7WWEKcBqBm4w0pv3wYyUTqqeeZOhZg85bScj
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -42,7 +42,6 @@ LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1049702109	realchaseblox	Fa
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5414318030	demonfaarm3	y3ki	\N	1880000	5255	23538	cw_bot	history-import:cw_bot:9351	2026-03-31 20:30:04.513+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	204751057	SainLol	DOLA	\N	1770000	5415	23537	cw_bot	history-import:cw_bot:10039	2026-08-08 18:46:45.184+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5428208423	charez20	S_TR	\N	596300	8332	25337	cw_bot	history-import:cw_bot:5927	2026-08-12 12:51:37.564+00	imported_history	\N
-LuckyChestBattle	Lucky Chest Battle	luckychestbattle	109818	Cinnamowopal	NONG	56	\N	56	\N	external_import	history-import:big_bot:19	2026-07-16 23:13:26.686+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1454397	IDKDabble	DGSL	\N	2400000	4631	23538	cw_bot	history-import:cw_bot:3981	2026-04-12 22:21:06.985+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	1821481	shortly	BYRD	\N	7360000	1563	23538	cw_bot	history-import:cw_bot:3860	2026-04-05 06:53:03.099+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	23260643	crazyblox6677	ANG	41	5930000	41	\N	external_import	history-import:big_bot:960	2026-07-28 22:03:29.525+00	imported_history	\N
@@ -523,6 +522,7 @@ LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5254272309	shadow_ggofficia
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5291595908	iTTv6	3zEZ	\N	7520000	1512	23538	cw_bot	history-import:cw_bot:3996	2026-04-12 21:22:33.583+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5328968538	Iphone1835	SAM4	\N	225940	10913	23536	cw_bot	history-import:cw_bot:5188	2026-08-21 18:06:41.136+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5349160911	ArcticGalaxy14	🏰 Clan: **NONG**	\N	\N	2731	23538	cw_bot	history-import:cw_bot:1175	2026-04-30 01:32:47.772+00	imported_history	\N
+LuckyChestBattle	Lucky Chest Battle	luckychestbattle	109818	Kerplopal	NONG	56	\N	56	\N	external_import	history-import:big_bot:19	2026-07-16 23:13:26.686+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5363596325	eja99991	_MGW	\N	605350	8288	23537	cw_bot	history-import:cw_bot:6011	2026-08-10 08:39:01.416+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5363786388	HippoALT116	DOLA	\N	1830000	5326	23537	cw_bot	history-import:cw_bot:4398	2026-08-08 17:50:18.656+00	imported_history	\N
 LuckyChestBattle	Lucky Chest Battle	luckychestbattle	5383071838	mr_895675	LXCC	\N	2140000	4912	23536	cw_bot	history-import:cw_bot:7673	2026-08-14 20:23:40.83+00	imported_history	\N
@@ -636,7 +636,7 @@ LuckyChestBattle	Lucky Chest Battle	luckychestbattle	7074492190	scoutiiiiiiiii	H
 -- PostgreSQL database dump complete
 --
 
-\unrestrict ylYRNGzIB6bKG99tlYm2J0urlAnrRsAQvTrs9RZUCthYw9JWTeVeo0JYo4Z1uIP
+\unrestrict g7ksqIp3Wvqra7GdeLxYbv6HtKw7WWEKcBqBm4w0pv3wYyUTqqeeZOhZg85bScj
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

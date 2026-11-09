@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict SlteVEu6ybxRacdYWugnUHCvKv7pGLw7DiYLMp6nn2jrGrxyUkuMbuXLQN8dVqU
+\restrict inb2GqgyixNPzfgCpu7hO2XjQsGuzovPiivENZX3wcWrNNa7okLza7s5b4gCcjk
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -453,7 +453,6 @@ BasketballBattle	Basketball Battle	basketballbattle	5246280273	janjelinek3	POJO	
 BasketballBattle	Basketball Battle	basketballbattle	5254272309	shadow_ggofficial	M4RB	\N	46310000	1328	34194	cw_bot	history-import:cw_bot:1758	2026-05-28 21:55:36.515+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	5267528496	hahagoo4	EGP	\N	6510000	16792	34192	cw_bot	history-import:cw_bot:9632	2026-07-31 16:29:28.688+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	5288045534	tombayfarm4	XY11	\N	47010000	1213	34194	cw_bot	history-import:cw_bot:9529	2026-07-02 14:49:23.85+00	imported_history	\N
-BasketballBattle	Basketball Battle	basketballbattle	109818	Cinnamowopal	NONG	\N	66980000	306	34194	cw_bot	history-import:cw_bot:157	2026-04-27 00:46:27.41+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	1533791	clankbot	UN0	\N	73520000	129	34194	cw_bot	history-import:cw_bot:1706	2026-05-23 13:09:17.782+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	14538110	joeycb	ORBI	\N	58950000	519	34194	cw_bot	history-import:cw_bot:1688	2026-05-23 12:54:45.542+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	20532808	GamesReborn	Rfil	\N	51590000	789	34194	cw_bot	history-import:cw_bot:1223	2026-05-01 18:19:11.948+00	imported_history	\N
@@ -463,6 +462,7 @@ BasketballBattle	Basketball Battle	basketballbattle	33492395	unoyea	UN0	\N	75490
 BasketballBattle	Basketball Battle	basketballbattle	33928536	banan123123123	NXNG	\N	18510000	7322	34194	cw_bot	history-import:cw_bot:1661	2026-05-22 07:26:22.196+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	45130460	Ziilionaires	UN0	\N	77470000	20	34194	cw_bot	history-import:cw_bot:3803	2026-04-05 08:12:37.375+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	58312098	sosd35	NONG	\N	68700000	264	34192	cw_bot	history-import:cw_bot:692	2026-07-17 18:57:28.202+00	imported_history	\N
+BasketballBattle	Basketball Battle	basketballbattle	109818	Kerplopal	NONG	\N	66980000	306	34194	cw_bot	history-import:cw_bot:157	2026-04-27 00:46:27.41+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	5313080791	HerzogDL	RATZ	\N	14350000	9327	34194	cw_bot	history-import:cw_bot:950	2026-04-17 00:08:20.006+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	5320035299	connie4502	DOLA	\N	9790000	13161	34194	cw_bot	history-import:cw_bot:3929	2026-06-24 23:27:58.484+00	imported_history	\N
 BasketballBattle	Basketball Battle	basketballbattle	5328968538	Iphone1835	SAM4	\N	8500000	14687	34191	cw_bot	history-import:cw_bot:5194	2026-08-21 18:06:41.136+00	imported_history	\N
@@ -592,7 +592,7 @@ BasketballBattle	Basketball Battle	basketballbattle	7674089046	scythehatching1	F
 -- PostgreSQL database dump complete
 --
 
-\unrestrict SlteVEu6ybxRacdYWugnUHCvKv7pGLw7DiYLMp6nn2jrGrxyUkuMbuXLQN8dVqU
+\unrestrict inb2GqgyixNPzfgCpu7hO2XjQsGuzovPiivENZX3wcWrNNa7okLza7s5b4gCcjk
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

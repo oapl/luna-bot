@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict jH4DuUEpy61LyFHuX80EZMgvtXa0ZJLd529pICRaAswlAzAcHpbsw25DCZY08yS
+\restrict yTuvJ3r3MlS1sk1pdf10Xk4iXaThhBgViRiY4ddMZrKZjqCHImlyV8OMJWPapHN
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -404,7 +404,6 @@ StarryBattle	Starry	starrybattle	4916438361	ArmNotPro	st1z	\N	9940	2286	17235	cw
 StarryBattle	Starry	starrybattle	4977279614	Alfiehibbo	S7PY	\N	1630	10927	17235	cw_bot	history-import:cw_bot:3405	2026-07-23 08:33:50.395+00	imported_history	\N
 StarryBattle	Starry	starrybattle	4989918296	PtiDoriankt	ROMU	\N	4860	5989	17235	cw_bot	history-import:cw_bot:839	2026-07-17 18:56:47.208+00	imported_history	\N
 StarryBattle	Starry	starrybattle	4023070188	kocovina98	VPT0	\N	9790	2358	17233	cw_bot	history-import:cw_bot:5728	2026-08-15 11:32:52.389+00	imported_history	\N
-StarryBattle	Starry	starrybattle	109818	Cinnamowopal	COLD	\N	13120	719	17236	cw_bot	history-import:cw_bot:153	2026-05-15 16:52:58.376+00	imported_history	\N
 StarryBattle	Starry	starrybattle	1533791	clankbot	UN0	\N	15560	2	17236	cw_bot	history-import:cw_bot:1700	2026-05-23 13:09:17.782+00	imported_history	\N
 StarryBattle	Starry	starrybattle	7716484	ahappypoptart	\N	\N	\N	467	17236	cw_bot	history-import:cw_bot:3420	2026-05-02 15:25:46.414+00	imported_history	\N
 StarryBattle	Starry	starrybattle	14538110	joeycb	COLD	\N	13490	523	17236	cw_bot	history-import:cw_bot:1680	2026-05-23 12:54:45.542+00	imported_history	\N
@@ -429,6 +428,7 @@ StarryBattle	Starry	starrybattle	5119214721	thatonepsxyoutuber	DGSL	\N	11850	135
 StarryBattle	Starry	starrybattle	5128774229	livelasso	V1LN	\N	10590	1938	17235	cw_bot	history-import:cw_bot:8992	2026-07-19 09:14:05.882+00	imported_history	\N
 StarryBattle	Starry	starrybattle	5143387515	babykweeef	UN0	\N	15140	47	17233	cw_bot	history-import:cw_bot:2097	2026-08-14 22:59:19.851+00	imported_history	\N
 StarryBattle	Starry	starrybattle	5165277431	nojkdfnjyfdhufdhn	ROGU	\N	543	14180	17232	cw_bot	history-import:cw_bot:5432	2026-08-19 14:48:26.843+00	imported_history	\N
+StarryBattle	Starry	starrybattle	109818	Kerplopal	COLD	\N	13120	719	17236	cw_bot	history-import:cw_bot:153	2026-05-15 16:52:58.376+00	imported_history	\N
 StarryBattle	Starry	starrybattle	5189669801	johqnel	VPT0	\N	9370	2629	17233	cw_bot	history-import:cw_bot:5563	2026-08-17 00:52:03.053+00	imported_history	\N
 StarryBattle	Starry	starrybattle	5197468736	ttkcash1	SOPU	\N	14500	170	17236	cw_bot	history-import:cw_bot:1391	2026-05-09 05:34:47.34+00	imported_history	\N
 StarryBattle	Starry	starrybattle	5209583889	pepajzik	OSTN	\N	7820	3557	17232	cw_bot	history-import:cw_bot:5365	2026-08-20 18:05:20.789+00	imported_history	\N
@@ -564,7 +564,7 @@ StarryBattle	Starry	starrybattle	7515473066	thriveontop	SOPU	\N	15070	58	17235	c
 -- PostgreSQL database dump complete
 --
 
-\unrestrict jH4DuUEpy61LyFHuX80EZMgvtXa0ZJLd529pICRaAswlAzAcHpbsw25DCZY08yS
+\unrestrict yTuvJ3r3MlS1sk1pdf10Xk4iXaThhBgViRiY4ddMZrKZjqCHImlyV8OMJWPapHN
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

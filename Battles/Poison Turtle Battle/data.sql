@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict BMVD1JX4VE3pF8LELbdqs4hcs9C4Avg4oIjkGfHP5MdbEXiwRRZoofmh4LzUzTO
+\restrict DeHyxGMrlhBmDAQZTZmfUHJjYZn6Qc3JDMUbXb1cKbIEbyhQ04MXb3jWIU4CZM2
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -398,7 +398,6 @@ PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5063089605	REAL3ST_NZ
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5115775245	gympie54	WSL	\N	18880	20742	30057	cw_bot	history-import:cw_bot:9760	2026-08-26 20:07:29.974+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5120442322	kirasm0m	FF2H	\N	1540000	6571	30059	cw_bot	history-import:cw_bot:2209	2026-07-17 04:33:26.901+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5127406568	dadchris86	NONG	\N	1540000	6554	30061	cw_bot	history-import:cw_bot:8187	2026-04-21 16:30:58.569+00	imported_history	\N
-PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	109818	Cinnamowopal	NONG	\N	1490000	6739	30061	cw_bot	history-import:cw_bot:159	2026-04-27 00:46:27.41+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	1533791	clankbot	UN0	\N	8400000	872	30061	cw_bot	history-import:cw_bot:1708	2026-05-23 13:09:17.782+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	14538110	joeycb	NONG	\N	2810000	3095	30061	cw_bot	history-import:cw_bot:1690	2026-05-23 12:54:45.542+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	20532808	GamesReborn	Rfil	\N	847840	8810	30061	cw_bot	history-import:cw_bot:1225	2026-05-01 18:19:11.948+00	imported_history	\N
@@ -408,6 +407,7 @@ PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	33492395	unoyea	UN0	\
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	41215233	galooney	UN0	\N	1250000	7690	30059	cw_bot	history-import:cw_bot:9956	2026-07-18 16:34:45.497+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	45130460	Ziilionaires	UN0	\N	6880000	1358	30061	cw_bot	history-import:cw_bot:3805	2026-04-05 08:12:37.375+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	58312098	sosd35	NONG	\N	11730000	199	30059	cw_bot	history-import:cw_bot:694	2026-07-17 18:57:28.202+00	imported_history	\N
+PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	109818	Kerplopal	NONG	\N	1490000	6739	30061	cw_bot	history-import:cw_bot:159	2026-04-27 00:46:27.41+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5128164487	drako83cz	HROT	\N	3650000	2581	30057	cw_bot	history-import:cw_bot:5538	2026-08-17 12:17:13.979+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5128774229	livelasso	2WEI	\N	5090000	2074	30059	cw_bot	history-import:cw_bot:9001	2026-07-19 09:14:05.882+00	imported_history	\N
 PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	5138542110	greatfullyyy	0FCL	\N	2490000	3678	30059	cw_bot	history-import:cw_bot:2906	2026-07-31 06:42:06.061+00	imported_history	\N
@@ -513,7 +513,7 @@ PoisonTurtleBattle	Poison Turtle Battle	poisonturtlebattle	7515473066	thriveonto
 -- PostgreSQL database dump complete
 --
 
-\unrestrict BMVD1JX4VE3pF8LELbdqs4hcs9C4Avg4oIjkGfHP5MdbEXiwRRZoofmh4LzUzTO
+\unrestrict DeHyxGMrlhBmDAQZTZmfUHJjYZn6Qc3JDMUbXb1cKbIEbyhQ04MXb3jWIU4CZM2
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

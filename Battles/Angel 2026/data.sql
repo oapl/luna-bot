@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict gFauAAq3KBWfaPGyFAfH5CkfL3CCmylWGcU7Rop3qVfvlszayFx5IgV49ZsodHn
+\restrict 8xbPOPTcelP5ZZ7e69PhCmY5QRyrRiVEpgO7ADb9e0MTNv7zxPHKrqzaN88Vr1d
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -506,7 +506,6 @@ AngelBattle2026	Angel 2026	angelbattle2026	5356338884	vaincash	UNO	\N	1000000000
 AngelBattle2026	Angel 2026	angelbattle2026	5356370977	vaincash6	UN0	\N	1000000000	1641	38702	cw_bot	history-import:cw_bot:1558	2026-05-17 10:39:51.824+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	5363786388	HippoALT116	DOLA	\N	69990	34972	38699	cw_bot	history-import:cw_bot:4395	2026-08-08 17:50:18.656+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	5368149066	blizn4	DVQ	\N	32	38244	38702	cw_bot	history-import:cw_bot:8045	2026-06-23 16:35:37.33+00	imported_history	\N
-AngelBattle2026	Angel 2026	angelbattle2026	109818	Cinnamowopal	COLD	4	750000000	3465	38702	cw_bot	history-import:big_bot:16	2026-05-15 16:52:58.376+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	20532808	GamesReborn	UN0	\N	1000000000	123	38702	cw_bot	history-import:cw_bot:1650	2026-05-21 10:33:13.34+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	1746819605	Ofdintss	V1LN	\N	750000000	4046	38702	cw_bot	history-import:cw_bot:1904	2026-06-20 19:36:02.048+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	3214063706	Snowzy1219	ROMU	\N	1000000000	168	38702	cw_bot	history-import:cw_bot:1794	2026-06-11 16:43:51.386+00	imported_history	\N
@@ -519,6 +518,7 @@ AngelBattle2026	Angel 2026	angelbattle2026	31989428	zoggi10	V1LN	\N	1000000000	5
 AngelBattle2026	Angel 2026	angelbattle2026	33105702	scootaloobc	WSL	\N	40000000	21640	38697	cw_bot	history-import:cw_bot:9742	2026-08-26 20:06:34.623+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	33492395	unoyea	UNO	\N	1000000000	17	38702	cw_bot	history-import:cw_bot:2031	2026-06-29 12:11:31.331+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	33928536	banan123123123	NONG	\N	750000000	3896	38702	cw_bot	history-import:cw_bot:1659	2026-05-22 07:26:22.196+00	imported_history	\N
+AngelBattle2026	Angel 2026	angelbattle2026	109818	Kerplopal	COLD	4	750000000	3465	38702	cw_bot	history-import:big_bot:16	2026-05-15 16:52:58.376+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	5383071838	mr_895675	LXCC	\N	150000000	8488	38697	cw_bot	history-import:cw_bot:7670	2026-08-14 20:23:40.83+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	5389074744	Blam_BB	DGSL	\N	600000000	5751	38699	cw_bot	history-import:cw_bot:36	2026-07-17 18:31:45.099+00	imported_history	\N
 AngelBattle2026	Angel 2026	angelbattle2026	5407742794	baba_gamer239	ROMU	\N	90000000	12972	38702	cw_bot	history-import:cw_bot:1576	2026-05-20 17:25:36.224+00	imported_history	\N
@@ -673,7 +673,7 @@ AngelBattle2026	Angel 2026	angelbattle2026	7213418603	proline_urlocalsweat	2zEZ	
 -- PostgreSQL database dump complete
 --
 
-\unrestrict gFauAAq3KBWfaPGyFAfH5CkfL3CCmylWGcU7Rop3qVfvlszayFx5IgV49ZsodHn
+\unrestrict 8xbPOPTcelP5ZZ7e69PhCmY5QRyrRiVEpgO7ADb9e0MTNv7zxPHKrqzaN88Vr1d
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

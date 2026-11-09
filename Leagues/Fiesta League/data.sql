@@ -11883,12 +11883,11 @@ fiesta-part-2-2026	id:fff075a835b542b89566ebcb7b04823c	fff075a835b542b89566ebcb7
 fiesta-part-2-2026	id:fff20a6ce4f64cc69a33224788778db7	fff20a6ce4f64cc69a33224788778db7	EUP11	0	1510	2026-08-22 15:27:05.32+00	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72845933	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved
 fiesta-part-2-2026	id:fffd234e8c284c2e96fa7191b0509353	fffd234e8c284c2e96fa7191b0509353	HMRA	0	7900	2026-08-22 15:27:05.32+00	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72852157	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved
 \.
-
 --
 -- PostgreSQL database dump
 --
 
-\restrict TKqcuBxJFCOi3up2EqldtfpvTcy30H6QdVSLuWUg8jj8AROnNf5A4T9eUMC1TBX
+\restrict XpyfBwKJeUiTIpCpdC024kSIWMm6UTDQj8w5tp1edEaDqISaunyI7J0eoQfUioe
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -11910,7 +11909,6 @@ SET row_security = off;
 --
 
 COPY leagues."Fiesta League" (event_key, user_id, username, team_key, league_id, league_name, points, member_rank, league_rank, global_rank, pool_rank, rank_scope, collected_population, league_points, captured_at, source, source_table, source_record_id, snapshot_id, source_run_key, period_started_at, period_ended_at, result_status, member_rank_captured_at, league_rank_captured_at, global_rank_captured_at, pool_rank_captured_at, last_contribution_at) FROM stdin;
-fiesta-part-2-2026	109818	Cinnamowopal	id:a98d3fa2a0574e2f9ad908446d664981	a98d3fa2a0574e2f9ad908446d664981	movo	14762922	\N	597	\N	2852	collected_pool	28853	54340647	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72828451	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:47:17.915+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 04:40:31+00
 fiesta-part-2-2026	135607	mano33	id:e5342cc7e72c4dd79dbb56763d47c80f	e5342cc7e72c4dd79dbb56763d47c80f	receb	5410683	\N	5690	\N	13289	collected_pool	28853	0	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72838888	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:27:05.32+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 15:59:16+00
 fiesta-part-2-2026	848554	Alikrum	id:6b246a228ae24b43bca0e53af8f55686	6b246a228ae24b43bca0e53af8f55686	vmax	10026509	\N	5432	\N	7033	collected_pool	28853	0	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72832632	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:27:05.32+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 15:59:37+00
 fiesta-part-2-2026	975386	margielawarfare	id:be106b6d207742e4a1d72444cd587362	be106b6d207742e4a1d72444cd587362	funds	791434	\N	8251	\N	23906	collected_pool	28853	0	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72849463	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:27:05.32+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 05:55:44+00
@@ -41593,6 +41591,7 @@ fiesta-part-2-2026	11545826069	brodyalt12346	id:61558449d2c54049a1880a0f95462a49
 fiesta-part-2-2026	11548161946	satokona67	id:cc11dbd092d547d5b23e549430c97538	cc11dbd092d547d5b23e549430c97538	rio	85	\N	6603	\N	27750	collected_pool	28853	0	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72853115	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:27:05.32+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 12:04:44+00
 fiesta-part-2-2026	11549378209	KechuSub	id:a6f52691bf2c4964a77ec71a3ed08eb3	a6f52691bf2c4964a77ec71a3ed08eb3	MX	31838	\N	8457	\N	26998	collected_pool	28853	0	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72852419	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:27:05.32+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 14:10:51+00
 fiesta-part-2-2026	11550463647	happyboy21487	id:39149c70c82740e28fcb2e9b3382b3ed	39149c70c82740e28fcb2e9b3382b3ed	Yipee	0	\N	9534	\N	28853	collected_pool	28853	0	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72854189	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:27:05.32+00	\N	2026-08-22 15:27:05.32+00	\N
+fiesta-part-2-2026	109818	Kerplopal	id:a98d3fa2a0574e2f9ad908446d664981	a98d3fa2a0574e2f9ad908446d664981	movo	14762922	\N	597	\N	2852	collected_pool	28853	54340647	2026-08-22 15:27:05.32+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	72828451	league_player_pool:plants-vs-coins-part-2:plants-vs-coins-part-2:2026-08-22T14:00:04-000Z	plants-vs-coins-part-2	2026-08-15 16:00:00+00	2026-08-22 16:00:00+00	last_saved	\N	2026-08-22 15:47:17.915+00	\N	2026-08-22 15:27:05.32+00	2026-08-21 04:40:31+00
 \.
 
 
@@ -41600,5 +41599,5 @@ fiesta-part-2-2026	11550463647	happyboy21487	id:39149c70c82740e28fcb2e9b3382b3ed
 -- PostgreSQL database dump complete
 --
 
-\unrestrict TKqcuBxJFCOi3up2EqldtfpvTcy30H6QdVSLuWUg8jj8AROnNf5A4T9eUMC1TBX
+\unrestrict XpyfBwKJeUiTIpCpdC024kSIWMm6UTDQj8w5tp1edEaDqISaunyI7J0eoQfUioe
 

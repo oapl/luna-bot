@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict ZKZ93fPPXyEJdzcgldm9hky0Ues0zP0JJIDWZb5nuGbIXOEzeH2wdJXrGradlpM
+\restrict C4hETkif4wmD5rRRsb4FBCaLhHSkLlpMvziOgJtQ3bbkbbYdgSnOoIcT7T0dNhk
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -35025,6 +35025,7 @@ GummyBattle2026	Gummy 2026	GummyBattle2026	6153067359	\N	GHVT	66	0	35708	38428	g
 GummyBattle2026	Gummy 2026	GummyBattle2026	6153858120	\N	BAEP	45	0	35709	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	6154143780	\N	SVB	41	0	35710	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	6154766172	\N	B0TH	26	0	35711	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
+GummyBattle2026	Gummy 2026	GummyBattle2026	109818	Kerplopal	C0LD	7	22089	111	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	6156348204	\N	W0m1	32	0	35712	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	6156841730	\N	Pak	43	0	35713	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	6157276636	\N	XREX	36	0	35714	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
@@ -37749,7 +37750,6 @@ GummyBattle2026	Gummy 2026	GummyBattle2026	11386073253	\N	PRYX	41	0	38425	38428	
 GummyBattle2026	Gummy 2026	GummyBattle2026	11389504756	\N	IFTM	54	0	38426	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	11389917038	\N	DEMY	74	0	38427	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	11389918650	\N	DEMY	75	0	38428	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
-GummyBattle2026	Gummy 2026	GummyBattle2026	109818	Cinnamowopal	C0LD	7	22089	111	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	43029659	gogetyahbihbck	Taux	52	18328	3423	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	46490088	FireKiller1215	SOPU	26	21390	470	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
 GummyBattle2026	Gummy 2026	GummyBattle2026	58312098	sosd35	C0LD	27	21313	524	38428	global_candidate	c0ld:global:GummyBattle2026:2026-07-31T15:40:07.000Z	2026-07-31 15:40:07+00	stored_final	\N
@@ -38443,7 +38443,7 @@ GummyBattle2026	Gummy 2026	gummybattle2026	7435344108	usmeltoes	WMSY	\N	21900	20
 -- PostgreSQL database dump complete
 --
 
-\unrestrict ZKZ93fPPXyEJdzcgldm9hky0Ues0zP0JJIDWZb5nuGbIXOEzeH2wdJXrGradlpM
+\unrestrict C4hETkif4wmD5rRRsb4FBCaLhHSkLlpMvziOgJtQ3bbkbbYdgSnOoIcT7T0dNhk
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

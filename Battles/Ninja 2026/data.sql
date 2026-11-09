@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict aCFkBWnXRq8WFv7rX3aUWBvjbTNHZjDH7PWuJzIIJHDCMMvmt6mFu4CaXA1rGg2
+\restrict 4VohAer4LhVAy7gayH6RNIdMYFt9y0tVcduzq5O0B1IOSnbdO2GVheXNPcRzyc4
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -26995,6 +26995,7 @@ NinjaBattle2026	Ninja 2026	NinjaBattle2026	3886983603	\N	MAPU	27	0	28028	30010	g
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	3888509010	\N	c8rg	61	0	28029	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	3895632637	\N	cloz	54	0	28030	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:45:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	3898865379	\N	cloz	55	0	28031	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:45:24+00	stored_final	\N
+NinjaBattle2026	Ninja 2026	NinjaBattle2026	109818	Kerplopal	C0LD	13	16394659	104	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	3900260362	\N	blsn	56	0	28032	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	3900684821	\N	LFnd	18	0	28033	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	3901494014	\N	Tx99	40	0	28034	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:45:24+00	stored_final	\N
@@ -28973,7 +28974,6 @@ NinjaBattle2026	Ninja 2026	NinjaBattle2026	11496993353	\N	DK	61	0	30007	30010	gl
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	11498495387	\N	DEMY	55	0	30008	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	11499045857	\N	DEMY	56	0	30009	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	11499153836	\N	DEMY	57	0	30010	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
-NinjaBattle2026	Ninja 2026	NinjaBattle2026	109818	Cinnamowopal	C0LD	13	16394659	104	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	1533791	CLANKBOT	UN0	42	16217780	115	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	10061109	riouxcastor1	0RB2	21	0	25945	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
 NinjaBattle2026	Ninja 2026	NinjaBattle2026	20532808	GamesReborn	UN0	72	13809958	465	30010	global_candidate	c0ld:global:NinjaBattle2026:2026-08-14T15:42:24.000Z	2026-08-14 15:44:24+00	stored_final	\N
@@ -30037,7 +30037,7 @@ NinjaBattle2026	Ninja 2026	NinjaBattle2026	11308077567	Itzz_sk1b1d1	DNOK	52	6468
 -- PostgreSQL database dump complete
 --
 
-\unrestrict aCFkBWnXRq8WFv7rX3aUWBvjbTNHZjDH7PWuJzIIJHDCMMvmt6mFu4CaXA1rGg2
+\unrestrict 4VohAer4LhVAy7gayH6RNIdMYFt9y0tVcduzq5O0B1IOSnbdO2GVheXNPcRzyc4
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

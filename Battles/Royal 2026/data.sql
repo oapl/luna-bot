@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 96jjbQvCWXFesnfWAK7WhcT5pvCxzh1olopMzQI9PoI8imceVtkrzG72AS3orqL
+\restrict UepyU2NbarntvrKmpd6I7ZB436FXjkh5TewNRL298xYEJAN2ogI8RSL9hi117fm
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -601,7 +601,6 @@ RoyalBattle2026	Royal 2026	RoyalBattle2026	3941465666	user_3941465666	GSTG	18	11
 RoyalBattle2026	Royal 2026	RoyalBattle2026	4573491545	user_4573491545	GANG	7	11279	578	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	5248373655	user_5248373655	GANG	8	11279	579	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	7481772275	user_7481772275	MCWV	8	11279	580	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
-RoyalBattle2026	Royal 2026	RoyalBattle2026	109818	Cinnamowopal	C0LD	52	11278	581	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	619312547	user_619312547	K0i2	22	11278	582	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	643466909	itsmason3725	C0LD	53	11278	583	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	2961699566	user_2961699566	EDS1	4	11278	584	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
@@ -2570,6 +2569,7 @@ RoyalBattle2026	Royal 2026	RoyalBattle2026	1944141987	user_1944141987	R0W	33	104
 RoyalBattle2026	Royal 2026	RoyalBattle2026	3128771885	user_3128771885	VLP	29	10459	2494	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	4044356724	user_4044356724	TPGD	34	10459	2495	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	4160967770	therea1_elonmusk	0RBI	57	10459	2496	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
+RoyalBattle2026	Royal 2026	RoyalBattle2026	109818	Kerplopal	C0LD	52	11278	581	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	2420801797	0k_0w	C0LD	18	11499	238	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	5416813630	user_5416813630	KRR	28	10459	2497	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
 RoyalBattle2026	Royal 2026	RoyalBattle2026	5647637667	user_5647637667	juvi	1	10459	2498	27947	global_candidate	c0ld:global:RoyalBattle2026:2026-08-28T15:40:56.000Z	2026-08-28 15:41:56+00	stored_final	\N
@@ -28035,7 +28035,7 @@ RoyalBattle2026	Royal 2026	RoyalBattle2026	11584629321	user_11584629321	IDNZ	69	
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 96jjbQvCWXFesnfWAK7WhcT5pvCxzh1olopMzQI9PoI8imceVtkrzG72AS3orqL
+\unrestrict UepyU2NbarntvrKmpd6I7ZB436FXjkh5TewNRL298xYEJAN2ogI8RSL9hi117fm
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
