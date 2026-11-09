@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict nnZeF1un4hVoXsousBapTsE8waSZeV9VeBGcwhBHyyDF5UcZ4d0yRgJYdypLwrw
+\restrict SAkcE6snLPpxU308TvgKU1LPEXFP3MpAJnggaqTJwLr6SoR2lbwYpkrnM2SVGT5
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -38059,6 +38059,7 @@ LunarBattle2026	Lunar 2026	LunarBattle2026	5614746048	\N	EYK	67	0	38606	41121	gl
 LunarBattle2026	Lunar 2026	LunarBattle2026	5615463505	\N	DK	72	0	38607	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	5618224704	\N	TPG2	57	0	38608	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	5618979482	\N	MLP_	57	0	38609	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
+LunarBattle2026	Lunar 2026	LunarBattle2026	109818	Kerplopal	C0LD	48	14518	808	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	3139037723	Tobik987123	cspe	\N	595	23337	35269	cw_bot	history-import:cw_bot:6467	2026-08-06 18:08:45.622+00	imported_history	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	5619120171	\N	DK24	45	0	38610	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	5620034362	\N	DUNA	41	0	38611	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
@@ -40571,7 +40572,6 @@ LunarBattle2026	Lunar 2026	LunarBattle2026	11300799769	\N	Y0R	73	0	41118	41121	g
 LunarBattle2026	Lunar 2026	LunarBattle2026	11300850285	\N	Y0R	74	0	41119	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	11300944074	\N	Y0R	75	0	41120	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	11301242063	\N	DEMY	75	0	41121	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
-LunarBattle2026	Lunar 2026	LunarBattle2026	109818	Cinnamowopal	C0LD	48	14518	808	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	272741362	kyle558888	C0LD	4	17670	88	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	656420117	MercilessBanditTaken	C0LD	3	17689	85	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
 LunarBattle2026	Lunar 2026	LunarBattle2026	711606548	T0xicCoco	C0LD	7	17493	101	41121	global_candidate	c0ld:global:LunarBattle2026:2026-07-17T15:29:43.000Z	2026-07-17 15:29:43+00	stored_final	\N
@@ -41150,7 +41150,7 @@ LunarBattle2026	Lunar 2026	LunarBattle2026	11247684623	krtek_game2	K2ch	8	4403	8
 -- PostgreSQL database dump complete
 --
 
-\unrestrict nnZeF1un4hVoXsousBapTsE8waSZeV9VeBGcwhBHyyDF5UcZ4d0yRgJYdypLwrw
+\unrestrict SAkcE6snLPpxU308TvgKU1LPEXFP3MpAJnggaqTJwLr6SoR2lbwYpkrnM2SVGT5
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

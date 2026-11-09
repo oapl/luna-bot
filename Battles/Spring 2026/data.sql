@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 2FXCWNIqzD2WoFRzAp7Ouvrx5PR6tfFeR3nzM8enLR65DOC2pEm5yMVn0wPGdjk
+\restrict 1XSqBgq6jgGChkfqX2GDD3bRQfdNgDOSha1pvPdX7VGFavJfpk8Pwam62fExCSW
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -529,7 +529,6 @@ Spring2026	Spring 2026	spring2026	5189669801	johqnel	VPT0	\N	36770000	5994	30852
 Spring2026	Spring 2026	spring2026	5197468736	ttkcash1	C0LD	\N	109660000	522	30856	cw_bot	history-import:cw_bot:1392	2026-05-09 05:34:47.34+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	5203613717	Arteomcka0_z	BEZE	\N	96240000	897	30854	cw_bot	history-import:cw_bot:3369	2026-07-23 19:33:38.366+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	5209583889	pepajzik	STPS	\N	12320000	11558	30852	cw_bot	history-import:cw_bot:5366	2026-08-20 18:05:20.789+00	imported_history	\N
-Spring2026	Spring 2026	spring2026	109818	Cinnamowopal	NONG	\N	18520000	9697	30856	cw_bot	history-import:cw_bot:154	2026-04-27 00:46:27.41+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	1533791	clankbot	SOPU	\N	144540000	98	30856	cw_bot	history-import:cw_bot:1701	2026-05-23 13:09:17.782+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	7716484	ahappypoptart	\N	\N	\N	374	30856	cw_bot	history-import:cw_bot:3421	2026-05-02 15:25:46.414+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	8552960	mysteriousben10	DGSL	\N	60090000	3129	30854	cw_bot	history-import:cw_bot:2849	2026-07-31 16:38:28.987+00	imported_history	\N
@@ -549,6 +548,7 @@ Spring2026	Spring 2026	spring2026	114776268	0ffxikea	C0LD	\N	160290000	52	30856	
 Spring2026	Spring 2026	spring2026	120904005	nublet28	BYRD	\N	92380000	1056	30856	cw_bot	history-import:cw_bot:8436	2026-07-03 22:38:52.17+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	125272790	ur_salty091	XBOX	\N	126360000	239	30856	cw_bot	history-import:cw_bot:1913	2026-06-21 04:13:46.321+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	136661329	ghanta2a	SOPU	\N	167860000	30	30856	cw_bot	history-import:cw_bot:8098	2026-04-26 23:31:56.073+00	imported_history	\N
+Spring2026	Spring 2026	spring2026	109818	Kerplopal	NONG	\N	18520000	9697	30856	cw_bot	history-import:cw_bot:154	2026-04-27 00:46:27.41+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	5212313671	superpositlon	C0LD	\N	153860000	65	30856	cw_bot	history-import:cw_bot:1482	2026-05-15 19:10:30.306+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	5246280273	janjelinek3	POJO	\N	21660000	8898	30854	cw_bot	history-import:cw_bot:6037	2026-08-09 09:04:37.217+00	imported_history	\N
 Spring2026	Spring 2026	spring2026	5254272309	shadow_ggofficial	SOPU	\N	138960000	123	30856	cw_bot	history-import:cw_bot:1751	2026-05-28 21:55:36.515+00	imported_history	\N
@@ -707,7 +707,7 @@ Spring2026	Spring 2026	spring2026	7515473066	thriveontop	3zEZ	\N	69940000	2286	3
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 2FXCWNIqzD2WoFRzAp7Ouvrx5PR6tfFeR3nzM8enLR65DOC2pEm5yMVn0wPGdjk
+\unrestrict 1XSqBgq6jgGChkfqX2GDD3bRQfdNgDOSha1pvPdX7VGFavJfpk8Pwam62fExCSW
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

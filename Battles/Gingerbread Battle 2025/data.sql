@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict cwZUoAS6Bl1zPgcxdkipGgzLyPrnmARbTsw5kN03K0akXArfZxceipYqEJJzjcw
+\restrict mwWPuG0OLr3puejEvV1CPqrtcSPfJ1vuDSQhIozNWbzG4qEHwYfh71zkwj5N9k6
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -47,7 +47,6 @@ Christmas2025	Gingerbread Battle 2025	christmas2025	6109731708	YoBaskett	W2VY	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	7232809185	Kessho02	PEND	\N	2070000	1154	17674	cw_bot	history-import:cw_bot:601	2026-07-17 18:49:22.998+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	7806857762	selena082319	W2VY	\N	1860000	1282	17674	cw_bot	history-import:cw_bot:372	2026-07-17 18:33:34.992+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	7811627595	Star_1110789	dohw	\N	23360000	21	17675	cw_bot	history-import:cw_bot:914	2026-05-01 16:32:32.474+00	imported_history	\N
-Christmas2025	Gingerbread Battle 2025	christmas2025	109818	Cinnamowopal	NONG	\N	1340000	1772	17675	cw_bot	history-import:cw_bot:155	2026-04-27 00:46:27.41+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	1533791	clankbot	UN0	\N	61240	9768	17675	cw_bot	history-import:cw_bot:1703	2026-05-23 13:09:17.782+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	14538110	joeycb	SOPU	\N	27770000	12	17675	cw_bot	history-import:cw_bot:1683	2026-05-23 12:54:45.542+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	23260643	crazyblox6677	ANG	30	266000	30	\N	external_import	history-import:big_bot:961	2026-07-28 22:03:29.525+00	imported_history	\N
@@ -418,6 +417,7 @@ Christmas2025	Gingerbread Battle 2025	christmas2025	3567067280	Kurtis2345789	ROM
 Christmas2025	Gingerbread Battle 2025	christmas2025	3589740153	WhosStarl1ght	0RBI	\N	1050000	2194	17675	cw_bot	history-import:cw_bot:1290	2026-05-04 17:16:23.567+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	3602402808	Flexsnack21	UNTY	\N	1470000	1608	17675	cw_bot	history-import:cw_bot:1200	2026-05-01 08:05:11.74+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	3753977683	mybanana367	NONG	\N	3440000	633	17675	cw_bot	history-import:cw_bot:1464	2026-05-13 21:54:17.124+00	imported_history	\N
+Christmas2025	Gingerbread Battle 2025	christmas2025	109818	Kerplopal	NONG	\N	1340000	1772	17675	cw_bot	history-import:cw_bot:155	2026-04-27 00:46:27.41+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	4281402342	Selcuk1143	S2PU	\N	40000	11185	17674	cw_bot	history-import:cw_bot:3048	2026-07-28 21:24:31.882+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	4301431724	Bobsussybu123	SLRP	\N	50	17211	17674	cw_bot	history-import:cw_bot:2519	2026-08-01 12:26:31.166+00	imported_history	\N
 Christmas2025	Gingerbread Battle 2025	christmas2025	4307217370	BuzekPetr2003	VLP	\N	169850	6490	17671	cw_bot	history-import:cw_bot:5477	2026-08-19 18:30:11.966+00	imported_history	\N
@@ -540,7 +540,7 @@ Christmas2025	Gingerbread Battle 2025	christmas2025	7213418603	proline_urlocalsw
 -- PostgreSQL database dump complete
 --
 
-\unrestrict cwZUoAS6Bl1zPgcxdkipGgzLyPrnmARbTsw5kN03K0akXArfZxceipYqEJJzjcw
+\unrestrict mwWPuG0OLr3puejEvV1CPqrtcSPfJ1vuDSQhIozNWbzG4qEHwYfh71zkwj5N9k6
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

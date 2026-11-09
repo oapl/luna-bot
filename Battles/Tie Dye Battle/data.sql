@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 41sSTbVj32ohPMdCRULYhuARpl00hCsM7FXaEtIrdrfmv1NMVzHh0g5yCIbdTII
+\restrict rmh5FDY2ALLrHyxdxBhcQZxYLICTZV7EzGabIGxg749Yxn7oiev8h0ZBqYtYklH
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -305,7 +305,6 @@ TieDyeBattle	Tie Dye Battle	tiedyebattle	4032508929	Skibidieny	K989	\N	11500	187
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4034865826	ncksjduwiwjnm	HR2T	\N	1380000	7781	24112	cw_bot	history-import:cw_bot:4759	2026-08-01 10:14:30.098+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4051469126	Naruto61925	_hot	\N	1540000	7456	24112	cw_bot	history-import:cw_bot:3401	2026-07-23 20:03:20.004+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4054510143	kudlankovec	VLP2	\N	524100	10434	24112	cw_bot	history-import:cw_bot:2490	2026-08-01 09:59:49.052+00	imported_history	\N
-TieDyeBattle	Tie Dye Battle	tiedyebattle	109818	Cinnamowopal	NONG	9	\N	9	\N	external_import	history-import:big_bot:26	2026-07-17 00:44:55.911+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	1533791	clankbot	UN0	\N	113700000	68	24112	cw_bot	history-import:cw_bot:1710	2026-05-23 13:09:17.782+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	14538110	joeycb	NONG	\N	82000000	205	24112	cw_bot	history-import:cw_bot:1693	2026-05-23 12:54:45.542+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	20532808	GamesReborn	RFIL	\N	55800000	419	24112	cw_bot	history-import:cw_bot:1227	2026-05-01 18:19:11.948+00	imported_history	\N
@@ -330,6 +329,7 @@ TieDyeBattle	Tie Dye Battle	tiedyebattle	4161934376	honza01021983	DJRK	\N	173600
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4165162503	trubgut3	eguh	\N	2040000	6658	24112	cw_bot	history-import:cw_bot:6424	2026-08-06 15:24:37.222+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4177849716	doperthanyou67	M1GE	\N	839100	9260	24112	cw_bot	history-import:cw_bot:9075	2026-07-08 01:06:13.66+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4196761995	GravysOfficial	HR2T	\N	1440000	7651	24111	cw_bot	history-import:cw_bot:5122	2026-08-22 23:53:53.389+00	imported_history	\N
+TieDyeBattle	Tie Dye Battle	tiedyebattle	109818	Kerplopal	NONG	9	\N	9	\N	external_import	history-import:big_bot:26	2026-07-17 00:44:55.911+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4224841429	Holemedonescr10	3zEZ	\N	5790000	4032	24112	cw_bot	history-import:cw_bot:1602	2026-05-20 19:08:41.718+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4238790853	samsam16725	ROMU	\N	21900000	1374	24112	cw_bot	history-import:cw_bot:102	2026-06-19 21:20:32.05+00	imported_history	\N
 TieDyeBattle	Tie Dye Battle	tiedyebattle	4281402342	Selcuk1143	SW23	\N	406360	11070	24112	cw_bot	history-import:cw_bot:3058	2026-07-28 21:24:31.882+00	imported_history	\N
@@ -443,7 +443,7 @@ TieDyeBattle	Tie Dye Battle	tiedyebattle	7074492190	scoutiiiiiiiii	Roux	\N	86000
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 41sSTbVj32ohPMdCRULYhuARpl00hCsM7FXaEtIrdrfmv1NMVzHh0g5yCIbdTII
+\unrestrict rmh5FDY2ALLrHyxdxBhcQZxYLICTZV7EzGabIGxg749Yxn7oiev8h0ZBqYtYklH
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

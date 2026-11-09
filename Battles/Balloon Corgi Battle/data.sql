@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict TbuRd5PJuVDli3JCS2I04rXl6pDZnd1k6ZmHlq2usJwyxacz68UVtHn4CHrgcrY
+\restrict j9nE7NLao4KE9mr6cxF7BB4QD83x8PDq3g60gznVRh1u0PHjTc82woz1gmZ92hI
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -437,7 +437,7 @@ BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	5209078854	Rydma73	H8
 BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	5234843031	Ps99_Demon	F3DD	\N	216	25108	35574	cw_bot	history-import:cw_bot:3386	2026-07-23 20:00:22.189+00	imported_history	\N
 BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	1818966891	Drak1735	tnlg	\N	1890	4122	35572	cw_bot	history-import:cw_bot:5850	2026-08-14 19:17:31.862+00	imported_history	\N
 BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	1824713899	hayojeu2k	W2VY	\N	1950	3639	35574	cw_bot	history-import:cw_bot:673	2026-07-17 18:57:09.828+00	imported_history	\N
-BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	109818	Cinnamowopal	NONG	\N	2310	1636	35576	cw_bot	history-import:cw_bot:158	2026-04-27 00:46:27.41+00	imported_history	\N
+BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	109818	Kerplopal	NONG	\N	2310	1636	35576	cw_bot	history-import:cw_bot:158	2026-04-27 00:46:27.41+00	imported_history	\N
 BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	5254272309	shadow_ggofficial	M4RB	\N	1480	8629	35576	cw_bot	history-import:cw_bot:1759	2026-05-28 21:55:36.515+00	imported_history	\N
 BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	5267528496	hahagoo4	EGP	\N	1330	10663	35574	cw_bot	history-import:cw_bot:9633	2026-07-31 16:29:28.688+00	imported_history	\N
 BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	5313080791	HerzogDL	RATZ	\N	917	15406	35576	cw_bot	history-import:cw_bot:951	2026-04-17 00:08:20.006+00	imported_history	\N
@@ -553,7 +553,7 @@ BalloonCorgiBattle	Balloon Corgi Battle	ballooncorgibattle	7241086258	unoyea4	TR
 -- PostgreSQL database dump complete
 --
 
-\unrestrict TbuRd5PJuVDli3JCS2I04rXl6pDZnd1k6ZmHlq2usJwyxacz68UVtHn4CHrgcrY
+\unrestrict j9nE7NLao4KE9mr6cxF7BB4QD83x8PDq3g60gznVRh1u0PHjTc82woz1gmZ92hI
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

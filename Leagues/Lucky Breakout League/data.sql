@@ -1336,12 +1336,11 @@ lucky-block-blitz-2026	id:ffb3d13eca464473b3e47f1eedb9a9c0	ffb3d13eca464473b3e47
 lucky-block-blitz-2026	id:ffb866476ce64a27b5b435ed1a538784	ffb866476ce64a27b5b435ed1a538784	salt	0	910	2026-09-03 20:38:58.078+00	2026-09-03 20:38:58.078+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	102752501	league_player_pool:lucky-block-blitz:lucky-block-blitz:2026-09-03T20:20:57-000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved
 lucky-block-blitz-2026	id:fff23183152c4e0a810d3025261a1a64	fff23183152c4e0a810d3025261a1a64	SINUX	144021	727	2026-09-03 20:21:47.359+00	2026-09-03 20:21:47.359+00	schedule:top-leagues	public.ps99_league_final_raw_snapshots	102741375	top_leagues:lucky-block-blitz:2026-09-03T20:21:47.359Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved
 \.
-
 --
 -- PostgreSQL database dump
 --
 
-\restrict 5IiYCeqc9ufbaf8MS37hvwI10UNcyNucChvwM60bmgGv2lbLVbE0Ok3DRJ9y5hn
+\restrict q0bWCEBJpGUTu0jRdiEU7ROni4HZe9QKfCXtXZtfUtcuEXKCEzeX0sZkqu7ZedD
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -1363,7 +1362,6 @@ SET row_security = off;
 --
 
 COPY leagues."Lucky Breakout League" (event_key, user_id, username, team_key, league_id, league_name, points, member_rank, league_rank, global_rank, pool_rank, rank_scope, collected_population, league_points, captured_at, source, source_table, source_record_id, snapshot_id, source_run_key, period_started_at, period_ended_at, result_status, member_rank_captured_at, league_rank_captured_at, global_rank_captured_at, pool_rank_captured_at, last_contribution_at) FROM stdin;
-lucky-block-blitz-2026	109818	Cinnamowopal	id:1d796e34e2b042569240c56433c7664e	1d796e34e2b042569240c56433c7664e	obama	62569	\N	179	\N	833	collected_pool	25255	0	2026-09-03 20:38:58.078+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	102752018	league_player_pool:lucky-block-blitz:lucky-block-blitz:2026-09-03T20:20:57-000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	\N	2026-09-03 20:38:58.078+00	\N	2026-09-03 20:38:58.078+00	2026-09-03 20:19:14+00
 lucky-block-blitz-2026	3638492	Badcon	id:cc9b9ca6fe004080bfa6de99cc46ddb8	cc9b9ca6fe004080bfa6de99cc46ddb8	N0PE	36069	3	309	\N	\N	member_only	\N	0	2026-09-03 14:21:47.687+00	schedule:general	public.ps99_league_final_raw_snapshots	101915181	league:lucky-block-blitz:N0PE:2026-09-03T14:20:00.000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	2026-09-03 14:21:47.687+00	2026-09-03 20:38:58.078+00	\N	\N	2026-09-03 11:08:46+00
 lucky-block-blitz-2026	6145915	XxPlaygirlxX	id:6acf48a3d13e48ddaedda3e47c44340c	6acf48a3d13e48ddaedda3e47c44340c	DRC0	49601	\N	347	\N	1445	collected_pool	25255	0	2026-09-03 20:38:58.078+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	102752630	league_player_pool:lucky-block-blitz:lucky-block-blitz:2026-09-03T20:20:57-000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	\N	2026-09-03 20:38:58.078+00	\N	2026-09-03 20:38:58.078+00	2026-09-03 11:15:15+00
 lucky-block-blitz-2026	13050642	roblox_user_13050642	id:b0d10e0c48074dc08f1c5ce7bd2f3d91	b0d10e0c48074dc08f1c5ce7bd2f3d91	UNDIM	50988	\N	3541	\N	1361	collected_pool	25255	0	2026-09-03 20:38:58.078+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	102752546	league_player_pool:lucky-block-blitz:lucky-block-blitz:2026-09-03T20:20:57-000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	\N	2026-09-03 20:38:58.078+00	\N	2026-09-03 20:38:58.078+00	2026-09-03 12:47:42+00
@@ -3490,6 +3488,7 @@ lucky-block-blitz-2026	11558120328	11558120328	id:f5a4bc9d3294415cbb2e64451e543b
 lucky-block-blitz-2026	11575600460	Bananikhaa	id:f8ab39029d294ccb9e07d80984b5baf9	f8ab39029d294ccb9e07d80984b5baf9	bdb	88737	\N	118	213	213	official_global	25255	0	2026-09-03 20:38:58.078+00	big-games-public-top-100	public.ps99_league_final_raw_snapshots	102751398	league_player_pool:lucky-block-blitz:lucky-block-blitz:2026-09-03T20:20:57-000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	\N	2026-09-03 20:21:47.359+00	2026-09-03 20:38:58.078+00	2026-09-03 20:38:58.078+00	2026-09-03 20:34:52+00
 lucky-block-blitz-2026	11592438948	11592438948	id:1662f63a81514f4ab5627b0712f6e1d9	1662f63a81514f4ab5627b0712f6e1d9	oisun	7600	4	\N	\N	\N	member_only	\N	44577	2026-09-03 13:41:46.778+00	schedule:general	public.ps99_league_final_raw_snapshots	101850372	league:lucky-block-blitz:oisun:2026-09-03T13:40:00.000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	2026-09-03 13:41:46.778+00	\N	\N	\N	2026-09-03 03:18:17+00
 lucky-block-blitz-2026	11598713795	11598713795	id:1662f63a81514f4ab5627b0712f6e1d9	1662f63a81514f4ab5627b0712f6e1d9	oisun	17794	1	\N	\N	\N	member_only	\N	44577	2026-09-03 13:41:46.778+00	schedule:general	public.ps99_league_final_raw_snapshots	101850369	league:lucky-block-blitz:oisun:2026-09-03T13:40:00.000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	2026-09-03 13:41:46.778+00	\N	\N	\N	2026-09-01 18:10:17+00
+lucky-block-blitz-2026	109818	Kerplopal	id:1d796e34e2b042569240c56433c7664e	1d796e34e2b042569240c56433c7664e	obama	62569	\N	179	\N	833	collected_pool	25255	0	2026-09-03 20:38:58.078+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	102752018	league_player_pool:lucky-block-blitz:lucky-block-blitz:2026-09-03T20:20:57-000Z	lucky-block-blitz	2026-08-29 16:00:00+00	2026-09-05 16:00:00+00	last_saved	\N	2026-09-03 20:38:58.078+00	\N	2026-09-03 20:38:58.078+00	2026-09-03 20:19:14+00
 \.
 
 
@@ -3497,5 +3496,5 @@ lucky-block-blitz-2026	11598713795	11598713795	id:1662f63a81514f4ab5627b0712f6e1
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 5IiYCeqc9ufbaf8MS37hvwI10UNcyNucChvwM60bmgGv2lbLVbE0Ok3DRJ9y5hn
+\unrestrict q0bWCEBJpGUTu0jRdiEU7ROni4HZe9QKfCXtXZtfUtcuEXKCEzeX0sZkqu7ZedD
 

@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 5oYVzecYGjwpRuhxTJ5Mjq4pI2laMB6ZeuMRLPjPfChCB4MHxljsPg6s8Pf18Ud
+\restrict RJquZxoJqDqSjYOtNNQP5nATPdEmjuPkOA6dUEKrlEGp9yMCDHggLlnY0JPW2AM
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -31,7 +31,6 @@ AthenaBattle	Athena Battle	athenabattle	3171368431	darklode100	CC4T	\N	1020000	1
 AthenaBattle	Athena Battle	athenabattle	3181994439	anrijs9991	NXNG	\N	39570000	1637	32370	cw_bot	history-import:cw_bot:1197	2026-04-30 19:59:29.548+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	3214063706	ZoraDaGoatOfficial	ANG_	\N	662630	15421	32370	cw_bot	history-import:cw_bot:962	2026-04-17 00:09:22.187+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	3239125804	Pabloeldahablos	🏰 Clan: **EXP**	\N	\N	19839	32370	cw_bot	history-import:cw_bot:1411	2026-05-10 21:35:38.255+00	imported_history	\N
-AthenaBattle	Athena Battle	athenabattle	109818	Cinnamowopal	NXNG	\N	12090000	4494	32370	cw_bot	history-import:cw_bot:161	2026-04-27 00:46:27.41+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	1533791	clankbot	UN0	\N	92080000	484	32370	cw_bot	history-import:cw_bot:1709	2026-05-23 13:09:17.782+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	14538110	joeycb	NONG	\N	155270000	122	32370	cw_bot	history-import:cw_bot:1692	2026-05-23 12:54:45.542+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	20532808	GamesReborn	RFIL	\N	36530000	1794	32370	cw_bot	history-import:cw_bot:1226	2026-05-01 18:19:11.948+00	imported_history	\N
@@ -403,6 +402,7 @@ AthenaBattle	Athena Battle	athenabattle	4782011239	theqqxz	_hot	\N	82350	22710	3
 AthenaBattle	Athena Battle	athenabattle	4833004455	Deniska_1990	fr2e	\N	11330000	4724	32369	cw_bot	history-import:cw_bot:7329	2026-07-25 23:11:40.176+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	4897243840	Bubbly_num2	UNO	\N	109550000	324	32370	cw_bot	history-import:cw_bot:8374	2026-04-06 08:31:41.74+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	4916438361	ArmNotPro	NXNG	\N	1010	29893	32369	cw_bot	history-import:cw_bot:813	2026-07-17 18:58:43.871+00	imported_history	\N
+AthenaBattle	Athena Battle	athenabattle	109818	Kerplopal	NXNG	\N	12090000	4494	32370	cw_bot	history-import:cw_bot:161	2026-04-27 00:46:27.41+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	4957497369	ammi0729	GANG	\N	24420000	2624	32370	cw_bot	history-import:cw_bot:988	2026-04-18 02:13:35.573+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	4989918296	PtiDoriankt	ROMU	\N	289930	18575	32369	cw_bot	history-import:cw_bot:852	2026-07-17 18:56:47.208+00	imported_history	\N
 AthenaBattle	Athena Battle	athenabattle	4999104751	Speaxk17	P2PS	\N	17510000	3427	32370	cw_bot	history-import:cw_bot:1632	2026-05-21 01:10:10.679+00	imported_history	\N
@@ -524,7 +524,7 @@ AthenaBattle	Athena Battle	athenabattle	7242780756	unoyea5	UN0	\N	71340000	745	3
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 5oYVzecYGjwpRuhxTJ5Mjq4pI2laMB6ZeuMRLPjPfChCB4MHxljsPg6s8Pf18Ud
+\unrestrict RJquZxoJqDqSjYOtNNQP5nATPdEmjuPkOA6dUEKrlEGp9yMCDHggLlnY0JPW2AM
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

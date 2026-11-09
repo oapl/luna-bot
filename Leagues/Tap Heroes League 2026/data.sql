@@ -10012,12 +10012,11 @@ tap-2026	id:fff1f0230fdb47fbae929b40ccea46c8	fff1f0230fdb47fbae929b40ccea46c8	x7
 tap-2026	id:fff478e0a9354501a2a88d2ca1b85348	fff478e0a9354501a2a88d2ca1b85348	TM8S	0	6499	2026-07-24 17:50:13.293+00	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2831995	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved
 tap-2026	id:fff7f544358446d4a81d2098d90f444a	fff7f544358446d4a81d2098d90f444a	2K	0	6504	2026-07-24 17:50:13.293+00	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2827223	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved
 \.
-
 --
 -- PostgreSQL database dump
 --
 
-\restrict pNnYPC3qdARYM1jEf00f7GMXS4mkKbYkRULnYYT631GOcvNAJF3mWeUNXCBBcXx
+\restrict iYJkTcqKdbHCtzWZnzXejwtGveWRfnWPRSLgdh9ptJW01QZtczJK7uKBJ6Xr8ly
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -10042,7 +10041,6 @@ COPY leagues."Tap Heroes League 2026" (event_key, user_id, username, team_key, l
 tap-2026	13468	13468	id:0fd7f8f9da3c47eba0755124d0c0c460	0fd7f8f9da3c47eba0755124d0c0c460	SLAYR	32	\N	6852	\N	10706	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2819317	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-24 03:23:01+00
 tap-2026	75264	75264	id:fe11e0c56b4b44b6905035af1f720752	fe11e0c56b4b44b6905035af1f720752	XITS	57	\N	4234	\N	5724	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2814335	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-24 01:14:05+00
 tap-2026	103879	evilpup86	id:496f6ea4664749aebebb449406278f0e	496f6ea4664749aebebb449406278f0e	TGCB	148	\N	180	\N	1264	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2809875	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-23 20:43:03+00
-tap-2026	109818	Cinnamowopal	id:f99fb2715e6546a28d0e4e14b5e364d4	f99fb2715e6546a28d0e4e14b5e364d4	dezzz	167	4	15	\N	654	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2809265	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	2026-07-24 16:00:45.646+00	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-24 15:59:04+00
 tap-2026	193778	193778	id:bf61cfe367744860829c0f5604ea1f35	bf61cfe367744860829c0f5604ea1f35	ycz	50	\N	2002	\N	6622	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2815233	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-23 09:05:49+00
 tap-2026	683391	683391	id:12af87846bca48ddb246853d121680d2	12af87846bca48ddb246853d121680d2	GUMS	2	\N	2764	\N	22790	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2831401	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-22 11:25:10+00
 tap-2026	1096971	1096971	id:c090563dc44b4365a5ca481563e220b7	c090563dc44b4365a5ca481563e220b7	ZFZF	1	\N	9576	\N	23303	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2831914	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-21 20:44:05+00
@@ -35748,6 +35746,7 @@ tap-2026	11330294321	11330294321	id:06446af7b6e74a60adf547a5daf45beb	06446af7b6e
 tap-2026	11335542183	11335542183	id:23acd8d85626444eaaa2c8d9135c274d	23acd8d85626444eaaa2c8d9135c274d	lil_B	0	\N	4098	\N	25691	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2834302	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	\N
 tap-2026	11337290745	11337290745	id:6924fb764bed4fe693adb80342cf7f23	6924fb764bed4fe693adb80342cf7f23	YWL	0	\N	3948	\N	25692	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2834303	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	\N
 tap-2026	11337746807	11337746807	id:046f43556cff4265a4167fcb2156aff7	046f43556cff4265a4167fcb2156aff7	bobm	0	\N	4841	\N	25693	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2834304	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	\N	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	\N
+tap-2026	109818	Kerplopal	id:f99fb2715e6546a28d0e4e14b5e364d4	f99fb2715e6546a28d0e4e14b5e364d4	dezzz	167	4	15	\N	654	collected_pool	25693	0	2026-07-24 17:50:13.293+00	simulated-top-league-rosters	public.ps99_league_final_raw_snapshots	2809265	league_player_pool:tap-heroes-part-2:tap-heroes-part-2-10000-20260724T173527Z	tap-heroes-part-2	2026-07-18 16:00:00+00	2026-08-01 16:00:00+00	last_saved	2026-07-24 16:00:45.646+00	2026-07-24 17:50:13.293+00	\N	2026-07-24 17:50:13.293+00	2026-07-24 15:59:04+00
 \.
 
 
@@ -35755,5 +35754,5 @@ tap-2026	11337746807	11337746807	id:046f43556cff4265a4167fcb2156aff7	046f43556cf
 -- PostgreSQL database dump complete
 --
 
-\unrestrict pNnYPC3qdARYM1jEf00f7GMXS4mkKbYkRULnYYT631GOcvNAJF3mWeUNXCBBcXx
+\unrestrict iYJkTcqKdbHCtzWZnzXejwtGveWRfnWPRSLgdh9ptJW01QZtczJK7uKBJ6Xr8ly
 

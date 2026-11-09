@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict u6M3RxHKOftsPRKvIg0eP1pmCSCXfKFesLQGQWQ7OUX32kodRdOKFCk3J2gjvIh
+\restrict siEMT9Umbvh6ciJEtTw4YJstKMNL9mHvn6hdMwF8Ekmvk4ZJKogkb0gW3f7kUEi
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -265,7 +265,6 @@ Turkey2025	Thanksgiving 2025 Battle	turkey2025	4175082110	PLukk_2	MEDU	\N	20460	
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4196761995	GravysOfficial	HROT	\N	625	5340	8128	cw_bot	history-import:cw_bot:5115	2026-08-22 23:53:53.389+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4215988499	abby_gamera	V1LN	\N	1810000	30	8130	cw_bot	history-import:cw_bot:8153	2026-04-28 15:06:15.006+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	1587906543	wexfordfox	V1LN	\N	45240	1637	8130	cw_bot	history-import:cw_bot:9284	2026-04-29 12:14:55.272+00	imported_history	\N
-Turkey2025	Thanksgiving 2025 Battle	turkey2025	109818	Cinnamowopal	NONG	\N	635	5339	8130	cw_bot	history-import:cw_bot:156	2026-04-27 00:46:27.41+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	14538110	joeycb	SOPU	\N	669440	154	8130	cw_bot	history-import:cw_bot:1684	2026-05-23 12:54:45.542+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	23260643	crazyblox6677	ANG	28	29500	28	\N	external_import	history-import:big_bot:962	2026-07-28 22:03:29.525+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	58312098	sosd35	SOPU	\N	128540	819	8130	cw_bot	history-import:cw_bot:687	2026-07-17 18:57:28.202+00	imported_history	\N
@@ -290,6 +289,7 @@ Turkey2025	Thanksgiving 2025 Battle	turkey2025	4452395552	Xavier_Toorp	STPS	\N	2
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4501805740	jhdghrghhtzt	HR2T	\N	1020	5073	8130	cw_bot	history-import:cw_bot:6439	2026-08-06 17:33:40.928+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4511286390	tadeasvrsovsky12345	HROT	\N	11880	3247	8128	cw_bot	history-import:cw_bot:5314	2026-08-21 07:07:08.39+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4540869398	proto123q	NS4R	\N	21100	2521	8130	cw_bot	history-import:cw_bot:565	2026-07-17 18:49:06.221+00	imported_history	\N
+Turkey2025	Thanksgiving 2025 Battle	turkey2025	109818	Kerplopal	NONG	\N	635	5339	8130	cw_bot	history-import:cw_bot:156	2026-04-27 00:46:27.41+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4574397825	PET_HERO676	FYRX	\N	2	7609	8128	cw_bot	history-import:cw_bot:5411	2026-08-20 09:37:57.743+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4583513261	xXJ0hnXx23	POJO	\N	55290	1449	8128	cw_bot	history-import:cw_bot:5291	2026-08-22 16:50:40.795+00	imported_history	\N
 Turkey2025	Thanksgiving 2025 Battle	turkey2025	4584982387	Misabilk	VLP2	\N	121	6033	8130	cw_bot	history-import:cw_bot:5936	2026-08-11 16:19:44.683+00	imported_history	\N
@@ -374,7 +374,7 @@ Turkey2025	Thanksgiving 2025 Battle	turkey2025	7213418603	proline_urlocalsweat	F
 -- PostgreSQL database dump complete
 --
 
-\unrestrict u6M3RxHKOftsPRKvIg0eP1pmCSCXfKFesLQGQWQ7OUX32kodRdOKFCk3J2gjvIh
+\unrestrict siEMT9Umbvh6ciJEtTw4YJstKMNL9mHvn6hdMwF8Ekmvk4ZJKogkb0gW3f7kUEi
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

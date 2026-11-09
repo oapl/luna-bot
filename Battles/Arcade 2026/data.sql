@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Jn6AC5TxN6yXNfsAwUGmTMal7czcGlO7XhH5B5pkSNxfjhT2rWTdHI4lXNRfmi5
+\restrict kSZJ2kMHWTCWxon2Jg5rOaOZRuxomoVAzZSSbJ2iHQo8FJcBrIhRycZ133CivCJ
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -18883,6 +18883,7 @@ ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4554449491	user_4554449491	RCLW	13
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4555174139	user_4555174139	char	30	0	35738	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4555466310	user_4555466310	UPAs	8	0	35739	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4558188808	user_4558188808	S0va	21	0	35740	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
+ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	109818	Kerplopal	C0LD	71	130056497	1095	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4558616657	user_4558616657	K0D	36	0	35741	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4559078467	user_4559078467	Tx99	45	0	35742	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4560114476	user_4560114476	JILF	23	0	35743	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
@@ -25029,7 +25030,6 @@ ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	847778193	user_847778193	212	6	130
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	4292558942	plutobotk	GDSQ	10	130070342	1092	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	1744502396	user_1744502396	BYRD	1	130063620	1093	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	2762831181	user_2762831181	Ash	1	130063132	1094	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
-ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	109818	Cinnamowopal	C0LD	71	130056497	1095	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	7994049831	user_7994049831	NUUP	4	130053969	1096	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	3257283222	Nannyscary12	LXCC	14	130027488	1097	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
 ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	3280906937	user_3280906937	M2NY	15	130026550	1098	40881	global_candidate	c0ld:global:ArcadeBattle2026:2026-09-11T17:30:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-11 17:18:44+00	stored_final	\N
@@ -40922,7 +40922,7 @@ ArcadeBattle2026	Arcade 2026	ArcadeBattle2026	2966736969	Miou2251	k0i2	62	491684
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Jn6AC5TxN6yXNfsAwUGmTMal7czcGlO7XhH5B5pkSNxfjhT2rWTdHI4lXNRfmi5
+\unrestrict kSZJ2kMHWTCWxon2Jg5rOaOZRuxomoVAzZSSbJ2iHQo8FJcBrIhRycZ133CivCJ
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

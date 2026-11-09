@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict YqxFssDLee7o2gYPZPdMGQhCaueRvMcYEYVvlRuUfxz4PuBxwfoBs1PKE85imfy
+\restrict rI7atAkTNMun2oz4poXhaz6r1iRWJprBxM5xwPDbUpQ46X6TOEJa0zs5Ia3DN6u
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -47,7 +47,6 @@ SoccerBattle2026	Soccer 2026	SoccerBattle2026	10865155923	Labyrinthiy	c0ld	59	73
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	2628215963	praisevolxtz	c0ld	36	75510000	506	36974	member_snapshot	history-import:cw_bot:446	2026-07-03 15:55:36.923+00	stored_final	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	656420117	MercilessBanditTaken	c0ld	30	75950000	429	36974	member_snapshot	history-import:cw_bot:162	2026-07-03 15:55:36.923+00	stored_final	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	272741362	kyle558888	ORBI	\N	73420000	1164	36974	cw_bot	history-import:cw_bot:169	2026-07-17 17:23:47.778+00	imported_history	\N
-SoccerBattle2026	Soccer 2026	SoccerBattle2026	109818	Cinnamowopal	c0ld	43	75070000	624	36974	member_snapshot	history-import:big_bot:14	2026-07-03 15:55:36.923+00	stored_final	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	3638492	badcon	1PNK	\N	72880000	1346	36974	cw_bot	history-import:cw_bot:3355	2026-07-23 15:56:21.629+00	imported_history	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	20532808	gamesreborn	UN0	\N	77720000	167	36974	cw_bot	history-import:cw_bot:2336	2026-08-12 13:20:18.505+00	imported_history	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	23260643	crazyblox6677	ANG	56	64400000	56	\N	external_import	history-import:big_bot:955	2026-07-28 22:03:29.525+00	imported_history	\N
@@ -66,6 +65,7 @@ SoccerBattle2026	Soccer 2026	SoccerBattle2026	127479042	tomuch_food	ICYT	\N	7810
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	128734291	fortheloveofmney	YOR	\N	70710000	2236	36974	cw_bot	history-import:cw_bot:7926	2026-07-08 14:34:55.691+00	imported_history	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	659542061	rrodgers0206	c0ld	14	77320000	217	36974	member_snapshot	history-import:cw_bot:726	2026-07-03 15:55:36.923+00	stored_final	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	138625084	xXrobolordXx	EDS1	\N	73470000	1147	36974	cw_bot	history-import:cw_bot:3161	2026-07-27 16:54:06.012+00	imported_history	\N
+SoccerBattle2026	Soccer 2026	SoccerBattle2026	109818	Kerplopal	c0ld	43	75070000	624	36974	member_snapshot	history-import:big_bot:14	2026-07-03 15:55:36.923+00	stored_final	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	156957387	itsminerr	ORBI	\N	71430000	1932	36974	cw_bot	history-import:cw_bot:2145	2026-08-01 03:26:51.039+00	imported_history	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	161181401	tomas5412	ZLYC	\N	22540000	15618	36971	cw_bot	history-import:cw_bot:5628	2026-08-14 20:21:07.13+00	imported_history	\N
 SoccerBattle2026	Soccer 2026	SoccerBattle2026	165817996	16_BitPotato	UN0	\N	78870000	75	36974	cw_bot	history-import:cw_bot:4517	2026-08-04 19:56:26.259+00	imported_history	\N
@@ -739,7 +739,7 @@ SoccerBattle2026	Soccer 2026	soccerbattle2026	10515928571	acard150	WMSY	\N	74050
 -- PostgreSQL database dump complete
 --
 
-\unrestrict YqxFssDLee7o2gYPZPdMGQhCaueRvMcYEYVvlRuUfxz4PuBxwfoBs1PKE85imfy
+\unrestrict rI7atAkTNMun2oz4poXhaz6r1iRWJprBxM5xwPDbUpQ46X6TOEJa0zs5Ia3DN6u
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;

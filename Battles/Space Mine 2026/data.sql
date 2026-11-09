@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict XcqSuvlmv5OEjF35efWGCi5hneYF72BAUc5xYrqzsI6lUsJAtIUn5BoralZJIZB
+\restrict Cp3Bf6VpLvnPSEYMRMOsR87GL1DmuK2KV7djW0YU9hZ8fq9IeDz81U83qJAPxDE
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -496,6 +496,7 @@ SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	1734480323	user_17344803
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	3490591948	user_3490591948	minx	5	5129590077	344	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	747485807	user_747485807	VLP	16	5115713871	345	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	120904005	user_120904005	V1LN	7	5108662099	346	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
+SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	109818	Kerplopal	C0LD	75	1243697879	3153	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	7910848260	user_7910848260	surx	11	5096212677	347	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	5239806553	KUYAJOP01	C0LD	55	5068374207	348	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	10838687367	user_10838687367	D0W	3	5066079478	349	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
@@ -3306,7 +3307,6 @@ SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	3853113679	user_38531136
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	972239472	user_972239472	H8ER	44	1244505642	3150	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	4522551095	user_4522551095	K0i2	58	1244162247	3151	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	1390170168	user_1390170168	YTYU	32	1243874403	3152	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
-SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	109818	Cinnamowopal	C0LD	75	1243697879	3153	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	4792689498	user_4792689498	RfiI	4	1243477974	3154	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	363105791	user_363105791	RfiI	5	1243359561	3155	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
 SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	3771195142	user_3771195142	GRlM	2	1242873383	3156	38194	global_candidate	c0ld:global:SpaceMineBattle2026:2026-09-25T16:00:00.000Z:cfg-sharded-s40-p100-n1000	2026-09-25 15:46:28+00	stored_final	\N
@@ -38233,7 +38233,7 @@ SpaceMineBattle2026	Space Mine 2026	SpaceMineBattle2026	11713858881	user_1171385
 -- PostgreSQL database dump complete
 --
 
-\unrestrict XcqSuvlmv5OEjF35efWGCi5hneYF72BAUc5xYrqzsI6lUsJAtIUn5BoralZJIZB
+\unrestrict Cp3Bf6VpLvnPSEYMRMOsR87GL1DmuK2KV7djW0YU9hZ8fq9IeDz81U83qJAPxDE
 
 
 COPY battles.clan_results ("event_key","original_battle_key","source_view","clan_name","rank","points","source_candidate_rows","source_run_key","observed_at") FROM stdin;
