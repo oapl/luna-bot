@@ -1,4 +1,4 @@
-# luna-bot
+# luna
 
 This database is for any current or future PS99 bot developers. Also because fuck CW-Bot and their team that are passive-aggressive assholes who treat this like it's more serious than any political topic I've ever engaged my worst enemy on? Updates will occur after each Clan Battle and League. Final leaderboard data is stored as well.
 
@@ -11,7 +11,7 @@ This database is for any current or future PS99 bot developers. Also because fuc
 - `Leaderboards/` contains official leaderboard event tables and complete final placements.
 - `Imports/` contains one SQL file per source bot.
 
-Luna's DB has 34 recorded clan battles, 10 leagues, 342,110 clan battle player performances and 94,088 league player performances.
+Luna's DB has 34 recorded clan battles, 10 leagues, 171,373 clan battle player performances and 94,088 league player performances.
 
 ## Database layout
 
