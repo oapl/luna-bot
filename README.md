@@ -4,7 +4,7 @@ This database is for any current or future PS99 bot developers. Figure why not s
 
 You'll need to use API or bruteforce to get the data from other sources. But not me. Because fuck that shit.
 
-Data Collection began during The Backrooms CB for my data, but I've also imported data where it's publicly found and verifiably sourced, from: CW-Bot, Battle Bot, and Big Bot. Why take others data? 
+Data Collection began during The Backrooms CB for my data, but I've also imported data where it's publicly found and verifiably sourced, from: CW-Bot (by Alfred & Co), Battle Bot (by Jay), PS99 Clan Tracker (by Ferdinand)  and Big Bot (by Vinsterplays). Why take others data? 
 
 Because fuck you, first of all. But also because this should be publicly centralized data in the first place. Verifying information from multiple sources just gives it more value and accuracy. All final placements of all clan battles is the goal by any means.
 
