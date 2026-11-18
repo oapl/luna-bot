@@ -1,6 +1,8 @@
 # luna
 
-This database is for any current or future PS99 bot developers. Also because fuck CW-Bot and their team that are passive-aggressive assholes who treat this like it's more serious than any political topic I've ever engaged my worst enemy on? Updates will occur after each Clan Battle and League. Final leaderboard data is stored as well.
+This database is for any current or future PS99 bot developers. Figure why not share it? We've had our fun being addicted to this silly pet gambling game over the years, and it all could end at any time.
+
+Data Collection began during The Backrooms CB for my data, but I've also imported data where it's publicly found and verifiably sourced, from: CW-Bot, Battle Bot, and Big Bot.
 
 ## Files
 
