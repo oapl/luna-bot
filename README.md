@@ -6,19 +6,13 @@ You'll need to use API or bruteforce to get the data from other sources. But not
 
 Data Collection began during The Backrooms CB for my data, but I've also imported data where it's publicly found and verifiably sourced. To include:
 
-**CW-Bot:** 22,662
-
-**Big Bot:** 941
-
-**PS99 Clan Tracker:** 578
-
-**Battle Bot:** 184
-
-**PS99 Tracker:** 51
-
-**NEXRANK:** 25
-
-Total: 24,641
+* **CW-Bot:** 22,662
+* **Big Bot:** 941
+* **PS99 Clan Tracker:** 578
+* **Battle Bot:** 184
+* **PS99 Tracker:** 51
+* **NEXRANK:** 25
+* Total: 24,641
 
 ## Files
 
