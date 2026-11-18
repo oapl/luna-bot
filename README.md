@@ -2,7 +2,11 @@
 
 This database is for any current or future PS99 bot developers. Figure why not share it? We've had our fun being addicted to this silly pet gambling game over the years, and it all could end at any time.
 
-Data Collection began during The Backrooms CB for my data, but I've also imported data where it's publicly found and verifiably sourced, from: CW-Bot, Battle Bot, and Big Bot. Why take others data? Because fuck you, first of all. But also because this should be publicly centralized data in the first place. All final placements of all clan battles is the goal by any means possible. It's valuable and nostalgic. You'll need to use API or bruteforce to get the data from other sources. But not me. Because fuck that shit.
+You'll need to use API or bruteforce to get the data from other sources. But not me. Because fuck that shit.
+
+Data Collection began during The Backrooms CB for my data, but I've also imported data where it's publicly found and verifiably sourced, from: CW-Bot, Battle Bot, and Big Bot. Why take others data? 
+
+Because fuck you, first of all. But also because this should be publicly centralized data in the first place. All final placements of all clan battles is the goal by any means possible. It's valuable and nostalgic. 
 
 ## Files
 
